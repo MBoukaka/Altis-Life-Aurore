@@ -6,6 +6,17 @@ class Life_My_Gang_Diag {
 	onLoad = "";
 	
 	class controlsBackground {
+	
+		class iphone9s_back: Life_RscPicture
+		{
+			idc = -1;
+			text = "aurore_data2\data\app0.paa";
+			x = 0.242187 * safezoneW + safezoneX;
+			y = 0.093 * safezoneH + safezoneY;
+			w = 0.516198 * safezoneW;
+			h = 0.84363 * safezoneH;
+		};
+		
 		class Life_RscTitleBackground:Life_RscText {
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 			idc = -1;
@@ -51,7 +62,7 @@ class Life_My_Gang_Diag {
 		class CloseLoadMenu : Life_RscButtonMenu {
 			idc = -1;
 			text = "$STR_Global_Close";
-			onButtonClick = "closeDialog 0;[] call life_fnc_p_updateMenu";
+			onButtonClick = "closeDialog 0;[] call life_fnc_p_updateInventory";
 			x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.8 - (1 / 25);
 			w = (6.25 / 40);
@@ -146,6 +157,17 @@ class Life_Create_Gang_Diag {
 	onLoad = "[] spawn {waitUntil {!isNull (findDisplay 2520)}; ((findDisplay 2520) displayCtrl 2523) ctrlSetText format[localize ""STR_Gang_PriceTxt"",[(getNumber(missionConfigFile >> 'Life_Settings' >> 'gang_price'))] call life_fnc_numberText]};";
 	
 	class controlsBackground {
+	
+		class iphone9s_back: Life_RscPicture
+		{
+			idc = -1;
+			text = "aurore_data2\data\app0.paa";
+			x = 0.242187 * safezoneW + safezoneX;
+			y = 0.093 * safezoneH + safezoneY;
+			w = 0.516198 * safezoneW;
+			h = 0.84363 * safezoneH;
+		};
+		
 		class Life_RscTitleBackground:Life_RscText {
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 			idc = -1;
@@ -190,7 +212,7 @@ class Life_Create_Gang_Diag {
 		class CloseLoadMenu : Life_RscButtonMenu {
 			idc = -1;
 			text = "$STR_Global_Close";
-			onButtonClick = "closeDialog 0;[] call life_fnc_p_updateMenu;";
+			onButtonClick = "closeDialog 0;[] call life_fnc_p_updateInventory;";
 			x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.5 - (1 / 25);
 			w = (6.25 / 40);

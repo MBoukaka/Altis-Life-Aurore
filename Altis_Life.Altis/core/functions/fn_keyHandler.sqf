@@ -45,16 +45,17 @@ if(!(EQUAL(count (actionKeys "User10"),0)) && {(inputAction "User10" > 0)}) exit
 };
 
 switch (_code) do {
+
 	//Space key for Jumping
-	case 57: {
-		if(isNil "jumpActionTime") then {jumpActionTime = 0;};
-		if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
-			jumpActionTime = time; //Update the time.
-			[player,true] spawn life_fnc_jumpFnc; //Local execution
-			[[player,false],"life_fnc_jumpFnc",nil,FALSE] call life_fnc_MP; //Global execution 
-			_handled = true;
-		};
-	};
+	//case 57: {
+	//	if(isNil "jumpActionTime") then {jumpActionTime = 0;};
+	//	if(_shift && {!(EQUAL(animationState player,"AovrPercMrunSrasWrflDf"))} && {isTouchingGround player} && {EQUAL(stance player,"STAND")} && {speed player > 2} && {!life_is_arrested} && {SEL((velocity player),2) < 2.5} && {time - jumpActionTime > 1.5}) then {
+	//		jumpActionTime = time; //Update the time.
+	//		[player,true] spawn life_fnc_jumpFnc; //Local execution
+	//		[[player,false],"life_fnc_jumpFnc",nil,FALSE] call life_fnc_MP; //Global execution 
+	//		_handled = true;
+	//	};
+	//};
 	
 	//Map Key
 	case _mapKey: {
@@ -62,6 +63,13 @@ switch (_code) do {
 			case west: {if(!visibleMap) then {[] spawn life_fnc_copMarkers;}};
 			case independent: {if(!visibleMap) then {[] spawn life_fnc_medicMarkers;}};
 		};
+	};
+	
+	//Random keybinds
+	case 2:
+	{
+		[false] spawn life_fnc_animMenu;
+		_handled = true;
 	};
 	
 	//Holster / recall weapon.
@@ -88,6 +96,16 @@ switch (_code) do {
 				waitUntil {scriptDone _handle};
 				life_action_inUse = false;
 			};
+		};
+	};
+	
+	//Shift+J = Casque anti-bruit
+	case 36:
+	{
+		if(_shift) then
+		{
+			[] call life_fnc_fadeSound;
+			_handled = true;
 		};
 	};
 	
@@ -131,6 +149,29 @@ switch (_code) do {
 		};
 	};
 	
+	// ANTI ² 
+	 case 41:
+    {
+		if((_code in (actionKeys "SelectAll") || _code in (actionKeys "ForceCommandingMode"))) then 
+		{
+			[] call life_fnc_p_openIphone;
+			player setDamage ((getDammage player) + 0.05);
+			hint parseText format["!!! LA TRICHE EST INTERDITE !!!<br/> Le MetaGaming c'est MAL<br/> Ou ça fait MAL...<br/><t size='1.4'><t color='#FF0000'>Tu viens de perdre 5 points de vie !</t></t>"];
+		};
+	};
+	
+	//report alt + f4
+	case 62:
+    {
+		private ["_player"];
+		_player = player;
+		
+		if(_alt && !_shift) then {
+			diag_log format ["SERVER: %1 ALT+F4 to disconnect (report it)",_player getVariable["realname",name _player]];
+			[[1,format["SERVER: %1 a utilisé ALT+F4 pour déconnecter (merci de le signaler à un Admin.)",_player getVariable["realname",name _player]]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+		};
+    };
+	
 	//T Key (Trunk)
 	case 20: {
 		if(!_alt && !_ctrlKey && !life_is_processing) then {
@@ -149,6 +190,7 @@ switch (_code) do {
 			};
 		};
 	};
+	
 	//L Key?
 	case 38: {
 		//If cop run checks for turning lights on.
@@ -159,24 +201,22 @@ switch (_code) do {
 						[vehicle player] call life_fnc_sirenLights;
 					} else {
 						[vehicle player] call life_fnc_medicSirenLights;
-					};
-					_handled = true;
-				};
-			};
+						};
+				};	
+			};		
 		};
-		
 		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
 	};
 	
 	//Y Player Menu
 	case 21: {
 		if(!_alt && !_ctrlKey && !dialog && !life_is_processing) then {
-			[] call life_fnc_p_openMenu;
+			[] call life_fnc_p_openIphone;
 		};
 	};
 	
 	//F Key
-	case 33: {
+	case 46: {
 		if(playerSide in [west,independent] && {vehicle player != player} && {!life_siren_active} && {((driver vehicle player) == player)}) then {
 			[] spawn {
 				life_siren_active = true;
@@ -237,6 +277,7 @@ switch (_code) do {
 							[[_veh,0],"life_fnc_lockVehicle",_veh,false] call life_fnc_MP;
 						};
 						systemChat localize "STR_MISC_VehUnlock";
+						[[_curTarget, "Beep",20],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
@@ -244,6 +285,7 @@ switch (_code) do {
 							[[_veh,2],"life_fnc_lockVehicle",_veh,false] call life_fnc_MP;
 						};	
 						systemChat localize "STR_MISC_VehLock";
+						[[_curTarget, "BeepBeep",20],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 					};
 				};
 			};

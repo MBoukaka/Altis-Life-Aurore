@@ -20,4 +20,4 @@ if(!([false,_data,(parseNumber _value)] call life_fnc_handleInv)) exitWith {hint
 
 hint format["You have successfully removed %1 %2 from your inventory.",(parseNumber _value),(localize ITEM_NAME(_data))];
 	
-[] call life_fnc_p_updateMenu;
+[] call life_fnc_p_updateInventory;

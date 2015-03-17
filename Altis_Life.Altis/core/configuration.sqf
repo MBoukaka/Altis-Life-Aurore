@@ -7,6 +7,7 @@
 ****** Backend Variables *****
 *****************************
 */
+life_fadeSound = false;
 life_smartphoneTarget = ObjNull;
 life_query_time = time;
 life_action_delay = time;

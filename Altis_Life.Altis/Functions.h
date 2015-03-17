@@ -60,6 +60,7 @@ class Life_Client_Core
 	class Actions
 	{
 		file = "core\actions";
+		class animMenu {};
 		class buyLicense {};
 		class healHospital {};
 		class pushVehicle {};
@@ -132,10 +133,14 @@ class Life_Client_Core
 		class giveItem {};
 		class giveMoney {};
 		class p_openMenu {};
+		class p_openIphone {};
+		class inventaire {};
+		class p_updateInventory {};
 		class p_updateMenu {};
 		class removeItem {};
 		class useItem {};
 		class cellphone {};
+		class cellphone2 {};
 		class keyMenu {};
 		class keyGive {};
 		class keyDrop {};
@@ -152,6 +157,8 @@ class Life_Client_Core
 	class Functions
 	{
 		file = "core\functions";
+		class fadeSound {};
+		class playSound {};
 		class calWeightDiff {};
 		class fetchCfgDetails {};
 		class handleInv {};

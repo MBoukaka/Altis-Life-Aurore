@@ -86,5 +86,5 @@ switch (true) do {
 	};
 };
 	
-[] call life_fnc_p_updateMenu;
+[] call life_fnc_p_updateInventory;
 [] call life_fnc_hudUpdate;

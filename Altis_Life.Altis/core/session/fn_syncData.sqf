@@ -27,11 +27,14 @@ switch (typeName life_fnc_MP_packet) do
 if(!isNil "_exit") exitWith {hint localize "STR_Session_SyncCheater";};
 
 [] call SOCK_fnc_updateRequest;
+
+[] execVM "scripts\statusBar.sqf";
+
 hint localize "STR_Session_SyncData";
 [] spawn
 {
 	life_session_time = true;
-	sleep (5 * 60);
+	sleep (3 * 60);
 	life_session_time = false;
 };
 	

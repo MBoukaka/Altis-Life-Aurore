@@ -7,6 +7,16 @@ class SettingsMenu
 	
 	class controlsBackground
 	{
+		class iphone9s_back: Life_RscPicture
+		{
+			idc = -1;
+			text = "aurore_data2\data\app0.paa";
+			x = 0.242187 * safezoneW + safezoneX;
+			y = 0.093 * safezoneH + safezoneY;
+			w = 0.516198 * safezoneW;
+			h = 0.84363 * safezoneH;
+		};
+		
 		class RscTitleBackground : life_RscText
 		{
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};

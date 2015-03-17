@@ -25,3 +25,8 @@
 #include "settings.h"
 #include "federalReserve.h"
 #include "smartphone.hpp"
+#include "animMenu.h"
+#include "iphone9s.hpp"
+#include "iphone_admin.hpp"
+#include "iphone_cle.hpp"
+#include "iphone_inventaire.hpp"

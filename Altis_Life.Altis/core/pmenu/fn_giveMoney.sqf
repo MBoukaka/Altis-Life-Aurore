@@ -27,6 +27,6 @@ hint format["You gave $%1 to %2",[(parseNumber(_amount))] call life_fnc_numberTe
 CASH = CASH - (parseNumber(_amount));
 [0] call SOCK_fnc_updatePartial;
 [[_unit,_amount,player],"life_fnc_receiveMoney",_unit,false] call life_fnc_MP;
-[] call life_fnc_p_updateMenu;
+[] call life_fnc_p_updateInventory;
 
 ctrlShow[2001,true];
