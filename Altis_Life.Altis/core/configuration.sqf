@@ -7,6 +7,7 @@
 ****** Backend Variables *****
 *****************************
 */
+life_smartphoneTarget = ObjNull;
 life_query_time = time;
 life_action_delay = time;
 life_trunk_vehicle = Objnull;

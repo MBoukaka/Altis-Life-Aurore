@@ -5,7 +5,7 @@
 life_firstSpawn = true;
 life_session_completed = false;
 private["_handle","_timeStamp"];
-0 cutText["Setting up client, please wait...","BLACK FADED"];
+0 cutText["Mise en relation avec le serveur d'Aurore...","BLACK FADED"];
 0 cutFadeOut 9999999;
 _timeStamp = diag_tickTime;
 diag_log "------------------------------------------------------------------------------------------------------";
@@ -31,7 +31,7 @@ diag_log "::Life Client:: Waiting for server functions to transfer..";
 waitUntil {(!isNil {TON_fnc_clientGangLeader})};
 
 diag_log "::Life Client:: Received server functions.";
-0 cutText ["Waiting for the server to be ready...","BLACK FADED"];
+0 cutText ["Chargement de vos données...","BLACK FADED"];
 0 cutFadeOut 99999999;
 
 diag_log "::Life Client:: Waiting for the server to be ready..";
@@ -46,7 +46,7 @@ if(!isNil "life_server_extDB_notLoaded" && {life_server_extDB_notLoaded != ""}) 
 
 [] call SOCK_fnc_dataQuery;
 waitUntil {life_session_completed};
-0 cutText["Finishing client setup procedure","BLACK FADED"];
+0 cutText["Finalisation de la procédure...","BLACK FADED"];
 0 cutFadeOut 9999999;
 
 //diag_log "::Life Client:: Group Base Execution";
@@ -75,6 +75,11 @@ player SVAR ["transporting",false,true];
 
 diag_log "Past Settings Init";
 [] execFSM "core\fsm\client.fsm";
+
+//FPS-Fix
+diag_log "-------- Lade FPS-Fix... --------";
+[] execVM "addons\fpsFix\vehicleManager.sqf";
+diag_log "-------- FPS-Fix geladen. --------";
 
 diag_log "Executing client.fsm";
 waitUntil {!(isNull (findDisplay 46))};

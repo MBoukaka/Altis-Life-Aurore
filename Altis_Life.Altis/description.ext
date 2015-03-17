@@ -1,6 +1,6 @@
-author = "Tonic and Itsyuka";
-onLoadName = "Altis Life RPG v4.0";
-onLoadMission = "An RPG game mode developed by Tonic";
+author = "Tonic and Itsyuka modifié par le staff Aurore";
+onLoadName = "Altis Life RPG 4.0";
+onLoadMission = "Le Serveur dont vous êtes le héros !";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
@@ -13,7 +13,7 @@ class Header
 {
 	gameType = RPG;
 	minPlayers = 1;
-	maxPlayers = 75;
+	maxPlayers = 120;
 };
 
 wreckLimit = 3;
@@ -36,6 +36,32 @@ class RscTitles
 	#include "dialog\ui.hpp"
 	#include "dialog\progress.hpp"
 	#include "dialog\hud_nameTags.h"
+	#include "scripts\statusBar.hpp"
+	
+	class introLife
+	{
+		idd = -1;
+		duration = 6;
+		class controls
+			{
+				class ExampleControl
+				{
+					idc = -1;
+					type = 0;
+					style = 2192;
+					x = 0.125;
+					y = 0.125;
+					h = 0.75;
+					w = 0.75;
+					font = "EtelkaNarrowMediumPro";
+					sizeEx = 0.05; 
+					colorBackground[] = {1,1,1,0};
+					colorText[] = {1,1,1,1};
+					text = "logointro.paa";
+					lineSpacing = 1;
+				}; 
+			}; 
+   }; 
 };
 
 class CfgFunctions
@@ -53,28 +79,15 @@ class CfgSounds
 		titles[] = {};
 	};
 
-	class tazersound
-	{
-		name = "Tazersound";
-		sound[] = {"\sounds\tazer.ogg", 0.25, 1};
-		titles[] = {};
-	};
-
-	class flashbang
-	{
-		name = "flashbang";
-		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
-		titles[] = {};
-	};
 };
 
 class CfgDebriefing
 {
 	class NotWhitelisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are not white-listed to use this slot";
-		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
+		title = "Echec Mission";
+		subtitle = "Tu n'es pas White-Listé pour utiliser ce slot.";
+		description = "Tu ne peux pas utiliser ce slot car tu n'as pas la permission !";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -82,9 +95,9 @@ class CfgDebriefing
 
 	class Blacklisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are blacklisted from cops";
-		description = "You are not allowed to be a cop due to previous actions and the admins have removed you from being a cop.";
+		title = "Echec Mission";
+		subtitle = "Tu es blacklisté des flics !";
+		description = "Tu n'as pas le droit de jouer flic car tu es blacklist !";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -92,9 +105,9 @@ class CfgDebriefing
 
 	class SpyGlass
 	{
-		title = "The SpyGlass sees you";
-		subTitle = "You were detected by the SpyGlass";
-		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
+		title = "Spyglass t'a détecté !";
+		subTitle = "Détecté par Spyglass";
+		description = "Un addons n'est pas à jour, pense à mettre à jour le mod en passant par notre Launcher.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -114,7 +127,7 @@ class CfgNotifications
 
 	class DeliveryAssigned
 	{
-		title = "Delivery Job Accepted";
+		title = "Missions de délivraison acceptée.";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 10;
@@ -123,7 +136,7 @@ class CfgNotifications
 
 	class DeliveryFailed
 	{
-		title = "Delivery Job Failed";
+		title = "Mission échouée.";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
 		description = "%1";
 		duration = 7;
@@ -132,7 +145,7 @@ class CfgNotifications
 
 	class DeliverySucceeded
 	{
-		title = "Delivery Job Completed";
+		title = "Mission remplie";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
 		description = "%1";
 		duration = 6;
@@ -141,8 +154,8 @@ class CfgNotifications
 
 	class TextMessage
 	{
-		title = "Received A Text Message";
-		iconPicture = "icons\messagenew.paa";
+		title = "Message reçu";
+		iconPicture = "aurore_data\icons\messagenew.paa";
 		description = "%1";
 		duration = 10;
 		priority = 6;
@@ -150,8 +163,8 @@ class CfgNotifications
 
 	class PoliceDispatch
 	{
-		title = "911 Dispatch Center";
-		iconPicture = "icons\messagepolice.paa";
+		title = "Centre de secours";
+		iconPicture = "aurore_data\icons\messagepolice.paa";
 		description = "%1";
 		duration = 10;
 		priority = 6;
@@ -159,8 +172,8 @@ class CfgNotifications
 
 	class AdminDispatch
 	{
-		title = "Admin Dispatch Center";
-		iconPicture = "icons\messageadmin.paa";
+		title = "Admin Message";
+		iconPicture = "aurore_data\icons\messageadmin.paa";
 		description = "%1";
 		duration = 10;
 		priority = 6;
@@ -169,7 +182,7 @@ class CfgNotifications
 	class AdminMessage
 	{
 		title = "Admin Message";
-		iconPicture = "icons\messageadmin.paa";
+		iconPicture = "aurore_data\icons\messageadmin.paa";
 		description = "%1";
 		duration = 10;
 		priority = 5;

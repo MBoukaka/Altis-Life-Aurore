@@ -7,7 +7,7 @@
 	Can't be bothered to answer it.. Already deleted it by accident..
 */
 disableSerialization;
-private["_control","_index","_className","_dataArr","_vehicleColor","_vehicleInfo","_trunkSpace","_sellPrice","_retrievePrice"];
+private["_control","_insurancePrice","_assur","_index","_className","_dataArr","_vehicleColor","_vehicleInfo","_trunkSpace","_sellPrice","_retrievePrice"];
 _control = SEL(_this,0);
 _index = SEL(_this,1);
 
@@ -15,6 +15,7 @@ _index = SEL(_this,1);
 _dataArr = CONTROL_DATAI(_control,_index);
 _dataArr = call compile format["%1",_dataArr];
 _className = SEL(_dataArr,0);
+_assur = SEL(_dataArr,2);
 
 _vehicleColor = SEL(SEL(M_CONFIG(getArray,CONFIG_VEHICLES,_className,"textures"),SEL(_dataArr,1)),0);
 if(isNil "_vehicleColor") then {_vehicleColor = "Default";};
@@ -29,6 +30,8 @@ _retrievePrice = switch(playerSide) do {
 	case east: {SEL(M_CONFIG(getArray,CONFIG_VEHICLES,_className,"storageFee"),4)};
 };
 
+_insurancePrice = M_CONFIG(getNumber,CONFIG_VEHICLES,_className,"insurance");
+
 _sellPrice = switch(playerSide) do {
 	case civilian: {SEL(M_CONFIG(getArray,CONFIG_VEHICLES,_className,"garageSell"),0)};
 	case west: {SEL(M_CONFIG(getArray,CONFIG_VEHICLES,_className,"garageSell"),1)};
@@ -38,9 +41,13 @@ _sellPrice = switch(playerSide) do {
 
 if(!(EQUAL(typeName _sellPrice,typeName 0)) OR _sellPrice < 1) then {_sellPrice = 1000};
 if(!(EQUAL(typeName _retrievePrice,typeName 0)) OR _retrievePrice < 1) then {_retrievePrice = 1000};
+if(!(EQUAL(typeName _insurancePrice,typeName 0)) OR _insurancePrice < 1) then {_insurancePrice = 1000};
 
 (CONTROL(2800,2803)) ctrlSetStructuredText parseText format[
-	(localize "STR_Shop_Veh_UI_RetrievalP")+ " <t color='#8cff9b'>$%1</t><br/>
+	"Véhicule: <t color='#00ffff'>%9</t><br/>
+	Prix assurance: <t color='#8cff9b'>%10€</t><br/>
+	Etat de l'assurance: %11<br/>
+	" +(localize "STR_Shop_Veh_UI_RetrievalP")+ " <t color='#8cff9b'>$%1</t><br/>
 	" +(localize "STR_Shop_Veh_UI_SellP")+ " <t color='#8cff9b'>$%2</t><br/>
 	" +(localize "STR_Shop_Veh_UI_Color")+ " %8<br/>
 	" +(localize "STR_Shop_Veh_UI_MaxSpeed")+ " %3 km/h<br/>
@@ -56,8 +63,18 @@ SEL(_vehicleInfo,11),
 SEL(_vehicleInfo,10),
 if(_trunkSpace == -1) then {"None"} else {_trunkSpace},
 SEL(_vehicleInfo,12),
-_vehicleColor
+_vehicleColor,
+SEL(_vehicleInfo,3),
+[_insurancePrice] call life_fnc_numberText,
+if(_assur == 1) then {"<t color='#8cff9b'>Assuré</t>"} else {"<t color='#FF0000'>Pas d'assurance</t>"},
+_vehicleInfo select 9
 ];
+
+if(_assur == 1) then {
+ctrlShow [97480,False];
+}else{
+ctrlShow [97480,True];
+};
 
 ctrlShow [2803,true];
 ctrlShow [2830,true];

@@ -4,17 +4,26 @@
 	Description:
 	Called upon first spawn selection and welcomes our player.
 */
-format["Welcome %1, Please read the following as it is important!",profileName] hintC
+format["Bonjour %1, svp lire attentivement!",name player] hintC
 [
-	"Welcome to the server! A few things have changed with Altis Life RPG that you need to be aware of!",
-	"An interaction key has been introduced which replaces the large majority of scroll wheel actions, this was for performance issues. By default this key is [Left Windows], you can change this key by pressing ESC and going to Configure->Controls->Custom
-	and bind 'Use Action 10' to a single key like H. This key is used for the following actions",
-	"Picking up items and money.",
-	"Fishing and gathering",
-	"Interacting with players (as a cop)",
-	"Interacting with vehicles (repairing and cop actions)",
-	"",
-	"If you are having issues with interacting / picking up items just wait. A quick way to know when you can interact with that item if the server allows it is by pressing your tilde key (~) and using the circle to highlight the object, when it says for example 'Pile of Money' then
-	that means you can pick it up!."
+	"Bienvenue sur le serveur Altis Life Aurore",
+	"Le serveur reboot 5 fois par jour ! (00H30 / 05H30 / 09H30 / 14H30 / 19H30)",
+	"", 
+	"[WINDOWS GAUCHE] est la touche d'interaction, vous pouvez la changer en pressant ESC et en allant dans Configurer->Controles->Personnel(custom) et configurer l'Action 10 a une autre touche.",	
+	"Y: Ouvrir le menu joueur",	
+	"U: Fermer ou ouvrir son vehicule",
+	"C: Siren (Police)",
+	"T: Ouvrir le coffre du véhicule",
+	"Shift J : Casque anti bruit",
+	"Shift R : Menotter",
+	"Shift F : Coup de poing",
+	"Shift G : Main sur la tete",
+	"[1] : Menu d'animation",
+	"Visitez notre site: AltisAurore.fr pour plus d informations."
 ];
-	
+hintC_EH = findDisplay 57 displayAddEventHandler ["unload", {
+	0 = _this spawn {
+		_this select 0 displayRemoveEventHandler ["unload", hintC_EH];
+		hintSilent "";
+	};
+}];

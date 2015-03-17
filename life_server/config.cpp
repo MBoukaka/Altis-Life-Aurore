@@ -109,6 +109,14 @@ class CfgFunctions
 	class TON_System
 	{
 		tag = "TON";
+		
+		class Smartphone
+		{
+			file = "\life_server\Functions\Smartphone";
+			class handleMessages {};
+			class msgRequest {};
+		}; 
+		
 		class Systems
 		{
 			file = "\life_server\Functions\Systems";
@@ -130,6 +138,7 @@ class CfgFunctions
 			class cleanupRequest {};
 			class setObjVar {};
 			class keyManagement {};
+			class InsureCar {};
 		};
 		
 		class Housing

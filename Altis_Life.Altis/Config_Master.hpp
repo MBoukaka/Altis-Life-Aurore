@@ -28,7 +28,7 @@
 */
 class Life_Settings {
 	/* Persistent Settings */
-	save_civ_weapons = false; //Allow civilians to save weapons on them?
+	save_civ_weapons = true; //Allow civilians to save weapons on them?
 	save_virtualItems = true; //Save Virtual items (all sides)?
 
 	/* Revive system settings */
@@ -45,8 +45,8 @@ class Life_Settings {
 
 	/* Player-related systems */
 	enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
-	total_maxWeight = 24; //Identifies the max carrying weight (gets adjusted throughout game when wearing different types of clothing).
-	total_maxWeightT = 24;  //Static variable for the maximum weight allowed without having a backpack
+	total_maxWeight = 14; //Identifies the max carrying weight (gets adjusted throughout game when wearing different types of clothing).
+	total_maxWeightT = 14;  //Static variable for the maximum weight allowed without having a backpack
 	paycheck_period = 5; //Scaled in minutes
 	
 	/* Impound Variables */
@@ -70,48 +70,7 @@ class Life_Settings {
 		{"STR_Crime_7","10000","7"} 
 	};
 	
-	sellArray[] = {
-		{"arifle_sdar_F", 7500},
-		{"hgun_P07_snds_F", 650},
-		{"hgun_P07_F", 1500},
-		{"ItemGPS", 45},
-		{"ToolKit", 75},
-		{"FirstAidKit", 65},
-		{"Medikit", 450},
-		{"NVGoggles", 980},
-		{"16Rnd_9x21_Mag", 15},
-		{"20Rnd_556x45_UW_mag", 35},
-		{"ItemMap", 35},
-		{"ItemCompass", 25},
-		{"Chemlight_blue", 50},
-		{"Chemlight_yellow", 50},
-		{"Chemlight_green", 50},
-		{"Chemlight_red", 50},
-		{"hgun_Rook40_F", 500},
-		{"arifle_Katiba_F", 5000},
-		{"30Rnd_556x45_Stanag", 65},
-		{"20Rnd_762x51_Mag", 85},
-		{"30Rnd_65x39_caseless_green", 50},
-		{"DemoCharge_Remote_Mag", 7500},
-		{"SLAMDirectionalMine_Wire_Mag", 2575},
-		{"optic_ACO_grn", 250},
-		{"acc_flashlight", 100},
-		{"srifle_EBR_F", 15000},
-		{"arifle_TRG21_F", 3500},
-		{"optic_MRCO", 5000},
-		{"optic_Aco", 850},
-		{"arifle_MX_F", 7500},
-		{"arifle_MXC_F", 5000},
-		{"arifle_MXM_F", 8500},
-		{"MineDetector", 500},
-		{"optic_Holosight", 275},
-		{"acc_pointer_IR", 175},
-		{"arifle_TRG20_F", 2500},
-		{"SMG_01_F", 1500},
-		{"arifle_Mk20C_F", 4500},
-		{"30Rnd_45ACP_Mag_SMG_01", 60},
-		{"30Rnd_9x21_Mag", 30}
-	};
+	sellArray[] = {	};
 
 	allowedSavedVirtualItems[] = { "pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut", "rabbitGrilled", "salemaGrilled", "ornateGrilled", "mackerelGrilled", "tunaGrilled", "mulletGrilled", "catsharkGrilled", "turtleSoup", "henGrilled", "roosterGrilled", "sheepGrilled", "goatGrilled" };
 };
