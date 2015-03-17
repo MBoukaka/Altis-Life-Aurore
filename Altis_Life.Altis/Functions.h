@@ -157,6 +157,7 @@ class Life_Client_Core
 	class Functions
 	{
 		file = "core\functions";
+		class equipGear {};
 		class fadeSound {};
 		class playSound {};
 		class calWeightDiff {};

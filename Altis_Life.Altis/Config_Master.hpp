@@ -36,11 +36,11 @@ class Life_Settings {
 	revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
 	
 	/* House related settings */
-	house_limit = 5; //Maximum amount of houses a player can own.
+	house_limit = 4; //Maximum amount of houses a player can own.
 
 	/* Gang related settings */
-	gang_price = 75000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
-	gang_upgradeBase = 10000; //The base cost for upgrading slots in a gang
+	gang_price = 15000; //Price for creating a gang, remember they are persistent so keep it reasonable to avoid millions of gangs.
+	gang_upgradeBase = 5000; //The base cost for upgrading slots in a gang
 	gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
 	/* Player-related systems */
@@ -169,7 +169,7 @@ class Licenses {
 	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",25000,true,"civ")
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",19500,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",15000,false,"civ")
-	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",75000,true,"civ")
+	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",750000,true,"civ")
 	LICENSEMACRO(trucking,"STR_License_Truck","trucking",20000,false,"civ")
 	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",35000,false,"civ")
 	LICENSEMACRO(salt,"STR_License_Salt","salt",12000,false,"civ")

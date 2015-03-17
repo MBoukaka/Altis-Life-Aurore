@@ -1,6 +1,7 @@
 author = "Tonic and Itsyuka modifié par le staff Aurore";
 onLoadName = "Altis Life RPG 4.0";
 onLoadMission = "Le Serveur dont vous êtes le héros !";
+loadScreen = "logodebutcarte.jpg";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;

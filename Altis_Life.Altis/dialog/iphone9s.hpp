@@ -96,16 +96,6 @@ class piPhone9S {
 			h = 0.102222 * safezoneH;
 		};
 		
-		class icon_wantedplus: Life_RscPicture
-		{
-			idc = 1209;
-			text = "aurore_data2\data\btn10.paa";
-			x = 0.591771 * safezoneW + safezoneX;
-			y = 0.285852 * safezoneH + safezoneY;
-			w = 0.0558334 * safezoneW;
-			h = 0.10037 * safezoneH;
-		};
-		
 		class icon_interpol: Life_RscPicture
 		{
 			idc = 1210;
