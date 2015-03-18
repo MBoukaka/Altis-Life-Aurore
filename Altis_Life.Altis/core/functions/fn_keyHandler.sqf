@@ -85,6 +85,13 @@ switch (_code) do {
 				player selectWeapon life_curWep_h;
 			};
 		};
+		
+		if(!_shift && !_ctrlKey && playerSide == west) then {
+			if(life_inv_spikeStrip < 1) exitWith {hint "T'as pas de herses !";};
+			[] spawn life_fnc_spikeStrip;
+			life_inv_spikeStrip = life_inv_spikeStrip - 1;
+			hint "Tu as une herse en main !";
+		};
 	};
 	
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
@@ -117,8 +124,21 @@ switch (_code) do {
 		{
 			[] call life_fnc_restrainAction;
 		};
+		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget GVAR "Escorting") && !(cursorTarget GVAR "restrained") && speed cursorTarget < 1) then
+		{
+			if(life_inv_menotte < 1) exitWith {hint "T'as pas de menottes !";};
+			[] call life_fnc_restrainAction;
+			life_inv_menotte = life_inv_menotte - 1;
+			hint "Tu as menotte cette personne !";
+		};
 		
-		//Robbing
+		
+		
+	};
+	
+	
+	/*
+	//Robbing
 		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && isPlayer cursorTarget && alive cursorTarget && cursorTarget distance player < 4 && speed cursorTarget < 1) then
 		{
 			if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == RIFLE OR currentWeapon player == PISTOL) && currentWeapon player != "" && !life_knockout && !(player GVAR["restrained",false]) && !life_istazed && !(player GVAR["surrender",false])) then
@@ -127,7 +147,8 @@ switch (_code) do {
 			};
 			_handled = true;
 		};
-	};
+	*/
+	
 	
 	//Shift + G (surrender)
 	case 34:

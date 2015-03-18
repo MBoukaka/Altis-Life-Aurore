@@ -82,6 +82,7 @@ class Life_Client_Core
 	{
 		file = "core\actions";
 		class animMenu {};
+		class InteractionMenu {};
 		class buyLicense {};
 		class healHospital {};
 		class pushVehicle {};

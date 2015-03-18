@@ -78,6 +78,7 @@ class Life_Settings {
 //Virtual Items
 class VirtualItems {
 	//Misc
+	VITEMMACRO(menotte, "Paire de menotte", "menotte", 2, 750, 350, true, -1, "aurore_data2\icons\items\handcuffs.paa")
 	VITEMMACRO(pickaxe, "STR_Item_Pickaxe", "pickaxe", 2, 750, 350, false, -1, "aurore_data2\icons\items\pickaxe.paa")
 	VITEMMACRO(fuelEmpty, "STR_Item_FuelE", "fuelEmpty", 2, -1, -1, false, -1, "icons\ico_fuelempty.paa")
 	VITEMMACRO(fuelFull, "STR_Item_FuelF", "fuelFull", 5, 850, 500, false, -1, "icons\ico_fuel.paa")
