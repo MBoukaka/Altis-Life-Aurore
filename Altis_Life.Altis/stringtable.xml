@@ -107,6 +107,40 @@
 			<French>Acheteur de Sel</French>
 		</Key>
 	</Package>
+	<Package name="Seize_Menu">
+		<Key ID="STR_pInAct_RestricWp">
+		<Original>Saisir Armes</Original>
+		<French>Saisir Armes</French>
+		</Key>
+		<Key ID="STR_pInAct_RestricU">
+		<Original>Saisir Uniform</Original>
+		<French>Saisir Uniform</French>
+		</Key>
+		<Key ID="STR_pInAct_RestricV">
+		<Original>Saisir Veste</Original>
+		<French>Saisir Veste</French>
+		</Key>
+		<Key ID="STR_pInAct_RestricHG">
+		<Original>Saisir HeadGear</Original>
+		<French>Saisir HeadGear</French>
+		</Key>
+		<Key ID="STR_pInAct_DelLic1">
+			<Original>Permis Voiture</Original>
+			<French>Permis Voiture</French>
+		</Key>
+		<Key ID="STR_pInAct_DelLic2">
+			<Original>Permis Air</Original>
+			<French>Permis Air</French>
+		</Key>
+		<Key ID="STR_pInAct_DelLic3">
+			<Original>Permis Camion</Original>
+			<French>Permis Camion</French>
+		</Key>
+		<Key ID="STR_pInAct_DelLic4">
+			<Original>Permis Armes</Original>
+			<French>Permis Armes</French>
+		</Key>
+	</Package>
 	<Package name="Global">
 		<Key ID="STR_Global_Close">
 			<Original>Close</Original>

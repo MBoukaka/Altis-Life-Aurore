@@ -12,6 +12,7 @@ CONST(BIS_fnc_endMission,BIS_fnc_endMission);
 [] execVM "core\init.sqf";
 [] execVM "scripts\autoReskin.sqf";
 [] execVM "scripts\lock_backpack.sqf";
+[] execVM "scripts\emptyFuel.sqf";
 
 //Execute JIP code.
 if((_this select 1)) then {

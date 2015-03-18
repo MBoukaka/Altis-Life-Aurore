@@ -30,3 +30,4 @@
 #include "iphone_admin.hpp"
 #include "iphone_cle.hpp"
 #include "iphone_inventaire.hpp"
+#include "FuelStat.h"

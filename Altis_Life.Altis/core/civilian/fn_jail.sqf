@@ -44,5 +44,11 @@ life_is_arrested = true;
 removeAllWeapons player;
 {player removeMagazine _x} foreach (magazines player);
 
+life_thirst = 100;
+life_hunger = 100;
+life_drink = 0;
+CASH = 0;
+
 [[player,_bad],"life_fnc_jailSys",false,false] call life_fnc_MP;
+[0] call SOCK_fnc_updatePartial;
 [5] call SOCK_fnc_updatePartial;

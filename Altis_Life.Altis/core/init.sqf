@@ -2,6 +2,7 @@
 /*
 	Master client initialization file
 */
+life_altf4 = false;
 life_firstSpawn = true;
 life_session_completed = false;
 private["_handle","_timeStamp"];
@@ -109,6 +110,7 @@ life_fnc_moveIn = compileFinal
 ";
 
 [] spawn life_fnc_survival;
+[] execVM "scripts\pumps.sqf";
 
 CONSTVAR(life_paycheck); //Make the paycheck static.
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};

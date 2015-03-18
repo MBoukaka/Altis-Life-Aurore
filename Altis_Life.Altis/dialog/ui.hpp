@@ -1,10 +1,13 @@
 #define INFINITE 1e+1000
+#define IDC_LIFE_BAR_DRINK 2199
 #define IDC_LIFE_BAR_FOOD 2200
 #define IDC_LIFE_BAR_WATER 2201
 #define IDC_LIFE_BAR_HEALTH 2202
+#define IDC_LIFE_PICTURE_DRINK 1199
 #define IDC_LIFE_PICTURE_FOOD 1200
 #define IDC_LIFE_PICTURE_WATER 1201
 #define IDC_LIFE_PICTURE_HEALTH 1202
+#define IDC_LIFE_DRINK_TEXT 999
 #define IDC_LIFE_FOOD_TEXT 1000
 #define IDC_LIFE_WATER_TEXT 1001
 #define IDC_LIFE_HEALTH_TEXT 1002
@@ -32,7 +35,10 @@ class playerHUD {
 		LIFE_PICTURE_HEALTH,
 		LIFE_FOOD_TEXT,
 		LIFE_WATER_TEXT,
-		LIFE_HEALTH_TEXT
+		LIFE_HEALTH_TEXT,
+		LIFE_BAR_DRINK,
+		LIFE_DRINK_TEXT
+		
 	};
 
 	/* Background */
@@ -40,12 +46,20 @@ class playerHUD {
 	{
 		colorBackground[] = {0,0,0,0.5};
 		x = 0.917656 * safezoneW + safezoneX;
-		y = 0.819 * safezoneH + safezoneY;
+		y = 0.786 * safezoneH + safezoneY;
 		w = 0.0825 * safezoneW;
 		h = 0.11 * safezoneH;
 	};
 
 	/* Progress Bars */
+	class LIFE_BAR_DRINK: Life_RscProgress
+	{
+		idc = IDC_LIFE_BAR_DRINK;
+		x = 0.938281 * safezoneW + safezoneX;
+		y = 0.797 * safezoneH + safezoneY;
+		w = 0.061875 * safezoneW;
+		h = 0.022 * safezoneH;
+	};
 	class LIFE_BAR_FOOD: Life_RscProgress
 	{
 		idc = IDC_LIFE_BAR_FOOD;
@@ -72,7 +86,15 @@ class playerHUD {
 	};
 
 	/* Text */
-
+	class LIFE_DRINK_TEXT: Life_RscText
+	{
+		idc = IDC_LIFE_DRINK_TEXT;
+		text = "";
+		x = 0.958906 * safezoneW + safezoneX;
+		y = 0.8014 * safezoneH + safezoneY;
+		w = 0.020625 * safezoneW;
+		h = 0.011 * safezoneH;
+	};
 	class LIFE_FOOD_TEXT: Life_RscText
 	{
 		idc = IDC_LIFE_FOOD_TEXT;
@@ -102,6 +124,14 @@ class playerHUD {
 	};
 
 	/* Icons */
+	class LIFE_PICTURE_DRINK: life_RscPicture
+	{
+		idc = IDC_LIFE_PICTURE_DRINK;
+		text = "icons\food.paa";
+		x = 0.922813 * safezoneW + safezoneX;
+		y = 0.83 * safezoneH + safezoneY;
+		w = 0.03; h = 0.04;
+	};
 	class LIFE_PICTURE_FOOD: life_RscPicture
 	{
 		idc = IDC_LIFE_PICTURE_FOOD;

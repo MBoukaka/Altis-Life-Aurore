@@ -1,4 +1,5 @@
 #include <macro.h>
+#define IDC_LIFE_BAR_DRINK 2199
 #define IDC_LIFE_BAR_FOOD 2200
 #define IDC_LIFE_BAR_WATER 2201
 #define IDC_LIFE_BAR_HEALTH 2202
@@ -18,10 +19,12 @@
 disableSerialization;
 
 if(isNull LIFEdisplay) then {[] call life_fnc_hudSetup;};
+LIFEctrl(IDC_LIFE_BAR_DRINK) progressSetPosition (0 / (0.20 / life_drink));
 LIFEctrl(IDC_LIFE_BAR_FOOD) progressSetPosition (1 / (100 / life_hunger));
 LIFEctrl(IDC_LIFE_BAR_WATER) progressSetPosition (1 / (100 / life_thirst));
 LIFEctrl(IDC_LIFE_BAR_HEALTH) progressSetPosition (1 - (damage player));
 
+LIFEctrl(IDC_LIFE_DRINK_TEXT) ctrlsetText format["%1", life_drink];
 LIFEctrl(IDC_LIFE_FOOD_TEXT) ctrlsetText format["%1", life_hunger];
 LIFEctrl(IDC_LIFE_WATER_TEXT) ctrlsetText format["%1", life_thirst];
 LIFEctrl(IDC_LIFE_HEALTH_TEXT) ctrlsetText format["%1", round((1 - (damage player)) * 100)];

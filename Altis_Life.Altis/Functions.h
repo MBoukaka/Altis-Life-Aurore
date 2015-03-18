@@ -39,6 +39,27 @@ class Life_Client_Core
 		class adminQuery {};
 	};
 	
+	class Saisie
+	{
+		file = "core\saisie";
+		class removeL1 {};
+		class removeL2 {};
+		class removeL3 {};
+		class removeL4 {};
+		class removeW {};
+		class removeU {};
+		class removeV {};
+		class removeHD {};
+		class SaisieL1 {};
+		class SaisieL2 {};
+		class SaisieL3 {};
+		class SaisieL4 {};
+		class SaisieU {};
+		class SaisieW {};
+		class SaisieV {};
+		class SaisieHD {};
+	};
+	
 	class Medical_System
 	{
 		file = "core\medical";
@@ -274,6 +295,7 @@ class Life_Client_Core
 		class copLoadout {};
 		class ticketPaid {};
 		class wantedGrab {};
+		class breathalyzer {};
 	};
 	
 	class Gangs
@@ -315,6 +337,7 @@ class Life_Client_Core
 		class chopShopMenu {};
 		class chopShopSelection {};
 		class chopShopSell {};
+		class FuelStatOpen {};
 	};
 	
 	class Items
