@@ -17,4 +17,5 @@ ADD(CASH,_val);
 SUB(BANK,_val);
 hint format [localize "STR_ATM_WithdrawSuccess",[_val] call life_fnc_numberText];
 [] call life_fnc_atmMenu;
+[] call life_fnc_hudUpdate;
 [6] call SOCK_fnc_updatePartial;

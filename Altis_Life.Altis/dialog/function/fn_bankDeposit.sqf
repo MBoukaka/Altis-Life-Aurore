@@ -20,4 +20,5 @@ BANK = BANK + _value;
 
 hint format[localize "STR_ATM_DepositMSG",[_value] call life_fnc_numberText];
 [] call life_fnc_atmMenu;
+[] call life_fnc_hudUpdate;
 [6] call SOCK_fnc_updatePartial;

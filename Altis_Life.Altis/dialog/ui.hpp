@@ -3,10 +3,12 @@
 #define IDC_LIFE_BAR_FOOD 2200
 #define IDC_LIFE_BAR_WATER 2201
 #define IDC_LIFE_BAR_HEALTH 2202
+#define IDC_LIFE_PICTURE_MONEY 1198
 #define IDC_LIFE_PICTURE_DRINK 1199
 #define IDC_LIFE_PICTURE_FOOD 1200
 #define IDC_LIFE_PICTURE_WATER 1201
 #define IDC_LIFE_PICTURE_HEALTH 1202
+#define IDC_LIFE_MONEY_TEXT 998
 #define IDC_LIFE_DRINK_TEXT 999
 #define IDC_LIFE_FOOD_TEXT 1000
 #define IDC_LIFE_WATER_TEXT 1001
@@ -27,17 +29,20 @@ class playerHUD {
 	objects[] = {};
 	controls[] = {
 		LIFE_UI_BACK,
+		LIFE_BAR_DRINK,
 		LIFE_BAR_FOOD,
 		LIFE_BAR_WATER,
 		LIFE_BAR_HEALTH,
+		LIFE_PICTURE_DRINK,
 		LIFE_PICTURE_FOOD,
 		LIFE_PICTURE_WATER,
 		LIFE_PICTURE_HEALTH,
+		LIFE_PICTURE_MONEY,
 		LIFE_FOOD_TEXT,
 		LIFE_WATER_TEXT,
 		LIFE_HEALTH_TEXT,
-		LIFE_BAR_DRINK,
-		LIFE_DRINK_TEXT
+		LIFE_DRINK_TEXT,
+		LIFE_MONEY_TEXT
 		
 	};
 
@@ -46,9 +51,9 @@ class playerHUD {
 	{
 		colorBackground[] = {0,0,0,0.5};
 		x = 0.917656 * safezoneW + safezoneX;
-		y = 0.786 * safezoneH + safezoneY;
+		y = 0.756704 * safezoneH + safezoneY;
 		w = 0.0825 * safezoneW;
-		h = 0.11 * safezoneH;
+		h = 0.172296 * safezoneH;
 	};
 
 	/* Progress Bars */
@@ -86,6 +91,15 @@ class playerHUD {
 	};
 
 	/* Text */
+	class LIFE_MONEY_TEXT: Life_RscText
+	{
+		idc = IDC_LIFE_MONEY_TEXT;
+		text = "";
+		x = 0.958906 * safezoneW + safezoneX;
+		y = 0.745704 * safezoneH + safezoneY;
+		w = 0.04125 * safezoneW;
+		h = 0.055 * safezoneH;
+	};
 	class LIFE_DRINK_TEXT: Life_RscText
 	{
 		idc = IDC_LIFE_DRINK_TEXT;
@@ -124,12 +138,20 @@ class playerHUD {
 	};
 
 	/* Icons */
+	class LIFE_PICTURE_MONEY: life_RscPicture
+	{
+		idc = IDC_LIFE_PICTURE_MONEY;
+		text = "icons\money.paa";
+		x = 0.922813 * safezoneW + safezoneX;
+		y = 0.764 * safezoneH + safezoneY;
+		w = 0.03; h = 0.04;
+	};
 	class LIFE_PICTURE_DRINK: life_RscPicture
 	{
 		idc = IDC_LIFE_PICTURE_DRINK;
-		text = "icons\food.paa";
+		text = "icons\drink.paa";
 		x = 0.922813 * safezoneW + safezoneX;
-		y = 0.83 * safezoneH + safezoneY;
+		y = 0.797 * safezoneH + safezoneY;
 		w = 0.03; h = 0.04;
 	};
 	class LIFE_PICTURE_FOOD: life_RscPicture

@@ -50,7 +50,7 @@ _fnc_water = {
 {
 	while {true} do
 	{
-		sleep 0.5;
+		sleep 1;
 		waitUntil {(life_drink > 0)};
 		while{(life_drink > 0)} do {
 		

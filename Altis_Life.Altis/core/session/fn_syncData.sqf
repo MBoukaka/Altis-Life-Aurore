@@ -29,6 +29,7 @@ if(!isNil "_exit") exitWith {hint localize "STR_Session_SyncCheater";};
 [] call SOCK_fnc_updateRequest;
 
 [] execVM "scripts\statusBar.sqf";
+[] call life_fnc_hudUpdate;
 
 hint localize "STR_Session_SyncData";
 [] spawn

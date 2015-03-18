@@ -129,6 +129,7 @@ class CfgFunctions
 			class spawnVehicle {};
 			class getVehicles {};
 			class vehicleStore {};
+			class vehicleStoreCop {};
 			class vehicleDelete {};
 			class spikeStrip {};
 			class logIt {};
