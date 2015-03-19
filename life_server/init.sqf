@@ -100,6 +100,7 @@ if(!(EQUAL(life_server_extDB_notLoaded,""))) exitWith {}; //extDB did not fully 
 ["deleteDeadVehicles",1] spawn DB_fnc_asyncCall;
 ["deleteOldHouses",1] spawn DB_fnc_asyncCall;
 ["deleteOldGangs",1] spawn DB_fnc_asyncCall;
+["deleteOldMessages",1] spawn DB_fnc_asyncCall;
 
 /* Map-based server side initialization. */
 master_group attachTo[bank_obj,[0,0,0]];
@@ -137,8 +138,8 @@ CONST(JxMxE_PublishVehicle,"false");
 
 /* Setup radio channels for west/independent/civilian */
 life_radio_west = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
-life_radio_civ = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
-life_radio_indep = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
+//life_radio_civ = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
+//life_radio_indep = radioChannelCreate [[0, 0.95, 1, 0.8], "Side Channel", "%UNIT_NAME", []];
 
 /* Set the amount of gold in the federal reserve at mission start */
 fed_bank setVariable ["safe",count playableUnits,true];
