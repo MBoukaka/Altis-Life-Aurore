@@ -90,6 +90,13 @@ class VirtualItems {
 	VITEMMACRO(defusekit, "STR_Item_DefuseKit", "defuseKit", 2, 2500, -1, false, -1, "aurore_data2\icons\items\defusekit.paa")
 	VITEMMACRO(storagesmall, "STR_Item_StorageBS", "storageSmall", 5, 75000, -1, false, -1, "aurore_data2\icons\items\storagesmall.paa")
 	VITEMMACRO(storagebig, "STR_Item_StorageBL", "storageBig", 10, 150000, -1, false, -1, "aurore_data2\icons\items\storagebig.paa")
+	VITEMMACRO(pan1, "STR_Item_pan1", "pan1", 2, 750, 350, false, -1, "aurore_data2\icons\items\pan1.paa")
+	VITEMMACRO(mauer, "STR_Item_mauer", "mauer", 2, 750, 350, false, -1, "aurore_data2\icons\items\mauer.paa")
+	VITEMMACRO(double, "STR_Item_double", "double", 2, 750, 350, false, -1, "aurore_data2\icons\items\double.paa")
+	VITEMMACRO(gpstracker, "STR_Item_gpstracker", "gpstracker", 2, 750, 350, false, -1, "aurore_data2\icons\items\gpstracker.paa")
+	VITEMMACRO(cone, "STR_Item_cone", "cone", 2, 750, 350, false, -1, "aurore_data2\icons\items\cone.paa")
+	VITEMMACRO(vird, "STR_Item_vird", "vird", 2, 750, 350, false, -1, "aurore_data2\icons\items\vird.paa")
+	VITEMMACRO(virg, "STR_Item_virg", "virg", 2, 750, 350, false, -1, "aurore_data2\icons\items\virg.paa")
 
 	//Mined Items
 	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 7, -1, -1, false, -1, "aurore_data2\icons\items\oil_unprocessed.paa")
@@ -181,6 +188,7 @@ class Licenses {
 	LICENSEMACRO(cement,"STR_License_Cement","cement",6500,false,"civ")
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",15000,false,"med")
 	LICENSEMACRO(home,"STR_License_Home","home",75000,false,"civ")
+	LICENSEMACRO(dep,"STR_License_Dep","dep",15000,false,"civ")
 };
 
 class VirtualShops {
@@ -191,7 +199,7 @@ class VirtualShops {
 
 	class rebel {
 		name = "STR_Shops_Rebel";
-		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
+		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
 	};
 
 	class gang {
@@ -246,7 +254,7 @@ class VirtualShops {
 
 	class cop {
 		name = "STR_Shops_Cop";
-		items[] = { "donut", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit" };
+		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit" };
 	};
 
 	class cement {

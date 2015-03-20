@@ -54,6 +54,48 @@ switch (true) do {
 		};
 	};
 	
+	case (EQUAL(_item,"mauer")): {
+		if(!isNull life_mauer) exitWith {hint "Tu as deja une barriere en main !"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_mauer;
+		};
+	};
+	
+	case (EQUAL(_item,"double")): {
+		if(!isNull life_double) exitWith {hint "Tu as deja une lumiere en main !"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_double;
+		};
+	};
+	
+	case (EQUAL(_item,"pan1")): {
+		if(!isNull life_pan1) exitWith {hint "Tu as deja un panneau halte en main !"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_pan1;
+		};
+	};
+	
+	case (EQUAL(_item,"cone")): {
+		if(!isNull life_cone) exitWith {hint "Tu as deja un cone en main !"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_cone;
+		};
+	};
+	
+	case (EQUAL(_item,"vird")): {
+		if(!isNull life_vird) exitWith {hint "Tu as deja un pan D en main !"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_vird;
+		};
+	};
+	
+	case (EQUAL(_item,"virg")): {
+		if(!isNull life_virg) exitWith {hint "Tu as deja un pan G en main !"};
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			[] spawn life_fnc_virg;
+		};
+	};
+	
 	case (EQUAL(_item,"fuelFull")): {
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
 		[] spawn life_fnc_jerryRefuel;

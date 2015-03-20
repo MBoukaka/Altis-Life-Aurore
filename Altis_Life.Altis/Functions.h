@@ -82,6 +82,7 @@ class Life_Client_Core
 	{
 		file = "core\actions";
 		class animMenu {};
+		class sitDown {};
 		class InteractionMenu {};
 		class buyLicense {};
 		class healHospital {};
@@ -109,6 +110,12 @@ class Life_Client_Core
 		class pickupMoney {};
 		class ticketAction {};
 		class packupSpikes {};
+		class packupmauer {};
+		class packupdouble {};
+		class packuppan1 {};
+		class packupcone {};
+		class packupvird {};
+		class packupvirg {};
 		class storeVehicle {};
 		class robAction {};
 		class captureHideout {};
@@ -273,6 +280,7 @@ class Life_Client_Core
 	{
 		file = "core\cop";
 		class copMarkers {};
+		class copEnter {};
 		class copLights {};
 		class vehInvSearch {};
 		class copSearch {};
@@ -353,6 +361,13 @@ class Life_Client_Core
 		class blastingCharge {};
 		class defuseKit {};
 		class storageBox {};
+		class mauer {};
+		class double {};
+		class pan1 {};
+		class gpsTracker {};
+		class cone {};
+		class vird {};
+		class virg {};
 	};
 	
 	class Dialog_Controls
@@ -370,6 +385,7 @@ class Life_Client_Core
 		class sellGarage {};
 		class bankDeposit {};
 		class bankWithdraw {};
+		class gangWithdraw {};
 		class bankTransfer {};
 		class garageLBChange {};
 		class safeInventory {};
