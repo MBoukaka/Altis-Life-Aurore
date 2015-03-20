@@ -85,6 +85,15 @@ _fnc_water = {
 	};
 };
 
+[] spawn {
+	while {true} do
+	{
+		if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Sacs invisibles chez les Flics
+        if(playerSide == independent) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Sacs invisibles chez les Medics
+		sleep 1;
+	};
+};
+
 //Setup the time-based variables.
 _foodTime = time;
 _waterTime = time;
