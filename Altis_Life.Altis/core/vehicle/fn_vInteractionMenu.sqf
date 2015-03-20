@@ -37,7 +37,9 @@ life_vInact_curTarget = _curTarget;
 _Btn1 ctrlSetText localize "STR_vInAct_Repair";
 _Btn1 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_repairTruck;";
 
-if("ToolKit" in (items player) && (damage _curTarget < 1)) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
+
+if(("ToolKit" in (items player) && (damage _curTarget < 1)) || license_civ_dep) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
+
 
 if(playerSide == west) then {
 	_Btn2 ctrlSetText localize "STR_vInAct_Registration";
@@ -52,6 +54,7 @@ if(playerSide == west) then {
 	
 	_Btn5 ctrlSetText localize "STR_vInAct_Impound";
 	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
+
 	
 	if(_curTarget isKindOf "Ship") then {
 		_Btn6 ctrlSetText localize "STR_vInAct_PushBoat";
@@ -68,13 +71,15 @@ if(playerSide == west) then {
 			if(count crew _curTarget == 0 && {canMove _curTarget}) then { _Btn6 ctrlEnable false;} else {_Btn6 ctrlEnable true;};
 		};
 	};
-
+	
 	if((FETCH_CONST(life_coplevel) > 4)) then {_Btn7 ctrlEnable true;} else {_Btn7 ctrlEnable false;};
 	_Btn7 ctrlSetText localize "STR_vInAct_copDeleteVehicle";
 	_Btn7 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_copDeleteVehicle;";
 	
-} else {
+};
 	
+if(playerSide == civilian) then {
+
 	if(_curTarget isKindOf "Ship") then {
 		_Btn2 ctrlSetText localize "STR_vInAct_PushBoat";
 		_Btn2 buttonSetAction "[] spawn life_fnc_pushObject; closeDialog 0;";
@@ -90,7 +95,7 @@ if(playerSide == west) then {
 			if(count crew _curTarget == 0 && {canMove _curTarget}) then { _Btn2 ctrlEnable false;} else {_Btn2 ctrlEnable true;};
 		};
 	};
-	
+
 	if(typeOf _curTarget == "O_Truck_03_device_F") then {
 		_Btn3 ctrlSetText localize "STR_vInAct_DeviceMine";
 		_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_deviceMine";
@@ -103,8 +108,31 @@ if(playerSide == west) then {
 		_Btn3 ctrlShow false;
 	};
 	
+	_Btn4 ctrlSetText localize "STR_vInAct_Impound";
+	_Btn4 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_dep_impound;";
+	if(!license_civ_dep) then {_Btn4 ctrlEnable false;};
+	
+	_Btn5 ctrlSetText localize "STR_vInAct_PullOut";
+	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
+	if(currentWeapon player == primaryWeapon player && primaryWeapon player != "") then { _Btn5 ctrlEnable true;} else {_Btn5 ctrlEnable false;};
+	
+	_Btn6 ctrlShow false;
+	_Btn7 ctrlShow false;
+	
+};
+
+if(playerSide == independent) then {
+
+	_Btn2 ctrlSetText localize "STR_vInAct_Unflip";
+	_Btn2 buttonSetAction "life_vInact_curTarget setPos [getPos life_vInact_curTarget select 0, getPos life_vInact_curTarget select 1, (getPos life_vInact_curTarget select 2)+0.5]; closeDialog 0;";
+	if(count crew _curTarget == 0 && {canMove _curTarget}) then { _Btn2 ctrlEnable false;} else {_Btn2 ctrlEnable true;};
+	
+	_Btn3 ctrlSetText localize "STR_vInAct_PullOut";
+	_Btn3 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
+
 	_Btn4 ctrlShow false;
 	_Btn5 ctrlShow false;
 	_Btn6 ctrlShow false;
 	_Btn7 ctrlShow false;
+
 };

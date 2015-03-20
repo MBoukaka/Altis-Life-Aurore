@@ -302,6 +302,7 @@ class Life_Client_Core
 		class doorAnimate {};
 		class fedCamDisplay {};
 		class copLoadout {};
+		class copDeleteVehicle {};
 		class ticketPaid {};
 		class wantedGrab {};
 		class breathalyzer {};

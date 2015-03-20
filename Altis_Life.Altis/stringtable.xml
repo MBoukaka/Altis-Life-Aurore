@@ -2465,6 +2465,10 @@
 			<Italian>%1 ti ha tolto le manette</Italian>
 			<Portuguese>Você foi solto por %1</Portuguese>
 		</Key>
+		<Key ID="STR_vInAct_copDeleteVehicle">
+			<Original>Destruction</Original>
+			<French>Destruction</French>
+		</Key>
 	</Package>
 	<Package name="MISC_Strings">
 		<Key ID="STR_MISC_TooMuch">
@@ -3171,6 +3175,38 @@
 			<French>Pioche</French>
 			<Italian>Piccone</Italian>
 			<Portuguese>Picareta</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Menotte">
+			<Original>Paire de menotte</Original>
+			<French>Paire de menotte</French>
+		</Key>
+		<Key ID="STR_Item_pan1">
+			<Original>Panneau Halte</Original>
+			<French>Panneau Halte</French>
+		</Key>
+		<Key ID="STR_Item_mauer">
+			<Original>Barrière</Original>
+			<French>Barrière</French>
+		</Key>
+		<Key ID="STR_Item_double">
+			<Original>Lumière</Original>
+			<French>Lumière</French>
+		</Key>
+		<Key ID="STR_Item_gpstracker">
+			<Original>Mouchard GPS</Original>
+			<French>Mouchard GPS</French>
+		</Key>
+		<Key ID="STR_Item_cone">
+			<Original>Cone</Original>
+			<French>Cone</French>
+		</Key>
+		<Key ID="STR_Item_vird">
+			<Original>Pan D</Original>
+			<French>Pan D</French>
+		</Key>
+		<Key ID="STR_Item_virg">
+			<Original>Pan G</Original>
+			<French>Pan G</French>
 		</Key>
 		<Key ID="STR_Item_CopperOre">
 			<Original>Copper Ore</Original>
@@ -4915,7 +4951,6 @@
 			<Italian>Attempted Organ Theft</Italian>		
 			<Portuguese>Attempted Organ Theft</Portuguese>
 		</Key>
-		
 		<Key ID="STR_Crime_1">
 			<Original>Driving without Lights</Original>
 			<German>Driving without Lights</German>
