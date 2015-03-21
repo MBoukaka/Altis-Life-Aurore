@@ -188,7 +188,17 @@ class Licenses {
 	LICENSEMACRO(cement,"STR_License_Cement","cement",6500,false,"civ")
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",15000,false,"med")
 	LICENSEMACRO(home,"STR_License_Home","home",75000,false,"civ")
-	LICENSEMACRO(dep,"STR_License_Dep","dep",15000,false,"civ")
+	LICENSEMACRO(scarface,"Famille Scarface","scarface",15000,false,"civ")
+	LICENSEMACRO(wood,"Faiseur de Bois","wood",500,false,"civ")
+	LICENSEMACRO(nostra,"Famille Nostra","nostra",15000,false,"civ")
+	LICENSEMACRO(gambino,"Famille Gambino","gambino",15000,false,"civ")
+	LICENSEMACRO(vente,"Rôtisserie","vente",15000,false,"civ")
+	LICENSEMACRO(papy,"Les Papy","papy",15000,false,"civ")
+	LICENSEMACRO(bombe,"Faiseur de bombes","bombe",15000,false,"civ")
+	LICENSEMACRO(restau,"Restaurant","restau",15000,false,"civ")
+	LICENSEMACRO(esco,"Famille Escobar","esco",15000,false,"civ")
+	LICENSEMACRO(parrain,"Parrain","parrain",15000,false,"civ")
+	LICENSEMACRO(bandit,"Bandit","bandit",150000,false,"civ")
 };
 
 class VirtualShops {

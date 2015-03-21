@@ -40,6 +40,10 @@ switch (_mode) do
 			case "cement": {_var = "license_civ_cement"};
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
+			case "wood": {_var = "license_civ_wood"};
+			case "papy": {_var = "license_civ_papy"};
+			case "paper": {_var = "license_civ_papy"};
+			case "billet": {_var = "license_civ_papy"};
 			default {_var = ""};
 		};
 	};
@@ -62,6 +66,7 @@ switch (_mode) do
 			case "license_civ_medmarijuana": {_var = "medmarijuana"}; //Medical Marijuana processing license cost
 			case "license_civ_gang": {_var = "gang"}; //Gang license cost
 			case "license_civ_rebel": {_var = "rebel"}; //Rebel License
+			case "license_civ_bandit": {_var = "bandit"}; //Rebel License
 			case "license_civ_truck":{_var = "truck"}; //Truck License
 			case "license_civ_diamond": {_var = "diamond"};
 			case "license_civ_salt": {_var = "salt"};
@@ -72,6 +77,16 @@ switch (_mode) do
 			case "license_civ_cement": {_var = "cement"};
 			case "license_med_air": {_var = "mair"};
 			case "license_civ_home": {_var = "home"};
+			case "license_civ_scarface": {_var = "scarface"};
+			case "license_civ_wood": {_var = "wood"};
+			case "license_civ_gambino": {_var = "gambino"};
+			case "license_civ_vente": {_var = "vente"};
+			case "license_civ_parrain": {_var = "parrain"};
+			case "license_civ_esco": {_var = "esco"};
+			case "license_civ_explo": {_var = "explo"};
+			case "license_civ_bombe": {_var = "bombe"};
+			case "license_civ_wood": {_var = "wood"};
+			case "license_civ_papy": {_var = "papy"};
 			default {_var = ""};
 		};
 	};
