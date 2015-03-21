@@ -39,6 +39,14 @@ class Life_Client_Core
 		class adminQuery {};
 	};
 	
+	class depanneur
+	{
+		file = "core\depanneur";
+		class dep_impound {};
+		class depLights {};
+		class dsirenLights {};		
+	};
+	
 	class Saisie
 	{
 		file = "core\saisie";
