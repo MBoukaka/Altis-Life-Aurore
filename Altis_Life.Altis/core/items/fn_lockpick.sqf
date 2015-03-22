@@ -73,13 +73,15 @@ if(!_isVehicle) then {
 	_curTarget setVariable["transporting",false,true];
 } else {
 	_dice = random(100);
-	if(_dice < 30) then {
-		titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
-		life_vehicles pushBack _curTarget;
-		[[getPlayerUID player,profileName,"487"],"life_fnc_wantedAdd",false,false] call life_fnc_MP;
+	if(_dice > 30) then 
+	{
+		titleText["Tu as déclenché l'alarme !! Barre toi","PLAIN"];
+		[[_curTarget, "CarAlarm",75],"life_fnc_playSound",true,false] spawn life_fnc_MP;
+	};	
+	if(_dice < 25) then {
+		titleText["Tu as les clefs du véhicule !","PLAIN"];
+		life_vehicles set[count life_vehicles,_curTarget];
 	} else {
-		[[getPlayerUID player,profileName,"215"],"life_fnc_wantedAdd",false,false] call life_fnc_MP;
-		[[0,"STR_ISTR_Lock_FailedNOTF",true,[profileName]],"life_fnc_broadcast",west,false] call life_fnc_MP;
-		titleText[localize "STR_ISTR_Lock_Failed","PLAIN"];
+		titleText["T'as pété le lockpick boloss.","PLAIN"];
 	};
 };

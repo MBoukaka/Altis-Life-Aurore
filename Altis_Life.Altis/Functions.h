@@ -273,6 +273,7 @@ class Life_Client_Core
 		class jail {};
 		class tazed {};
 		class knockedOut {};
+		class knockedOut2 {};
 		class knockoutAction {};
 		class robReceive {};
 		class robPerson {};

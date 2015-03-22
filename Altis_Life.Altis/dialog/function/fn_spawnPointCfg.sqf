@@ -27,12 +27,51 @@ switch (_side) do
 	
 	case civilian:
 	{
-		_return = [
-			["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-		];
+		if(!license_civ_rebel && !license_civ_bandit) then {
+			_return = [
+				["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_bandit) then {
+			_return = [
+				["bandit_spawn_1","Galati","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["bandit_spawn_2","Topolia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["bandit_spawn_3","A. Petros","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_rebel) then {
+			_return = [
+				["rebel_spawn_1","Sagonisi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["rebel_spawn_2","Frini","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["rebel_spawn_3","Kategidis","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_dep) then {
+			_return = [
+				["dep_spawn_1","Kavala Dep","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["dep_spawn_2","Sofia Dep","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_taxi) then {
+			_return = [
+				["taxi_spawn_1","Kavala Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["taxi_spawn_2","Athira Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["taxi_spawn_3","Sofia Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_civdonator) then {
+			_return = _return + [
+				["donor_spawn","Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
 		
 		if(count life_houses > 0) then {
 			{

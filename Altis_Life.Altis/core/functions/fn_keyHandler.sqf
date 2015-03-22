@@ -136,19 +136,23 @@ switch (_code) do {
 		
 	};
 	
-	
-	/*
-	//Robbing
-		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && isPlayer cursorTarget && alive cursorTarget && cursorTarget distance player < 4 && speed cursorTarget < 1) then
+	//Knock out, this is experimental and yeah...
+	case 33:
+	{
+		if(_shift) then {_handled = true;};
+		if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && isPlayer cursorTarget && alive cursorTarget && cursorTarget distance player < 3 && speed cursorTarget < 1) then
 		{
-			if((animationState cursorTarget) != "Incapacitated" && (currentWeapon player == RIFLE OR currentWeapon player == PISTOL) && currentWeapon player != "" && !life_knockout && !(player GVAR["restrained",false]) && !life_istazed && !(player GVAR["surrender",false])) then
+			if((animationState cursorTarget) != "Incapacitated" && !life_knockout && !(player getVariable["restrained",false]) && !life_istazed && !(player GVAR["restrained",false]) && !life_istazed && !(player GVAR["surrender",false])) then
 			{
 				[cursorTarget] spawn life_fnc_knockoutAction;
+				if("ItemRadio" in assignedItems cursorTarget) then {
+				cursorTarget removeweapon "ItemRadio";
+				hint "Cette personne a fait tomber son téléphone.";
+				_defenceplace1 = "Item_ItemRadio" createVehicle (player modelToWorld[0,0,0]);
+				}	else	{ hint "Cette personne n'a pas de téléphone!"};
 			};
-			_handled = true;
 		};
-	*/
-	
+	};	
 	
 	//Shift + G (surrender)
 	case 34:
