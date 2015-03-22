@@ -75,7 +75,69 @@ class WeaponShops {
 			{ "acc_flashlight", "", 75 }
         };
     };
-	
+	class restaurent {
+        name = "Restaurant le Groschandais";
+        side = "civ";
+        license = "restaurant";
+        level = -1;
+        msg = "";
+        items[] = {
+			{ "arifle_mas_m1014","Fusil à Pompe",4500 },
+			{ "7Rnd_mas_12Gauge_Slug","Munitions Pompes",2 },
+			{ "arifle_mas_m4_d","M4A1 7.62 Desert",3405 },
+			{ "30Rnd_556x45_Stanag_Tracer_Red","Munitions ROUGES",2 },
+			{ "30Rnd_mas_556x45_Stanag","Munitions M4A1",2 },
+			{ "srifle_mas_svd","Sniper SVD",9600 },
+			{ "10Rnd_mas_762x54_mag","Munitions SVD",20 },
+			{ "HandGrenade_Stone","Flashbang",60 },
+			{ "prpl_famas_tan","Famas Camo",26000 },
+			{ "prpl_25Rnd_556x45_famas","Munitions Famas",20 },
+			{ "hgun_mas_glocksf_F","45 Glock 21SF",100 },
+			{ "12Rnd_mas_45acp_Mag","Munitions Guns",1 },
+			{ "arifle_mas_mp5_d","MP5 Desert",1250 },
+			{ "30Rnd_mas_9x21_Stanag","Munitions MP5",1 },
+			{ "srifle_mas_ksvk","Sniper KSVK",6900 },
+			{ "srifle_mas_ksvk_c","Sniper KSVK Camo",6900 },
+			{ "5Rnd_mas_127x108_mag","Munitions KSVK",20 },
+			{ "srifle_mas_m24_d","Sniper M24 Desert",18600 },
+			{ "5Rnd_mas_762x51_Stanag","Munitions M24",2000 },
+			{ "arifle_Mk20_F","",950 },
+			{ "30Rnd_556x45_Stanag_Tracer_Green","",10 },
+			{ "muzzle_mas_snds_L","Silencieu Pistolet",8 },
+			{ "muzzle_mas_snds_LM","Silencieux Makarov",8 },
+			{ "muzzle_mas_snds_C","Silencieux MP5",10 },
+			{ "muzzle_mas_snds_M","Silencieux M4 - M16 - HK14",12 },
+			{ "muzzle_mas_snds_SM","Silencieux HK417 - SR25",12 },
+			{ "muzzle_mas_snds_AK","Silencieux AK",12 },
+			{ "muzzle_mas_snds_SH","Silencieux SVD",80 },
+			{ "arifle_mas_m70","Zastava",4000 },
+			{ "30Rnd_mas_762x39_mag","Munitions Zastava",10 },
+			{ "LMG_mas_m72_F","Zastava M72",5000 },
+			{ "30Rnd_mas_762x39_mag","Munitions M72 x30",10 },
+			{ "100Rnd_mas_762x39_mag","Munitions M72 x100",100 },
+			{ "arifle_mas_akm","AKM",3350 },
+			{ "30Rnd_mas_762x39_mag","Munitions AKM",10 },
+			{ "optic_mas_zeiss","",5 },
+			{ "optic_mas_zeiss_eo","",5 },
+			{ "optic_mas_acog","",5 },
+			{ "optic_mas_acog_eo","",5 },
+			{ "optic_mas_acog","",5 },
+			{ "optic_mas_handle","",5 },
+			{ "optic_mas_aim","",5 },
+			{ "optic_mas_pso","",5 },
+			{ "optic_mas_pso_eo","",5 },
+			{ "optic_ACO_grn","",20 },
+			{ "optic_Aco","",20 },
+			{ "optic_Hamr","",30 },
+			{ "optic_Holosight","",30 },
+			{ "optic_SOS","",100 },
+			{ "muzzle_snds_M","",50 },
+			{ "muzzle_snds_acp","",50 },
+			{ "muzzle_snds_H","",50 },
+			{ "muzzle_snds_B","",50 },							
+			{ "acc_flashlight","",5 }
+        };
+    };
 	class bandit {
         name = "Shop Bandit";
         side = "civ";
