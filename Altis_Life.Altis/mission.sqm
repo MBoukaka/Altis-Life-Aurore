@@ -2561,7 +2561,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=852;
+		items=918;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -9130,182 +9130,179 @@ class Mission
 		};
 		class Item647
 		{
-			position[]={12300.587,123.98157,8888.0859};
-			azimut=864.54102;
-			id=766;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			text="reb_1_1";
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Rebel Market"",life_fnc_virt_menu,""rebel""];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
-		};
-		class Item648
-		{
-			position[]={12293.089,123.59634,8930.4082};
-			azimut=732.37;
-			id=767;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			text="reb_1_3_1";
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,""reb_v_2"",""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];";
-		};
-		class Item649
-		{
-			position[]={12288.753,123.76441,8919.6396};
-			azimut=319.44901;
-			id=768;
-			side="EMPTY";
-			vehicle="Land_JumpTarget_F";
-			skill=0.60000002;
-		};
-		class Item650
-		{
 			position[]={10385.106,27.723745,13200.415};
 			azimut=840.539;
 			offsetY=0.1;
-			id=769;
+			id=766;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Process Marijuana"",life_fnc_processAction,""marijuana"",0,false,false,"""",' life_inv_cannabis > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""marijuana"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""marijuana"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""marijuana"",0,false,false,"""",' !license_civ_marijuana && playerSide == civilian '];";
 		};
-		class Item651
+		class Item648
 		{
 			position[]={8954.4619,69.250107,15502.916};
 			azimut=951.56647;
 			offsetY=0.1;
-			id=770;
+			id=767;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Chop Shop"",life_fnc_chopShopMenu,""chop_shop_1""];";
 		};
-		class Item652
+		class Item649
 		{
 			position[]={9193.542,121.33749,15832.396};
 			azimut=1057.6716;
 			offsetY=0.1;
-			id=771;
+			id=768;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_11";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item653
+		class Item650
 		{
 			position[]={9530.7383,127.03688,15076.722};
 			azimut=1221.01;
 			offsetY=0.1;
-			id=772;
+			id=769;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Process Copper"",life_fnc_processAction,""copper"",0,false,false,"""",' life_inv_Unrefined > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""copper"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""copper"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""copper"",0,false,false,"""",' !license_civ_copper && playerSide == civilian '];";
 		};
-		class Item654
+		class Item651
 		{
 			position[]={10235.131,95.313683,14851.785};
 			azimut=1221.01;
 			offsetY=0.1;
-			id=773;
+			id=770;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Process Iron"",life_fnc_processAction,""iron"",0,false,false,"""",' life_inv_ironUnrefined > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""iron"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""iron"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""iron"",0,false,false,"""",' !license_civ_iron && playerSide == civilian '];";
 		};
-		class Item655
+		class Item652
 		{
 			position[]={11851.898,3.6619337,13608.595};
 			azimut=1260.3162;
 			offsetY=0.1;
-			id=774;
+			id=771;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Diving Shop"",life_fnc_clothingMenu,""dive""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dive"" >> ""displayName"")),[(getNumber(missionConfigFile >> ""Licenses"" >> ""dive"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dive"",0,false,false,"""",' !license_civ_dive && playerSide == civilian '];";
 		};
-		class Item656
+		class Item653
 		{
 			position[]={12578.39,15.474768,14370.026};
 			azimut=1417.8802;
 			offsetY=0.1;
-			id=775;
+			id=772;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_10";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item657
+		class Item654
 		{
 			position[]={12692.062,-7.7625438e-005,14203.148};
 			azimut=1581.11;
 			offsetY=2;
-			id=776;
+			id=773;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Boat Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_2"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_2""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item658
+		class Item655
 		{
 			position[]={12310.608,24.075102,15700.871};
 			azimut=1718.9;
 			offsetY=0.60000002;
-			id=777;
+			id=774;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_12";
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item659
+		class Item656
 		{
 			position[]={12582.957,34.08263,16396.037};
 			azimut=1712.0674;
-			id=778;
+			id=775;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;   this addAction[""Oil Trader"",life_fnc_virt_menu,""oil""];";
 		};
-		class Item660
+		class Item657
 		{
 			position[]={5379.7061,77.354805,17923.742};
 			azimut=1686.6;
-			id=779;
+			id=776;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Process Sand"",life_fnc_processAction,""sand"",0,false,false,"""",' life_inv_sand > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""sand"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""sand"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""sand"",0,false,false,"""",' !license_civ_sand && playerSide == civilian '];";
 		};
+		class Item658
+		{
+			position[]={14226.394,73.422005,21224.436};
+			azimut=1571.13;
+			id=777;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Reb Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
+		};
+		class Item659
+		{
+			position[]={14188.147,77.86972,21242.271};
+			azimut=1374;
+			id=778;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vendeur véhicule"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""reb_v_1"",""reb_v_1_1""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""reb_v_1"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item660
+		{
+			position[]={14179.288,77.528572,21248.561};
+			azimut=554.35529;
+			id=779;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
 		class Item661
 		{
-			position[]={9191.5234,14.349218,21680.949};
-			azimut=1439.7622;
+			position[]={14564.452,45.210701,20769.809};
+			azimut=1378.2118;
 			id=780;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			text="reb_1";
-			init="this enableSimulation false;  this allowDamage false;  this addAction[""Rebel Market"",life_fnc_virt_menu,""rebel""];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
+			text="dp_6";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
 		class Item662
 		{
-			position[]={9168.1709,14.4,21663.787};
-			azimut=1408.7329;
+			position[]={13799.872,20.002104,18928.27};
+			azimut=1181.3057;
 			id=781;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			text="reb_1_3";
-			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""reb_v_1"",""reb_v_1_1""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_2"",""cop"",""APD - Athira District""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_2""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  ";
 		};
 		class Item663
 		{
-			position[]={9179.2539,14.456507,21646.873};
+			position[]={13780.604,20.243921,18931.449};
 			azimut=319.44901;
 			id=782;
 			side="EMPTY";
@@ -9314,186 +9311,186 @@ class Mission
 		};
 		class Item664
 		{
-			position[]={14564.452,45.210701,20769.809};
-			azimut=1378.2118;
-			id=783;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			text="dp_6";
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
-		};
-		class Item665
-		{
-			position[]={13799.872,20.002104,18928.27};
-			azimut=1181.3057;
-			id=784;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_2"",""cop"",""APD - Athira District""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_2""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  ";
-		};
-		class Item666
-		{
-			position[]={13780.604,20.243921,18931.449};
-			azimut=319.44901;
-			id=785;
-			side="EMPTY";
-			vehicle="Land_JumpTarget_F";
-			skill=0.60000002;
-		};
-		class Item667
-		{
 			position[]={13820.558,20.433466,18987.377};
 			azimut=1075.7;
-			id=786;
+			id=783;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
 		};
-		class Item668
+		class Item665
 		{
 			position[]={14042.276,24.352072,18787.643};
 			azimut=1107.49;
 			offsetY=0.40000001;
-			id=787;
+			id=784;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
 		};
-		class Item669
+		class Item666
 		{
 			position[]={14034.358,25.381586,18759.514};
 			azimut=1021.6;
 			offsetY=0.40000001;
-			id=788;
+			id=785;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Car Shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_3"",""civ"",""Bruce's New & Used Auto's""]];";
 		};
-		class Item670
+		class Item667
 		{
 			position[]={14040.272,25.668865,18749.299};
 			azimut=319.44901;
-			id=789;
+			id=786;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item671
+		class Item668
 		{
 			position[]={14029.364,27.029491,18705.482};
 			azimut=126.47256;
 			offsetY=0.40000001;
-			id=790;
+			id=787;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_pilot && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""trucking"",0,false,false,"""",' !license_civ_trucking && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""home"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""home"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian '];";
 		};
-		class Item672
+		class Item669
 		{
 			position[]={13947.835,22.959564,18664.066};
 			azimut=227.11301;
 			offsetY=0.40000001;
-			id=791;
+			id=788;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""General Store"",life_fnc_weaponShopMenu,""genstore""];";
 		};
-		class Item673
+		class Item670
 		{
 			position[]={14075.389,23.418573,18559.908};
 			azimut=216.91852;
 			offsetY=0.40000001;
-			id=792;
+			id=789;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Clothing Store"",life_fnc_clothingMenu,""bruce""];";
 		};
-		class Item674
+		class Item671
 		{
 			position[]={14195.188,29.538452,18714.232};
 			azimut=216.91901;
 			offsetY=0.40000001;
-			id=793;
+			id=790;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_7";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item675
+		class Item672
 		{
 			position[]={14344.226,37.079636,18951.811};
 			azimut=321.931;
-			id=794;
+			id=791;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Process Diamond"",life_fnc_processAction,""diamond"",0,false,false,"""",' life_inv_diamondUncut > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""diamond"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""diamond"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""diamond"",0,false,false,"""",' !license_civ_diamond && playerSide == civilian '];";
 		};
-		class Item676
+		class Item673
 		{
 			position[]={5096.9561,50.373035,11267.577};
 			azimut=414.797;
-			id=795;
+			id=792;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_8";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item677
+		class Item674
 		{
 			position[]={5242.1304,78.907883,11515.863};
 			azimut=357.25;
-			id=796;
+			id=793;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Chop Shop"",life_fnc_chopShopMenu,""chop_shop_3""];";
 		};
-		class Item678
+		class Item675
 		{
 			position[]={14167.491,16.736931,16519.914};
 			azimut=135.05891;
 			offsetY=0.30000001;
-			id=797;
+			id=794;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Go-kart  Shop"",life_fnc_vehicleShopMenu,[""kart_shop"",civilian,""kart_shop_1"",""civ"",""Bobby's Kart Shack""]]; this addAction[""Clothing Store"",life_fnc_clothingMenu,""kart""];";
 		};
-		class Item679
+		class Item676
 		{
 			position[]={14160.891,19.158096,16299.641};
 			azimut=312.85251;
 			offsetY=0.30000001;
-			id=798;
+			id=795;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""]; this allowDamage false;  this enableSimulation false;  this allowDamage false;  this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""cop_airhq"",west,""cop_air_2"",""cop"",""APD - Air HQ""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_air_2""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item680
+		class Item677
 		{
 			position[]={14059.012,26.19157,18738.641};
 			azimut=395.73001;
-			id=799;
+			id=796;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";  createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_3"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item681
+		class Item678
 		{
 			position[]={14053.46,26.315992,18732.465};
+			azimut=319.44901;
+			id=797;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item679
+		{
+			position[]={14327.628,18.494049,17426.939};
+			azimut=359.29605;
+			id=798;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			text="Dealer_2";
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Drug Dealer"",life_fnc_virt_menu,""drugdealer"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; this addAction[""Question Dealer"",life_fnc_questionDealer,"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == west && !life_action_inUse '];";
+		};
+		class Item680
+		{
+			position[]={14259.372,19.363764,16302.652};
+			azimut=330.36899;
+			id=799;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_g_1"";  }]; this addAction[""Store vehicle in Garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item681
+		{
+			position[]={14173.021,19.525372,16289.193};
 			azimut=319.44901;
 			id=800;
 			side="EMPTY";
@@ -9502,37 +9499,36 @@ class Mission
 		};
 		class Item682
 		{
-			position[]={14327.628,18.494049,17426.939};
-			azimut=359.29605;
+			position[]={14268.808,19.374458,16290.115};
+			azimut=381.21524;
 			id=801;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			text="Dealer_2";
-			init="this enableSimulation false;  this allowDamage false;  this addAction[""Drug Dealer"",life_fnc_virt_menu,""drugdealer"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; this addAction[""Question Dealer"",life_fnc_questionDealer,"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == west && !life_action_inUse '];";
-		};
-		class Item683
-		{
-			position[]={14259.372,19.363764,16302.652};
-			azimut=330.36899;
-			id=802;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""air_g_1"";  }]; this addAction[""Store vehicle in Garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
-		};
-		class Item684
-		{
-			position[]={14173.021,19.525372,16289.193};
-			azimut=319.44901;
-			id=803;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
+		class Item683
+		{
+			position[]={14419.958,18.722603,16238.089};
+			azimut=182.134;
+			id=802;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Service Helicopter"",life_fnc_serviceChopper];";
+		};
+		class Item684
+		{
+			position[]={14678.159,17.91,16770.865};
+			azimut=357.75101;
+			id=803;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\achat_air.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_1"",""civ_air_1_2""],""civ"",""Carl's Airial Auto's""]];";
+		};
 		class Item685
 		{
-			position[]={14268.808,19.374458,16290.115};
+			position[]={14696.676,17.91,16745.27};
 			azimut=381.21524;
 			id=804;
 			side="EMPTY";
@@ -9541,513 +9537,514 @@ class Mission
 		};
 		class Item686
 		{
-			position[]={14419.958,18.722603,16238.089};
-			azimut=182.134;
-			id=805;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Service Helicopter"",life_fnc_serviceChopper];";
-		};
-		class Item687
-		{
-			position[]={14678.159,17.91,16770.865};
-			azimut=357.75101;
-			id=806;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\achat_air.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_1"",""civ_air_1_2""],""civ"",""Carl's Airial Auto's""]];";
-		};
-		class Item688
-		{
-			position[]={14696.676,17.91,16745.27};
-			azimut=381.21524;
-			id=807;
-			side="EMPTY";
-			vehicle="Land_JumpTarget_F";
-			skill=0.60000002;
-		};
-		class Item689
-		{
 			position[]={16340.937,24.977379,17266.52};
 			azimut=206.709;
 			offsetY=0.40000001;
-			id=808;
+			id=805;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Gun Store"",life_fnc_weaponShopMenu,""gun"",0,false,false,"""",' license_civ_gun && playerSide == civilian'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""gun"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""gun"",0,false,false,"""",' !license_civ_gun && playerSide == civilian '];";
 		};
-		class Item690
+		class Item687
 		{
 			position[]={17869.531,2.415127,18200.549};
 			azimut=36.167;
-			id=809;
+			id=806;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Diamond Trader"",life_fnc_virt_menu,""diamond""];";
 		};
-		class Item691
+		class Item688
 		{
 			position[]={17562.262,-0.00013725349,18903.643};
 			azimut=134.802;
 			offsetY=2;
-			id=810;
+			id=807;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Boat Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_3"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_3""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item692
+		class Item689
 		{
 			position[]={16578.426,14.270722,15989.038};
 			azimut=322.80289;
-			id=811;
+			id=808;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Cement Trader"",life_fnc_virt_menu,""cement""];";
 		};
-		class Item693
+		class Item690
 		{
 			position[]={16555.549,1.8341796,15550.503};
 			azimut=477.026;
-			id=812;
+			id=809;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Wong's Food Cart"",life_fnc_virt_menu,""wongs""];";
 		};
-		class Item694
+		class Item691
 		{
 			position[]={18067.861,22.520699,15194.737};
 			azimut=288.19601;
-			id=813;
+			id=810;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_19";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item695
+		class Item692
 		{
 			position[]={16547.84,11,12757.142};
 			azimut=218.25076;
-			id=814;
+			id=811;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
 		};
-		class Item696
+		class Item693
 		{
 			position[]={16598.135,11,12714.235};
 			azimut=180.89;
-			id=815;
+			id=812;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_3"",""cop"",""APD - Pygros District""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_3""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  ";
 		};
-		class Item697
+		class Item694
 		{
 			position[]={16595.867,11,12725.613};
 			azimut=381.21524;
-			id=816;
+			id=813;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item698
+		class Item695
 		{
 			position[]={16805.314,23.936947,12663.803};
 			azimut=87.296799;
-			id=817;
+			id=814;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_18";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item699
+		class Item696
 		{
 			position[]={16813.742,22.677994,12624.107};
 			azimut=180.55249;
 			offsetY=1.2;
-			id=818;
+			id=815;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""General Store"",life_fnc_weaponShopMenu,""genstore""];";
 		};
-		class Item700
+		class Item697
 		{
 			position[]={16993.309,16.328184,12867.079};
 			azimut=321.90399;
-			id=819;
+			id=816;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Car Shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_2"",""civ"",""Bruce's New & Used Auto's""]];";
 		};
-		class Item701
+		class Item698
 		{
 			position[]={16993.541,16.336458,12859.513};
 			azimut=381.21524;
-			id=820;
+			id=817;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item702
+		class Item699
 		{
 			position[]={16994.904,15.862409,12660.762};
 			azimut=200.63086;
 			offsetY=0.40000001;
-			id=821;
+			id=818;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_pilot && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""trucking"",0,false,false,"""",' !license_civ_trucking && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""home"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""home"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian '];";
 		};
-		class Item703
+		class Item700
 		{
 			position[]={17018.613,15.840043,12627.834};
 			azimut=134.549;
 			offsetY=0.60000002;
-			id=822;
+			id=819;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
 		};
-		class Item704
+		class Item701
 		{
 			position[]={18159.648,26.510897,12838.357};
 			azimut=134.549;
 			offsetY=0.40000001;
-			id=823;
+			id=820;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Truck Shop"",life_fnc_vehicleShopMenu,[""civ_truck"",civilian,[""civ_truck_2"",""civ_truck_2_1""],""civ"",""Bruce's New & Used Trucks""]];";
 		};
-		class Item705
+		class Item702
 		{
 			position[]={18145.029,26.476,12855.651};
 			azimut=381.21524;
-			id=824;
+			id=821;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item706
+		class Item703
 		{
 			position[]={22161.6,3.0777247,14480.747};
 			azimut=89.197998;
-			id=825;
+			id=822;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Pay Bail"",life_fnc_postBail,"""",0,false,false,"""",' isNil ""life_canpay_bail"" && life_is_arrested '];";
 		};
-		class Item707
+		class Item704
 		{
 			position[]={20884.611,2.7297704,14623.65};
 			azimut=88.391197;
-			id=826;
+			id=823;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="Dealer_3";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Drug Dealer"",life_fnc_virt_menu,""drugdealer"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian ']; this addAction[""Question Dealer"",life_fnc_questionDealer,"""",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == west && !life_action_inUse '];";
 		};
-		class Item708
+		class Item705
 		{
 			position[]={8639.958,180.91931,18281.342};
 			azimut=157.664;
-			id=827;
+			id=824;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_3";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item709
-		{
-			position[]={20078.805,100.96826,6745.0688};
-			azimut=-9.6395397;
-			id=828;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			text="reb_1_2";
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Rebel Market"",life_fnc_virt_menu,""rebel""];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
-		};
-		class Item710
+		class Item706
 		{
 			position[]={21652.992,16.104116,7536.9795};
 			azimut=83.681801;
-			id=829;
+			id=825;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_24";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item711
+		class Item707
 		{
 			position[]={20490.021,32.7644,8806.6729};
 			azimut=253.522;
-			id=830;
+			id=826;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_23";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item712
+		class Item708
 		{
 			position[]={19970.625,59.632374,11422.404};
 			azimut=233.283;
-			id=831;
+			id=827;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_22";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item713
+		class Item709
 		{
 			position[]={19410.33,40.132172,13218.901};
 			azimut=293.52802;
-			id=832;
+			id=828;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_21";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item714
+		class Item710
 		{
 			position[]={20785.518,36.062714,6769.3188};
 			azimut=355.56601;
-			id=833;
+			id=829;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_25";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item715
+		class Item711
 		{
 			position[]={17487.102,12.866293,13271.873};
 			azimut=137.39961;
-			id=834;
+			id=830;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""mAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""mAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""mAir"",0,false,false,"""",' !license_med_mAir && playerSide == independent '];  this addAction[""EMS Item Shop"",life_fnc_weaponShopMenu,""med_basic""];  this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""med_shop"",independent,""med_car_2"",""med"",""Kavala Hosptial""]];  this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""medic_spawn_3"",""med"",""Kavala Hosptial""]];  this addAction[""Car Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_car_2""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == independent'];  this addAction[""Helicopter Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""medic_spawn_3""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == independent '];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item716
+		class Item712
 		{
 			position[]={17471.307,12.81845,13280.768};
 			azimut=381.21524;
-			id=835;
+			id=831;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item717
+		class Item713
 		{
 			position[]={15573.693,18.491528,17202.154};
 			azimut=381.21524;
-			id=836;
+			id=832;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item718
+		class Item714
 		{
 			position[]={15590.987,18.542706,17191.637};
 			azimut=135.032;
-			id=837;
+			id=833;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""mAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""mAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""mAir"",0,false,false,"""",' !license_med_mAir && playerSide == independent '];  this addAction[""EMS Item Shop"",life_fnc_weaponShopMenu,""med_basic""];  this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""med_shop"",independent,""med_car_3"",""med"",""Kavala Hosptial""]];  this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""med_air_hs"",independent,""medic_spawn_2"",""med"",""Kavala Hosptial""]];  this addAction[""Car Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""med_car_3""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == independent'];  this addAction[""Helicopter Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""medic_spawn_2""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == independent '];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item719
+		class Item715
 		{
 			position[]={10394.494,123.80643,19065.453};
 			azimut=287.54099;
-			id=838;
+			id=834;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_5";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item720
+		class Item716
 		{
 			position[]={19028.818,23.678829,14554.222};
 			azimut=364.47501;
-			id=839;
+			id=835;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Chop Shop"",life_fnc_chopShopMenu,""chop_shop_4""];";
 		};
-		class Item721
+		class Item717
 		{
 			position[]={19314.387,21.272089,16543.719};
 			azimut=182.18201;
-			id=840;
+			id=836;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Process Rock"",life_fnc_processAction,""cement"",0,false,false,"""",' life_inv_rock > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cement"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cement"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cement"",0,false,false,"""",' !license_civ_cement && playerSide == civilian '];";
 		};
-		class Item722
+		class Item718
 		{
 			position[]={18815.219,31.746578,16641.303};
 			azimut=329.716;
-			id=841;
+			id=837;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_13";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item723
+		class Item719
 		{
 			position[]={21384.064,22.012203,16413.598};
 			azimut=164.90869;
-			id=842;
+			id=838;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_15";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item724
+		class Item720
 		{
 			position[]={20948.398,42.996769,16965.02};
 			azimut=280.92599;
-			id=843;
+			id=839;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_14";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item725
+		class Item721
 		{
 			position[]={20695.439,4.5480075,19466.932};
 			azimut=402.49399;
-			id=844;
+			id=840;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Salt Trader"",life_fnc_virt_menu,""salt""];";
 		};
-		class Item726
+		class Item722
 		{
 			position[]={23521.91,12.897735,19941.965};
 			azimut=322.52499;
-			id=845;
+			id=841;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_5"",""cop"",""APD - Highway Patrol""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_5""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  ";
 		};
-		class Item727
+		class Item723
 		{
 			position[]={23540.006,13.284929,19956.596};
 			azimut=367.16699;
-			id=846;
+			id=842;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
 		};
-		class Item728
+		class Item724
 		{
 			position[]={23526.709,12.946592,19936.727};
 			azimut=381.21524;
-			id=847;
+			id=843;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item729
+		class Item725
 		{
 			position[]={23645.063,51.126835,21801.08};
 			azimut=411.172;
-			id=848;
+			id=844;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Process Heroin"",life_fnc_processAction,""heroin"",0,false,false,"""",' life_inv_heroinUnprocessed > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""heroin"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""heroin"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""heroin"",0,false,false,"""",' !license_civ_heroin && playerSide == civilian '];";
 		};
-		class Item730
+		class Item726
 		{
 			position[]={25574.264,19.704649,21312.158};
 			azimut=584.53998;
 			offsetY=0.40000001;
-			id=849;
+			id=845;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Market"",life_fnc_virt_menu,""market""];";
 		};
-		class Item731
+		class Item727
 		{
 			position[]={24655.758,17.869879,23160.926};
 			azimut=681.30798;
-			id=850;
+			id=846;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Chop Shop"",life_fnc_chopShopMenu,""chop_shop_2""];";
 		};
-		class Item732
+		class Item728
 		{
 			position[]={25641.221,19.614389,21308.516};
 			azimut=681.30798;
-			id=851;
+			id=847;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_16";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item733
+		class Item729
 		{
 			position[]={25665.773,19.314487,21296.877};
 			azimut=490.87201;
 			offsetY=0.40000001;
-			id=852;
+			id=848;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Clothing Store"",life_fnc_clothingMenu,""bruce""];";
 		};
-		class Item734
+		class Item730
 		{
 			position[]={25724.348,18.160028,21275.123};
 			azimut=405.12299;
-			id=853;
+			id=849;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;  life_garage_type = ""Car""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_2"";  }]; this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item735
+		class Item731
 		{
 			position[]={25708.926,18.167265,21261.193};
+			azimut=381.21524;
+			id=850;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item732
+		{
+			position[]={25780.09,20.222782,21352.625};
+			azimut=496.53601;
+			offsetY=0.40000001;
+			id=851;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""General Store"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item733
+		{
+			position[]={25802.146,20.75481,21408.914};
+			azimut=316.85699;
+			offsetY=0.40000001;
+			id=852;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_pilot && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""trucking"",0,false,false,"""",' !license_civ_trucking && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""home"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""home"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian '];";
+		};
+		class Item734
+		{
+			position[]={25831.434,20.897461,21446.285};
+			azimut=450.103;
+			id=853;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Car Shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_4"",""civ"",""Bruce's New & Used Auto's""]];";
+		};
+		class Item735
+		{
+			position[]={25821.152,21.363829,21446.574};
 			azimut=381.21524;
 			id=854;
 			side="EMPTY";
@@ -10056,100 +10053,99 @@ class Mission
 		};
 		class Item736
 		{
-			position[]={25780.09,20.222782,21352.625};
-			azimut=496.53601;
-			offsetY=0.40000001;
-			id=855;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;  this addAction[""General Store"",life_fnc_weaponShopMenu,""genstore""];";
-		};
-		class Item737
-		{
-			position[]={25802.146,20.75481,21408.914};
-			azimut=316.85699;
-			offsetY=0.40000001;
-			id=856;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""driver"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""boat"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""pilot"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_pilot && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""trucking"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""trucking"",0,false,false,"""",' !license_civ_trucking && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""home"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""home"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian '];";
-		};
-		class Item738
-		{
-			position[]={25831.434,20.897461,21446.285};
-			azimut=450.103;
-			id=857;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Car Shop"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_4"",""civ"",""Bruce's New & Used Auto's""]];";
-		};
-		class Item739
-		{
-			position[]={25821.152,21.363829,21446.574};
-			azimut=381.21524;
-			id=858;
-			side="EMPTY";
-			vehicle="Land_JumpTarget_F";
-			skill=0.60000002;
-		};
-		class Item740
-		{
 			position[]={26975.51,20.030468,23262.848};
 			azimut=505.92599;
-			id=859;
+			id=855;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_17";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item741
+		class Item737
 		{
 			position[]={26849.637,24.083897,24593.389};
 			azimut=351.78101;
-			id=860;
+			id=856;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""civ_air"",civilian,[""civ_air_2"",""civ_air_2_1""],""civ"",""Carl's Airial Auto's""]];";
 		};
-		class Item742
+		class Item738
 		{
 			position[]={26868.697,24.432911,24567.611};
 			azimut=381.21524;
-			id=861;
+			id=857;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item743
+		class Item739
 		{
 			position[]={27363.07,6.3457274,24467.379};
 			azimut=412.78299;
-			id=862;
+			id=858;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Process Salt"",life_fnc_processAction,""salt"",0,false,false,"""",' life_inv_saltUnrefined > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""salt"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""salt"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""salt"",0,false,false,"""",' !license_civ_salt && playerSide == civilian '];";
 		};
-		class Item744
+		class Item740
 		{
 			position[]={28307.896,14.878191,25769.248};
 			azimut=412.78299;
-			id=863;
+			id=859;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="dp_20";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Deliver Package"",life_fnc_dpFinish,""dp_1"",0,false,false,"""",'!isNil ""life_dp_point"" && life_delivery_in_progress && life_dp_point == _target '];  this addAction[""Get Delivery Mission"",life_fnc_getDPMission,""dp_1"",0,false,false,"""",' isNil ""life_dp_point"" && !life_delivery_in_progress '];";
 		};
-		class Item745
+		class Item741
 		{
 			position[]={4337.1626,31.932598,13939.31};
 			azimut=149.95892;
+			id=860;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item742
+		{
+			position[]={25834.943,20.721798,21446.354};
+			azimut=89.42942;
+			id=861;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item743
+		{
+			position[]={25728.076,18.258442,21278.518};
+			azimut=47.379105;
+			id=862;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item744
+		{
+			position[]={16553.977,11,12738.561};
+			azimut=60.729565;
+			id=863;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item745
+		{
+			position[]={16601.373,11,12713.982};
+			azimut=-9.9355526;
 			id=864;
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
@@ -10158,8 +10154,8 @@ class Mission
 		};
 		class Item746
 		{
-			position[]={25834.943,20.721798,21446.354};
-			azimut=89.42942;
+			position[]={16669.164,15.316319,12737.151};
+			azimut=-3.2980821;
 			id=865;
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
@@ -10168,8 +10164,8 @@ class Mission
 		};
 		class Item747
 		{
-			position[]={25728.076,18.258442,21278.518};
-			azimut=47.379105;
+			position[]={16821.311,22.568926,12712.265};
+			azimut=29.170652;
 			id=866;
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
@@ -10178,8 +10174,8 @@ class Mission
 		};
 		class Item748
 		{
-			position[]={16553.977,11,12738.561};
-			azimut=60.729565;
+			position[]={14156.23,77.259476,21241.705};
+			azimut=-178.77673;
 			id=867;
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
@@ -10188,48 +10184,47 @@ class Mission
 		};
 		class Item749
 		{
-			position[]={16601.373,11,12713.982};
-			azimut=-9.9355526;
+			position[]={3762.5366,10.851081,13368.365};
+			azimut=28.100599;
 			id=868;
 			side="EMPTY";
-			vehicle="Land_LampDecor_F";
+			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this allowDamage false;";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_1"",""dep_v_1_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",'license_civ_dep']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item750
 		{
-			position[]={16669.164,15.316319,12737.151};
-			azimut=-3.2980821;
+			position[]={15168.324,17.91,17258.035};
+			azimut=-48.5658;
 			id=869;
 			side="EMPTY";
-			vehicle="Land_LampDecor_F";
+			vehicle="SignAd_Sponsor_F";
+			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false;";
+			init="this setObjectTexture [0, ""\aurore_data2\data\parrain.jpg""]; this allowDamage false;this enableSimulation false; this addAction[""Parrain Vehicle Shop"",life_fnc_vehicleShopMenu,[""parrain_car"",civilian,[""donator_2"",""donator_2_1""],""civ"",""Shop Car Parrain""],0,false,false,"""",'license_civ_parrain'];";
 		};
 		class Item751
 		{
-			position[]={16821.311,22.568926,12712.265};
-			azimut=29.170652;
+			position[]={15190.048,17.91,17254.9};
+			azimut=319.44901;
 			id=870;
 			side="EMPTY";
-			vehicle="Land_LampDecor_F";
+			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
-			init="this allowDamage false;";
 		};
 		class Item752
 		{
-			position[]={12293.535,123.56027,8932.3213};
-			azimut=12.129203;
+			position[]={15160.662,17.91,17253.15};
+			azimut=319.44901;
 			id=871;
 			side="EMPTY";
-			vehicle="Land_LampDecor_F";
+			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
-			init="this allowDamage false;";
 		};
 		class Item753
 		{
-			position[]={9180.2998,14.345048,21677.727};
-			azimut=-32.246338;
+			position[]={15172.149,17.91,17264.545};
+			azimut=-46.818169;
 			id=872;
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
@@ -10238,1013 +10233,1698 @@ class Mission
 		};
 		class Item754
 		{
-			position[]={3762.5366,10.851081,13368.365};
-			azimut=28.100599;
-			id=873;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_1"",""dep_v_1_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",'license_civ_dep']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
-		};
-		class Item755
-		{
-			position[]={15168.324,17.91,17258.035};
-			azimut=-48.5658;
-			id=874;
-			side="EMPTY";
-			vehicle="SignAd_Sponsor_F";
-			leader=1;
-			skill=0.60000002;
-			init="this setObjectTexture [0, ""\aurore_data2\data\parrain.jpg""]; this allowDamage false;this enableSimulation false; this addAction[""Parrain Vehicle Shop"",life_fnc_vehicleShopMenu,[""parrain_car"",civilian,[""donator_2"",""donator_2_1""],""civ"",""Shop Car Parrain""],0,false,false,"""",'license_civ_parrain'];";
-		};
-		class Item756
-		{
-			position[]={15190.048,17.91,17254.9};
-			azimut=319.44901;
-			id=875;
-			side="EMPTY";
-			vehicle="Land_JumpTarget_F";
-			skill=0.60000002;
-		};
-		class Item757
-		{
-			position[]={15160.662,17.91,17253.15};
-			azimut=319.44901;
-			id=876;
-			side="EMPTY";
-			vehicle="Land_JumpTarget_F";
-			skill=0.60000002;
-		};
-		class Item758
-		{
-			position[]={15172.149,17.91,17264.545};
-			azimut=-46.818169;
-			id=877;
-			side="EMPTY";
-			vehicle="Land_LampDecor_F";
-			skill=0.60000002;
-			init="this allowDamage false;";
-		};
-		class Item759
-		{
 			position[]={15170.475,17.91,17260.328};
 			azimut=309.82199;
-			id=878;
+			id=873;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\garage_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Votre garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""car_g_donator"";  }];  this addAction[""Mettre le véhicule dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item760
+		class Item755
 		{
 			position[]={15173.071,17.91,17263.584};
 			azimut=309.82199;
-			id=879;
+			id=874;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\achat_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Véhicules Donateur"",life_fnc_vehicleShopMenu,[""donator"",civilian,[""donator_1"",""donator_1_1""],""civ"",""Véhicules Donateur""],0,false,false,"""",'license_civ_civdonator'];";
 		};
-		class Item761
+		class Item756
 		{
 			position[]={15175.944,17.91,17266.723};
 			azimut=309.82199;
-			id=880;
+			id=875;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Armurerie Donateur"",life_fnc_weaponShopMenu,""donator"",0,false,false,"""",' license_civ_civdonator && playerSide == civilian'];";
 		};
-		class Item762
+		class Item757
 		{
 			position[]={15050.03,14.562764,17488.234};
 			azimut=-45.941868;
-			id=881;
+			id=876;
 			side="EMPTY";
 			vehicle="Land_Offices_01_V1_F";
 			skill=0.60000002;
 			text="Bureau";
 			init="this allowDamage false;";
 		};
-		class Item763
+		class Item758
 		{
 			position[]={15081.689,15.120764,17489.928};
 			azimut=45.922703;
-			id=882;
+			id=877;
 			side="EMPTY";
 			vehicle="Land_FuelStation_Shed_F";
 			skill=0.60000002;
 			text="Toit";
 			init="this allowDamage false;";
 		};
-		class Item764
+		class Item759
 		{
 			position[]={15048.891,15.215354,17456.359};
 			azimut=42.848156;
-			id=883;
+			id=878;
 			side="EMPTY";
 			vehicle="Land_FuelStation_Shed_F";
 			skill=0.60000002;
 			text="Toit_1";
 			init="this allowDamage false;";
 		};
-		class Item765
+		class Item760
 		{
 			position[]={15076.868,14.932623,17498.961};
 			azimut=-135.24989;
-			id=884;
+			id=879;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur";
 			init="this allowDamage false;";
 		};
-		class Item766
+		class Item761
 		{
 			position[]={15073.129,14.788244,17502.688};
 			azimut=-135.24989;
-			id=885;
+			id=880;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1";
 		};
-		class Item767
+		class Item762
 		{
 			position[]={15069.4,14.623928,17506.398};
 			azimut=-135.24989;
-			id=886;
+			id=881;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_2";
 		};
-		class Item768
+		class Item763
 		{
 			position[]={15065.662,14.437232,17510.135};
 			azimut=-135.24989;
-			id=887;
+			id=882;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_1";
 		};
-		class Item769
+		class Item764
 		{
 			position[]={15062.042,14.281025,17513.758};
 			azimut=-134.35861;
-			id=888;
+			id=883;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_3";
 		};
-		class Item770
+		class Item765
 		{
 			position[]={15024.606,14.131885,17475.543};
 			azimut=43.751415;
-			id=889;
+			id=884;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_4";
 		};
-		class Item771
+		class Item766
 		{
 			position[]={15028.404,14.437049,17471.883};
 			azimut=43.751415;
-			id=890;
+			id=885;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_2";
 		};
-		class Item772
+		class Item767
 		{
 			position[]={15032.206,14.718916,17468.201};
 			azimut=43.751415;
-			id=891;
+			id=886;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_2_1";
 		};
-		class Item773
+		class Item768
 		{
 			position[]={15036.004,14.924536,17464.563};
 			azimut=43.751415;
-			id=892;
+			id=887;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_1_1";
 		};
-		class Item774
+		class Item769
 		{
 			position[]={15039.796,15.083954,17460.932};
 			azimut=43.751415;
-			id=893;
+			id=888;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_3_1";
 		};
-		class Item775
+		class Item770
 		{
 			position[]={15058.359,14.179843,17513.813};
 			azimut=-225.2037;
-			id=894;
+			id=889;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_5";
 		};
-		class Item776
+		class Item771
 		{
 			position[]={15054.571,14.107227,17510.051};
 			azimut=-226.09499;
-			id=895;
+			id=890;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_3";
 		};
-		class Item777
+		class Item772
 		{
 			position[]={15050.913,14.040616,17506.248};
 			azimut=-226.09499;
-			id=896;
+			id=891;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_2_2";
 		};
-		class Item778
+		class Item773
 		{
 			position[]={15047.236,14.032969,17502.451};
 			azimut=-226.09499;
-			id=897;
+			id=892;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_1_2";
 		};
-		class Item779
+		class Item774
 		{
 			position[]={15041.282,14.034131,17496.354};
 			azimut=-226.09499;
-			id=898;
+			id=893;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_3_2";
 		};
-		class Item780
+		class Item775
 		{
 			position[]={15039.315,14.035948,17494.244};
 			azimut=-225.42877;
-			id=899;
+			id=894;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_6";
 		};
-		class Item781
+		class Item776
 		{
 			position[]={15035.596,14.005693,17490.488};
 			azimut=-225.42877;
-			id=900;
+			id=895;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_4";
 		};
-		class Item782
+		class Item777
 		{
 			position[]={15031.896,14.024941,17486.746};
 			azimut=-225.42877;
-			id=901;
+			id=896;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_2_3";
 		};
-		class Item783
+		class Item778
 		{
 			position[]={15028.174,14.028237,17483};
 			azimut=-225.42877;
-			id=902;
+			id=897;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_1_3";
 		};
-		class Item784
+		class Item779
 		{
 			position[]={15024.483,14.022698,17479.26};
 			azimut=-225.42877;
-			id=903;
+			id=898;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_3_3";
 		};
-		class Item785
+		class Item780
 		{
 			position[]={15043.578,14.050679,17498.691};
 			azimut=-226.09499;
-			id=904;
+			id=899;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_3_2_1";
 		};
-		class Item786
+		class Item781
 		{
 			position[]={15032.517,15.18456,17448.783};
 			azimut=-225.41719;
-			id=905;
+			id=900;
 			side="EMPTY";
 			vehicle="Land_Crash_barrier_F";
 			skill=0.60000002;
 			text="Protection";
 			init="this allowDamage false;";
 		};
-		class Item787
+		class Item782
 		{
 			position[]={15045.148,15.250102,17452.508};
 			azimut=-46.739014;
-			id=906;
+			id=901;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation";
 		};
-		class Item788
+		class Item783
 		{
 			position[]={15037.284,15.178493,17453.592};
 			azimut=-225.41719;
-			id=907;
+			id=902;
 			side="EMPTY";
 			vehicle="Land_Crash_barrier_F";
 			skill=0.60000002;
 			text="Protection_1";
 			init="this allowDamage false;";
 		};
-		class Item789
+		class Item784
 		{
 			position[]={15041.675,15.247526,17448.809};
 			azimut=-46.739014;
-			id=908;
+			id=903;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1";
 		};
-		class Item790
+		class Item785
 		{
 			position[]={15038.161,15.262135,17445.063};
 			azimut=-46.739014;
-			id=909;
+			id=904;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_1";
 		};
-		class Item791
+		class Item786
 		{
 			position[]={15051.413,15.262586,17449.475};
 			azimut=-407.24701;
-			id=910;
+			id=905;
 			side="EMPTY";
 			vehicle="Land_Crash_barrier_F";
 			skill=0.60000002;
 			text="Protection_2";
 			init="this allowDamage false;";
 		};
-		class Item792
+		class Item787
 		{
 			position[]={15046.796,15.28394,17444.523};
 			azimut=-407.24701;
-			id=911;
+			id=906;
 			side="EMPTY";
 			vehicle="Land_Crash_barrier_F";
 			skill=0.60000002;
 			text="Protection_1_1";
 			init="this allowDamage false;";
 		};
-		class Item793
+		class Item788
 		{
 			position[]={15098.203,15.181457,17497.111};
 			azimut=-405.01007;
-			id=912;
+			id=907;
 			side="EMPTY";
 			vehicle="Land_Crash_barrier_F";
 			skill=0.60000002;
 			text="Protection_2_1";
 			init="this allowDamage false;";
 		};
-		class Item794
+		class Item789
 		{
 			position[]={15093.391,15.168897,17492.344};
 			azimut=-405.01007;
-			id=913;
+			id=908;
 			side="EMPTY";
 			vehicle="Land_Crash_barrier_F";
 			skill=0.60000002;
 			text="Protection_1_1_1";
 			init="this allowDamage false;";
 		};
-		class Item795
+		class Item790
 		{
 			position[]={15080.161,15.016085,17497.172};
 			azimut=-221.88637;
-			id=914;
+			id=909;
 			side="EMPTY";
 			vehicle="Land_Crash_barrier_F";
 			skill=0.60000002;
 			text="Protection_3";
 			init="this allowDamage false;";
 		};
-		class Item796
+		class Item791
 		{
 			position[]={15085.22,15.012226,17501.674};
 			azimut=-221.88637;
-			id=915;
+			id=910;
 			side="EMPTY";
 			vehicle="Land_Crash_barrier_F";
 			skill=0.60000002;
 			text="Protection_1_2";
 			init="this allowDamage false;";
 		};
-		class Item797
+		class Item792
 		{
 			position[]={15093.086,15.117222,17501.074};
 			azimut=-43.705612;
-			id=916;
+			id=911;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_2";
 		};
-		class Item798
+		class Item793
 		{
 			position[]={15089.927,15.124491,17497.955};
 			azimut=-43.705612;
-			id=917;
+			id=912;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_2";
 		};
-		class Item799
+		class Item794
 		{
 			position[]={15086.254,15.110605,17494.416};
 			azimut=-43.705612;
-			id=918;
+			id=913;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_2";
 		};
-		class Item800
+		class Item795
 		{
 			position[]={15054.461,15.258447,17447.779};
 			azimut=43.751415;
-			id=919;
+			id=914;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_4_1";
 		};
-		class Item801
+		class Item796
 		{
 			position[]={15058.259,15.243439,17444.119};
 			azimut=43.751415;
-			id=920;
+			id=915;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_2_1";
 		};
-		class Item802
+		class Item797
 		{
 			position[]={15062.061,15.213508,17440.438};
 			azimut=43.751415;
-			id=921;
+			id=916;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_2_1_1";
 		};
-		class Item803
+		class Item798
 		{
 			position[]={15065.855,15.196433,17439.758};
 			azimut=-45.678379;
-			id=922;
+			id=917;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_1_1_1";
 		};
-		class Item804
+		class Item799
 		{
 			position[]={15084.243,15.200457,17458.775};
 			azimut=-45.184696;
-			id=923;
+			id=918;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_3_1_1";
 		};
-		class Item805
+		class Item800
 		{
 			position[]={15098.156,15.196494,17477.986};
 			azimut=-135.24989;
-			id=924;
+			id=919;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_2_4";
 		};
-		class Item806
+		class Item801
 		{
 			position[]={15094.418,15.2,17481.725};
 			azimut=-135.24989;
-			id=925;
+			id=920;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_1_4";
 		};
-		class Item807
+		class Item802
 		{
 			position[]={15090.688,15.192203,17485.424};
 			azimut=-135.24989;
-			id=926;
+			id=921;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_3_4";
 		};
-		class Item808
+		class Item803
 		{
 			position[]={15043.772,15.12457,17461.211};
 			azimut=221.91695;
-			id=927;
+			id=922;
 			side="EMPTY";
 			vehicle="Land_BarGate_F";
 			skill=0.60000002;
 			init="this allowDamage false;";
 		};
-		class Item809
+		class Item804
 		{
 			position[]={15054.622,15.256598,17452.07};
 			azimut=403.90399;
-			id=928;
+			id=923;
 			side="EMPTY";
 			vehicle="Land_BarGate_F";
 			skill=0.60000002;
 			init="this allowDamage false;";
 		};
-		class Item810
+		class Item805
 		{
 			position[]={15076.537,14.986109,17494.932};
 			azimut=225.593;
-			id=929;
+			id=924;
 			side="EMPTY";
 			vehicle="Land_BarGate_F";
 			skill=0.60000002;
 			init="this allowDamage false;";
 		};
-		class Item811
+		class Item806
 		{
 			position[]={15087.051,15.175342,17485.02};
 			azimut=405.12399;
-			id=930;
+			id=925;
 			side="EMPTY";
 			vehicle="Land_BarGate_F";
 			skill=0.60000002;
 			init="this allowDamage false;";
 		};
-		class Item812
+		class Item807
 		{
 			position[]={15087.944,15.197089,17462.658};
 			azimut=-45.973995;
-			id=931;
+			id=926;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_7_1";
 		};
-		class Item813
+		class Item808
 		{
 			position[]={15091.483,15.200254,17466.547};
 			azimut=-45.973995;
-			id=932;
+			id=927;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_5_1";
 		};
-		class Item814
+		class Item809
 		{
 			position[]={15095.265,15.19091,17470.473};
 			azimut=-45.973995;
-			id=933;
+			id=928;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_2_4_1";
 		};
-		class Item815
+		class Item810
 		{
 			position[]={15098.945,15.189751,17474.365};
 			azimut=-45.973995;
-			id=934;
+			id=929;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_1_4_1";
 		};
-		class Item816
+		class Item811
 		{
 			position[]={15080.541,15.204225,17454.896};
 			azimut=-45.773609;
-			id=935;
+			id=930;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_7_1_1";
 		};
-		class Item817
+		class Item812
 		{
 			position[]={15069.479,15.204329,17443.545};
 			azimut=-45.773609;
-			id=936;
+			id=931;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_5_1_1";
 		};
-		class Item818
+		class Item813
 		{
 			position[]={15073.168,15.206531,17447.301};
 			azimut=-45.773609;
-			id=937;
+			id=932;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_2_4_1_1";
 		};
-		class Item819
+		class Item814
 		{
 			position[]={15076.846,15.206864,17451.063};
 			azimut=-45.773609;
-			id=938;
+			id=933;
 			side="EMPTY";
 			vehicle="Land_CncWall4_F";
 			skill=0.60000002;
 			text="PosteMur_1_1_4_1_1";
 		};
-		class Item820
+		class Item815
 		{
 			position[]={15064.171,15.22573,17444.41};
 			azimut=42.053318;
-			id=939;
+			id=934;
 			side="EMPTY";
 			vehicle="Land_Cargo_Patrol_V3_F";
 			skill=0.60000002;
 			text="Mirador";
 			init="this allowDamage false;";
 		};
-		class Item821
+		class Item816
 		{
 			position[]={15080.751,15.178096,17479.717};
 			azimut=-46.853947;
-			id=940;
+			id=935;
 			side="EMPTY";
 			vehicle="Land_PipeWall_concretel_8m_F";
 			skill=0.60000002;
 			text="cloture";
 			init="this allowDamage false;";
 		};
-		class Item822
+		class Item817
 		{
 			position[]={15093.961,15.203683,17475.775};
 			azimut=224.00623;
-			id=941;
+			id=936;
 			side="EMPTY";
 			vehicle="Land_Cargo_Patrol_V3_F";
 			skill=0.60000002;
 			text="Mirador_1";
 			init="this allowDamage false;";
 		};
-		class Item823
+		class Item818
 		{
 			position[]={15075.249,15.194171,17473.873};
 			azimut=-46.853947;
-			id=942;
+			id=937;
 			side="EMPTY";
 			vehicle="Land_PipeWall_concretel_8m_F";
 			skill=0.60000002;
 			text="cloture_1";
 			init="this allowDamage false;";
 		};
-		class Item824
+		class Item819
 		{
 			position[]={15059.137,15.23551,17457.502};
 			azimut=-46.853947;
-			id=943;
+			id=938;
 			side="EMPTY";
 			vehicle="Land_PipeWall_concretel_8m_F";
 			skill=0.60000002;
 			text="cloture_1_1";
 			init="this allowDamage false;";
 		};
-		class Item825
+		class Item820
 		{
 			position[]={15064.606,15.217177,17463.383};
 			azimut=-46.853947;
-			id=944;
+			id=939;
 			side="EMPTY";
 			vehicle="Land_PipeWall_concretel_8m_F";
 			skill=0.60000002;
 			text="cloture_1_1_1";
 			init="this allowDamage false;";
 		};
-		class Item826
+		class Item821
 		{
 			position[]={15068.243,15.228119,17465.221};
 			azimut=-137.42271;
-			id=945;
+			id=940;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_3";
 		};
-		class Item827
+		class Item822
 		{
 			position[]={15070.076,15.232502,17463.516};
 			azimut=-137.42271;
-			id=946;
+			id=941;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_4";
 		};
-		class Item828
+		class Item823
 		{
 			position[]={15073.83,15.203284,17470.119};
 			azimut=-137.42271;
-			id=947;
+			id=942;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_3_1";
 		};
-		class Item829
+		class Item824
 		{
 			position[]={15075.664,15.215452,17468.414};
 			azimut=-137.42271;
-			id=948;
+			id=943;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_4_1";
 		};
-		class Item830
+		class Item825
 		{
 			position[]={15077.455,15.194843,17473.822};
 			azimut=-137.42271;
-			id=949;
+			id=944;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_3_1_1";
 		};
-		class Item831
+		class Item826
 		{
 			position[]={15079.329,15.199664,17472.08};
 			azimut=-137.42271;
-			id=950;
+			id=945;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_4_1_1";
 		};
-		class Item832
+		class Item827
 		{
 			position[]={15084.398,15.186409,17481.49};
 			azimut=-137.42271;
-			id=951;
+			id=946;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_3_1_1_1";
 		};
-		class Item833
+		class Item828
 		{
 			position[]={15086.232,15.193577,17479.783};
 			azimut=-137.42271;
-			id=952;
+			id=947;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_4_1_1_1";
 		};
-		class Item834
+		class Item829
 		{
 			position[]={15080.928,15.184683,17477.602};
 			azimut=-137.42271;
-			id=953;
+			id=948;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_3_1_1_2";
 		};
-		class Item835
+		class Item830
 		{
 			position[]={15082.762,15.19785,17475.938};
 			azimut=-137.42271;
-			id=954;
+			id=949;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_4_1_1_2";
 		};
-		class Item836
+		class Item831
 		{
 			position[]={15064.943,15.234321,17461.107};
 			azimut=-137.42271;
-			id=955;
+			id=950;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_3_2";
 		};
-		class Item837
+		class Item832
 		{
 			position[]={15066.776,15.248072,17459.4};
 			azimut=-137.42271;
-			id=956;
+			id=951;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_4_2";
 		};
-		class Item838
+		class Item833
 		{
 			position[]={15057.509,15.246427,17453.791};
 			azimut=-137.42271;
-			id=957;
+			id=952;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_3_3";
 		};
-		class Item839
+		class Item834
 		{
 			position[]={15059.343,15.250323,17452.086};
 			azimut=-137.42271;
-			id=958;
+			id=953;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_4_3";
 		};
-		class Item840
+		class Item835
 		{
 			position[]={15061.54,15.235991,17457.752};
 			azimut=-137.42271;
-			id=959;
+			id=954;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_3_4";
 		};
-		class Item841
+		class Item836
 		{
 			position[]={15063.373,15.240537,17456.047};
 			azimut=-137.42271;
-			id=960;
+			id=955;
 			side="EMPTY";
 			vehicle="Land_CncBarrier_stripes_F";
 			skill=0.60000002;
 			text="Signalisation_1_1_1_4_4";
 		};
-		class Item842
+		class Item837
 		{
 			position[]={15031.677,15.196399,17447.748};
 			azimut=44.585251;
-			id=961;
+			id=956;
 			side="EMPTY";
 			vehicle="Land_LampStreet_small_F";
 			skill=0.60000002;
 			text="Lampadaire";
 			init="this allowDamage false;";
 		};
-		class Item843
+		class Item838
 		{
 			position[]={15040.825,15.277123,17438.578};
 			azimut=44.585251;
-			id=962;
+			id=957;
 			side="EMPTY";
 			vehicle="Land_LampStreet_small_F";
 			skill=0.60000002;
 			text="Lampadaire_1";
 			init="this allowDamage false;";
 		};
-		class Item844
+		class Item839
 		{
 			position[]={15048.74,15.103633,17465.199};
 			azimut=44.585251;
-			id=963;
+			id=958;
 			side="EMPTY";
 			vehicle="Land_LampStreet_small_F";
 			skill=0.60000002;
 			text="Lampadaire_1_1";
 			init="this allowDamage false;";
 		};
-		class Item845
+		class Item840
 		{
 			position[]={15072.888,15.012942,17489.707};
 			azimut=44.585251;
-			id=964;
+			id=959;
 			side="EMPTY";
 			vehicle="Land_LampStreet_small_F";
 			skill=0.60000002;
 			text="Lampadaire_1_2";
 			init="this allowDamage false;";
 		};
-		class Item846
+		class Item841
 		{
 			position[]={15066.452,15.218269,17466.186};
 			azimut=44.585251;
-			id=965;
+			id=960;
 			side="EMPTY";
 			vehicle="Land_LampStreet_small_F";
 			skill=0.60000002;
 			text="Lampadaire_1_3";
 			init="this allowDamage false;";
 		};
-		class Item847
+		class Item842
 		{
 			position[]={15072.512,15.188284,17472.111};
 			azimut=44.585251;
-			id=966;
+			id=961;
 			side="EMPTY";
 			vehicle="Land_LampStreet_small_F";
 			skill=0.60000002;
 			text="Lampadaire_1_4";
 			init="this allowDamage false;";
 		};
-		class Item848
+		class Item843
 		{
 			position[]={15090.749,15.043048,17506.871};
 			azimut=44.585251;
-			id=967;
+			id=962;
 			side="EMPTY";
 			vehicle="Land_LampStreet_small_F";
 			skill=0.60000002;
 			text="Lampadaire_2";
 			init="this allowDamage false;";
 		};
-		class Item849
+		class Item844
 		{
 			position[]={15098.912,15.181815,17497.512};
 			azimut=44.585251;
-			id=968;
+			id=963;
 			side="EMPTY";
 			vehicle="Land_LampStreet_small_F";
 			skill=0.60000002;
 			text="Lampadaire_3";
 			init="this allowDamage false;";
 		};
-		class Item850
+		class Item845
 		{
 			position[]={15080.312,15.211819,17457.398};
 			azimut=495.16956;
-			id=969;
+			id=964;
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
-		class Item851
+		class Item846
 		{
 			position[]={15082.188,15.208996,17459.156};
 			azimut=132.293;
-			id=970;
+			id=965;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""General Store"",life_fnc_weaponShopMenu,""genstore""];";
 		};
+		class Item847
+		{
+			position[]={14156.317,77.280441,21242.889};
+			azimut=1260.7737;
+			id=966;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""reb_air_1"";  }];";
+		};
+		class Item848
+		{
+			position[]={14225.829,73.725563,21220.74};
+			azimut=-139.64246;
+			id=967;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item849
+		{
+			position[]={14198.741,73.266472,21185.252};
+			azimut=-178.77673;
+			id=968;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item850
+		{
+			position[]={11722.845,22.952421,11870.733};
+			azimut=-147.32352;
+			special="NONE";
+			id=969;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item851
+		{
+			position[]={11705.191,22.988678,11885.874};
+			azimut=45.845455;
+			special="NONE";
+			id=970;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item852
+		{
+			position[]={11704.415,23.10718,11897.661};
+			azimut=135.28688;
+			special="NONE";
+			id=971;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item853
+		{
+			position[]={11727.217,22.960478,11867.871};
+			azimut=-147.32352;
+			special="NONE";
+			id=972;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item854
+		{
+			position[]={11703.908,23.061832,11892.808};
+			azimut=404.78729;
+			id=973;
+			side="EMPTY";
+			vehicle="Land_HBarrierTower_F";
+			skill=0.60000002;
+		};
+		class Item855
+		{
+			position[]={11712.153,22.927219,11875.276};
+			azimut=400.33206;
+			id=974;
+			side="EMPTY";
+			vehicle="Land_CncBarrierMedium4_F";
+			skill=0.60000002;
+		};
+		class Item856
+		{
+			position[]={11716.191,23.159019,11906.857};
+			azimut=134.5542;
+			id=975;
+			side="EMPTY";
+			vehicle="Land_BagBunker_Small_F";
+			skill=0.60000002;
+		};
+		class Item857
+		{
+			position[]={11718.425,22.945316,11873.557};
+			azimut=-147.32352;
+			special="NONE";
+			id=976;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item858
+		{
+			position[]={11711.952,23.152748,11904.89};
+			azimut=-43.514278;
+			special="NONE";
+			id=977;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item859
+		{
+			position[]={11708.145,23.132967,11901.315};
+			azimut=-43.514278;
+			special="NONE";
+			id=978;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item860
+		{
+			position[]={11722.04,23.150219,11913.896};
+			azimut=-36.886185;
+			special="NONE";
+			id=979;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item861
+		{
+			position[]={11718.246,23.16378,11910.709};
+			azimut=-41.178959;
+			special="NONE";
+			id=980;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item862
+		{
+			position[]={11708.806,22.964573,11882.072};
+			azimut=46.751862;
+			special="NONE";
+			id=981;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item863
+		{
+			position[]={11730.281,23.165829,11911.845};
+			azimut=-328.24152;
+			special="NONE";
+			id=982;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item864
+		{
+			position[]={11748.185,23.139479,11896.992};
+			azimut=-135.07249;
+			special="NONE";
+			id=983;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item865
+		{
+			position[]={11749.15,23.101757,11885.211};
+			azimut=-45.631195;
+			special="NONE";
+			id=984;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item866
+		{
+			position[]={11726.127,23.152485,11914.631};
+			azimut=-324.44644;
+			special="NONE";
+			id=985;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item867
+		{
+			position[]={11749.574,23.109041,11890.079};
+			azimut=223.86972;
+			id=986;
+			side="EMPTY";
+			vehicle="Land_HBarrierTower_F";
+			skill=0.60000002;
+		};
+		class Item868
+		{
+			position[]={11741.527,23.182989,11906.671};
+			azimut=219.41451;
+			id=987;
+			side="EMPTY";
+			vehicle="Land_CncBarrierMedium4_F";
+			skill=0.60000002;
+		};
+		class Item869
+		{
+			position[]={11737.52,23.077911,11875.833};
+			azimut=-46.363876;
+			id=988;
+			side="EMPTY";
+			vehicle="Land_BagBunker_Small_F";
+			skill=0.60000002;
+		};
+		class Item870
+		{
+			position[]={11734.755,23.180256,11909.09};
+			azimut=-328.24152;
+			special="NONE";
+			id=989;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item871
+		{
+			position[]={11741.725,23.108427,11877.87};
+			azimut=-224.43231;
+			special="NONE";
+			id=990;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item872
+		{
+			position[]={11745.481,23.11878,11881.496};
+			azimut=-224.43231;
+			special="NONE";
+			id=991;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item873
+		{
+			position[]={11731.633,22.989418,11868.474};
+			azimut=-222.09697;
+			special="NONE";
+			id=992;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item874
+		{
+			position[]={11735.533,23.040581,11871.946};
+			azimut=-222.09697;
+			special="NONE";
+			id=993;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item875
+		{
+			position[]={11744.512,23.162935,11900.733};
+			azimut=-134.16609;
+			special="NONE";
+			id=994;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item876
+		{
+			position[]={11748.572,23.210335,11913.321};
+			azimut=319.44901;
+			id=995;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item877
+		{
+			position[]={11712.895,23.14641,11903.701};
+			azimut=1756.2;
+			id=996;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Reb Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
+		};
+		class Item878
+		{
+			position[]={11741.932,23.188591,11907.52};
+			azimut=1308.1825;
+			id=997;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vendeur véhicule"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""reb_car_2"",""reb_car_2_1""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""reb_car_2"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item879
+		{
+			position[]={11700.341,22.862238,11861.918};
+			azimut=319.44901;
+			id=998;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item880
+		{
+			position[]={11728.475,23.103128,11889.298};
+			azimut=-313.64474;
+			id=999;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item881
+		{
+			position[]={11710.685,22.919607,11874.583};
+			azimut=1120.5066;
+			id=1000;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""reb_air_2"";  }];";
+		};
+		class Item882
+		{
+			position[]={11746.246,23.165386,11902.177};
+			azimut=-313.64474;
+			id=1001;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item883
+		{
+			position[]={11706.618,22.947031,11881.005};
+			azimut=-313.64474;
+			id=1002;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item884
+		{
+			position[]={23704.768,5.235918,16211.938};
+			azimut=-147.32352;
+			special="NONE";
+			id=1003;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item885
+		{
+			position[]={23687.113,5.2661061,16227.078};
+			azimut=45.845455;
+			special="NONE";
+			id=1004;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item886
+		{
+			position[]={23686.338,5.2936425,16238.865};
+			azimut=135.28688;
+			special="NONE";
+			id=1005;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item887
+		{
+			position[]={23709.139,5.2321019,16209.075};
+			azimut=-147.32352;
+			special="NONE";
+			id=1006;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item888
+		{
+			position[]={23685.83,5.2806983,16234.012};
+			azimut=404.78729;
+			id=1007;
+			side="EMPTY";
+			vehicle="Land_HBarrierTower_F";
+			skill=0.60000002;
+		};
+		class Item889
+		{
+			position[]={23694.076,5.2439499,16216.48};
+			azimut=400.33206;
+			id=1008;
+			side="EMPTY";
+			vehicle="Land_CncBarrierMedium4_F";
+			skill=0.60000002;
+		};
+		class Item890
+		{
+			position[]={23698.113,5.3140821,16248.062};
+			azimut=134.5542;
+			id=1009;
+			side="EMPTY";
+			vehicle="Land_BagBunker_Small_F";
+			skill=0.60000002;
+		};
+		class Item891
+		{
+			position[]={23700.346,5.2396822,16214.761};
+			azimut=-147.32352;
+			special="NONE";
+			id=1010;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item892
+		{
+			position[]={23693.873,5.31146,16246.094};
+			azimut=-43.514278;
+			special="NONE";
+			id=1011;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item893
+		{
+			position[]={23690.066,5.3033886,16242.52};
+			azimut=-43.514278;
+			special="NONE";
+			id=1012;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item894
+		{
+			position[]={23703.963,5.3287549,16255.101};
+			azimut=-36.886185;
+			special="NONE";
+			id=1013;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item895
+		{
+			position[]={23700.168,5.3192191,16251.913};
+			azimut=-41.178959;
+			special="NONE";
+			id=1014;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item896
+		{
+			position[]={23690.729,5.2610354,16223.276};
+			azimut=46.751862;
+			special="NONE";
+			id=1015;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item897
+		{
+			position[]={23712.203,5.3307323,16253.049};
+			azimut=-328.24152;
+			special="NONE";
+			id=1016;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item898
+		{
+			position[]={23730.107,5.2918601,16238.196};
+			azimut=-135.07249;
+			special="NONE";
+			id=1017;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item899
+		{
+			position[]={23731.072,5.2604442,16226.415};
+			azimut=-45.631195;
+			special="NONE";
+			id=1018;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item900
+		{
+			position[]={23708.049,5.3344483,16255.835};
+			azimut=-324.44644;
+			special="NONE";
+			id=1019;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item901
+		{
+			position[]={23731.496,5.2734227,16231.283};
+			azimut=223.86972;
+			id=1020;
+			side="EMPTY";
+			vehicle="Land_HBarrierTower_F";
+			skill=0.60000002;
+		};
+		class Item902
+		{
+			position[]={23723.449,5.3176708,16247.875};
+			azimut=219.41451;
+			id=1021;
+			side="EMPTY";
+			vehicle="Land_CncBarrierMedium4_F";
+			skill=0.60000002;
+		};
+		class Item903
+		{
+			position[]={23719.441,5.2427173,16217.037};
+			azimut=-46.363876;
+			id=1022;
+			side="EMPTY";
+			vehicle="Land_BagBunker_Small_F";
+			skill=0.60000002;
+		};
+		class Item904
+		{
+			position[]={23716.678,5.324121,16250.294};
+			azimut=-328.24152;
+			special="NONE";
+			id=1023;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item905
+		{
+			position[]={23723.646,5.2454343,16219.074};
+			azimut=-224.43231;
+			special="NONE";
+			id=1024;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item906
+		{
+			position[]={23727.404,5.2505369,16222.7};
+			azimut=-224.43231;
+			special="NONE";
+			id=1025;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item907
+		{
+			position[]={23713.555,5.2329054,16209.678};
+			azimut=-222.09697;
+			special="NONE";
+			id=1026;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item908
+		{
+			position[]={23717.455,5.237534,16213.149};
+			azimut=-222.09697;
+			special="NONE";
+			id=1027;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item909
+		{
+			position[]={23726.434,5.301836,16241.938};
+			azimut=-134.16609;
+			special="NONE";
+			id=1028;
+			side="EMPTY";
+			vehicle="Land_CncWall4_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item910
+		{
+			position[]={23734.59,5.3526711,16257.251};
+			azimut=319.44901;
+			id=1029;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item911
+		{
+			position[]={23694.953,5.3100929,16245.069};
+			azimut=1756.2;
+			id=1030;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Reb Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
+		};
+		class Item912
+		{
+			position[]={23723.99,5.3203712,16248.888};
+			azimut=1308.1801;
+			id=1031;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Vendeur véhicule"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""reb_car_3"",""reb_car_3_1""],""reb"",""Rebel Motorpool - Western Side""],0,false,false,"""",'license_civ_rebel']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""reb_car_3"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item913
+		{
+			position[]={23692.744,5.2425389,16215.951};
+			azimut=1120.51;
+			id=1032;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""reb_air_3"";  }];";
+		};
+		class Item914
+		{
+			position[]={23688.678,5.2596631,16222.373};
+			azimut=-313.64474;
+			id=1033;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item915
+		{
+			position[]={23709.441,5.2769532,16232.607};
+			azimut=-313.64474;
+			id=1034;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item916
+		{
+			position[]={23727.408,5.3070898,16243.908};
+			azimut=-313.64474;
+			id=1035;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item917
+		{
+			position[]={23682.561,5.2324805,16201.86};
+			azimut=319.44901;
+			id=1036;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
-		items=239;
+		items=252;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -11378,11 +12058,11 @@ class Mission
 		};
 		class Item18
 		{
-			position[]={9188.2607,14.383561,21670.799};
+			position[]={14178.12,77.57486,21237.43};
 			name="Rebelop";
-			text="Rebel Outpost";
-			type="mil_triangle";
-			colorName="Color1_FD_F";
+			text="Avant poste rebelle";
+			type="o_art";
+			colorName="ColorEAST";
 		};
 		class Item19
 		{
@@ -12219,22 +12899,6 @@ class Mission
 		};
 		class Item123
 		{
-			position[]={12290.406,123.8956,8899.7314};
-			name="Rebelop_1";
-			text="Rebel Outpost";
-			type="mil_triangle";
-			colorName="Color1_FD_F";
-		};
-		class Item124
-		{
-			position[]={20081.033,100.96766,6737.1904};
-			name="Rebelop_2";
-			text="Rebel Outpost";
-			type="mil_triangle";
-			colorName="Color1_FD_F";
-		};
-		class Item125
-		{
 			position[]={9327.2295,14.642426,11911.454};
 			name="gun_store_1";
 			text="Gun Store";
@@ -12242,7 +12906,7 @@ class Mission
 			colorName="ColorRed";
 			angle=7.2259879;
 		};
-		class Item126
+		class Item124
 		{
 			position[]={16340.104,24.965635,17266.721};
 			name="gun_store_1_1";
@@ -12251,7 +12915,7 @@ class Mission
 			colorName="ColorRed";
 			angle=62.195702;
 		};
-		class Item127
+		class Item125
 		{
 			position[]={19878.146,30.042439,17011.926};
 			name="heroin_1";
@@ -12259,7 +12923,7 @@ class Mission
 			type="hd_dot";
 			colorName="ColorRed";
 		};
-		class Item128
+		class Item126
 		{
 			position[]={19877.701,29.819229,17004.623};
 			name="heroin_area";
@@ -12269,7 +12933,7 @@ class Mission
 			a=100;
 			b=100;
 		};
-		class Item129
+		class Item127
 		{
 			position[]={23644.953,51.044296,21802.297};
 			name="heroin_p";
@@ -12277,28 +12941,28 @@ class Mission
 			type="mil_dot";
 			colorName="ColorRed";
 		};
-		class Item130
+		class Item128
 		{
 			position[]={3744.9202,12.664502,13272.682};
 			name="car_g_1";
 			type="Empty";
 			angle=51.99506;
 		};
-		class Item131
+		class Item129
 		{
 			position[]={3739.7754,12.704494,13268.491};
 			name="civ_gar_1";
 			text="Garage";
 			type="o_service";
 		};
-		class Item132
+		class Item130
 		{
 			position[]={14268.899,19.374922,16289.803};
 			name="air_g_1";
 			type="Empty";
 			angle=246.28049;
 		};
-		class Item133
+		class Item131
 		{
 			position[]={14259,19.362194,16303.427};
 			name="civ_gar_1_1";
@@ -12306,14 +12970,14 @@ class Mission
 			type="o_service";
 			angle=108.01333;
 		};
-		class Item134
+		class Item132
 		{
 			position[]={25708.68,18.168003,21261.047};
 			name="car_g_2";
 			type="Empty";
 			angle=317.19537;
 		};
-		class Item135
+		class Item133
 		{
 			position[]={25723.533,18.135918,21274.131};
 			name="civ_gar_1_2";
@@ -12321,14 +12985,14 @@ class Mission
 			type="o_service";
 			angle=168.39328;
 		};
-		class Item136
+		class Item134
 		{
 			position[]={14053.423,26.311941,18732.617};
 			name="car_g_3";
 			type="Empty";
 			angle=626.74786;
 		};
-		class Item137
+		class Item135
 		{
 			position[]={14058.636,26.20747,18737.914};
 			name="civ_gar_1_3";
@@ -12336,7 +13000,7 @@ class Mission
 			type="o_service";
 			angle=197.06931;
 		};
-		class Item138
+		class Item136
 		{
 			position[]={12693.272,0.00026230037,14204.092};
 			name="boat_2_1";
@@ -12344,7 +13008,7 @@ class Mission
 			type="c_ship";
 			colorName="ColorWhite";
 		};
-		class Item139
+		class Item137
 		{
 			position[]={12748.456,0.023563281,14190.291};
 			name="civ_ship_2";
@@ -12352,7 +13016,7 @@ class Mission
 			type="loc_Quay";
 			colorName="ColorOrange";
 		};
-		class Item140
+		class Item138
 		{
 			position[]={17562.207,-0.00013632448,18903.635};
 			name="boat_2_1_1";
@@ -12360,7 +13024,7 @@ class Mission
 			type="c_ship";
 			colorName="ColorWhite";
 		};
-		class Item141
+		class Item139
 		{
 			position[]={17582.686,-0.0088367555,18881.273};
 			name="civ_ship_3";
@@ -12368,7 +13032,7 @@ class Mission
 			type="loc_Quay";
 			colorName="ColorOrange";
 		};
-		class Item142
+		class Item140
 		{
 			position[]={17018.404,15.86448,12627.694};
 			name="Gen_3_1_1_3";
@@ -12377,7 +13041,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=0.37083;
 		};
-		class Item143
+		class Item141
 		{
 			position[]={13947.848,22.964897,18664.123};
 			name="Gen_4";
@@ -12385,14 +13049,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 		};
-		class Item144
-		{
-			position[]={12288.481,123.74883,8919.6299};
-			name="reb_v_2";
-			type="Empty";
-			angle=-74.833801;
-		};
-		class Item145
+		class Item142
 		{
 			position[]={16018.33,13.650147,16953.154};
 			name="fed_reserve";
@@ -12400,7 +13057,7 @@ class Mission
 			type="mil_box";
 			colorName="Color4_FD_F";
 		};
-		class Item146
+		class Item143
 		{
 			position[]={23538.549,13.160051,19945.574};
 			name="cop_spawn_5";
@@ -12408,14 +13065,14 @@ class Mission
 			type="mil_box";
 			colorName="ColorWEST";
 		};
-		class Item147
+		class Item144
 		{
 			position[]={23526.816,12.94872,19936.809};
 			name="cop_car_5";
 			type="Empty";
 			angle=91.179642;
 		};
-		class Item148
+		class Item145
 		{
 			position[]={17073.295,24.327265,11361.496};
 			name="rock_1";
@@ -12423,7 +13080,7 @@ class Mission
 			type="mil_box";
 			colorName="ColorBrown";
 		};
-		class Item149
+		class Item146
 		{
 			position[]={19314.266,21.279949,16545.195};
 			name="rock_proc";
@@ -12431,7 +13088,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorBrown";
 		};
-		class Item150
+		class Item147
 		{
 			position[]={16578.012,14.273811,15989.947};
 			name="oil_trader_3_1";
@@ -12439,7 +13096,7 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 		};
-		class Item151
+		class Item148
 		{
 			position[]={11852,3.5871935,13608.054};
 			name="dive_shop_1";
@@ -12448,7 +13105,7 @@ class Mission
 			colorName="ColorOrange";
 			angle=-269.94958;
 		};
-		class Item152
+		class Item149
 		{
 			position[]={15213.041,-0.011334214,12527.978};
 			name="turtle_1";
@@ -12458,14 +13115,14 @@ class Mission
 			a=350;
 			b=350;
 		};
-		class Item153
+		class Item150
 		{
 			position[]={15239.204,-0.10417931,12503.155};
 			name="turtle_1_name";
 			text="Turtle Poaching";
 			type="mil_dot";
 		};
-		class Item154
+		class Item151
 		{
 			position[]={6444.689,-0.064472109,9385.3115};
 			name="turtle_2";
@@ -12475,14 +13132,14 @@ class Mission
 			a=350;
 			b=350;
 		};
-		class Item155
+		class Item152
 		{
 			position[]={6470.8521,0.066574216,9360.4893};
 			name="turtle_1_name_1";
 			text="Turtle Poaching";
 			type="mil_dot";
 		};
-		class Item156
+		class Item153
 		{
 			position[]={3293.7217,-0.11467069,16612.359};
 			name="turtle_3";
@@ -12492,14 +13149,14 @@ class Mission
 			a=350;
 			b=350;
 		};
-		class Item157
+		class Item154
 		{
 			position[]={3319.884,-0.087620348,16587.537};
 			name="turtle_1_name_2";
 			text="Turtle Poaching";
 			type="mil_dot";
 		};
-		class Item158
+		class Item155
 		{
 			position[]={10246.375,5.3159304,11272.208};
 			name="turle_dealer";
@@ -12507,7 +13164,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorRed";
 		};
-		class Item159
+		class Item156
 		{
 			position[]={24660.627,17.608727,23158.951};
 			name="chop_shop_2";
@@ -12515,7 +13172,7 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 		};
-		class Item160
+		class Item157
 		{
 			position[]={5242.2974,78.634445,11514.398};
 			name="chop_shop_3";
@@ -12523,7 +13180,7 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 		};
-		class Item161
+		class Item158
 		{
 			position[]={19029.779,23.749619,14549.058};
 			name="chop_shop_4";
@@ -12531,21 +13188,21 @@ class Mission
 			type="o_armor";
 			colorName="Color1_FD_F";
 		};
-		class Item162
+		class Item159
 		{
-			position[]={9179.4131,14.457561,21646.748};
+			position[]={14179.314,77.530014,21248.76};
 			name="reb_v_1";
 			type="Empty";
-			angle=152.46985;
+			angle=387.37631;
 		};
-		class Item163
+		class Item160
 		{
 			position[]={3654.9668,10.500361,13082.299};
 			name="atm_marker";
 			type="loc_Tourism";
 			colorName="ColorGreen";
 		};
-		class Item164
+		class Item161
 		{
 			position[]={3505.3977,5.0026331,13153.528};
 			name="atm_marker_1";
@@ -12553,20 +13210,20 @@ class Mission
 			colorName="ColorGreen";
 			angle=-41.826443;
 		};
-		class Item165
+		class Item162
 		{
 			position[]={3730.8054,18.870001,12973.504};
 			name="medic_spawn_1";
 			type="Empty";
 		};
-		class Item166
+		class Item163
 		{
 			position[]={15596.775,18.531496,17184.191};
 			name="medic_spawn_2";
 			type="Empty";
 			angle=-39.342587;
 		};
-		class Item167
+		class Item164
 		{
 			position[]={9024.7109,30.520811,12121.548};
 			name="atm_marker_3";
@@ -12574,7 +13231,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=13.824054;
 		};
-		class Item168
+		class Item165
 		{
 			position[]={14031.674,25.92466,18743.428};
 			name="atm_marker_2";
@@ -12582,7 +13239,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=36.9492;
 		};
-		class Item169
+		class Item166
 		{
 			position[]={14625.156,17.91,16790.781};
 			name="atm_marker_4";
@@ -12590,7 +13247,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=2.2575603;
 		};
-		class Item170
+		class Item167
 		{
 			position[]={16885.555,20.481829,12646.81};
 			name="atm_marker_5";
@@ -12598,7 +13255,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=0.67054814;
 		};
-		class Item171
+		class Item168
 		{
 			position[]={25694.893,20.761673,21387.438};
 			name="atm_marker_4_1";
@@ -12606,7 +13263,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=230.98909;
 		};
-		class Item172
+		class Item169
 		{
 			position[]={27032.053,20.738028,23230.627};
 			name="atm_marker_2_1";
@@ -12614,7 +13271,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-44.338551;
 		};
-		class Item173
+		class Item170
 		{
 			position[]={20475.064,34.895618,8853.1426};
 			name="atm_marker_2_2";
@@ -12622,7 +13279,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=128.67664;
 		};
-		class Item174
+		class Item171
 		{
 			position[]={5102.6821,48.943104,11237.706};
 			name="atm_marker_2_3";
@@ -12630,7 +13287,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-35.335003;
 		};
-		class Item175
+		class Item172
 		{
 			position[]={9221.4473,121.15643,15824.147};
 			name="atm_marker_2_4";
@@ -12638,7 +13295,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-24.492966;
 		};
-		class Item176
+		class Item173
 		{
 			position[]={8648.0039,182.61882,18256.303};
 			name="atm_marker_2_5";
@@ -12646,7 +13303,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=243.96106;
 		};
-		class Item177
+		class Item174
 		{
 			position[]={20782.402,37.286591,16680.141};
 			name="atm_marker_2_6";
@@ -12654,7 +13311,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=127.20448;
 		};
-		class Item178
+		class Item175
 		{
 			position[]={12613.043,16.704132,14381.132};
 			name="atm_marker_2_7";
@@ -12662,7 +13319,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=153.85992;
 		};
-		class Item179
+		class Item176
 		{
 			position[]={16289.748,25.249407,17295.527};
 			name="atm_marker_2_8";
@@ -12670,7 +13327,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-1.8372061;
 		};
-		class Item180
+		class Item177
 		{
 			position[]={6185.6621,26.661465,15077.207};
 			name="atm_marker_2_9";
@@ -12678,21 +13335,21 @@ class Mission
 			colorName="ColorGreen";
 			angle=131.43578;
 		};
-		class Item181
+		class Item178
 		{
-			position[]={9184.4463,14.484292,21649.455};
+			position[]={14173.634,77.482544,21251.385};
 			name="reb_v_1_1";
 			type="Empty";
-			angle=142.37651;
+			angle=377.28299;
 		};
-		class Item182
+		class Item179
 		{
 			position[]={3738.3508,18.830826,12991.575};
 			name="med_car_1";
 			type="Empty";
 			angle=-95.485893;
 		};
-		class Item183
+		class Item180
 		{
 			position[]={15600.498,18.554039,17211.836};
 			name="hospital_2";
@@ -12701,7 +13358,7 @@ class Mission
 			colorName="ColorRed";
 			angle=-52.633999;
 		};
-		class Item184
+		class Item181
 		{
 			position[]={17495.891,12.760118,13290.289};
 			name="hospital_3";
@@ -12710,28 +13367,28 @@ class Mission
 			colorName="ColorRed";
 			angle=-45.916607;
 		};
-		class Item185
+		class Item182
 		{
 			position[]={17493.104,12.868838,13265.117};
 			name="medic_spawn_3";
 			type="Empty";
 			angle=12.349455;
 		};
-		class Item186
+		class Item183
 		{
 			position[]={17471.252,12.817257,13280.558};
 			name="med_car_2";
 			type="Empty";
 			angle=-138.86894;
 		};
-		class Item187
+		class Item184
 		{
 			position[]={15573.91,18.490637,17202.232};
 			name="med_car_3";
 			type="Empty";
 			angle=-130.62582;
 		};
-		class Item188
+		class Item185
 		{
 			position[]={14166.97,16.696758,16522.855};
 			name="kart_shop_text_1";
@@ -12739,14 +13396,14 @@ class Mission
 			type="loc_Power";
 			colorName="ColorBlue";
 		};
-		class Item189
+		class Item186
 		{
 			position[]={14161.376,16.312208,16532.488};
 			name="kart_shop_1";
 			type="Empty";
 			angle=298.31378;
 		};
-		class Item190
+		class Item187
 		{
 			position[]={3734.157,18.867834,12978.31};
 			name="atm_marker_1_1";
@@ -12754,7 +13411,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-360.92633;
 		};
-		class Item191
+		class Item188
 		{
 			position[]={15590.591,18.56068,17184.236};
 			name="atm_marker_1_2";
@@ -12762,7 +13419,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-359.38092;
 		};
-		class Item192
+		class Item189
 		{
 			position[]={17486.479,12.888057,13266.659};
 			name="atm_marker_1_3";
@@ -12770,7 +13427,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-225.52553;
 		};
-		class Item193
+		class Item190
 		{
 			position[]={13795.459,60.220287,6396.0879};
 			name="gold_bar_dealer";
@@ -12778,7 +13435,7 @@ class Mission
 			type="loc_ViewTower";
 			colorName="ColorYellow";
 		};
-		class Item194
+		class Item191
 		{
 			position[]={14150.938,19.09264,16301.9};
 			name="atm_marker_4_2";
@@ -12786,7 +13443,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-0.64183903;
 		};
-		class Item195
+		class Item192
 		{
 			position[]={13815.971,20.243898,18985.834};
 			name="atm_marker_2_10";
@@ -12794,7 +13451,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=139.89178;
 		};
-		class Item196
+		class Item193
 		{
 			position[]={11693.286,37.651257,15914.844};
 			name="gang_area_1";
@@ -12802,7 +13459,7 @@ class Mission
 			type="hd_warning";
 			colorName="ColorRed";
 		};
-		class Item197
+		class Item194
 		{
 			position[]={4885.7808,17.059162,14418.125};
 			name="gang_area_2";
@@ -12811,7 +13468,7 @@ class Mission
 			colorName="ColorRed";
 			angle=-358.09299;
 		};
-		class Item198
+		class Item195
 		{
 			position[]={18383.779,27.092974,15248.242};
 			name="gang_area_3";
@@ -12820,7 +13477,7 @@ class Mission
 			colorName="ColorRed";
 			angle=2.7999959;
 		};
-		class Item199
+		class Item196
 		{
 			position[]={3307.8906,12.716581,14142.727};
 			name="turle_dealer_1";
@@ -12829,7 +13486,7 @@ class Mission
 			colorName="ColorRed";
 			angle=77.713181;
 		};
-		class Item200
+		class Item197
 		{
 			position[]={16556.398,1.8017138,15550.469};
 			name="turle_dealer_2";
@@ -12837,7 +13494,7 @@ class Mission
 			type="mil_dot";
 			colorName="ColorRed";
 		};
-		class Item201
+		class Item198
 		{
 			position[]={7757.6431,108.63041,19958.082};
 			name="hunting_zone";
@@ -12847,7 +13504,7 @@ class Mission
 			a=1000;
 			b=1000;
 		};
-		class Item202
+		class Item199
 		{
 			position[]={7604.667,128.90898,19991.012};
 			name="hunting_marker";
@@ -12855,7 +13512,7 @@ class Mission
 			type="mil_join";
 			colorName="ColorRed";
 		};
-		class Item203
+		class Item200
 		{
 			position[]={3646.5083,10.194457,13127.942};
 			name="M_Parking";
@@ -12864,21 +13521,21 @@ class Mission
 			colorName="ColorOrange";
 			angle=-357.742;
 		};
-		class Item204
+		class Item201
 		{
 			position[]={3793.0317,13.964528,13278.314};
 			name="civ_car_1";
 			type="Empty";
 			angle=266.51984;
 		};
-		class Item205
+		class Item202
 		{
 			position[]={3797.0098,14.26285,13273.789};
 			name="civ_car_1_1";
 			type="Empty";
 			angle=251.98216;
 		};
-		class Item206
+		class Item203
 		{
 			position[]={3796.9294,14.846036,13259.26};
 			name="car1";
@@ -12886,7 +13543,7 @@ class Mission
 			colorName="ColorWhite";
 			angle=-0.0113602;
 		};
-		class Item207
+		class Item204
 		{
 			position[]={3789.804,14.075138,13259.114};
 			name="atm_marker_6";
@@ -12894,28 +13551,28 @@ class Mission
 			colorName="ColorGreen";
 			angle=-38.146473;
 		};
-		class Item208
+		class Item205
 		{
 			position[]={3257.7957,2.1571794,12965.998};
 			name="cop_spawn_1";
 			type="Empty";
 			angle=180.008;
 		};
-		class Item209
+		class Item206
 		{
 			position[]={595.0022,-0.1199801,7543.0752};
 			name="Forum";
 			text="Site : www.AltisAurore.fr";
 			type="flag_France";
 		};
-		class Item210
+		class Item207
 		{
 			position[]={614.17261,0.11527552,6701.9902};
 			name="ts";
 			text="TeamSpeak: AltisAurore.ts3serv.com:11041";
 			type="flag_France";
 		};
-		class Item211
+		class Item208
 		{
 			position[]={529.64038,-0.0054154508,3221.3074};
 			name="truck_1_1";
@@ -12923,7 +13580,7 @@ class Mission
 			type="c_car";
 			colorName="ColorBlack";
 		};
-		class Item212
+		class Item209
 		{
 			position[]={491.5957,-0.096259713,5199.9551};
 			name="atm_1";
@@ -12931,7 +13588,7 @@ class Mission
 			type="loc_Tourism";
 			colorName="ColorGreen";
 		};
-		class Item213
+		class Item210
 		{
 			position[]={518.04663,-0.10556114,4678.3467};
 			name="lbank_1";
@@ -12939,7 +13596,7 @@ class Mission
 			type="loc_Ruin";
 			colorName="ColorWhite";
 		};
-		class Item214
+		class Item211
 		{
 			position[]={507.73633,-0.063028671,4004.7639};
 			name="Carshop_1";
@@ -12947,7 +13604,7 @@ class Mission
 			type="c_car";
 			colorName="ColorWhite";
 		};
-		class Item215
+		class Item212
 		{
 			position[]={527.15881,0.054532319,2449.7346};
 			name="Hospital_1_1";
@@ -12955,7 +13612,7 @@ class Mission
 			type="loc_Hospital";
 			colorName="ColorRed";
 		};
-		class Item216
+		class Item213
 		{
 			position[]={7953.0186,0.035969496,4617.0752};
 			name="Gen_1_1";
@@ -12963,7 +13620,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 		};
-		class Item217
+		class Item214
 		{
 			position[]={528.66443,0.033165075,1652.3979};
 			name="boat_1_1";
@@ -12971,7 +13628,7 @@ class Mission
 			type="c_ship";
 			colorName="ColorWhite";
 		};
-		class Item218
+		class Item215
 		{
 			position[]={544.01892,0.05792664,688.56616};
 			name="Station_3_1";
@@ -12980,7 +13637,7 @@ class Mission
 			colorName="ColorYellow";
 			angle=0.23519599;
 		};
-		class Item219
+		class Item216
 		{
 			position[]={7967.8208,0.027400188,5197.7158};
 			name="Gen_2_2";
@@ -12988,7 +13645,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 		};
-		class Item220
+		class Item217
 		{
 			position[]={7938.228,-0.032323718,4036.4768};
 			name="Gen_1_1_1";
@@ -12996,7 +13653,7 @@ class Mission
 			type="c_unknown";
 			colorName="ColorGreen";
 		};
-		class Item221
+		class Item218
 		{
 			position[]={7946.9028,0.065440647,3321.5508};
 			name="arretbus_2_9_1";
@@ -13005,7 +13662,7 @@ class Mission
 			colorName="ColorYellow";
 			angle=0.0089846998;
 		};
-		class Item222
+		class Item219
 		{
 			position[]={7943.9717,-0.091670349,703.71375};
 			name="civ_gar_1_4";
@@ -13013,7 +13670,7 @@ class Mission
 			type="o_service";
 			angle=-0.445104;
 		};
-		class Item223
+		class Item220
 		{
 			position[]={16466.848,-0.032423038,4194.5156};
 			name="textehrz2";
@@ -13021,7 +13678,7 @@ class Mission
 			type="mil_join";
 			colorName="ColorRed";
 		};
-		class Item224
+		class Item221
 		{
 			position[]={22817.176,0.022468369,481.35461};
 			name="cadre1";
@@ -13032,7 +13689,7 @@ class Mission
 			a=7600;
 			b=200;
 		};
-		class Item225
+		class Item222
 		{
 			position[]={22805.367,0.082451403,4614.9346};
 			name="cadre1_1";
@@ -13043,7 +13700,7 @@ class Mission
 			a=7600;
 			b=200;
 		};
-		class Item226
+		class Item223
 		{
 			position[]={30197.662,0.042159252,2529.4976};
 			name="cadre1_1_1";
@@ -13054,7 +13711,7 @@ class Mission
 			a=200;
 			b=1880;
 		};
-		class Item227
+		class Item224
 		{
 			position[]={15396.986,0.10197349,2545.2302};
 			name="cadre1_1_1_1";
@@ -13065,7 +13722,7 @@ class Mission
 			a=200;
 			b=1880;
 		};
-		class Item228
+		class Item225
 		{
 			position[]={16518.775,-0.037931979,1076.8837};
 			name="textehrz2_1_1";
@@ -13073,7 +13730,7 @@ class Mission
 			type="mil_join";
 			colorName="ColorRed";
 		};
-		class Item229
+		class Item226
 		{
 			position[]={16505.633,0.088392653,2643.0007};
 			name="textehrz2_1";
@@ -13081,21 +13738,21 @@ class Mission
 			type="mil_join";
 			colorName="ColorRed";
 		};
-		class Item230
+		class Item227
 		{
 			position[]={3763.5996,10.649605,13388.351};
 			name="dep_v_1_1";
 			type="Empty";
 			angle=391.30099;
 		};
-		class Item231
+		class Item228
 		{
 			position[]={3758.5732,10.630495,13380.243};
 			name="dep_v_1";
 			type="Empty";
 			angle=397.41;
 		};
-		class Item232
+		class Item229
 		{
 			position[]={15186.559,17.915659,17270.184};
 			name="donor_spawn";
@@ -13104,28 +13761,28 @@ class Mission
 			colorName="ColorYellow";
 			angle=-177.811;
 		};
-		class Item233
+		class Item230
 		{
 			position[]={15189.899,17.91,17254.729};
 			name="donator_1";
 			type="Empty";
 			angle=-141.39999;
 		};
-		class Item234
+		class Item231
 		{
 			position[]={15180.06,17.91,17245.857};
 			name="donator_1_1";
 			type="Empty";
 			angle=-140.68201;
 		};
-		class Item235
+		class Item232
 		{
 			position[]={15160.585,17.91,17253.025};
 			name="car_g_donator";
 			type="Empty";
 			angle=141.021;
 		};
-		class Item236
+		class Item233
 		{
 			position[]={15184.859,17.91,17263.689};
 			name="safe_2";
@@ -13137,7 +13794,7 @@ class Mission
 			a=100;
 			b=100;
 		};
-		class Item237
+		class Item234
 		{
 			position[]={15061.655,15.160673,17469.197};
 			name="poste_de_douane";
@@ -13145,13 +13802,147 @@ class Mission
 			type="b_installation";
 			colorName="ColorWEST";
 		};
-		class Item238
+		class Item235
 		{
 			position[]={15080.209,15.212366,17457.451};
 			name="atm_marker_4_3";
 			type="loc_Tourism";
 			colorName="ColorGreen";
 			angle=717.17761;
+		};
+		class Item236
+		{
+			position[]={3573.0417,9.4217634,13078.158};
+			name="safe1";
+			text="Safe Zone Kavala";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			fillName="BDiagonal";
+			a=800;
+			b=800;
+		};
+		class Item237
+		{
+			position[]={14179.645,77.616547,21233.529};
+			name="safe_3";
+			text="SafeZone Donateur";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			fillName="BDiagonal";
+			a=100;
+			b=100;
+		};
+		class Item238
+		{
+			position[]={14230.449,73.22876,21227.852};
+			name="rebel_spawn_2";
+			type="Empty";
+			angle=-51.010666;
+		};
+		class Item239
+		{
+			position[]={14156.251,77.328781,21255.457};
+			name="reb_air_1";
+			type="Empty";
+			angle=21.762058;
+		};
+		class Item240
+		{
+			position[]={11728.083,23.105331,11890.109};
+			name="marker_rebel";
+			text="Avant poste rebelle";
+			type="o_art";
+			angle=268.66299;
+		};
+		class Item241
+		{
+			position[]={11726.625,23.1043,11890.837};
+			name="rebel_spawn_1";
+			type="Empty";
+			angle=322.02878;
+		};
+		class Item242
+		{
+			position[]={11748.558,23.210747,11912.999};
+			name="reb_car_2";
+			type="Empty";
+			angle=311.42599;
+		};
+		class Item243
+		{
+			position[]={11727.058,23.114038,11892.97};
+			name="safe_5";
+			text="SafeZone Donateur";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			fillName="BDiagonal";
+			a=100;
+			b=100;
+		};
+		class Item244
+		{
+			position[]={11740.364,23.11681,11921.229};
+			name="reb_car_2_1";
+			type="Empty";
+			angle=316.68695;
+		};
+		class Item245
+		{
+			position[]={11700.032,22.860714,11861.5};
+			name="reb_air_2";
+			type="Empty";
+			angle=219.935;
+		};
+		class Item246
+		{
+			position[]={23708.094,5.2804689,16233.925};
+			name="rebel_spawn_3";
+			type="Empty";
+			angle=-42.886108;
+		};
+		class Item247
+		{
+			position[]={23707.383,5.2853904,16235.771};
+			name="safe_4";
+			text="SafeZone Donateur";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="BDiagonal";
+			a=100;
+			b=100;
+		};
+		class Item248
+		{
+			position[]={23709.119,5.2777686,16232.912};
+			name="civ_gar_1_3_2_1";
+			text="Avant poste rebelle";
+			type="o_art";
+			angle=269.73795;
+		};
+		class Item249
+		{
+			position[]={23734.123,5.3521047,16257.039};
+			name="reb_car_3";
+			type="Empty";
+			angle=-48.778442;
+		};
+		class Item250
+		{
+			position[]={23722.633,5.3573608,16265.386};
+			name="reb_car_3_1";
+			type="Empty";
+			angle=-48.778442;
+		};
+		class Item251
+		{
+			position[]={23682.629,5.2321925,16201.643};
+			name="reb_air_3";
+			type="Empty";
+			angle=-44.353672;
 		};
 	};
 };
