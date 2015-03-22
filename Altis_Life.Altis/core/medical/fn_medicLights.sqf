@@ -10,8 +10,8 @@ Private ["_vehicle","_lightRed","_lightBlue","_lightleft","_lightright","_leftRe
 _vehicle = _this select 0;
 	
 if(isNil "_vehicle" OR isNull _vehicle OR !(_vehicle getVariable "lights")) exitWith {};
-_lightRed = [0.1, 0.1, 20];
-_lightBlue = [0.1, 0.1, 20];
+_lightRed = [20, 0.1, 0.1];
+_lightBlue = [20, 0.1, 0.1];
 
 _lightleft = "#lightpoint" createVehicle getpos _vehicle;   
 sleep 0.2;
@@ -21,7 +21,19 @@ _lightleft setLightAmbient [0.1,0.1,1];
 
 switch (typeOf _vehicle) do
 {
-	case "C_Offroad_01_F":
+	case "clpd_mondeo_FireDepartment":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
+	};
+	case "cl3_escalade_fd":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
+	};
+	case "cl3_escalade_pm":
+	{
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
+	};
+	case "Med_Offroad":
 	{
 		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
 	};
@@ -35,13 +47,25 @@ _lightleft setLightUseFlare true;
 
 _lightright = "#lightpoint" createVehicle getpos _vehicle;   
 sleep 0.2;
-_lightright setLightColor _lightBlue; 
+_lightright setLightColor _lightRed; 
 _lightright setLightBrightness 0.2;  
 _lightright setLightAmbient [0.1,0.1,1]; 
 
 switch (typeOf _vehicle) do
 {
-	case "C_Offroad_01_F":
+	case "clpd_mondeo_FireDepartment":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	case "cl3_escalade_fd":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	case "cl3_escalade_pm":
+	{
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+	};
+	case "Med_Offroad":
 	{
 		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
