@@ -84,6 +84,9 @@ switch (playerSide) do
 				life_actions = life_actions + [player addAction["Prendre P Gauche",life_fnc_packupvirg,"",0,false,false,"",' _virg = nearestObjects[getPos player,["ArrowDesk_L_F"],8] select 0; license_civ_rally && !isNil "_virg" && !isNil {(_virg getVariable "item")}']];
 				// Prendre P D Rally
 				life_actions = life_actions + [player addAction["Prendre P Droite",life_fnc_packupvird,"",0,false,false,"",' _vird = nearestObjects[getPos player,["ArrowDesk_R_F"],8] select 0; license_civ_rally && !isNil "_vird" && !isNil {(_vird getVariable "item")}']];
+				// Suicide Bomb
+				life_actions = life_actions + [player addAction["Activer la veste explosive",life_fnc_suicideBomb,"",0,false,false,"",
+				'vest player == "V_HarnessOGL_gry" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
 	};
 	
 	case independent:

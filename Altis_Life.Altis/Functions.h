@@ -141,6 +141,7 @@ class Life_Client_Core
 		class surrender {};
 		class depdemission {};
 		class taxidemission {};
+		class suicideBomb {};
 	};
 	
 	class Housing
@@ -173,7 +174,6 @@ class Life_Client_Core
 	class Player_Menu
 	{
 		file = "core\pmenu";
-		class bugExtDB {};
 		class wantedList {};
 		class wantedInfo {};
 		class wantedMenu {};
