@@ -56,18 +56,37 @@ class Life_Settings {
 
 	/* Car-shop Settings */
 	vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F" };
+	vehicle_noAssurance[] = { "B_G_Offroad_01_armed_F", "O_MRAP_02_F","I_MRAP_03_F","Aurore_escobar_ifrit"};
 
 	/* Job-related stuff */
 	delivery_points[] = { "dp_1", "dp_2", "dp_3", "dp_4", "dp_5", "dp_6", "dp_7", "dp_8", "dp_9", "dp_10", "dp_11", "dp_12", "dp_13", "dp_14", "dp_15", "dp_15", "dp_16", "dp_17", "dp_18", "dp_19", "dp_20", "dp_21", "dp_22", "dp_23", "dp_24", "dp_25" };
 
 	crimes[] = { 
-		{"STR_Crime_1","350","1"}, 
-		{"STR_Crime_2","1500","2"}, 
-		{"STR_Crime_3","2500","3"}, 
-		{"STR_Crime_4","3500","4"}, 
-		{"STR_Crime_5","10000","5"}, 
-		{"STR_Crime_6","5000","6"}, 
-		{"STR_Crime_7","10000","7"} 
+		{"STR_Crime_1","500","1"}, 
+		{"STR_Crime_2","200","2"}, 
+		{"STR_Crime_3","150","3"}, 
+		{"STR_Crime_4","250","4"}, 
+		{"STR_Crime_5","100","5"}, 
+		{"STR_Crime_6","80","6"}, 
+		{"STR_Crime_7","150","7"},
+		{"STR_Crime_8","5000","8"},
+		{"STR_Crime_9","5000","9"},
+		{"STR_Crime_10","15000","10"},
+		{"STR_Crime_11","10000","11"},
+		{"STR_Crime_12","2500","12"},
+		{"STR_Crime_13","1500","13"},
+		{"STR_Crime_14","500","14"},
+		{"STR_Crime_15","2500","15"},
+		{"STR_Crime_16","1500","16"},
+		{"STR_Crime_17","100","17"},
+		{"STR_Crime_18","1500","18"},
+		{"STR_Crime_19","2500","19"},
+		{"STR_Crime_20","500","20"},
+		{"STR_Crime_21","500","21"},
+		{"STR_Crime_22","2000","22"},
+		{"STR_Crime_23","5000","23"},
+		{"STR_Crime_24","10000","24"},
+		{"STR_Crime_25","20000","25"}
 	};
 	
 	sellArray[] = {	};
@@ -166,14 +185,14 @@ class VirtualItems {
 	CLASS ENTRY,DisplayName,VariableName,price,illegal,side indicator
 */
 class Licenses {
-	LICENSEMACRO(driver,"STR_License_Driver","driver",500,false,"civ")
+	LICENSEMACRO(driver,"STR_License_Driver","driver",150,false,"civ")
 	LICENSEMACRO(boat,"STR_License_Boat","boat",1000,false,"civ")
 	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",25000,false,"civ")
-	LICENSEMACRO(gun,"STR_License_Firearm","gun",10000,false,"civ")
 	LICENSEMACRO(dive,"STR_License_Diving","dive",2000,false,"civ")
+	LICENSEMACRO(gun,"STR_License_Firearm","gun",10000,false,"civ")
 	LICENSEMACRO(oil,"STR_License_Oil","oil",10000,false,"civ")
-	LICENSEMACRO(cAir,"STR_License_Pilot","cAir",15000,false,"cop")
 	LICENSEMACRO(coastguard,"STR_License_CG","cg",8000,false,"cop")
+	LICENSEMACRO(cAir,"STR_License_Pilot","cAir",15000,false,"cop")
 	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",25000,true,"civ")
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",19500,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",15000,false,"civ")
@@ -188,7 +207,9 @@ class Licenses {
 	LICENSEMACRO(cement,"STR_License_Cement","cement",6500,false,"civ")
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",15000,false,"med")
 	LICENSEMACRO(home,"STR_License_Home","home",75000,false,"civ")
-	LICENSEMACRO(dep,"STR_License_Dep","dep",15000,false,"civ")
+	LICENSEMACRO(dep,"STR_License_Dep","dep",2500,false,"civ")
+	LICENSEMACRO(taxi,"STR_License_Taxi","taxi",2250,false,"civ")
+	LICENSEMACRO(moto,"STR_License_Moto","moto",750,false,"civ")
 };
 
 class VirtualShops {

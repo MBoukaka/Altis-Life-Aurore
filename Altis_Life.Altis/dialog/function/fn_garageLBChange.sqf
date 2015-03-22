@@ -66,11 +66,17 @@ SEL(_vehicleInfo,12),
 _vehicleColor,
 SEL(_vehicleInfo,3),
 [_insurancePrice] call life_fnc_numberText,
-if(_assur == 1) then {"<t color='#8cff9b'>Assuré</t>"} else {"<t color='#FF0000'>Pas d'assurance</t>"},
-_vehicleInfo select 9
+if(EQUAL(_assur,1)) then {"<t color='#8cff9b'>Assuré</t>"} else {"<t color='#FF0000'>Pas d'assurance</t>"},
+SEL(_vehicleInfo,9)
 ];
 
-if(_assur == 1) then {
+if(_className in (LIFE_SETTINGS(getArray,"vehicle_noAssurance"))) then {
+ctrlEnable [97480,false];
+}else{
+ctrlEnable [97480,True];
+};
+
+if(EQUAL(_assur,1)) then {
 ctrlShow [97480,False];
 }else{
 ctrlShow [97480,True];

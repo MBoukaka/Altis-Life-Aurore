@@ -2557,7 +2557,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=754;
+		items=755;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -10232,10 +10232,20 @@ class Mission
 			skill=0.60000002;
 			init="this allowDamage false;";
 		};
+		class Item754
+		{
+			position[]={3762.5366,10.851081,13368.365};
+			azimut=28.100599;
+			id=873;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_1"",""dep_v_1_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",'license_civ_dep']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
 	};
 	class Markers
 	{
-		items=230;
+		items=232;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -12070,6 +12080,20 @@ class Mission
 			text="La chasse est disponible !";
 			type="mil_join";
 			colorName="ColorRed";
+		};
+		class Item230
+		{
+			position[]={3763.5996,10.649605,13388.351};
+			name="dep_v_1_1";
+			type="Empty";
+			angle=391.30099;
+		};
+		class Item231
+		{
+			position[]={3758.5732,10.630495,13380.243};
+			name="dep_v_1";
+			type="Empty";
+			angle=397.41;
 		};
 	};
 };
