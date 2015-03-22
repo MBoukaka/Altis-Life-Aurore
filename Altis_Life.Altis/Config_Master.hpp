@@ -191,6 +191,8 @@ class VirtualItems {
 	CLASS ENTRY,DisplayName,VariableName,price,illegal,side indicator
 */
 class Licenses {
+	LICENSEMACRO(copdonator,"STR_License_CopDonator","copdonator",10000,false,"cop")
+	LICENSEMACRO(civdonator,"STR_License_CivDonator","civdonator",10000,false,"civ")
 	LICENSEMACRO(driver,"STR_License_Driver","driver",150,false,"civ")
 	LICENSEMACRO(boat,"STR_License_Boat","boat",1000,false,"civ")
 	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",25000,false,"civ")
