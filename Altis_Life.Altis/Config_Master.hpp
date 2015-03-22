@@ -218,6 +218,10 @@ class Licenses {
 	LICENSEMACRO(dep,"STR_License_Dep","dep",2500,false,"civ")
 	LICENSEMACRO(taxi,"STR_License_Taxi","taxi",2250,false,"civ")
 	LICENSEMACRO(moto,"STR_License_Moto","moto",750,false,"civ")
+	LICENSEMACRO(restaurant,"STR_License_restaurant","restaurant",750,false,"civ")
+	LICENSEMACRO(macumba,"STR_License_macumba","macumba",750,false,"civ")
+	LICENSEMACRO(bombe,"STR_License_bombe","bombe",750,false,"civ")
+	LICENSEMACRO(explo,"STR_License_explo","explo",750,false,"civ")
 };
 
 class VirtualShops {

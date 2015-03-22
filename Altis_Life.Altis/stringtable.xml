@@ -3418,6 +3418,22 @@
 			<Original>MEMBRE DONATEUR</Original>
 			<French>MEMBRE DONATEUR</French>
 		</Key>
+		<Key ID="STR_License_explo">
+			<Original>Maniement d'explosifs</Original>
+			<French>Maniement d'explosifs</French>
+		</Key>
+		<Key ID="STR_License_bombe">
+			<Original>Créateur de bombes</Original>
+			<French>Créateur de bombes</French>
+		</Key>
+		<Key ID="STR_License_macumba">
+			<Original>Propriétaire du Macumba</Original>
+			<French>Propriétaire du Macumba</French>
+		</Key>
+		<Key ID="STR_License_restaurant">
+			<Original>Restaurateur</Original>
+			<French>Restaurateur</French>
+		</Key>
 		<Key ID="STR_License_CivDonator">
 			<Original>MEMBRE DONATEUR</Original>
 			<French>MEMBRE DONATEUR</French>
