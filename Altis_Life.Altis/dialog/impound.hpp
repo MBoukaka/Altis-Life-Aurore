@@ -65,7 +65,7 @@ class Life_impound_menu
 		class recuperer: Life_RscButtonInvisible
 		{
 			idc = -1;
-			onButtonClick = "[] call life_fnc_unimpound;";
+			onButtonClick = "[] call life_fnc_unimpound; closeDialog 0;";
 			x = 0.411979 * safezoneW + safezoneX;
 			y = 0.65 * safezoneH + safezoneY;
 			w = 0.0719792 * safezoneW;

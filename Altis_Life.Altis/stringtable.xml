@@ -994,6 +994,14 @@
 			<Italian>C'è già un veicolo nel punto di creazione. Verrai rimborsato della spesa appena effettuata.</Italian>
 			<Portuguese>Existe um outro veiculo na area de spawn. Você será reembolsado.</Portuguese>
 		</Key>
+		<Key ID="STR_Garage_SpawnWinsur">
+			<Original>Ton véhicule est disponible et assuré.</Original>
+			<French>Ton véhicule est disponible et assuré.</French>
+		</Key>
+		<Key ID="STR_Garage_SpawnWOinsur">
+			<Original>Ton véhicule est disponible.</Original>
+			<French>Ton véhicule est disponible.</French>
+		</Key>
 		<Key ID="STR_Garage_SoldCar">
 			<Original>You sold that vehicle for $%1</Original>
 			<German>Du verkaufst dein Fahrzeug für $%1</German>

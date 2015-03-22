@@ -281,7 +281,7 @@ class Clothing {
 			{ "U_B_CombatUniform_mcam_tshirt", "", 50, { "life_coplevel", "SCALAR", 1 } },
 			{ "U_O_OfficerUniform_ocamo", "Motard Gendarme", 50, { "life_coplevel", "SCALAR", 1 } },
 			{ "U_C_GIGN", "Uniforme GIGN", 100, { "life_coplevel", "SCALAR", 2} },
-			{ "U_B_Wetsuit", "Tenue de plongée", 100, { "", "", -1 } }
+			{ "U_B_Wetsuit", "Tenue de plongée", 100, { "life_coplevel", "SCALAR", 3 } }
 			
 		};
 
@@ -309,14 +309,14 @@ class Clothing {
 
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "V_Police_Belt", "Ceinture de Gendarme", 20, { "", "", -1 } },
+			{ "V_Police_Belt", "Ceinture de Gendarme", 50, { "", "", -1 } },
 			{ "GDM_Vest_Jaune", "", 20, { "", "", -1 } },
 			{ "GDM_Vest_Noir", "", 20, { "", "", -1 } },
 			{ "GDM_Vest_Etu", "", 20, { "", "", -1 } },
 			{ "GDM_Vest_Mpg", "", 20, { "", "", -1 } },
 			{ "GDM_Vest_Vert", "", 20, { "", "", -1 } },
 			{ "V_TacVest_GIGN", "Veste du GIGN", 100, { "life_coplevel", "SCALAR", 2 } },
-			{ "V_PlateCarrier1_blk", "Benji Balistique", 130, { "life_coplevel", "SCALAR", 2 } }
+			{ "V_PlateCarrier1_blk", "Benji Balistique", 130, { "life_coplevel", "SCALAR", 3 } }
 			
 		};
 
@@ -805,7 +805,7 @@ class Clothing {
 			{ "B_mas_AssaultPack_wint", "", 40, { "", "", -1 } },
 			{ "B_mas_Bergen_rng", "", 70, { "", "", -1 } },
 			{ "B_mas_Kitbag_black", "", 70, { "", "", -1 } },
-			{ "B_AssaultPack_blk", "", 3000, { "", "", -1 } },
+			{ "B_AssaultPack_blk", "", 300, { "", "", -1 } },
 			{ "B_FieldPack_blk", "", 500, { "", "", -1 } },
 			{ "B_Bergen_blk", "", 500, { "", "", -1 } }
 		};
