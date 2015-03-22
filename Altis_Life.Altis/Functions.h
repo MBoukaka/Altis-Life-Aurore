@@ -47,6 +47,15 @@ class Life_Client_Core
 		class dsirenLights {};		
 	};
 	
+	class macumba
+	{
+		file = "core\macumba";
+		class MacumbaMenu {};
+		class MacumbaMenuMusic {};
+		class MacumbaSelect {};
+		class MacumbaMusicSelect {};
+	};
+	
 	class Saisie
 	{
 		file = "core\saisie";
