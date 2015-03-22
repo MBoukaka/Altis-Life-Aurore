@@ -8,6 +8,13 @@
 private["_spCfg","_sp","_ctrl"];
 disableSerialization;
 
+if(life_altf4) then //legit respawn
+{
+	life_is_arrested = false;
+	[5] call SOCK_fnc_updatePartial;
+};
+life_altf4 = false;
+
 if(life_is_arrested) exitWith {
 	[] call life_fnc_respawned;
 };

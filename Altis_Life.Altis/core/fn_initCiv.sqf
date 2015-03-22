@@ -13,12 +13,11 @@ civ_spawn_3 = nearestObjects[getMarkerPos  "civ_spawn_3", ["Land_i_Shop_01_V1_F"
 civ_spawn_4 = nearestObjects[getMarkerPos  "civ_spawn_4", ["Land_i_Shop_01_V1_F","Land_i_Shop_02_V1_F","Land_i_Shop_03_V1_F","Land_i_Stone_HouseBig_V1_F"],250];
 waitUntil {!(isNull (findDisplay 46))};
 
-if(FETCH_CONST(life_donator) == 3) then {
-	license_civ_civdonator = true;
-		}	else	{
-	license_civ_civdonator = false;
-};
+//Préparation des licenses
+if(FETCH_CONST(life_donator) == 3) then {	license_civ_civdonator = true;	}	else	{	license_civ_civdonator = false;	};
+if(license_civ_rebel)	then	{	license_civ_bandit = false;	};
 
+//Vérification du personnage
 if(life_is_arrested) then
 {
 	life_is_arrested = false;

@@ -34,7 +34,15 @@ life_corpse SVAR ["name",nil,TRUE];
 [[life_corpse],"life_fnc_corpse",true,false] call life_fnc_MP;
 hideBody life_corpse;
 
+//NO ALT F4
+life_altf4 = false;
+life_is_arrested = false;
+
 player SVAR ["Revive",nil,TRUE];
 player SVAR ["name",nil,TRUE];
 player SVAR ["Reviving",nil,TRUE];
+
 [] call life_fnc_hudUpdate; //Request update of hud.
+[] execVM "scripts\statusBar.sqf";
+[] call life_fnc_equipGear;
+[] call SOCK_fnc_updateRequest; //call our silent sync.

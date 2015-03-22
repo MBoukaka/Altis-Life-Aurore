@@ -90,6 +90,12 @@ if(!isNull _killer && {_killer != _unit}) then {
 	life_removeWanted = true;
 };
 
+if(!life_is_arrested) then
+{
+	life_altf4 = true;
+};
+life_is_arrested = true;
+
 _handle = [_unit] spawn life_fnc_dropItems;
 waitUntil {scriptDone _handle};
 
@@ -104,3 +110,4 @@ CASH = 0;
 
 [0] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;
+[5] call SOCK_fnc_updatePartial;
