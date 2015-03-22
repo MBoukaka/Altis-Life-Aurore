@@ -1,3 +1,4 @@
+#include "dialogbase.hpp"
 author = "Tonic and Itsyuka modifié par le staff Aurore";
 onLoadName = "Altis Life RPG 4.0";
 onLoadMission = "Le Serveur dont vous êtes le héros !";
@@ -73,13 +74,7 @@ class CfgFunctions
 class CfgSounds
 {
 	sounds[] = {};
-	class SirenLong
-	{
-		name = "SirenLong";
-		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
-		titles[] = {};
-	};
-
+	
 };
 
 class CfgDebriefing
