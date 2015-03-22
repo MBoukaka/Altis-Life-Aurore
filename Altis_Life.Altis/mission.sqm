@@ -11924,7 +11924,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=252;
+		items=254;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -13943,6 +13943,18 @@ class Mission
 			name="reb_air_3";
 			type="Empty";
 			angle=-44.353672;
+		};
+		class Item252
+		{
+			position[]={3292.1475,2.2672522,12966.849};
+			name="cop_tp_1";
+			type="Empty";
+		};
+		class Item253
+		{
+			position[]={16556.309,11,12775.015};
+			name="cop_tp_2";
+			type="Empty";
 		};
 	};
 };
