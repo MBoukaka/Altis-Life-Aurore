@@ -253,7 +253,7 @@ class VirtualShops {
 
 	class restau {
 		name = "STR_Shops_restau";
-		items[] = { "waterBottle", "cacahuete", "redgull", "tbacon", "burger", "blanquette", "redwine", "frite", "coca", "pizza" }
+		items[] = { "waterBottle", "cacahuete", "redgull", "tbacon", "burger", "blanquette", "redwine", "frite", "coca", "pizza" };
 	};
 	
 	class oil {

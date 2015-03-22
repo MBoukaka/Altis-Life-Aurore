@@ -17,6 +17,11 @@ if(life_blacklisted) exitWith
 	sleep 30;
 };
 
+if(FETCH_CONST(life_donator) == 3) then {
+	license_cop_copdonator = true;
+		}	else	{
+	license_cop_copdonator = false;
+};
 
 player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 [] call life_fnc_spawnMenu;

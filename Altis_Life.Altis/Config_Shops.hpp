@@ -383,7 +383,7 @@ class WeaponShops {
 	class cop_donateur {
         name = "Gendarme Donateur";
         side = "cop";
-        license = "";
+        license = "copdonator";
         level = -1;
         msg = "";
         items[] = {
