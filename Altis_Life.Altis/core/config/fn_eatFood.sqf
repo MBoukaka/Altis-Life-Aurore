@@ -25,10 +25,16 @@ if([false,_food,1] call life_fnc_handleInv) then {
 		case "turtlesoup": {_val = 100};
 		case "donuts": {_val = 30};
 		case "tbacon": {_val = 40};
-		case "peach": {_val = 10};
+		case "cacahuete": {_val = 10};
+		case "burger": {_val = 40};
+		case "blanquette": {_val = 50};
+		case "redwine": {_val = 30};
+		case "frite": {_val = 40};
+		case "coca": {_val = 50};
+		case "pizza": {_val = 50};
 	};
 
 	_sum = life_hunger + _val;
-	if(_sum > 100) then {_sum = 100; player setFatigue 1; hint "You have over eaten, you are now feeling fatigued.";};
+	if(_sum > 100) then {_sum = 100; player setFatigue 1; hint "Tu as trop mangé ! Vas poser un cake avant de courrir !";};
 	life_hunger = _sum;
 };

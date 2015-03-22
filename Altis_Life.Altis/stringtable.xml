@@ -22,6 +22,10 @@
 			<Italian>Mercato</Italian>
 			<French>Marché</French>
 		</Key>
+		<Key ID="STR_Shops_restau">
+			<Original>Restaurant</Original>
+			<French>Restaurant</French>
+		</Key>
 		<Key ID="STR_Shops_Rebel">
 			<Original>Rebel Market</Original>
 			<German>Rebellen Markt</German>
@@ -2874,6 +2878,38 @@
 			<French>Cannabis</French>
 			<Italian>Cannabis</Italian>
 			<Portuguese>Maconha não Processada</Portuguese>
+		</Key>
+		<Key ID="STR_Item_cacahuete">
+			<Original>Cacahuètes</Original>
+			<French>Cacahuètes</French>
+		</Key>
+		<Key ID="STR_Item_burger">
+			<Original>Hamburger</Original>
+			<French>Hamburger</French>
+		</Key>
+		<Key ID="STR_Item_blanquette">
+			<Original>Blanquette de Veau</Original>
+			<French>Blanquette de Veau</French>
+		</Key>
+		<Key ID="STR_Item_cacahuete">
+			<Original>Cacahuètes</Original>
+			<French>Cacahuètes</French>
+		</Key>
+		<Key ID="STR_Item_redwine">
+			<Original>Gratin Groschandois</Original>
+			<French>Gratin Groschandois</French>
+		</Key>
+		<Key ID="STR_Item_frite">
+			<Original>Frites</Original>
+			<French>Frites</French>
+		</Key>
+		<Key ID="STR_Item_coca">
+			<Original>Coca Cola</Original>
+			<French>Coca Cola</French>
+		</Key>
+		<Key ID="STR_Item_pizza">
+			<Original>PiZzA</Original>
+			<French>Pizza 4 Fromages</French>
 		</Key>
 		<Key ID="STR_Item_Apple">
 			<Original>Apple</Original>

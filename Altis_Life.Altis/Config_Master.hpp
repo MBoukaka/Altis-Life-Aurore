@@ -174,7 +174,13 @@ class VirtualItems {
 	VITEMMACRO(sheep_raw, "STR_Item_SheepRaw", "sheepRaw", 2, -1, 50, false, -1, "icons\food.paa")
 	VITEMMACRO(sheep_grilled, "STR_Item_SheepGrilled", "sheepGrilled", 2, 155, 115, false, 100, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 2, -1, 75, false, -1, "icons\food.paa")
-	VITEMMACRO(goat_grilled, "STR_Item_GoatGrilled", "goatGrilled", 2, 175, 135, false, 100, "icons\ico_cookedMeat.paa")
+	VITEMMACRO(cacahuete, "STR_Item_cacahuete", "cacahuete", 2, 35, 25, false, 10, "")
+	VITEMMACRO(burger, "STR_Item_burger", "burger", 2, 75, 25, false, 40, "")
+	VITEMMACRO(blanquette, "STR_Item_blanquette", "blanquette", 2, 75, 25, false, 50, "")
+	VITEMMACRO(goat_redwine, "STR_Item_redwine", "redwine", 2, 75, 25, false, 30, "")
+	VITEMMACRO(goat_frite, "STR_Item_frite", "frite", 2, 75, 25, false, 40, "")
+	VITEMMACRO(goat_coca, "STR_Item_coca", "coca", 2, 75, 25, false, 50, "")
+	VITEMMACRO(goat_pizza, "STR_Item_pizza", "pizza", 2, 75, 35, false, 50, "")
 };
 
 
@@ -243,6 +249,11 @@ class VirtualShops {
 		items[] = { "cocaine_processed", "heroin_processed", "marijuana" };
 	};
 
+	class restau {
+		name = "STR_Shops_restau";
+		items[] = { "waterBottle", "cacahuete", "redgull", "tbacon", "burger", "blanquette", "redwine", "frite", "coca", "pizza" }
+	};
+	
 	class oil {
 		name = "STR_Shops_Oil";
 		items[] = { "oil_processed", "pickaxe", "fuelFull" };

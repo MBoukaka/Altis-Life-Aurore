@@ -12,7 +12,7 @@ if(EQUAL(lbCurSel 2005,-1)) exitWith {hint localize "STR_ISTR_SelectItemFirst";}
 _item = CONTROL_DATA(2005);
 
 switch (true) do {
-	case (_item in ["waterBottle","coffee","redgull"]): {
+	case (_item in ["waterBottle","coffee","redgull","coca"]): {
 		if(([false,_item,1] call life_fnc_handleInv)) then {
 			life_thirst = 100;
 			if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 0;};
@@ -105,7 +105,7 @@ switch (true) do {
 		[] spawn life_fnc_lockpick;
 	};
 	
-	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach"]): {
+	case (_item in ["apple","rabbitgrilled","salemagrilled","ornategrilled","mackerelgrilled","tunagrilled","mulletfried","catshark","turtle","turtlesoup","donuts","tbacon","peach","cacahuete","burger","redwine","blanquette","frite","pizza"]): {
 		if(!(EQUAL(M_CONFIG(getNumber,"VirtualItems",_item,"edible"),-1))) then {
 			if([false,_item,1] call life_fnc_handleInv) then {
 				_val = M_CONFIG(getNumber,"VirtualItems",_item,"edible");
