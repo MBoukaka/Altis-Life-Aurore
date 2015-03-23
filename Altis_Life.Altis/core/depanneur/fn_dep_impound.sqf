@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_dep_impound.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -50,17 +51,17 @@ if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf 
 		_type = getText(configFile >> "CfgVehicles" >> (typeOf _vehicle) >> "displayName");
 		switch (true) do
 		{
-			case (_vehicle isKindOf "Car"): {_price = (call life_impound_car);};
-			case (_vehicle isKindOf "Ship"): {_price = (call life_impound_boat);};
-			case (_vehicle isKindOf "Air"): {_price = (call life_impound_air);};
+			case (_vehicle isKindOf "Car"): {_price = LIFE_SETTINGS(getNumber,"impound_car");};
+			case (_vehicle isKindOf "Ship"): {_price = LIFE_SETTINGS(getNumber,"impound_boat");};
+			case (_vehicle isKindOf "Air"): {_price = LIFE_SETTINGS(getNumber,"impound_air");};
 		};
 		
 		life_impound_inuse = true;
-		[[_vehicle,true,player],"TON_fnc_vehicleStore",false,false] spawn life_fnc_MP;
+		[[_vehicle,true,player],"TON_fnc_vehicleStore",false,false] call life_fnc_MP;
 		waitUntil {!life_impound_inuse};
 		hint format["Tu as remorqué %1\n\nTu reçois $%2 Pour néttoyer les rues !",_type,_price];
 		[[0,format["%1 a mis en fourriere %3 de %2 ",name player,(_vehicleData select 0) select 1,_vehicleName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-		life_atmbank = life_atmbank + _price;
+		CASH = CASH + _price;
 	}
 		else
 	{
