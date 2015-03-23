@@ -23,6 +23,8 @@ _itemInfo = switch (_type) do {
 	case "salt": {["salt_unrefined","salt_refined",450,(localize "STR_Process_Salt")];};
 	case "cocaine": {["cocaine_unprocessed","cocaine_processed",1500,(localize "STR_Process_Cocaine")];};
 	case "marijuana": {["cannabis","marijuana",500,(localize "STR_Process_Marijuana")];};
+	case "explo": {["poudre","explo",650,(localize "STR_Process_explo")];};
+	case "bombe": {["explo","blastingcharge",1650,(localize "STR_Process_bombe")];};
 	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
 	default {[];};
 };

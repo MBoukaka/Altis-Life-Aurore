@@ -3434,6 +3434,14 @@
 			<Original>Créateur de bombes</Original>
 			<French>Créateur de bombes</French>
 		</Key>
+		<Key ID="STR_Process_explo">
+			<Original>Transformation de la poudre</Original>
+			<French>Transformations de la poudre</French>
+		</Key>
+		<Key ID="STR_Process_bombe">
+			<Original>Création des explosifs</Original>
+			<French>Création des explosifs</French>
+		</Key>
 		<Key ID="STR_Item_explo">
 			<Original>Poudre explosive</Original>
 			<French>Poudre explosive</French>
