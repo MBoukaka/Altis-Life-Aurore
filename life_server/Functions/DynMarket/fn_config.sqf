@@ -41,7 +41,7 @@ DYNMARKET_Items_Groups =
 			["glass",-1,80,315],
 			["cement",-1,65,355]
 		],
-		6
+		4
 	],
 	["Illegal", 
 		[
@@ -50,7 +50,7 @@ DYNMARKET_Items_Groups =
 			["cocaine_processed",-1,180,650],
 			["heroin_processed",-1,160,540]
 		],
-		6
+		4
 	]
 ];
 
