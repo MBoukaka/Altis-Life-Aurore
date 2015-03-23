@@ -115,7 +115,7 @@ class VirtualItems {
 	VITEMMACRO(gpstracker, "STR_Item_gpstracker", "gpstracker", 2, 750, 350, false, -1, "aurore_data2\icons\items\gpstracker.paa")
 	VITEMMACRO(cone, "STR_Item_cone", "cone", 2, 750, 350, false, -1, "aurore_data2\icons\items\cone.paa")
 	VITEMMACRO(vird, "STR_Item_vird", "vird", 2, 750, 350, false, -1, "aurore_data2\icons\items\vird.paa")
-	VITEMMACRO(virg, "STR_Item_virg", "virg", 2, 750, 350, false, -1, "aurore_data2\icons\items\virg.paa")
+	VITEMMACRO(explo, "STR_Item_explo", "explo", 2, -1, 495, false, -1, "")
 
 	//Mined Items
 	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 7, -1, -1, false, -1, "aurore_data2\icons\items\oil_unprocessed.paa")
@@ -132,6 +132,7 @@ class VirtualItems {
 	VITEMMACRO(diamond_cut, "STR_Item_DiamondC", "diamondCut", 2, -1, 2000, false, -1, "aurore_data2\icons\items\diamond.paa")
 	VITEMMACRO(rock, "STR_Item_Rock", "rock", 6, -1, -1, false, -1, "aurore_data2\icons\items\rock.paa")
 	VITEMMACRO(cement, "STR_Item_CementBag", "cement", 5, -1, 1950, false, -1, "aurore_data2\icons\items\cement.paa")
+	VITEMMACRO(poudre, "STR_Item_poudre", "cement", 5, -1, -1, false, -1, "aurore_data2\icons\items\cement.paa")
 
 	//Drugs
 	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "aurore_data2\icons\items\heroin_unprocessed.paa")
@@ -241,6 +242,11 @@ class VirtualShops {
 		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "blastingcharge" };
 	};
 
+	class explo {
+		name = "STR_Shops_explo";
+		items [] = { "explo" };
+	};
+	
 	class wongs {
 		name = "STR_Shops_Wongs";
 		items[] = { "turtle_soup", "turtle_raw" };

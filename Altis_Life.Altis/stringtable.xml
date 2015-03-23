@@ -3434,6 +3434,18 @@
 			<Original>Créateur de bombes</Original>
 			<French>Créateur de bombes</French>
 		</Key>
+		<Key ID="STR_Item_explo">
+			<Original>Poudre explosive</Original>
+			<French>Poudre explosive</French>
+		</Key>
+		<Key ID="STR_Item_poudre">
+			<Original>Poudre brute</Original>
+			<French>Poudre brute</French>
+		</Key>
+		<Key ID="STR_Shops_explo">
+			<Original>Vendeur d'explosifs</Original>
+			<French>Vendeur d'explosifs</French>
+		</Key>
 		<Key ID="STR_License_macumba">
 			<Original>Propriétaire du Macumba</Original>
 			<French>Propriétaire du Macumba</French>
