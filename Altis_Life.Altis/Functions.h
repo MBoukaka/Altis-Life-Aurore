@@ -141,6 +141,8 @@ class Life_Client_Core
 		class surrender {};
 		class depdemission {};
 		class taxidemission {};
+		class rebdemission {};
+		class banditdemission {};
 		class suicideBomb {};
 	};
 	
