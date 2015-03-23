@@ -61,9 +61,7 @@ switch (_side) do
 		
 		if(license_civ_taxi) then {
 			_return = [
-				["taxi_spawn_1","Kavala Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["taxi_spawn_2","Athira Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["taxi_spawn_3","Sofia Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["taxi_spawn_1","Kavala Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
