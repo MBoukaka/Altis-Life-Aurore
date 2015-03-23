@@ -38,7 +38,7 @@ _amountsold = 0;
 } forEach DYNAMICMARKET_boughtItems;
 
 _amountsolddisplay ctrlSetText format ["%1",_amountsold];
-_cashdisplay ctrlSetText format ["%1$",_cost];
+_cashdisplay ctrlSetText format ["%1€",_cost];
 _arrowText = "";
 if (_cost<_costOld) then {
 	_percent = (100-((_cost/_costOld)*100));
@@ -52,4 +52,4 @@ if (_cost<_costOld) then {
 		_arrowText = format [""];
 	};
 };
-_cashdisplayold ctrlSetStructuredText parseText format ["%1$ %2",_costOld,_arrowText];
+_cashdisplayold ctrlSetStructuredText parseText format ["%1€ %2",_costOld,_arrowText];
