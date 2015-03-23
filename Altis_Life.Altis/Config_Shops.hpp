@@ -408,7 +408,7 @@ class bandit {
 		{ "muzzle_mas_snds_SM","Silencieux HK417 - SR25",120 },
 		{ "muzzle_mas_snds_AK","Silencieux AK",120 },
 		{ "muzzle_mas_snds_SH","Silencieux SVD",800 },
-		{ "acc_flashlight",""l,50 },
+		{ "acc_flashlight","",50 },
 		{ "Rangefinder","",5000 },
 		{ "SmokeShell","",200 },
 		{ "SmokeShellRed","",200 },
