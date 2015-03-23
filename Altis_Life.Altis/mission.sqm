@@ -11929,7 +11929,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_bandit && !license_civ_reb && !license_civ_taxi && !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
 		};
 		class Item919
 		{
@@ -11940,7 +11940,7 @@ class Mission
 			vehicle="SignAd_Sponsor_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
+			init="this setObjectTexture [0, ""images\depanneur.jpg""]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item920
 		{
@@ -11950,7 +11950,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_bandit && !license_civ_reb && !license_civ_taxi && !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
 		};
 		class Item921
 		{
@@ -11961,7 +11961,7 @@ class Mission
 			vehicle="SignAd_Sponsor_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
+			init="this setObjectTexture [0, ""images\depanneur.jpg""]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item922
 		{
@@ -11971,7 +11971,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_2"",""dep_v_2_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",'license_civ_dep']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_2"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_2"",""dep_v_2_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",' license_civ_dep ']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian ']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_2"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item923
 		{
@@ -11990,7 +11990,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_bandit && !license_civ_reb && !license_civ_taxi && !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner de TransportLife"",life_fnc_taxidemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""taxi"",0,false,false,"""",' !license_civ_taxi && playerSide == civilian ']; this addAction[""Démissionner de TransportLife"",life_fnc_taxidemission]; ";
 		};
 		class Item925
 		{
@@ -12011,7 +12011,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Véhicule Taxi"",life_fnc_vehicleShopMenu,[""taxi_car"",civilian,[""taxi_v_1"",""taxi_v_1_1""],""civ"",""Véhicules Taxi""],0,false,false,"""",'license_civ_taxi']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""taxi_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Véhicule Taxi"",life_fnc_vehicleShopMenu,[""taxi_car"",civilian,[""taxi_v_1"",""taxi_v_1_1""],""civ"",""Véhicules Taxi""],0,false,false,"""",' license_civ_taxi ']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""taxi_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item927
 		{

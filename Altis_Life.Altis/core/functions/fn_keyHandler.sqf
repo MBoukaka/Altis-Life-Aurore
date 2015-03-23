@@ -295,6 +295,8 @@ switch (_code) do {
 			} else {
 				_locked = locked _veh;
 				if(_veh in life_vehicles && player distance _veh < 8) then {
+					if ((typeOf _veh in ["cl3_f150repo_orange","B_Truck_01_mover_F"]) && !license_civ_dep) exitWith {hint "Seulement les depanneurs peuvent ouvrir ce type de vehicule.";};
+					if ((typeOf _veh in ["TAXI_SUV_01_F","cl3_suv_taxi","Orel_Agora"]) && !license_civ_taxi) exitWith {hint "Seulement les chauffeurs de taxi peuvent ouvrir ce type de vehicule.";};
 					if(EQUAL(_locked,2)) then {
 						if(local _veh) then {
 							_veh lock 0;
