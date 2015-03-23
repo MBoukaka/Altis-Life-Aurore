@@ -29,6 +29,17 @@ class Life_Client_Core
 		class survival {};
 	};
 	
+	class DynMarket
+    {
+        file = "core\DynMarket";
+        class bought {};
+        class update {};
+        class DisplayPrices {};
+        class LoadIntoListbox {};
+        class ForcePrice {};
+        class DYNMARKET_getPrice {};
+    };
+	
 	class Admin
 	{
 		file = "core\admin";

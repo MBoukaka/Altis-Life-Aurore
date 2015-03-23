@@ -146,7 +146,7 @@ class piPhone9S {
 		class bourse: Life_RscButtonInvisible
 		{
 			idc = 1604;
-			onButtonClick = "[] spawn life_fnc_openMarketView;";
+			onButtonClick = "createDialog ""life_dynmarket_prices"";";
 			tooltip = "Affiche la bourse d'Aurore";
 			x = 0.479687 * safezoneW + safezoneX;
 			y = 0.432407 * safezoneH + safezoneY;

@@ -172,6 +172,9 @@ life_wanted_list = [];
 
 [] spawn TON_fnc_initHouses;
 
+/* Setup the DynMarket */
+[] execVM "\life_server\Functions\DynMarket\fn_config.sqf";
+
 /* Setup the federal reserve building(s) */
 private["_dome","_rsb"];
 _dome = nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"];

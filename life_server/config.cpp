@@ -117,6 +117,17 @@ class CfgFunctions
 			class msgRequest {};
 		}; 
 		
+		class DynMarket
+        {
+            file = "\life_server\Functions\DynMarket";
+            class calculatePrices {};
+            class config {};
+            class getUpdate {};
+            class HandleDB {};
+            class playerLogged {};
+            class sleeper {};
+        };
+		
 		class Systems
 		{
 			file = "\life_server\Functions\Systems";

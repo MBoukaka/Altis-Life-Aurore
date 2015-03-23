@@ -178,10 +178,10 @@ class VirtualItems {
 	VITEMMACRO(cacahuete, "STR_Item_cacahuete", "cacahuete", 2, 35, 25, false, 10, "")
 	VITEMMACRO(burger, "STR_Item_burger", "burger", 2, 75, 25, false, 40, "")
 	VITEMMACRO(blanquette, "STR_Item_blanquette", "blanquette", 2, 75, 25, false, 50, "")
-	VITEMMACRO(goat_redwine, "STR_Item_redwine", "redwine", 2, 75, 25, false, 30, "")
-	VITEMMACRO(goat_frite, "STR_Item_frite", "frite", 2, 75, 25, false, 40, "")
-	VITEMMACRO(goat_coca, "STR_Item_coca", "coca", 2, 75, 25, false, 50, "")
-	VITEMMACRO(goat_pizza, "STR_Item_pizza", "pizza", 2, 75, 35, false, 50, "")
+	VITEMMACRO(redwine, "STR_Item_redwine", "redwine", 2, 75, 25, false, 30, "")
+	VITEMMACRO(frite, "STR_Item_frite", "frite", 2, 75, 25, false, 40, "")
+	VITEMMACRO(coca, "STR_Item_coca", "coca", 2, 75, 25, false, 50, "")
+	VITEMMACRO(pizza, "STR_Item_pizza", "pizza", 2, 75, 35, false, 50, "")
 };
 
 

@@ -109,6 +109,9 @@ life_fnc_moveIn = compileFinal
 	player moveInCargo (_this select 0);
 ";
 
+DYNAMICMARKET_boughtItems = [];
+[[getPlayerUID player],"TON_fnc_playerLogged",false,false] call life_fnc_MP;
+
 [] spawn life_fnc_survival;
 [] execVM "scripts\pumps.sqf";
 

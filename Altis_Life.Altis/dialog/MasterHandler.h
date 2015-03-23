@@ -31,3 +31,5 @@
 #include "iphone_cle.hpp"
 #include "iphone_inventaire.hpp"
 #include "FuelStat.h"
+#include "dynmarket_changeprice.hpp"
+#include "dynmarket_prices.hpp"
