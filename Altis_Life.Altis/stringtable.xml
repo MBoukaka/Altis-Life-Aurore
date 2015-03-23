@@ -3513,6 +3513,10 @@
 			<Italian>Licenza da Ribelle</Italian>
 			<Portuguese>Treinamento Rebelde</Portuguese>
 		</Key>
+		<Key ID="STR_License_Bandit">
+			<Original>Entrainement bandit</Original>
+			<French>Entrainement bandit</French>
+		</Key>
 		<Key ID="STR_License_Truck">
 			<Original>Truck License</Original>
 			<German>LKW-Führerschein</German>

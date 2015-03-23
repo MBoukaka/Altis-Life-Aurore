@@ -11940,7 +11940,7 @@ class Mission
 			vehicle="SignAd_Sponsor_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
+			init="this setObjectTexture [0, ""images\depanneur.jpg""]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item920
 		{
@@ -11961,7 +11961,7 @@ class Mission
 			vehicle="SignAd_Sponsor_F";
 			leader=1;
 			skill=0.60000002;
-			init="this allowDamage false; this enableSimulation false;";
+			init="this setObjectTexture [0, ""images\depanneur.jpg""]; this allowDamage false; this enableSimulation false;";
 		};
 		class Item922
 		{

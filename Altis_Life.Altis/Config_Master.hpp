@@ -205,6 +205,7 @@ class Licenses {
 	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",19500,true,"civ")
 	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",15000,false,"civ")
 	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",750000,true,"civ")
+	LICENSEMACRO(bandit,"STR_License_Bandit","bandit",100000,true,"civ")
 	LICENSEMACRO(trucking,"STR_License_Truck","trucking",20000,false,"civ")
 	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",35000,false,"civ")
 	LICENSEMACRO(salt,"STR_License_Salt","salt",12000,false,"civ")
