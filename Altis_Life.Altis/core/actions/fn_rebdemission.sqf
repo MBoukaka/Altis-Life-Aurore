@@ -8,6 +8,7 @@ titleText["Vous venez de demissionner des rebels.","PLAIN"];
 sleep 2;
 
 life_cash = life_cash + 200000;
+[] call life_fnc_hudUpdate;
 [0] call SOCK_fnc_updatePartial;
 
 titleText["L'etat vous donne 200.000 pour cette bonne decision.","PLAIN"];

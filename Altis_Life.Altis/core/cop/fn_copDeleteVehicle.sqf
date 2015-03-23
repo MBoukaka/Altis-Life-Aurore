@@ -62,6 +62,7 @@ if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf 
 		hint format["Tu as saisie %1\n\nTu reçois $%2 pour la bonne action !",_type,_price];
 		[[0,format["La Gendarmerie a saisie définitivement le %3 de %2 ",name player,(_vehicleData select 0) select 1,_vehicleName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		CASH = CASH + _price;
+		[] call life_fnc_hudUpdate;
 	}
 		else
 	{

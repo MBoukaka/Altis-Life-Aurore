@@ -104,5 +104,6 @@ if(_mode) then {
 };
 
 [0] call SOCK_fnc_updatePartial;
+[] call life_fnc_hudUpdate;
 closeDialog 0; //Exit the menu.
 true;

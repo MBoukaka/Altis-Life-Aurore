@@ -99,6 +99,7 @@ class Life_Client_Core
 	{
 		file = "core\actions";
 		class animMenu {};
+		class serviceTruck {};
 		class sitDown {};
 		class InteractionMenu {};
 		class buyLicense {};

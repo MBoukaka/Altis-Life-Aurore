@@ -48,6 +48,7 @@ life_thirst = 100;
 life_hunger = 100;
 life_drink = 0;
 CASH = 0;
+[] call life_fnc_hudUpdate;
 
 [[player,_bad],"life_fnc_jailSys",false,false] call life_fnc_MP;
 [0] call SOCK_fnc_updatePartial;

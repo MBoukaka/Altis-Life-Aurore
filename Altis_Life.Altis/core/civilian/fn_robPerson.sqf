@@ -20,3 +20,4 @@ if(CASH > 0) then {
 };
 
 [0] call SOCK_fnc_updatePartial;
+[] call life_fnc_hudUpdate;

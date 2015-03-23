@@ -20,7 +20,7 @@ class life_spawn_selection
 		{
 			colorBackground[] = {0,0,0,0};
 			idc = -1;
-			text = "$STR_Spawn_Title";
+			text = "";
 			x = 0 * safezoneW + safezoneX;
 			y = 0 * safezoneH + safezoneY;
 			w = 0 * safezoneW;
@@ -70,7 +70,7 @@ class life_spawn_selection
 		{
 			idc = -1;
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
-			text = "$STR_Spawn_Spawn";
+			text = "";
 			onButtonClick = "[] call life_fnc_spawnConfirm";
 			x = 0.509375 * safezoneW + safezoneX;
 			y = 0.691667 * safezoneH + safezoneY;

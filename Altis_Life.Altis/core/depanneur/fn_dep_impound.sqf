@@ -60,7 +60,7 @@ if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf 
 		waitUntil {!life_impound_inuse};
 		hint format["Tu as remorqué %1\n\nTu reçois $%2 Pour néttoyer les rues !",_type,_price];
 		[[0,format["%1 a mis en fourriere %3 de %2 ",name player,(_vehicleData select 0) select 1,_vehicleName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
-		life_atmcash = life_atmcash + _price;
+		life_atmbank = life_atmbank + _price;
 	}
 		else
 	{

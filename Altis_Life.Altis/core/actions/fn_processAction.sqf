@@ -96,5 +96,6 @@ if(_hasLicense) then {
 	5 cutText ["","PLAIN"];
 	titleText[format[localize "STR_Process_Processed2",_oldVal,localize _itemName,[_cost] call life_fnc_numberText],"PLAIN"];
 	SUB(CASH,_cost);
+	[] call life_fnc_hudUpdate;
 	life_is_processing = false;
 };	
