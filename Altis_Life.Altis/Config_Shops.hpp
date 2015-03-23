@@ -786,7 +786,6 @@ class WeaponShops {
         license = "";
         level = -1;
         items[] = {
-<<<<<<< HEAD
 		{ "ItemRadio","iPhone9S",50 },
 		{ "ItemGPS","",100 },
 		{ "Binocular","",100 },
@@ -795,20 +794,6 @@ class WeaponShops {
 		{ "Medikit","",100 },
 		{ "NVGoggles","",150 },
 		{ "B_FieldPack_ocamo","",300 }
-		};
-	};
-
-};
-=======
-			{ "ItemRadio", "Carte SIM", 20000 },
-            { "ItemGPS", "", 100 },
-			{ "Binocular", "", 150 },
-			{ "ToolKit", "", 250 },
-			{ "FirstAidKit", "", 150 },
-			{ "Medikit", "", 500 },
-			{ "NVGoggles", "", 1200 },
-			{ "B_FieldPack_ocamo", "", 3000 }
         };
     };
 };
->>>>>>> origin/master
