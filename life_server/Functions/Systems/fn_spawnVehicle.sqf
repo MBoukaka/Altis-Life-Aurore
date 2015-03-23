@@ -105,4 +105,24 @@ if(EQUAL(SEL(_vInfo,9),1)) then	{
 	}	else	{
 [[1,(localize "STR_Garage_SpawnWOinsur")],"life_fnc_broadcast",_unit,false,true] call life_fnc_MP;
 	};
+
+if(EQUAL(SEL(_vInfo,1),"med") && (SEL(_vInfo,2)) in ["clpd_mondeo_FireDepartment","cl3_escalade_fd","cl3_escalade_pm"]) then {
+	_vehicle setVariable["lights",false,true];
+};
+if(EQUAL(SEL(_vInfo,1),"civ") && (SEL(_vInfo,2)) in ["cl3_f150repo_orange","B_Truck_01_mover_F","B_Heli_Light_01_F","Dep_Offroad"]) then {
+	_vehicle setVariable["lights",false,true];
+};
+if(EQUAL(SEL(_vInfo,1),"cop") && (SEL(_vInfo,2)) in [
+	"demian2435_police_car","demian2435_police_offroad","Orel_Rangoo",
+	"DAR_CVPIAux","DAR_CVPIPolice","DAR_CVPISlick",
+	"Orel_Master","DAR_ImpalaPolice","DAR_ImpalaPoliceSlick",
+	"DAR_ImpalaPoliceDet","Orel_Payenne","DAR_TaurusPolice",
+	"DAR_TaurusPoliceState","DAR_TaurusPoliceStateSlick","A3L_GrandCaravanUCBlack",
+	"DAR_ExplorerPolice","DAR_ExplorerPoliceStealth","DAR_TahoePolice",
+	"DAR_TahoePoliceSlick","DAR_ChargerPolice","DAR_ChargerPoliceState",
+	"DAR_ChargerPoliceStateSlick","REV_GDM","B_MRAP_01_F",
+	"Aurore_q7_gdm","B_MRAP_01_hmg_F","Orel_Dingo","I_MRAP_03_F"]) then {
+	_vehicle setVariable["lights",false,true];
+};
+
 serv_sv_use deleteAt _servIndex;

@@ -113,7 +113,7 @@ class piPhone9S {
 		class admin: Life_RscButtonInvisible
 		{
 			idc = 1601;
-			onButtonClick = "createDialog ""iphone_admin_menu"";";
+			onButtonClick = "[] call life_fnc_p_openAdminMenu;";
 			tooltip = "Menu Admin";
 			x = 0.479375 * safezoneW + safezoneX;
 			y = 0.291 * safezoneH + safezoneY;

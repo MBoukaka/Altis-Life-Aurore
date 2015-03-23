@@ -73,5 +73,16 @@ class iphone_admin_menu {
 			w = 0.106979 * safezoneW;
 			h = 0.0399257 * safezoneH;
 		};
+		
+		class AdminBourse: Life_RscButtonInvisible
+		{
+			idc = 6969;
+			text = "Bourse UP";
+			onButtonClick = "createDialog ""life_dynmarket_changeprice"";";
+			x = 0.45875 * safezoneW + safezoneX;
+			y = 0.324 * safezoneH + safezoneY;
+			w = 0.0670312 * safezoneW;
+			h = 0.044 * safezoneH;
+		};
 	};
 };

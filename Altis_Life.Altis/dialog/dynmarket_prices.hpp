@@ -7,7 +7,7 @@ class life_dynmarket_prices {
 	
 	class controlsBackground {
 	
-	class iphone9s_back: Life_RscPicture
+		class iphone9s_back: Life_RscPicture
 		{
 			idc = -1;
 			text = "aurore_data2\data\app0.paa";

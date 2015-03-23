@@ -197,6 +197,7 @@ class Life_Client_Core
 		class giveItem {};
 		class giveMoney {};
 		class p_openMenu {};
+		class p_openAdminMenu {};
 		class p_openIphone {};
 		class inventaire {};
 		class p_updateInventory {};

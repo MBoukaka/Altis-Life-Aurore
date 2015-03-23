@@ -6,6 +6,17 @@ class life_dynmarket_changeprice {
 	onLoad = "";
 	
 	class controlsBackground {
+	
+		class iphone9s_back: Life_RscPicture
+		{
+			idc = -1;
+			text = "aurore_data2\data\app0.paa";
+			x = 0.242187 * safezoneW + safezoneX;
+			y = 0.093 * safezoneH + safezoneY;
+			w = 0.516198 * safezoneW;
+			h = 0.84363 * safezoneH;
+		};
+		
 	};
 	
 	class controls {
