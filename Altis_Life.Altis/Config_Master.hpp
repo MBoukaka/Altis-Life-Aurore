@@ -244,7 +244,7 @@ class VirtualShops {
 
 	class explo {
 		name = "STR_Shops_explo";
-		items [] = { "explo" };
+		items[] = { "explo" };
 	};
 	
 	class wongs {
