@@ -975,3 +975,5 @@ class cop_colonel {
 		{ "B_FieldPack_ocamo","",300 }
 		};
 	};
+
+};
