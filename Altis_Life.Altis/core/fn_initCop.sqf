@@ -17,6 +17,11 @@ if(life_blacklisted) exitWith
 	sleep 30;
 };
 
+if(FETCH_CONST(life_coplevel) == 0) then {
+	["NotWhitelisted",false,true] call BIS_fnc_endMission;
+	sleep 35;
+};
+
 if(FETCH_CONST(life_donator) == 3) then {
 	license_cop_copdonator = true;
 		}	else	{

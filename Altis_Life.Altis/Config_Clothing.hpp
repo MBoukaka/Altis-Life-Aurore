@@ -275,22 +275,22 @@ class Clothing {
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
 			{ "U_Rangemaster", "Cop Uniform", 50, { "", "", -1 } },
-			{ "U_C_Policeman", "Uniforme Gendarme", 50, { "life_coplevel", "SCALAR", 1 } },
-			{ "U_B_SpecopsUniform_sgg", "Polaire Gendarme", 50, { "life_coplevel", "SCALAR", 2 } },
-			{ "U_B_CombatUniform_mcam_worn", "Grand froid Gendarme", 50, { "life_coplevel", "SCALAR", 1 } },
-			{ "U_B_CombatUniform_mcam_tshirt", "", 50, { "life_coplevel", "SCALAR", 1 } },
-			{ "U_O_OfficerUniform_ocamo", "Motard Gendarme", 50, { "life_coplevel", "SCALAR", 1 } },
-			{ "U_C_GIGN", "Uniforme GIGN", 100, { "life_coplevel", "SCALAR", 2} },
-			{ "U_B_Wetsuit", "Tenue de plongée", 100, { "life_coplevel", "SCALAR", 3 } }
+			{ "U_C_Policeman", "Uniforme Gendarme", 50, { "life_coplevel", "SCALAR", 2 } },
+			{ "U_B_SpecopsUniform_sgg", "Polaire Gendarme", 50, { "life_coplevel", "SCALAR", 4 } },
+			{ "U_B_CombatUniform_mcam_worn", "Grand froid Gendarme", 50, { "life_coplevel", "SCALAR", 2 } },
+			{ "U_O_OfficerUniform_ocamo", "Motard Gendarme", 50, { "life_coplevel", "SCALAR", 2 } },
+			{ "U_C_GIGN", "Uniforme GIGN", 100, { "life_coplevel", "SCALAR", 4} },
+			{ "U_B_Wetsuit", "Tenue de plongée", 100, { "life_coplevel", "SCALAR", 5 } }
 			
 		};
 
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "H_HelmetB_plain_mcamo", "", 70, { "life_coplevel", "SCALAR", 1 } },
-			{ "H_Booniehat_mcamo", "", 70, { "life_coplevel", "SCALAR", 1 } },
-			{ "H_MilCap_mcamo", "", 70, { "life_coplevel", "SCALAR", 2 } },
-			{ "H_RacingHelmet_1_blue_F", "Casque Moto", 200, { "life_coplevel", "SCALAR", 1 } }
+			{ "H_HelmetB_plain_mcamo", "", 70, { "life_coplevel", "SCALAR", 2 } },
+			{ "H_Booniehat_mcamo", "", 70, { "life_coplevel", "SCALAR", 3 } },
+			{ "H_MilCap_mcamo", "", 70, { "life_coplevel", "SCALAR", 3 } },
+			{ "H_RacingHelmet_1_blue_F", "Casque Moto", 200, { "life_coplevel", "SCALAR", 2 } },
+			{ "H_Orel_Swat", "Casque du GIGN", 100, { "life_coplevel", "SCALAR", 4 } }
 		};
 
 		goggles[] = {
@@ -303,8 +303,7 @@ class Clothing {
 			{ "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
 			{ "G_Aviator", "", 50, { "", "", -1 } },
 			{ "G_Lowprofile", "", 30, { "", "", -1 } },
-			{ "G_Combat", "", 60, { "", "", -1 } },
-			{ "H_Orel_Swat", "Casque du GIGN", 100, { "life_coplevel", "SCALAR", 2 } }
+			{ "G_Combat", "", 60, { "", "", -1 } }
 		};
 
 		vests[] = {
@@ -315,8 +314,8 @@ class Clothing {
 			{ "GDM_Vest_Etu", "", 20, { "", "", -1 } },
 			{ "GDM_Vest_Mpg", "", 20, { "", "", -1 } },
 			{ "GDM_Vest_Vert", "", 20, { "", "", -1 } },
-			{ "V_TacVest_GIGN", "Veste du GIGN", 100, { "life_coplevel", "SCALAR", 2 } },
-			{ "V_PlateCarrier1_blk", "Benji Balistique", 130, { "life_coplevel", "SCALAR", 3 } }
+			{ "V_TacVest_GIGN", "Veste du GIGN", 100, { "life_coplevel", "SCALAR", 3 } },
+			{ "V_PlateCarrier1_blk", "Benji Balistique", 130, { "life_coplevel", "SCALAR", 4 } }
 			
 		};
 

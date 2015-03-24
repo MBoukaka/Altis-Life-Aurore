@@ -218,17 +218,38 @@ switch (_code) do {
 	
 	//L Key?
 	case 38: {
-		//If cop run checks for turning lights on.
-		if(_shift && playerSide in [west,independent]) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F"]) then {
-				if(!isNil {vehicle player GVAR "lights"}) then {
-					if(playerSide == west) then {
-						[vehicle player] call life_fnc_sirenLights;
-					} else {
-						[vehicle player] call life_fnc_medicSirenLights;
-						};
-				};	
-			};		
+		if(_shift && playerSide == west) then {
+			if(vehicle player != player && (typeOf vehicle player) in [
+					"demian2435_police_car","demian2435_police_offroad","Orel_Rangoo",
+					"DAR_CVPIAux","DAR_CVPIPolice","DAR_CVPISlick",
+					"Orel_Master","DAR_ImpalaPolice","DAR_ImpalaPoliceSlick",
+					"DAR_ImpalaPoliceDet","Orel_Payenne","DAR_TaurusPolice",
+					"DAR_TaurusPoliceState","DAR_TaurusPoliceStateSlick","A3L_GrandCaravanUCBlack",
+					"DAR_ExplorerPolice","DAR_ExplorerPoliceStealth","DAR_TahoePolice",
+					"DAR_TahoePoliceSlick","DAR_ChargerPolice","DAR_ChargerPoliceState",
+					"DAR_ChargerPoliceStateSlick","REV_GDM","B_MRAP_01_F",
+					"Aurore_q7_gdm","B_MRAP_01_hmg_F","Orel_Dingo","I_MRAP_03_F"]) then {
+				if(!isNil {vehicle player getVariable "lights"}) then {
+					[vehicle player] call life_fnc_sirenLights;
+					_handled = true;
+				};
+			};
+		};
+		if(_shift && playerSide == independent) then {
+		if(vehicle player != player && (typeOf vehicle player) in ["clpd_mondeo_FireDepartment","cl3_escalade_fd","cl3_escalade_pm","Med_Offroad"]) then {
+				if(!isNil {vehicle player getVariable "lights"}) then {
+					[vehicle player] call life_fnc_MedicSirenLights;
+					_handled = true;
+					};
+				};
+		};
+		if(_shift && playerSide == civilian && license_civ_dep) then {
+			if(vehicle player != player && (typeOf vehicle player) in ["B_Truck_01_mover_F","cl3_f150repo_orange","B_Heli_Light_01_F","Dep_Offroad"]) then {
+				if(!isNil {vehicle player getVariable "lights"}) then {
+					[vehicle player] call life_fnc_dsirenLights;
+					_handled = true;
+				};
+			};
 		};
 		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
 	};

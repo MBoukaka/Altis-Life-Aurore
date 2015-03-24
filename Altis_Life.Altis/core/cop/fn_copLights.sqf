@@ -144,107 +144,107 @@ switch (typeOf _vehicle) do
 {
 	case "demian2435_police_offroad":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "Orel_Rangoo":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_CVPIAux":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_CVPIPolice":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_CVPISlick":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "Orel_Master":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.7]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.7]];
 	};
 	case "DAR_ImpalaPolice":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_ImpalaPoliceSlick":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_ImpalaPoliceDet":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "Orel_Payenne":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_TaurusPolice":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_TaurusPoliceState":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_TaurusPoliceStateSlick":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "A3L_GrandCaravanUCBlack":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_ExplorerPolice":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_ExplorerPoliceStealth":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_TahoePolice":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_TahoePoliceSlick":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_ChargerPolice":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_ChargerPoliceState":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "DAR_ChargerPoliceStateSlick":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	case "REV_GDM":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, 0.0, 0.4]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.4]];
 	};
 	case "B_MRAP_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
+		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
 	};
 	case "Orel_Dingo":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
+		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
 	};
 	case "Aurore_q7_gdm":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, -1.9, 0.56]];
+		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.56]];
 	};
 	case "B_MRAP_01_hmg_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
+		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
 	};
 };
   
