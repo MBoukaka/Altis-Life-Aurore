@@ -137,6 +137,7 @@ class CfgFunctions
 			class getID {};
 			class vehicleCreate {};
 			class vehicleDead {};
+			class vehicleIsDead {};
 			class spawnVehicle {};
 			class getVehicles {};
 			class vehicleStore {};

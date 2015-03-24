@@ -42,8 +42,8 @@ lbClear _control; //Flush the list.
 
 
 
-ctrlsettext [20322,format ["Prix au litre : %1€",life_fuelPrices]];
-ctrlsettext [20323,format ["Total : %1€",life_fuelPrices * 1.1]];
+ctrlsettext [20322,format ["Prix au litres : %1$",life_fuelPrices]];
+ctrlsettext [20323,format ["total : %1$",life_fuelPrices * 1.1]];
 //Loop through
 {
 	_className = typeof (_x select 0);
