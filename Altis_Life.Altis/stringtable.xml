@@ -3434,6 +3434,26 @@
 			<Original>MEMBRE DONATEUR</Original>
 			<French>MEMBRE DONATEUR</French>
 		</Key>
+		<Key ID="STR_License_esco">
+			<Original>Famille Escobar</Original>
+			<French>Famille Escobar</French>
+		</Key>
+		<Key ID="STR_License_gambino">
+			<Original>Famille Gambino</Original>
+			<French>Famille Gambino</French>
+		</Key>
+		<Key ID="STR_License_Nostra">
+			<Original>Famille Nostra</Original>
+			<French>Famille Nostra</French>
+		</Key>
+		<Key ID="STR_License_papy">
+			<Original>Famille Papy</Original>
+			<French>Famille Papy</French>
+		</Key>
+		<Key ID="STR_License_CopDonator">
+			<Original>MEMBRE DONATEUR</Original>
+			<French>MEMBRE DONATEUR</French>
+		</Key>
 		<Key ID="STR_License_explo">
 			<Original>Maniement d'explosifs</Original>
 			<French>Maniement d'explosifs</French>
