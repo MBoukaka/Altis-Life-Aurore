@@ -233,6 +233,13 @@ class Licenses {
 	LICENSEMACRO(taxi,"STR_License_Taxi","taxi",2500,false,"civ")
 	LICENSEMACRO(restaurant,"STR_License_restaurant","restaurant",750,false,"civ")
 	LICENSEMACRO(macumba,"STR_License_macumba","macumba",750,false,"civ")
+	LICENSEMACRO(papy,"STR_License_papy","papy",750,false,"civ")
+	
+	//Familles
+	LICENSEMACRO(esco,"STR_License_esco","esco",750,false,"civ")
+	LICENSEMACRO(nostra,"STR_License_nostra","nostra",750,false,"civ")
+	LICENSEMACRO(scarface,"STR_License_scarface","scarface",750,false,"civ")
+	LICENSEMACRO(gambino,"STR_License_gambino","gambino",750,false,"civ")
 	
 };
 
