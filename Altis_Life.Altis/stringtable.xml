@@ -26,6 +26,14 @@
 			<Original>Restaurant</Original>
 			<French>Restaurant</French>
 		</Key>
+		<Key ID="STR_Item_TurtleMeat">
+			<Original>Tortue</Original>
+			<French>Tortue</French>
+		</Key>
+		<Key ID="STR_Item_GoatGrilled">
+			<Original>Viande de chèvre grillée</Original>
+			<French>Viande de chèvre grillée</French>
+		</Key>
 		<Key ID="STR_Shops_Rebel">
 			<Original>Rebel Market</Original>
 			<German>Rebellen Markt</German>
