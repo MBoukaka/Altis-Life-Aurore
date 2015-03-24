@@ -200,37 +200,37 @@ class Licenses {
 	LICENSEMACRO(copdonator,"STR_License_CopDonator","copdonator",10000,false,"cop")
 	LICENSEMACRO(civdonator,"STR_License_CivDonator","civdonator",10000,false,"civ")
 	LICENSEMACRO(driver,"STR_License_Driver","driver",150,false,"civ")
-	LICENSEMACRO(boat,"STR_License_Boat","boat",1000,false,"civ")
-	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",25000,false,"civ")
-	LICENSEMACRO(dive,"STR_License_Diving","dive",2000,false,"civ")
-	LICENSEMACRO(gun,"STR_License_Firearm","gun",10000,false,"civ")
-	LICENSEMACRO(coastguard,"STR_License_CG","cg",8000,false,"cop")
-	LICENSEMACRO(cAir,"STR_License_Pilot","cAir",15000,false,"cop")
+	LICENSEMACRO(boat,"STR_License_Boat","boat",300,false,"civ")
+	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",6500,false,"civ")
+	LICENSEMACRO(dive,"STR_License_Diving","dive",350,false,"civ")
+	LICENSEMACRO(gun,"STR_License_Firearm","gun",4000,false,"civ")
+	LICENSEMACRO(coastguard,"STR_License_CG","cg",800,false,"cop")
+	LICENSEMACRO(cAir,"STR_License_Pilot","cAir",1500,false,"cop")
 	LICENSEMACRO(rebel,"STR_License_Rebel","rebel",750000,true,"civ")
 	LICENSEMACRO(bandit,"STR_License_Bandit","bandit",100000,true,"civ")
-	LICENSEMACRO(trucking,"STR_License_Truck","trucking",20000,false,"civ")
-	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",15000,false,"med")
-	LICENSEMACRO(home,"STR_License_Home","home",75000,false,"civ")
-	LICENSEMACRO(moto,"STR_License_Moto","moto",750,false,"civ")
+	LICENSEMACRO(trucking,"STR_License_Truck","trucking",2000,false,"civ")
+	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",1500,false,"med")
+	LICENSEMACRO(home,"STR_License_Home","home",7500,false,"civ")
+	LICENSEMACRO(moto,"STR_License_Moto","moto",425,false,"civ")
 	
 	//Items
-	LICENSEMACRO(bombe,"STR_License_bombe","bombe",750,false,"civ")
-	LICENSEMACRO(explo,"STR_License_explo","explo",750,false,"civ")
-	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",35000,false,"civ")
-	LICENSEMACRO(salt,"STR_License_Salt","salt",12000,false,"civ")
-	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",30000,false,"civ")
-	LICENSEMACRO(sand,"STR_License_Sand","sand",14500,false,"civ")
-	LICENSEMACRO(iron,"STR_License_Iron","iron",9500,false,"civ")
-	LICENSEMACRO(copper,"STR_License_Copper","copper",8000,false,"civ")
-	LICENSEMACRO(cement,"STR_License_Cement","cement",6500,false,"civ")
-	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",25000,true,"civ")
-	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",19500,true,"civ")
-	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",15000,false,"civ")
-	LICENSEMACRO(oil,"STR_License_Oil","oil",10000,false,"civ")
+	LICENSEMACRO(bombe,"STR_License_bombe","bombe",5600,false,"civ")
+	LICENSEMACRO(explo,"STR_License_explo","explo",7500,false,"civ")
+	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",3500,false,"civ")
+	LICENSEMACRO(salt,"STR_License_Salt","salt",1200,false,"civ")
+	LICENSEMACRO(cocaine,"STR_License_Cocaine","cocaine",10500,false,"civ")
+	LICENSEMACRO(sand,"STR_License_Sand","sand",1450,false,"civ")
+	LICENSEMACRO(iron,"STR_License_Iron","iron",950,false,"civ")
+	LICENSEMACRO(copper,"STR_License_Copper","copper",800,false,"civ")
+	LICENSEMACRO(cement,"STR_License_Cement","cement",650,false,"civ")
+	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",7500,true,"civ")
+	LICENSEMACRO(marijuana,"STR_License_Marijuana","marijuana",5550,true,"civ")
+	LICENSEMACRO(medmarijuana,"STR_License_Medmarijuana","medmarijuana",3500,false,"civ")
+	LICENSEMACRO(oil,"STR_License_Oil","oil",1000,false,"civ")
 	
 	//Entreprises
-	LICENSEMACRO(dep,"STR_License_Dep","dep",3500,false,"civ")
-	LICENSEMACRO(taxi,"STR_License_Taxi","taxi",4500,false,"civ")
+	LICENSEMACRO(dep,"STR_License_Dep","dep",2500,false,"civ")
+	LICENSEMACRO(taxi,"STR_License_Taxi","taxi",2500,false,"civ")
 	LICENSEMACRO(restaurant,"STR_License_restaurant","restaurant",750,false,"civ")
 	LICENSEMACRO(macumba,"STR_License_macumba","macumba",750,false,"civ")
 	
@@ -299,7 +299,7 @@ class VirtualShops {
 
 	class diamond {
 		name = "STR_Shops_Diamond";
-		items[] = { "diamond_uncut", "diamond_cut" };
+		items[] = { "diamond_cut" };
 	};
 
 	class salt {
@@ -309,7 +309,7 @@ class VirtualShops {
 
 	class cop {
 		name = "STR_Shops_Cop";
-		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "rabbit_grilled", "apple", "redgull", "fuelFull", "defusekit" };
+		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "apple", "redgull", "fuelFull", "defusekit" };
 	};
 
 	class cement {
