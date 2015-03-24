@@ -12405,7 +12405,7 @@ class Mission
 		{
 			position[]={19856.078,62.778057,17895.051};
 			name="iron_1";
-			text="Iron Mine";
+			text="Mine de fer";
 			type="mil_triangle";
 			colorName="ColorBrown";
 		};
@@ -12413,7 +12413,7 @@ class Mission
 		{
 			position[]={23823.781,3.1900001,18601.668};
 			name="salt_1";
-			text="Salt Mine";
+			text="Mine de sel";
 			type="mil_triangle";
 			colorName="ColorBrown";
 		};
@@ -12421,7 +12421,7 @@ class Mission
 		{
 			position[]={27361.367,6.3006272,24465.764};
 			name="Salt";
-			text="Salt Processing";
+			text="Traitement de sel";
 			type="mil_box";
 			colorName="ColorBrown";
 		};
@@ -12429,7 +12429,7 @@ class Mission
 		{
 			position[]={22147.178,3.2238257,14474.223};
 			name="Correctional Facility";
-			text="Altis Corrections";
+			text="Prison d'Aurore";
 			type="mil_dot";
 			colorName="Color4_FD_F";
 		};
@@ -12469,7 +12469,7 @@ class Mission
 		{
 			position[]={14677.965,17.91,16776.361};
 			name="airshop";
-			text="Avion/Heli Shop";
+			text="Vendeur Avion/Heli";
 			type="mil_dot";
 			colorName="ColorEAST";
 		};
@@ -12477,7 +12477,7 @@ class Mission
 		{
 			position[]={3758.4084,34.366348,12374.469};
 			name="civ_truck_shop1";
-			text="Truck Shop";
+			text="Vendeur de camion";
 			type="c_car";
 			colorName="ColorBlue";
 		};
@@ -12485,7 +12485,7 @@ class Mission
 		{
 			position[]={6264.0674,43,16263.861};
 			name="OilP";
-			text="Oil Processing";
+			text="Traitement de pétrole";
 			type="mil_box";
 			colorName="ColorBrown";
 		};
@@ -12493,7 +12493,7 @@ class Mission
 		{
 			position[]={10235.109,95.313629,14851.841};
 			name="iron_processing";
-			text="Iron Processing";
+			text="Traitement de fer";
 			type="mil_box";
 			colorName="ColorBrown";
 		};
@@ -12501,7 +12501,7 @@ class Mission
 		{
 			position[]={8090.8218,77.531647,22620.234};
 			name="sand_1";
-			text="Sand Mine";
+			text="Mine de sable";
 			type="mil_triangle";
 			colorName="ColorBrown";
 		};
@@ -12509,7 +12509,7 @@ class Mission
 		{
 			position[]={8959.7256,69.222336,15507.252};
 			name="chop_shop_1";
-			text="Chop Shop";
+			text="Marché noir";
 			type="o_armor";
 			colorName="Color1_FD_F";
 		};
@@ -12517,7 +12517,7 @@ class Mission
 		{
 			position[]={8440.5439,49.492996,12761.071};
 			name="cocaine processing";
-			text="Cocaine Processing";
+			text="Traitement de cocaine";
 			type="mil_dot";
 			colorName="Color1_FD_F";
 		};
@@ -12525,7 +12525,7 @@ class Mission
 		{
 			position[]={4412.5562,37.095924,12605.266};
 			name="lead_1";
-			text="Copper Mine";
+			text="Mine de cuivre";
 			type="mil_triangle";
 			colorName="ColorBrown";
 		};
@@ -12533,7 +12533,7 @@ class Mission
 		{
 			position[]={13928.122,24.577969,22310.945};
 			name="diamond_1";
-			text="Diamond Mine";
+			text="Mine de diamand";
 			type="mil_triangle";
 			colorName="ColorBrown";
 		};
@@ -12581,7 +12581,7 @@ class Mission
 		{
 			position[]={4187.0205,36.297176,13106.365};
 			name="apple_1";
-			text="Apple Field";
+			text="Champ de pommes";
 			type="loc_Tree";
 			colorName="Color3_FD_F";
 		};
@@ -12589,7 +12589,7 @@ class Mission
 		{
 			position[]={25982.121,15.485652,20889.566};
 			name="apple_2";
-			text="Apple Field";
+			text="Champ de pommes";
 			type="loc_Tree";
 			colorName="Color3_FD_F";
 		};
@@ -12605,7 +12605,7 @@ class Mission
 		{
 			position[]={10800.928,32.462917,13238.061};
 			name="peaches_1";
-			text="Peaches Field";
+			text="Champ de pêches";
 			type="loc_Tree";
 			colorName="Color3_FD_F";
 		};
@@ -12621,7 +12621,7 @@ class Mission
 		{
 			position[]={10022.424,14.231085,12550.737};
 			name="apple_3";
-			text="Apple Field";
+			text="Champ de pommes";
 			type="loc_Tree";
 			colorName="Color3_FD_F";
 		};
@@ -12629,7 +12629,7 @@ class Mission
 		{
 			position[]={13618,16.567661,18105.947};
 			name="apple_4";
-			text="Apple Field";
+			text="Champ de pommes";
 			type="loc_Tree";
 			colorName="Color3_FD_F";
 		};
@@ -12637,7 +12637,7 @@ class Mission
 		{
 			position[]={13120.37,39.285686,19673.133};
 			name="peaches_3";
-			text="Peach Field";
+			text="Champ de pêches";
 			type="loc_Tree";
 			colorName="Color3_FD_F";
 		};
@@ -12645,7 +12645,7 @@ class Mission
 		{
 			position[]={14418.972,18.719999,16244.317};
 			name="air_serv_1";
-			text="Air Service Station";
+			text="[AIR] Station service";
 			type="respawn_air";
 			colorName="Color1_FD_F";
 		};
@@ -12669,7 +12669,7 @@ class Mission
 		{
 			position[]={3022.0371,0.019757304,12641.364};
 			name="boat_2";
-			text="Boat Shop";
+			text="Vendeur de bateau";
 			type="c_ship";
 			colorName="ColorWhite";
 		};
@@ -12685,7 +12685,7 @@ class Mission
 		{
 			position[]={3686.481,14.353826,13916.03};
 			name="dp_missions";
-			text="Delivery Missions";
+			text="Missions de livraison";
 			type="mil_box";
 			colorName="ColorYellow";
 		};
@@ -12702,7 +12702,7 @@ class Mission
 		{
 			position[]={3492.7932,19.49818,14145.842};
 			name="Dealer_1";
-			text="Drug Dealer";
+			text="Dealer de drogues";
 			type="mil_dot";
 			colorName="ColorOrange";
 		};
@@ -12919,7 +12919,7 @@ class Mission
 		{
 			position[]={20884.641,2.7453954,14624.866};
 			name="Dealer_1_3";
-			text="Drug Dealer";
+			text="Dealer de drogues";
 			type="mil_dot";
 			colorName="ColorOrange";
 		};
@@ -12927,7 +12927,7 @@ class Mission
 		{
 			position[]={14327.465,18.488745,17427.523};
 			name="Dealer_1_4";
-			text="Drug Dealer";
+			text="Dealer de drogues";
 			type="mil_dot";
 			colorName="ColorOrange";
 			angle=-57.933056;
@@ -12952,7 +12952,7 @@ class Mission
 		{
 			position[]={14344.174,37.080429,18952.045};
 			name="dimond_1";
-			text="Diamond Processing";
+			text="Traitement de diamand";
 			type="mil_triangle";
 			colorName="ColorBrown";
 		};
@@ -12960,7 +12960,7 @@ class Mission
 		{
 			position[]={9186.0107,27.468599,13990.347};
 			name="oil_2";
-			text="Oil Field";
+			text="Puit de pétrole";
 			type="mil_triangle";
 			colorName="ColorBrown";
 		};
@@ -12968,7 +12968,7 @@ class Mission
 		{
 			position[]={9757.7891,231.07008,19445.281};
 			name="oil_1";
-			text="Oil Field";
+			text="Puit de pétrole";
 			type="mil_triangle";
 			colorName="ColorBrown";
 		};
@@ -12976,7 +12976,7 @@ class Mission
 		{
 			position[]={11556.398,77.697838,7048.0737};
 			name="weed_1";
-			text="Weed Field";
+			text="Champ de cannabis";
 			type="mil_dot";
 			colorName="Color1_FD_F";
 		};
@@ -12984,7 +12984,7 @@ class Mission
 		{
 			position[]={10385.061,27.723898,13200.484};
 			name="Weed_p_1";
-			text="Weed Processing";
+			text="Traitement de cannabis";
 			type="mil_dot";
 			colorName="Color1_FD_F";
 		};
@@ -13068,7 +13068,7 @@ class Mission
 		{
 			position[]={26847.824,24.010233,24593.961};
 			name="airshop_1";
-			text="Air Shop";
+			text="Vendeur aérien";
 			type="mil_dot";
 			colorName="Color1_FD_F";
 		};
@@ -13113,7 +13113,7 @@ class Mission
 		{
 			position[]={3001.6289,0.049891066,12676.176};
 			name="civ_ship_1";
-			text="Boat Spawn";
+			text="Spawn des bateaux";
 			type="loc_Quay";
 			colorName="ColorOrange";
 		};
@@ -13169,7 +13169,7 @@ class Mission
 		{
 			position[]={9530.3555,127.03247,15077.41};
 			name="copper_mine_1";
-			text="Copper Processing";
+			text="Traitement de cuivre";
 			type="mil_box";
 			colorName="ColorBrown";
 		};
@@ -13210,7 +13210,7 @@ class Mission
 		{
 			position[]={5188.1885,217.79607,20872.66};
 			name="cocaine_1";
-			text="Cocaine Field";
+			text="Champ de cocaine";
 			type="mil_dot";
 			colorName="Color1_FD_F";
 		};
@@ -13228,7 +13228,7 @@ class Mission
 		{
 			position[]={12582.778,34.149235,16394.836};
 			name="oil_trader";
-			text="Oil Trader";
+			text="Vendeur de pétrole";
 			type="b_unknown";
 			colorName="ColorOrange";
 		};
@@ -13236,7 +13236,7 @@ class Mission
 		{
 			position[]={20695.104,4.5465231,19467.057};
 			name="oil_trader_1";
-			text="Salt Trader";
+			text="Vendeur de sel";
 			type="b_unknown";
 			colorName="ColorOrange";
 		};
@@ -13244,7 +13244,7 @@ class Mission
 		{
 			position[]={17869.166,2.40886,18199.828};
 			name="oil_trader_2";
-			text="Diamond Trader";
+			text="Vendeur de diamand";
 			type="b_unknown";
 			colorName="ColorOrange";
 			angle=0.26148701;
@@ -13253,7 +13253,7 @@ class Mission
 		{
 			position[]={4930.0605,16.353418,14578.414};
 			name="oil_trader_3";
-			text="Glass Trader";
+			text="Vendeur de verre";
 			type="b_unknown";
 			colorName="ColorOrange";
 		};
@@ -13261,7 +13261,7 @@ class Mission
 		{
 			position[]={5327.8848,22.196217,14477.817};
 			name="oil_trader_4";
-			text="Iron / Copper Trader";
+			text="Vendeur de cuivre / Fer";
 			type="b_unknown";
 			colorName="ColorOrange";
 			angle=-0.60203898;
@@ -13270,7 +13270,7 @@ class Mission
 		{
 			position[]={5379.5732,77.365372,17923.725};
 			name="dimond_1_1";
-			text="Sand Processing";
+			text="Transformation de verre";
 			type="mil_triangle";
 			colorName="ColorBrown";
 			angle=-80.305901;
@@ -13279,7 +13279,7 @@ class Mission
 		{
 			position[]={18159.594,26.510466,12838.374};
 			name="civ_truck_shop1_1";
-			text="Truck Shop";
+			text="Vendeur de camions";
 			type="c_car";
 			colorName="ColorBlue";
 		};
@@ -13301,7 +13301,7 @@ class Mission
 		{
 			position[]={9327.2295,14.642426,11911.454};
 			name="gun_store_1";
-			text="Gun Store";
+			text="Vendeur d'armes";
 			type="loc_Bunker";
 			colorName="ColorRed";
 			angle=7.2259879;
@@ -13310,7 +13310,7 @@ class Mission
 		{
 			position[]={16340.104,24.965635,17266.721};
 			name="gun_store_1_1";
-			text="Gun Store";
+			text="Vendeur d'armes";
 			type="loc_Bunker";
 			colorName="ColorRed";
 			angle=62.195702;
@@ -13319,7 +13319,7 @@ class Mission
 		{
 			position[]={19878.146,30.042439,17011.926};
 			name="heroin_1";
-			text="Heroin Field";
+			text="Champ d'héroine";
 			type="hd_dot";
 			colorName="ColorRed";
 		};
@@ -13337,7 +13337,7 @@ class Mission
 		{
 			position[]={23644.953,51.044296,21802.297};
 			name="heroin_p";
-			text="Heroin Processing";
+			text="Traitement d'héroine";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -13404,7 +13404,7 @@ class Mission
 		{
 			position[]={12693.272,0.00026230037,14204.092};
 			name="boat_2_1";
-			text="Boat Shop";
+			text="Vendeur de bateaux";
 			type="c_ship";
 			colorName="ColorWhite";
 		};
@@ -13412,7 +13412,7 @@ class Mission
 		{
 			position[]={12748.456,0.023563281,14190.291};
 			name="civ_ship_2";
-			text="Boat Spawn";
+			text="Spawn des bateaux";
 			type="loc_Quay";
 			colorName="ColorOrange";
 		};
@@ -13420,7 +13420,7 @@ class Mission
 		{
 			position[]={17562.207,-0.00013632448,18903.635};
 			name="boat_2_1_1";
-			text="Boat Shop";
+			text="Vendeur de bateaux";
 			type="c_ship";
 			colorName="ColorWhite";
 		};
@@ -13428,7 +13428,7 @@ class Mission
 		{
 			position[]={17582.686,-0.0088367555,18881.273};
 			name="civ_ship_3";
-			text="Boat Spawn";
+			text="Spawn des bateaux";
 			type="loc_Quay";
 			colorName="ColorOrange";
 		};
@@ -13453,7 +13453,7 @@ class Mission
 		{
 			position[]={16018.33,13.650147,16953.154};
 			name="fed_reserve";
-			text="Federal Reserve";
+			text="Banque Fédéral";
 			type="mil_box";
 			colorName="Color4_FD_F";
 		};
@@ -13476,7 +13476,7 @@ class Mission
 		{
 			position[]={17073.295,24.327265,11361.496};
 			name="rock_1";
-			text="Rock Quarry";
+			text="Carrière de roches";
 			type="mil_box";
 			colorName="ColorBrown";
 		};
@@ -13484,7 +13484,7 @@ class Mission
 		{
 			position[]={19314.266,21.279949,16545.195};
 			name="rock_proc";
-			text="Rock Processing";
+			text="Traitement de roches";
 			type="mil_dot";
 			colorName="ColorBrown";
 		};
@@ -13492,7 +13492,7 @@ class Mission
 		{
 			position[]={16578.012,14.273811,15989.947};
 			name="oil_trader_3_1";
-			text="Cement Trader";
+			text="Vendeur de ciments";
 			type="b_unknown";
 			colorName="ColorOrange";
 		};
@@ -13500,7 +13500,7 @@ class Mission
 		{
 			position[]={11852,3.5871935,13608.054};
 			name="dive_shop_1";
-			text="Diving Shop";
+			text="Magasin de plongée";
 			type="mil_box";
 			colorName="ColorOrange";
 			angle=-269.94958;
@@ -13519,7 +13519,7 @@ class Mission
 		{
 			position[]={15239.204,-0.10417931,12503.155};
 			name="turtle_1_name";
-			text="Turtle Poaching";
+			text="Zone de tortues";
 			type="mil_dot";
 		};
 		class Item151
@@ -13536,7 +13536,7 @@ class Mission
 		{
 			position[]={6470.8521,0.066574216,9360.4893};
 			name="turtle_1_name_1";
-			text="Turtle Poaching";
+			text="Zone de tortues";
 			type="mil_dot";
 		};
 		class Item153
@@ -13553,14 +13553,14 @@ class Mission
 		{
 			position[]={3319.884,-0.087620348,16587.537};
 			name="turtle_1_name_2";
-			text="Turtle Poaching";
+			text="Zone de tortues";
 			type="mil_dot";
 		};
 		class Item155
 		{
 			position[]={10246.375,5.3159304,11272.208};
 			name="turle_dealer";
-			text="Turtle Dealer";
+			text="Dealer de tortues";
 			type="mil_dot";
 			colorName="ColorRed";
 		};
@@ -13568,7 +13568,7 @@ class Mission
 		{
 			position[]={24660.627,17.608727,23158.951};
 			name="chop_shop_2";
-			text="Chop Shop";
+			text="Marché noir";
 			type="o_armor";
 			colorName="Color1_FD_F";
 		};
@@ -13576,7 +13576,7 @@ class Mission
 		{
 			position[]={5242.2974,78.634445,11514.398};
 			name="chop_shop_3";
-			text="Chop Shop";
+			text="Marché noir";
 			type="o_armor";
 			colorName="Color1_FD_F";
 		};
@@ -13584,7 +13584,7 @@ class Mission
 		{
 			position[]={19029.779,23.749619,14549.058};
 			name="chop_shop_4";
-			text="Chop Shop";
+			text="Marché noir";
 			type="o_armor";
 			colorName="Color1_FD_F";
 		};
@@ -13976,7 +13976,7 @@ class Mission
 		{
 			position[]={529.64038,-0.0054154508,3221.3074};
 			name="truck_1_1";
-			text="Vendeur de Camion";
+			text="Vendeur de Camions";
 			type="c_car";
 			colorName="ColorBlack";
 		};
