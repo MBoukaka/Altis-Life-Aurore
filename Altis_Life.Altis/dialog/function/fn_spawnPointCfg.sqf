@@ -59,6 +59,42 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_esco)then {
+			_return = _return + [
+				["esco_spawn","Famille Escobar","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_papy)then {
+			_return = _return + [
+				["wood_spawn","Usine des Papy","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_scarface)then {
+			_return = _return + [
+				["house_sica","Base Scarface","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_macumba)then {
+			_return = _return + [
+				["spawn_colonna","Macumba Club","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_gambino)then {
+			_return = _return + [
+				["house_gambino","F. Gambino","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_scarface)then {
+			_return = _return + [
+				["house_re","Entreprise Scarface","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_taxi) then {
 			_return = [
 				["taxi_spawn_1","Kavala Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
