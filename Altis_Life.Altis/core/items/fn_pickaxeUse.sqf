@@ -18,8 +18,13 @@ switch (true) do {
 	case (player distance (getMarkerPos "diamond_1") < 50): {_mine = ["diamond_uncut",1];};
 	case (player distance (getMarkerPos "oil_1") < 40) : {_mine = ["oil_unprocessed",1];};
 	case (player distance (getMarkerPos "oil_2") < 40) : {_mine = ["oil_unprocessed",1];};
+<<<<<<< HEAD
 	case (player distance (getMarkerPos "rock_1") < 50) : {_mine = ["rock",2];};
 	case (player distance (getMarkerPos "explo_1") < 50) : {_mine = "explo"; _val = 2;};
+=======
+	case (player distance (getMarkerPos "rock_1") < 50): {_mine = ["rock",2];};
+	case (player distance (getMarkerPos "explo_1") < 50): {_mine = ["explo",2];};
+>>>>>>> 280c0522b41d8b9ad218559177ec6c44192f4948
 	default {["", 0]};
 };
 //Mine check
