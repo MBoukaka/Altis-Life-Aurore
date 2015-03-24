@@ -115,7 +115,7 @@ class VirtualItems {
 	VITEMMACRO(gpstracker, "STR_Item_gpstracker", "gpstracker", 2, 750, 350, false, -1, "aurore_data2\icons\items\gpstracker.paa")
 	VITEMMACRO(cone, "STR_Item_cone", "cone", 2, 750, 350, false, -1, "aurore_data2\icons\items\cone.paa")
 	VITEMMACRO(vird, "STR_Item_vird", "vird", 2, 750, 350, false, -1, "aurore_data2\icons\items\vird.paa")
-	VITEMMACRO(explo, "STR_Item_explo", "explo", 2, -1, 495, false, -1, "")
+	VITEMMACRO(explo, "STR_Item_explo", "explo", 2, 450, 495, false, -1, "")
 
 	//Mined Items
 	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 7, -1, -1, false, -1, "aurore_data2\icons\items\oil_unprocessed.paa")

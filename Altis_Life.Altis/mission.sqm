@@ -2561,7 +2561,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=958;
+		items=960;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -12322,10 +12322,31 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Démissionner des rebels"",life_fnc_rebdemission]; this addAction[""Démissionner des bandits"",life_fnc_banditdemission];";
 		};
+		class Item958
+		{
+			position[]={25454.779,9.6149416,20353.709};
+			azimut=411.172;
+			id=1077;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Traitement de la poudre"",life_fnc_processAction,""explo"",0,false,false,"""",' life_inv_poudre > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""heroin"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""explo"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""explo"",0,false,false,"""",' !license_civ_explo && playerSide == civilian '];";
+		};
+		class Item959
+		{
+			position[]={23593.012,4.2873611,23106.016};
+			azimut=88.391197;
+			id=1078;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			text="Dealer_3_1";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Achat de Poudre"",life_fnc_virt_menu,""explo"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian '];";
+		};
 	};
 	class Markers
 	{
-		items=279;
+		items=283;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -12477,7 +12498,7 @@ class Mission
 		{
 			position[]={3758.4084,34.366348,12374.469};
 			name="civ_truck_shop1";
-			text="Vendeur de camions";
+			text="Vendeur de camion";
 			type="c_car";
 			colorName="ColorBlue";
 		};
@@ -13317,7 +13338,7 @@ class Mission
 		};
 		class Item125
 		{
-			position[]={19878.146,30.042439,17011.926};
+			position[]={19872.975,29.800978,17006.98};
 			name="heroin_1";
 			text="Champ d'héroine";
 			type="hd_dot";
@@ -13976,7 +13997,7 @@ class Mission
 		{
 			position[]={529.64038,-0.0054154508,3221.3074};
 			name="truck_1_1";
-			text="Vendeur de camions";
+			text="Vendeur de Camions";
 			type="c_car";
 			colorName="ColorBlack";
 		};
@@ -14549,6 +14570,40 @@ class Mission
 			text="Entreprise dépanneur et taxi pour tous!";
 			type="mil_join";
 			colorName="ColorRed";
+		};
+		class Item279
+		{
+			position[]={25454.322,9.6027517,20354.461};
+			name="poudre_p";
+			text="Transformation de la poudre";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item280
+		{
+			position[]={24137.674,10.523777,15542.9};
+			name="explo_1";
+			text="Carrière de Poudre";
+			type="hd_dot";
+			colorName="ColorRed";
+		};
+		class Item281
+		{
+			position[]={24142.4,10.21197,15540.543};
+			name="explo_area";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=100;
+			b=100;
+		};
+		class Item282
+		{
+			position[]={23593.041,4.2433472,23107.232};
+			name="Dealer_1_3_1";
+			text="Rachat de Poudre";
+			type="mil_dot";
+			colorName="ColorOrange";
 		};
 	};
 };
