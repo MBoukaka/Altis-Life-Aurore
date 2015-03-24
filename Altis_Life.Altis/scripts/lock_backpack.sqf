@@ -19,8 +19,9 @@ while {alive player} do
 				(FindDisplay 640) closeDisplay 1;
 				titleText["\n\n\n\n\n\n\n\n Ce vehicule est verrouille !", "PLAIN",0];
 			};	
-};
+	};
 	WaitUntil {isnull (findDisplay 602)};
+	sleep 0.5;
 };
 waituntil {alive player};
 execvm "scripts\lock_backpack.sqf";
