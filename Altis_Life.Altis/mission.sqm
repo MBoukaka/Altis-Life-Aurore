@@ -12477,7 +12477,7 @@ class Mission
 		{
 			position[]={3758.4084,34.366348,12374.469};
 			name="civ_truck_shop1";
-			text="Vendeur de camion";
+			text="Vendeur de camions";
 			type="c_car";
 			colorName="ColorBlue";
 		};
@@ -13976,7 +13976,7 @@ class Mission
 		{
 			position[]={529.64038,-0.0054154508,3221.3074};
 			name="truck_1_1";
-			text="Vendeur de Camions";
+			text="Vendeur de camions";
 			type="c_car";
 			colorName="ColorBlack";
 		};
