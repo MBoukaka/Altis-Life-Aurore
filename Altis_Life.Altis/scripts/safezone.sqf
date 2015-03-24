@@ -9,7 +9,7 @@
     Edit the #defines below.
 */
 
-#define SAFETY_ZONES    [["safe1",850],["safe_2",100],["safe_3",100],["safe_4",100],["safe_5",100]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
+#define SAFETY_ZONES    [["safe1",850],["safe_2",100],["safe_3",100],["safe_4",100],["safe_5",100]]
 #define MESSAGE "INTERDICTION DE TIRER ICI ! SAFEZONE ! !"
 
      if (isDedicated) exitWith {};
@@ -22,9 +22,7 @@ switch (playerSide) do
 	
 	case civilian:
 	{
-
-
-     player addEventHandler ["Fired", {
+	player addEventHandler ["Fired", {
             if ({(_this select 0) distance getMarkerPos (_x select 0) < _x select 1} count SAFETY_ZONES > 0) then
             {
                 deleteVehicle (_this select 6);
