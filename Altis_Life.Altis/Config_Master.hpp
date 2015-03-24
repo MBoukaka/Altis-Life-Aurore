@@ -132,7 +132,7 @@ class VirtualItems {
 	VITEMMACRO(diamond_cut, "STR_Item_DiamondC", "diamondCut", 2, -1, 2000, false, -1, "aurore_data2\icons\items\diamond.paa")
 	VITEMMACRO(rock, "STR_Item_Rock", "rock", 6, -1, -1, false, -1, "aurore_data2\icons\items\rock.paa")
 	VITEMMACRO(cement, "STR_Item_CementBag", "cement", 5, -1, 1950, false, -1, "aurore_data2\icons\items\cement.paa")
-	VITEMMACRO(poudre, "STR_Item_poudre", "cement", 5, -1, -1, false, -1, "aurore_data2\icons\items\cement.paa")
+	VITEMMACRO(poudre, "STR_Item_poudre", "poudre", 5, -1, -1, false, -1, "")
 
 	//Drugs
 	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "aurore_data2\icons\items\heroin_unprocessed.paa")
