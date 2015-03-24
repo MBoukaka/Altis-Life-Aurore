@@ -6,10 +6,8 @@
 	Description:
 	Main functionality for pickaxe in mining.
 */
-closeDialog 0;
 private["_mine","_itemWeight","_diff","_itemName"];
 _mine = [];
-
 switch (true) do {
 	case (player distance (getMarkerPos "lead_1") < 30): {_mine = ["copper_unrefined",2];};
 	case (player distance (getMarkerPos "iron_1") < 30): {_mine = ["iron_unrefined",2];};
@@ -19,18 +17,17 @@ switch (true) do {
 	case (player distance (getMarkerPos "oil_1") < 40) : {_mine = ["oil_unprocessed",1];};
 	case (player distance (getMarkerPos "oil_2") < 40) : {_mine = ["oil_unprocessed",1];};
 	case (player distance (getMarkerPos "rock_1") < 50): {_mine = ["rock",2];};
-	case (player distance (getMarkerPos "explo_1") < 50): {_mine = ["explo",2];};
+	case (player distance (getMarkerPos "explo_1") < 50): {_mine = ["poudre",2];};
 	default {["", 0]};
 };
 //Mine check
 if(EQUAL(SEL(_mine, 0),"")) exitWith {hint localize "STR_ISTR_Pick_NotNear"};
 if(vehicle player != player) exitWith {hint localize "STR_ISTR_Pick_MineVeh";};
 if(life_action_inUse) exitWith {hint "Tu n'as que deux mains !";};
-
 _diff = [SEL(_mine,0),SEL(_mine,1),life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
-
 if(EQUAL(_diff,0)) exitWith {hint localize "STR_NOTF_InvFull"};
 
+closeDialog 0;
 life_action_inUse = true;
 for "_i" from 0 to 2 do {
 	player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
