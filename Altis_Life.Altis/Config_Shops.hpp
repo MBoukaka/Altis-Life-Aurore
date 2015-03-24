@@ -142,7 +142,7 @@ class WeaponShops {
 		{ "acc_flashlight","",50}
         };
     };
-	class restaurent {
+	class restaurant {
         name = "Restaurant le Groschandais";
         side = "civ";
         license = "restaurant";
