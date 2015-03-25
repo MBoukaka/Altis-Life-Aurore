@@ -982,14 +982,13 @@ class CfgVehicles {
             } }
 		};
      };
-    };
 	class exxpensive_cadillac_sedan_base {
         vItemSpace = 55;
         storageFee[] = { 65, 0, 0, 0 };
 		garageSell[] = { 500, 0, 0, 0 };
         insurance = 450;
         chopShop = 350;
-        textures[] = { 
+        textures[] = {
 			{ "Noir", "civ", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
             } },
@@ -1015,7 +1014,6 @@ class CfgVehicles {
                 "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } }
 		};
-    };
     };
 	class exxpensive_volvo_242_base {
         vItemSpace = 60;
@@ -1050,7 +1048,6 @@ class CfgVehicles {
             } }
 		};
     };
-    };
 	class exxpensive_mini_cooper_base {
         vItemSpace = 60;
         storageFee[] = { 70, 0, 0, 0 };
@@ -1084,7 +1081,6 @@ class CfgVehicles {
             } }
 		};
      };
-    };
 	class exxpensive_golf_IV_base {
         vItemSpace = 55;
         storageFee[] = { 75, 0, 0, 0 };
@@ -1117,7 +1113,6 @@ class CfgVehicles {
                 "#(argb,8,8,3)color(1,1,1,1.0,CO)"
             } }
 		};
-    };
     };
 	class A3L_PuntoBlue {
         vItemSpace = 60;
