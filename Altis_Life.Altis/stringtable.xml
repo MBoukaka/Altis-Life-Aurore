@@ -30,6 +30,18 @@
 			<Original>Tortue</Original>
 			<French>Tortue</French>
 		</Key>
+		<Key ID="STR_Item_bois">
+			<Original>Bois brut</Original>
+			<French>Bois brut</French>
+		</Key>
+		<Key ID="STR_Item_papier">
+			<Original>Papier fin</Original>
+			<French>Papier fin</French>
+		</Key>
+		<Key ID="STR_Item_billet">
+			<Original>Faux billets</Original>
+			<French>Faux billets</French>
+		</Key>
 		<Key ID="STR_Item_relique">
 			<Original>Reliques</Original>
 			<French>Reliques</French>
@@ -3474,6 +3486,10 @@
 			<Original>Famille Papy</Original>
 			<French>Famille Papy</French>
 		</Key>
+		<Key ID="STR_License_papier">
+			<Original>Fabrication du papier</Original>
+			<French>Fabrication du papier</French>
+		</Key>
 		<Key ID="STR_License_CopDonator">
 			<Original>MEMBRE DONATEUR</Original>
 			<French>MEMBRE DONATEUR</French>
@@ -3952,6 +3968,14 @@
 		<Key ID="STR_Process_resine">
 			<Original>Traitement de la résine</Original>
 			<French>Traitement de la résine</French>
+		</Key>
+		<Key ID="STR_Process_papy">
+			<Original>Fabrication des faux billets</Original>
+			<French>Fabrication des faux billets</French>
+		</Key>
+		<Key ID="STR_Process_papier">
+			<Original>Fabrication du papier</Original>
+			<French>Fabrication du papier</French>
 		</Key>
 		<Key ID="STR_Process_Diamond">
 			<Original>Cutting Diamonds</Original>

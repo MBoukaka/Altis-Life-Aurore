@@ -116,8 +116,8 @@ class VirtualItems {
 	VITEMMACRO(cone, "STR_Item_cone", "cone", 3, 25, -1, false, -1, "aurore_data2\icons\items\cone.paa")
 	VITEMMACRO(vird, "STR_Item_vird", "vird", 4, 25, -1, false, -1, "aurore_data2\icons\items\vird.paa")
 	VITEMMACRO(virg, "STR_Item_virg", "virg", 4, 25, -1, false, -1, "aurore_data2\icons\items\virg.paa")
-	VITEMMACRO(relique, "STR_Item_relique", "relique", 4, 25, -1, false, -1, "")
-	VITEMMACRO(champ, "STR_Item_champ", "champ", 3, 25, -1, false, -1, "")
+	VITEMMACRO(relique, "STR_Item_relique", "relique", 4, 25, -1, true, -1, "")
+	VITEMMACRO(champ, "STR_Item_champ", "champ", 3, 25, -1, true, -1, "")
 
 	//Mined Items
 	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 7, -1, -1, false, -1, "aurore_data2\icons\items\oil_unprocessed.paa")
@@ -136,6 +136,9 @@ class VirtualItems {
 	VITEMMACRO(cement, "STR_Item_CementBag", "cement", 5, -1, 0, false, -1, "aurore_data2\icons\items\cement.paa")
 	VITEMMACRO(poudre, "STR_Item_poudre", "poudre", 5, -1, -1, false, -1, "")
 	VITEMMACRO(explo, "STR_Item_explo", "explo", 3, -1, 0, true, -1, "")
+	VITEMMACRO(bois, "STR_Item_bois", "bois", 4, -1, 0, false, -1, "")
+	VITEMMACRO(papier, "STR_Item_papier", "papier", 2, -1, 0, false, -1, "")
+	VITEMMACRO(billet, "STR_Item_billet", "billet", 2, -1, 0, true, -1, "")
 
 	//Drugs
 	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "aurore_data2\icons\items\heroin_unprocessed.paa")
@@ -218,6 +221,7 @@ class Licenses {
 	
 	//Items
 	LICENSEMACRO(bombe,"STR_License_bombe","bombe",5600,false,"civ")
+	LICENSEMACRO(papier,"STR_License_papier","papier",600,false,"civ")
 	LICENSEMACRO(explo,"STR_License_explo","explo",7500,false,"civ")
 	LICENSEMACRO(diamond,"STR_License_Diamond","diamond",3500,false,"civ")
 	LICENSEMACRO(salt,"STR_License_Salt","salt",1200,false,"civ")
@@ -277,6 +281,16 @@ class VirtualShops {
 	class esco {
 		name = "STR_Shops_esco";
 		items[] = { "resine" };
+	};
+	
+	class papier {
+		name = "STR_Shops_papier";
+		items[] = { "papier" };
+	};
+	
+	class billet {
+		name = "STR_Shops_billet";
+		items[] = { "billet" };
 	};
 	
 	class coffee {
