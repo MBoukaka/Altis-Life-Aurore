@@ -26,6 +26,7 @@ _itemInfo = switch (_type) do {
 	case "explo": {["poudre","explo",650,(localize "STR_Process_explo")];};
 	case "bombe": {["explo","blastingcharge",1650,(localize "STR_Process_bombe")];};
 	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
+	case "esco": {["marijuana","resine",350,(localize "STR_Process_resine")];};
 	default {[];};
 };
 

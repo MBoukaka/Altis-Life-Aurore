@@ -140,6 +140,7 @@ class VirtualItems {
 	VITEMMACRO(heroin_processed, "STR_Item_HeroinP", "heroinProcessed", 4, -1, 0, true, -1, "aurore_data2\icons\items\heroin_processed.paa")
 	VITEMMACRO(cannabis, "STR_Item_Cannabis", "cannabis", 4, -1, -1, true, -1, "aurore_data2\icons\items\cannabis.paa")
 	VITEMMACRO(marijuana, "STR_Item_Marijuana", "marijuana", 3, -1, 0, true, -1, "aurore_data2\icons\items\marijuana.paa")
+	VITEMMACRO(resine, "STR_Item_resine", "resine", 3, -1, 0, true, -1, "aurore_data2\icons\items\marijuana.paa")
 	VITEMMACRO(cocaine_unprocessed, "STR_Item_CocaineU", "cocaineUnprocessed", 6, -1, -1, true, -1, "aurore_data2\icons\items\cocain_unprocessed.paa")
 	VITEMMACRO(cocaine_processed, "STR_Item_CocaineP", "cocaineProcessed", 4, -1, 0, true, -1, "aurore_data2\icons\items\cocain_processed.paa")
 

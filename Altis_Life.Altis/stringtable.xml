@@ -3474,6 +3474,10 @@
 			<Original>Poudre explosive</Original>
 			<French>Poudre explosive</French>
 		</Key>
+		<Key ID="STR_Item_resine">
+			<Original>Résine de Cannabis</Original>
+			<French>Résine de Cannabis</French>
+		</Key>
 		<Key ID="STR_Item_poudre">
 			<Original>Poudre brute</Original>
 			<French>Poudre brute</French>
@@ -3916,6 +3920,10 @@
 			<French>Raffinage de Pétrole</French>
 			<Italian>Processando l'Olio</Italian>
 			<Portuguese>Processando Oleo</Portuguese>
+		</Key>
+		<Key ID="STR_Process_resine">
+			<Original>Traitement de la résine</Original>
+			<French>Traitement de la résine</French>
 		</Key>
 		<Key ID="STR_Process_Diamond">
 			<Original>Cutting Diamonds</Original>
