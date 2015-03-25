@@ -7,6 +7,7 @@
 ****** Backend Variables *****
 *****************************
 */
+life_channel_send = true; //Channel 7
 life_sitting = false;
 life_fadeSound = false;
 life_smartphoneTarget = ObjNull;

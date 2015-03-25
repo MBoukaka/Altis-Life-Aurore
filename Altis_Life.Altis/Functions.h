@@ -416,6 +416,7 @@ class Life_Client_Core
 	{
 		file = "dialog\function";
 		class calldialog {};
+		class sendChannel {};
 		class setMapPosition {};
 		class displayHandler {};
 		class spawnConfirm {};

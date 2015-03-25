@@ -38,6 +38,7 @@ if(typeOf _vehicle in [
 _color = 0;
 hint format["Vous venez de payer %1 pour que la carte grise soit a vous, Le vehicule a ete mis au Garage",_price];
 CASH = CASH - _price;
+[0] call SOCK_fnc_updatePartial;
 [[_vehicle],"TON_fnc_vehicleIsDead",false,false] spawn life_fnc_MP;
 sleep 0.05;
 [[(getPlayerUID player),playerSide,_vehicle,_color,1],"TON_fnc_vehicleCreate",false,false] spawn life_fnc_MP;
