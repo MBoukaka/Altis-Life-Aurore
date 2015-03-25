@@ -9,8 +9,8 @@ disableSerialization;
 private["_control","_price","_vehicle","_nearVehicles","_color","_check"];
 _control = ((findDisplay 39400) displayCtrl 39402);
 _price = _control lbValue (lbCurSel _control);
-_price = _price*0.85;
-if(CASH < _price) exitWith {hint format["Vous avez besoin de %1 dans votre compte en banque pour que la carte grise du vehicule soit à vous",_price]; };
+_price = _price*3;
+if(CASH < _price) exitWith {hint format["Vous avez besoin de %1 pour que la carte grise du vehicule soit à vous",_price]; };
 _vehicle = _control lbData (lbCurSel _control);
 _vehicle = call compile format["%1", _vehicle];
 _nearVehicles = nearestObjects [getMarkerPos life_chopShop,["Car","Truck"],25];
@@ -36,7 +36,7 @@ if(typeOf _vehicle in [
 	"Aurore_rev_gdm","Aurore_rev_gdm1"
 		]) exitWith {hint "Malheureusement, vous ne pouvez pas racheter ce type de véhicule ! Vous devrez le vendre au lieu de cela."; };
 _color = 0;
-hint format["Vous avez utilise %1 dans votre compte en banque pour que la carte grise soit a vous, Le vehicule a ete mis au Garage",_price];
+hint format["Vous venez de payer %1 pour que la carte grise soit a vous, Le vehicule a ete mis au Garage",_price];
 CASH = CASH - _price;
 [[_vehicle],"TON_fnc_vehicleIsDead",false,false] spawn life_fnc_MP;
 sleep 0.05;
