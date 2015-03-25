@@ -59,7 +59,10 @@ class Mission
 		"A3_Structures_F_Civ_Offices",
 		"A3_Structures_F_Ind_FuelStation",
 		"A3_Data_F",
-		"a3_roads_f"
+		"a3_roads_f",
+		"A3_Structures_F_Bootcamp_Items_Sport",
+		"A3_Structures_F_Wrecks",
+		"A3_Structures_F_Mil_Shelters"
 	};
 	addOnsAuto[]=
 	{
@@ -111,6 +114,9 @@ class Mission
 		"A3_Structures_F_Ind_FuelStation",
 		"A3_Data_F",
 		"a3_roads_f",
+		"A3_Structures_F_Bootcamp_Items_Sport",
+		"A3_Structures_F_Wrecks",
+		"A3_Structures_F_Mil_Shelters",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -2812,7 +2818,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1034;
+		items=1059;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -13343,10 +13349,313 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Traitement de la résine"",life_fnc_processAction,""esco"",0,false,false,"""",' life_inv_marijuana > 0 && license_civ_esco'];";
 		};
+		class Item1034
+		{
+			position[]={24337.703,0.035692394,9910.8711};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1170;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_10";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1035
+		{
+			position[]={24353.934,-0.060133152,9979.8428};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1171;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_14";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1036
+		{
+			position[]={24407.74,0.19322425,9841.334};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1172;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_25";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1037
+		{
+			position[]={24391.385,0.0069656521,9912.1191};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1173;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_38";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1038
+		{
+			position[]={24444.326,0.11996973,9952.6602};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1174;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_39";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1039
+		{
+			position[]={24454.736,0.10440643,9988.8916};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1175;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_46";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1040
+		{
+			position[]={24343.008,0.0035074204,9850.9512};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1176;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_68";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1041
+		{
+			position[]={24435.658,-0.19577968,9873.6152};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1177;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_73";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1042
+		{
+			position[]={24465.971,0.13823918,9907.127};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1178;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_80";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1043
+		{
+			position[]={24477.205,0.22397086,9931.7813};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1179;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_90";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1044
+		{
+			position[]={24409.795,0.12841024,10004.496};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1180;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_97";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1045
+		{
+			position[]={24396.119,-0.048383318,9956.334};
+			azimut=180;
+			offsetY=-60;
+			special="NONE";
+			id=1181;
+			side="EMPTY";
+			vehicle="Land_Trophy_01_gold_F";
+			leader=1;
+			skill=0.60000002;
+			text="heimdallahaha_1_7_110";
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser Reliques"",life_fnc_gatherReliques,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1046
+		{
+			position[]={20256.188,40.023029,8782.624};
+			azimut=88.391197;
+			id=1182;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			text="Dealer_3_2";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Arthur l'archéologue"",life_fnc_virt_menu,""relique"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian '];";
+		};
+		class Item1047
+		{
+			position[]={14106.633,7.8179808,11558.662};
+			azimut=274.241;
+			id=1183;
+			side="EMPTY";
+			vehicle="Land_Wreck_Heli_Attack_01_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1048
+		{
+			position[]={14257.478,3.0334864,13058.283};
+			azimut=1581.11;
+			offsetY=2;
+			id=1184;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Magasin de Bateaux"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""scarface_ship"",""civ"",""Scarface bateaux""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""scarface_ship""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1049
+		{
+			position[]={13227.799,13.219654,7456.7368};
+			azimut=88.391197;
+			id=1185;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			text="Dealer_3_2_1";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Vente de Champignons"",life_fnc_virt_menu,""champ"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian '];";
+		};
+		class Item1050
+		{
+			position[]={14093.969,10.547573,11564.94};
+			azimut=226.34;
+			id=1186;
+			side="EMPTY";
+			vehicle="CamoNet_OPFOR_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1051
+		{
+			position[]={14094.163,10.748579,11553.785};
+			azimut=-28.2936;
+			id=1187;
+			side="EMPTY";
+			vehicle="CamoNet_OPFOR_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1052
+		{
+			position[]={14114.348,5.5740161,11571.263};
+			azimut=113.862;
+			id=1188;
+			side="EMPTY";
+			vehicle="CamoNet_OPFOR_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1053
+		{
+			position[]={14101.425,7.7954593,11548.189};
+			azimut=178.24899;
+			id=1189;
+			side="EMPTY";
+			vehicle="CamoNet_OPFOR_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1054
+		{
+			position[]={14124.723,2.6774292,11565.336};
+			azimut=106.554;
+			id=1190;
+			side="EMPTY";
+			vehicle="CamoNet_OPFOR_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1055
+		{
+			position[]={14103.624,7.8840141,11570.521};
+			azimut=146.54201;
+			id=1191;
+			side="EMPTY";
+			vehicle="CamoNet_INDP_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1056
+		{
+			position[]={14114.367,3.2649145,11553.244};
+			azimut=329.16199;
+			id=1192;
+			side="EMPTY";
+			vehicle="CamoNet_OPFOR_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1057
+		{
+			position[]={14090.273,2.573812,11536.986};
+			azimut=146.54201;
+			offsetY=4;
+			id=1193;
+			side="EMPTY";
+			vehicle="CamoNet_INDP_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
+		class Item1058
+		{
+			position[]={14084.693,8.183547,11541.188};
+			azimut=88.391197;
+			offsetY=4;
+			id=1194;
+			side="EMPTY";
+			vehicle="CamoNet_INDP_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
 	};
 	class Markers
 	{
-		items=297;
+		items=304;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -14520,7 +14829,7 @@ class Mission
 		};
 		class Item148
 		{
-			position[]={15213.041,-0.011334214,12527.978};
+			position[]={15595.035,0,14108.641};
 			name="turtle_1";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -14530,7 +14839,7 @@ class Mission
 		};
 		class Item149
 		{
-			position[]={15184.784,0.20314394,12527.164};
+			position[]={15566.778,0,14107.827};
 			name="turtle_1_name";
 			text="Zone de tortues";
 			type="mil_dot";
@@ -15702,6 +16011,65 @@ class Mission
 			text="Coffee Shop Escobar";
 			type="loc_Tourism";
 			colorName="ColorGreen";
+		};
+		class Item297
+		{
+			position[]={24402.162,-0.036977816,9924.1826};
+			name="Heimdall_12";
+			text="Fouille Archéologique";
+			type="mil_dot";
+			colorName="ColorRed";
+		};
+		class Item298
+		{
+			position[]={24402.498,-0.050653502,9924.0254};
+			name="coke_area_2_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorRed";
+			a=100;
+			b=100;
+		};
+		class Item299
+		{
+			position[]={20256.217,40.043167,8783.8398};
+			name="Dealer_1_3_2";
+			text="Arthur l'Archéologue";
+			type="mil_dot";
+			colorName="ColorOrange";
+		};
+		class Item300
+		{
+			position[]={14093.566,10.869624,11558.417};
+			name="champ_1";
+			text="Culture de Champignons";
+			type="hd_dot";
+			colorName="ColorRed";
+		};
+		class Item301
+		{
+			position[]={14098.293,10.349875,11556.06};
+			name="champ_area";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=100;
+			b=100;
+		};
+		class Item302
+		{
+			position[]={14253.611,0,13109.561};
+			name="scarface_ship";
+			type="loc_Quay";
+			colorName="ColorOrange";
+		};
+		class Item303
+		{
+			position[]={13227.828,13.225942,7457.9526};
+			name="Dealer_1_3_2_1";
+			text="Vente de Champignons";
+			type="mil_dot";
+			colorName="ColorOrange";
 		};
 	};
 	class Sensors
