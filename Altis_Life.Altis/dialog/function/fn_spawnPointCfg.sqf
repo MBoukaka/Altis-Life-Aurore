@@ -101,6 +101,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_hool)then {
+			_return = _return + [
+				["house_hool","Base des Hooligans","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_taxi) then {
 			_return = [
 				["taxi_spawn_1","Kavala Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]

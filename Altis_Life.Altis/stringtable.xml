@@ -3450,6 +3450,10 @@
 			<Original>MEMBRE DONATEUR</Original>
 			<French>MEMBRE DONATEUR</French>
 		</Key>
+		<Key ID="STR_License_hool">
+			<Original>Famille Hooligans</Original>
+			<French>Famille Hooligans</French>
+		</Key>
 		<Key ID="STR_License_tchong">
 			<Original>Famille Tchong</Original>
 			<French>Famille Tchong</French>
