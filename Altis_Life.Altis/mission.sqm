@@ -12201,7 +12201,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && !license_civ_reb && !license_civ_bandit && !license_civ_taxi && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
 		};
 		class Item919
 		{
@@ -12222,7 +12222,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && !license_civ_reb && !license_civ_bandit && !license_civ_taxi && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
 		};
 		class Item921
 		{
@@ -12262,7 +12262,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""taxi"",0,false,false,"""",' !license_civ_dep && !license_civ_reb && !license_civ_bandit && !license_civ_taxi && playerSide == civilian ']; this addAction[""Démissionner de TransportLife"",life_fnc_taxidemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""taxi"",0,false,false,"""",' !license_civ_taxi && playerSide == civilian ']; this addAction[""Démissionner de TransportLife"",life_fnc_taxidemission]; ";
 		};
 		class Item925
 		{
