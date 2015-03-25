@@ -309,6 +309,7 @@ class Life_Client_Core
 		class vehInventory {};
 		class vInteractionMenu {};
 		class vehicleWeight {};
+		class stealVehicle {};
 		class deviceMine {};
 		class addVehicle2Chain {};
 	};
