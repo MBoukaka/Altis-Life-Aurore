@@ -922,7 +922,32 @@ class CfgVehicles {
 		garageSell[] = { 800, 0, 0, 0 };
         insurance = 700;
         chopShop = 550;
-        textures[] = { };
+        textures[] = {
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		};
     };
 	class exxpensive_chevrolet_caprice_base {
         vItemSpace = 60;
@@ -930,7 +955,33 @@ class CfgVehicles {
 		garageSell[] = { 810, 0, 0, 0 };
         insurance = 710;
         chopShop = 560;
-        textures[] = { };
+        textures[] = {
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		};
+     };
     };
 	class exxpensive_cadillac_sedan_base {
         vItemSpace = 55;
@@ -938,7 +989,33 @@ class CfgVehicles {
 		garageSell[] = { 500, 0, 0, 0 };
         insurance = 450;
         chopShop = 350;
-        textures[] = { };
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		};
+    };
     };
 	class exxpensive_volvo_242_base {
         vItemSpace = 60;
@@ -946,7 +1023,33 @@ class CfgVehicles {
 		garageSell[] = { 650, 0, 0, 0 };
         insurance = 500;
         chopShop = 350;
-        textures[] = { };
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		};
+    };
     };
 	class exxpensive_mini_cooper_base {
         vItemSpace = 60;
@@ -954,7 +1057,33 @@ class CfgVehicles {
 		garageSell[] = { 800, 0, 0, 0 };
         insurance = 700;
         chopShop = 450;
-        textures[] = { };
+        textures[] = {
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		};
+     };
     };
 	class exxpensive_golf_IV_base {
         vItemSpace = 55;
@@ -962,7 +1091,33 @@ class CfgVehicles {
 		garageSell[] = { 1500, 0, 0, 0 };
         insurance = 1250;
         chopShop = 750;
-        textures[] = { };
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		};
+    };
     };
 	class A3L_PuntoBlue {
         vItemSpace = 60;
@@ -1124,7 +1279,32 @@ class CfgVehicles {
 		garageSell[] = { 4500, 0, 0, 0 };
         insurance = 6500;
         chopShop = 2500;
-        textures[] = { };
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
     };
 	class exxpensive_m5_e34_base {
         vItemSpace = 55;
@@ -1132,7 +1312,32 @@ class CfgVehicles {
 		garageSell[] = { 5000, 0, 0, 0 };
         insurance = 7500;
         chopShop = 2600;
-        textures[] = { };
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
     };
 	class civ_mondeo_Aqua {
         vItemSpace = 50;
@@ -1555,7 +1760,32 @@ class CfgVehicles {
 		garageSell[] = { 45000, 0, 0, 0 };
         insurance = 56000;
         chopShop = 3560;
-        textures[] = { };
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
     };
 	class exxpensive_mercedes_sls_base : exxpensive_jaguar_base {};
 	class exxpensive_ford_raptor_base : exxpensive_jaguar_base {};
@@ -1589,7 +1819,32 @@ class CfgVehicles {
 		garageSell[] = { 9400, 0, 0, 0 };
         insurance = 9450;
         chopShop = 2156;
-        textures[] = { };
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
     };
 	
 //////////////////////////////////////////////////////////////////////////////////	taxi_car
@@ -1647,7 +1902,11 @@ class CfgVehicles {
 		garageSell[] = { 30000, 0, 0, 0 };
         insurance = 25000;
         chopShop = 1500;
-        textures[] = { };
+        textures[] = { 
+			{ "Orange", "dep", {
+                "aurore_data2\icons\dep_hemtt.paa","aurore_data2\icons\dep_hemtt.paa"
+            } }
+		};
     };
 	
 //////////////////////////////////////////////////////////////////////////////////	civ_truck
@@ -1666,7 +1925,32 @@ class CfgVehicles {
 		garageSell[] = { 4500, 0, 0, 0 };
         insurance = 4245;
         chopShop = 1024;
-        textures[] = { };
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
     };
 	class exxpensive_camion2_base {
         vItemSpace = 215;
@@ -1674,7 +1958,32 @@ class CfgVehicles {
 		garageSell[] = { 6500, 0, 0, 0 };
         insurance = 6400;
         chopShop = 1124;
-        textures[] = { };
+        textures[] = {  
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		};
     };
 	class I_Truck_02_transport_F {
         vItemSpace = 275;
@@ -1972,10 +2281,6 @@ class CfgVehicles {
 		textures[] = {};
 	};
 
-	class B_MRAP_01_hmg_F : Default {
-		vItemSpace = 65;
-	};
-
 	class B_G_Boat_Transport_01_F {
         vItemSpace = 45;
         storageFee[] = { 1000, 0, 0, 0 };
@@ -2105,7 +2410,7 @@ class CfgVehicles {
 			{ "Black", "civ", {
 	                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_black_co.paa"
 	        } },
-			{ "Blue", "civ", {
+			{ "Blue", "cop", {
 	                "\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_civ_blue_co.paa"
 	        } },
 			{ "Red", "civ", {
@@ -2147,9 +2452,28 @@ class CfgVehicles {
             } },
             { "Black", "fed", {
                 "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "WP", "wp", {
+                "aurore_data\textures\hunter_wp.jpg"
+            } },
+			{ "Gendarmerie", "cop", {
+                "aurore_data\textures\gendarmerie_hunter.paa"
             } }
         };
     };
+	
+	class B_MRAP_01_hmg_F {
+		vItemSpace = 65;
+        storageFee[] = { 0, 15000, 0, 0 };
+		garageSell[] = { 0, 10000, 0, 0 };
+        insurance = 0;
+        chopShop = 6500;
+        textures[] = {
+			{ "Gendarmerie", "cop", {
+                "aurore_data\textures\gendarmerie_hunter.paa"
+            } }
+        };
+	};
 
 	class B_Heli_Light_01_F	{
         vItemSpace = 55;
@@ -2202,6 +2526,15 @@ class CfgVehicles {
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
+            } },
+			{ "WP", "wp", {
+                "aurore_data\textures\hummingbird_wp.jpg"
+            } },
+			{ "Gendarmerie", "cop", {
+                "aurore_data\textures\gendarmerie_heli01.paa"
+            } },
+			{ "Depanneur", "dep", {
+                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
             } }
         };
     };
@@ -2229,6 +2562,12 @@ class CfgVehicles {
             } },
             { "EMS White", "med", {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
+            } },
+			{ "WP", "wp", {
+                "aurore_data\textures\orca_wp.jpg"
+            } },
+			{ "Gendarmerie", "cop", {
+                "aurore_data\textures\gendarmerie_heli02.paa"
             } }
         };
     };
