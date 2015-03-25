@@ -5,6 +5,9 @@
 	Description:
 	Deposits money into the players gang bank.
 */
+if(isNil "life_session_time_bkdep") then {life_session_time_bkdep = false;}; // BDD Douceur
+if(life_session_time_bkdep) exitWith {hint "Il faut attendre 3 sec...";};
+
 private["_value"];
 _value = parseNumber(ctrlText 2702);
 _gFund = grpPlayer getVariable ["gang_bank",0];
@@ -25,3 +28,10 @@ hint format [localize "STR_ATM_WithdrawSuccessG",[_value] call life_fnc_numberTe
 [] call life_fnc_atmMenu;
 [6] call SOCK_fnc_updatePartial;
 [[1,grpPlayer],"TON_fnc_updateGang",false,false] spawn life_fnc_MP;
+
+[] spawn
+{
+	life_session_time_bkdep = true;
+	sleep 3;
+	life_session_time_bkdep = false;
+};

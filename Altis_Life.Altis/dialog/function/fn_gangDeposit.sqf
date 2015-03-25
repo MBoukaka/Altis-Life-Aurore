@@ -5,6 +5,9 @@
 	Description:
 	Deposits money into the players gang bank.
 */
+if((time - life_action_delay) < 3) exitWith {hint "Vous appuyez trop vite !"};
+life_action_delay = time;
+
 private["_value"];
 _value = parseNumber(ctrlText 2702);
 

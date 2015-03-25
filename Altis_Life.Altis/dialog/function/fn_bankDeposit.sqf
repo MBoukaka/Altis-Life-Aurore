@@ -6,6 +6,9 @@
 	Description:
 	Figure it out.
 */
+if(isNil "life_session_time_bkdep") then {life_session_time_bkdep = false;}; // BDD Douceur
+if(life_session_time_bkdep) exitWith {hint "Il faut attendre 3 sec...";};
+
 private["_value"];
 _value = parseNumber(ctrlText 2702);
 
@@ -22,3 +25,10 @@ hint format[localize "STR_ATM_DepositMSG",[_value] call life_fnc_numberText];
 [] call life_fnc_atmMenu;
 [] call life_fnc_hudUpdate;
 [6] call SOCK_fnc_updatePartial;
+
+[] spawn
+{
+	life_session_time_bkdep = true;
+	sleep 3;
+	life_session_time_bkdep = false;
+};

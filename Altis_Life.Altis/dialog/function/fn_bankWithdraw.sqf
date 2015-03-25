@@ -5,6 +5,9 @@
 	Description:
 	Withdraws money from the players account
 */
+if(isNil "life_session_time_bkretir") then {life_session_time_bkretir = false;}; // BDD Douceur
+if(life_session_time_bkretir) exitWith {hint "Il faut attendre 3 sec...";};
+
 private["_val"];
 _val = parseNumber(ctrlText 2702);
 if(_val > 999999) exitWith {hint localize "STR_ATM_WithdrawMax";};
@@ -19,3 +22,10 @@ hint format [localize "STR_ATM_WithdrawSuccess",[_val] call life_fnc_numberText]
 [] call life_fnc_atmMenu;
 [] call life_fnc_hudUpdate;
 [6] call SOCK_fnc_updatePartial;
+
+[] spawn
+{
+	life_session_time_bkretir = true;
+	sleep 3;
+	life_session_time_bkretir = false;
+};

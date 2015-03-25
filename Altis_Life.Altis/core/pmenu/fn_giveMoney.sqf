@@ -6,6 +6,9 @@
 	Description:
 	Gives the selected amount of money to the selected player.
 */
+if(isNil "life_session_time_givemoney") then {life_session_time_givemoney = false;}; // BDD Douceur
+if(life_session_time_givemoney) exitWith {hint "Il faut attendre 3 sec...";};
+
 private["_unit","_amount"];
 _amount = ctrlText 2018;
 ctrlShow[2001,false];
@@ -31,3 +34,10 @@ CASH = CASH - (parseNumber(_amount));
 [] call life_fnc_hudUpdate;
 
 ctrlShow[2001,true];
+
+[] spawn
+{
+	life_session_time_givemoney = true;
+	sleep 3;
+	life_session_time_givemoney = false;
+};

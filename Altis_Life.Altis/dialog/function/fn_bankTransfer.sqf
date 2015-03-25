@@ -6,6 +6,9 @@
 	Description:
 	Figure it out again.
 */
+if(isNil "life_session_time_bktrans") then {life_session_time_bktrans = false;}; // BDD Douceur
+if(life_session_time_bktrans) exitWith {hint "Il faut attendre 3 sec...";};
+
 private["_val","_unit","_tax"];
 _val = parseNumber(ctrlText 2702);
 _unit = call compile format["%1",(lbData[2703,(lbCurSel 2703)])];
@@ -25,3 +28,10 @@ BANK = BANK - (_val + _tax);
 [] call life_fnc_atmMenu;
 hint format[localize "STR_ATM_SentMoneySuccess",[_val] call life_fnc_numberText,_unit getVariable["realname",name _unit],[_tax] call life_fnc_numberText];
 [1] call SOCK_fnc_updatePartial;
+
+[] spawn
+{
+	life_session_time_bktrans = true;
+	sleep 3;
+	life_session_time_bktrans = false;
+};

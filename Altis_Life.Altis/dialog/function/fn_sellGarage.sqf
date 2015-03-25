@@ -6,6 +6,8 @@
 	Description:
 	Sells a vehicle from the garage.
 */
+if((time - life_action_delay) < 2.5) exitWith {hint "Vous appuyez trop vite !"};
+life_action_delay = time;
 private["_vehicle","_vid","_pid","_unit","_sellPrice"];
 disableSerialization;
 if(EQUAL(lbCurSel 2802,-1)) exitWith {hint localize "STR_Global_NoSelection"};
