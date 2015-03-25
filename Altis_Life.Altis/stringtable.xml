@@ -50,10 +50,6 @@
 			<Original>Champignons Hallucinogènes</Original>
 			<French>Champignons Hallucinogènes</French>
 		</Key>
-		<Key ID="STR_Item_GoatGrilled">
-			<Original>Viande de chèvre grillée</Original>
-			<French>Viande de chèvre grillée</French>
-		</Key>
 		<Key ID="STR_Shops_Rebel">
 			<Original>Rebel Market</Original>
 			<German>Rebellen Markt</German>
@@ -462,9 +458,6 @@
 		</Key>
 		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
 			<Original>Select a message</Original>
-		</Key>
-		<Key ID="STR_Global_Close">
-			<Original>Close</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_SCHREIBEN">
 			<Original>Create</Original>
@@ -2935,10 +2928,6 @@
 			<Original>Blanquette de Veau</Original>
 			<French>Blanquette de Veau</French>
 		</Key>
-		<Key ID="STR_Item_cacahuete">
-			<Original>Cacahuètes</Original>
-			<French>Cacahuètes</French>
-		</Key>
 		<Key ID="STR_Item_redwine">
 			<Original>Gratin Groschandois</Original>
 			<French>Gratin Groschandois</French>
@@ -3458,10 +3447,6 @@
 		</Key>
 	</Package>
 	<Package name="Life_License">
-		<Key ID="STR_License_CopDonator">
-			<Original>MEMBRE DONATEUR</Original>
-			<French>MEMBRE DONATEUR</French>
-		</Key>
 		<Key ID="STR_License_hool">
 			<Original>Famille Hooligans</Original>
 			<French>Famille Hooligans</French>
