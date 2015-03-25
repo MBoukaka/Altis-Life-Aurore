@@ -188,6 +188,7 @@ class Life_Client_Core
 	class Player_Menu
 	{
 		file = "core\pmenu";
+		class AAN {};
 		class bugExtDB {};
 		class wantedList {};
 		class wantedInfo {};
@@ -414,6 +415,7 @@ class Life_Client_Core
 	class Dialog_Controls
 	{
 		file = "dialog\function";
+		class calldialog {};
 		class setMapPosition {};
 		class displayHandler {};
 		class spawnConfirm {};

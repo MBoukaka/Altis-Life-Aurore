@@ -23,4 +23,5 @@ if(BANK < _price) exitWith {hint format[(localize "STR_Garage_CashError"),[_pric
 hint "Votre véhicule est désormais assuré";
 
 BANK = BANK - _price;
+[1] call SOCK_fnc_updatePartial;
 closeDialog 0;

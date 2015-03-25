@@ -33,3 +33,4 @@
 #include "FuelStat.h"
 #include "dynmarket_changeprice.hpp"
 #include "dynmarket_prices.hpp"
+#include "channel.hpp"
