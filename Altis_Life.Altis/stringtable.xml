@@ -3451,6 +3451,10 @@
 			<Original>Famille Hooligans</Original>
 			<French>Famille Hooligans</French>
 		</Key>
+		<Key ID="STR_License_fal">
+			<Original>Groupe FAL</Original>
+			<French>Groupe FAL</French>
+		</Key>
 		<Key ID="STR_License_tchong">
 			<Original>Famille Tchong</Original>
 			<French>Famille Tchong</French>
