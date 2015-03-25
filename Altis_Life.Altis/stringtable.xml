@@ -8,7 +8,7 @@
 			<Original>Altis Police Department Shop</Original>
 		</Key>
 		<Key ID="STR_Shops_C_Rebel">
-			<Original>Mohammed's Jihadi Shop</Original>
+			<Original>Armes rebelles</Original>
 		</Key>
 		<Key ID="STR_Shops_C_Diving">
 			<Original>Steve's Diving Shop</Original>
@@ -29,6 +29,14 @@
 		<Key ID="STR_Item_TurtleMeat">
 			<Original>Tortue</Original>
 			<French>Tortue</French>
+		</Key>
+		<Key ID="STR_Item_relique">
+			<Original>Reliques</Original>
+			<French>Reliques</French>
+		</Key>
+		<Key ID="STR_Item_champ">
+			<Original>Champignons Hallucinogènes</Original>
+			<French>Champignons Hallucinogènes</French>
 		</Key>
 		<Key ID="STR_Item_GoatGrilled">
 			<Original>Viande de chèvre grillée</Original>
@@ -57,6 +65,14 @@
 			<German>Gyro's Café</German>
 			<Italian>Caffè</Italian>
 			<French>Café de Gyro</French>
+		</Key>
+		<Key ID="STR_Shops_champ">
+			<Original>Achat de Champignons</Original>
+			<French>Achat de Champignons</French>
+		</Key>
+		<Key ID="STR_Shops_relique">
+			<Original>Achat de reliques</Original>
+			<French>Achat de reliques</French>
 		</Key>
 		<Key ID="STR_Shops_DrugDealer">
 			<Original>Tonic's Narcotics</Original>

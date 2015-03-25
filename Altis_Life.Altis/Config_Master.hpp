@@ -116,6 +116,8 @@ class VirtualItems {
 	VITEMMACRO(cone, "STR_Item_cone", "cone", 3, 25, -1, false, -1, "aurore_data2\icons\items\cone.paa")
 	VITEMMACRO(vird, "STR_Item_vird", "vird", 4, 25, -1, false, -1, "aurore_data2\icons\items\vird.paa")
 	VITEMMACRO(virg, "STR_Item_virg", "virg", 4, 25, -1, false, -1, "aurore_data2\icons\items\virg.paa")
+	VITEMMACRO(relique, "STR_Item_relique", "relique", 4, 25, -1, false, -1, "")
+	VITEMMACRO(champ, "STR_Item_champ", "champ", 3, 25, -1, false, -1, "")
 
 	//Mined Items
 	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 7, -1, -1, false, -1, "aurore_data2\icons\items\oil_unprocessed.paa")
@@ -288,6 +290,16 @@ class VirtualShops {
 	class oil {
 		name = "STR_Shops_Oil";
 		items[] = { "oil_processed", "pickaxe", "fuelFull" };
+	};
+	
+	class relique {
+		name = "STR_Shops_relique";
+		items[] = { "relique" };
+	};
+	
+	class champ {
+		name = "STR_Shops_champ";
+		items[] = { "champ" };
 	};
 
 	class fishmarket {
