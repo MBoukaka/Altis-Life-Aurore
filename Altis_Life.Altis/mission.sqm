@@ -60,9 +60,7 @@ class Mission
 		"A3_Structures_F_Ind_FuelStation",
 		"A3_Data_F",
 		"a3_roads_f",
-		"A3_Structures_F_Bootcamp_Items_Sport",
-		"A3_Structures_F_Wrecks",
-		"A3_Structures_F_Mil_Shelters"
+		"A3_Structures_F_Bootcamp_Items_Sport"
 	};
 	addOnsAuto[]=
 	{
@@ -115,8 +113,6 @@ class Mission
 		"A3_Data_F",
 		"a3_roads_f",
 		"A3_Structures_F_Bootcamp_Items_Sport",
-		"A3_Structures_F_Wrecks",
-		"A3_Structures_F_Mil_Shelters",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -2818,7 +2814,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1059;
+		items=1049;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -13530,127 +13526,25 @@ class Mission
 		};
 		class Item1047
 		{
-			position[]={14106.633,7.8179808,11558.662};
-			azimut=274.241;
-			id=1183;
-			side="EMPTY";
-			vehicle="Land_Wreck_Heli_Attack_01_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1048
-		{
 			position[]={14257.478,3.0334864,13058.283};
 			azimut=1581.11;
 			offsetY=2;
-			id=1184;
+			id=1183;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;  this addAction[""Magasin de Bateaux"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""scarface_ship"",""civ"",""Scarface bateaux""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""scarface_ship""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
-		class Item1049
+		class Item1048
 		{
 			position[]={13227.799,13.219654,7456.7368};
 			azimut=88.391197;
-			id=1185;
+			id=1184;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="Dealer_3_2_1";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Vente de Champignons"",life_fnc_virt_menu,""champ"",0,false,false,"""",' vehicle player == player && player distance _target < 5 && playerSide == civilian '];";
-		};
-		class Item1050
-		{
-			position[]={14093.969,10.547573,11564.94};
-			azimut=226.34;
-			id=1186;
-			side="EMPTY";
-			vehicle="CamoNet_OPFOR_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1051
-		{
-			position[]={14094.163,10.748579,11553.785};
-			azimut=-28.2936;
-			id=1187;
-			side="EMPTY";
-			vehicle="CamoNet_OPFOR_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1052
-		{
-			position[]={14114.348,5.5740161,11571.263};
-			azimut=113.862;
-			id=1188;
-			side="EMPTY";
-			vehicle="CamoNet_OPFOR_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1053
-		{
-			position[]={14101.425,7.7954593,11548.189};
-			azimut=178.24899;
-			id=1189;
-			side="EMPTY";
-			vehicle="CamoNet_OPFOR_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1054
-		{
-			position[]={14124.723,2.6774292,11565.336};
-			azimut=106.554;
-			id=1190;
-			side="EMPTY";
-			vehicle="CamoNet_OPFOR_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1055
-		{
-			position[]={14103.624,7.8840141,11570.521};
-			azimut=146.54201;
-			id=1191;
-			side="EMPTY";
-			vehicle="CamoNet_INDP_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1056
-		{
-			position[]={14114.367,3.2649145,11553.244};
-			azimut=329.16199;
-			id=1192;
-			side="EMPTY";
-			vehicle="CamoNet_OPFOR_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1057
-		{
-			position[]={14090.273,2.573812,11536.986};
-			azimut=146.54201;
-			offsetY=4;
-			id=1193;
-			side="EMPTY";
-			vehicle="CamoNet_INDP_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
-		};
-		class Item1058
-		{
-			position[]={14084.693,8.183547,11541.188};
-			azimut=88.391197;
-			offsetY=4;
-			id=1194;
-			side="EMPTY";
-			vehicle="CamoNet_INDP_F";
-			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;";
 		};
 	};
 	class Markers

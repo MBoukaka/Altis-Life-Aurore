@@ -29,8 +29,8 @@ _veh_data = life_trunk_vehicle getVariable ["Trunk",[[],0]];
 _inv = _veh_data select 0;
 
 if(_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
-if(_ctrl == "relique" && {!(life_trunk_vehicle isKindOf "Air" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
-if(_ctrl == "champ" && {!(life_trunk_vehicle isKindOf "Air" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
+if(_ctrl == "relique" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehicle isKindOf "LandVehicle")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
+if(_ctrl == "champ" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehicle isKindOf "LandVehicle")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
 
 if(_ctrl == "money") then
 {
