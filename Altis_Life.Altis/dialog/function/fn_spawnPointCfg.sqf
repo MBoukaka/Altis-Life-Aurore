@@ -95,6 +95,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_tchong)then {
+			_return = _return + [
+				["house_tchong","Base des Tchong","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_taxi) then {
 			_return = [
 				["taxi_spawn_1","Kavala Taxi","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]

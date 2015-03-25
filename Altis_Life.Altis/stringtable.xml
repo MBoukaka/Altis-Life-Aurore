@@ -3450,6 +3450,10 @@
 			<Original>MEMBRE DONATEUR</Original>
 			<French>MEMBRE DONATEUR</French>
 		</Key>
+		<Key ID="STR_License_tchong">
+			<Original>Famille Tchong</Original>
+			<French>Famille Tchong</French>
+		</Key>
 		<Key ID="STR_License_esco">
 			<Original>Famille Escobar</Original>
 			<French>Famille Escobar</French>
@@ -3501,6 +3505,10 @@
 		<Key ID="STR_Shops_explo">
 			<Original>Vendeur d'explosifs</Original>
 			<French>Vendeur d'explosifs</French>
+		</Key>
+		<Key ID="STR_Shops_esco">
+			<Original>Achat de Résine</Original>
+			<French>Achat de Résine</French>
 		</Key>
 		<Key ID="STR_License_macumba">
 			<Original>Propriétaire du Macumba</Original>
