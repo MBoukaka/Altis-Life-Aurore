@@ -29,6 +29,7 @@ _veh_data = life_trunk_vehicle getVariable ["Trunk",[[],0]];
 _inv = _veh_data select 0;
 
 if(_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
+if(_ctrl == "goldbar" && (typeOf life_trunk_vehicle in ["I_Truck_02_transport_F","I_Truck_02_covered_F"])) exitWith {hint "Le chassis du Zamak ne supporte pas les lingots!"};
 if(_ctrl == "relique" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehicle isKindOf "LandVehicle")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
 if(_ctrl == "champ" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehicle isKindOf "LandVehicle")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
 
