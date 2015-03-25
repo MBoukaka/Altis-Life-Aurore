@@ -34,6 +34,47 @@ class CarShops {
 		};
 	};
 	
+	class scarface_car {
+		side = "civ";
+		vehicles[] = {
+			{ "O_MRAP_02_F",53000, "scarface" },
+			{ "B_Truck_01_box_F",35500, "scarface" },
+			{ "cl3_suv_black",11300, "scarface" },
+			{ "A3L_F350Black",14000, "scarface" },
+			{ "C_Van_01_box_F",2500, "scarface" },
+			{ "exxpensive_camion1_base",3000, "scarface" },
+			{ "exxpensive_camion2_base",3000, "scarface" },
+			{ "I_Truck_02_transport_F",8000, "scarface" },
+			{ "I_Truck_02_covered_F",12000, "scarface" },
+			{ "B_Truck_01_transport_F",15000, "scarface" },
+			{ "cl3_mackr_gold",30500, "scarface" },
+			{ "cl3_mackr_black",30500, "scarface" },
+			{ "cl3_mackr_black_white",30500, "scarface" },
+			{ "cl3_mackr_blue",30500, "scarface" },
+			{ "cl3_mackr_green_white",30500, "scarface" },
+			{ "cl3_mackr_multi_color",30500, "scarface" },
+			{ "cl3_mackr_optimus",30500, "scarface" },
+			{ "cl3_mackr_orange_white",30500, "scarface" },
+			{ "cl3_mackr_flat_gold",34500, "scarface" },
+			{ "cl3_mackr_flat_black",34500, "scarface" },
+			{ "cl3_mackr_flat_black_white",34500, "scarface" },
+			{ "cl3_mackr_flat_blue",34500, "scarface" },
+			{ "cl3_mackr_flat_green_white",34500, "scarface" },
+			{ "cl3_mackr_flat_multi_color",34500, "scarface" },
+			{ "cl3_mackr_flat_optimus",34500, "scarface" },
+			{ "cl3_mackr_flat_orange_white",34500, "scarface" },
+			{ "cl3_mackr_del_gold",98500, "scarface" },
+			{ "cl3_mackr_del_black",98500, "scarface" },
+			{ "cl3_mackr_del_black_white",98500, "scarface" },
+			{ "cl3_mackr_del_blue",98500, "scarface" },
+			{ "cl3_mackr_del_green_white",98500, "scarface" },
+			{ "cl3_mackr_del_multi_color",98500, "scarface" },
+			{ "cl3_mackr_del_optimus",98500, "scarface" },
+			{ "cl3_mackr_del_orange_white",98500, "scarface" },
+			{ "Orel_Dingo", 200000, "scarface" }
+		};
+	};
+	
 	class civ_car {
 		side = "civ";
 		vehicles[] = {
