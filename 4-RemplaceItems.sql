@@ -1,4 +1,8 @@
 UPDATE players SET civ_licenses = REPLACE (  civ_licenses,  '`license_civ_truck`',  '`license_civ_trucking`');
+UPDATE players SET aliases = REPLACE (  aliases,  '`]]',  '`]');
+UPDATE players SET aliases = REPLACE (  aliases,  '[[`',  '[`');
+UPDATE players SET aliases = REPLACE (  aliases,  '"]]',  '`]');
+UPDATE players SET aliases = REPLACE (  aliases,  '[["',  '[`');
 UPDATE houses SET inventory = REPLACE (  inventory,  '`heroinu`',  '`heroin_unprocessed`');
 UPDATE houses SET inventory = REPLACE (  inventory,  '`heroinp`',  '`heroin_processed`');
 UPDATE houses SET inventory = REPLACE (  inventory,  '`cocaine`',  '`cocaine_unprocessed`');
