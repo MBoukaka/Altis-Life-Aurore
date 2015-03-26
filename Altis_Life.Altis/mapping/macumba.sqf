@@ -603,6 +603,7 @@ if (true) then
 	_vehicle_184 = _this;
 	_this setDir 77.230438;
 	_this setPos [17211.148, 17928.654, 1.0613707];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_199 = objNull;
@@ -1971,6 +1972,7 @@ if (true) then
 	_vehicle_553 = _this;
 	_this setDir -13.72898;
 	_this setPos [17208.811, 17946.119, 4.7683716e-006];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_555 = objNull;
@@ -1980,6 +1982,7 @@ if (true) then
 	_vehicle_555 = _this;
 	_this setDir -40.604244;
 	_this setPos [17206.254, 17912.561];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_557 = objNull;
@@ -1989,6 +1992,7 @@ if (true) then
 	_vehicle_557 = _this;
 	_this setDir -40.604244;
 	_this setPos [17198.914, 17910.764, -0.017130459];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_559 = objNull;
@@ -1998,6 +2002,7 @@ if (true) then
 	_vehicle_559 = _this;
 	_this setDir -40.604244;
 	_this setPos [17208.316, 17903.736, -2.1934509e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_561 = objNull;
@@ -2007,6 +2012,7 @@ if (true) then
 	_vehicle_561 = _this;
 	_this setDir -40.604244;
 	_this setPos [17201.051, 17901.781, 0.00013446808];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_564 = objNull;
@@ -2016,6 +2022,7 @@ if (true) then
 	_vehicle_564 = _this;
 	_this setDir -15.957428;
 	_this setPos [17188.789, 17898.912, -6.1988831e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_566 = objNull;
@@ -2025,6 +2032,7 @@ if (true) then
 	_vehicle_566 = _this;
 	_this setDir -17.824482;
 	_this setPos [17229.221, 17907.703, -0.00010490417];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_568 = objNull;
@@ -2034,6 +2042,7 @@ if (true) then
 	_vehicle_568 = _this;
 	_this setDir -16.714483;
 	_this setPos [17256.949, 17913.771, -7.4386597e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_570 = objNull;
@@ -2043,6 +2052,7 @@ if (true) then
 	_vehicle_570 = _this;
 	_this setDir -30.750668;
 	_this setPos [17241.207, 17948.514, 8.1062317e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_572 = objNull;
@@ -2052,6 +2062,7 @@ if (true) then
 	_vehicle_572 = _this;
 	_this setDir -45.982601;
 	_this setPos [17217.148, 17991.814, 0.00033283234];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_574 = objNull;
@@ -2061,6 +2072,7 @@ if (true) then
 	_vehicle_574 = _this;
 	_this setDir -14.426594;
 	_this setPos [17196.727, 17986.459, -6.2942505e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_576 = objNull;
@@ -2070,6 +2082,7 @@ if (true) then
 	_vehicle_576 = _this;
 	_this setDir -22.784866;
 	_this setPos [17167.455, 17976.764, 5.1498413e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_578 = objNull;
@@ -2079,6 +2092,7 @@ if (true) then
 	_vehicle_578 = _this;
 	_this setDir -17.262224;
 	_this setPos [17182.398, 17924.092, 1.8119812e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_580 = objNull;
@@ -2088,6 +2102,7 @@ if (true) then
 	_vehicle_580 = _this;
 	_this setDir -267.70404;
 	_this setPos [17374.549, 17910.363, -6.8664551e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_582 = objNull;
@@ -2097,6 +2112,7 @@ if (true) then
 	_vehicle_582 = _this;
 	_this setDir -284.48642;
 	_this setPos [17301.557, 17906.016, 2.8610229e-006];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_584 = objNull;
@@ -2106,6 +2122,7 @@ if (true) then
 	_vehicle_584 = _this;
 	_this setDir -283.65991;
 	_this setPos [17152.988, 17871.637, -3.7193298e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_586 = objNull;
@@ -2115,6 +2132,7 @@ if (true) then
 	_vehicle_586 = _this;
 	_this setDir -284.41388;
 	_this setPos [17080.67, 17853.555];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_588 = objNull;
@@ -2124,6 +2142,7 @@ if (true) then
 	_vehicle_588 = _this;
 	_this setDir -297.70456;
 	_this setPos [16999.457, 17825.078, 2.1934509e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_590 = objNull;
@@ -2133,6 +2152,7 @@ if (true) then
 	_vehicle_590 = _this;
 	_this setDir -297.60178;
 	_this setPos [16945.709, 17799.164, 3.6239624e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 _vehicle_592 = objNull;
@@ -2142,6 +2162,7 @@ if (true) then
 	_vehicle_592 = _this;
 	_this setDir -255.16566;
 	_this setPos [17461.037, 17905.5, -1.7166138e-005];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
 {
