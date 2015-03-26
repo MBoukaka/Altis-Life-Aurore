@@ -109,6 +109,9 @@ class Life_Client_Core
 	class Actions
 	{
 		file = "core\actions";
+		class radarFlash {};
+		class radarFlash50 {};
+		class radarFlash90 {};
 		class animMenu {};
 		class serviceTruck {};
 		class sitDown {};

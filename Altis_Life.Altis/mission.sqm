@@ -2814,7 +2814,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1098;
+		items=1108;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -14036,10 +14036,100 @@ class Mission
 			text="bandit_car_topolia_1_1";
 			init="this enableSimulation false;  this allowDamage false; this setObjectTexture [0, ""images\garage_car.jpg""]; this addAction[""Vendeur véhicule"",life_fnc_vehicleShopMenu,[""bandit_car"",civilian,[""bandit_car_3"",""bandit_car_3_1""],""civ"",""Bandit Motorpool""],0,false,false,"""",'license_civ_bandit']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""bandit_car_3"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
+		class Item1098
+		{
+			position[]={3640.7058,10.258889,13202.789};
+			azimut=11.963211;
+			id=1234;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1099
+		{
+			position[]={6038.0122,24.118616,14909.845};
+			azimut=45.016079;
+			id=1235;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1100
+		{
+			position[]={11554.574,39.619972,15779.014};
+			azimut=79.194458;
+			id=1236;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1101
+		{
+			position[]={14586.657,16.792662,16972.637};
+			azimut=44.912334;
+			id=1237;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1102
+		{
+			position[]={16877.25,16.543999,17758.318};
+			azimut=60.310585;
+			id=1238;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1103
+		{
+			position[]={23858.309,14.126443,20121.432};
+			azimut=51.632492;
+			id=1239;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1104
+		{
+			position[]={25582.982,18.098145,21245.158};
+			azimut=-131.5459;
+			id=1240;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1105
+		{
+			position[]={25830.713,21.098307,21466.406};
+			azimut=51.093582;
+			id=1241;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1106
+		{
+			position[]={14106.438,21.660618,18520.133};
+			azimut=-39.619556;
+			id=1242;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
+		class Item1107
+		{
+			position[]={3620.6431,13.385463,12989.11};
+			azimut=0.80988991;
+			id=1243;
+			side="EMPTY";
+			vehicle="Orel_Radar";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
-		items=349;
+		items=358;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -16780,10 +16870,90 @@ class Mission
 			type="Empty";
 			angle=68.393997;
 		};
+		class Item349
+		{
+			position[]={3634.7913,10.295609,13203.873};
+			name="radar_1";
+			text="50 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+		};
+		class Item350
+		{
+			position[]={6032.9946,24.061949,14915.122};
+			name="radar_1_1";
+			text="90 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+			angle=-5.2453699;
+		};
+		class Item351
+		{
+			position[]={11552.739,39.706554,15786.761};
+			name="radar_1_1_1";
+			text="90 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+			angle=0.59746814;
+		};
+		class Item352
+		{
+			position[]={14580.773,16.752285,16978.018};
+			name="radar_1_1_1_1";
+			text="130 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+			angle=8.2097301;
+		};
+		class Item353
+		{
+			position[]={16872.988,16.558041,17765.092};
+			name="radar_1_1_1_1_1";
+			text="90 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+			angle=11.7954;
+		};
+		class Item354
+		{
+			position[]={25588.537,17.963768,21239.908};
+			name="radar_1_1_1_1_1_1_1";
+			text="50 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+			angle=8.51511;
+		};
+		class Item355
+		{
+			position[]={25825.498,21.353407,21472.002};
+			name="radar_1_1_1_1_1_1_1_1";
+			text="50 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+			angle=18.670303;
+		};
+		class Item356
+		{
+			position[]={14100.91,21.652905,18514.854};
+			name="radar_1_1_1_1_1_1_1_1_1";
+			text="50 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+			angle=4.2426429;
+		};
+		class Item357
+		{
+			position[]={3613.0059,13.045111,12988.668};
+			name="radar_1_1_1_1_1_1_1_1_2";
+			text="50 Km/h";
+			type="hd_warning";
+			colorName="ColorRed";
+			angle=22.870781;
+		};
 	};
 	class Sensors
 	{
-		items=1;
+		items=11;
 		class Item0
 		{
 			position[]={8317.8232,75.174515,10094.418};
@@ -16796,6 +16966,156 @@ class Mission
 			age="UNKNOWN";
 			expActiv="COP_Schranke_17 animate [""Door_1_rot"", 1]";
 			expDesactiv="COP_Schranke_17 animate [""Door_1_rot"", 0]";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={3633.5691,10.309273,13204.719};
+			a=12;
+			b=12;
+			angle=12.107205;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 55 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash50"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={6033.082,24.062876,14915.358};
+			a=12;
+			b=12;
+			angle=45.160076;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 95 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash50"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={11553.6,39.694138,15786.349};
+			a=12;
+			b=12;
+			angle=79.338455;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 95 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash50"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={14581.721,16.745306,16978.162};
+			a=12;
+			b=12;
+			angle=45.056301;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 135 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item5
+		{
+			position[]={16873.951,16.55419,17764.967};
+			a=12;
+			b=12;
+			angle=60.454601;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 95 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash95"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={23854.045,14.499311,20127.512};
+			a=12;
+			b=12;
+			angle=51.776501;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 135 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item7
+		{
+			position[]={25587.572,17.965969,21239.834};
+			a=12;
+			b=12;
+			angle=-131.40199;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 55 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash50"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item8
+		{
+			position[]={25826.393,21.322584,21471.93};
+			a=12;
+			b=12;
+			angle=51.237488;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 55 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash50"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item9
+		{
+			position[]={14100.973,21.670519,18515.744};
+			a=12;
+			b=12;
+			angle=-39.475651;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 55 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash50"",player,false] spawn life_fnc_MP;";
+			class Effects
+			{
+			};
+		};
+		class Item10
+		{
+			position[]={3613.634,13.055502,12989.313};
+			a=12;
+			b=12;
+			angle=0.95379734;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this && (speed player) > 55 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+			expActiv="nul = [[],""life_fnc_radarFlash50"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};
