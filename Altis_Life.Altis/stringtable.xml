@@ -3182,6 +3182,34 @@
 			<Italian>Carne di pecora grezza</Italian>
 			<Portuguese>Carne ovina Raw</Portuguese>
 		</Key>
+		<Key ID="STR_MISC_StPubIntox">
+			<Original>%1 has passed out drunk in public!</Original>
+			<English>%1 has passed out drunk in public!</English>
+			<German>%1 hat sich betrunken im öffentlichen bestanden!</German>
+			<french>%1 est défoncé en public !</french>
+		</Key>
+		<Key ID="STR_MISC_AlreadyDrinking">
+			<Original>You are already drinking some booze</Original>
+			<English>You are already drinking some booze</English>
+			<German>Du bist schon etwas trinken Alkohol</German>
+			<french>Tu as déjà trop bu !</french>
+		</Key>
+		<Key ID="STR_MISC_WestIndNoNo">
+			<Original>No drinking on duty</Original>
+			<English>No drinking on duty</English>
+			<German>Kein Trinkwasser im Dienst</German>
+			<French>Pas boire pendant le travail</French>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut">
+			<Original>You have passed out</Original>
+			<English>You have passed out</English>
+			<french>Tu es raid défoncé !</french>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut1">
+			<Original>What the hell happened to me??</Original>
+			<English>What the hell happened to me??</English>
+			<french>Mais qu'est-ce qu'il m'arrive ?!</french>
+		</Key>
 		<Key ID="STR_Item_SheepGrilled">
 			<Original>Grilled Sheep</Original>
 			<German>Gegrilltes Schafsfleisch</German>
