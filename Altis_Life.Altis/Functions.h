@@ -288,6 +288,7 @@ class Life_Client_Core
 	class Civilian
 	{
 		file = "core\civilian";
+		class gangMarkers {};
 		class jailMe {};
 		class jail {};
 		class tazed {};
