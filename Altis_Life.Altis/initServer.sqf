@@ -9,3 +9,4 @@ if(!(_this select 0)) exitWith {}; //Not server
 
 //Chargement du mapping
 [] execVM "mapping\bandit.sqf";
+[] execVM "mapping\macumba.sqf";
