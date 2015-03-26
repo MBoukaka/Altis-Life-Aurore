@@ -70,12 +70,12 @@ switch (playerSide) do
 				//Detacher vehicule
 				life_actions = life_actions + [player addAction["<t color='#0000FF'>Detacher le vehicule</t>","core\depanneur\fn_detacher.sqf",[],7,true,true,"",' (typeOf (vehicle player) == "cl3_f150repo_orange") && ((vehicle player animationPhase "HideServices") == 0) && license_civ_dep && (_target distance _this) < 12 ']];
 				/////////////////////////////////////////////////////////////////////////
-				////////////////////////////////Dépaneur Dep Offroad/////////////////////////////////
+				////////////////////////////////Dépaneur Dep Offroad/////////////////////
 				//Service Truck_Stuff
 				life_actions = life_actions + [player addAction["<t color='#FF0000'>Reparer le vehicule proche</t>",life_fnc_serviceTruck,"",99,false,false,"",' (typeOf (vehicle player) == "Dep_Offroad") && ((vehicle player animationPhase "HideServices") == 0) && license_civ_dep && ((vehicle player) in life_vehicles) && (speed vehicle player) < 1 ']];
 				//Service Truck_Impound Car
 				life_actions = life_actions + [player addAction["<t color='#0000FF'>Mettre le vehicule en fourriere</t>",life_fnc_dep_impound,"",0,false,false,"",' (typeOf (vehicle player) == "Dep_Offroad") && ((vehicle player animationPhase "HideServices") == 0) && license_civ_dep && ((vehicle player) in life_vehicles) && (speed vehicle player) < 1 ']];
-				//////////////////////////////////////////////////////////////////////////
+				/////////////////////////////////////////////////////////////////////////
 				
 				// Prendre cone depanneur
 				life_actions = life_actions + [player addAction["Prendre cone",life_fnc_packupcone,"",0,false,false,"",' _double = nearestObjects[getPos player,["RoadCone_F"],8] select 0; license_civ_dep && !isNil "_cone" && !isNil {(_cone getVariable "item")}']];
@@ -91,8 +91,13 @@ switch (playerSide) do
 	
 	case independent:
 	{
-		//fast travel
+		// Fast travel
 		life_actions = life_actions + [player addAction["<t color='#FFFF33'>Voyage rapide</t>",life_fnc_spawnMenu,"",151,false,false,"",' ((player distance (getMarkerPos "medic_spawn_1") < 30) OR  (player distance (getMarkerPos "medic_spawn_2") < 30) OR  (player distance (getMarkerPos "medic_spawn_3") < 30) OR  (player distance (getMarkerPos "medic_spawn_4") < 30)) ']];
+
+		// Entrer dans un vehicule meme verouillé
+		life_actions = life_actions + [player addAction["Monter en conducteur",life_fnc_copEnter,"driver",200,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["Monter en passager",life_fnc_copEnter,"passenger",100,false,false,"",'!isNull cursorTarget && ((cursorTarget isKindOf "Car")||(cursorTarget isKindOf "Air")||(cursorTarget isKindOf "Ship")) && (locked cursorTarget) != 0 && cursorTarget distance player < 5']];
+		life_actions = life_actions + [player addAction["Descendre",life_fnc_copEnter,"exit",100,false,false,"",'(vehicle player != player) && (locked(vehicle player)==2)']];
 	};
 };
 
