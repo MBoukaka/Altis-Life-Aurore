@@ -13050,7 +13050,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Restaurant Shop"",life_fnc_weaponShopMenu,""Restaurantestaurant"",0,false,false,"""",' license_civ_restaurant && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Restaurant Shop"",life_fnc_weaponShopMenu,""restaurant"",0,false,false,"""",' license_civ_restaurant && playerSide == civilian'];";
 		};
 		class Item1004
 		{
