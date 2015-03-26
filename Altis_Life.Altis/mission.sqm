@@ -2814,7 +2814,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1108;
+		items=1115;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -13340,7 +13340,7 @@ class Mission
 		};
 		class Item1033
 		{
-			position[]={24337.703,0.035692394,9910.8711};
+			position[]={18515.729,0,20891.791};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13354,7 +13354,7 @@ class Mission
 		};
 		class Item1034
 		{
-			position[]={24353.934,-0.060133152,9979.8428};
+			position[]={18531.959,0,20960.764};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13368,7 +13368,7 @@ class Mission
 		};
 		class Item1035
 		{
-			position[]={24407.74,0.19322425,9841.334};
+			position[]={18585.766,0,20822.256};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13382,7 +13382,7 @@ class Mission
 		};
 		class Item1036
 		{
-			position[]={24391.385,0.0069656521,9912.1191};
+			position[]={18569.41,0,20893.041};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13396,7 +13396,7 @@ class Mission
 		};
 		class Item1037
 		{
-			position[]={24444.326,0.11996973,9952.6602};
+			position[]={18622.352,0,20933.58};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13410,7 +13410,7 @@ class Mission
 		};
 		class Item1038
 		{
-			position[]={24454.736,0.10440643,9988.8916};
+			position[]={18632.762,0,20969.814};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13424,7 +13424,7 @@ class Mission
 		};
 		class Item1039
 		{
-			position[]={24343.008,0.0035074204,9850.9512};
+			position[]={18521.033,0,20831.873};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13438,7 +13438,7 @@ class Mission
 		};
 		class Item1040
 		{
-			position[]={24435.658,-0.19577968,9873.6152};
+			position[]={18613.684,0,20854.537};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13452,7 +13452,7 @@ class Mission
 		};
 		class Item1041
 		{
-			position[]={24465.971,0.13823918,9907.127};
+			position[]={18643.996,0,20888.049};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13466,7 +13466,7 @@ class Mission
 		};
 		class Item1042
 		{
-			position[]={24477.205,0.22397086,9931.7813};
+			position[]={18655.23,0,20912.701};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13480,7 +13480,7 @@ class Mission
 		};
 		class Item1043
 		{
-			position[]={24409.795,0.12841024,10004.496};
+			position[]={18587.82,0,20985.416};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13494,7 +13494,7 @@ class Mission
 		};
 		class Item1044
 		{
-			position[]={24396.119,-0.048383318,9956.334};
+			position[]={18574.145,0,20937.256};
 			azimut=180;
 			offsetY=-60;
 			special="NONE";
@@ -13508,7 +13508,7 @@ class Mission
 		};
 		class Item1045
 		{
-			position[]={20256.188,40.023029,8782.624};
+			position[]={22648.939,19.76239,21647.209};
 			azimut=88.391197;
 			id=1181;
 			side="EMPTY";
@@ -14126,10 +14126,80 @@ class Mission
 			vehicle="Orel_Radar";
 			skill=0.60000002;
 		};
+		class Item1108
+		{
+			position[]={17441.994,13.9345,13170.689};
+			azimut=1134.5277;
+			id=1244;
+			side="EMPTY";
+			vehicle="Land_HelipadCivil_F";
+			skill=0.60000002;
+		};
+		class Item1109
+		{
+			position[]={17428.635,13.715737,13182.848};
+			azimut=382.79266;
+			id=1245;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item1110
+		{
+			position[]={17390,14.509801,13177.967};
+			azimut=1756.2;
+			id=1246;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_gambino && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_gambino && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_gambino && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Le bar"",life_fnc_virt_menu,""barman"",0,false,false,"""",' license_civ_gambino && playerSide == civilian '];";
+		};
+		class Item1111
+		{
+			position[]={17424.715,14.027929,13168.553};
+			azimut=1488.66;
+			id=1247;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""gambino_1"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1112
+		{
+			position[]={17423.428,13.952054,13169.903};
+			azimut=675.65399;
+			id=1248;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""gambino_air"";  }]; this addAction[""Store vehicle in Garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1113
+		{
+			position[]={17399.041,14.548265,13166.854};
+			azimut=411.172;
+			id=1249;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			text="pro_1";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Bouteillage Bière"",life_fnc_processAction,""bottledbeer"",0,false,false,"""",' life_inv_beerp > 0 && license_civ_gambino']; this addAction[""Bouteillage Whiskey"",life_fnc_processAction,""bottledwhiskey"",0,false,false,"""",' life_inv_whiskey > 0 && license_civ_gambino']; this addAction[""Eau de Vie"",life_fnc_processAction,""bottledshine"",0,false,false,"""",' life_inv_bottledwhiskey > 0 && license_civ_gambino'];";
+		};
+		class Item1114
+		{
+			position[]={19180.721,42.210716,13107.764};
+			azimut=411.172;
+			id=1250;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			text="pro_2";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Fermentation de la bière"",life_fnc_processAction,""beerp"",0,false,false,"""",' life_inv_hops > 0 && !life_is_processing']; this addAction[""Fermentation du Whiskey"",life_fnc_processAction,""whiskey"",0,false,false,"""",' life_inv_rye > 0 && !life_is_processing'];";
+		};
 	};
 	class Markers
 	{
-		items=358;
+		items=368;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -16481,7 +16551,7 @@ class Mission
 		};
 		class Item296
 		{
-			position[]={24402.162,-0.036977816,9924.1826};
+			position[]={18580.188,0,20905.104};
 			name="Heimdall_12";
 			text="Fouille Archéologique";
 			type="mil_dot";
@@ -16489,7 +16559,7 @@ class Mission
 		};
 		class Item297
 		{
-			position[]={24402.498,-0.050653502,9924.0254};
+			position[]={18580.523,0,20904.947};
 			name="coke_area_2_1";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -16499,7 +16569,7 @@ class Mission
 		};
 		class Item298
 		{
-			position[]={20256.217,40.043167,8783.8398};
+			position[]={22648.969,19.769514,21648.426};
 			name="Dealer_1_3_2";
 			text="Arthur l'Archéologue";
 			type="mil_dot";
@@ -16949,6 +17019,87 @@ class Mission
 			type="hd_warning";
 			colorName="ColorRed";
 			angle=22.870781;
+		};
+		class Item358
+		{
+			position[]={17428.43,13.715669,13182.873};
+			name="gambino_1";
+			type="Empty";
+			angle=-66.361198;
+		};
+		class Item359
+		{
+			position[]={17393.672,14.120865,13197.58};
+			name="house_gambino";
+			type="Empty";
+			angle=886.45099;
+		};
+		class Item360
+		{
+			position[]={17441.854,13.943934,13170.303};
+			name="gambino_air";
+			type="Empty";
+			angle=-191.834;
+		};
+		class Item361
+		{
+			position[]={17411.943,14.108088,13175.619};
+			name="gambino";
+			text="Bar Clandestin des Gambino";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+		};
+		class Item362
+		{
+			position[]={17183.236,12.826939,13274.164};
+			name="gambino_2";
+			text="Truck's Scarface";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+		};
+		class Item363
+		{
+			position[]={20775.99,76.129837,9328.4102};
+			name="rye_1";
+			text="Champ de Seigle";
+			type="hd_dot";
+			colorName="ColorOrange";
+		};
+		class Item364
+		{
+			position[]={20780.717,75.839302,9326.0527};
+			name="explo_area_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=100;
+			b=100;
+		};
+		class Item365
+		{
+			position[]={16517.928,4.2910624,9847.0264};
+			name="hops_1";
+			text="Champ de Houblon";
+			type="hd_dot";
+			colorName="ColorOrange";
+		};
+		class Item366
+		{
+			position[]={16522.654,4.7114892,9844.6689};
+			name="explo_area_1_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=100;
+			b=100;
+		};
+		class Item367
+		{
+			position[]={19179.373,42.400379,13103.809};
+			name="copper_mine_1_1";
+			text="Brasserie et Fermentation";
+			type="mil_box";
+			colorName="ColorBrown";
 		};
 	};
 	class Sensors
