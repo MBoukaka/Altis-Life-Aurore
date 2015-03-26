@@ -413,6 +413,9 @@ class Life_Client_Core
 		class cone {};
 		class vird {};
 		class virg {};
+		class drinkbeer {};
+		class drinkmoonshine {};
+		class drinkwhiskey {};
 	};
 	
 	class Dialog_Controls

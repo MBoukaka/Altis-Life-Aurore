@@ -3499,6 +3499,26 @@
 			<Original>Transformation de la poudre</Original>
 			<French>Transformations de la poudre</French>
 		</Key>
+		<Key ID="STR_Process_beerp">
+			<Original>Transformation de la bière</Original>
+			<French>Transformations de la bière</French>
+		</Key>
+		<Key ID="STR_Process_whiskey">
+			<Original>Transformation du whiskey</Original>
+			<French>Transformations du whiskey</French>
+		</Key>
+		<Key ID="STR_Process_bottledbeer">
+			<Original>Mise en bouteille de la bière</Original>
+			<French>Mise en bouteille de la bière</French>
+		</Key>
+		<Key ID="STR_Process_bottledwhiskey">
+			<Original>Mise en bouteille du whiskey</Original>
+			<French>Mise en bouteille du whiskey</French>
+		</Key>
+		<Key ID="STR_Process_bottledshine">
+			<Original>Préparation de l'eau de vie</Original>
+			<French>Préparation de l'eau de vie</French>
+		</Key>
 		<Key ID="STR_Process_bombe">
 			<Original>Création des explosifs</Original>
 			<French>Création des explosifs</French>
@@ -3515,9 +3535,45 @@
 			<Original>Poudre brute</Original>
 			<French>Poudre brute</French>
 		</Key>
+		<Key ID="STR_Item_rye">
+			<Original>Seigle</Original>
+			<French>Seigle</French>
+		</Key>
+		<Key ID="STR_Item_hops">
+			<Original>Houblon</Original>
+			<French>Houblon</French>
+		</Key>
+		<Key ID="STR_Item_beerp">
+			<Original>Bière</Original>
+			<French>Bière brassée</French>
+		</Key>
+		<Key ID="STR_Item_whiskey">
+			<Original>Whiskey fermenté</Original>
+			<French>Whiskey fermenté</French>
+		</Key>
+		<Key ID="STR_Item_bottledbeer">
+			<Original>Bouteille de bière</Original>
+			<French>Bouteille de bière</French>
+		</Key>
+		<Key ID="STR_Item_bottledwhiskey">
+			<Original>Bouteille de whiskey</Original>
+			<French>Bouteille de whiskey</French>
+		</Key>
+		<Key ID="STR_Item_bottledshine">
+			<Original>Bouteille d'eau de vie</Original>
+			<French>Bouteille d"eau de vie</French>
+		</Key>
 		<Key ID="STR_Shops_explo">
 			<Original>Vendeur d'explosifs</Original>
 			<French>Vendeur d'explosifs</French>
+		</Key>
+		<Key ID="STR_Shops_barman">
+			<Original>Laurent le Barman</Original>
+			<French>Laurent le Barman</French>
+		</Key>
+		<Key ID="STR_Shops_barlegal">
+			<Original>Le Barman</Original>
+			<French>Le Barman</French>
 		</Key>
 		<Key ID="STR_Shops_esco">
 			<Original>Achat de Résine</Original>

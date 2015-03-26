@@ -29,6 +29,11 @@ _itemInfo = switch (_type) do {
 	case "esco": {["marijuana","resine",5350,(localize "STR_Process_resine")];};
 	case "papier": {["bois","papier",350,(localize "STR_Process_papier")];};
 	case "papy": {["papier","billet",5350,(localize "STR_Process_papy")];};
+	case "beerp": {["hops","beerp",550,(localize "STR_Process_beerp")];};
+	case "whiskey": {["rye","whiskey",750,(localize "STR_Process_whiskey")];};
+	case "bottledbeer": {["beer","bottledbeer",750,(localize "STR_Process_bottledbeer")];};
+	case "bottledshine": {["bottlewhiskey","bottleshine",1250,(localize "STR_Process_bottledshine")];};
+	case "bottledwhiskey": {["whiskey","bottlewhiskey",750,(localize "STR_Process_bottlewhiskey")];};
 	default {[];};
 };
 
