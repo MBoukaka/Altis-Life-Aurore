@@ -8,6 +8,7 @@
 *****************************
 */
 life_channel_send = true; //Channel 7
+life_macumba_music = false;
 life_sitting = false;
 life_fadeSound = false;
 life_smartphoneTarget = ObjNull;
