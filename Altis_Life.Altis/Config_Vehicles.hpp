@@ -457,12 +457,22 @@ class CarShops {
 		};
 	};
 	
+	class ivory_car {
+		side = "civ";
+		vehicles[] = {
+			{ "IVORY_PRIUS", 12000 , "driver" },
+			{ "IVORY_R8", 66000, "driver" },
+			{ "IVORY_R8SPYDER", 80000, "driver" },
+			{ "IVORY_REV", 72000, "driver" }
+		};
+	};
+	
 	class AutoWP {
 		side = "civ";
 		vehicles[] = {
 			{ "WP_SUV_01_F", 3500 , "wp" },
 			{ "WP_Offroad", 4500, "wp" },
-			{ "B_MRAP_01_F", 10000, "wp" },
+			{ "B_MRAP_01_F", 82000, "wp" },
 			{ "B_Heli_Light_01_F", 60000, "wp" },
 			{ "O_Heli_Light_02_unarmed_F", 80000, "wp" }
 		};
@@ -2258,6 +2268,144 @@ class CfgVehicles {
     };
 	
 
+	
+	
+	
+	
+	
+	class IVORY_PRIUS {
+        vItemSpace = 65;
+        storageFee[] = { 65, 0, 0, 0 };
+		garageSell[] = { 6500, 0, 0, 0 };
+        insurance = 7500;
+        chopShop = 2500;
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
+    };
+	class IVORY_R8 {
+        vItemSpace = 65;
+        storageFee[] = { 95, 0, 0, 0 };
+		garageSell[] = { 35000, 0, 0, 0 };
+        insurance = 55000;
+        chopShop = 3500;
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
+    };
+	class IVORY_R8SPYDER {
+        vItemSpace = 65;
+        storageFee[] = { 115, 0, 0, 0 };
+		garageSell[] = { 45000, 0, 0, 0 };
+        insurance = 75000;
+        chopShop = 3650;
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
+    };
+	class IVORY_REV {
+        vItemSpace = 65;
+        storageFee[] = { 150, 0, 0, 0 };
+		garageSell[] = { 55000, 0, 0, 0 };
+        insurance = 50000;
+        chopShop = 3250;
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
+    };
+	
 	class C_Rubberboat {
         vItemSpace = 45;
         storageFee[] = { 400, 300, 0, 0 };
@@ -2437,8 +2585,8 @@ class CfgVehicles {
 
 	class B_MRAP_01_F {
         vItemSpace = 65;
-        storageFee[] = { 0, 7500, 0, 0 };
-		garageSell[] = { 0, 10000, 0, 0 };
+        storageFee[] = { 750, 750, 0, 0 };
+		garageSell[] = { 10000, 10000, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
         textures[] = {
