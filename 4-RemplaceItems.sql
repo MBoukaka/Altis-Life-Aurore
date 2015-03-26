@@ -1,0 +1,17 @@
+UPDATE players SET civ_licenses = REPLACE (  civ_licenses,  '`license_civ_truck`',  '`license_civ_trucking`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`heroinu`',  '`heroin_unprocessed`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`heroinp`',  '`heroin_processed`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`cocaine`',  '`cocaine_unprocessed`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`cocainep`',  '`cocaine_processed`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`ironore`',  '`iron_unrefined`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`iron_r`',  '`iron_refined`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`salt`',  '`salt_unrefined`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`salt_r`',  '`salt_refined`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`diamond`',  '`diamond_uncut`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`diamondc`',  '`diamond_cut`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`oilu`',  '`oil_unprocessed`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`oilp`',  '`oil_processed`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`copperore`',  '`copper_unrefined`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`copper_r`',  '`copper_refined`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`fuelF`',  '`fuelEmpty`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`fuelF`',  '`fuelFull`');

@@ -91,7 +91,7 @@ class Life_Settings {
 	
 	sellArray[] = {	};
 
-	allowedSavedVirtualItems[] = { "pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut", "rabbitGrilled", "salemaGrilled", "ornateGrilled", "mackerelGrilled", "tunaGrilled", "mulletGrilled", "catsharkGrilled", "turtleSoup", "henGrilled", "roosterGrilled", "sheepGrilled", "goatGrilled" };
+	allowedSavedVirtualItems[] = { "double","mauer","virg","vird","cone","gpstracker","pan1","menotte","pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut", "rabbitGrilled", "salemaGrilled", "ornateGrilled", "mackerelGrilled", "tunaGrilled", "mulletGrilled", "catsharkGrilled", "turtleSoup", "henGrilled", "roosterGrilled", "sheepGrilled", "goatGrilled" };
 };
 
 //Virtual Items
@@ -144,8 +144,8 @@ class VirtualItems {
 	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "aurore_data2\icons\items\heroin_unprocessed.paa")
 	VITEMMACRO(heroin_processed, "STR_Item_HeroinP", "heroinProcessed", 4, -1, 0, true, -1, "aurore_data2\icons\items\heroin_processed.paa")
 	VITEMMACRO(cannabis, "STR_Item_Cannabis", "cannabis", 4, -1, -1, true, -1, "aurore_data2\icons\items\cannabis.paa")
-	VITEMMACRO(marijuana, "STR_Item_Marijuana", "marijuana", 3, -1, 0, true, -1, "aurore_data2\icons\items\marijuana.paa")
-	VITEMMACRO(resine, "STR_Item_resine", "resine", 3, -1, 0, true, -1, "aurore_data2\icons\items\marijuana.paa")
+	VITEMMACRO(marijuana, "STR_Item_Marijuana", "marijuana", 3, -1, 0, true, -1, "icons\ico_cookedMeat.paa")
+	VITEMMACRO(resine, "STR_Item_resine", "resine", 3, -1, 0, true, -1, "aurore_data2\icons\items\ico_marijuana.paa")
 	VITEMMACRO(cocaine_unprocessed, "STR_Item_CocaineU", "cocaineUnprocessed", 6, -1, -1, true, -1, "aurore_data2\icons\items\cocain_unprocessed.paa")
 	VITEMMACRO(cocaine_processed, "STR_Item_CocaineP", "cocaineProcessed", 4, -1, 0, true, -1, "aurore_data2\icons\items\cocain_processed.paa")
 
@@ -157,7 +157,7 @@ class VirtualItems {
 	//Food
 	VITEMMACRO(apple, "STR_Item_Apple", "apple", 2, 6, 0, false, 15, "aurore_data2\icons\items\apple.paa")
 	VITEMMACRO(peach, "STR_Item_Peach", "peach", 2, 7, 0, false, 20, "aurore_data2\icons\items\peach.paa")
-	VITEMMACRO(tbacon, "STR_Item_TBacon", "tbacon", 2, 8, -1, false, 40, "aurore_data2\icons\items\meat.paa")
+	VITEMMACRO(tbacon, "STR_Item_TBacon", "tbacon", 2, 8, -1, false, 40, "icons\ico_tbacon.paa")
 	VITEMMACRO(donut, "STR_Item_Donuts", "donut", 2, 10, -1, false, 30, "aurore_data2\icons\items\donuts.paa")
 	VITEMMACRO(rabbit_raw, "STR_Item_Rabbit", "rabbitRaw", 5, -1, -1, false, -1, "icons\food.paa")
 	VITEMMACRO(rabbit_grilled, "STR_Item_RabbitGrilled", "rabbitGrilled", 4, -1, 150, false, 20, "icons\ico_cookedMeat.paa")
@@ -171,7 +171,7 @@ class VirtualItems {
 	VITEMMACRO(tuna_grilled, "STR_Item_TunaGrilled", "tunaGrilled", 3, 150, 125, false, 100, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(mullet_raw, "STR_Item_MulletMeat", "mulletRaw", 4, -1, -1, false, -1, "icons\food.paa")
 	VITEMMACRO(mullet_fried, "STR_Item_MulletFried", "mulletFried", 2, 60, 40, false, 80, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(catshark_raw, "STR_Item_CatSharkMeat", "catsharkRaw", 6, -1, -1, false, -1, "aurore_data2\icons\items\fish.paa")
+	VITEMMACRO(catshark_raw, "STR_Item_CatSharkMeat", "catsharkRaw", 6, -1, -1, false, -1, "icons\ico_catshark.paa")
 	VITEMMACRO(catshark_fried, "STR_Item_CatSharkFried", "catsharkFried", 3, 75, 50, false, 100, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(turtle_raw, "STR_Item_TurtleMeat", "turtleRaw", 6, -1, 0, true, -1, "aurore_data2\icons\items\turtle.paa")
 	VITEMMACRO(turtle_soup, "STR_Item_TurtleSoup", "turtleSoup", 2, -1, 2500, false, 100, "aurore_data2\icons\items\turtle_soup.paa")

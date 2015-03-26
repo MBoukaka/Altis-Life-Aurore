@@ -21,7 +21,7 @@ if(playerSide == civilian) then {
 	{
 		if ((uniform player) == "U_Rangemaster") then
 		{
-			[[player,"aurore_data2\icons\uniform_dep.jpg"], "life_fnc_setTexture", true, true] spawn life_fnc_MP;
+			[[player,"aurore_data2\data\uniform_dep.jpg"], "life_fnc_setTexture", true, true] spawn life_fnc_MP;
 		};
 	};
 };
