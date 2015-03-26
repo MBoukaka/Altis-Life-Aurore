@@ -15,3 +15,4 @@ UPDATE houses SET inventory = REPLACE (  inventory,  '`copperore`',  '`copper_un
 UPDATE houses SET inventory = REPLACE (  inventory,  '`copper_r`',  '`copper_refined`');
 UPDATE houses SET inventory = REPLACE (  inventory,  '`fuelF`',  '`fuelEmpty`');
 UPDATE houses SET inventory = REPLACE (  inventory,  '`fuelF`',  '`fuelFull`');
+UPDATE houses SET inventory = REPLACE (  inventory,  '`turtle`',  '`turtle_raw`');
