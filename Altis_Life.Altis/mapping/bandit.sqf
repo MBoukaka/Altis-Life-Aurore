@@ -2140,6 +2140,256 @@ if (true) then
 	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
+_vehicle_1404 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_TableDesk_F", [23664.547, 20023.188, 0.37675846], [], 0, "CAN_COLLIDE"];
+	_vehicle_2 = _this;
+	_this setDir -35.948669;
+	_this setPos [23664.547, 20023.188, 0.37675846];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1405 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23665.768, 20022.57, 0.42360166], [], 0, "CAN_COLLIDE"];
+	_vehicle_4 = _this;
+	_this setDir -236.07036;
+	_this setPos [23665.768, 20022.57, 0.42360166];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1406 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23664.916, 20021.947, 0.43024921], [], 0, "CAN_COLLIDE"];
+	_vehicle_6 = _this;
+	_this setDir -197.12685;
+	_this setPos [23664.916, 20021.947, 0.43024921];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1407 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23663.941, 20024.029, 0.38246632], [], 0, "CAN_COLLIDE"];
+	_vehicle_8 = _this;
+	_this setDir -396.41095;
+	_this setPos [23663.941, 20024.029, 0.38246632];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1408 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_Laptop_unfolded_F", [23664.416, 20023.313, 1.197704], [], 0, "CAN_COLLIDE"];
+	_vehicle_11 = _this;
+	_this setDir -395.94229;
+	_this setPos [23664.416, 20023.313, 1.197704];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1409 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_TableDesk_F", [23668.348, 20025.918, 0.38252482], [], 0, "CAN_COLLIDE"];
+	_vehicle_17 = _this;
+	_this setDir -35.948669;
+	_this setPos [23668.348, 20025.918, 0.38252482];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1410 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23669.541, 20025.299, 0.43011889], [], 0, "CAN_COLLIDE"];
+	_vehicle_18 = _this;
+	_this setDir -236.07036;
+	_this setPos [23669.541, 20025.299, 0.43011889];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1413 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23668.699, 20024.674, 0.43682027], [], 0, "CAN_COLLIDE"];
+	_vehicle_19 = _this;
+	_this setDir -197.18747;
+	_this setPos [23668.699, 20024.674, 0.43682027];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1414 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23667.67, 20026.732, 0.38694796], [], 0, "CAN_COLLIDE"];
+	_vehicle_20 = _this;
+	_this setDir -396.41095;
+	_this setPos [23667.67, 20026.732, 0.38694796];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1415 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_Laptop_unfolded_F", [23668.217, 20026.043, 1.2032751], [], 0, "CAN_COLLIDE"];
+	_vehicle_21 = _this;
+	_this setDir -395.94229;
+	_this setPos [23668.217, 20026.043, 1.2032751];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1416 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_TableDesk_F", [23671.168, 20022.129, 0.2923407], [], 0, "CAN_COLLIDE"];
+	_vehicle_27 = _this;
+	_this setDir -35.948669;
+	_this setPos [23671.168, 20022.129, 0.2923407];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1417 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23672.363, 20021.453, 0.35442498], [], 0, "CAN_COLLIDE"];
+	_vehicle_28 = _this;
+	_this setDir -236.07036;
+	_this setPos [23672.363, 20021.453, 0.35442498];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1418 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23671.533, 20020.881, 0.35077524], [], 0, "CAN_COLLIDE"];
+	_vehicle_29 = _this;
+	_this setDir -197.18747;
+	_this setPos [23671.533, 20020.881, 0.35077524];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1419 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23670.484, 20022.943, 0.29186195], [], 0, "CAN_COLLIDE"];
+	_vehicle_30 = _this;
+	_this setDir -396.41095;
+	_this setPos [23670.484, 20022.943, 0.29186195];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1420 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_Laptop_unfolded_F", [23671.037, 20022.254, 1.1117131], [], 0, "CAN_COLLIDE"];
+	_vehicle_31 = _this;
+	_this setDir -395.94229;
+	_this setPos [23671.037, 20022.254, 1.1117131];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1421 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_TableDesk_F", [23667.406, 20019.393, 0.29077968], [], 0, "CAN_COLLIDE"];
+	_vehicle_52 = _this;
+	_this setDir -35.948669;
+	_this setPos [23667.406, 20019.393, 0.29077968];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1422 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23668.641, 20018.695, 0.34761325], [], 0, "CAN_COLLIDE"];
+	_vehicle_53 = _this;
+	_this setDir -236.07036;
+	_this setPos [23668.641, 20018.695, 0.34761325];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1423 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23667.717, 20018.111, 0.34427065], [], 0, "CAN_COLLIDE"];
+	_vehicle_54 = _this;
+	_this setDir -197.18747;
+	_this setPos [23667.717, 20018.111, 0.34427065];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1424 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23666.758, 20020.246, 0.29649779], [], 0, "CAN_COLLIDE"];
+	_vehicle_55 = _this;
+	_this setDir -396.41095;
+	_this setPos [23666.758, 20020.246, 0.29649779];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1425 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_Laptop_unfolded_F", [23667.275, 20019.518, 1.1117369], [], 0, "CAN_COLLIDE"];
+	_vehicle_56 = _this;
+	_this setDir -395.94229;
+	_this setPos [23667.275, 20019.518, 1.1117369];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1426 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_TableDesk_F", [23674.07, 20018.15, 0.21365359], [], 0, "CAN_COLLIDE"];
+	_vehicle_62 = _this;
+	_this setDir -35.948669;
+	_this setPos [23674.07, 20018.15, 0.21365359];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1427 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23675.268, 20017.459, 0.28276998], [], 0, "CAN_COLLIDE"];
+	_vehicle_63 = _this;
+	_this setDir -236.07036;
+	_this setPos [23675.268, 20017.459, 0.28276998];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1428 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23674.342, 20016.881, 0.28685457], [], 0, "CAN_COLLIDE"];
+	_vehicle_64 = _this;
+	_this setDir -197.18747;
+	_this setPos [23674.342, 20016.881, 0.28685457];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1429 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_ChairWood_F", [23673.465, 20019.035, 0.21115406], [], 0, "CAN_COLLIDE"];
+	_vehicle_65 = _this;
+	_this setDir -396.41095;
+	_this setPos [23673.465, 20019.035, 0.21115406];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
+_vehicle_1430 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_Laptop_unfolded_F", [23673.939, 20018.275, 1.0315341], [], 0, "CAN_COLLIDE"];
+	_vehicle_66 = _this;
+	_this setDir -395.94229;
+	_this setPos [23673.939, 20018.275, 1.0315341];
+	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
+};
+
 {
 	this = _x select 0;
 	[] call compile (_x select 1);
