@@ -559,10 +559,11 @@ class CarShops {
 	class med_shop {
 		side = "med";
 		vehicles[] = {
-			{ "C_Offroad_01_F", 10000, "" },
-			{ "I_Truck_02_medical_F", 25000, "" },
-			{ "O_Truck_03_medical_F", 45000, "" },
-			{ "B_Truck_01_medical_F", 60000, "" }
+			{ "Med_Offroad", 975, "" },
+			{ "clpd_mondeo_FireDepartment", 6000, "" },
+			{ "cl3_escalade_fd", 6500, "" },
+			{ "cl3_escalade_pm", 6600, "" },
+			{ "A3L_AmberLamps", 14000, "" }
 		};
 	};
 
@@ -2267,11 +2268,7 @@ class CfgVehicles {
         textures[] = { };
     };
 	
-
-	
-	
-	
-	
+//////////////////////////////////////////////////////////////////////////// IVORY SHOP
 	
 	class IVORY_PRIUS {
         vItemSpace = 65;
@@ -2405,7 +2402,60 @@ class CfgVehicles {
             } }
 		 };
     };
+
+//////////////////////////////////////////////////////////////////////////// MED SHOP
+
+	class Med_Offroad {
+        vItemSpace = 55;
+        storageFee[] = { 0, 0, 55, 0 };
+		garageSell[] = { 0, 0, 560, 0 };
+        insurance = 750;
+        chopShop = 350;
+        textures[] = { };
+    };
+	class clpd_mondeo_FireDepartment {
+        vItemSpace = 65;
+        storageFee[] = { 0, 0, 75, 0 };
+		garageSell[] = { 0, 0, 3500, 0 };
+        insurance = 4500;
+        chopShop = 650;
+        textures[] = { };
+    };
+	class cl3_escalade_fd {
+        vItemSpace = 65;
+        storageFee[] = { 0, 0, 75, 0 };
+		garageSell[] = { 0, 0, 3600, 0 };
+        insurance = 4600;
+        chopShop = 750;
+        textures[] = { };
+    };
+	class cl3_escalade_pm {
+        vItemSpace = 65;
+        storageFee[] = { 0, 0, 85, 0 };
+		garageSell[] = { 0, 0, 3700, 0 };
+        insurance = 5000;
+        chopShop = 850;
+        textures[] = { };
+    };
+	class A3L_AmberLamps {
+        vItemSpace = 75;
+        storageFee[] = { 0, 0, 95, 0 };
+		garageSell[] = { 0, 0, 9500, 0 };
+        insurance = 10000;
+        chopShop = 1850;
+        textures[] = { };
+    };
 	
+	class C_Rubberboat {
+        vItemSpace = 45;
+        storageFee[] = { 400, 300, 0, 0 };
+		garageSell[] = { 950, 350, 0, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = { };
+    };
+
+
 	class C_Rubberboat {
         vItemSpace = 45;
         storageFee[] = { 400, 300, 0, 0 };
