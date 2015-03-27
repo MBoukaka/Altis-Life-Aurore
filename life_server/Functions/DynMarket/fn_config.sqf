@@ -59,6 +59,12 @@ DYNMARKET_Items_Groups =
 DYNMARKET_Items_ToTrack        = 
 [
 	["oil_processed",185],
+	["resine",410],
+	["hops",310],
+	["rye",310],
+	["papier",310],
+	["billet",310],
+	["bois",310],
 	["iron_refined",190],
 	["diamond_cut",260],
 	["copper_refined",195],

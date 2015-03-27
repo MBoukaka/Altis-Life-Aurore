@@ -33,7 +33,7 @@ class Life_Settings {
 
 	/* Revive system settings */
 	revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
-	revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
+	revive_fee = 450; //Revive fee that players have to pay and medics / EMS are rewarded
 	
 	/* House related settings */
 	house_limit = 4; //Maximum amount of houses a player can own.
@@ -191,13 +191,13 @@ class VirtualItems {
 	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 4, -1, -1, false, -1, "icons\food.paa")
 	VITEMMACRO(goat_grilled, "STR_Item_GoatGrilled", "goatGrilled", 3, -1, 1450, false, 100, "icons\ico_cookedMeat.paa")
 	
-	VITEMMACRO(cacahuete, "STR_Item_cacahuete", "cacahuete", 2, 35, 25, false, 10, "")
-	VITEMMACRO(burger, "STR_Item_burger", "burger", 2, 75, 25, false, 40, "")
-	VITEMMACRO(blanquette, "STR_Item_blanquette", "blanquette", 2, 75, 25, false, 50, "")
-	VITEMMACRO(redwine, "STR_Item_redwine", "redwine", 2, 75, 25, false, 30, "")
-	VITEMMACRO(frite, "STR_Item_frite", "frite", 2, 75, 25, false, 40, "")
-	VITEMMACRO(coca, "STR_Item_coca", "coca", 2, 75, 25, false, 50, "")
-	VITEMMACRO(pizza, "STR_Item_pizza", "pizza", 2, 75, 35, false, 50, "")
+	VITEMMACRO(cacahuete, "STR_Item_cacahuete", "cacahuete", 2, 35, -1, false, 10, "")
+	VITEMMACRO(burger, "STR_Item_burger", "burger", 2, 75, -1, false, 40, "")
+	VITEMMACRO(blanquette, "STR_Item_blanquette", "blanquette", 2, 75, 0, false, 50, "")
+	VITEMMACRO(redwine, "STR_Item_redwine", "redwine", 2, 75, -1, false, 30, "")
+	VITEMMACRO(frite, "STR_Item_frite", "frite", 2, 75, -1, false, 40, "")
+	VITEMMACRO(coca, "STR_Item_coca", "coca", 2, 75, -1, false, 50, "")
+	VITEMMACRO(pizza, "STR_Item_pizza", "pizza", 2, 75, -1, false, 50, "")
 };
 
 
