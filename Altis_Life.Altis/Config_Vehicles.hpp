@@ -2455,16 +2455,6 @@ class CfgVehicles {
         textures[] = { };
     };
 
-
-	class C_Rubberboat {
-        vItemSpace = 45;
-        storageFee[] = { 400, 300, 0, 0 };
-		garageSell[] = { 950, 350, 0, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = { };
-    };
-
 	class B_Heli_Transport_01_F {
 		vItemSpace = 85;
 		storageFee[] = { 0, 3000, 0, 0 };
