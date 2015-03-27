@@ -32,7 +32,7 @@ class Life_Settings {
 	save_virtualItems = true; //Save Virtual items (all sides)?
 
 	/* Revive system settings */
-	revive_cops = true; //true to enable cops the ability to revive everyone or false for only medics/ems.
+	revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
 	revive_fee = 450; //Revive fee that players have to pay and medics / EMS are rewarded
 	
 	/* House related settings */
@@ -267,7 +267,7 @@ class VirtualShops {
 		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig" };
 	};
 
-	class rebel {
+	class rebmarket {
 		name = "STR_Shops_Rebel";
 		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter" };
 	};

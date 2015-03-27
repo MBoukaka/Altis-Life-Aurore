@@ -42,7 +42,7 @@ CASH = CASH - _pay;
 };
  
 if(round _speed > 114) then {
-_pay = 5000;
+_pay = 1450;
 if(CASH >= _pay) then {
 cutText[format[" !!! Vous avez été flashé à %1 km/h !!! \n\n\n Vous écopez d'une amende de %2 € retirés de votre compte bancaire ! \n\n\n Vous n'avez plus de permis !",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
 0.0001 cutFadeOut 5;
