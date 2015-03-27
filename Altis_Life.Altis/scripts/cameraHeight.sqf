@@ -55,4 +55,5 @@ camDestroy _camera;
  
 introSpawn = true;
 
+[] call life_fnc_welcomeNotification;
 [] execVM "scripts\statusBar.sqf";
