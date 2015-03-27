@@ -267,7 +267,7 @@ class VirtualShops {
 		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig" };
 	};
 
-	class rebmarket {
+	class rebel {
 		name = "STR_Shops_Rebel";
 		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter" };
 	};
