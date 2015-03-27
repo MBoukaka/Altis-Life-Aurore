@@ -60,7 +60,8 @@ class Mission
 		"A3_Structures_F_Ind_FuelStation",
 		"A3_Data_F",
 		"a3_roads_f",
-		"A3_Structures_F_Bootcamp_Items_Sport"
+		"A3_Structures_F_Bootcamp_Items_Sport",
+		"A3_Structures_F_EPB_Civ_Accessories"
 	};
 	addOnsAuto[]=
 	{
@@ -113,6 +114,7 @@ class Mission
 		"A3_Data_F",
 		"a3_roads_f",
 		"A3_Structures_F_Bootcamp_Items_Sport",
+		"A3_Structures_F_EPB_Civ_Accessories",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -2814,7 +2816,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1115;
+		items=1119;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -10166,7 +10168,7 @@ class Mission
 		{
 			position[]={23638.402,13.723457,20006.352};
 			azimut=233.91901;
-			offsetY=0.30000001;
+			offsetY=0.40000001;
 			id=858;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -14196,10 +14198,49 @@ class Mission
 			text="pro_2";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Fermentation de la bière"",life_fnc_processAction,""beerp"",0,false,false,"""",' life_inv_hops > 0 && !life_is_processing']; this addAction[""Fermentation du Whiskey"",life_fnc_processAction,""whiskey"",0,false,false,"""",' life_inv_rye > 0 && !life_is_processing'];";
 		};
+		class Item1115
+		{
+			position[]={9211.4736,14.643184,21674.824};
+			azimut=-269.14221;
+			id=1251;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this addAction[""Shop Item"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Habits Gendarmerie"",life_fnc_clothingMenu,""cop""];  this addAction[""Shop Recrue"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Shop officier"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Shop officier supp"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Shop des generaux"",life_fnc_weaponShopMenu,""cop_colonel""];  this addAction[""Gendarmerie donateur"",life_fnc_weaponShopMenu,""cop_donateur""];";
+		};
+		class Item1116
+		{
+			position[]={9196.4922,14.490618,21670.43};
+			azimut=183.93115;
+			id=1252;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item1117
+		{
+			position[]={9203.4111,14.521514,21674.537};
+			azimut=-120.59808;
+			id=1253;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\cop_car.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""cop_car"",west,""cop_car_6"",""cop"",""APD - Kavala District""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""cop_car_6""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1118
+		{
+			position[]={23653.73,13.862337,20010.471};
+			azimut=-309.09613;
+			id=1254;
+			side="EMPTY";
+			vehicle="Land_PhoneBooth_01_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
+		};
 	};
 	class Markers
 	{
-		items=368;
+		items=372;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -16874,7 +16915,7 @@ class Mission
 		};
 		class Item339
 		{
-			position[]={23653.939,13.904158,20005.932};
+			position[]={23641.84,13.868715,19996.518};
 			name="cop_spawn_5";
 			type="Empty";
 			angle=-127.55688;
@@ -17100,6 +17141,34 @@ class Mission
 			text="Brasserie et Fermentation";
 			type="mil_box";
 			colorName="ColorBrown";
+		};
+		class Item368
+		{
+			position[]={9198.085,14.391653,21684.539};
+			name="cop_tp_6";
+			type="Empty";
+			angle=153.31252;
+		};
+		class Item369
+		{
+			position[]={9207.0459,14.575694,21676.32};
+			name="cop_spawn_6";
+			type="Empty";
+			angle=-35.343288;
+		};
+		class Item370
+		{
+			position[]={9196.3857,14.488904,21670.445};
+			name="cop_car_6";
+			type="Empty";
+			angle=-489.73901;
+		};
+		class Item371
+		{
+			position[]={23653.27,13.858436,20010.133};
+			name="cop_tp_5";
+			type="Empty";
+			angle=-120.60871;
 		};
 	};
 	class Sensors

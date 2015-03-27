@@ -10,7 +10,7 @@ switch (playerSide) do
 	case west:
 	{
 		// Voyage Rapide
-		life_actions = life_actions + [player addAction["<t color='#FFFF33'>Voyage rapide</t>",life_fnc_spawnMenu,"",151,false,false,"",' ((player distance (getMarkerPos "cop_tp_1") < 3) OR  (player distance (getMarkerPos "cop_spawn_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR  (player distance (getMarkerPos "cop_spawn_4") < 30) OR  (player distance (getMarkerPos "cop_spawn_5") < 30)) ']];
+		life_actions = life_actions + [player addAction["<t color='#FFFF33'>Voyage rapide</t>",life_fnc_spawnMenu,"",151,false,false,"",' ((player distance (getMarkerPos "cop_tp_1") < 3) OR  (player distance (getMarkerPos "cop_spawn_2") < 30) OR (player distance (getMarkerPos "cop_spawn_3") < 30) OR  (player distance (getMarkerPos "cop_spawn_4") < 30) OR  (player distance (getMarkerPos "cop_tp_5") < 3) OR  (player distance (getMarkerPos "cop_tp_6") < 3)) ']];
 		// Prendre barrière
 		life_actions = life_actions + [player addAction["Prendre barrière",life_fnc_packupmauer,"",0,false,false,"",' _mauer = nearestObjects[getPos player,["RoadBarrier_F"],8] select 0; !isNil "_mauer" && !isNil {(_mauer getVariable "item")}']];
 		// Prendre panneau
