@@ -61,7 +61,8 @@ class Mission
 		"A3_Data_F",
 		"a3_roads_f",
 		"A3_Structures_F_Bootcamp_Items_Sport",
-		"A3_Structures_F_EPB_Civ_Accessories"
+		"A3_Structures_F_EPB_Civ_Accessories",
+		"cl3_chopper"
 	};
 	addOnsAuto[]=
 	{
@@ -2816,7 +2817,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1119;
+		items=1120;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -9809,7 +9810,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Diamond Trader"",life_fnc_virt_menu,""diamond""];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Diamont Trader"",life_fnc_virt_menu,""diamond""];";
 		};
 		class Item688
 		{
@@ -10184,7 +10185,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Shop Item"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Habits Gendarmerie"",life_fnc_clothingMenu,""cop""];  this addAction[""Shop Recrue"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Shop officier"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Shop officier supp"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Shop des generaux"",life_fnc_weaponShopMenu,""cop_colonel""];  this addAction[""Gendarmerie donateur"",life_fnc_weaponShopMenu,""cop_donateur""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
+			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Shop Item"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Habits Gendarmerie"",life_fnc_clothingMenu,""cop""];  this addAction[""Shop Recrue"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Shop officier"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Shop officier supp"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Shop des generaux"",life_fnc_weaponShopMenu,""cop_colonel""];  this addAction[""Gendarmerie donateur"",life_fnc_weaponShopMenu,""cop_donateur""]; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
 		};
 		class Item724
 		{
@@ -10438,7 +10439,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_1"",""dep_v_1_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",'license_civ_dep']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' license_civ_dep && vehicle player == player && player distance _target < 4 ']; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_1"",""dep_v_1_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",'license_civ_dep']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item749
 		{
@@ -12219,7 +12220,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_2"",""dep_v_2_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",' license_civ_dep ']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian ']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_2"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' license_civ_dep && vehicle player == player && player distance _target < 4 ']; this addAction[""Véhicule Dépanneur"",life_fnc_vehicleShopMenu,[""dep_car"",civilian,[""dep_v_2"",""dep_v_2_1""],""dep"",""Véhicules Dépanneur""],0,false,false,"""",' license_civ_dep ']; this addAction[""Vêtement Dépanneur"",life_fnc_clothingMenu,""dep"",0,false,false,"""",' license_civ_dep && playerSide == civilian ']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""dep_v_2"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item922
 		{
@@ -12259,7 +12260,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Véhicule Taxi"",life_fnc_vehicleShopMenu,[""taxi_car"",civilian,[""taxi_v_1"",""taxi_v_1_1""],""civ"",""Véhicules Taxi""],0,false,false,"""",' license_civ_taxi ']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""taxi_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' license_civ_taxi && vehicle player == player && player distance _target < 4 ']; this addAction[""Véhicule Taxi"",life_fnc_vehicleShopMenu,[""taxi_car"",civilian,[""taxi_v_1"",""taxi_v_1_1""],""civ"",""Véhicules Taxi""],0,false,false,"""",' license_civ_taxi ']; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""taxi_v_1"";  }];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item926
 		{
@@ -14237,10 +14238,21 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false;";
 		};
+		class Item1119
+		{
+			position[]={17210.355,15.375706,17931.938};
+			azimut=77.2304;
+			offsetY=1;
+			id=1255;
+			side="EMPTY";
+			vehicle="Orel_NPC_Jukebox";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Menu DJ"",life_fnc_MacumbaMenu];";
+		};
 	};
 	class Markers
 	{
-		items=372;
+		items=376;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -14423,7 +14435,7 @@ class Mission
 		class Item24
 		{
 			position[]={8440.5439,49.492996,12761.071};
-			name="cocaine processing";
+			name="cocaine_processing";
 			text="Traitement de cocaine";
 			type="mil_dot";
 			colorName="Color1_FD_F";
@@ -17085,8 +17097,8 @@ class Mission
 		class Item361
 		{
 			position[]={17411.943,14.108088,13175.619};
-			name="gambino";
-			text="Bar Clandestin des Gambino";
+			name="zitouni";
+			text="Bar Clandestin des Zitouni";
 			type="loc_Tourism";
 			colorName="ColorGreen";
 		};
@@ -17169,6 +17181,35 @@ class Mission
 			name="cop_tp_5";
 			type="Empty";
 			angle=-120.60871;
+		};
+		class Item372
+		{
+			position[]={17203.902,15.358724,17938.379};
+			name="marker_macumba";
+			text="Macumbe Club";
+			type="loc_Lighthouse";
+			colorName="ColorRed";
+		};
+		class Item373
+		{
+			position[]={17199.852,15.314129,17928.842};
+			name="djfumi1";
+			type="Empty";
+			angle=-39.95488;
+		};
+		class Item374
+		{
+			position[]={17204.268,15.337483,17929.992};
+			name="djfumi2";
+			type="Empty";
+			angle=-11.344524;
+		};
+		class Item375
+		{
+			position[]={17196.24,15.234451,17942.195};
+			name="DJnanou";
+			type="Empty";
+			angle=-3.8673885;
 		};
 	};
 	class Sensors

@@ -596,16 +596,6 @@ if (true) then
 	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
 };
 
-_vehicle_184 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Orel_NPC_Jukebox", [17211.148, 17928.654, 1.0613707], [], 0, "CAN_COLLIDE"];
-	_vehicle_184 = _this;
-	_this setDir 77.230438;
-	_this setPos [17211.148, 17928.654, 1.0613707];
-	_initCodes set [count _initCodes,[_this,"_this enableSimulation false; _this allowDamage false;"]];
-};
-
 _vehicle_199 = objNull;
 if (true) then
 {
