@@ -9514,7 +9514,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Reb Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Armes rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Reb Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Armes rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
 		};
 		class Item659
 		{
@@ -11757,7 +11757,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_dep && !license_civ_bandit && !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
 		};
 		class Item877
 		{
@@ -12109,7 +12109,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_dep && !license_civ_bandit && !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];";
 		};
 		class Item911
 		{
@@ -12178,7 +12178,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
 		};
 		class Item918
 		{
@@ -12199,7 +12199,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""dep"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""dep"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner des Dépanneurs"",life_fnc_depdemission]; ";
 		};
 		class Item920
 		{
@@ -12239,7 +12239,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""taxi"",0,false,false,"""",' !license_civ_taxi && playerSide == civilian ']; this addAction[""Démissionner de TransportLife"",life_fnc_taxidemission]; ";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""taxi"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""taxi"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian ']; this addAction[""Démissionner de TransportLife"",life_fnc_taxidemission]; ";
 		};
 		class Item924
 		{
@@ -13982,7 +13982,7 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="bandit_equip_topolia";
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""bandit"",0,false,false,"""",' !license_civ_bandit && playerSide == civilian '];  this allowDamage false; this addAction[""Bandit Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_bandit && playerSide == civilian '];  this addAction[""Bandit Clothing Shop"",life_fnc_clothingMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];  this addAction[""Armes bandit"",life_fnc_weaponShopMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""bandit"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian '];  this allowDamage false; this addAction[""Bandit Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_bandit && playerSide == civilian '];  this addAction[""Bandit Clothing Shop"",life_fnc_clothingMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];  this addAction[""Armes bandit"",life_fnc_weaponShopMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];";
 		};
 		class Item1093
 		{
@@ -14004,7 +14004,7 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="bandit_equip_topolia_1";
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""bandit"",0,false,false,"""",' !license_civ_bandit && playerSide == civilian '];  this allowDamage false; this addAction[""Bandit Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_bandit && playerSide == civilian '];  this addAction[""Bandit Clothing Shop"",life_fnc_clothingMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];  this addAction[""Armes bandit"",life_fnc_weaponShopMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""bandit"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian '];  this allowDamage false; this addAction[""Bandit Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_bandit && playerSide == civilian '];  this addAction[""Bandit Clothing Shop"",life_fnc_clothingMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];  this addAction[""Armes bandit"",life_fnc_weaponShopMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];";
 		};
 		class Item1095
 		{
@@ -14026,7 +14026,7 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="bandit_equip_topolia_1_1";
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""bandit"",0,false,false,"""",' !license_civ_bandit && playerSide == civilian '];  this allowDamage false; this addAction[""Bandit Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_bandit && playerSide == civilian '];  this addAction[""Bandit Clothing Shop"",life_fnc_clothingMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];  this addAction[""Armes bandit"",life_fnc_weaponShopMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""bandit"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""bandit"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian '];  this allowDamage false; this addAction[""Bandit Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_bandit && playerSide == civilian '];  this addAction[""Bandit Clothing Shop"",life_fnc_clothingMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];  this addAction[""Armes bandit"",life_fnc_weaponShopMenu,""bandit"",0,false,false,"""",' license_civ_bandit && playerSide == civilian'];";
 		};
 		class Item1097
 		{
