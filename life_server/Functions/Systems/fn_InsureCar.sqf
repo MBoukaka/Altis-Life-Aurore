@@ -1,9 +1,7 @@
-private["_vid","_pid","_query","_sql", "_unit", "_price", "_thread"];
+private["_vid","_pid","_query","_thread"];
 
 _vid = [_this,0,-1,[0]] call BIS_fnc_param;
 _pid = [_this,1,"",[""]] call BIS_fnc_param;
-_unit = [_this,2,ObjNull,[ObjNull]] call BIS_fnc_param;
-_price = [_this,3,0,[0]] call BIS_fnc_param;
 
 _query = format["vehicleIsure:1:%1:%2",_pid,_vid];
 
