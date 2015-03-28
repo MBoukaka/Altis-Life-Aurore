@@ -26,6 +26,10 @@
 			<Original>Restaurant</Original>
 			<French>Restaurant</French>
 		</Key>
+		<Key ID="STR_Shops_Chasse">
+			<Original>Vendeur chasse</Original>
+			<French>Vendeur chasse</French>
+		</Key>
 		<Key ID="STR_Item_TurtleMeat">
 			<Original>Tortue</Original>
 			<French>Tortue</French>
@@ -3164,21 +3168,18 @@
 		<Key ID="STR_Item_GoatRaw">
 			<Original>Raw Goat</Original>
 			<German>Rohes Ziegenfleisch</German>
-			<French>chèvre cru</French>
+			<French>Chèvre</French>
 			<Italian>Carne di capra Raw</Italian>
 			<Portuguese>Carne de cabra cru</Portuguese>
 		</Key>
-		<Key ID="STR_Item_GoatGrilled">
-			<Original>Grilled Goat</Original>
-			<German>Gegrilltes Ziegenfleisch</German>
-			<French>chèvre grillé</French>
-			<Italian>Carne di capra alla griglia</Italian>
-			<Portuguese>Carne de cabrito grelhado</Portuguese>
+		<Key ID="STR_Item_GoatPeau">
+			<Original>Peau de Chèvre</Original>
+			<French>Peau de Chèvre</French>
 		</Key>
 		<Key ID="STR_Item_SheepRaw">
 			<Original>Raw Sheep</Original>
 			<German>Rohes Schafsfleisch</German>
-			<French>brebis cru</French>
+			<French>Brebis</French>
 			<Italian>Carne di pecora grezza</Italian>
 			<Portuguese>Carne ovina Raw</Portuguese>
 		</Key>
@@ -3210,12 +3211,9 @@
 			<English>What the hell happened to me??</English>
 			<french>Mais qu'est-ce qu'il m'arrive ?!</french>
 		</Key>
-		<Key ID="STR_Item_SheepGrilled">
-			<Original>Grilled Sheep</Original>
-			<German>Gegrilltes Schafsfleisch</German>
-			<French>moutons grillés</French>
-			<Italian>Mutton alla griglia</Italian>
-			<Portuguese>Mutton grelhado</Portuguese>
+		<Key ID="STR_Item_SheepPeau">
+			<Original>Peau de Brebis</Original>
+			<French>Peau de Brebis</French>
 		</Key>
 		<Key ID="STR_Item_FishingPole">
 			<Original>Fishing Pole</Original>
@@ -3543,6 +3541,14 @@
 			<Original>Mise en bouteille du whiskey</Original>
 			<French>Mise en bouteille du whiskey</French>
 		</Key>
+		<Key ID="STR_Process_sheepPeau">
+			<Original>Dépeçage de la brebis</Original>
+			<French>Dépeçage de la brebis</French>
+		</Key>
+		<Key ID="STR_Process_goatPeau">
+			<Original>Dépeçage de la chèvre</Original>
+			<French>Dépeçage de la chèvre</French>
+		</Key>
 		<Key ID="STR_Process_bottledshine">
 			<Original>Préparation de l'eau de vie</Original>
 			<French>Préparation de l'eau de vie</French>
@@ -3771,6 +3777,10 @@
 		<Key ID="STR_License_Moto">
 			<Original>Permis Moto</Original>
 			<French>Permis Moto</French>
+		</Key>
+		<Key ID="STR_License_Chasse">
+			<Original>Permis de chasse</Original>
+			<French>Permis de chasse</French>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">

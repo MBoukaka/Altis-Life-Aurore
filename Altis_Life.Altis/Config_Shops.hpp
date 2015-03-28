@@ -251,8 +251,7 @@ class WeaponShops {
 		{ "muzzle_snds_acp","",500 },
 		{ "acc_flashlight","",50 }
         };
-    };
-	
+    };	
     class rebel {
         name = "Mohammed's Jihadi Shop";
         side = "civ";
@@ -665,7 +664,6 @@ class WeaponShops {
 		{ "ItemGPS","",10 },
 		{ "ToolKit","",25 },
 		{ "FirstAidKit","",15 },
-		{ "Medikit","",100 },
 		{ "NVGoggles","",200 },
 		{ "Orel_Matraque","Matraque",50 },
 		{ "Chemlight_red","",30 },
@@ -758,7 +756,6 @@ class WeaponShops {
 		{ "ItemGPS","",10 },
 		{ "ToolKit","",25 },
 		{ "FirstAidKit","",15 },
-		{ "Medikit","",100 },
 		{ "Rangefinder","",100 },
 		{ "NVGoggles","",200 },
 		{ "Chemlight_red","",30 },
@@ -870,7 +867,6 @@ class WeaponShops {
 		{ "ItemGPS","",10 },
 		{ "ToolKit","",25 },
 		{ "FirstAidKit","",15 },
-		{ "Medikit","",100 },
 		{ "Rangefinder","",100 },
 		{ "NVGoggles","",200 },
 		{ "Chemlight_red","",30 },
@@ -885,8 +881,7 @@ class WeaponShops {
 		{ "SmokeShellBlue","",2 },
 		{ "SmokeShellOrange","",2 }
         };
-    };
-	
+    };	
 	class cop_colonel {
         name = "Altis Colonel";
         side = "cop";
@@ -950,7 +945,7 @@ class WeaponShops {
 		{ "optic_Aco","",100 },
 		{ "optic_SOS","",50 },
 		{ "optic_Hamr","",300 },
-		{ " muzzle_mas_snds_M","Silencieux M4 - M16 - HK416",120 },
+		{ "muzzle_mas_snds_M","Silencieux M4 - M16 - HK416",120 },
 		{ "muzzle_mas_snds_SM","Silencieux HK417",760 },
 		{ "muzzle_mas_snds_L","Silencieux Pistolet",120 },
 		{ "muzzle_snds_M","",500 },

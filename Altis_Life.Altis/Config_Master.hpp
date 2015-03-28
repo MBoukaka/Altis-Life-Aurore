@@ -182,14 +182,11 @@ class VirtualItems {
 	VITEMMACRO(catshark_fried, "STR_Item_CatSharkFried", "catsharkFried", 3, 75, 50, false, 100, "icons\ico_cookedMeat.paa")
 	VITEMMACRO(turtle_raw, "STR_Item_TurtleMeat", "turtleRaw", 6, -1, 0, true, -1, "aurore_data2\icons\items\turtle.paa")
 	VITEMMACRO(turtle_soup, "STR_Item_TurtleSoup", "turtleSoup", 2, -1, 2500, false, 100, "aurore_data2\icons\items\turtle_soup.paa")
-	VITEMMACRO(hen_raw, "STR_Item_HenRaw", "henRaw", 4, -1, -1, false, -1, "icons\food.paa")
-	VITEMMACRO(hen_fried, "STR_Item_HenFried", "henFried", 3, -1, 250, false, 65, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(rooster_raw, "STR_Item_RoosterRaw", "roosterRaw", 4, -1, -1, false, -1, "icons\food.paa")
-	VITEMMACRO(rooster_grilled, "STR_Item_RoosterGrilled", "roosterGrilled", 3, -1, 1250, false, 45, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(sheep_raw, "STR_Item_SheepRaw", "sheepRaw", 4, -1, -1, false, -1, "icons\food.paa")
-	VITEMMACRO(sheep_grilled, "STR_Item_SheepGrilled", "sheepGrilled", 3, -1, 1300, false, 100, "icons\ico_cookedMeat.paa")
-	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 4, -1, -1, false, -1, "icons\food.paa")
-	VITEMMACRO(goat_grilled, "STR_Item_GoatGrilled", "goatGrilled", 3, -1, 1450, false, 100, "icons\ico_cookedMeat.paa")
+
+	VITEMMACRO(sheep_raw, "STR_Item_SheepRaw", "sheepRaw", 4, -1, 1450, false, -1, "")
+	VITEMMACRO(sheep_peau, "STR_Item_SheepGrilled", "sheepPeau", 3, -1, 2250, true, -1, "")
+	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 4, -1, 1350, false, -1, "")
+	VITEMMACRO(goat_peau, "STR_Item_GoatGrilled", "goatPeau", 3, -1, 2150, true, -1, "")
 	
 	VITEMMACRO(cacahuete, "STR_Item_cacahuete", "cacahuete", 2, 35, -1, false, 10, "")
 	VITEMMACRO(burger, "STR_Item_burger", "burger", 2, 75, -1, false, 40, "")
@@ -245,6 +242,7 @@ class Licenses {
 	//Entreprises
 	LICENSEMACRO(dep,"STR_License_Dep","dep",2500,false,"civ")
 	LICENSEMACRO(taxi,"STR_License_Taxi","taxi",2500,false,"civ")
+	LICENSEMACRO(chasse,"STR_License_Chasse","chasse",15000,false,"civ")
 	LICENSEMACRO(restaurant,"STR_License_restaurant","restaurant",750,false,"civ")
 	LICENSEMACRO(macumba,"STR_License_macumba","macumba",750,false,"civ")
 	LICENSEMACRO(papy,"STR_License_papy","papy",750,false,"civ")
@@ -380,6 +378,11 @@ class VirtualShops {
 	class gold {
 		name = "STR_Shops_Gold";
 		items[] = { "goldbar" };
+	};
+	
+	class chasse {
+		name = "STR_Shops_Chasse";
+		items[] = { "sheep_raw","goat_raw","sheep_peau","goat_peau" };
 	};
 };
 

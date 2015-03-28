@@ -34,6 +34,8 @@ _itemInfo = switch (_type) do {
 	case "bottledbeer": {["beerp","bottledbeer",750,(localize "STR_Process_bottledbeer")];};
 	case "bottledshine": {["bottledwhiskey","bottledshine",1250,(localize "STR_Process_bottledshine")];};
 	case "bottledwhiskey": {["whiskey","bottledwhiskey",750,(localize "STR_Process_bottledwhiskey")];};
+	case "chasse": {["sheep_raw","sheep_peau",750,(localize "STR_Process_sheepPeau")];};
+	case "chasse1": {["goat_raw","goat_peau",750,(localize "STR_Process_goatPeau")];};
 	default {[];};
 };
 
@@ -46,7 +48,7 @@ _newItem = SEL(_itemInfo,1);
 _cost = SEL(_itemInfo,2);
 _upp = SEL(_itemInfo,3);
 
-if(_vendor in [mari_processor,coke_processor,heroin_processor,pro_1,pro_2]) then {
+if(_vendor in [mari_processor,coke_processor,heroin_processor,pro_1,pro_2,process_peau]) then {
 	_hasLicense = true;
 } else {
 	_hasLicense = LICENSE_VALUE(_type,"civ");
