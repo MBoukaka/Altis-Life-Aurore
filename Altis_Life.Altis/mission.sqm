@@ -14287,7 +14287,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""chasse"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""chasse"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""chasse"",0,false,false,"""",' !license_civ_chasse && playerSide == civilian ']; this addAction[""Les vêtements du chasseur"",life_fnc_clothingMenu,""chasse"",0,false,false,"""",' license_civ_chasse && playerSide == civilian'];  this addAction[""Magasin du chasseur"",life_fnc_weaponShopMenu,""huntig_shop"",0,false,false,"""",' license_civ_chasse && playerSide == civilian']; this addAction[""Vendre quelque chose"",life_fnc_virt_menu,""chasse"",0,false,false,"""",' license_civ_bandit && playerSide == civilian '];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""chasse"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""chasse"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""chasse"",0,false,false,"""",' !license_civ_chasse && playerSide == civilian ']; this addAction[""Les vêtements du chasseur"",life_fnc_clothingMenu,""chasse"",0,false,false,"""",' license_civ_chasse && playerSide == civilian'];  this addAction[""Magasin du chasseur"",life_fnc_weaponShopMenu,""hunting_shop"",0,false,false,"""",' license_civ_chasse && playerSide == civilian']; this addAction[""Vendre quelque chose"",life_fnc_virt_menu,""chasse"",0,false,false,"""",' license_civ_chasse && playerSide == civilian '];";
 		};
 		class Item1124
 		{
@@ -14299,7 +14299,7 @@ class Mission
 			vehicle="Land_StallWater_F";
 			skill=0.60000002;
 			text="process_peau";
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Dépecer l'animal (chèvre)"",life_fnc_processAction,""chasse1"",0,false,false,"""",' life_inv_goat_raw > 0 && !life_is_processing && license_civ_chasse']; this addAction[""Dépecer l'animal (Brebis)"",life_fnc_processAction,""chasse"",0,false,false,"""",' life_inv_sheep_raw > 0 && !life_is_processing && license_civ_chasse'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Dépecer l'animal (chèvre)"",life_fnc_processAction,""chasse1"",0,false,false,"""",' life_inv_goat_raw > 0 && license_civ_chasse ']; this addAction[""Dépecer l'animal (Brebis)"",life_fnc_processAction,""chasse"",0,false,false,"""",' life_inv_sheep_raw > 0 && license_civ_chasse '];";
 		};
 	};
 	class Markers
