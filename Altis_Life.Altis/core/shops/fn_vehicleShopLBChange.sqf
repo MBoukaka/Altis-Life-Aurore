@@ -24,6 +24,7 @@ _trunkSpace = [_className] call life_fnc_vehicleWeightCfg;
 
 ctrlShow [2330,true];
 (CONTROL(2300,2303)) ctrlSetStructuredText parseText format[
+"Véhicule: %9<br/>" +
 (localize "STR_Shop_Veh_UI_Rental")+ " <t color='#8cff9b'>$%1</t><br/>" +
 (localize "STR_Shop_Veh_UI_Ownership")+ " <t color='#8cff9b'>$%2</t><br/>" +
 (localize "STR_Shop_Veh_UI_MaxSpeed")+ " %3 km/h<br/>" +
@@ -39,7 +40,8 @@ _vehicleInfo select 11,
 _vehicleInfo select 10,
 if(_trunkSpace == -1) then {"None"} else {_trunkSpace},
 _vehicleInfo select 12,
-_vehicleInfo select 9
+_vehicleInfo select 9,
+_vehicleInfo select 3
 ];
 
 _ctrl = CONTROL(2300,2304);

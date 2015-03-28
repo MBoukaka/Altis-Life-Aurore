@@ -51,6 +51,7 @@ class iphone_inventaire {
 		
 		class itemList: life_RscListBox
 		{
+			sizeEx = 0.03;
 			idc = item_list;
 			x = 0.578854 * safezoneW + safezoneX;
 			y = 0.338704 * safezoneH + safezoneY;

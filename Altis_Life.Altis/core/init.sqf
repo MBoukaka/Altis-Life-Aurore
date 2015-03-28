@@ -12,6 +12,7 @@ _timeStamp = diag_tickTime;
 diag_log "------------------------------------------------------------------------------------------------------";
 diag_log "--------------------------------- Starting Altis Life Client Init ----------------------------------";
 diag_log "------------------------------------------------------------------------------------------------------";
+
 waitUntil {!isNull player && player == player}; //Wait till the player is ready
 [] call compile PreprocessFileLineNumbers "core\clientValidator.sqf";
 
@@ -68,6 +69,7 @@ switch (playerSide) do {
 		_handle = [] spawn life_fnc_initMedic;
 		waitUntil {scriptDone _handle};
 	};
+
 };
 
 player SVAR ["restrained",false,true];

@@ -15,7 +15,7 @@ class Header
 {
 	gameType = RPG;
 	minPlayers = 1;
-	maxPlayers = 120;
+	maxPlayers = 150;
 };
 
 wreckLimit = 3;
@@ -78,7 +78,18 @@ class CfgSounds
 };
 
 class CfgDebriefing
-{
+{	
+
+	class SalleDattente
+	{
+		title = "Echec Mission";
+		subtitle = "Tu ne peux pas rejoindre le serveur.";
+		description = "La salle d'attente n'est pas fait pour jouer, mais pour attendre qu'une place se libère !";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
 	class NotWhitelisted
 	{
 		title = "Echec Mission";

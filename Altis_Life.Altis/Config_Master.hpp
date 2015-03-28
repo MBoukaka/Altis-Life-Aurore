@@ -183,10 +183,10 @@ class VirtualItems {
 	VITEMMACRO(turtle_raw, "STR_Item_TurtleMeat", "turtleRaw", 6, -1, 0, true, -1, "aurore_data2\icons\items\turtle.paa")
 	VITEMMACRO(turtle_soup, "STR_Item_TurtleSoup", "turtleSoup", 2, -1, 0, false, 100, "aurore_data2\icons\items\turtle_soup.paa")
 
-	VITEMMACRO(sheep_raw, "STR_Item_SheepRaw", "sheepRaw", 4, -1, 0, false, -1, "")
-	VITEMMACRO(sheep_peau, "STR_Item_SheepGrilled", "sheepPeau", 3, -1, 0, true, -1, "")
-	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 4, -1, 0, false, -1, "")
-	VITEMMACRO(goat_peau, "STR_Item_GoatGrilled", "goatPeau", 3, -1, 0, true, -1, "")
+	VITEMMACRO(sheep_raw, "STR_Item_SheepRaw", "sheepRaw", 4, -1, 0, false, -1, "icons\ico_sheepRaw.paa")
+	VITEMMACRO(sheep_peau, "STR_Item_SheepPeau", "sheepPeau", 3, -1, 0, true, -1, "icons\ico_sheepPeau.paa")
+	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 4, -1, 0, false, -1, "icons\ico_goatRaw.paa")
+	VITEMMACRO(goat_peau, "STR_Item_GoatPeau", "goatPeau", 3, -1, 0, true, -1, "icons\ico_goatPeau.paa")
 	
 	VITEMMACRO(cacahuete, "STR_Item_cacahuete", "cacahuete", 2, 35, -1, false, 10, "")
 	VITEMMACRO(burger, "STR_Item_burger", "burger", 2, 75, -1, false, 40, "")

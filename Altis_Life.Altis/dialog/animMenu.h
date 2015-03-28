@@ -34,6 +34,7 @@ class animMenu {
 
 
 		class AnimationsList : Life_RscListBox {
+			sizeEx = 0.03;
 			idc = 13751;
 			x = 0.315; y = 0.1 + 0.05;
 			w = 0.3 - 0.03; h = 0.4 - 0.11;
