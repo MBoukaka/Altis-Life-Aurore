@@ -14296,10 +14296,10 @@ class Mission
 			offsetY=5;
 			id=1260;
 			side="EMPTY";
-			vehicle="Land_StallWater_F";
+			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="process_peau";
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Dépecer l'animal (chèvre)"",life_fnc_processAction,""chasse1"",0,false,false,"""",' life_inv_goat_raw > 0 && license_civ_chasse ']; this addAction[""Dépecer l'animal (Brebis)"",life_fnc_processAction,""chasse"",0,false,false,"""",' life_inv_sheep_raw > 0 && license_civ_chasse '];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Dépecer l'animal (chèvre)"",life_fnc_processAction,""chasse1"",0,false,false,"""",' life_inv_goat_raw > 0 && license_civ_chasse ']; this addAction[""Dépecer l'animal (Brebis)"",life_fnc_processAction,""chasse"",0,false,false,"""",' life_inv_sheep_raw > 0 && !life_is_processing '];";
 		};
 	};
 	class Markers
