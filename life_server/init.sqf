@@ -101,6 +101,7 @@ if(!(EQUAL(life_server_extDB_notLoaded,""))) exitWith {}; //extDB did not fully 
 ["deleteOldHouses",1] spawn DB_fnc_asyncCall;
 ["deleteOldGangs",1] spawn DB_fnc_asyncCall;
 ["deleteOldMessages",1] spawn DB_fnc_asyncCall;
+["deleteOldWanted",1] spawn DB_fnc_asyncCall;
 
 /* Map-based server side initialization. */
 master_group attachTo[bank_obj,[0,0,0]];
