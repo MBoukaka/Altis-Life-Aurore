@@ -15,10 +15,7 @@ switch (_switch) do
 {
 	case 0:
 	{
-		_query = "";
-		switch (_whatanumber) do {
-			case 1: {_query = format["DynMarket1:%1",DYNMARKET_Items_CurrentPriceArr];};
-		};
+		_query = format["DynMarket1:%1",DYNMARKET_Items_CurrentPriceArr];
 		waitUntil {sleep (random 0.3); !DB_Async_Active};
 		_queryResult = [_query,1] call DB_fnc_asyncCall;
 		diag_log "### DYNMARKET >> SUCCESSFULLY BACKUP'D CURRENT PRICES TO DATABASE!   ###";
@@ -26,9 +23,7 @@ switch (_switch) do
 	
 	case 1:
 	{
-		_query = switch(_whatanumber) do {
-			case 1: {_returnCount = 11; format["DynMarket2"];};
-		};
+		_query = format["DynMarket2"];
 
 		waitUntil{sleep (random 0.3); !DB_Async_Active};
 		_tickTime = diag_tickTime;
