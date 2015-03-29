@@ -42,17 +42,26 @@ SUB(_units,[player]);
 		if(count _sPos > 1 && {_distance < 15}) then {
 			_text = switch (true) do {
 			
-				//Entreprise
-				case (_x GVAR ["dep", false]): {format["<img image='icons\ico_dep.paa' size='1'></img> %1",(_x GVAR ["realname",name _x])];};
-				case (_x GVAR ["taxi", false]): {format["<img image='icons\ico_taxi.paa' size='1'></img> %1",(_x GVAR ["realname",name _x])];};
-
+				//Mort
+				case (!alive _x): {
+					_icon = "aurore_data2\icons\death.paa";
+					format["<img image='%1' size='1'></img> %2", _icon, (_x GVAR ["realname",name _x])];
+				};
+				
+				//Items de masquage
 				case ((goggles _x) in _goggles): {format["<t color='#000000'>Personnage masqué</t>"];};
 				case ((headgear _x) in _headgear): {format["<t color='#000000'>Personnage masqué</t>"];};
 				case ((uniform _x) in _uniform): {format["<t color='#000000'>Personnage masqué</t>"];};
-				case (((uniform _x) in _uniformflic) && !isNil (_x GVAR "rank")): {format["%1",_x GVAR ["realname",name _x]];};
+				case (((uniform _x) in _uniformflic) && (!isNil {(_x GVAR "rank")})): {format["%1",_x GVAR ["realname",name _x]];};
 				
+				//Entreprise
+				case (_x GVAR ["dep", false]): {format["<img image='icons\ico_dep.paa' size='1'></img> %1",(_x GVAR ["realname",name _x])];};
+				case (_x GVAR ["taxi", false]): {format["<img image='icons\ico_taxi.paa' size='1'></img> %1",(_x GVAR ["realname",name _x])];};
+				
+				//Nom Civil standard
 				case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x GVAR ["realname",name _x])];};
 				
+				//Nom Gendarme
 				case (!isNil {(_x GVAR "rank")}): {format["<img image='%1' size='1'></img> %3 %2",switch ((_x GVAR "rank")) do {
 					case 2: {"aurore_data2\icons\brigadier1.paa"}; 
 					case 3: {"aurore_data2\icons\brigadier2.paa"};
@@ -71,16 +80,12 @@ SUB(_units,[player]);
 					default {"[Recrue]"};
 					}]};
 					
-				
-				case ((!isNil {_x GVAR "name"} && playerSide == independent)): {format["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x GVAR ["name","Unknown Player"]]};
+				//Nom Medic
+				case (!isNil {(_x GVAR "medrank")}): {format["<t color='#FF0000'><img image='icons\ico_medic.paa' size='1'></img></t> %1",(_x GVAR ["realname",name _x])]};
 
-				case (!alive _x): {
-					_icon = "aurore_data2\icons\death.paa";
-					format["<img image='%1' size='1.5'></img> %2", _icon, (_x GVAR ["realname",name _x])];
-					};
-				
+				//Default Civil avec gang
 				default {
-					if(!isNil {(group _x) GVAR "gang_name"}) then {
+					if(!isNil {(group _x) GVAR "gang_name"} && (!(_x GVAR ["dep",FALSE]) OR !(_x GVAR ["taxi",FALSE]))) then {
 						format["%1<br/><t size='0.8' color='#B6B6B6'>%2</t>",_x GVAR ["realname",name _x],(group _x) GVAR ["gang_name",""]];
 					} else {
 						_x GVAR ["realname",name _x];
