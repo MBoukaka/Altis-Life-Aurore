@@ -15,6 +15,7 @@ if((FETCH_CONST(life_medicLevel)) < 1) exitWith {
 	sleep 35;
 };
 
+player setVariable ["medrank",(FETCH_CONST(life_medicLevel)),true];
 [] call life_fnc_spawnMenu;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.

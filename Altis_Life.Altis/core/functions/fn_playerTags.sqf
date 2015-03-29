@@ -6,12 +6,13 @@
 	Description:
 	Adds the tags above other players heads when close and have visible range.
 */
-private["_ui","_units","_goggles","_uniform","_headgear"];
+private["_ui","_units","_goggles","_uniform","_headgear","_uniformflic"];
 #define iconID 78000
 #define scale 0.8
 _goggles = ["G_Balaclava_blk","IRA_Balaclava_Brown","G_Balaclava_oli","G_Balaclava_lowprofile","G_Balaclava_combat","G_Bandanna_beast","G_Bandanna_shades"];
 _uniform = ["U_O_GhillieSuit"];
 _headgear = ["H_Shemag_olive","H_Shemag_khk","H_ShemagOpen_khk","H_ShemagOpen_tan"];
+_uniformflic = ["U_O_GhillieSuit"];
 
 if(visibleMap OR {!alive player} OR {dialog}) exitWith {
 	500 cutText["","PLAIN"];
@@ -40,9 +41,15 @@ SUB(_units,[player]);
 		_distance = _pos distance player;
 		if(count _sPos > 1 && {_distance < 15}) then {
 			_text = switch (true) do {
+			
+				//Entreprise
+				case (_x GVAR ["dep", false]): {format["<img image='icons\ico_dep.paa' size='1'></img> %1",(_x GVAR ["realname",name _x])];};
+				case (_x GVAR ["taxi", false]): {format["<img image='icons\ico_taxi.paa' size='1'></img> %1",(_x GVAR ["realname",name _x])];};
+
 				case ((goggles _x) in _goggles): {format["<t color='#000000'>Personnage masqué</t>"];};
 				case ((headgear _x) in _headgear): {format["<t color='#000000'>Personnage masqué</t>"];};
 				case ((uniform _x) in _uniform): {format["<t color='#000000'>Personnage masqué</t>"];};
+				case (((uniform _x) in _uniformflic) && !isNil (_x GVAR "rank")): {format["%1",_x GVAR ["realname",name _x]];};
 				
 				case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x GVAR ["realname",name _x])];};
 				
@@ -66,7 +73,7 @@ SUB(_units,[player]);
 					
 				
 				case ((!isNil {_x GVAR "name"} && playerSide == independent)): {format["<t color='#FF0000'><img image='a3\ui_f\data\map\MapControl\hospital_ca.paa' size='1.5'></img></t> %1",_x GVAR ["name","Unknown Player"]]};
-				
+
 				case (!alive _x): {
 					_icon = "aurore_data2\icons\death.paa";
 					format["<img image='%1' size='1.5'></img> %2", _icon, (_x GVAR ["realname",name _x])];

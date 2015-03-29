@@ -96,6 +96,15 @@ if (playerSide == west) then {
 [] spawn {
 	while {true} do
 	{
+		if(license_civ_dep && playerSide == civilian)	then	{	player SVAR ["dep", true, true]; } else {	player SVAR ["dep", false, true]; };
+		if(license_civ_taxi && playerSide == civilian)	then	{	player SVAR ["taxi", true, true]; } else {	player SVAR ["taxi", false, true]; };
+		sleep 1;
+	};
+};
+
+[] spawn {
+	while {true} do
+	{
 		if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Sacs invisibles chez les Flics
         if(playerSide == independent) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Sacs invisibles chez les Medics
 		sleep 1;
