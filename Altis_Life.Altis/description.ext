@@ -90,6 +90,16 @@ class CfgDebriefing
 		pictureColor[] = {0,0.3,0.6,1};
 	};
 	
+	class afkkick
+	{
+		title = "Tu es AFK";
+		subtitle = "Tu as été kick.";
+		description = "Tu es resté 10min sans bouger, tu es donc AFK !";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
 	class NotWhitelisted
 	{
 		title = "Echec Mission";

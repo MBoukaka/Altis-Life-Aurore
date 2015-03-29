@@ -99,7 +99,7 @@ if (playerSide == west) then {
 		{
 			if (_kick) then
 			{
-				endMission "Loser";
+				endMission "afkkick";
 			}
 			else
 			{
@@ -126,6 +126,7 @@ if (playerSide == west) then {
 [] spawn {
 	while {true} do
 	{
+		if((isNull (findDisplay 88888)) && (isNull (findDisplay 88883)) && (isNull (findDisplay 887890)))	then	{	player SVAR ["istexting", false, true]; };
 		if(license_civ_dep && playerSide == civilian)	then	{	player SVAR ["dep", true, true]; } else {	player SVAR ["dep", false, true]; };
 		if(license_civ_taxi && playerSide == civilian)	then	{	player SVAR ["taxi", true, true]; } else {	player SVAR ["taxi", false, true]; };
 		sleep 1;
