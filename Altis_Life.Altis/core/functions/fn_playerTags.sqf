@@ -12,7 +12,7 @@ private["_ui","_units","_goggles","_uniform","_headgear","_uniformflic"];
 _goggles = ["G_Balaclava_blk","IRA_Balaclava_Brown","G_Balaclava_oli","G_Balaclava_lowprofile","G_Balaclava_combat","G_Bandanna_beast","G_Bandanna_shades"];
 _uniform = ["U_O_GhillieSuit"];
 _headgear = ["H_Shemag_olive","H_Shemag_khk","H_ShemagOpen_khk","H_ShemagOpen_tan"];
-_uniformflic = ["U_O_GhillieSuit"];
+_uniformflic = ["U_OG_Guerilla2_1","U_OG_Guerilla2_2"];
 
 if(visibleMap OR {!alive player} OR {dialog}) exitWith {
 	500 cutText["","PLAIN"];
@@ -77,7 +77,7 @@ SUB(_units,[player]);
 				case (((goggles _x) in _goggles) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
 				case (((headgear _x) in _headgear) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
 				case (((uniform _x) in _uniform) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
-				case ((uniform _x in _uniformflic) && (!isNil {(_x GVAR "rank")})): {format["%1",_x GVAR ["realname",name _x]];};
+				case (((uniform _x) in _uniformflic) && (!isNil {(_x GVAR "rank")})): {format["%1",_x GVAR ["realname",name _x]];};
 				
 				//Nom Gendarme
 				case (!isNil {(_x GVAR "rank")}): {format["<img image='%1' size='1'></img> %3 %2",switch ((_x GVAR "rank")) do {

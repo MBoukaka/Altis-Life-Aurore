@@ -279,6 +279,8 @@ class Clothing {
 			{ "U_B_SpecopsUniform_sgg", "Polaire Gendarme", 50, { "life_coplevel", "SCALAR", 4 } },
 			{ "U_B_CombatUniform_mcam_worn", "Grand froid Gendarme", 50, { "life_coplevel", "SCALAR", 2 } },
 			{ "U_O_OfficerUniform_ocamo", "Motard Gendarme", 50, { "life_coplevel", "SCALAR", 2 } },
+			{ "U_OG_Guerilla2_1", "Tenue civil 1", 50, { "life_coplevel", "SCALAR", 3 } },
+			{ "U_OG_Guerilla2_2", "Tenue civil 2", 50, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_C_GIGN", "Uniforme GIGN", 100, { "life_coplevel", "SCALAR", 4} },
 			{ "U_B_Wetsuit", "Tenue de plongée", 100, { "life_coplevel", "SCALAR", 5 } }
 			
