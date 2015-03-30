@@ -26,6 +26,10 @@
 			<Original>Restaurant</Original>
 			<French>Restaurant</French>
 		</Key>
+		<Key ID="STR_Shops_resine">
+			<Original>Vendeur de Resine</Original>
+			<French>Vendeur de Resine</French>
+		</Key>
 		<Key ID="STR_Shops_Chasse">
 			<Original>Vendeur chasse</Original>
 			<French>Vendeur chasse</French>
