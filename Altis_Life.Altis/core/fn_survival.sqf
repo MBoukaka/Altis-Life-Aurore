@@ -104,7 +104,7 @@ if (playerSide == west) then {
 			else
 			{
 				_kick = true;
-				hint "You will be kicked in 10 minutes for being AFK.";
+				hint "Tu seras kick dans 10 minutes pour afk.";
 			};
 		}
 		else
