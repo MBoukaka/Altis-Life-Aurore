@@ -3485,6 +3485,10 @@
 			<Original>Rôtisserie</Original>
 			<French>Rôtisserie</French>
 		</Key>
+		<Key ID="STR_License_parrain">
+			<Original>Bienfaiteur</Original>
+			<French>Bienfaiteur</French>
+		</Key>
 		<Key ID="STR_License_anisimov">
 			<Original>Famille Anisimov</Original>
 			<French>Famille Anisimov</French>

@@ -11572,7 +11572,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\achat_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Véhicules Donateur"",life_fnc_vehicleShopMenu,[""donator"",civilian,[""donator_1"",""donator_1_1""],""civ"",""Véhicules Donateur""],0,false,false,"""",'license_civ_civdonator'];";
+			init="this setObjectTexture [0, ""images\achat_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Véhicules Donateur"",life_fnc_vehicleShopMenu,[""donator"",civilian,[""donator_1"",""donator_1_1""],""civ"",""Véhicules Donateur""],0,false,false,"""",'license_civ_civdonator'];this addAction[""Véhicules Parrainages"",life_fnc_vehicleShopMenu,[""parrain"",civilian,[""donator_1"",""donator_1_1""],""civ"",""Véhicules Donateur""],0,false,false,"""",'license_civ_parrain'];";
 		};
 		class Item755
 		{

@@ -575,6 +575,17 @@ class CarShops {
 		};
 	};
 
+	class parrain_car {
+		side = "civ";
+		vehicles[] = {
+			{ "Orel_Monster", 20000, "parrain" },
+			{ "Jonzie_Forklift", 1000, "parrain" },
+			{ "cl3_batmobile", 20000, "parrain" },
+			{ "LAMBOKITTY", 20000, "parrain" },
+			{ "A3L_Hyster60", 1000, "parrain" }
+		];
+	};
+	
 	class civ_truck {
 		side = "civ";
 		vehicles[] = {
