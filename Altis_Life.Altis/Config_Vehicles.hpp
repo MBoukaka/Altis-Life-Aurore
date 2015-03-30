@@ -583,7 +583,7 @@ class CarShops {
 			{ "cl3_batmobile", 20000, "parrain" },
 			{ "LAMBOKITTY", 20000, "parrain" },
 			{ "A3L_Hyster60", 1000, "parrain" }
-		];
+		};
 	};
 	
 	class civ_truck {
@@ -893,6 +893,14 @@ class CfgVehicles {
 		garageSell[] = { 350, 0, 0, 0 };
         insurance = 600;
         chopShop = 300;
+        textures[] = { };
+    };
+	class Aurore_escobar_ifrit {
+        vItemSpace = 60;
+        storageFee[] = { 45000, 0, 0, 0 };
+		garageSell[] = { 65000, 0, 0, 0 };
+        insurance = 2500;
+        chopShop = 5000;
         textures[] = { };
     };
 	class cl3_volha_black {
@@ -1603,6 +1611,7 @@ class CfgVehicles {
 	class cl3_murcielago_yellow : cl3_458_gold {};
 	class cl3_lamborghini_gt1_gold : cl3_458_gold {};
 	class cl3_lamborghini_gt1_silver : cl3_458_gold {};
+	class ESCO_LAMBO : cl3_458_gold {};
 	class cl3_lamborghini_gt1_black : cl3_458_gold {};
 	class cl3_lamborghini_gt1_babyblue : cl3_458_gold {};
 	class cl3_lamborghini_gt1_babypink : cl3_458_gold {};
@@ -2690,6 +2699,15 @@ class CfgVehicles {
         };
 	};
 
+	class Aurore_escobar_hummingbird {
+        vItemSpace = 55;
+        storageFee[] = { 2500, 500, 500, 0 };
+		garageSell[] = { 57000, 6000, 6000, 0 };
+        insurance = 25000;
+        chopShop = 4500;
+        textures[] = {};
+	};
+	
 	class B_Heli_Light_01_F	{
         vItemSpace = 55;
         storageFee[] = { 2500, 500, 500, 0 };
