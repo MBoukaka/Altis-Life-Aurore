@@ -48,7 +48,11 @@ DYNMARKET_Items_Groups =
 			["turtle_raw",-1,600,2500],
 			["marijuana",-1,145,475],
 			["cocaine_processed",-1,180,650],
-			["heroin_processed",-1,160,540]
+			["heroin_processed",-1,160,540],
+			["resine",-1,180,625],
+			["explo",-1,84,310],
+			["champ",-1,88,220],
+			["relique",-1,180,480]
 		],
 		0.4
 	]
@@ -60,11 +64,8 @@ DYNMARKET_Items_ToTrack        =
 [
 	["oil_processed",185],
 	["resine",410],
-	["hops",310],
-	["rye",310],
-	["papier",310],
+	["champ",120],
 	["billet",310],
-	["bois",310],
 	["iron_refined",190],
 	["diamond_cut",260],
 	["copper_refined",195],
@@ -83,7 +84,8 @@ DYNMARKET_Items_ToTrack        =
 	["mullet_fried",30],
 	["catshark_fried",30],
 	["peach",6],
-	["apple",5]
+	["apple",5],
+	["relique",320]
 ];
 
 //███████████████████████████████████████████████████████████████████████
