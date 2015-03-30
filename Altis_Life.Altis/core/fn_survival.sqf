@@ -45,7 +45,7 @@ _fnc_water = {
 	};
 };
 
-_illegalmarkers = ["heroin_area","heroin_1","Dealer_1_3","Dealer_1_3_1","Dealer_1_3_2","turtle_2","turtle_1_name_1","Dealer_1_4","heroin_p","cocaine_processing","Weed_p_1","turtle_1_name_2","turtle_3","Dealer_1_3_2_1","coke_area_2_1","Heimdall_12","heroin_p","poudre_p","explo_area","explo_1","turle_dealer_2_1","turtle_1","turtle_1_name","champ_1","champ_area","turle_dealer_2","turle_dealer","weed_1","Dealer_1","turle_dealer_1","coke_area","cocaine_1"];
+_illegalmarkers = ["heroin_area","heroin_1","Dealer_1_3","chasse_1","resine_1","Dealer_1_3_1","Dealer_1_3_2","turtle_2","turtle_1_name_1","Dealer_1_4","heroin_p","cocaine_processing","Weed_p_1","turtle_1_name_2","turtle_3","Dealer_1_3_2_1","coke_area_2_1","Heimdall_12","heroin_p","poudre_p","explo_area","explo_1","turle_dealer_2_1","turtle_1","turtle_1_name","champ_1","champ_area","turle_dealer_2","turle_dealer","weed_1","Dealer_1","turle_dealer_1","coke_area","cocaine_1"];
 _rebellemarkers = ["safe_5","marker_rebel","safe_4","civ_gar_1_3_2_1","safe_3","Rebelop"];
 
 if (playerSide == west) then {

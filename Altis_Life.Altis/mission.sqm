@@ -15458,7 +15458,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=390;
+		items=391;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -18468,7 +18468,7 @@ class Mission
 		class Item382
 		{
 			position[]={4575.3755,21.851444,10569.14};
-			name="Dealer_1_1";
+			name="resine_1";
 			text="Vente de résine de Cannabis";
 			type="mil_dot";
 			colorName="ColorOrange";
@@ -18519,6 +18519,14 @@ class Mission
 			position[]={4986.0977,12.167233,10071.797};
 			name="resine_spawn";
 			type="Empty";
+		};
+		class Item390
+		{
+			position[]={5296.1221,56.678509,11056.978};
+			name="chasse_1";
+			text="Dépeçage d'animaux";
+			type="mil_dot";
+			colorName="ColorRed";
 		};
 	};
 	class Sensors
