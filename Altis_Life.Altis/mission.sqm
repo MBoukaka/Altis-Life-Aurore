@@ -18428,7 +18428,7 @@ class Mission
 		};
 		class Item389
 		{
-			position[]={14369.249,16.789742,18089.152};
+			position[]={14370.839,16.769728,18087.406};
 			name="cop_car_2";
 			type="Empty";
 			angle=65.416649;
