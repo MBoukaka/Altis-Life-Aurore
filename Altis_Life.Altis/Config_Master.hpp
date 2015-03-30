@@ -274,6 +274,11 @@ class VirtualShops {
 		name = "STR_Shops_Gang";
 		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter" };
 	};
+	
+	class resine {
+		name = "STR_Shops_resine";
+		items[] = { "resine" };
+	};
 
 	class explo {
 		name = "STR_Shops_explo";
