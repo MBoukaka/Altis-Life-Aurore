@@ -61,7 +61,7 @@ class WeaponShops {
         };
     };
 	class vente {
-        name = "Altis Gendarmerie";
+        name = "Rôtisserie";
         side = "civ";
         license = "vente";
         level = -1;

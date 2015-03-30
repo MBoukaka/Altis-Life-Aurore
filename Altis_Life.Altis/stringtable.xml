@@ -3481,6 +3481,10 @@
 			<Original>Famille Hooligans</Original>
 			<French>Famille Hooligans</French>
 		</Key>
+		<Key ID="STR_License_vente">
+			<Original>Rôtisserie</Original>
+			<French>Rôtisserie</French>
+		</Key>
 		<Key ID="STR_License_anisimov">
 			<Original>Famille Anisimov</Original>
 			<French>Famille Anisimov</French>

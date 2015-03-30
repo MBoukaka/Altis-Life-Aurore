@@ -246,6 +246,7 @@ class Licenses {
 	LICENSEMACRO(restaurant,"STR_License_restaurant","restaurant",750,false,"civ")
 	LICENSEMACRO(macumba,"STR_License_macumba","macumba",750,false,"civ")
 	LICENSEMACRO(papy,"STR_License_papy","papy",750,false,"civ")
+	LICENSEMACRO(vente,"STR_License_vente","vente",750,false,"civ")
 	
 	//Familles
 	LICENSEMACRO(esco,"STR_License_esco","esco",750,false,"civ")
