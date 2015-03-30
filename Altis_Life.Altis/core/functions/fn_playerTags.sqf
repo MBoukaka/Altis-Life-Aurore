@@ -49,7 +49,8 @@ SUB(_units,[player]);
 				};
 				
 				//isTexting... by Nanou
-				case ((_x GVAR ["istexting", false]) && (((goggles _x) in _goggles) OR ((headgear _x) in _headgear) OR ((uniform _x) in _uniform) OR ((uniform _x) in _uniformflic))): {format["<t color='#000000'>Personnage masqué </t><img image='icons\ico_istexting.paa' size='1'></img>"];};
+				case ((_x GVAR ["istexting", false]) && (((goggles _x) in _goggles) OR ((headgear _x) in _headgear) OR ((uniform _x) in _uniform))): {format["<t color='#000000'>Personnage masqué </t><img image='icons\ico_istexting.paa' size='1'></img>"];};
+				case ((_x GVAR ["istexting", false]) && (((uniform _x) in _uniformflic) && (!isNil {(_x GVAR "rank")}))): {format["%1 <img image='icons\ico_istexting.paa' size='1'></img>",_x GVAR ["realname",name _x]];};
 				case ((_x GVAR ["istexting", false]) && (!isNil {(_x GVAR "rank")})): {format["<img image='%1' size='1'></img> %3 %2 <img image='icons\ico_istexting.paa' size='1'></img>",switch ((_x GVAR "rank")) do {
 					case 2: {"aurore_data2\icons\brigadier1.paa"}; 
 					case 3: {"aurore_data2\icons\brigadier2.paa"};
