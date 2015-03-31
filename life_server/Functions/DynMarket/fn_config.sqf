@@ -45,11 +45,11 @@ DYNMARKET_Items_Groups =
 	],
 	["Illegal", 
 		[
-			["turtle_raw",-1,600,2500],
-			["marijuana",-1,145,475],
-			["cocaine_processed",-1,180,650],
-			["heroin_processed",-1,160,540],
-			["resine",-1,180,625],
+			["turtle_raw",-1,600,2200],
+			["marijuana",-1,145,375],
+			["cocaine_processed",-1,180,550],
+			["heroin_processed",-1,160,440],
+			["resine",-1,180,525],
 			["explo",-1,84,310],
 			["champ",-1,88,220],
 			["relique",-1,180,480]
