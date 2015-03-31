@@ -65,7 +65,6 @@ DYNMARKET_Items_ToTrack        =
 	["oil_processed",185],
 	["resine",410],
 	["champ",120],
-	["billet",310],
 	["iron_refined",190],
 	["diamond_cut",260],
 	["copper_refined",195],
