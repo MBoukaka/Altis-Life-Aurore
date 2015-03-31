@@ -224,6 +224,7 @@ class Life_Create_Gang_Diag {
 			text = "$STR_Gang_Create";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
 			onButtonClick = "[] call life_fnc_createGang";
+			tooltip = "Attention ! Retour au lobby necessaire.";
 			x = 0.27;
 			y = 0.40;
 			w = (6.25 / 40);

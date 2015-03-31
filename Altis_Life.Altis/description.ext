@@ -80,6 +80,16 @@ class CfgSounds
 class CfgDebriefing
 {	
 
+	class gangcreated
+	{
+		title = "Retour lobby";
+		subtitle = "Tu viens de creer un gang.";
+		description = "Pour que ton gang fonctionne correctement, un retour au lobby est obligatoire !";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
 	class SalleDattente
 	{
 		title = "Echec Mission";
