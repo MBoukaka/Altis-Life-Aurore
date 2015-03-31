@@ -119,8 +119,8 @@ class VirtualItems {
 	VITEMMACRO(relique, "STR_Item_relique", "relique", 4, 25, -1, true, -1, "")
 	VITEMMACRO(champ, "STR_Item_champ", "champ", 3, 25, -1, true, -1, "")
 	VITEMMACRO(bottledbeer, "STR_Item_bottledbeer", "bottledbeer", 2, 120, 220, false, -1, "")
-	VITEMMACRO(bottledwhiskey, "STR_Item_bottledwhiskey", "bottledwhiskey", 2, 320, 0, false, -1, "")
-	VITEMMACRO(bottledshine, "STR_Item_bottledshine", "bottledshine", 2, 420, 0, false, -1, "")
+	VITEMMACRO(bottledwhiskey, "STR_Item_bottledwhiskey", "bottledwhiskey", 2, 320, 420, false, -1, "")
+	VITEMMACRO(bottledshine, "STR_Item_bottledshine", "bottledshine", 2, 420, 520, false, -1, "")
 	VITEMMACRO(beerp, "STR_Item_beerp", "beerp", 2, -1, 0, false, -1, "")
 	VITEMMACRO(whiskey, "STR_Item_whiskey", "whiskey", 2, -1, 0, false, -1, "")
 
