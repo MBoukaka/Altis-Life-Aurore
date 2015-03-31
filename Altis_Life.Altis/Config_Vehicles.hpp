@@ -8,7 +8,7 @@ class CarShops {
 	class occ_car {
 		side = "civ";
 		vehicles[] = {
-			{ "B_Quadbike_01_F", 550, "driver" }, 
+			{ "B_Quadbike_01_F", 550, "driver" },
 			{ "cl3_lada_white", 750, "driver" }, 
 			{ "cl3_volha_black", 950, "driver" },
 			{ "cl3_golf_mk2_burgundy", 950, "driver" },
@@ -2687,8 +2687,8 @@ class CfgVehicles {
 
 	class cl3_enduro_babyblue  {
         vItemSpace = 35;
-        storageFee[] = { 0, 265, 0, 0 };
-		garageSell[] = { 0, 9500, 0, 0 };
+        storageFee[] = { 265, 0, 0, 0 };
+		garageSell[] = { 9500, 0, 0, 0 };
         insurance = 8500;
         chopShop = 456;
         textures[] = { };
@@ -2712,8 +2712,8 @@ class CfgVehicles {
 	class cl3_enduro_yellow : cl3_enduro_babyblue {};
 	class cl3_xr_1000_aqua  {
         vItemSpace = 35;
-        storageFee[] = { 0, 265, 0, 0 };
-		garageSell[] = { 0, 14500, 0, 0 };
+        storageFee[] = { 265, 0, 0, 0 };
+		garageSell[] = { 14500, 0, 0, 0 };
         insurance = 12500;
         chopShop = 856;
         textures[] = { };
@@ -2837,7 +2837,7 @@ class CfgVehicles {
 
 	class B_Truck_01_box_F {
         vItemSpace = 450;
-        storageFee[] = { 35000, 0, 0, 0 };
+        storageFee[] = { 3500, 0, 0, 0 };
 		garageSell[] = { 150000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
@@ -2846,7 +2846,7 @@ class CfgVehicles {
 
 	class O_MRAP_02_F {
         vItemSpace = 60;
-        storageFee[] = { 45000, 0, 0, 0 };
+        storageFee[] = { 3500, 0, 0, 0 };
 		garageSell[] = { 65000, 0, 0, 0 };
         insurance = 2500;
         chopShop = 5000;
@@ -2855,7 +2855,7 @@ class CfgVehicles {
 
 	class I_MRAP_03_F {
         vItemSpace = 58;
-        storageFee[] = { 0, 450, 0, 0 };
+        storageFee[] = { 0, 3500, 0, 0 };
 		garageSell[] = { 0, , 14500, 0 };
         insurance = 11500;
         chopShop = 1269;
@@ -2914,7 +2914,7 @@ class CfgVehicles {
 
 	class O_Truck_03_covered_F {
 		vItemSpace = 630;
-		storageFee[] = { 800, 0, 0, 0 };
+		storageFee[] = { 1800, 0, 0, 0 };
 		garageSell[] = { 65000, 0, 0, 0 };
 		insurance = 56000;
 		chopShop = 5500;
@@ -2923,7 +2923,7 @@ class CfgVehicles {
 
 	class B_MRAP_01_F {
         vItemSpace = 65;
-        storageFee[] = { 750, 750, 0, 0 };
+        storageFee[] = { 1750, 1750, 0, 0 };
 		garageSell[] = { 50000, 15000, 0, 0 };
         insurance = 65000;
         chopShop = 6969;
@@ -2945,7 +2945,7 @@ class CfgVehicles {
 	
 	class B_MRAP_01_hmg_F {
 		vItemSpace = 65;
-        storageFee[] = { 0, 800, 0, 0 };
+        storageFee[] = { 0, 1800, 0, 0 };
 		garageSell[] = { 0, 10000, 0, 0 };
         insurance = 0;
         chopShop = 6500;
@@ -2958,8 +2958,8 @@ class CfgVehicles {
 
 	class Aurore_escobar_hummingbird {
         vItemSpace = 55;
-        storageFee[] = { 2500, 500, 500, 0 };
-		garageSell[] = { 57000, 6000, 6000, 0 };
+        storageFee[] = { 2500, 0, 0, 0 };
+		garageSell[] = { 57000, 0, 0, 0 };
         insurance = 25000;
         chopShop = 4500;
         textures[] = {};
