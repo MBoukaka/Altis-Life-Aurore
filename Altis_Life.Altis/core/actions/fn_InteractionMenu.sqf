@@ -47,7 +47,7 @@ if((_curTarget getVariable["Escorting",false])) then {
 };
 
 //Set Unrestrain Button
-if(currentWeapon player == primaryWeapon player && primaryWeapon player != "") then {
+if((currentWeapon player == primaryWeapon player && primaryWeapon player != "") || playerSide == independent) then {
 //Set Unrestrain Button
 _Btn2 ctrlSetText localize "STR_pInAct_Unrestrain";
 _Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
