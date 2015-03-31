@@ -14,8 +14,7 @@ if(_shop == "cop" && playerSide != west) exitWith {hint localize "STR_NOTF_NotAC
 if(_shop == "barmaid" && !license_civ_sons) exitWith {hint "Tu n'es pas un Biker biatch !"};
 if(_shop == "soamark" && !license_civ_sons) exitWith {hint "Tu n'es pas un Biker biatch !"};
 if(_shop == "restau" && !license_civ_restaurant) exitWith {hint "Tu n'es pas restaurateur !"};
-if(_shop == "champ" && !license_civ_macumba) exitWith {hint "Je n'obéis qu'au macumba !"};
-if(_shop == "escomarket" && !license_civ_esco) exitWith {hint "Tu n'as pas le droit !"};
+if(_shop == "esco" && !license_civ_esco) exitWith {hint "Tu n'as pas le droit !"};
 if(_shop == "cop1" && !license_civ_vente) exitWith {hint "Tu n'as pas le droit !"};
 if(_shop == "bombe" && !license_civ_explo) exitWith {hint "Tu n'as pas le droit !"};
 createDialog "shops_menu";
