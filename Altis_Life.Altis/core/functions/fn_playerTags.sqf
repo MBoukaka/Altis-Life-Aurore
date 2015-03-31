@@ -69,10 +69,10 @@ SUB(_units,[player]);
 					default {"[Recrue]"};
 					}]};
 				case ((_x GVAR ["istexting", false]) && (!isNil {(_x GVAR "medrank")})): {format["<img image='icons\ico_medic.paa' size='1'></img> %1 <img image='icons\ico_istexting.paa' size='1'></img>",(_x GVAR ["realname",name _x])];};
-				case ((_x GVAR ["istexting", false]) && (_x GVAR ["dep", false])): {format["<img image='icons\ico_dep.paa' size='1'></img> %1 <img image='icons\ico_istexting.paa' size='0.8'>",(_x GVAR ["realname",name _x])];};
-				case ((_x GVAR ["istexting", false]) && (_x GVAR ["taxi", false])): {format["<img image='icons\ico_taxi.paa' size='1'></img> %1 <img image='icons\ico_istexting.paa' size='0.8'>",(_x GVAR ["realname",name _x])];};
-				case ((_x GVAR ["istexting", false]) && (!isNil {(group _x) GVAR "gang_name"} && (!(_x GVAR ["dep",FALSE]) OR !(_x GVAR ["taxi",FALSE]))) && playerSide == civilian): {format["%1 <img image='icons\ico_istexting.paa' size='1'></img><br/><t size='0.8' color='#B6B6B6'>%2</t>",(_x GVAR ["realname",name _x]),(group _x) GVAR ["gang_name",""]];};
-				case ((_x GVAR ["istexting", false]) && !(_x in (units grpPlayer)) && playerSide == civilian): {format["%1 <img image='icons\ico_istexting.paa' size='1'></img>",(_x GVAR ["realname",name _x])];};
+				case ((_x GVAR ["istexting", false]) && (_x GVAR ["dep", false])): {format["<img image='icons\ico_dep.paa' size='1'></img> %1 <img image='icons\ico_istexting.paa' size='0.8'></img>",(_x GVAR ["realname",name _x])];};
+				case ((_x GVAR ["istexting", false]) && (_x GVAR ["taxi", false])): {format["<img image='icons\ico_taxi.paa' size='1'></img> %1 <img image='icons\ico_istexting.paa' size='0.8'></img>",(_x GVAR ["realname",name _x])];};
+				case ((_x GVAR ["istexting", false]) && (!isNil {(group _x) GVAR "gang_name"} && (!(_x GVAR ["dep",FALSE]) OR !(_x GVAR ["taxi",FALSE])))): {format["%1 <img image='icons\ico_istexting.paa' size='0.8'></img><br/><t size='0.8' color='#B6B6B6'>%2</t>",_x GVAR ["realname",name _x],(group _x) GVAR ["gang_name",""]];};
+				case ((_x GVAR ["istexting", false]) && (isNil {(group _x) GVAR "gang_name"} && (!(_x GVAR ["dep",FALSE]) OR !(_x GVAR ["taxi",FALSE])))): {format["%1 <img image='icons\ico_istexting.paa' size='0.8'></img>",(_x GVAR ["realname",name _x])];};
 
 				//Items de masquage
 				case (((goggles _x) in _goggles) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
