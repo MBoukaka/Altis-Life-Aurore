@@ -9,6 +9,8 @@ private["_animalCorpse","_upp","_ui","_progress","_pgText","_cP","_displayName",
 _animalCorpse = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _animalCorpse) exitWith {}; //Object passed is null?
 
+if(currentWeapon player == RIFLE && RIFLE == "cl3_crossbow") exitWith {hint "Tu n'as pas l'arbalete en main";};
+
 life_interrupted = false;
 if(!((typeOf _animalCorpse) in ["Goat_random_F","Sheep_random_F"])) exitWith {};
 if(player distance _animalCorpse > 3.5) exitWith {};

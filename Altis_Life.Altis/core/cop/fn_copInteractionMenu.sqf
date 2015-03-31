@@ -109,6 +109,7 @@ life_pInact_curTarget = _curTarget;
 _Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
 _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
 
+if(currentWeapon player == PISTOL && PISTOL == "cl3_fingerprintscanner") then {_Btn3 ctrlEnable true; _Btn2 ctrlEnable true;} else {_Btn3 ctrlEnable false; _Btn2 ctrlEnable false;};
 //Set Check Licenses Button
 _Btn2 ctrlSetText localize "STR_pInAct_checkLicenses";
 _Btn2 buttonSetAction "[[player],""life_fnc_licenseCheck"",life_pInact_curTarget,FALSE] spawn life_fnc_MP";
