@@ -265,17 +265,17 @@ class Licenses {
 class VirtualShops {
 	class market {
 		name = "STR_Shops_Market";
-		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig" };
+		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig", "kebab" };
 	};
 
 	class rebmarket {
 		name = "STR_Shops_Rebel";
-		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter" };
+		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "kebab" };
 	};
 
 	class gang {
 		name = "STR_Shops_Gang";
-		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter" };
+		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "kebab" };
 	};
 	
 	class resine {
@@ -330,7 +330,7 @@ class VirtualShops {
 
 	class restau {
 		name = "STR_Shops_restau";
-		items[] = { "waterBottle", "cacahuete", "redgull", "tbacon", "burger", "blanquette", "redwine", "frite", "coca", "pizza" };
+		items[] = { "waterBottle", "cacahuete", "redgull", "tbacon", "burger", "blanquette", "redwine", "frite", "coca", "pizza", "kebab" };
 	};
 	
 	class oil {
