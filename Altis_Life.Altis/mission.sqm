@@ -16237,8 +16237,8 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorWhite";
-			a=100;
-			b=100;
+			a=50;
+			b=50;
 		};
 		class Item110
 		{
@@ -16346,8 +16346,8 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorWhite";
-			a=100;
-			b=100;
+			a=50;
+			b=50;
 		};
 		class Item123
 		{
@@ -17566,8 +17566,8 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorWhite";
-			a=100;
-			b=100;
+			a=50;
+			b=50;
 		};
 		class Item275
 		{
@@ -17732,8 +17732,8 @@ class Mission
 			markerType="ELLIPSE";
 			type="Empty";
 			colorName="ColorWhite";
-			a=100;
-			b=100;
+			a=50;
+			b=50;
 		};
 		class Item297
 		{
