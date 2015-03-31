@@ -156,6 +156,10 @@
 		<Original>Saisir Armes</Original>
 		<French>Saisir Armes</French>
 		</Key>
+		<Key ID="STR_pInAct_Breathalyzer">
+		<Original>Alcoolémie</Original>
+		<French>Alcoolémie</French>
+		</Key>
 		<Key ID="STR_pInAct_RestricU">
 		<Original>Saisir Uniform</Original>
 		<French>Saisir Uniform</French>
