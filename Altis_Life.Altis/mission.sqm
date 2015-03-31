@@ -18665,7 +18665,8 @@ class Mission
 			interruptable=1;
 			age="UNKNOWN";
 			name="trigger_tp_civ";
-			expActiv="player setPos (getMarkerPos ""civ_sans_maison"");";
+			expCond="this && (vehicle player) in thislist or player in thislist";
+			expActiv="(vehicle player) setPos (getMarkerPos ""civ_sans_maison""); hint ""Tu as été TP car tu allais spawn en pleine mer !"";";
 			class Effects
 			{
 			};
