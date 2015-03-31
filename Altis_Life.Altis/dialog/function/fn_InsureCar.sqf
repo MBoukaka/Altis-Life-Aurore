@@ -14,7 +14,7 @@ if(isNil "_vehicle") exitWith {hint "Il y a une erreur dans la sélection..."};
 
 _price = M_CONFIG(getNumber,CONFIG_VEHICLES,_vehicle,"insurance");
 
-if(!(EQUAL(typeName _price,typeName 0)) OR _price < 1) then {_price = 1000;};
+if(isNil "_price") then {_price = 150;};
 
 if(BANK < _price) exitWith {hint format[(localize "STR_Garage_CashError"),[_price] call life_fnc_numberText];};
 
