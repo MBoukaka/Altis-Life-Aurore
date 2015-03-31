@@ -2069,9 +2069,11 @@
  		</Key>
  		<Key ID="STR_NOTF_Gather_Success">
 			<Original>You have gathered %2 %1(s)</Original>
+			<french>Tu as récolté %2 %1(s)</french>
 		</Key>
 		<Key ID="STR_NOTF_GatherVeh">
 			<Original>You can't gather from inside a car!</Original>
+			<french>Tu ne peux pas récolter depuis une voiture !</french>
 		</Key>
 		<Key ID="STR_NOTF_NoLootingPerson">
 			<Original>You are not allowed to loot dead bodies</Original>
