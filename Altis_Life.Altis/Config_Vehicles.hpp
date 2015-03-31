@@ -2099,6 +2099,7 @@ class CfgVehicles {
         chopShop = 10540;
         textures[] = { };
     };
+	class cl3_mackr_del_black : cl3_mackr_del_gold {};
 	class cl3_mackr_del_black_white : cl3_mackr_del_gold {};
 	class cl3_mackr_del_blue : cl3_mackr_del_gold {};
 	class cl3_mackr_del_green_white : cl3_mackr_del_gold {};
