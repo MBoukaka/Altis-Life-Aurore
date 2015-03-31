@@ -116,7 +116,7 @@ class VirtualItems {
 	VITEMMACRO(cone, "STR_Item_cone", "cone", 3, 25, -1, false, -1, "aurore_data2\icons\items\cone.paa")
 	VITEMMACRO(vird, "STR_Item_vird", "vird", 4, 25, -1, false, -1, "aurore_data2\icons\items\vird.paa")
 	VITEMMACRO(virg, "STR_Item_virg", "virg", 4, 25, -1, false, -1, "aurore_data2\icons\items\virg.paa")
-	VITEMMACRO(relique, "STR_Item_relique", "relique", 4, 25, -1, true, -1, "")
+	VITEMMACRO(relique, "STR_Item_relique", "relique", 4, -1, 0, true, -1, "")
 	VITEMMACRO(champ, "STR_Item_champ", "champ", 3, 25, -1, true, -1, "")
 	VITEMMACRO(bottledbeer, "STR_Item_bottledbeer", "bottledbeer", 2, 120, 220, false, -1, "")
 	VITEMMACRO(bottledwhiskey, "STR_Item_bottledwhiskey", "bottledwhiskey", 2, 320, 420, false, -1, "")
