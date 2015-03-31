@@ -23,8 +23,8 @@ _price = switch(playerSide) do {
 	case independent: {SEL(M_CONFIG(getArray,CONFIG_VEHICLES,_vehicle,"storageFee"),2)};
 	case east: {SEL(M_CONFIG(getArray,CONFIG_VEHICLES,_vehicle,"storageFee"),4)};
 };
-if(isNil "_price") then {_price = "Default";};
-if(_price = 0 ) then {_price = 1000};
+
+if(isNil "_price") then {_price = 150;};
 
 if(BANK < _price) exitWith {hint format[(localize "STR_Garage_CashError"),[_price] call life_fnc_numberText];};
 
