@@ -13,9 +13,9 @@ disableSerialization;
 
 _ctrl = ctrlSelData(3503);
 _num = ctrlText 3506;
-if(!([_num] call TON_fnc_isnumber)) exitWith {hint "Invalid Number format";};
+if(!([_num] call TON_fnc_isnumber)) exitWith {hint "Mauvais format numérique";};
 _num = parseNumber(_num);
-if(_num < 1) exitWith {hint "You can't enter anything below 1!";};
+if(_num < 1) exitWith {hint "Tu ne peux pas mettre un nombre en dessous de 1 !";};
 
 if(life_trunk_vehicle isKindOf "House_F") then {
 	_mWeight = 0;
@@ -36,7 +36,7 @@ if(_ctrl == "champ" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehic
 if(_ctrl == "money") then
 {
 	_index = [_ctrl,_inv] call TON_fnc_index;
-	if(CASH < _num) exitWith {hint "You don't have that much cash on you to store in the vehicle!"};
+	if(CASH < _num) exitWith {hint "Tu n'as pas assez !"};
 	if(_index == -1) then
 	{
 		_inv pushBack [_ctrl,_num];
@@ -53,9 +53,9 @@ if(_ctrl == "money") then
 }
 	else
 {
-	if(((_totalWeight select 1) + _itemWeight) > (_totalWeight select 0)) exitWith {hint "The vehicle is either full or cannot hold that much."};
+	if(((_totalWeight select 1) + _itemWeight) > (_totalWeight select 0)) exitWith {hint "Le véhicule est plein !"};
 
-	if(!([false,_ctrl,_num] call life_fnc_handleInv)) exitWith {hint "Couldn't remove the items from your inventory to put in the vehicle.";};
+	if(!([false,_ctrl,_num] call life_fnc_handleInv)) exitWith {hint "Impossible de supprimer de ton inventaire pour mettre dans le véhicule.";};
 	_index = [_ctrl,_inv] call TON_fnc_index;
 	if(_index == -1) then
 	{

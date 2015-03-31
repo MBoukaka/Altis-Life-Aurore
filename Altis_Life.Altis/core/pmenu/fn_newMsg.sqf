@@ -33,22 +33,22 @@ switch(_type) do
 		if(isNUll life_smartphoneTarget) exitWith {hint format["No player selected!"];};
 		ctrlShow[88885, false];
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
-		if(_msg == "") exitWith {hint "Enter a message to send!";ctrlShow[88885, true];};
+		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[88885, true];};
 		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["You sent %1 a message: %2",name life_smartphoneTarget,_msg];	
+		hint format["Tu as envoyé à %1 un message : %2",name life_smartphoneTarget,_msg];	
 		ctrlShow[88885, true];
 		closeDialog 88883;
 	};
 	//copmessage
 	case 2:
 	{
-		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["The MST is currently unavailable."];};
+		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["Impossible actuellement."];};
 		ctrlShow[888895,false];
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
-		if(_msg == "") exitWith {hint "Enter a message to send!";ctrlShow[888895,true];};
+		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[888895,true];};
 		[[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		_to = "The Police";
-		hint format["You sent %1 a message: %2",_to,_msg];
+		hint format["Tu as envoyé à %1 un message : %2",_to,_msg];
 		ctrlShow[888895,true];
 		closeDialog 887890;
 	};
@@ -57,7 +57,7 @@ switch(_type) do
 	{
 		ctrlShow[888896,false];
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
-		if(_msg == "") exitWith {hint "Enter a message to send!";ctrlShow[888896,true];};
+		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[888896,true];};
 		[[ObjNull,_msg,player,2],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		_to = "The Admins";
 		hint format["You sent %1 a message: %2",_to,_msg];
@@ -67,24 +67,24 @@ switch(_type) do
 	//emsrequest
 	case 4:
 	{
-		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["The EMS is currently unavailable."];};
+		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Impossible actuellement."];};
 		ctrlShow[888899,false];
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
-		if(_msg == "") exitWith {hint "Enter a message to send!";ctrlShow[888899,true];};
+		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[888899,true];};
 		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["You have sent a message to all EMS Units.",_msg];
+		hint format["Tu as envoyé un message aux médecins.",_msg];
 		ctrlShow[888899,true];
 		closeDialog 887890;
 	};
 	//adminToPerson
 	case 5:
 	{
-		if((call life_adminlevel) < 1) exitWith {hint "Must be an admin";};
-		if(isNULL life_smartphoneTarget) exitWith {hint format["No contacts selected!"];};
+		if((call life_adminlevel) < 1) exitWith {hint "Tu dois etre un admin !";};
+		if(isNULL life_smartphoneTarget) exitWith {hint format["Pas de contacte sélectionné !"];};
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
-		if(_msg == "") exitWith {hint "Enter a message to send!";};
+		if(_msg == "") exitWith {hint "Il faut taper un message !";};
 		[[life_smartphoneTarget,_msg,player,4],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Admin Message Sent To: %1 - Message: %2",name life_smartphoneTarget,_msg];
+		hint format["Message admin envoyé à : %1 - Message: %2",name life_smartphoneTarget,_msg];
 		closeDialog 88883;
 	};
 	//emergencyloading
@@ -102,11 +102,11 @@ switch(_type) do
 	//adminMsgAll
 	case 7:
 	{
-		if((call life_adminlevel) < 1) exitWith {hint "Must be an admin";};
+		if((call life_adminlevel) < 1) exitWith {hint "Tu dois etre un admin.";};
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
-		if(_msg == "") exitWith {hint "Enter a message to send!";};
+		if(_msg == "") exitWith {hint "Il faut taper un message !";};
 		[[ObjNull,_msg,player,5],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Admin Message Sent To All: %1",_msg];
+		hint format["Message admin envoyé a tous : %1",_msg];
 		closeDialog 887890;
 	};
 };
