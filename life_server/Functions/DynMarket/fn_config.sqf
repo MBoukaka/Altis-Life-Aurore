@@ -33,28 +33,28 @@ DYNMARKET_Items_Groups =
 [
 	["Legal",
 		[
-			["oil_processed",-1,95,420],
-			["iron_refined",-1,95,435],
-			["diamond_cut",-1,110,485],
-			["copper_refined",-1,95,450],
-			["salt_refined",-1,87,345],
-			["glass",-1,80,315],
-			["cement",-1,65,355]
+			["oil_processed",-1,110,310],
+			["iron_refined",-1,115,315],
+			["diamond_cut",-1,175,375],
+			["copper_refined",-1,145,345],
+			["salt_refined",-1,130,330],
+			["glass",-1,100,300],
+			["cement",-1,100,300]
 		],
 		0.4
 	],
 	["Illegal", 
 		[
-			["turtle_raw",-1,600,2200],
-			["marijuana",-1,145,375],
-			["cocaine_processed",-1,180,550],
-			["heroin_processed",-1,160,440],
-			["resine",-1,180,525],
+			["turtle_raw",-1,845,1250],
+			["marijuana",-1,215,415],
+			["cocaine_processed",-1,340,540],
+			["heroin_processed",-1,249,449],
+			["resine",-1,260,460],
 			["explo",-1,84,310],
-			["champ",-1,88,220],
-			["relique",-1,180,480]
+			["champ",-1,50,250],
+			["relique",-1,220,420]
 		],
-		0.4
+		0.3
 	]
 ];
 
@@ -62,20 +62,20 @@ DYNMARKET_Items_Groups =
 
 DYNMARKET_Items_ToTrack        = 
 [
-	["oil_processed",185],
-	["resine",410],
-	["champ",120],
-	["iron_refined",190],
-	["diamond_cut",260],
-	["copper_refined",195],
-	["salt_refined",215],
-	["glass",180],
-	["cement",190],
-	["turtle_raw",1200],
+	["oil_processed",210],
+	["resine",360],
+	["champ",150],
+	["iron_refined",215],
+	["diamond_cut",275],
+	["copper_refined",245],
+	["salt_refined",230],
+	["glass",200],
+	["cement",200],
+	["turtle_raw",1100],
 	["explo",250],
-	["marijuana",350],
-	["cocaine_processed",570],
-	["heroin_processed",450],
+	["marijuana",315],
+	["cocaine_processed",440],
+	["heroin_processed",349],
 	["salema_grilled",4],
 	["ornate_grilled",4],
 	["mackerel_grilled",18],
