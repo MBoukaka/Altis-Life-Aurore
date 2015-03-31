@@ -817,6 +817,23 @@ class CarShops {
 			{ "O_Heli_Light_02_unarmed_F", 100000, "pilot" }
 		};
 	};
+	
+	class civ_avion {
+		side = "civ";
+		vehicles[] = {
+			{ "GNT_C185", 125000, "avion" },
+			{ "GNT_C185F", 125000, "avion" }
+		};
+	};
+	
+	class bandit_car {
+		side = "civ";
+		vehicles[] = {
+			{ "Digital_suv", 1100, "bandit" },
+			{ "B_G_Offroad_01_F", 4500, "bandit" },
+			{ "B_Heli_Light_01_F", 90000, "bandit" }
+		};
+	};
 
 	class cop_air {
 		side = "cop";
@@ -2470,7 +2487,9 @@ class CfgVehicles {
         chopShop = 1850;
         textures[] = { };
     };
-	
+
+//////////////////////////////////////////////////////////////////////////// ship SHOP
+
 	class C_Rubberboat {
         vItemSpace = 65;
         storageFee[] = { 65, 65, 0, 0 };
@@ -2505,6 +2524,243 @@ class CfgVehicles {
         chopShop = 5000;
         textures[] = { };
     };
+	
+//////////////////////////////////////////////////////////////////////////// cop SHOP
+
+	class demian2435_police_car  {
+        vItemSpace = 35;
+        storageFee[] = { 0, 45, 0, 0 };
+		garageSell[] = { 0, 850, 0, 0 };
+        insurance = 750;
+        chopShop = 150;
+        textures[] = { };
+    };
+	class demian2435_police_offroad  {
+        vItemSpace = 45;
+        storageFee[] = { 0, 55, 0, 0 };
+		garageSell[] = { 0, 950, 0, 0 };
+        insurance = 850;
+        chopShop = 250;
+        textures[] = { };
+    };
+	class Orel_Rangoo  {
+        vItemSpace = 49;
+        storageFee[] = { 0, 59, 0, 0 };
+		garageSell[] = { 0, 1059, 0, 0 };
+        insurance = 950;
+        chopShop = 275;
+        textures[] = { };
+    };
+	class DAR_CVPIAux  {
+        vItemSpace = 55;
+        storageFee[] = { 0, 60, 0, 0 };
+		garageSell[] = { 0, 1150, 0, 0 };
+        insurance = 1050;
+        chopShop = 300;
+        textures[] = { };
+    };
+	class DAR_CVPIPolice : DAR_CVPIAux {};
+	class DAR_CVPISlick : DAR_CVPIAux {};
+	class cl3_enduro_police  {
+        vItemSpace = 20;
+        storageFee[] = { 0, 35, 0, 0 };
+		garageSell[] = { 0, 450, 0, 0 };
+        insurance = 400;
+        chopShop = 100;
+        textures[] = { };
+    };
+	class cl3_xr_1000_police : cl3_enduro_police {};
+	class Orel_Master  {
+        vItemSpace = 60;
+        storageFee[] = { 0, 60, 0, 0 };
+		garageSell[] = { 0, 2500, 0, 0 };
+        insurance = 1550;
+        chopShop = 265;
+        textures[] = { };
+    };
+	class DAR_ImpalaPolice  {
+        vItemSpace = 60;
+        storageFee[] = { 0, 60, 0, 0 };
+		garageSell[] = { 0, 3500, 0, 0 };
+        insurance = 2550;
+        chopShop = 365;
+        textures[] = { };
+    };
+	class DAR_ImpalaPoliceSlick : DAR_ImpalaPolice {};
+	class DAR_ImpalaPoliceDet : DAR_ImpalaPolice {};
+	class Orel_Payenne  {
+        vItemSpace = 60;
+        storageFee[] = { 0, 60, 0, 0 };
+		garageSell[] = { 0, 3700, 0, 0 };
+        insurance = 2750;
+        chopShop = 375;
+        textures[] = { };
+    };
+	class DAR_TaurusPolice  {
+        vItemSpace = 60;
+        storageFee[] = { 0, 60, 0, 0 };
+		garageSell[] = { 0, 4700, 0, 0 };
+        insurance = 3750;
+        chopShop = 475;
+        textures[] = { };
+    };
+	class DAR_TaurusPoliceState : DAR_TaurusPolice {};
+	class DAR_TaurusPoliceStateSlick : DAR_TaurusPolice {};
+	class A3L_GrandCaravanUCBlack  {
+        vItemSpace = 60;
+        storageFee[] = { 0, 60, 0, 0 };
+		garageSell[] = { 0, 4800, 0, 0 };
+        insurance = 3850;
+        chopShop = 485;
+        textures[] = { };
+    };
+	class DAR_ExplorerPolice  {
+        vItemSpace = 60;
+        storageFee[] = { 0, 60, 0, 0 };
+		garageSell[] = { 0, 5000, 0, 0 };
+        insurance = 4050;
+        chopShop = 585;
+        textures[] = { };
+    };
+	class DAR_TahoePolice : DAR_ExplorerPolice {};
+	class DAR_TahoePoliceSlick : DAR_ExplorerPolice {};
+	class DAR_ChargerPoliceState : DAR_ExplorerPolice {};
+	class DAR_ChargerPoliceStateSlick : DAR_ExplorerPolice {};
+	class REV_GDM  {
+        vItemSpace = 60;
+        storageFee[] = { 0, 115, 0, 0 };
+		garageSell[] = { 0, 15000, 0, 0 };
+        insurance = 14500;
+        chopShop = 850;
+        textures[] = { };
+    };
+	class Aurore_rev_gdm : REV_GDM {};
+	class Aurore_rev_gdm1 : REV_GDM {};
+	class Aurore_q7_gdm  {
+        vItemSpace = 60;
+        storageFee[] = { 0, 105, 0, 0 };
+		garageSell[] = { 0, 11000, 0, 0 };
+        insurance = 10500;
+        chopShop = 750;
+        textures[] = { };
+    };
+	class Orel_Dingo  {
+        vItemSpace = 65;
+        storageFee[] = { 0, 105, 0, 0 };
+		garageSell[] = { 0, 15000, 0, 0 };
+        insurance = 13500;
+        chopShop = 950;
+        textures[] = { };
+    };
+
+//////////////////////////////////////////////////////////////////////////// restau SHOP
+	
+	class cl3_dodge_charger_s_camourban  {
+        vItemSpace = 65;
+        storageFee[] = { 0, 105, 0, 0 };
+		garageSell[] = { 0, 35000, 0, 0 };
+        insurance = 40000;
+        chopShop = 2540;
+        textures[] = { };
+    };
+
+//////////////////////////////////////////////////////////////////////////// REB SHOP
+
+	class Neige_Offroad  {
+        vItemSpace = 65;
+        storageFee[] = { 0, 85, 0, 0 };
+		garageSell[] = { 0, 2500, 0, 0 };
+        insurance = 1560;
+        chopShop = 156;
+        textures[] = { };
+    };
+	class Vert_Offroad : Neige_Offroad {};
+	class Choco_Offroad : Neige_Offroad {};
+	class Choco_suv : Neige_Offroad {};
+	class Neige_suv : Neige_Offroad {};
+	class Vert_suv : Neige_Offroad {};
+	class WP_SUV_01_F : Neige_Offroad {};
+	class WP_Offroad : Neige_Offroad {};
+
+//////////////////////////////////////////////////////////////////////////// MOTO SHOP
+
+	class cl3_enduro_babyblue  {
+        vItemSpace = 35;
+        storageFee[] = { 0, 265, 0, 0 };
+		garageSell[] = { 0, 9500, 0, 0 };
+        insurance = 8500;
+        chopShop = 456;
+        textures[] = { };
+    };
+	class cl3_enduro_babypink : cl3_enduro_babyblue {};
+	class cl3_enduro_black : cl3_enduro_babyblue {};
+	class cl3_enduro_blue : cl3_enduro_babyblue {};
+	class cl3_enduro_burgundy : cl3_enduro_babyblue {};
+	class cl3_enduro_camo : cl3_enduro_babyblue {};
+	class cl3_enduro_dark_green : cl3_enduro_babyblue {};
+	class cl3_enduro_grey : cl3_enduro_babyblue {};
+	class cl3_enduro_lavender : cl3_enduro_babyblue {};
+	class cl3_enduro_light_blue : cl3_enduro_babyblue {};
+	class cl3_enduro_marina_blue : cl3_enduro_babyblue {};
+	class cl3_enduro_orange : cl3_enduro_babyblue {};
+	class cl3_enduro_purple : cl3_enduro_babyblue {};
+	class cl3_enduro_sand : cl3_enduro_babyblue {};
+	class cl3_enduro_silver : cl3_enduro_babyblue {};
+	class cl3_enduro_violet : cl3_enduro_babyblue {};
+	class cl3_enduro_white : cl3_enduro_babyblue {};
+	class cl3_enduro_yellow : cl3_enduro_babyblue {};
+	class cl3_xr_1000_aqua  {
+        vItemSpace = 35;
+        storageFee[] = { 0, 265, 0, 0 };
+		garageSell[] = { 0, 14500, 0, 0 };
+        insurance = 12500;
+        chopShop = 856;
+        textures[] = { };
+    };
+	class cl3_xr_1000_babyblue : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_blue : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_burgundy : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_camo_urban : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_cardinal : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_dark_green : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_green : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_grey : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_lavender : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_light_blue : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_light_yellow : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_lime : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_marina_blue : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_navy_blue : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_orange : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_purple : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_red : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_sand : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_silver : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_white : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_violet : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_yellow : cl3_xr_1000_aqua {};
+
+//////////////////////////////////////////////////////////////////////////// AVION et bandit SHOP
+	
+	class GNT_C185 {
+        vItemSpace = 55;
+        storageFee[] = { 2560, 0, 0, 0 };
+		garageSell[] = { 85000, 0, 0, 0 };
+        insurance = 75000;
+        chopShop = 12500;
+        textures[] = { };
+    };
+	class GNT_C185F : GNT_C185 {};
+	class Digital_suv {
+        vItemSpace = 65;
+        storageFee[] = { 65, 0, 0, 0 };
+		garageSell[] = { 850, 0, 0, 0 };
+        insurance = 556;
+        chopShop = 150;
+        textures[] = { };
+    };
+	
+//////////////////////////////////////////////////////////////////////////// MED SHOP
 
 	class Land_CargoBox_V1_F : Default {
         vItemSpace = 5000;
