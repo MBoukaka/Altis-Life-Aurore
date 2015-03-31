@@ -20,8 +20,8 @@ if(_unit == player) exitWith {ctrlShow[2001,true];};
 if(isNull _unit) exitWith {ctrlShow[2001,true];};
 
 //A series of checks *ugh*
-if(!life_use_atm) exitWith {hint "Tu viens de braquer la banque, tu ne peux pas déposer pour l'instant.";ctrlShow[2001,true];};
-if(!([_amount] call TON_fnc_isnumber)) exitWith {hint "Choisis un format numérique.";ctrlShow[2001,true];};
+if(!life_use_atm) exitWith {hint "Tu viens de braquer la banque, tu ne peux pas deposer pour l'instant.";ctrlShow[2001,true];};
+if(!([_amount] call TON_fnc_isnumber)) exitWith {hint "Choisis un format numerique.";ctrlShow[2001,true];};
 if(parseNumber(_amount) <= 0) exitWith {hint "Choisis un nombre !";ctrlShow[2001,true];};
 if(parseNumber(_amount) > CASH) exitWith {hint "Tu n'as pas autant !";ctrlShow[2001,true];};
 if(isNull _unit) exitWith {ctrlShow[2001,true];};

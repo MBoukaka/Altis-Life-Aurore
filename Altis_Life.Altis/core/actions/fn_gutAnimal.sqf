@@ -58,7 +58,7 @@ if(player != vehicle player) exitWith {titleText[localize "STR_NOTF_RepairingInV
 
 if(([true,_item,1] call life_fnc_handleInv)) then {
 	deleteVehicle _animalCorpse;
-	titleText [format["Tu as récolté plusieurs viande de %1",_displayName],"PLAIN"];
+	titleText [format["Tu as recolte plusieurs viande de %1",_displayName],"PLAIN"];
 } else {
 	titleText ["Ton inventaire est plein.","PLAIN"];
 };

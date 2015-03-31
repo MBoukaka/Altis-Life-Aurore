@@ -11,7 +11,7 @@
 private["_unit","_val"];
 _val = ctrlText 2010;
 ctrlShow[2002,false];
-if((lbCurSel 2023) == -1) exitWith {hint "Tu n'as rien séléctionné";ctrlShow[2002,true];};
+if((lbCurSel 2023) == -1) exitWith {hint "Tu n'as rien selectionne";ctrlShow[2002,true];};
 _unit = lbData [2023,lbCurSel 2023];
 _unit = call compile format["%1",_unit];
 if((lbCurSel 2005) == -1) exitWith {hint "Choisis un objet !";ctrlShow[2002,true];};
@@ -21,7 +21,7 @@ if(_unit == player) exitWith {ctrlShow[2002,true];};
 if(isNull _unit) exitWith {ctrlShow[2002,true];};
 
 //A series of checks *ugh*
-if(!([_val] call TON_fnc_isnumber)) exitWith {hint "Format numérique obligatoire.";ctrlShow[2002,true];};
+if(!([_val] call TON_fnc_isnumber)) exitWith {hint "Format numerique obligatoire.";ctrlShow[2002,true];};
 if(parseNumber(_val) <= 0) exitWith {hint "Choisis un nombre !.";ctrlShow[2002,true];};
 if(isNil "_unit") exitWith {ctrlShow[2001,true]; hint "Le joueur est trop loin.";};
 if(!([false,_item,(parseNumber _val)] call life_fnc_handleInv)) exitWith {hint "Tu ne peux pas en donner autant !";ctrlShow[2002,true];};

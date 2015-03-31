@@ -11,7 +11,7 @@ _uid = getPlayerUID player;
 
 if(isNull _house) exitWith {};
 if(!(_house isKindOf "House_F")) exitWith {};
-if((_house GVAR ["house_owned",false])) exitWith {hint "Cette maison est déjà achetée !"};
+if((_house GVAR ["house_owned",false])) exitWith {hint "Cette maison appartient a quelqu'un !"};
 if(!isNil {(_house GVAR "house_sold")}) exitWith {hint localize "STR_House_Sell_Process"};
 if(!license_civ_home) exitWith {hint localize "STR_House_License"};
 if(count life_houses >= (LIFE_SETTINGS(getNumber,"house_limit"))) exitWith {hint format[localize "STR_House_Max_House",LIFE_SETTINGS(getNumber,"house_limit")]};

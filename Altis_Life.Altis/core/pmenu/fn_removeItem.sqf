@@ -12,12 +12,12 @@ disableSerialization;
 _data = lbData[2005,(lbCurSel 2005)];
 _value = ctrlText 2010;
 if(EQUAL(_data,"")) exitWith {hint "Choisis quelque chose !";};
-if(!([_value] call TON_fnc_isnumber)) exitWith {hint "Format numérique obligatoire !"};
+if(!([_value] call TON_fnc_isnumber)) exitWith {hint "Format numerique obligatoire !"};
 if(parseNumber(_value) <= 0) exitWith {hint "Choisis un nombre !"};
-if(EQUAL(ITEM_ILLEGAL(_data),1) && ([west,visiblePosition player,100] call life_fnc_nearUnits)) exitWith {titleText["Il y a des flics à coté ! Tu ne peux pas le jeter !","PLAIN"]};
-if(player != vehicle player) exitWith {titleText["Tu ne peux pas depuis ton véhicule.","PLAIN"]};
+if(EQUAL(ITEM_ILLEGAL(_data),1) && ([west,visiblePosition player,100] call life_fnc_nearUnits)) exitWith {titleText["Il y a des flics tout pret ! Tu ne peux pas le jeter !","PLAIN"]};
+if(player != vehicle player) exitWith {titleText["Tu ne peux pas depuis ton vehicule.","PLAIN"]};
 if(!([false,_data,(parseNumber _value)] call life_fnc_handleInv)) exitWith {hint "Tu n'en as pas autant !"};
 
-hint format["Tu as supprimé %1 %2 de ton inventaire.",(parseNumber _value),(localize ITEM_NAME(_data))];
+hint format["Tu as supprime %1 %2 de ton inventaire.",(parseNumber _value),(localize ITEM_NAME(_data))];
 	
 [] call life_fnc_p_updateInventory;
