@@ -118,9 +118,9 @@ class VirtualItems {
 	VITEMMACRO(virg, "STR_Item_virg", "virg", 4, 25, -1, false, -1, "aurore_data2\icons\items\virg.paa")
 	VITEMMACRO(relique, "STR_Item_relique", "relique", 4, -1, 0, true, -1, "")
 	VITEMMACRO(champ, "STR_Item_champ", "champ", 3, 25, -1, true, -1, "")
-	VITEMMACRO(bottledbeer, "STR_Item_bottledbeer", "bottledbeer", 2, 120, 220, false, -1, "")
-	VITEMMACRO(bottledwhiskey, "STR_Item_bottledwhiskey", "bottledwhiskey", 2, 320, 420, false, -1, "")
-	VITEMMACRO(bottledshine, "STR_Item_bottledshine", "bottledshine", 2, 420, 520, false, -1, "")
+	VITEMMACRO(bottledbeer, "STR_Item_bottledbeer", "bottledbeer", 2, 120, 0, false, -1, "")
+	VITEMMACRO(bottledwhiskey, "STR_Item_bottledwhiskey", "bottledwhiskey", 2, 320, 0, false, -1, "")
+	VITEMMACRO(bottledshine, "STR_Item_bottledshine", "bottledshine", 2, 420, 0, false, -1, "")
 	VITEMMACRO(beerp, "STR_Item_beerp", "beerp", 2, -1, 0, false, -1, "")
 	VITEMMACRO(whiskey, "STR_Item_whiskey", "whiskey", 2, -1, 0, false, -1, "")
 
@@ -143,7 +143,7 @@ class VirtualItems {
 	VITEMMACRO(explo, "STR_Item_explo", "explo", 3, -1, 0, true, -1, "")
 	VITEMMACRO(bois, "STR_Item_bois", "bois", 4, -1, 0, false, -1, "")
 	VITEMMACRO(papier, "STR_Item_papier", "papier", 2, -1, 0, false, -1, "")
-	VITEMMACRO(billet, "STR_Item_billet", "billet", 2, -1, 368, true, -1, "")
+	VITEMMACRO(billet, "STR_Item_billet", "billet", 2, -1, 0, true, -1, "")
 	VITEMMACRO(rye, "STR_Item_rye", "rye", 2, -1, 0, false, -1, "")
 	VITEMMACRO(hops, "STR_Item_hops", "hops", 2, -1, 0, false, -1, "")
 
