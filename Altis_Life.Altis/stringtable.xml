@@ -38,6 +38,10 @@
 			<Original>Tortue</Original>
 			<French>Tortue</French>
 		</Key>
+		<Key ID="STR_Item_kebab">
+			<Original>Kebab sauce Blanche</Original>
+			<French>Kebab</French>
+		</Key>
 		<Key ID="STR_Item_bois">
 			<Original>Bois brut</Original>
 			<French>Bois brut</French>

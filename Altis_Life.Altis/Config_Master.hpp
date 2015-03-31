@@ -165,6 +165,7 @@ class VirtualItems {
 	VITEMMACRO(apple, "STR_Item_Apple", "apple", 2, 6, 0, false, 15, "aurore_data2\icons\items\apple.paa")
 	VITEMMACRO(peach, "STR_Item_Peach", "peach", 2, 7, 0, false, 20, "aurore_data2\icons\items\peach.paa")
 	VITEMMACRO(tbacon, "STR_Item_TBacon", "tbacon", 2, 8, -1, false, 40, "icons\ico_tbacon.paa")
+	VITEMMACRO(kebab, "STR_Item_kebab", "kebab", 2, 8, -1, false, 40, "")
 	VITEMMACRO(donut, "STR_Item_Donuts", "donut", 2, 10, -1, false, 30, "aurore_data2\icons\items\donuts.paa")
 	VITEMMACRO(rabbit_raw, "STR_Item_Rabbit", "rabbitRaw", 5, -1, -1, false, -1, "icons\food.paa")
 	VITEMMACRO(rabbit_grilled, "STR_Item_RabbitGrilled", "rabbitGrilled", 4, -1, 0, false, 20, "icons\ico_cookedMeat.paa")
