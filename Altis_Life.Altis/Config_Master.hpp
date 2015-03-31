@@ -272,6 +272,11 @@ class VirtualShops {
 		name = "STR_Shops_Rebel";
 		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "kebab" };
 	};
+	
+	class escomarket {
+		name = "STR_Shops_Rebel";
+		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "kebab" };
+	};
 
 	class gang {
 		name = "STR_Shops_Gang";
