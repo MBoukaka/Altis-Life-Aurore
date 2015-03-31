@@ -25,8 +25,8 @@ _sellPrice = switch(playerSide) do {
 	case independent: {SEL(M_CONFIG(getArray,CONFIG_VEHICLES,_vehicle,"garageSell"),2)};
 	case east: {SEL(M_CONFIG(getArray,CONFIG_VEHICLES,_vehicle,"garageSell"),4)};
 };
+if(isNil "_sellPrice") exitWith {_sellPrice = 150;};
 
-if(!(EQUAL(typeName _sellPrice,typeName 0)) OR _sellPrice < 1) then {_sellPrice = 1000};
 [[_vid,_pid,_sellPrice,player,life_garage_type],"TON_fnc_vehicleDelete",false,false] call life_fnc_MP;
 hint format[localize "STR_Garage_SoldCar",[_sellPrice] call life_fnc_numberText];
 ADD(BANK,_sellPrice);
