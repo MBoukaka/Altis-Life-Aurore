@@ -15370,7 +15370,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=390;
+		items=392;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -17914,7 +17914,7 @@ class Mission
 		class Item321
 		{
 			position[]={18279.24,47.290123,15513.035};
-			name="house_papy";
+			name="wood_spawn";
 			type="Empty";
 			angle=886.45099;
 		};
@@ -18432,6 +18432,20 @@ class Mission
 			position[]={16815.277,23.980742,12648.066};
 			name="civ_sans_maison";
 			type="Empty";
+		};
+		class Item390
+		{
+			position[]={17186.176,15.175215,17931.145};
+			name="macumba_spawn";
+			type="Empty";
+			angle=886.45099;
+		};
+		class Item391
+		{
+			position[]={25746.633,16.205906,21214.498};
+			name="macumba_spawn_1";
+			type="Empty";
+			angle=886.45099;
 		};
 	};
 	class Sensors
