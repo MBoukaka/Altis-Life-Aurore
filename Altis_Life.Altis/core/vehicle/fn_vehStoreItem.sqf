@@ -28,10 +28,10 @@ _itemWeight = ([_ctrl] call life_fnc_itemWeight) * _num;
 _veh_data = life_trunk_vehicle getVariable ["Trunk",[[],0]];
 _inv = _veh_data select 0;
 
-if(_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
+if(_ctrl == "goldbar" && {!(life_trunk_vehicle isKindOf "LandVehicle" OR life_trunk_vehicle isKindOf "House_F")}) exitWith {hint "Tu ne peux pas le transporter dans ce vehicule !!"};
 if(_ctrl == "goldbar" && (typeOf life_trunk_vehicle in ["I_Truck_02_transport_F","I_Truck_02_covered_F"])) exitWith {hint "Le chassis du Zamak ne supporte pas les lingots!"};
-if(_ctrl == "relique" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehicle isKindOf "LandVehicle")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
-if(_ctrl == "champ" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehicle isKindOf "LandVehicle")}) exitWith {hint "Tu ne peux pas le transporter dans ce véhicule !!"};
+if(_ctrl == "relique" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehicle isKindOf "LandVehicle")}) exitWith {hint "Tu ne peux pas le transporter dans ce vehicule !!"};
+if(_ctrl == "champ" && {!(life_trunk_vehicle isKindOf "ship" OR life_trunk_vehicle isKindOf "LandVehicle")}) exitWith {hint "Tu ne peux pas le transporter dans ce vehicule !!"};
 
 if(_ctrl == "money") then
 {
@@ -53,9 +53,9 @@ if(_ctrl == "money") then
 }
 	else
 {
-	if(((_totalWeight select 1) + _itemWeight) > (_totalWeight select 0)) exitWith {hint "Le véhicule est plein !"};
+	if(((_totalWeight select 1) + _itemWeight) > (_totalWeight select 0)) exitWith {hint "Le vehicule est plein !"};
 
-	if(!([false,_ctrl,_num] call life_fnc_handleInv)) exitWith {hint "Impossible de supprimer de ton inventaire pour mettre dans le véhicule.";};
+	if(!([false,_ctrl,_num] call life_fnc_handleInv)) exitWith {hint "Impossible de supprimer de ton inventaire pour mettre dans le vehicule.";};
 	_index = [_ctrl,_inv] call TON_fnc_index;
 	if(_index == -1) then
 	{

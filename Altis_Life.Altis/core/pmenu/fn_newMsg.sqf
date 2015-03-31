@@ -21,7 +21,7 @@ switch(_type) do
 	case 0:
 	{
 		life_smartphoneTarget = call compile format["%1",_playerData];
-		ctrlSetText[88886, format["Message To: %1",name life_smartphoneTarget]];
+		ctrlSetText[88886, format["Message a: %1",name life_smartphoneTarget]];
 		if((FETCH_CONST(life_adminlevel) < 1)) then
 		{
 			ctrlShow[888897,false];
@@ -35,7 +35,7 @@ switch(_type) do
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
 		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[88885, true];};
 		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Tu as envoyé à %1 un message : %2",name life_smartphoneTarget,_msg];	
+		hint format["Tu as envoye un message a : %1 : %2",name life_smartphoneTarget,_msg];	
 		ctrlShow[88885, true];
 		closeDialog 88883;
 	};
@@ -48,7 +48,7 @@ switch(_type) do
 		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[888895,true];};
 		[[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		_to = "The Police";
-		hint format["Tu as envoyé à %1 un message : %2",_to,_msg];
+		hint format["Tu as envoye un message à %1 : %2",_to,_msg];
 		ctrlShow[888895,true];
 		closeDialog 887890;
 	};
@@ -60,7 +60,7 @@ switch(_type) do
 		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[888896,true];};
 		[[ObjNull,_msg,player,2],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		_to = "The Admins";
-		hint format["You sent %1 a message: %2",_to,_msg];
+		hint format["Tu as envoye un message a %1 : %2",_to,_msg];
 		ctrlShow[888896,true];
 		closeDialog 887890;
 	};
@@ -72,7 +72,7 @@ switch(_type) do
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
 		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[888899,true];};
 		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Tu as envoyé un message aux médecins.",_msg];
+		hint format["Tu as envoye un message aux medecins.",_msg];
 		ctrlShow[888899,true];
 		closeDialog 887890;
 	};
@@ -80,11 +80,11 @@ switch(_type) do
 	case 5:
 	{
 		if((call life_adminlevel) < 1) exitWith {hint "Tu dois etre un admin !";};
-		if(isNULL life_smartphoneTarget) exitWith {hint format["Pas de contacte sélectionné !"];};
+		if(isNULL life_smartphoneTarget) exitWith {hint format["Pas de contacte defini !"];};
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
 		if(_msg == "") exitWith {hint "Il faut taper un message !";};
 		[[life_smartphoneTarget,_msg,player,4],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Message admin envoyé à : %1 - Message: %2",name life_smartphoneTarget,_msg];
+		hint format["Message admin envoye a : %1 - Message: %2",name life_smartphoneTarget,_msg];
 		closeDialog 88883;
 	};
 	//emergencyloading
@@ -106,7 +106,7 @@ switch(_type) do
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
 		if(_msg == "") exitWith {hint "Il faut taper un message !";};
 		[[ObjNull,_msg,player,5],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Message admin envoyé a tous : %1",_msg];
+		hint format["Message admin envoye a tous : %1",_msg];
 		closeDialog 887890;
 	};
 };

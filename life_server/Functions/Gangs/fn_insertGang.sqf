@@ -20,7 +20,7 @@ _queryResult = [_query,2] call DB_fnc_asyncCall;
 
 //Check to see if the gang name already exists.
 if(!(EQUAL(count _queryResult,0))) exitWith {
-	[[1,"Il y a déjà un gang avec ce nom !"],"life_fnc_broadcast",_ownerID,false] call life_fnc_MP;
+	[[1,"Il y a deja un gang avec ce nom !"],"life_fnc_broadcast",_ownerID,false] call life_fnc_MP;
 	life_action_gangInUse = nil;
 	PVAR_ID("life_action_gangInUse",_ownerID);
 };
@@ -31,7 +31,7 @@ _queryResult = [_query,2] call DB_fnc_asyncCall;
 
 //Check to see if this person already owns or belongs to a gang.
 if(!(EQUAL(count _queryResult,0))) exitWith {
-	[[1,"Tu es déjà dans un gang !"],"life_fnc_broadcast",_ownerID,false] call life_fnc_MP;
+	[[1,"Tu es deja dans un gang !"],"life_fnc_broadcast",_ownerID,false] call life_fnc_MP;
 	life_action_gangInUse = nil;
 	PVAR_ID("life_action_gangInUse",_ownerID);
 };

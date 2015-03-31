@@ -11,4 +11,4 @@ _from = [_this,1,"",[""]] call BIS_fnc_param;
 
 if(EQUAL(_value,0) OR EQUAL(_from,"") OR EQUAL(_from,profileName)) exitWith {}; //No
 ADD(BANK,_value);
-hint format["%1 t'a envoyé $%2.",_from,[_value] call life_fnc_numberText];
+hint format["%1 t'a envoye $%2.",_from,[_value] call life_fnc_numberText];
