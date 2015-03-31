@@ -114,11 +114,11 @@ private[""_msg"",""_to""];
 	ctrlShow[3022,false];
 	_msg = ctrlText 3003;
 	_to = ""EMS Units"";
-	if(_msg == """") exitWith {hint ""You must enter a message to send!"";ctrlShow[3022,true];};
+	if(_msg == """") exitWith {hint ""Il faut entrer un message !"";ctrlShow[3022,true];};
 		
 	[[_msg,name player,5],""TON_fnc_clientMessage"",independent,false] call life_fnc_MP;
 	[] call life_fnc_cellphone;
-	hint format[""You have sent a message to all EMS Units."",_to,_msg];
+	hint format[""Tu as envoyé un message aux médecins."",_to,_msg];
 	ctrlShow[3022,true];
 ";
 //To One Person
@@ -127,15 +127,15 @@ compileFinal "
 	private[""_msg"",""_to""];
 	ctrlShow[3015,false];
 	_msg = ctrlText 3003;
-	if(lbCurSel 3004 == -1) exitWith {hint ""You must select a player you are sending the text to!""; ctrlShow[3015,true];};
+	if(lbCurSel 3004 == -1) exitWith {hint ""Il faut choisir un joueur.""; ctrlShow[3015,true];};
 	_to = call compile format[""%1"",(lbData[3004,(lbCurSel 3004)])];
 	if(isNull _to) exitWith {ctrlShow[3015,true];};
 	if(isNil ""_to"") exitWith {ctrlShow[3015,true];};
-	if(_msg == """") exitWith {hint ""You must enter a message to send!"";ctrlShow[3015,true];};
+	if(_msg == """") exitWith {hint ""Il faut taper un message !!"";ctrlShow[3015,true];};
 	
 	[[_msg,name player,0],""TON_fnc_clientMessage"",_to,false] call life_fnc_MP;
 	[] call life_fnc_cellphone;
-	hint format[""You sent %1 a message: %2"",name _to,_msg];
+	hint format[""Tu as envoyé à %1 un message : %2"",name _to,_msg];
 	ctrlShow[3015,true];
 ";
 //To All Cops
@@ -145,7 +145,7 @@ compileFinal "
 	ctrlShow[3016,false];
 	_msg = ctrlText 3003;
 	_to = ""The Police"";
-	if(_msg == """") exitWith {hint ""You must enter a message to send!"";ctrlShow[3016,true];};
+	if(_msg == """") exitWith {hint ""Il faut taper un message !"";ctrlShow[3016,true];};
 		
 	[[_msg,name player,1],""TON_fnc_clientMessage"",true,false] call life_fnc_MP;
 	[] call life_fnc_cellphone;
@@ -159,40 +159,40 @@ compileFinal "
 	ctrlShow[3017,false];
 	_msg = ctrlText 3003;
 	_to = ""The Admins"";
-	if(_msg == """") exitWith {hint ""You must enter a message to send!"";ctrlShow[3017,true];};
+	if(_msg == """") exitWith {hint ""Il faut taper un message !"";ctrlShow[3017,true];};
 		
 	[[_msg,name player,2],""TON_fnc_clientMessage"",true,false] call life_fnc_MP;
 	[] call life_fnc_cellphone;
-	hint format[""You sent %1 a message: %2"",_to,_msg];
+	hint format[""Tu as envoyé à %1 un message : %2"",_to,_msg];
 	ctrlShow[3017,true];
 ";
 //Admin To One Person
 TON_fnc_cell_adminmsg =
 compileFinal "
 	if(isServer) exitWith {};
-	if((call life_adminlevel) < 1) exitWith {hint ""You are not an admin!"";};
+	if((call life_adminlevel) < 1) exitWith {hint ""Tu n'es pas un admin !"";};
 	private[""_msg"",""_to""];
 	_msg = ctrlText 3003;
 	_to = call compile format[""%1"",(lbData[3004,(lbCurSel 3004)])];
 	if(isNull _to) exitWith {};
-	if(_msg == """") exitWith {hint ""You must enter a message to send!"";};
+	if(_msg == """") exitWith {hint ""Il faut taper un message !"";};
 	
 	[[_msg,name player,3],""TON_fnc_clientMessage"",_to,false] call life_fnc_MP;
 	[] call life_fnc_cellphone;
-	hint format[""Admin Message Sent To: %1 - Message: %2"",name _to,_msg];
+	hint format[""Message Admin envoyé à: %1 - Message : %2"",name _to,_msg];
 ";
 
 TON_fnc_cell_adminmsgall =
 compileFinal "
 	if(isServer) exitWith {};
-	if((call life_adminlevel) < 1) exitWith {hint ""You are not an admin!"";};
+	if((call life_adminlevel) < 1) exitWith {hint ""Tu n'es pas un admin !"";};
 	private[""_msg"",""_from""];
 	_msg = ctrlText 3003;
-	if(_msg == """") exitWith {hint ""You must enter a message to send!"";};
+	if(_msg == """") exitWith {hint ""Il faut taper un message !"";};
 	
 	[[_msg,name player,4],""TON_fnc_clientMessage"",true,false] call life_fnc_MP;
 	[] call life_fnc_cellphone;
-	hint format[""Admin Message Sent To All: %1"",_msg];
+	hint format[""Message admin envoyé à tous : %1"",_msg];
 ";
 
 publicVariable "TON_fnc_cell_textmsg";
@@ -223,9 +223,9 @@ compileFinal "
 		{
 			private[""_message""];
 			_message = format["">>>MESSAGE FROM %1: %2"",_from,_msg];
-			hint parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>New Message<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>You<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			hint parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>Nouveau Message<br/><br/><t color='#33CC33'><t align='left'><t size='1'>à: <t color='#ffffff'>You<br/><t color='#33CC33'>De: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
 			
-			[""TextMessage"",[format[""You Received A New Private Message From %1"",_from]]] call bis_fnc_showNotification;
+			[""TextMessage"",[format[""Tu as reçu un nouveau message privé de %1"",_from]]] call bis_fnc_showNotification;
 			systemChat _message;
 		};
 		
@@ -234,9 +234,9 @@ compileFinal "
 			if(side player != west) exitWith {};
 			private[""_message""];
 			_message = format[""---911 DISPATCH FROM %1: %2"",_from,_msg];
-			hint parseText format [""<t color='#316dff'><t size='2'><t align='center'>New Dispatch<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>All Officers<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			hint parseText format [""<t color='#316dff'><t size='2'><t align='center'>Alerte Police<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>All Officers<br/><t color='#33CC33'>De : <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
 			
-			[""PoliceDispatch"",[format[""A New Police Report From: %1"",_from]]] call bis_fnc_showNotification;
+			[""PoliceDispatch"",[format[""Nouvelle alerte police de : %1"",_from]]] call bis_fnc_showNotification;
 			systemChat _message;
 		};
 		
@@ -245,9 +245,9 @@ compileFinal "
 			if((call life_adminlevel) < 1) exitWith {};
 			private[""_message""];
 			_message = format[""???ADMIN REQUEST FROM %1: %2"",_from,_msg];
-			hint parseText format [""<t color='#ffcefe'><t size='2'><t align='center'>Admin Request<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>Admins<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			hint parseText format [""<t color='#ffcefe'><t size='2'><t align='center'>Requete Admin<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>Admins<br/><t color='#33CC33'>De : <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
 			
-			[""AdminDispatch"",[format[""%1 Has Requested An Admin!"",_from]]] call bis_fnc_showNotification;
+			[""AdminDispatch"",[format[""%1 demande de l'aide à un admin!"",_from]]] call bis_fnc_showNotification;
 			systemChat _message;
 		};
 		
@@ -256,9 +256,9 @@ compileFinal "
 			private[""_message""];
 			_message = format[""!!!ADMIN MESSAGE: %1"",_msg];
 			_admin = format[""Sent by admin: %1"", _from];
-			hint parseText format [""<t color='#FF0000'><t size='2'><t align='center'>Admin Message<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>You<br/><t color='#33CC33'>From: <t color='#ffffff'>An Admin<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%1"",_msg];
+			hint parseText format [""<t color='#FF0000'><t size='2'><t align='center'>Message Admin<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>You<br/><t color='#33CC33'>De : <t color='#ffffff'>An Admin<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%1"",_msg];
 			
-			[""AdminMessage"",[""You Have Received A Message From An Admin!""]] call bis_fnc_showNotification;
+			[""AdminMessage"",[""Tu as reçu un message d'un administrateur!""]] call bis_fnc_showNotification;
 			systemChat _message;
 			if((call life_adminlevel) > 0) then {systemChat _admin;};
 		};
@@ -268,9 +268,9 @@ compileFinal "
 			private[""_message"",""_admin""];
 			_message = format[""!!!ADMIN MESSAGE: %1"",_msg];
 			_admin = format[""Sent by admin: %1"", _from];
-			hint parseText format [""<t color='#FF0000'><t size='2'><t align='center'>Admin Message<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>All Players<br/><t color='#33CC33'>From: <t color='#ffffff'>The Admins<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%1"",_msg];
+			hint parseText format [""<t color='#FF0000'><t size='2'><t align='center'>Message Admin<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>All Players<br/><t color='#33CC33'>De : <t color='#ffffff'>The Admins<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%1"",_msg];
 			
-			[""AdminMessage"",[""You Have Received A Message From An Admin!""]] call bis_fnc_showNotification;
+			[""AdminMessage"",[""Tu as reçu le message d'un admin !""]] call bis_fnc_showNotification;
 			systemChat _message;
 			if((call life_adminlevel) > 0) then {systemChat _admin;};
 		};
@@ -278,9 +278,9 @@ compileFinal "
 		case 5: {
 			private[""_message""];
 			_message = format[""!!!EMS REQUEST: %1"",_msg];
-			hint parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>EMS Request<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>You<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			hint parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>Requête Medecin<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>Tu<br/><t color='#33CC33'>De : <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
 			
-			[""TextMessage"",[format[""EMS Request from %1"",_from]]] call bis_fnc_showNotification;
+			[""TextMessage"",[format[""Requete médecin de %1"",_from]]] call bis_fnc_showNotification;
 		};
 	};
 ";
