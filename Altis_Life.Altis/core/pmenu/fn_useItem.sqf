@@ -105,7 +105,7 @@ switch (true) do {
 		[] spawn life_fnc_lockpick;
 	};
 	
-	case (_item in ["apple","rabbitgrilled","salemagrilled","ornategrilled","mackerelgrilled","tunagrilled","mulletfried","catshark","turtle","turtlesoup","donuts","tbacon","peach","cacahuete","burger","redwine","blanquette","frite","pizza","kebab"]): {
+	case (_item in ["apple","rabbitgrilled","salemagrilled","ornategrilled","mackerelgrilled","tunagrilled","mulletfried","catshark","turtle","turtlesoup","donut","tbacon","peach","cacahuete","burger","redwine","blanquette","frite","pizza","kebab"]): {
 		if(!(EQUAL(M_CONFIG(getNumber,"VirtualItems",_item,"edible"),-1))) then {
 			if([false,_item,1] call life_fnc_handleInv) then {
 				_val = M_CONFIG(getNumber,"VirtualItems",_item,"edible");
