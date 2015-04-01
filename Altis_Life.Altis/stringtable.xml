@@ -3491,6 +3491,10 @@
 			<Original>Famille Hooligans</Original>
 			<French>Famille Hooligans</French>
 		</Key>
+		<Key ID="STR_License_zagaria">
+			<Original>Famille Zagaria</Original>
+			<French>Famille Zagaria</French>
+		</Key>
 		<Key ID="STR_License_vente">
 			<Original>Rôtisserie</Original>
 			<French>Rôtisserie</French>
