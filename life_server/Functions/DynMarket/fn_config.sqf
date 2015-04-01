@@ -49,7 +49,6 @@ DYNMARKET_Items_Groups =
 			["marijuana",-1,215,415],
 			["cocaine_processed",-1,340,540],
 			["heroin_processed",-1,249,449],
-			["resine",-1,260,460],
 			["explo",-1,84,310],
 			["champ",-1,50,250],
 			["relique",-1,220,420]
@@ -73,7 +72,7 @@ DYNMARKET_Items_ToTrack        =
 	["cement",200],
 	["turtle_raw",1100],
 	["explo",250],
-	["billet",310],
+	["billet",368],
 	["marijuana",315],
 	["cocaine_processed",440],
 	["heroin_processed",349],
