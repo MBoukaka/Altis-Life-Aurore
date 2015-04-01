@@ -914,9 +914,9 @@ class CfgVehicles {
     };
 	class Aurore_escobar_ifrit {
         vItemSpace = 60;
-        storageFee[] = { 45000, 0, 0, 0 };
+        storageFee[] = { 4500, 0, 0, 0 };
 		garageSell[] = { 65000, 0, 0, 0 };
-        insurance = 2500;
+        insurance = 25000;
         chopShop = 5000;
         textures[] = { };
     };
@@ -2061,7 +2061,7 @@ class CfgVehicles {
         vItemSpace = 500;
         storageFee[] = { 675, 0, 0, 0 };
 		garageSell[] = { 45000, 0, 0, 0 };
-        insurance = 68999;
+        insurance = 30999;
         chopShop = 2069;
         textures[] = { };
     };
@@ -2078,7 +2078,7 @@ class CfgVehicles {
         vItemSpace = 650;
         storageFee[] = { 1240, 0, 0, 0 };
 		garageSell[] = { 75000, 0, 0, 0 };
-        insurance = 85000;
+        insurance = 35000;
         chopShop = 2369;
         textures[] = { };
     };
@@ -2095,7 +2095,7 @@ class CfgVehicles {
         vItemSpace = 900;
         storageFee[] = { 5400, 0, 0, 0 };
 		garageSell[] = { 156000, 0, 0, 0 };
-        insurance = 145000;
+        insurance = 47000;
         chopShop = 10540;
         textures[] = { };
     };
