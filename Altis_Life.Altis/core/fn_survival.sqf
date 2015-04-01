@@ -129,16 +129,19 @@ if (playerSide == west) then {
 		if((isNull (findDisplay 88888)) && (isNull (findDisplay 88883)) && (isNull (findDisplay 887890)))	then	{	player SVAR ["istexting", false, true]; };
 		if(license_civ_dep && playerSide == civilian)	then	{	player SVAR ["dep", true, true]; } else {	player SVAR ["dep", false, true]; };
 		if(license_civ_taxi && playerSide == civilian)	then	{	player SVAR ["taxi", true, true]; } else {	player SVAR ["taxi", false, true]; };
+		if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Sacs invisibles chez les Flics
+        if(playerSide == independent) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Sacs invisibles chez les Medics
 		sleep 1;
 	};
 };
 
+//reload variable pour Playertag
 [] spawn {
 	while {true} do
 	{
-		if(playerSide == west) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Sacs invisibles chez les Flics
-        if(playerSide == independent) then {(unitBackpack player) setObjectTextureGlobal [0,""];}; // <---- Sacs invisibles chez les Medics
-		sleep 1;
+		if(playerSide == west) then { player setVariable["rank",(FETCH_CONST(life_coplevel)),true]; };
+        if(playerSide == independent) then { player setVariable ["medrank",(FETCH_CONST(life_medicLevel)),true]; };
+		sleep 60;
 	};
 };
 
