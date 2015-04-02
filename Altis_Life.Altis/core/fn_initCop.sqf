@@ -28,6 +28,16 @@ if(FETCH_CONST(life_donator) == 3) then {
 	license_cop_copdonator = false;
 };
 
+switch (FETCH_CONST(life_coplevel)) do 
+{
+	case 2: {life_paycheck = life_paycheck + 50;}; // Rank 2
+	case 3: {life_paycheck = life_paycheck + 100;}; // Rank 3
+	case 4: {life_paycheck = life_paycheck + 150;}; // Rank 4
+	case 5: {life_paycheck = life_paycheck + 200;}; // Rank 5 
+	case 6: {life_paycheck = life_paycheck + 250;}; // Rank 6
+	case 7: {life_paycheck = life_paycheck + 300;}; // Rank 7
+};
+
 player setVariable["rank",(FETCH_CONST(life_coplevel)),true];
 [] call life_fnc_spawnMenu;
 waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
