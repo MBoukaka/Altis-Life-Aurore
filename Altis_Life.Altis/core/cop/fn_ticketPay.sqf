@@ -26,6 +26,7 @@ if(CASH < life_ticket_val) exitWith {
 };
 
 SUB(CASH,life_ticket_val);
+[0] call SOCK_fnc_updatePartial;
 life_ticket_paid = true;
 
 [[getPlayerUID player],"life_fnc_wantedRemove",false,false] call life_fnc_MP;
