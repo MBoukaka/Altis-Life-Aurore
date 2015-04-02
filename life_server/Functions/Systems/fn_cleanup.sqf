@@ -29,7 +29,7 @@ while {true} do
 					case ((_x getHitPointDamage "HitLF2Wheel") > 0.98 && _units == 0) : {deleteVehicle _x; _deleted = true;};
 					case ((_x getHitPointDamage "HitRFWheel") > 0.98 && _units == 0) : {deleteVehicle _x; _deleted = true;};
 					case ((_x getHitPointDamage "HitRF2Wheel") > 0.98 && _units == 0) : {deleteVehicle _x; _deleted = true;};
-					case (_units == 0): {deleteVehicle _x; _deleted = true;};
+					//case (_units == 0): {deleteVehicle _x; _deleted = true;};
 				};
 			};
 
