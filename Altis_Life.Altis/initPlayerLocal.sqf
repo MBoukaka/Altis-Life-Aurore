@@ -21,9 +21,6 @@ sleep 10;
 [] execVM "scripts\lock_backpack.sqf";
 [] execVM "scripts\emptyFuel.sqf";
 
-enableRadio false; 
-enableSentences false;
-
 //Execute JIP code.
 if((_this select 1)) then {
 	[] execVM "core\jip.sqf";

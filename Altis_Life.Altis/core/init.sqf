@@ -17,6 +17,7 @@ waitUntil {!isNull player && player == player}; //Wait till the player is ready
 [] call compile PreprocessFileLineNumbers "core\clientValidator.sqf";
 
 //Setup initial client core functions
+0 fadeSound 0;
 diag_log "::Life Client:: Initialization Variables";
 [] call compile PreprocessFileLineNumbers "core\configuration.sqf";
 
@@ -72,6 +73,13 @@ switch (playerSide) do {
 
 };
 
+enableSentences false;
+enableRadio false;
+0 fadeRadio 0;
+setViewDistance 1000;
+setObjectViewDistance [835,50];
+setTerrainGrid 50;
+
 player SVAR ["restrained",false,true];
 player SVAR ["Escorting",false,true];
 player SVAR ["transporting",false,true];
@@ -120,3 +128,4 @@ DYNAMICMARKET_boughtItems = [];
 CONSTVAR(life_paycheck); //Make the paycheck static.
 if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),0)) then {player enableFatigue false;};
 [[getPlayerUID player,player getVariable["realname",name player]],"life_fnc_wantedProfUpdate",false,false] spawn life_fnc_MP;
+0 fadeSound 1;
