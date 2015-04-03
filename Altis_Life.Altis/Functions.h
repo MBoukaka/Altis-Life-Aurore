@@ -229,6 +229,7 @@ class Life_Client_Core
 		file = "core\functions";
 		class equipGear {};
 		class fadeSound {};
+		class fadeSoundRadio {};
 		class playSound {};
 		class calWeightDiff {};
 		class fetchCfgDetails {};

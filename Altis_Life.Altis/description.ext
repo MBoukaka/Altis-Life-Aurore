@@ -74,7 +74,24 @@ class CfgFunctions
 class CfgSounds
 {
 	sounds[] = {};
-	
+	class earplug
+	{
+		name = "earplug";
+		sound[] = {"\sounds\earplug.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class radioON
+	{
+		name = "radioON";
+		sound[] = {"\sounds\radioON.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class radioOFF
+	{
+		name = "radioOFF";
+		sound[] = {"\sounds\radioOFF.ogg", 1.0, 1};
+		titles[] = {};
+	};
 };
 
 class CfgDebriefing

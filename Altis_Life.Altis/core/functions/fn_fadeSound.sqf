@@ -17,3 +17,5 @@ else
 	1 fadeSound 1; // Retourné a la normal (100%)
 	hint "Casque anti-bruit OFF";
 };
+
+playSound "earplug";

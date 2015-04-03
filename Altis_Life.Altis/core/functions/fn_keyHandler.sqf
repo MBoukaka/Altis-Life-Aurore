@@ -291,7 +291,7 @@ switch (_code) do {
 	
 	//U Key
 	case 22: {
-		if(!_alt && !_ctrlKey) then {
+		if(!_alt && !_ctrlKey && !_shift) then {
 			if(vehicle player == player) then {
 				_veh = cursorTarget;
 			} else {
@@ -338,6 +338,10 @@ switch (_code) do {
 					};
 				};
 			};
+		};
+		if(_shift && !_alt && !_ctrlKey) then {
+			[] call life_fnc_fadeSoundRadio;
+			_handled = true;
 		};
 	};
 };

@@ -11,6 +11,7 @@ life_channel_send = true; //Channel 7
 life_macumba_music = false;
 life_sitting = false;
 life_fadeSound = false;
+life_fadeSoundRadio = false;
 life_smartphoneTarget = ObjNull;
 life_query_time = time;
 life_action_delay = time;
