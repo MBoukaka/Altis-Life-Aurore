@@ -78,7 +78,7 @@ enableRadio false;
 0 fadeRadio 0;
 setViewDistance 1000;
 setObjectViewDistance [835,50];
-setTerrainGrid 50;
+setTerrainGrid 25;
 
 player SVAR ["restrained",false,true];
 player SVAR ["Escorting",false,true];
