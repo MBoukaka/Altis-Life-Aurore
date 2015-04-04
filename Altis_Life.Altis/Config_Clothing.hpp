@@ -761,8 +761,7 @@ class Clothing {
 			{ "CL3_AssaultPack_Full_skin_black", "Sac Noir", 60, { "", "", -1 } }
 		};
 	};	
-		
-		
+				
     class esco {
 		title = "escobar";
 		license = "esco";
