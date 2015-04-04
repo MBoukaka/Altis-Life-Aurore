@@ -2838,8 +2838,8 @@ class CfgVehicles {
 	class B_Truck_01_box_F {
         vItemSpace = 450;
         storageFee[] = { 3500, 0, 0, 0 };
-		garageSell[] = { 150000, 0, 0, 0 };
-        insurance = 2500;
+		garageSell[] = { 30000, 0, 0, 0 };
+        insurance = 25000;
         chopShop = 5000;
         textures[] = { };
     };
