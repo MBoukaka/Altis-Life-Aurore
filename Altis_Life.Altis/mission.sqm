@@ -14695,8 +14695,8 @@ class Mission
 		};
 		class Item1054
 		{
-			position[]={20596.098,47.226448,20075.879};
-			azimut=1112.0966;
+			position[]={15311.688,4.0220704,15851.171};
+			azimut=1086.3666;
 			id=1242;
 			side="EMPTY";
 			vehicle="Land_HelipadCivil_F";
@@ -14704,8 +14704,8 @@ class Mission
 		};
 		class Item1055
 		{
-			position[]={20576.594,47.403675,20084.92};
-			azimut=360.36139;
+			position[]={15295.854,4.1033106,15851.119};
+			azimut=334.63177;
 			id=1243;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
@@ -14713,8 +14713,8 @@ class Mission
 		};
 		class Item1056
 		{
-			position[]={20598.879,51.348049,20118.535};
-			azimut=1756.2;
+			position[]={15301.594,4.1342845,15864.275};
+			azimut=1617.0184;
 			id=1244;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -14723,8 +14723,8 @@ class Mission
 		};
 		class Item1057
 		{
-			position[]={20592.248,47.793171,20089.213};
-			azimut=1288.53;
+			position[]={15307.854,4.0936155,15865.039};
+			azimut=1262.8;
 			id=1245;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -14733,8 +14733,8 @@ class Mission
 		};
 		class Item1058
 		{
-			position[]={20593.916,47.683804,20088.385};
-			azimut=475.526;
+			position[]={15309.716,4.0760856,15865.015};
+			azimut=537.94501;
 			id=1246;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -15407,8 +15407,8 @@ class Mission
 		};
 		class Item1126
 		{
-			position[]={20732.967,3.8306882,20272.904};
-			azimut=1663.72;
+			position[]={15365.132,4.3984642,15861.585};
+			azimut=1756.8375;
 			offsetY=2;
 			id=1314;
 			side="EMPTY";
@@ -17961,24 +17961,24 @@ class Mission
 		};
 		class Item314
 		{
-			position[]={20576.408,47.402184,20084.865};
+			position[]={15295.704,4.1012378,15850.985};
 			name="tchong_1";
 			type="Empty";
-			angle=-88.792397;
+			angle=-114.52203;
 		};
 		class Item315
 		{
-			position[]={20594.287,51.333569,20111.762};
+			position[]={15304.762,4.0750341,15856.173};
 			name="house_tchong";
 			type="Empty";
-			angle=886.45099;
+			angle=843.04956;
 		};
 		class Item316
 		{
-			position[]={20596.109,47.224831,20075.467};
+			position[]={15311.873,4.0208435,15850.806};
 			name="tchong_air";
 			type="Empty";
-			angle=-214.265;
+			angle=-239.99469;
 		};
 		class Item317
 		{
@@ -18547,10 +18547,10 @@ class Mission
 		};
 		class Item392
 		{
-			position[]={20783.475,-0.0082932683,20280.811};
+			position[]={15370.272,0.019780837,15810.721};
 			name="tchong_ship";
 			type="Empty";
-			angle=82.6129;
+			angle=175.73061;
 		};
 		class Item393
 		{
