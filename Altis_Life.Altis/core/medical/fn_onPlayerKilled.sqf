@@ -105,9 +105,9 @@ life_carryWeight = 0;
 life_drink = 0;
 CASH = 0;
 
-[] call life_fnc_hudUpdate; //Get our HUD updated.
 [[player,life_sidechat,playerSide],"TON_fnc_managesc",false,false] call life_fnc_MP;
 
 [0] call SOCK_fnc_updatePartial;
 [3] call SOCK_fnc_updatePartial;
 [5] call SOCK_fnc_updatePartial;
+[] call life_fnc_hudUpdate; //Get our HUD updated.

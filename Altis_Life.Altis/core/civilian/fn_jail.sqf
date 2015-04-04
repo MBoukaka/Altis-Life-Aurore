@@ -32,24 +32,31 @@ if(player distance (getMarkerPos "jail_marker") > 40) then {
 };
 
 //[1] call life_fnc_removeLicenses;
-if(life_inv_heroinu > 0) then {[false,"heroinu",life_inv_heroinu] call life_fnc_handleInv;};
-if(life_inv_heroinp > 0) then {[false,"heroinp",life_inv_heroinp] call life_fnc_handleInv;};
-if(life_inv_coke > 0) then {[false,"cocaine",life_inv_coke] call life_fnc_handleInv;};
-if(life_inv_cokep > 0) then {[false,"cocainep",life_inv_cokep] call life_fnc_handleInv;};
-if(life_inv_turtle > 0) then {[false,"turtle",life_inv_turtle] call life_fnc_handleInv;};
+if(life_inv_heroin_unprocessed > 0) then {[false,"heroinUnprocessed",life_inv_heroin_unprocessed] call life_fnc_handleInv;};
+if(life_inv_heroin_processed > 0) then {[false,"heroinProcessed",life_inv_heroin_processed] call life_fnc_handleInv;};
+if(life_inv_cocaine_unprocessed > 0) then {[false,"cocaineUnprocessed",life_inv_cocaine_unprocessed] call life_fnc_handleInv;};
+if(life_inv_cocaine_processed > 0) then {[false,"cocaineProcessed",life_inv_cocaine_processed] call life_fnc_handleInv;};
+if(life_inv_turtle_raw > 0) then {[false,"turtleRaw",life_inv_turtle_raw] call life_fnc_handleInv;};
 if(life_inv_cannabis > 0) then {[false,"cannabis",life_inv_cannabis] call life_fnc_handleInv;};
 if(life_inv_marijuana > 0) then {[false,"marijuana",life_inv_marijuana] call life_fnc_handleInv;};
 life_is_arrested = true;
 
-removeAllWeapons player;
-{player removeMagazine _x} foreach (magazines player);
+//On le désap magueule
+_handle = [] spawn life_fnc_stripDownPlayer;
+waitUntil {scriptDone _handle};
+//Maintenant on l'habille  en détenue
+player addUniform "cl3_coveralls_prisoner_uniform";
+player addItem "ItemWatch";
+player assignItem "ItemWatch";
 
 life_thirst = 100;
 life_hunger = 100;
 life_drink = 0;
 CASH = 0;
+
 [] call life_fnc_hudUpdate;
 
 [[player,_bad],"life_fnc_jailSys",false,false] call life_fnc_MP;
 [0] call SOCK_fnc_updatePartial;
+[3] call SOCK_fnc_updatePartial;
 [5] call SOCK_fnc_updatePartial;
