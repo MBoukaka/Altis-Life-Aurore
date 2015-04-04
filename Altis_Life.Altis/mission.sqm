@@ -14860,7 +14860,7 @@ class Mission
 		};
 		class Item1071
 		{
-			position[]={20423.566,40.132233,11461.676};
+			position[]={19365.219,22.471554,14320.543};
 			azimut=1221.01;
 			offsetY=0.1;
 			id=1259;
@@ -18040,7 +18040,7 @@ class Mission
 		};
 		class Item325
 		{
-			position[]={20423.545,40.133202,11461.731};
+			position[]={19365.197,22.476959,14320.599};
 			name="iron_processing_1";
 			text="Traitement du bois";
 			type="mil_box";

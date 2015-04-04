@@ -51,7 +51,7 @@ DYNMARKET_Items_Groups =
 			["cocaine_processed",-1,340,540],
 			["heroin_processed",-1,249,449],
 			["explo",-1,84,310],
-			["champ",-1,50,250],
+			["champ",-1,250,450],
 			["relique",-1,220,420]
 		],
 		0.3
@@ -63,8 +63,8 @@ DYNMARKET_Items_Groups =
 DYNMARKET_Items_ToTrack        = 
 [
 	["oil_processed",210],
-	["resine",360],
-	["champ",150],
+	["resine",393],
+	["champ",350],
 	["iron_refined",215],
 	["diamond_cut",275],
 	["copper_refined",245],
@@ -81,9 +81,9 @@ DYNMARKET_Items_ToTrack        =
 	["sheep_peau",1500],
 	["goat_raw",1000],
 	["sheep_raw",1000],
-	["bottledshine",420],
-	["bottledbeer",220],
-	["bottledwhiskey",320],
+	["bottledshine",295],
+	["bottledbeer",195],
+	["bottledwhiskey",250],
 	["salema_grilled",4],
 	["ornate_grilled",4],
 	["mackerel_grilled",18],
