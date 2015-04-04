@@ -48,32 +48,6 @@ SUB(_units,[player]);
 					format["<img image='%1' size='1'></img> %2", _icon, (_x GVAR ["realname",name _x])];
 				};
 				
-				//isTexting... by Nanou
-				case ((_x GVAR ["istexting", false]) && (((goggles _x) in _goggles) OR ((headgear _x) in _headgear) OR ((uniform _x) in _uniform))): {format["<t color='#000000'>Personnage masqué </t><img image='icons\ico_istexting.paa' size='1'></img>"];};
-				case ((_x GVAR ["istexting", false]) && (((uniform _x) in _uniformflic) && (!isNil {(_x GVAR "rank")}))): {format["%1 <img image='icons\ico_istexting.paa' size='1'></img>",_x GVAR ["realname",name _x]];};
-				case ((_x GVAR ["istexting", false]) && (!isNil {(_x GVAR "rank")})): {format["<img image='%1' size='1'></img> %3 %2 <img image='icons\ico_istexting.paa' size='1'></img>",switch ((_x GVAR "rank")) do {
-					case 2: {"aurore_data2\icons\brigadier1.paa"}; 
-					case 3: {"aurore_data2\icons\brigadier2.paa"};
-					case 4: {"aurore_data2\icons\adjudant.paa"};
-					case 5: {"\a3\ui_f\data\gui\cfg\Ranks\lieutenant_gs.paa"};
-					case 6: {"\a3\ui_f\data\gui\cfg\Ranks\captain_gs.paa"};
-					case 7: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
-					default {"aurore_data2\icons\recrue.paa"};
-					},_x GVAR ["realname",name _x],switch ((_x GVAR "rank")) do {
-					case 2: {"[Brigadier 2C.]"}; 
-					case 3: {"[Brigadier 1C.]"};
-					case 4: {"[Adjudant]"};
-					case 5: {"[Lieutenant]"};
-					case 6: {"[Capitaine]"};
-					case 7: {"[Colonel]"};
-					default {"[Recrue]"};
-					}]};
-				case ((_x GVAR ["istexting", false]) && (!isNil {(_x GVAR "medrank")})): {format["<img image='icons\ico_medic.paa' size='1'></img> %1 <img image='icons\ico_istexting.paa' size='1'></img>",(_x GVAR ["realname",name _x])];};
-				case ((_x GVAR ["istexting", false]) && (_x GVAR ["dep", false])): {format["<img image='icons\ico_dep.paa' size='1'></img> %1 <img image='icons\ico_istexting.paa' size='0.8'></img>",(_x GVAR ["realname",name _x])];};
-				case ((_x GVAR ["istexting", false]) && (_x GVAR ["taxi", false])): {format["<img image='icons\ico_taxi.paa' size='1'></img> %1 <img image='icons\ico_istexting.paa' size='0.8'></img>",(_x GVAR ["realname",name _x])];};
-				case ((_x GVAR ["istexting", false]) && (!isNil {(group _x) GVAR "gang_name"} && (!(_x GVAR ["dep",FALSE]) OR !(_x GVAR ["taxi",FALSE])))): {format["%1 <img image='icons\ico_istexting.paa' size='0.8'></img><br/><t size='0.8' color='#B6B6B6'>%2</t>",_x GVAR ["realname",name _x],(group _x) GVAR ["gang_name",""]];};
-				case ((_x GVAR ["istexting", false]) && (isNil {(group _x) GVAR "gang_name"} && (!(_x GVAR ["dep",FALSE]) OR !(_x GVAR ["taxi",FALSE])))): {format["%1 <img image='icons\ico_istexting.paa' size='0.8'></img>",(_x GVAR ["realname",name _x])];};
-
 				//Items de masquage
 				case (((goggles _x) in _goggles) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
 				case (((headgear _x) in _headgear) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
@@ -112,7 +86,9 @@ SUB(_units,[player]);
 
 				default {};
 			};
-			
+			if(_x getVariable ["isTexting",false]) then {
+				_text = _text + format [" <img image='icons\ico_istexting.paa' size='1'></img>"];
+			};
 			_idc ctrlSetStructuredText parseText _text;
 			_idc ctrlSetPosition [_sPos select 0, _sPos select 1, 0.4, 0.65];
 			_idc ctrlSetScale scale;
