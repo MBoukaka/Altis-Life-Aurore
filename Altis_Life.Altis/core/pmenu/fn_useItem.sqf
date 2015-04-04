@@ -39,6 +39,11 @@ switch (true) do {
 		[cursorTarget] spawn life_fnc_blastingCharge;
 	};
 	
+	case (EQUAL(_item,"gpstracker")): 
+	{
+		[cursorTarget] spawn life_fnc_gpsTracker;
+	};
+	
 	case (EQUAL(_item,"defusekit")): {
 		[cursorTarget] spawn life_fnc_defuseKit;
 	};
