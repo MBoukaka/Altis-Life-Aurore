@@ -339,10 +339,6 @@ switch (_code) do {
 				};
 			};
 		};
-		if(_shift && !_alt && !_ctrlKey) then {
-			[] call life_fnc_fadeSoundRadio;
-			_handled = true;
-		};
 	};
 };
 
