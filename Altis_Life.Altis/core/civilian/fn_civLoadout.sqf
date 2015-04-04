@@ -22,4 +22,4 @@ player assignItem "ItemWatch";
 player addItem "ItemRadio";
 player assignItem "ItemRadio";
 
-[] call life_fnc_saveGear;
+[3] call SOCK_fnc_updatePartial;

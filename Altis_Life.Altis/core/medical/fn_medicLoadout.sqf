@@ -8,7 +8,7 @@
 private["_handle","_handle2"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
-sleep1;
+sleep 1;
 _handle2 = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle2};
 
@@ -24,5 +24,5 @@ player assignItem "ItemWatch";
 player addItem "ItemRadio";
 player assignItem "ItemRadio";
 
-[] call life_fnc_saveGear;
+[3] call SOCK_fnc_updatePartial;
 [] call life_fnc_equipGear;

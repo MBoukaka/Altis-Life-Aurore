@@ -57,3 +57,4 @@ introSpawn = true;
 
 [] call life_fnc_welcomeNotification;
 [] execVM "scripts\statusBar.sqf";
+[] call life_fnc_hudUpdate;

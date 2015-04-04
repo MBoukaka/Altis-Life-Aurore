@@ -6,9 +6,12 @@
 	Description:
 	Loads the cops out with the default gear.
 */
-private["_handle"];
+private["_handle","_handle2"];
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
+sleep 1;
+_handle2 = [] spawn life_fnc_stripDownPlayer;
+waitUntil {scriptDone _handle2};
 
 //Load player with default cop gear.
 player addUniform "U_Rangemaster";
@@ -34,4 +37,5 @@ player assignItem "ItemGPS";
 player addItem "ItemRadio";  
 player assignItem "ItemRadio";
 
-[] call life_fnc_saveGear;
+[3] call SOCK_fnc_updatePartial;
+[] call life_fnc_equipGear;
