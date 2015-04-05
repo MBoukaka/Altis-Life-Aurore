@@ -80,7 +80,7 @@ DYNMARKET_Items_ToTrack        =
 	["sheep_raw",1000],
 	["sheep_peau",1500],
 	["goat_raw",1000],
-	["sheep_raw",1000],
+	["goat_peau",1500],
 	["bottledshine",295],
 	["bottledbeer",195],
 	["bottledwhiskey",250],
