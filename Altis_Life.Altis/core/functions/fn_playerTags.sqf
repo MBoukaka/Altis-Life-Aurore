@@ -49,9 +49,9 @@ SUB(_units,[player]);
 				};
 				
 				//Items de masquage
-				case (((goggles _x) in _goggles) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
-				case (((headgear _x) in _headgear) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
-				case (((uniform _x) in _uniform) && playerSide == civilian): {format["<t color='#000000'>Personnage masqué</t>"];};
+				case ((goggles _x) in _goggles): {format["<t color='#000000'>Personnage masqué</t>"];};
+				case ((headgear _x) in _headgear): {format["<t color='#000000'>Personnage masqué</t>"];};
+				case ((uniform _x) in _uniform): {format["<t color='#000000'>Personnage masqué</t>"];};
 				case (((uniform _x) in _uniformflic) && (!isNil {(_x GVAR "rank")})): {format["%1",_x GVAR ["realname",name _x]];};
 				
 				//Nom Gendarme
