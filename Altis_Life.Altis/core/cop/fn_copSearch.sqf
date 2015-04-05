@@ -25,7 +25,7 @@ if(count _invs > 0) then {
 			ADD(_illegal,(SEL(_x,1) * _price));
 		};
 	} foreach _invs;
-	if(_illegal > 6000) then {
+	if(_illegal > 10000) then {
 		[[getPlayerUID _civ,_civ GVAR ["realname",name _civ],"482"],"life_fnc_wantedAdd",false,false] call life_fnc_MP;
 	};
 	
