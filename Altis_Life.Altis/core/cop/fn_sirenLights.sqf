@@ -43,7 +43,9 @@ _trueorfalse = _vehicle GVAR ["lights",FALSE];
 
 if(_trueorfalse) then {
 	_vehicle SVAR ["lights",FALSE,TRUE];
+	titleText["Giro OFF","PLAIN"];
 } else {
 	_vehicle SVAR ["lights",TRUE,TRUE];
+	titleText["Giro ON","PLAIN"];
 	[[_vehicle,0.22],"life_fnc_copLights",true,false] call life_fnc_MP;
 };

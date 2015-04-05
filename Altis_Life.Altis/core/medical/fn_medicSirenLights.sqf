@@ -15,7 +15,9 @@ _trueorfalse = _vehicle getVariable["lights",FALSE];
 
 if(_trueorfalse) then {
 	_vehicle setVariable["lights",FALSE,TRUE];
+	titleText["Giro OFF","PLAIN"];
 } else {
 	_vehicle setVariable["lights",TRUE,TRUE];
+	titleText["Giro ON","PLAIN"];
 	[[_vehicle,0.22],"life_fnc_medicLights",true,false] call life_fnc_MP;
 };
