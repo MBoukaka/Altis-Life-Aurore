@@ -91,7 +91,7 @@ class Life_Settings {
 	
 	sellArray[] = {	};
 
-	allowedSavedVirtualItems[] = { "double","mauer","virg","vird","cone","gpstracker","pan1","menotte","pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut", "rabbitGrilled", "salemaGrilled", "ornateGrilled", "mackerelGrilled", "tunaGrilled", "mulletGrilled", "catsharkGrilled", "turtleSoup", "henGrilled", "roosterGrilled", "sheepGrilled", "goatGrilled" };
+	allowedSavedVirtualItems[] = { "double","mauer","virg","vird","cone","gpstracker","pan1","menotte","pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut" };
 };
 
 //Virtual Items
@@ -125,8 +125,8 @@ class VirtualItems {
 	VITEMMACRO(whiskey, "STR_Item_whiskey", "whiskey", 2, -1, 0, false, -1, "")
 
 	//Mined Items
-	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 7, -1, -1, false, -1, "aurore_data2\icons\items\oil_unprocessed.paa")
-	VITEMMACRO(oil_processed, "STR_Item_OilP", "oilProcessed", 6, -1, 0, false, -1, "aurore_data2\icons\items\oil_processed.paa")
+	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 7, -1, -1, false, -1, "icons\ico_oilu.paa")
+	VITEMMACRO(oil_processed, "STR_Item_OilP", "oilProcessed", 6, -1, 0, false, -1, "icons\ico_oilp.paa")
 	VITEMMACRO(copper_unrefined, "STR_Item_CopperOre", "copperUnrefined", 4, -1, -1, false, -1, "aurore_data2\icons\items\copper_ore.paa")
 	VITEMMACRO(copper_refined, "STR_Item_CopperIngot", "copperRefined", 3, -1, 0, false, -1, "aurore_data2\icons\items\copper.paa")
 	VITEMMACRO(iron_unrefined, "STR_Item_IronOre", "ironUnrefined", 5, -1, -1, false, -1, "aurore_data2\icons\items\iron_ore.paa")
@@ -143,18 +143,18 @@ class VirtualItems {
 	VITEMMACRO(explo, "STR_Item_explo", "explo", 3, -1, 0, true, -1, "")
 	VITEMMACRO(bois, "STR_Item_bois", "bois", 4, -1, 0, false, -1, "")
 	VITEMMACRO(papier, "STR_Item_papier", "papier", 2, -1, 0, false, -1, "")
-	VITEMMACRO(billet, "STR_Item_billet", "billet", 2, -1, 0, true, -1, "")
+	VITEMMACRO(billet, "STR_Item_billet", "billet", 2, -1, 0, true, -1, "icons\ico_fbillet.paa")
 	VITEMMACRO(rye, "STR_Item_rye", "rye", 3, -1, 0, false, -1, "")
 	VITEMMACRO(hops, "STR_Item_hops", "hops", 3, -1, 0, false, -1, "")
 
 	//Drugs
-	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "aurore_data2\icons\items\heroin_unprocessed.paa")
-	VITEMMACRO(heroin_processed, "STR_Item_HeroinP", "heroinProcessed", 4, -1, 0, true, -1, "aurore_data2\icons\items\heroin_processed.paa")
+	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "")
+	VITEMMACRO(heroin_processed, "STR_Item_HeroinP", "heroinProcessed", 4, -1, 0, true, -1, "icons\ico_herop.paa")
 	VITEMMACRO(cannabis, "STR_Item_Cannabis", "cannabis", 4, -1, -1, true, -1, "aurore_data2\icons\items\cannabis.paa")
 	VITEMMACRO(marijuana, "STR_Item_Marijuana", "marijuana", 2, -1, 0, true, -1, "icons\ico_marijuana.paa")
-	VITEMMACRO(resine, "STR_Item_resine", "resine", 2, -1, 0, true, -1, "aurore_data2\icons\items\ico_marijuana.paa")
+	VITEMMACRO(resine, "STR_Item_resine", "resine", 2, -1, 0, true, -1, "aurore_data2\icons\items\ico_resine.paa")
 	VITEMMACRO(cocaine_unprocessed, "STR_Item_CocaineU", "cocaineUnprocessed", 6, -1, -1, true, -1, "aurore_data2\icons\items\cocain_unprocessed.paa")
-	VITEMMACRO(cocaine_processed, "STR_Item_CocaineP", "cocaineProcessed", 4, -1, 0, true, -1, "aurore_data2\icons\items\cocain_processed.paa")
+	VITEMMACRO(cocaine_processed, "STR_Item_CocaineP", "cocaineProcessed", 4, -1, 0, true, -1, "icons\ico_cocainep.paa")
 
 	//Drink
 	VITEMMACRO(redgull, "STR_Item_RedGull", "redgull", 3, 32, -1, false, 100, "aurore_data2\icons\items\redgull.paa")
@@ -189,13 +189,13 @@ class VirtualItems {
 	VITEMMACRO(goat_raw, "STR_Item_GoatRaw", "goatRaw", 4, -1, 0, false, -1, "icons\ico_goatRaw.paa")
 	VITEMMACRO(goat_peau, "STR_Item_GoatPeau", "goatPeau", 3, -1, 0, true, -1, "icons\ico_goatPeau.paa")
 	
-	VITEMMACRO(cacahuete, "STR_Item_cacahuete", "cacahuete", 2, 35, -1, false, 10, "")
-	VITEMMACRO(burger, "STR_Item_burger", "burger", 2, 75, -1, false, 40, "")
+	VITEMMACRO(cacahuete, "STR_Item_cacahuete", "cacahuete", 2, 35, -1, false, 10, "icons\ico_ccht.paa")
+	VITEMMACRO(burger, "STR_Item_burger", "burger", 2, 75, -1, false, 40, "icons\ico_burger.paa")
 	VITEMMACRO(blanquette, "STR_Item_blanquette", "blanquette", 2, 75, 0, false, 50, "")
 	VITEMMACRO(redwine, "STR_Item_redwine", "redwine", 2, 75, -1, false, 30, "")
-	VITEMMACRO(frite, "STR_Item_frite", "frite", 2, 75, -1, false, 40, "")
-	VITEMMACRO(coca, "STR_Item_coca", "coca", 2, 75, -1, false, 50, "")
-	VITEMMACRO(pizza, "STR_Item_pizza", "pizza", 2, 75, -1, false, 50, "")
+	VITEMMACRO(frite, "STR_Item_frite", "frite", 2, 75, -1, false, 40, "icons\ico_frite.paa")
+	VITEMMACRO(coca, "STR_Item_coca", "coca", 2, 75, -1, false, 50, "icons\ico_coca.paa")
+	VITEMMACRO(pizza, "STR_Item_pizza", "pizza", 2, 75, -1, false, 50, "icons\ico_pizza.paa")
 };
 
 

@@ -553,7 +553,7 @@ class WeaponShops {
         msg = "";
         items[] = {
 			{ "ItemRadio", "Carte SIM", 10 },
-        	{ "srifle_LRR_SOS_F","",100 },
+        	{ "srifle_LRR_SOS_F","",25000 },
 			{ "7Rnd_408_Mag","",10 },
 			{ "srifle_mas_m107","M107",35000 },
 			{ "5Rnd_mas_127x99_Stanag","Munitions M107",5000 },

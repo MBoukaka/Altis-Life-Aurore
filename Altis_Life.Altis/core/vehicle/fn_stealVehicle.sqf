@@ -33,8 +33,7 @@ if(typeOf _vehicle in [
 	"cl3_mackr_del_green_white","cl3_mackr_del_black_white","cl3_mackr_del_blue",
 	"cl3_mackr_del_green_white","cl3_mackr_del_multi_color","cl3_mackr_del_optimus","Aurore_escobar_ifrit",
 	"Aurore_escobar_hummingbird","cl3_mackr_del_orange_white","Aurore_q7_gdm","ESCO_LAMBO","ZAEROX_LAMBO",
-	"Aurore_rev_gdm","Aurore_rev_gdm1"
-		]) exitWith {hint "Malheureusement, vous ne pouvez pas racheter ce type de véhicule ! Vous devrez le vendre au lieu de cela."; };
+	"Aurore_rev_gdm","Aurore_rev_gdm1"]) exitWith {hint "Malheureusement, vous ne pouvez pas racheter ce type de véhicule ! Vous devrez le vendre au lieu de cela."; };
 _color = 0;
 hint format["Vous venez de payer %1 pour que la carte grise soit a vous, Le vehicule a ete mis au Garage",_price];
 CASH = CASH - _price;
