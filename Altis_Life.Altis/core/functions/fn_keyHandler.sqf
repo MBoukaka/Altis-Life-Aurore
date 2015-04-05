@@ -158,9 +158,9 @@ switch (_code) do {
 	//Shift + G (surrender)
 	case 34:
 	{
-		if(!_interactionKey && _shift) then {_handled = true;};
+		if(!life_action_inUse && _shift) then {_handled = true;};
 
-		if (!_interactionKey && _shift) then
+		if (!life_action_inUse && _shift) then
 		{
 			if (vehicle player == player && !(player GVAR ["restrained", false]) && (animationState player) != "Incapacitated" && !life_istazed) then
 			{
