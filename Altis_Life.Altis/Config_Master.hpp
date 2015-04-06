@@ -143,6 +143,7 @@ class VirtualItems {
 	VITEMMACRO(explo, "STR_Item_explo", "explo", 3, -1, 150, true, -1, "")
 	VITEMMACRO(bois, "STR_Item_bois", "bois", 4, -1, 0, false, -1, "")
 	VITEMMACRO(papier, "STR_Item_papier", "papier", 2, -1, 0, false, -1, "")
+	VITEMMACRO(charbon, "STR_Item_charbon", "charbon", 3, -1, 0, false, -1, "")
 	VITEMMACRO(billet, "STR_Item_billet", "billet", 2, -1, 268, true, -1, "icons\ico_fbillet.paa")
 	VITEMMACRO(rye, "STR_Item_rye", "rye", 3, -1, 0, false, -1, "")
 	VITEMMACRO(hops, "STR_Item_hops", "hops", 3, -1, 0, false, -1, "")
