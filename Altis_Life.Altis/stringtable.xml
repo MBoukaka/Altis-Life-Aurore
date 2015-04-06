@@ -4090,6 +4090,10 @@
 			<Original>Fabrication des faux billets</Original>
 			<French>Fabrication des faux billets</French>
 		</Key>
+		<Key ID="STR_Process_charbon">
+			<Original>Fabrication du charbon de bois</Original>
+			<French>Fabrication du charbon de bois</French>
+		</Key>
 		<Key ID="STR_Process_papier">
 			<Original>Fabrication du papier</Original>
 			<French>Fabrication du papier</French>

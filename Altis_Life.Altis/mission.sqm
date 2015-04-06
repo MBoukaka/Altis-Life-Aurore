@@ -14856,7 +14856,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Fabrication des Billets"",life_fnc_processAction,""papy"",0,false,false,"""",' life_inv_papier > 0 && license_civ_papy && !life_is_processing'];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Fabrication des Billets"",life_fnc_processAction,""papy"",0,false,false,"""",' life_inv_papier > 0 && license_civ_papy && !life_is_processing']; this addAction[""Fabrication du papier"",life_fnc_processAction,""papier"",0,false,false,"""",' life_inv_bois > 0 && license_civ_papy && !life_is_processing'];";
 		};
 		class Item1071
 		{
@@ -14867,7 +14867,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Traiter le bois"",life_fnc_processAction,""papier"",0,false,false,"""",' life_inv_bois > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""papier"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""papier"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""papier"",0,false,false,"""",' !license_civ_papier && playerSide == civilian '];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Traiter le bois"",life_fnc_processAction,""charbon"",0,false,false,"""",' life_inv_bois > 0 && !life_is_processing'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""papier"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""papier"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""papier"",0,false,false,"""",' !license_civ_papier && playerSide == civilian '];";
 		};
 		class Item1072
 		{
@@ -14877,7 +14877,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Vendeur de papier"",life_fnc_virt_menu,""papier""];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Vendeur de Charbon"",life_fnc_virt_menu,""papier""];";
 		};
 		class Item1073
 		{
@@ -18050,7 +18050,7 @@ class Mission
 		{
 			position[]={17523.305,7.3000002,14489.467};
 			name="oil_trader_3_2";
-			text="Vendeur de papier";
+			text="Vendeur de Charbon";
 			type="b_unknown";
 			colorName="ColorOrange";
 		};

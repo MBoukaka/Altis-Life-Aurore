@@ -40,7 +40,8 @@ DYNMARKET_Items_Groups =
 			["copper_refined",-1,145,345],
 			["salt_refined",-1,130,330],
 			["glass",-1,100,300],
-			["cement",-1,100,300]
+			["cement",-1,100,300],
+			["charbon",-1,110,310]
 		],
 		0.4
 	],
@@ -64,6 +65,7 @@ DYNMARKET_Items_ToTrack        =
 [
 	["oil_processed",210],
 	["resine",393],
+	["charbon",210],
 	["champ",350],
 	["iron_refined",215],
 	["diamond_cut",275],

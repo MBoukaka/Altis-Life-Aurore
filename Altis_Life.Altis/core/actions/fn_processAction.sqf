@@ -30,6 +30,7 @@ _itemInfo = switch (_type) do {
 	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
 	case "esco": {["marijuana","resine",5350,(localize "STR_Process_resine")];};
 	case "papier": {["bois","papier",350,(localize "STR_Process_papier")];};
+	case "charbon": {["bois","charbon",350,(localize "STR_Process_charbon")];};
 	case "papy": {["papier","billet",5350,(localize "STR_Process_papy")];};
 	case "beerp": {["hops","beerp",550,(localize "STR_Process_beerp")];};
 	case "whiskey": {["rye","whiskey",750,(localize "STR_Process_whiskey")];};

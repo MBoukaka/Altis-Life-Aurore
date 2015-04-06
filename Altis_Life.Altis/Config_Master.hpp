@@ -322,7 +322,7 @@ class VirtualShops {
 	
 	class billet {
 		name = "STR_Shops_billet";
-		items[] = { "billet" };
+		items[] = { "charbon" };
 	};
 	
 	class coffee {
