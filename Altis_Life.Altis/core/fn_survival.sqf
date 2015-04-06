@@ -93,7 +93,7 @@ if (playerSide == west) then {
 	_kick = false;
 	while {true} do
 	{
-		uiSleep (10*60);
+		uiSleep (16*60);
 		_new = getPos player;
 		if ((_new select 0 == _old select 0) && (_new select 1 == _old select 1)) then
 		{
