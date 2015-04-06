@@ -317,12 +317,12 @@ class VirtualShops {
 	
 	class papier {
 		name = "STR_Shops_papier";
-		items[] = { "papier" };
+		items[] = { "charbon" };
 	};
 	
 	class billet {
 		name = "STR_Shops_billet";
-		items[] = { "charbon" };
+		items[] = { "billet" };
 	};
 	
 	class coffee {
