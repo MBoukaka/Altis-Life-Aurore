@@ -6,8 +6,6 @@
 	Description:
 	Main functionality for pickaxe in mining.
 */
-closeDialog 0;
-closeDialog 0;
 private["_mine","_itemWeight","_diff","_itemName"];
 _mine = [];
 switch (true) do {
