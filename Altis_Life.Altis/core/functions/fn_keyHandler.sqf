@@ -97,6 +97,7 @@ switch (_code) do {
 	
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
 	case _interactionKey: {
+		if(!isNull (findDisplay 2001) || !isNull (findDisplay 1199)) exitWith {closeDialog 0; hint "Pas de glitch..";};
 		if(!life_action_inUse) then {
 			[] spawn  {
 				private "_handle";
