@@ -6,6 +6,8 @@
 	Description:
 	Main functionality for pickaxe in mining.
 */
+closeDialog 0;
+closeDialog 0;
 private["_mine","_itemWeight","_diff","_itemName"];
 _mine = [];
 switch (true) do {
@@ -30,6 +32,7 @@ if(EQUAL(_diff,0)) exitWith {hint localize "STR_NOTF_InvFull"};
 
 closeDialog 0;
 life_action_inUse = true;
+[[player, "PickaxeUseSound",15],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 for "_i" from 0 to 2 do {
 	player playMove "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
 	waitUntil{animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";};
