@@ -12,6 +12,7 @@ _resourceZones = ["apple_1","apple_2","apple_3","apple_4","peaches_1","peaches_2
 _zone = "";
 
 if(life_action_gathering) exitWith {}; //Action is in use, exit to prevent spamming.
+if(player GVAR ["surrender", false]) exitWith {hint "Tu ne peux pas ramasser en te la coulant douce !";};
 life_action_gathering = true;
 //Find out what zone we're near
 {
