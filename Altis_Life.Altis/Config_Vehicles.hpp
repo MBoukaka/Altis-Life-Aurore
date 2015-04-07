@@ -648,9 +648,9 @@ class CarShops {
 	class esco_car {
 		side = "civ";
 		vehicles[] = {
-			{ "Aurore_escobar_ifrit", 92500, "" },
-			{ "ESCO_LAMBO", 85000, "" },
-			{ "Aurore_escobar_hummingbird", 110000, "" }
+			{ "Aurore_escobar_ifrit", 92500, "esco" },
+			{ "ESCO_LAMBO", 85000, "esco" },
+			{ "Aurore_escobar_hummingbird", 110000, "esco" }
 		};
 	};
 
