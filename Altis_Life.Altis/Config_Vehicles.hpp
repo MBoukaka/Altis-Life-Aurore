@@ -631,16 +631,16 @@ class CarShops {
 	class reb_car {
 		side = "civ";
 		vehicles[] = {
-			{ "B_Quadbike_01_F", 650, "" },
-			{ "Choco_suv", 3500, "" },
-			{ "Neige_suv", 3500, "" },
-			{ "Vert_suv", 3500, "" },
-			{ "B_G_Offroad_01_F", 3500, "" },
-			{ "Neige_Offroad", 3500, "" },
-			{ "Vert_Offroad", 3500, "" },
-			{ "Choco_Offroad", 3500, "" },
-			{ "O_MRAP_02_F", 92500, "" },
-			{ "B_Heli_Light_01_F", 73500, "" },
+			{ "B_Quadbike_01_F", 650, "rebel" },
+			{ "Choco_suv", 3500, "rebel" },
+			{ "Neige_suv", 3500, "rebel" },
+			{ "Vert_suv", 3500, "rebel" },
+			{ "B_G_Offroad_01_F", 3500, "rebel" },
+			{ "Neige_Offroad", 3500, "rebel" },
+			{ "Vert_Offroad", 3500, "rebel" },
+			{ "Choco_Offroad", 3500, "rebel" },
+			{ "O_MRAP_02_F", 92500, "rebel" },
+			{ "B_Heli_Light_01_F", 73500, "rebel" },
 			{ "B_G_Offroad_01_armed_F", 55000, "rebel" }
 		};
 	};
