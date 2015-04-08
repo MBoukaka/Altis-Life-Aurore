@@ -1,7 +1,7 @@
 /*
 	File: fn_dataQuery.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Starts the 'authentication' process and sends a request out to
 	the server to check for player information.
@@ -14,4 +14,4 @@ _side = playerSide;
 cutText[format[localize "STR_Session_Query",_uid],"BLACK FADED"];
 0 cutFadeOut 999999999;
 
-[[_uid,_side,_sender],"DB_fnc_queryRequest",DB_Dest,false] call life_fnc_MP;
+[[_uid,_side,_sender],"DB_fnc_queryRequest",false,false] call life_fnc_MP;

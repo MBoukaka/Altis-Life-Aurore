@@ -65,10 +65,4 @@ if(!_multiarr) then {
 	_return = _return select 0;
 };
 
-if(typeName _return == "ARRAY" && count _return == 1 && typeName (_return select 0) == "ARRAY") then {
-	if(count (_return select 0) == 0) then {
-		_return = [];
-	};
-};
-
 _return;

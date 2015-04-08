@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Something about being a quitter.
 */
@@ -26,7 +26,7 @@ if(_action) then {
 	grpPlayer SVAR ["gang_owner",_unitID,true];
 	grpPlayer selectLeader _unit;
 	[[_unit,grpPlayer],"TON_fnc_clientGangLeader",_unit,false] call life_fnc_MP; //Boot that bitch!
-	[[3,grpPlayer],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP; //Update the database.
+	[[3,grpPlayer],"TON_fnc_updateGang",false,false] call life_fnc_MP; //Update the database.
 } else {
 	hint localize "STR_GNOTF_TransferCancel";
 };

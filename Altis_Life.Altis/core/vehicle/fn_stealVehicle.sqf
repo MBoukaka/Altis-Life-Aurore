@@ -16,8 +16,8 @@ _vehicle = call compile format["%1", _vehicle];
 _nearVehicles = nearestObjects [getMarkerPos life_chopShop,["Car","Truck"],25];
 _vehicle = _nearVehicles select _vehicle;
 if(isNull _vehicle) exitWith {};
-_check = false;
-{if(player distance _x < 200 && side _x == west) then { _check = true; };} forEach playableUnits;
+_check = false; 
+{if(player distance _x < 200 && side _x == west) then { _check = true; };} forEach playableUnits; 
 if(_check) exitWith {hint "Les policiers sont trop pres de vous pour faire cette action!";};
 if(typeOf _vehicle in [
 	"B_MRAP_01_F","exxpensive_camion1_base","exxpensive_camion2_base","I_Truck_02_transport_F",
@@ -38,9 +38,9 @@ _color = 0;
 hint format["Vous venez de payer %1 pour que la carte grise soit a vous, Le vehicule a ete mis au Garage",_price];
 CASH = CASH - _price;
 [0] call SOCK_fnc_updatePartial;
-[[_vehicle],"TON_fnc_vehicleIsDead",DB_Dest,false] spawn life_fnc_MP;
+[[_vehicle],"TON_fnc_vehicleIsDead",false,false] spawn life_fnc_MP;
 sleep 0.05;
-[[(getPlayerUID player),playerSide,_vehicle,_color,1],"TON_fnc_vehicleCreate",DB_Dest,false] spawn life_fnc_MP;
+[[(getPlayerUID player),playerSide,_vehicle,_color,1],"TON_fnc_vehicleCreate",false,false] spawn life_fnc_MP;
 closeDialog 0;
 sleep 0.5;
-if(!isNil "_vehicle" && !isNull _vehicle) then { deleteVehicle _vehicle; };
+if(!isNil "_vehicle" && !isNull _vehicle) then { deleteVehicle _vehicle; }; 

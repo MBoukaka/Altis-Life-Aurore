@@ -28,7 +28,7 @@ _action = [
 
 if(_action) then {
 	if(BANK < (_houseCfg select 0)) exitWith {hint format [localize "STR_House_NotEnough"]};
-	[[_uid,_house],"TON_fnc_addHouse",DB_Dest,false] call life_fnc_MP;
+	[[_uid,_house],"TON_fnc_addHouse",false,false] call life_fnc_MP;
 	_house SVAR ["house_owner",[_uid,profileName],true];
 	_house SVAR ["locked",true,true];
 	_house SVAR ["Trunk",[[],0],true];

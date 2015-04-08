@@ -253,6 +253,7 @@ class Licenses {
 	
 	//Familles
 	LICENSEMACRO(esco,"STR_License_esco","esco",750,false,"civ")
+	LICENSEMACRO(meute,"STR_License_meute","meute",750,false,"civ")
 	LICENSEMACRO(anisimov,"STR_License_anisimov","anisimov",750,false,"civ")
 	LICENSEMACRO(parrain,"STR_License_parrain","parrain",750,false,"civ")
 	LICENSEMACRO(fal,"STR_License_fal","fal",750,false,"civ")

@@ -2,7 +2,7 @@
 /*
 	File: fn_dep_impound.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Impounds the vehicle
 */
@@ -17,7 +17,7 @@ if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf 
 	_vehicleName = getText(configFile >> "CfgVehicles" >> (typeOf _vehicle) >> "displayName");
 	[[0,format["%1 ton %2 est en train d'etre mis en fourriere par le depanneur.",(_vehicleData select 0) select 1,_vehicleName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 	life_action_inUse = true;
-
+	
 	_upp = "Impounding Vehicle";
 	//Setup our progress bar.
 	disableSerialization;
@@ -39,7 +39,7 @@ if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf 
 		if(!alive player) exitWith {};
 	};
 	5 cutText ["","PLAIN"];
-
+	
 	if(player distance _vehicle > 10) exitWith {hint "Remorquage annulé"; life_action_inUse = false;};
 	if(!alive player) exitWith {life_action_inUse = false;};
 	//_time = _vehicle getVariable "time";
@@ -55,9 +55,9 @@ if((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf 
 			case (_vehicle isKindOf "Ship"): {_price = LIFE_SETTINGS(getNumber,"impound_boat");};
 			case (_vehicle isKindOf "Air"): {_price = LIFE_SETTINGS(getNumber,"impound_air");};
 		};
-
+		
 		life_impound_inuse = true;
-		[[_vehicle,true,player],"TON_fnc_vehicleStore",DB_Dest,false] call life_fnc_MP;
+		[[_vehicle,true,player],"TON_fnc_vehicleStore",false,false] call life_fnc_MP;
 		waitUntil {!life_impound_inuse};
 		hint format["Tu as remorqué %1\n\nTu reçois $%2 Pour néttoyer les rues !",_type,_price];
 		[[0,format["%1 a mis en fourriere %3 de %2 ",name player,(_vehicleData select 0) select 1,_vehicleName]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
