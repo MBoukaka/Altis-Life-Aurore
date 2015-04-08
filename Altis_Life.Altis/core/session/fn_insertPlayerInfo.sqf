@@ -2,7 +2,7 @@
 /*
 	File: fn_insertPlayerInfo.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Read the file name... Explains it.
 */
@@ -10,4 +10,4 @@ if(life_session_completed) exitWith {}; //Why did this get executed when the cli
 cutText[localize "STR_Session_QueryFail","BLACK FADED"];
 0 cutFadeOut 9999999;
 
-[[getPlayerUID player,profileName,CASH,BANK,player],"DB_fnc_insertRequest",false,false] call life_fnc_MP;
+[[getPlayerUID player,profileName,CASH,BANK,player],"DB_fnc_insertRequest",DB_Dest,false] call life_fnc_MP;

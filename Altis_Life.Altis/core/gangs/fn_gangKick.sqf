@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	32 hours...
 */
@@ -22,5 +22,5 @@ SUB(_members,[_unitID]);
 grpPlayer SVAR ["gang_members",_members,true];
 
 [[_unit,grpPlayer],"TON_fnc_clientGangKick",_unit,false] call life_fnc_MP; //Boot that bitch!
-[[4,grpPlayer],"TON_fnc_updateGang",false,false] call life_fnc_MP; //Update the database.
+[[4,grpPlayer],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP; //Update the database.
 [] call life_fnc_gangMenu;
