@@ -3503,6 +3503,10 @@
 			<Original>Famille Zagaria</Original>
 			<French>Famille Zagaria</French>
 		</Key>
+		<Key ID="STR_License_meute">
+			<Original>La Meute</Original>
+			<French>La Meute</French>
+		</Key>
 		<Key ID="STR_License_vente">
 			<Original>Rôtisserie</Original>
 			<French>Rôtisserie</French>

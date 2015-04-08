@@ -90,6 +90,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_meute)then {
+			_return = _return + [
+				["house_sica","Base Scarface","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_macumba)then {
 			_return = _return + [
 				["macumba_spawn","Macumba Club","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
@@ -109,6 +115,12 @@ switch (_side) do
 		};
 		
 		if(license_civ_scarface)then {
+			_return = _return + [
+				["house_re","Entreprise Scarface","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_meute)then {
 			_return = _return + [
 				["house_re","Entreprise Scarface","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
