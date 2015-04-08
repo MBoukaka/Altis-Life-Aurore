@@ -7,7 +7,7 @@
 format["Bonjour %1, svp lire attentivement!",name player] hintC
 [
 	"Bienvenue sur le serveur Altis Life Aurore",
-	"Le serveur reboot 5 fois par jour ! (00H30 / 05H30 / 09H30 / 14H30 / 19H30)",
+	"Le serveur reboot 5 fois par jour ! (05H30 / 09H30 / 15H30 / 19H30 / 23H30)",
 	"", 
 	"[WINDOWS GAUCHE] est la touche d'interaction, vous pouvez la changer en pressant ESC et en allant dans Configurer->Controles->Personnel(custom) et configurer l'Action 10 a une autre touche.",	
 	"Y: Ouvrir le menu joueur",	
@@ -18,6 +18,7 @@ format["Bonjour %1, svp lire attentivement!",name player] hintC
 	"Shift R : Menotter",
 	"Shift F : Coup de poing",
 	"Shift G : Main sur la tete",
+	"Shift L : Girophare (Dep, Med, Cop)",
 	"[1] : Menu d'animation",
 	"Visitez notre site: AltisAurore.fr pour plus d informations."
 ];
