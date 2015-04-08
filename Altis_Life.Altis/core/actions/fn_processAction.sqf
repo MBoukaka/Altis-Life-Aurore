@@ -29,8 +29,8 @@ _itemInfo = switch (_type) do {
 	case "bombe": {["explo","blastingcharge",1650,(localize "STR_Process_bombe")];};
 	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
 	case "esco": {["marijuana","resine",5350,(localize "STR_Process_resine")];};
-	case "papier": {["bois","papier",350,(localize "STR_Process_papier")];};
-	case "charbon": {["bois","charbon",350,(localize "STR_Process_charbon")];};
+	case "papy1": {["bois","papier",350,(localize "STR_Process_papier")];};
+	case "papier": {["bois","charbon",350,(localize "STR_Process_charbon")];};
 	case "papy": {["papier","billet",5350,(localize "STR_Process_papy")];};
 	case "beerp": {["hops","beerp",550,(localize "STR_Process_beerp")];};
 	case "whiskey": {["rye","whiskey",750,(localize "STR_Process_whiskey")];};
@@ -51,7 +51,7 @@ _newItem = SEL(_itemInfo,1);
 _cost = SEL(_itemInfo,2);
 _upp = SEL(_itemInfo,3);
 
-if(_vendor in [mari_processor,coke_processor,heroin_processor,pro_1,pro_2,process_peau]) then {
+if(_vendor in [mari_processor,coke_processor,heroin_processor,pro_1,pro_2,process_peau,papy_1]) then {
 	_hasLicense = true;
 } else {
 	_hasLicense = LICENSE_VALUE(_type,"civ");
