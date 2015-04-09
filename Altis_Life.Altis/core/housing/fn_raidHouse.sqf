@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Raids the players house?
 */
@@ -54,7 +54,7 @@ _value = 0;
 {
 	_var = SEL(_x,0);
 	_val = SEL(_x,1);
-	
+
 	if(EQUAL(ITEM_ILLEGAL(_var),1)) then {
 		if(!(EQUAL(ITEM_SELLPRICE(_var),-1))) then {
 			_houseInvData set[_forEachIndex,-1];
@@ -69,7 +69,7 @@ if(_value > 0) then {
 	[[0,"STR_House_Raid_Successful",true,[[_value] call life_fnc_numberText]],"life_fnc_broadcast",true,false] call life_fnc_MP;
 	ADD(BANK,round(_value / 2));
 	_house SVAR ["Trunk",[_houseInvData,_houseInvVal],true];
-	[[_house],"TON_fnc_updateHouseTrunk",false,false] call life_fnc_MP;
+	[[_house],"TON_fnc_updateHouseTrunk",DB_Dest,false] call life_fnc_MP;
 } else {
 	hint localize "STR_House_Raid_NoIllegal";
 };

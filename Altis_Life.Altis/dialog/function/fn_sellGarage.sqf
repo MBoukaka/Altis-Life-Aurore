@@ -2,7 +2,7 @@
 /*
 	File: fn_sellGarage.sqf
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Sells a vehicle from the garage.
 */
@@ -27,7 +27,7 @@ _sellPrice = switch(playerSide) do {
 };
 if(isNil "_sellPrice") exitWith {_sellPrice = 150;};
 
-[[_vid,_pid,_sellPrice,player,life_garage_type],"TON_fnc_vehicleDelete",false,false] call life_fnc_MP;
+[[_vid,_pid,_sellPrice,player,life_garage_type],"TON_fnc_vehicleDelete",DB_Dest,false] call life_fnc_MP;
 hint format[localize "STR_Garage_SoldCar",[_sellPrice] call life_fnc_numberText];
 ADD(BANK,_sellPrice);
 closeDialog 0;

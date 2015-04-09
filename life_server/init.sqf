@@ -12,6 +12,14 @@ life_server_isReady = false;
 life_server_extDB_notLoaded = "";
 serv_sv_use = [];
 PVAR_ALL("life_server_isReady");
+LS_HC_Enabled = CONFIG_BOOL((EXTDB_SETTINGS("HC_Enabled")));
+
+DB_Dest = false;
+PVAR_ALL("DB_Dest");
+
+if(LS_HC_Enabled) then {
+	[] execVM "\life_server\initHC.sqf";
+};
 
 /*
 	Prepare extDB before starting the initialization process

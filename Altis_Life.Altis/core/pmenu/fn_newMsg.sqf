@@ -34,8 +34,8 @@ switch(_type) do
 		ctrlShow[88885, false];
 		if(!([str(_msg)] call life_fnc_bugExtDB)) exitWith {hint "Tu ne peux pas utiliser les deux-points !"};
 		if(_msg == "") exitWith {hint "Il faut taper un message !";ctrlShow[88885, true];};
-		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Tu as envoye un message a : %1 : %2",name life_smartphoneTarget,_msg];	
+		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",DB_Dest,false] spawn life_fnc_MP;
+		hint format["Tu as envoye un message a : %1 : %2",name life_smartphoneTarget,_msg];
 		ctrlShow[88885, true];
 		closeDialog 88883;
 	};

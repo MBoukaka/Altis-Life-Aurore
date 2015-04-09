@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	32 hours later...
 */
@@ -14,5 +14,5 @@ SUB(_grpMembers,[steamid]);
 _grp SVAR ["gang_members",_grpMembers,true];
 [player] joinSilent (createGroup civilian);
 
-[[4,_grp],"TON_fnc_updateGang",false,false] call life_fnc_MP;
+[[4,_grp],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP;
 closeDialog 0;

@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Pulls up the menu and creates the gang?
 */
@@ -18,7 +18,7 @@ _badChar = false;
 if(_badChar) exitWith {hint localize "STR_GNOTF_IncorrectChar";};
 if(BANK < (LIFE_SETTINGS(getNumber,"gang_price"))) exitWith {hint format[localize "STR_GNOTF_NotEnoughMoney",[((LIFE_SETTINGS(getNumber,"gang_price")) - BANK)] call life_fnc_numberText];};
 
-[[player,getPlayerUID player,_gangName],"TON_fnc_insertGang",false,false] call life_fnc_MP;
+[[player,getPlayerUID player,_gangName],"TON_fnc_insertGang",DB_Dest,false] call life_fnc_MP;
 hint localize "STR_NOTF_SendingData";
 closeDialog 0;
 life_action_gangInUse = true;
