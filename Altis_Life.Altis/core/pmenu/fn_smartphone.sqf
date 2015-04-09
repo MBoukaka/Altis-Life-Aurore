@@ -38,7 +38,7 @@ switch(_type) do
 			};
 		} forEach playableUnits;
 
-		[[getPlayerUID player, player],"TON_fnc_msgRequest",DB_Dest,false] spawn life_fnc_MP;
+		[[getPlayerUID player, player],"TON_fnc_msgRequest",DB_Dest,false] call life_fnc_MP;
 		ctrlEnable[887892,false];
 	};
 	case 1:

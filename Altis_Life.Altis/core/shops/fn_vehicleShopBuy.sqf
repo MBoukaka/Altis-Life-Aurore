@@ -99,7 +99,7 @@ life_vehicles pushBack _vehicle;
 
 if(_mode) then {
 	if(!(_className in ["B_G_Offroad_01_armed_F","B_MRAP_01_hmg_F"])) then {
-		[[(getPlayerUID player),playerSide,_vehicle,_colorIndex],"TON_fnc_vehicleCreate",DB_Dest,false] call life_fnc_MP;
+		[[(getPlayerUID player),playerSide,_vehicle,_colorIndex],"TON_fnc_vehicleCreate",false,false] call life_fnc_MP;
 	};
 };
 

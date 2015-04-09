@@ -109,6 +109,12 @@ class CfgFunctions
 			class updateHouseContainers {};
 			class updateHouseTrunk {};
 		};
+		
+		class Smartphone
+		{
+			file = "\life_hc\MySQL\Smartphone";
+			class msgRequest {};
+		};
 
 		class Gangs
 		{
@@ -124,7 +130,6 @@ class CfgFunctions
 			file = "\life_hc\MySQL\Vehicles";
 			class getVehicles {};
 			class keyManagement {};
-			class vehicleCreate {};
 			class vehicleDead {};
 			class vehicleDelete {};					
 			class vehicleIsDead {};
