@@ -18,7 +18,7 @@ if(isNil "_price") then {_price = 150;};
 
 if(BANK < _price) exitWith {hint format[(localize "STR_Garage_CashError"),[_price] call life_fnc_numberText];};
 
-[[_vid,_pid],"TON_fnc_InsureCar",false,false] spawn life_fnc_MP;
+[[_vid,_pid],"TON_fnc_InsureCar",DB_Dest,false] call life_fnc_MP;
 
 hint "Votre véhicule est désormais assuré";
 

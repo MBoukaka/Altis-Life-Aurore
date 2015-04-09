@@ -127,7 +127,8 @@ class CfgFunctions
 			class vehicleCreate {};
 			class vehicleDead {};
 			class vehicleDelete {};					
-			class vehicleIsDead {};					
+			class vehicleIsDead {};
+			class InsureCar {};	
 		};
 
 		class Other
@@ -136,12 +137,6 @@ class CfgFunctions
 			class logIt;
 		};
 
-		class Smartphone 
-		{
-			file = "\life_hc\MySQL\Smartphone";
-			class handleMessages{};
-			class msgRequest {};
-		};
 	};
 
 	class Life

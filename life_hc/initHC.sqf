@@ -149,15 +149,13 @@ HC_MPAllowedFuncs = [
     "ton_fnc_updatehousecontainers",
     "ton_fnc_updatehousetrunk",
 
-    "ton_fn_handlemessages",
-    "ton_fn_msgrequest",
-
     "ton_fnc_getvehicles",
     "ton_fnc_keymanagement",
     "ton_fnc_vehiclecreate",
     "ton_fnc_vehicledead",
     "ton_fnc_vehicledelete",
     "ton_fnc_vehicleisdead",
+	"ton_fnc_insurecar",
 
 	"life_fnc_wantedadd",
 	"life_fnc_wantedbounty",
