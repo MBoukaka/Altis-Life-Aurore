@@ -48,3 +48,13 @@ if(_action) then {
 		_house SVAR [format["bis_disabled_Door_%1",_i],1,true];
 	};
 };
+
+sleep 2;
+hint "Retour au lobby dans 3";
+sleep 1;
+hint "Retour au lobby dans 2";
+sleep 1;
+hint "Retour au lobby dans 1";
+sleep 1;
+["buyhouse",FALSE,TRUE] call BIS_fnc_endMission;
+sleep 5;

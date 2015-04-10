@@ -97,6 +97,16 @@ class CfgSounds
 class CfgDebriefing
 {	
 
+	class buyhouse
+	{
+		title = "Retour lobby";
+		subtitle = "Tu viens de d'acheter une maison.";
+		description = "Pour que la synchro fonctionne correctement, un retour au lobby est obligatoire !";
+		pictureBackground = "";
+		picture = "";
+		pictureColor[] = {0,0.3,0.6,1};
+	};
+	
 	class gangcreated
 	{
 		title = "Retour lobby";
