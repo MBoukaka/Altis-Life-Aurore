@@ -20,5 +20,5 @@ _index = -1;
 	_itemDisplayIcon = M_CONFIG(getText,"VirtualItems",_itemName,"icon");
 	_itemDisplayName = localize _itemDisplayName;
 	_listbox lbAdd format ["%1",_itemDisplayName];
-	_listbox lbSetPicture [_index,_itemDisplayIcon];
+	_listbox lbSetPicture [(lbSize _listbox )-1,_itemDisplayIcon];
 } forEach DYNMARKET_prices;
