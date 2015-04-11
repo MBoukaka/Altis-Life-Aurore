@@ -85,7 +85,7 @@ player SVAR ["Escorting",false,true];
 player SVAR ["transporting",false,true];
 
 diag_log "Past Settings Init";
-[] execFSM "core\fsm\client.fsm";
+[] execFSM "core\functions\fsm\client.fsm";
 
 //FPS-Fix
 diag_log "-------- Lade FPS-Fix... --------";
