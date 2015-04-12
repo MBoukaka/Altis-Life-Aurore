@@ -2,7 +2,7 @@
 
 	file: fn_msgRequest.sqf
 	Author: Silex
-        Modified by: Kai
+    Modified by: Kai
 	
 	Fills the Messagelist
 */

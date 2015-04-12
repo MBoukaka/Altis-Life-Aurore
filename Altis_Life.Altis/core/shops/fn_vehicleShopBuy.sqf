@@ -95,7 +95,7 @@ _vehicle allowDamage true;
 
 //life_vehicles set[count life_vehicles,_vehicle]; //Add err to the chain.
 life_vehicles pushBack _vehicle;
-[[getPlayerUID player,playerSide,_vehicle,1],"TON_fnc_keyManagement",DB_Dest,false] call life_fnc_MP;
+[[getPlayerUID player,playerSide,_vehicle,1],"TON_fnc_keyManagement",false,false] call life_fnc_MP;
 
 if(_mode) then {
 	if(!(_className in ["B_G_Offroad_01_armed_F","B_MRAP_01_hmg_F"])) then {
