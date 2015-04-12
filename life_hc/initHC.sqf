@@ -20,7 +20,7 @@
     Instructions:
 
     All needed scripts have to be imported and declared in the config.cpp
-    It's imortant that clearly no script uses the function "owner" to reject a life_fnc_mp!
+    It's important that clearly no script uses the function "owner" to reject a life_fnc_mp!
     This command can only be used on the server. Instead of the owner ID just use the player object,
     it will work fine too.
     Make sure that every script that has to be reached remotely is declared in the array "HC_MPAllowedFuncs"
@@ -155,6 +155,8 @@ HC_MPAllowedFuncs = [
     "ton_fnc_vehicledelete",
     "ton_fnc_vehicleisdead",
 	"ton_fnc_insurecar",
+	"ton_fnc_vehicledeadinsure0",
+	"ton_fnc_vehicledeadinsure1",
 	
 	"ton_fnc_msgrequest",
 

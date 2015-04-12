@@ -37,10 +37,10 @@ class CfgServerSettings
 		MISC = false; //Enabled? Allows you to use certain features that are not really related to the database for extDB
 
 		/* Debug */
-		MySQL_Query = true; //Log queries? Only set this to true if you are developing.
+		MySQL_Query = false; //Log queries? Only set this to true if you are developing.
 
 		/* Debug queries */
-		MySQL_Debug_Queries = true; // Execute several MySQL-statements on startup to prove for a working connecting
+		MySQL_Debug_Queries = false; // Execute several MySQL-statements on startup to prove for a working connecting
 
 		/* Status message time */
 		MySQL_Status_Time = 1; // The time between the status messages in minutes - in idle there wouldn't any message being send
@@ -133,7 +133,9 @@ class CfgFunctions
 			class vehicleDead {};
 			class vehicleDelete {};					
 			class vehicleIsDead {};
-			class InsureCar {};	
+			class InsureCar {};
+			class vehicleDeadInsure0 {};	
+			class vehicleDeadInsure1 {};	
 		};
 
 		class Other

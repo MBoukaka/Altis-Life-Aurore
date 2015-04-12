@@ -39,7 +39,7 @@ if(typeName _queryResult == "STRING") exitWith {[[],"SOCK_fnc_dataQuery",(_retur
 if(count _queryResult != 0) exitWith {[[],"SOCK_fnc_dataQuery",(_returnToSender),false] call life_fnc_MP;};
 
 //Clense and prepare some information.
-_alias = [[_name]];
+_alias = [_name];
 _money = [_money] call DB_fnc_numberSafe;
 _bank = [_bank] call DB_fnc_numberSafe;
 
