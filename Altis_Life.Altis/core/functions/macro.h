@@ -28,6 +28,7 @@
 #define PISTOL handgunWeapon player
 #define PISTOL_ITEMS handgunItems player
 #define LAUNCHER secondaryWeapon player
+#define LAUNCHER_ITEMS secondaryWeaponItems player
 #define EXTDB_FAILED(MESSAGE) \
 	life_server_extDB_notLoaded = [true,##MESSAGE]; \
 	PVAR_ALL("life_server_extDB_notLoaded"); \
