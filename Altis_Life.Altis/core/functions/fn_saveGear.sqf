@@ -8,7 +8,7 @@
     Description:
     Saves the players gear for syncing to the database for persistence..
 */
-private["_return","_uItems","_bItems","_vItems","_pItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_sMag","_hMag","_uni","_ves","_bag","_handled"];
+private["_return","_uItems","_bItems","_vItems","_pItems","_hItems","_yItems","_uMags","_vMags","_bMags","_pMag","_hMag","_uni","_ves","_bag","_handled"];
 _return = [];
 
 _return pushBack uniform player;
@@ -20,7 +20,6 @@ _return pushBack assignedITems player;
 if(playerSide == west || playerSide == civilian || playerSide == independent && {EQUAL(LIFE_SETTINGS(getNumber,"save_civ_weapons"),1)}) then {
     _return pushBack RIFLE;
     _return pushBack PISTOL;
-	_return pushBack LAUNCHER;
 } else {
     _return pushBack [];
     _return pushBack [];
@@ -35,7 +34,6 @@ _vMags  = [];
 _pItems = [];
 _hItems = [];
 _yItems = [];
-_sItems = [];
 _uni = [];
 _ves = [];
 _bag = [];
@@ -122,32 +120,6 @@ if(count (handgunMagazine player) > 0 && alive player) then {
     };
 };
 
-if(count (secondaryWeaponMagazine player) > 0 && alive player) then {
-    _sMag = SEL((secondaryWeaponMagazine player),0);
-	
-    if(!(EQUAL(_sMag,""))) then {
-        _uni = player canAddItemToUniform _sMag;
-        _ves = player canAddItemToVest _sMag;
-        _bag = player canAddItemToBackpack _sMag;
-        _handled = false;
-		
-        if(_ves) then {
-			ADD(_vMags,[_sMag]);
-            _handled = true;
-        };
-		
-        if(_uni && !_handled) then {
-			ADD(_uMags,[_sMag]);
-            _handled = true;
-        };
-		
-        if(_bag && !_handled) then {
-			ADD(_bMags,[_sMag]);
-            _handled = true;
-        };
-    };
-};
-
 if(count (RIFLE_ITEMS) > 0) then {
     {
 		ADD(_pItems,[_x]);
@@ -158,12 +130,6 @@ if(count (PISTOL_ITEMS) > 0) then {
     {
 		ADD(_hItems,[_x]);
     } forEach (handGunItems player);
-};
-
-if(count (LAUNCHER_ITEMS) > 0) then {
-    {
-		ADD(_sItems,[_x]);
-    } forEach (secondaryWeaponItems player);
 };
 
 {
@@ -181,7 +147,6 @@ _return pushBack _vItems;
 _return pushBack _vMags;
 _return pushBack _pItems;
 _return pushBack _hItems;
-_return pushBack _sItems;
 if(EQUAL(LIFE_SETTINGS(getNumber,"save_virtualItems"),1)) then {
     _return pushBack _yItems;
 } else {

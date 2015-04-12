@@ -37,18 +37,15 @@ _headgear = [_itemArray,4,"",[""]] call BIS_fnc_param;
 _items = [_itemArray,5,[],[[]]] call BIS_fnc_param;
 _prim = [_itemArray,6,"",[""]] call BIS_fnc_param;
 _seco = [_itemArray,7,"",[""]] call BIS_fnc_param;
-_lr = [_itemArray,8,"",[""]] call BIS_fnc_param;
-_uItems = [_itemArray,9,[],[[]]] call BIS_fnc_param;
-_uMags = [_itemArray,10,[],[[]]] call BIS_fnc_param;
-_bItems = [_itemArray,11,[],[[]]] call BIS_fnc_param;
-_bMags = [_itemArray,12,[],[[]]] call BIS_fnc_param;
-_vItems = [_itemArray,13,[],[[]]] call BIS_fnc_param;
-_vMags = [_itemArray,14,[],[[]]] call BIS_fnc_param;
-_pItems = [_itemArray,15,[],[[]]] call BIS_fnc_param;
-_hItems = [_itemArray,16,[],[[]]] call BIS_fnc_param;
-_sItems = [_itemArray,17,[],[[]]] call BIS_fnc_param;
-_yItems = [_itemArray,18,[],[[]]] call BIS_fnc_param;
-
+_uItems = [_itemArray,8,[],[[]]] call BIS_fnc_param;
+_uMags = [_itemArray,9,[],[[]]] call BIS_fnc_param;
+_bItems = [_itemArray,10,[],[[]]] call BIS_fnc_param;
+_bMags = [_itemArray,11,[],[[]]] call BIS_fnc_param;
+_vItems = [_itemArray,12,[],[[]]] call BIS_fnc_param;
+_vMags = [_itemArray,13,[],[[]]] call BIS_fnc_param;
+_pItems = [_itemArray,14,[],[[]]] call BIS_fnc_param;
+_hItems = [_itemArray,15,[],[[]]] call BIS_fnc_param;
+_yItems = [_itemArray,16,[],[[]]] call BIS_fnc_param;
 
 if(!(EQUAL(_goggles,""))) then {_handle = [_goggles,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
 if(!(EQUAL(_headgear,""))) then {_handle = [_headgear,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
@@ -79,7 +76,6 @@ life_maxWeight = 24;
 //Primary & Secondary (Handgun) should be added last as magazines do not automatically load into the gun.
 if(!(EQUAL(_prim,""))) then {_handle = [_prim,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
 if(!(EQUAL(_seco,""))) then {_handle = [_seco,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
-if(!(EQUAL(_lr,""))) then {_handle = [_lr,true,false,false,false] spawn life_fnc_handleItem; waitUntil {scriptDone _handle};};
 
 {
     if (!(EQUAL(_x,""))) then {
@@ -91,8 +87,3 @@ if(!(EQUAL(_lr,""))) then {_handle = [_lr,true,false,false,false] spawn life_fnc
         player addHandgunItem _x;
     };
 } foreach (_hItems);
-{
-    if (!(EQUAL(_x,""))) then {
-        player addSecondaryWeaponItem _x;
-    };
-} foreach (_sItems);
