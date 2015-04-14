@@ -24,6 +24,7 @@ sleep 10;
 [] execVM "scripts\autoReskin.sqf";
 [] execVM "scripts\lock_backpack.sqf";
 [] execVM "scripts\emptyFuel.sqf";
+[] execVM "scripts\impots.sqf";
 
 //Execute JIP code.
 if((_this select 1)) then {
