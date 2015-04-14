@@ -16,14 +16,13 @@ if(EQUAL(count _vehicleInfo,0)) exitWith {hint localize "STR_Cop_VehEmpty"};
 
 _value = 0;
 {
-	_var = SEL(_x,0);
-	_val = SEL(_x,1);
-	
-	if("getNumber(_x >> 'illegal') isEqualTo 1" configClasses (missionConfigFile >> "VirtualItems")) then {
-		if(!(EQUAL(ITEM_SELLPRICE(_var),-1))) then {
+	{
+		_var = configName(_x);
+		_val = ITEM_VALUE(_var);
+		if(_val > 0) then {
 			ADD(_value,(round(_val * ITEM_SELLPRICE(_var) / 2)));
 		};
-	};
+	} foreach ("getNumber(_x >> 'illegal') isEqualTo 1" configClasses (missionConfigFile >> "VirtualItems"));
 } foreach (SEL(_vehicleInfo,0));
 
 if(_value > 0) then {
