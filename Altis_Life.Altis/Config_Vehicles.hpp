@@ -1788,7 +1788,6 @@ class CfgVehicles {
 	class cl3_aventador_lp7004_blue : cl3_458_gold {};
 	class cl3_aventador_lp7004_red : cl3_458_gold {};
 	class cl3_aventador_lp7004_black : cl3_458_gold {};
-	class cl3_aventador_lp7004_green : cl3_458_gold {};
 	class cl3_aventador_lp7004_gold : cl3_458_gold {};
 	class cl3_aventador_lp7004_flame1 : cl3_458_gold {};
 	class cl3_aventador_lp7004_flame2 : cl3_458_gold {};
