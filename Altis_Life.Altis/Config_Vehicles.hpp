@@ -409,9 +409,19 @@ class CarShops {
 			{ "cl3_dbs_volante_violet", 65000, "driver" },
 			{ "cl3_dbs_volante_white", 65000, "driver" },
 			{ "cl3_dbs_volante_yellow", 65000, "driver" },
+			{ "cl3_aventador_lp7004_blue", 65000, "driver" },
+			{ "cl3_aventador_lp7004_red", 65000, "driver" },
+			{ "cl3_aventador_lp7004_black", 65000, "driver" },
+			{ "cl3_aventador_lp7004_green", 65000, "driver" },
+			{ "cl3_aventador_lp7004_grey", 65000, "driver" },
+			{ "cl3_aventador_lp7004_orange", 65000, "driver" },
+			{ "cl3_aventador_lp7004_purple", 65000, "driver" },
+			{ "cl3_aventador_lp7004_sand", 65000, "driver" },
+			{ "cl3_aventador_lp7004_silver", 65000, "driver" },
+			{ "cl3_aventador_lp7004_white", 65000, "driver" },
+			{ "cl3_aventador_lp7004_yellow", 65000, "driver" },
 			{ "cl3_veyron_blk_wht", 268000, "driver" },
 			{ "cl3_veyron_wht_lwht", 268000, "driver" }
-		
 		};
 	};
 	
@@ -783,6 +793,9 @@ class CarShops {
 			{ "cl3_lamborghini_gt1_flame2", 85000, "", { "life_donator", 3 } },
 			{ "cl3_murcielago_flame2", 85000, "", { "life_donator", 3 } },
 			{ "cl3_reventon_flame2", 85000, "", { "life_donator", 3 } },
+			{ "cl3_aventador_lp7004_gold", 85000, "", { "life_donator", 3 } },
+			{ "cl3_aventador_lp7004_flame1", 85000, "", { "life_donator", 3 } },
+			{ "cl3_aventador_lp7004_flame2", 85000, "", { "life_donator", 3 } },
 			
 			{ "O_Truck_03_covered_F", 73000, "", { "life_donator", 3 } },
 			{ "A3L_Dumptruck", 83000, "", { "life_donator", 3 } },
@@ -1772,6 +1785,54 @@ class CfgVehicles {
 	class cl3_dbs_volante_yellow : cl3_458_gold {};
 	class cl3_veyron_blk_wht : cl3_458_gold {};
 	class cl3_veyron_wht_lwht : cl3_458_gold {};
+	class cl3_aventador_lp7004_blue : cl3_458_gold {};
+	class cl3_aventador_lp7004_red : cl3_458_gold {};
+	class cl3_aventador_lp7004_black : cl3_458_gold {};
+	class cl3_aventador_lp7004_green : cl3_458_gold {};
+	class cl3_aventador_lp7004_gold : cl3_458_gold {};
+	class cl3_aventador_lp7004_flame1 : cl3_458_gold {};
+	class cl3_aventador_lp7004_flame2 : cl3_458_gold {};
+	class cl3_aventador_lp7004_green : cl3_458_gold {};
+	class cl3_aventador_lp7004_grey : cl3_458_gold {};
+	class cl3_aventador_lp7004_orange : cl3_458_gold {};
+	class cl3_aventador_lp7004_purple : cl3_458_gold {};
+	class cl3_aventador_lp7004_sand : cl3_458_gold {};
+	class cl3_aventador_lp7004_silver : cl3_458_gold {};
+	class cl3_aventador_lp7004_white : cl3_458_gold {};
+	class cl3_aventador_lp7004_yellow : cl3_458_gold {};
+	class Exxpensive_leferrari_base {
+        vItemSpace = 65;
+        storageFee[] = { 1500, 0, 0, 0 };
+		garageSell[] = { 250000, 0, 0, 0 };
+        insurance = 300000;
+        chopShop = 25000;
+        textures[] = { 
+			{ "Noir", "civ", {
+                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
+            } },
+			{ "Rouge", "civ", {
+	                "#(argb,8,8,3)color(1,0,0,1.0,CO)"
+            } },
+			{ "Jaune", "civ", {
+	                "#(argb,8,8,3)color(1,1,0,1.0,CO)"
+            } },
+			{ "Orange", "civ", {
+	                "#(argb,8,8,3)color(1,0.501961,0,1.0,CO)"
+            } },
+			{ "Vert", "civ", {
+	                "#(argb,8,8,3)color(0,1,0,1.0,CO)"
+            } },
+			{ "Gris", "civ", {
+	                "#(argb,8,8,3)color(0.501961,0.501961,0.501961,1.0,CO)"
+            } },
+			{ "Bleu", "civ", {
+	                "#(argb,8,8,3)color(0,0.301961,0.6,1.0,CO)"
+            } },
+            { "Blanc", "civ", {
+                "#(argb,8,8,3)color(1,1,1,1.0,CO)"
+            } }
+		 };
+    };
 
 //////////////////////////////////////////////////////////////////////////////////	civ_exxp_luxe
 	
