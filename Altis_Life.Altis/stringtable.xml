@@ -3539,9 +3539,9 @@
 			<Original>Famille Gambino</Original>
 			<French>Famille Gambino</French>
 		</Key>
-		<Key ID="STR_License_Nostra">
-			<Original>Famille Nostra</Original>
-			<French>Famille Nostra</French>
+		<Key ID="STR_License_nostra">
+			<Original>Famille Monteriggioni</Original>
+			<French>Famille Monteriggioni</French>
 		</Key>
 		<Key ID="STR_License_papy">
 			<Original>Famille Papy</Original>
@@ -3666,6 +3666,14 @@
 		<Key ID="STR_License_macumba">
 			<Original>Propriétaire du Macumba</Original>
 			<French>Propriétaire du Macumba</French>
+		</Key>
+		<Key ID="STR_License_ubn">
+			<Original>Groupe UBN</Original>
+			<French>Groupe UBN</French>
+		</Key>
+		<Key ID="STR_License_secte">
+			<Original>La Secte du maitre Wakan</Original>
+			<French>La secte du Maitre Wakan</French>
 		</Key>
 		<Key ID="STR_License_restaurant">
 			<Original>Restaurateur</Original>
