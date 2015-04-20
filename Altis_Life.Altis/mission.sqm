@@ -73,7 +73,6 @@ class Mission
 		"A3L_HospitalBed",
 		"A3_Modules_F",
 		"A3_Characters_F_OPFOR",
-		"A3_Characters_F_Kart",
 		"A3_Structures_F_Civ_Garbage",
 		"A3_Structures_F_Civ_Constructions",
 		"A3_Signs_F",
@@ -14525,8 +14524,8 @@ class Mission
 		};
 		class Item1009
 		{
-			position[]={12497.045,73.418175,15191.185};
-			azimut=1112.0966;
+			position[]={4953.769,328.92316,21836.52};
+			azimut=1022.6768;
 			id=1212;
 			side="EMPTY";
 			vehicle="Land_HelipadCivil_F";
@@ -14534,8 +14533,8 @@ class Mission
 		};
 		class Item1010
 		{
-			position[]={12489.696,73.478317,15204.78};
-			azimut=360.36139;
+			position[]={4940.0938,329.67264,21829.299};
+			azimut=270.94174;
 			id=1213;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
@@ -14595,8 +14594,8 @@ class Mission
 		};
 		class Item1016
 		{
-			position[]={12449.439,74.154335,15208.025};
-			azimut=1756.2;
+			position[]={4883.3174,347.1824,21928.969};
+			azimut=1838.2972;
 			id=1219;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -14605,8 +14604,8 @@ class Mission
 		};
 		class Item1017
 		{
-			position[]={12498.036,72.420128,15208.047};
-			azimut=1315.49;
+			position[]={4951.251,329.12668,21826.266};
+			azimut=1068.6694;
 			id=1220;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -14615,8 +14614,8 @@ class Mission
 		};
 		class Item1018
 		{
-			position[]={12499.139,72.617805,15206.545};
-			azimut=502.48999;
+			position[]={4949.4233,329.28778,21825.879};
+			azimut=350.57803;
 			id=1221;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -18282,24 +18281,24 @@ class Mission
 		};
 		class Item284
 		{
-			position[]={12489.511,73.48632,15204.725};
+			position[]={4940.1538,329.67075,21829.109};
 			name="nostra_1";
 			type="Empty";
-			angle=-88.792397;
+			angle=-178.21202;
 		};
 		class Item285
 		{
-			position[]={12449.502,74.197945,15204.008};
+			position[]={4882.5913,347.13046,21927.566};
 			name="nostra_spawn";
 			type="Empty";
 			angle=886.45099;
 		};
 		class Item286
 		{
-			position[]={12497.057,73.418571,15190.771};
+			position[]={4954.1851,328.91547,21836.514};
 			name="nostra_air";
 			type="Empty";
-			angle=-214.265;
+			angle=-303.68463;
 		};
 		class Item287
 		{
