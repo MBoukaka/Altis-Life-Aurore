@@ -867,7 +867,8 @@ class Clothing {
 		backpacks[] = {
 			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
 			{ "B_Kitbag_cbr", "", 10, { "", "", -1 } },
-			{ "B_FieldPack_cbr", "", 10, { "", "", -1 } }
+			{ "B_FieldPack_cbr", "", 10, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_skin_black", "Sac Noir", 10, { "", "", -1 } }
 		};
 	};
 	
