@@ -66,6 +66,18 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_ubn)then {
+			_return = _return + [
+				["ubn_spawn","Base UBN","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_secte)then {
+			_return = _return + [
+				["secte_spawn","La secte a Wakan","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_esco)then {
 			_return = _return + [
 				["resine_spawn","CoffeShop","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
