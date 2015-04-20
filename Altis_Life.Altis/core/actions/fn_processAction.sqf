@@ -19,11 +19,13 @@ _itemInfo = switch (_type) do {
 	case "oil": {["oil_unprocessed","oil_processed",1200,(localize "STR_Process_Oil")];};
 	case "diamond": {["diamond_uncut","diamond_cut",1350,(localize "STR_Process_Diamond")];};
 	case "heroin": {["heroin_unprocessed","heroin_processed",1750,(localize "STR_Process_Heroin")];};
+	case "heroinup": {["heroin_processed","heroin_med",1500,(localize "STR_Process_heroinup")];};
 	case "copper": {["copper_unrefined","copper_refined",750,(localize "STR_Process_Copper")];};
 	case "iron": {["iron_unrefined","iron_refined",1120,(localize "STR_Process_Iron")];};
 	case "sand": {["sand","glass",650,(localize "STR_Process_Sand")];};
 	case "salt": {["salt_unrefined","salt_refined",450,(localize "STR_Process_Salt")];};
 	case "cocaine": {["cocaine_unprocessed","cocaine_processed",1500,(localize "STR_Process_Cocaine")];};
+	case "cocaineup": {["cocaine_processed","cocaine_med",1500,(localize "STR_Process_cocaineup")];};
 	case "marijuana": {["cannabis","marijuana",500,(localize "STR_Process_Marijuana")];};
 	case "explo": {["poudre","explo",650,(localize "STR_Process_explo")];};
 	case "bombe": {["explo","blastingcharge",1650,(localize "STR_Process_bombe")];};

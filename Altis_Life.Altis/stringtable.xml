@@ -3499,6 +3499,14 @@
 			<Original>Pilote d'avion</Original>
 			<French>Pilote d'avion</French>
 		</Key>
+		<Key ID="STR_License_cocaineup">
+			<Original>Alchimiste - Cocaine</Original>
+			<French>Alchimiste - Cocaine</French>
+		</Key>
+		<Key ID="STR_License_heroinup">
+			<Original>Alchimiste - Heroine</Original>
+			<French>Alchimiste - Heroine</French>
+		</Key>
 		<Key ID="STR_License_zagaria">
 			<Original>Famille Zagaria</Original>
 			<French>Famille Zagaria</French>
@@ -3558,6 +3566,14 @@
 		<Key ID="STR_Process_explo">
 			<Original>Transformation de la poudre</Original>
 			<French>Transformations de la poudre</French>
+		</Key>
+		<Key ID="STR_Process_cocaineup">
+			<Original>Fabrication de la cocaine médicinale</Original>
+			<French>Fabrication de la cocaine médicinale</French>
+		</Key>
+		<Key ID="STR_Process_heroinup">
+			<Original>Fabrication de l'héroïne médicinale</Original>
+			<French>Fabrication de l'hérooïne médicinale</French>
 		</Key>
 		<Key ID="STR_Process_beerp">
 			<Original>Transformation de la bière</Original>
