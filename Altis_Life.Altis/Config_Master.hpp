@@ -125,8 +125,8 @@ class VirtualItems {
 	VITEMMACRO(whiskey, "STR_Item_whiskey", "whiskey", 2, -1, 0, false, -1, "")
 
 	//Mined Items
-	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 7, -1, -1, false, -1, "icons\ico_oilu.paa")
-	VITEMMACRO(oil_processed, "STR_Item_OilP", "oilProcessed", 6, -1, 0, false, -1, "icons\ico_oilp.paa")
+	VITEMMACRO(oil_unprocessed, "STR_Item_OilU", "oilUnprocessed", 5, -1, -1, false, -1, "icons\ico_oilu.paa")
+	VITEMMACRO(oil_processed, "STR_Item_OilP", "oilProcessed", 4, -1, 0, false, -1, "icons\ico_oilp.paa")
 	VITEMMACRO(copper_unrefined, "STR_Item_CopperOre", "copperUnrefined", 4, -1, -1, false, -1, "aurore_data2\icons\items\copper_ore.paa")
 	VITEMMACRO(copper_refined, "STR_Item_CopperIngot", "copperRefined", 3, -1, 0, false, -1, "aurore_data2\icons\items\copper.paa")
 	VITEMMACRO(iron_unrefined, "STR_Item_IronOre", "ironUnrefined", 5, -1, -1, false, -1, "aurore_data2\icons\items\iron_ore.paa")
