@@ -262,11 +262,10 @@ class Licenses {
 	LICENSEMACRO(parrain,"STR_License_parrain","parrain",750,false,"civ")
 	LICENSEMACRO(fal,"STR_License_fal","fal",750,false,"civ")
 	LICENSEMACRO(hool,"STR_License_hool","hool",750,false,"civ")
-	LICENSEMACRO(tchong,"STR_License_tchong","tchong",750,false,"civ")
+	LICENSEMACRO(galbano,"STR_License_galbano","galbano",750,false,"civ")
 	LICENSEMACRO(nostra,"STR_License_nostra","nostra",750,false,"civ")
 	LICENSEMACRO(scarface,"STR_License_scarface","scarface",750,false,"civ")
 	LICENSEMACRO(gambino,"STR_License_gambino","gambino",750,false,"civ")
-	LICENSEMACRO(zagaria,"STR_License_zagaria","zagaria",750,false,"civ")
 	
 };
 

@@ -150,9 +150,9 @@ switch (_side) do
 			];
 		};
 		
-		if(license_civ_tchong)then {
+		if(license_civ_galbano)then {
 			_return = _return + [
-				["house_tchong","Base des Tchong","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["house_tchong","Base des Galbanno","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
