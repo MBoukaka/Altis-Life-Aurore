@@ -78,6 +78,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_gonzo)then {
+			_return = _return + [
+				["gonzo_spawn","Famille El Gonzo","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_goa)then {
 			_return = _return + [
 				["goa_spawn","Groupe GoA","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
