@@ -417,6 +417,85 @@ class WeaponShops {
 		{ "acc_flashlight","",200 }
         };
     };
+	
+	class scarface {
+        name = "Scarface";
+        side = "civ";
+        license = "scarface";
+        level = -1;
+        msg = "";
+        items[] = {	
+		{ "NVGoggles_OPFOR","",50 },
+		{ "srifle_EBR_F","",11520 },
+		{ "20Rnd_762x51_Mag","",300 },
+		{ "arifle_mas_fal","FN Fal",10050 },
+		{ "20Rnd_mas_762x51_Stanag","Munitions FN Fal",500 },
+		{ "arifle_mas_mp5","MP5",6200 },
+		{ "arifle_mas_mp5_v","MP5 Camo",6250 },
+		{ "arifle_mas_mp5_d","MP5 Desert",6250 },
+		{ "30Rnd_mas_9x21_Stanag","Munitions MP5",110 },
+		{ "arifle_mas_ak_74m_c","AK74M Camo",5075 },
+		{ "arifle_mas_aks74","AKS74",5075 },
+		{ "30Rnd_mas_545x39_mag","Munitions AK74M + AKS74",280 },
+		{ "arifle_mas_arx_l","ARX160 Black",5450 },
+		{ "30Rnd_mas_556x45_Stanag","Munitions ARX160",200 },
+		{ "arifle_mas_bizon","Bizon",6200 },
+		{ "64Rnd_mas_9x18_mag","Munitions Bizon",200 },
+		{ "arifle_mas_hk417c","HK417",13500 },
+		{ "20Rnd_mas_762x51_Stanag","Munitions HK417",550 },
+		{ "arifle_mas_hk416","HK416",7650 },
+		{ "arifle_mas_hk416_v","HK416 Camo",7720 },
+		{ "arifle_mas_hk416_d","HK416 Desert",7720 },
+		{ "30Rnd_556x45_Stanag_Tracer_Green","Munitions VERTES",150 },
+		{ "arifle_mas_l119","L119A1",7550 },
+		{ "arifle_mas_l119_v","L119A1 Camo",7550 },
+		{ "arifle_mas_l119_d","L119A1 Desert",7550 },
+		{ "30Rnd_mas_556x45_Stanag","Munitions L119A1",200 },
+		{ "arifle_mas_m16","M16",6895 },
+		{ "30Rnd_556x45_Stanag_Tracer_Red","Munitions ROUGES",150 },
+		{ "30Rnd_mas_556x45_Stanag","Munitions M16",400 },
+		{ "arifle_SDAR_F","",5000 },
+		{ "20Rnd_556x45_UW_mag","",200 },
+		{ "LMG_Mk200_F","",9150 },
+		{ "200Rnd_65x39_cased_Box_Tracer","",150 },
+		{ "hgun_Rook40_F","",1100 },
+		{ "16Rnd_9x21_Mag","",100 },
+        { "hgun_ACPC2_F","",1200 },
+		{ "9Rnd_45ACP_Mag","",150 },
+        { "hgun_Pistol_heavy_01_F","",1500 },
+		{ "11Rnd_45ACP_Mag","",120 },
+		{ "hgun_Pistol_heavy_02_F","",1500 },
+		{ "6Rnd_45ACP_Cylinder","",110 },
+		{ "optic_ACO_grn","",200 },
+		{ "optic_Aco","",200 },
+		{ "optic_Hamr","",300 },
+		{ "optic_Holosight","",300 },
+		{ "optic_SOS","",1000 },
+		{ "optic_MRD","",250 },
+		{ "muzzle_snds_M","",500 },
+		{ "muzzle_snds_H","",500 },
+		{ "muzzle_snds_B","",500 },		
+		{ "muzzle_snds_acp","",500 },
+		{ "muzzle_mas_snds_L","Silencieu Pistolet",80 },
+		{ "muzzle_mas_snds_LM","Silencieux Makarov",80 },
+		{ "muzzle_mas_snds_C","Silencieux MP5",100 },
+		{ "muzzle_mas_snds_M","Silencieux M4 - M16 - HK14",600 },
+		{ "muzzle_mas_snds_SM","Silencieux HK417 - SR25",760 },
+		{ "muzzle_mas_snds_AK","Silencieux AK",300 },
+		{ "muzzle_mas_snds_SH","Silencieux SVD",800 },
+		{ "acc_flashlight","",200 },
+		{ "Rangefinder","",5000 },
+		{ "SmokeShell","",200 },
+		{ "SmokeShellRed","",200 },
+		{ "SmokeShellGreen","",200 },
+		{ "SmokeShellYellow","",200 },
+		{ "SmokeShellPurple","",200 },
+		{ "SmokeShellBlue","",200 },
+		{ "SmokeShellOrange","",200 },
+		{ "muzzle_snds_H_MG","",2500 }
+		};
+	};
+	
     class gang {
         name = "Hideout Armament";
         side = "civ";
