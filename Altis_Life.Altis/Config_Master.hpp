@@ -267,6 +267,7 @@ class Licenses {
 	LICENSEMACRO(scarface,"STR_License_scarface","scarface",750,false,"civ")
 	LICENSEMACRO(gambino,"STR_License_gambino","gambino",750,false,"civ")
 	LICENSEMACRO(gonzo,"STR_License_gonzo","gonzo",750,false,"civ")
+	LICENSEMACRO(meute,"STR_License_meute","meute",750,false,"civ")
 	
 };
 

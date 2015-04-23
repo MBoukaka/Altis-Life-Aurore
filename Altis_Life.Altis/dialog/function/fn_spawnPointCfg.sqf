@@ -84,6 +84,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_meute)then {
+			_return = _return + [
+				["meute_spawn","La Meute","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_goa)then {
 			_return = _return + [
 				["goa_spawn","Groupe GoA","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]

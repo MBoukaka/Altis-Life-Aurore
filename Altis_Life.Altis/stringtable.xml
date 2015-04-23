@@ -3499,6 +3499,10 @@
 			<Original>Famille El Gonzo</Original>
 			<French>Famille El Gonzo</French>
 		</Key>
+		<Key ID="STR_License_meute">
+			<Original>La meute</Original>
+			<French>La Meute</French>
+		</Key>
 		<Key ID="STR_License_avion">
 			<Original>Pilote d'avion</Original>
 			<French>Pilote d'avion</French>
