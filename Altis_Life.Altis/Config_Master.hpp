@@ -91,7 +91,7 @@ class Life_Settings {
 	
 	sellArray[] = {	};
 
-	allowedSavedVirtualItems[] = { "double","mauer","virg","vird","cone","gpstracker","pan1","menotte","pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut" };
+	allowedSavedVirtualItems[] = { "kebab","double","mauer","virg","vird","cone","gpstracker","pan1","menotte","pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut" };
 };
 
 //Virtual Items
