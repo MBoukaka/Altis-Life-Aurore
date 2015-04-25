@@ -2119,7 +2119,7 @@ class CfgVehicles {
 	class cl3_mackr_gold {
         vItemSpace = 500;
         storageFee[] = { 675, 0, 0, 0 };
-		garageSell[] = { 25000, 0, 0, 0 };
+		garageSell[] = { 45000, 0, 0, 0 };
         insurance = 30999;
         chopShop = 2069;
         textures[] = { };
