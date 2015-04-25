@@ -881,12 +881,20 @@ class Clothing {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
 			{ "U_Rangemaster", "", 20000, { "", "", -1 } },
 			{ "U_C_Policeman", "", 30000, { "", "", -1 } },
+			{ "U_B_SpecopsUniform_sgg", "Polaire Gendarme", 30000, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam_worn", "Grand froid Gendarme", 30000, { "", "", -1 } },
+			{ "U_O_OfficerUniform_ocamo", "Motard Gendarme", 30000, { "", "", -1 } },
+			{ "U_B_Wetsuit", "Tenue de plongée", 30000, { "", "", -1 } },
 			{ "U_C_GIGN", "", 50000, { "", "", -1 } }
 	    };
 		
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "H_Orel_Swat", "Casque du GIGN", 40000, { "", "", -1 } }
+			{ "H_Orel_Swat", "Casque du GIGN", 40000, { "", "", -1 } },
+			{ "H_HelmetB_plain_mcamo", "", 40000, { "", "", -1 } },
+			{ "H_RacingHelmet_1_blue_F", "Casque Moto", 40000, { "", "", -1 } },
+			{ "H_Booniehat_mcamo", "", 40000, { "", "", -1 } },
+			{ "H_MilCap_mcamo", "", 40000, { "", "", -1 } }
 		};
 		
 		goggles[] = {
@@ -899,7 +907,9 @@ class Clothing {
 			{ "GDM_Vest_Jaune", "", 30000, { "", "", -1 } },
 			{ "GDM_Vest_Noir", "", 30000, { "", "", -1 } },
 			{ "GDM_Vest_Mpg", "", 30000, { "", "", -1 } },
-			{ "GDM_Vest_Etu", "", 30000, { "", "", -1 } }
+			{ "GDM_Vest_Mpg", "", 30000, { "", "", -1 } },
+			{ "V_TacVest_GIGN", "Veste du GIGN", 30000, { "", "", -1 } },
+			{ "V_PlateCarrier1_blk", "Benji Balistique", 30000, { "", "", -1 } }
 		};
 		
 		backpacks[] = {
