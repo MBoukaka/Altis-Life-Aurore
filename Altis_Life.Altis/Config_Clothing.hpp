@@ -392,6 +392,7 @@ class Clothing {
 			{ "U_B_PilotCoveralls", "", 420, { "", "", -1 } },
 			{ "U_B_CombatUniform_mcam_worn", "", 420, { "", "", -1 } },
 			{ "U_O_GhillieSuit", "", 1250, { "", "", -1 } },
+			{ "U_O_FullGhillie_lsh", "", 2500, { "", "", -1 } },
 			{ "Niko_USA_AOR1", "", 400, { "", "", -1 } },
 			{ "Niko_USA_AOR1Tan", "", 400, { "", "", -1 } },
 			{ "Niko_USA_AOR2", "", 400, { "", "", -1 } },
