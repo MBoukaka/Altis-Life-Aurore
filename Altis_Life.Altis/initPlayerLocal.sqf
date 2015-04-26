@@ -12,7 +12,19 @@ if (!hasInterface && !isServer) exitWith {
 
 #define CONST(var1,var2) var1 = compileFinal (if(typeName var2 == "STRING") then {var2} else {str(var2)})
 CONST(BIS_fnc_endMission,BIS_fnc_endMission);
-
+//Slot Partenaire
+if (str(player) in ["civ_106_slot_partenaire"]) Then
+{
+   switch (getPlayerUID(player)) do
+   {
+      case "UID_1";
+      case "UID_2"; 
+      case "UID_3"; 
+      case "UID_4"; 
+      case "UID_N": {/* nothing to do */};
+      default {endMission "endType";};
+   };
+};
 //Salle d'attente
 if (playerSide == east) exitWith {
 ["SalleDattente",FALSE,TRUE] call BIS_fnc_endMission;
