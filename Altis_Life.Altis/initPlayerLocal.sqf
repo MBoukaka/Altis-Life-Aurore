@@ -17,10 +17,8 @@ if (str(player) in ["civ_106_slot_partenaire"]) Then
 {
    switch (getPlayerUID(player)) do
    {
-      case "UID_1";
-      case "UID_2"; 
-      case "UID_3"; 
-      case "UID_4"; 
+      case "76561198070161139";
+      case "76561197989380030"; 
       case "UID_N": {/* nothing to do */};
       default {endMission "endType";};
    };
