@@ -119,6 +119,7 @@ if (true) then
 	_vehicle_42 = _this;
 	_this setDir -223.01288;
 	_this setPos [18830.861, 16693.02, 0.15486589];
+	_initCodes set [count _initCodes,[_this,"this setObjectTexture [0, ""images\p1.jpg""];"]];
 };
 
 _vehicle_44 = objNull;
@@ -128,6 +129,7 @@ if (true) then
 	_vehicle_44 = _this;
 	_this setDir -384.79572;
 	_this setPos [18833.732, 16686.053, 0.00026321411];
+	_initCodes set [count _initCodes,[_this,"this setObjectTexture [0, ""images\p2.jpg""];"]];
 };
 
 _vehicle_64 = objNull;
