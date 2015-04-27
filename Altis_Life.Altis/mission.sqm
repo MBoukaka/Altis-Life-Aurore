@@ -14623,7 +14623,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_nostra && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_nostra && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_nostra && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_nostra && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_nostra && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_nostra && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Magasin de vêtements"",life_fnc_clothingMenu,""bruce""];";
 		};
 		class Item1017
 		{
@@ -15792,7 +15792,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_goa && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_goa && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_goa && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_goa && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_goa && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_goa && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Magasin de vêtements"",life_fnc_clothingMenu,""bruce""];";
 		};
 		class Item1130
 		{
@@ -16086,7 +16086,7 @@ class Mission
 		};
 		class Item1159
 		{
-			position[]={3035.0044,32.380493,18463.018};
+			position[]={11076.356,10.838806,22686.676};
 			azimut=1255.7371;
 			id=1363;
 			side="EMPTY";
@@ -16095,7 +16095,7 @@ class Mission
 		};
 		class Item1160
 		{
-			position[]={3050.5154,31.552734,18455.074};
+			position[]={11061.554,13.949539,22679.137};
 			azimut=504.00305;
 			id=1364;
 			side="EMPTY";
@@ -16104,8 +16104,8 @@ class Mission
 		};
 		class Item1161
 		{
-			position[]={3035.5713,32.632584,18484.357};
-			azimut=1753.62;
+			position[]={11096.272,8.3426828,22691.447};
+			azimut=1880.1409;
 			id=1365;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -16114,8 +16114,8 @@ class Mission
 		};
 		class Item1162
 		{
-			position[]={3044.7026,32.280212,18467.174};
-			azimut=1301.7325;
+			position[]={11087.023,9.2902527,22690.074};
+			azimut=1292.8239;
 			id=1366;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -16124,8 +16124,8 @@ class Mission
 		};
 		class Item1163
 		{
-			position[]={3046.1204,32.201527,18465.945};
-			azimut=583.63953;
+			position[]={11088.614,9.2709417,22689.08};
+			azimut=574.73096;
 			id=1367;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -19453,21 +19453,21 @@ class Mission
 		};
 		class Item399
 		{
-			position[]={3050.6355,31.55839,18455.242};
+			position[]={11061.674,13.907503,22679.305};
 			name="secte_1";
 			type="Empty";
 			angle=121.83032;
 		};
 		class Item400
 		{
-			position[]={3040.6541,32.549999,18478.598};
+			position[]={11092.449,8.9034071,22690.619};
 			name="secte_spawn";
 			type="Empty";
-			angle=801.77277;
+			angle=928.29382;
 		};
 		class Item401
 		{
-			position[]={3034.751,32.390015,18463.361};
+			position[]={11076.104,10.810527,22687.02};
 			name="secte_air";
 			type="Empty";
 			angle=-70.623383;
