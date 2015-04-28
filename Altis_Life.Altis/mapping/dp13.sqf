@@ -112,24 +112,6 @@ if (true) then
 	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
 };
 
-_vehicle_42 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_Billboard_F", [18830.861, 16693.02, 0.15486589], [], 0, "CAN_COLLIDE"];
-	_vehicle_42 = _this;
-	_this setDir -223.01288;
-	_this setPos [18830.861, 16693.02, 0.15486589];
-};
-
-_vehicle_44 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_Billboard_F", [18833.732, 16686.053, 0.00026321411], [], 0, "CAN_COLLIDE"];
-	_vehicle_44 = _this;
-	_this setDir -384.79572;
-	_this setPos [18833.732, 16686.053, 0.00026321411];
-};
-
 _vehicle_64 = objNull;
 if (true) then
 {
