@@ -29,10 +29,10 @@ if (true) then
 _vehicle_8 = objNull;
 if (true) then
 {
-	_this = createVehicle ["Land_HBarrier_5_F", [18823.646, 16683.957], [], 0, "CAN_COLLIDE"];
+	_this = createVehicle ["Land_HBarrier_5_F", [18823.641, 16683.955], [], 0, "CAN_COLLIDE"];
 	_vehicle_8 = _this;
 	_this setDir 65.981087;
-	_this setPos [18823.646, 16683.957];
+	_this setPos [18823.641, 16683.955];
 };
 
 _vehicle_10 = objNull;
@@ -56,10 +56,10 @@ if (true) then
 _vehicle_16 = objNull;
 if (true) then
 {
-	_this = createVehicle ["Land_HBarrier_5_F", [18822.592, 16683.219, 8.0108643e-005], [], 0, "CAN_COLLIDE"];
+	_this = createVehicle ["Land_HBarrier_5_F", [18822.619, 16683.289, 8.0108643e-005], [], 0, "CAN_COLLIDE"];
 	_vehicle_16 = _this;
 	_this setDir 155.42644;
-	_this setPos [18822.592, 16683.219, 8.0108643e-005];
+	_this setPos [18822.619, 16683.289, 8.0108643e-005];
 };
 
 _vehicle_21 = objNull;
@@ -119,7 +119,6 @@ if (true) then
 	_vehicle_42 = _this;
 	_this setDir -223.01288;
 	_this setPos [18830.861, 16693.02, 0.15486589];
-	_initCodes set [count _initCodes,[_this,"this setObjectTexture [0, ""images\p1.jpg""];"]];
 };
 
 _vehicle_44 = objNull;
@@ -129,7 +128,6 @@ if (true) then
 	_vehicle_44 = _this;
 	_this setDir -384.79572;
 	_this setPos [18833.732, 16686.053, 0.00026321411];
-	_initCodes set [count _initCodes,[_this,"this setObjectTexture [0, ""images\p2.jpg""];"]];
 };
 
 _vehicle_64 = objNull;
@@ -268,22 +266,20 @@ if (true) then
 	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
 };
 
-_vehicle_105 = objNull;
+_vehicle_116 = objNull;
 if (true) then
 {
-	_this = createVehicle ["Land_BarGate_F", [18826.158, 16677.555, -3.8146973e-005], [], 0, "CAN_COLLIDE"];
-	_vehicle_105 = _this;
-	_this setDir 156.06265;
-	_this setPos [18826.158, 16677.555, -3.8146973e-005];
-	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
+	_this = createVehicle ["Orel_Borne_Escamotable", [18823.395, 16691.785, -5.3405762e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_116 = _this;
+	_this setDir -24.787066;
+	_this setPos [18823.395, 16691.785, -5.3405762e-005];
 };
 
-_vehicle_115 = objNull;
+_vehicle_118 = objNull;
 if (true) then
 {
-	_this = createVehicle ["Land_BarGate_F", [18829.393, 16687.508, 3.8146973e-006], [], 0, "CAN_COLLIDE"];
-	_vehicle_115 = _this;
-	_this setDir 336.15994;
-	_this setPos [18829.393, 16687.508, 3.8146973e-006];
-	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
+	_this = createVehicle ["Orel_Borne_Escamotable", [18828.908, 16679.617, 0.0001449585], [], 0, "CAN_COLLIDE"];
+	_vehicle_118 = _this;
+	_this setDir -24.787066;
+	_this setPos [18828.908, 16679.617, 0.0001449585];
 };
