@@ -2678,7 +2678,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Groupe PCA - INDISPONIBLE";
+					description="Groupe PCA - BETA TEST";
 				};
 				class Item1
 				{
