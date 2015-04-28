@@ -17,17 +17,14 @@ if(life_blacklisted) exitWith
 	sleep 30;
 };
 
-if(FETCH_CONST(life_coplevel) == 0) then {
-	["NotWhitelisted",false,true] call BIS_fnc_endMission;
-	sleep 35;
-};
-
+if((str(player) in ["cop_1","cop_7","cop_11","cop_2","cop_8","cop_3","cop_12","cop_4","cop_9","cop_5","cop_13","cop_6","cop_10","cop_15","cop_14","cop_19","cop_20","cop_21","cop_22","cop_17","cop_18"])) then {
 	if((FETCH_CONST(life_coplevel)) == 0)) then {
 		["NotWhitelisted",false,true] call BIS_fnc_endMission;
 		sleep 35;
 	};
 };
 
+if((str(player) in ["cop_16","cop_23","cop_25","cop_24","cop_26","cop_27","cop_30","cop_28","cop_29"])) then {
 	if(license_civ_rebel) then {
 		["NotWhitelisted",false,true] call BIS_fnc_endMission;
 		sleep 35;
