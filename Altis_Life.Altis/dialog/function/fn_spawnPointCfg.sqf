@@ -30,6 +30,8 @@ switch (_side) do
 		if (license_cop_pca) then {
 			_return = [
 				["pca_spawn","Base PCA","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
 	};
 	
 	case civilian:
