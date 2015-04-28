@@ -255,7 +255,7 @@ class Licenses {
 	LICENSEMACRO(vente,"STR_License_vente","vente",750,false,"civ")
 	
 	//Familles
-	LICENSEMACRO(esco,"STR_License_esco","esco",750,false,"civ")
+	LICENSEMACRO(squad,"STR_License_squad","squad",750,false,"civ")
 	LICENSEMACRO(delta,"STR_License_delta","delta",750,false,"civ")
 	LICENSEMACRO(goa,"STR_License_goa","goa",750,false,"civ")
 	LICENSEMACRO(ubn,"STR_License_ubn","ubn",750,false,"civ")
