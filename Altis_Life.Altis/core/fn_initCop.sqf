@@ -25,7 +25,7 @@ if((str(player) in ["cop_1","cop_7","cop_11","cop_2","cop_8","cop_3","cop_12","c
 };
 
 if((str(player) in ["cop_16","cop_23","cop_25","cop_24","cop_26","cop_27","cop_30","cop_28","cop_29"])) then {
-	if(license_cop_cpa) then {
+	if(license_cop_pca) then {
 		["NotWhitelisted",false,true] call BIS_fnc_endMission;
 		sleep 35;
 	};
