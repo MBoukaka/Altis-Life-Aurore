@@ -3499,6 +3499,10 @@
 			<Original>Groupe Delta Wolf</Original>
 			<French>Groupe Delta Wolf</French>
 		</Key>
+		<Key ID="STR_License_pca">
+			<Original>Groupe PCA</Original>
+			<French>Groupe PCA</French>
+		</Key>
 		<Key ID="STR_License_gonzo">
 			<Original>Famille El Gonzo</Original>
 			<French>Famille El Gonzo</French>

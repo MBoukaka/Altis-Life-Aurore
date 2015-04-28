@@ -225,6 +225,7 @@ class Licenses {
 	LICENSEMACRO(mAir,"STR_License_Pilot","mAir",1500,false,"med")
 	LICENSEMACRO(home,"STR_License_Home","home",7500,false,"civ")
 	LICENSEMACRO(moto,"STR_License_Moto","moto",425,false,"civ")
+	LICENSEMACRO(pca,"STR_License_pca","pca",425,false,"cop")
 	
 	//Items
 	LICENSEMACRO(bombe,"STR_License_bombe","bombe",5600,false,"civ")
