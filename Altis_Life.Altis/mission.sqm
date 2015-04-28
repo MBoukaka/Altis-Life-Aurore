@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1188;
+		items=1192;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16258,10 +16258,51 @@ class Mission
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""squad_air"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
 		};
+		class Item1188
+		{
+			position[]={4172.7837,20.436626,12882.135};
+			azimut=1023.2737;
+			offsetY=0.44999999;
+			id=1387;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\cop_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""AutoWP"",west,""pca_car"",""cop"",""PCA véhicules""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pca_car""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  ";
+		};
+		class Item1189
+		{
+			position[]={4176.7026,20.815521,12872.756};
+			azimut=974.66394;
+			offsetY=0.44999999;
+			id=1388;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Marché PCA"",life_fnc_virt_menu,""pca""];  this allowDamage false;  this addAction[""Habits PCA"",life_fnc_clothingMenu,""pca""];  this addAction[""Armes PCA"",life_fnc_weaponShopMenu,""wp""]; ";
+		};
+		class Item1190
+		{
+			position[]={4157.8496,21.068493,12840.666};
+			azimut=-64.037498;
+			id=1389;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\cop_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""pca_air"",west,""pca_air"",""cop"",""Hélico PCA""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pca_air""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1191
+		{
+			position[]={4157.0322,21.374212,12827.199};
+			azimut=262.95139;
+			id=1390;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
-		items=414;
+		items=417;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -19493,6 +19534,27 @@ class Mission
 			name="squad_air";
 			type="Empty";
 			angle=-87.257599;
+		};
+		class Item414
+		{
+			position[]={4172.8965,20.909679,12868.835};
+			name="pca_spawn";
+			type="Empty";
+			angle=-34.190765;
+		};
+		class Item415
+		{
+			position[]={4166.9312,20.175234,12887.61};
+			name="pca_car";
+			type="Empty";
+			angle=-19.771931;
+		};
+		class Item416
+		{
+			position[]={4157.1045,21.381105,12827};
+			name="pca_air";
+			type="Empty";
+			angle=-231.01199;
 		};
 	};
 	class Sensors
