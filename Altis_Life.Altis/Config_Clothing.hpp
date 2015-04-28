@@ -956,9 +956,9 @@ class Clothing {
 	};
 	
 	class wp {
-		title = "worker protect";
-		license = "wp";
-		side = "civ";
+		title = "Groupe PCA";
+		license = "pca";
+		side = "cop";
 		
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
