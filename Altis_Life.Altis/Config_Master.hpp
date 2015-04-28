@@ -393,6 +393,11 @@ class VirtualShops {
 		name = "STR_Shops_Cop";
 		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "apple", "redgull", "fuelFull", "defusekit" };
 	};
+	
+	class pca {
+		name = "STR_Shops_pca";
+		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "apple", "redgull", "fuelFull", "defusekit" };
+	};
 
 	class cement {
 		name = "STR_Shops_Cement";

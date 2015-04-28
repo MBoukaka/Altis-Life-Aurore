@@ -3671,6 +3671,10 @@
 			<Original>Vendeur d'explosifs</Original>
 			<French>Vendeur d'explosifs</French>
 		</Key>
+		<Key ID="STR_Shops_pca">
+			<Original>Vendeur PCA</Original>
+			<French>Vendeur PCA</French>
+		</Key>
 		<Key ID="STR_Shops_barman">
 			<Original>Laurent le Barman</Original>
 			<French>Laurent le Barman</French>
@@ -4798,6 +4802,10 @@
 			<French>Vous devez être un flic pour utiliser ce magasin!</French>
 			<Italian>Devi essere un poliziotto per utilizzare questo negozio!</Italian>
 			<Portuguese>Você tem que ser Policial para usar essa loja!</Portuguese>
+		</Key>
+		<Key ID="STR_Shop_Notpca">
+			<Original>You need to be a cop to use this store!</Original>
+			<French>Vous devez être un PCA pour utiliser ce magasin!</French>
 		</Key>
 		<Key ID="STR_Shop_NotaReb">
 			<Original>You don't have rebel training yet!</Original>
