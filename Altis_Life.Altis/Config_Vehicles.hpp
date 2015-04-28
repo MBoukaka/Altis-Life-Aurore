@@ -478,13 +478,13 @@ class CarShops {
 	};
 	
 	class AutoWP {
-		side = "civ";
+		side = "cop";
 		vehicles[] = {
-			{ "WP_SUV_01_F", 3500 , "wp" },
-			{ "WP_Offroad", 4500, "wp" },
-			{ "B_MRAP_01_F", 82000, "wp" },
-			{ "B_Heli_Light_01_F", 60000, "wp" },
-			{ "O_Heli_Light_02_unarmed_F", 80000, "wp" }
+			{ "WP_SUV_01_F", 3500 , "pca" },
+			{ "WP_Offroad", 4500, "pca" },
+			{ "B_MRAP_01_F", 82000, "pca" },
+			{ "B_Heli_Light_01_F", 60000, "pca" },
+			{ "O_Heli_Light_02_unarmed_F", 80000, "pca" }
 		};
 	};
 
