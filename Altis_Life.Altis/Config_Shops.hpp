@@ -92,9 +92,9 @@ class WeaponShops {
 		};
 	};
 	class wp {
-        name = "Les Armes WP";
-        side = "civ";
-        license = "wp";
+        name = "Les Armes PCA";
+        side = "cop";
+        license = "pca";
         level = -1;
         msg = "";
         items[] = {
