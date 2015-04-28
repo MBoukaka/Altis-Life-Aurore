@@ -830,7 +830,7 @@ class CarShops {
 		};
 	};
 	
-	class cop_air {
+	class pca_air {
 		side = "cop";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 80000, "pca" },
