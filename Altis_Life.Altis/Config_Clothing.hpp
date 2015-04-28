@@ -955,14 +955,14 @@ class Clothing {
 		};
 	};
 	
-	class wp {
+	class pca {
 		title = "Groupe PCA";
 		license = "pca";
 		side = "cop";
 		
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "U_Rangemaster", "WP Tenue", 200, { "", "", -1 } }
+			{ "U_Rangemaster", "PCA Tenue", 200, { "", "", -1 } }
 	    };
 		
 		headgear[] = {
@@ -980,7 +980,7 @@ class Clothing {
 		
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "V_TacVestIR_blk", "WP Vest", 125, { "", "", -1 } }
+			{ "V_TacVestIR_blk", "PCA Vest", 125, { "", "", -1 } }
 		};
 		
 		backpacks[] = {
