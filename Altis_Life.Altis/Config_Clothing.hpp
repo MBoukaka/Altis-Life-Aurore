@@ -995,4 +995,80 @@ class Clothing {
 			{ "B_Carryall_khk", "", 70, { "", "", -1 } }
 		};
 	};
+	
+	class restaurant {
+		title = "Groshandais";
+		license = "restaurant";
+		side = "civ";
+		
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "Niko_USA_McamMix", "", 40, { "", "", -1 } },
+			{ "cl3_c_poloshirtpants_bus_uniform", "Jean polo blanc", 12, { "", "", -1 } },
+			{ "cl3_c_poloshirtpants_1_uniform", "Jean polo blanc 2", 12, { "", "", -1 } }
+			};
+		
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_MilCap_oucamo", "", 2, { "", "", -1 } }
+		};
+		
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Aviator", "", 1, { "", "", -1 } }
+		};
+		
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "V_TacVest_khk", "", 10, { "", "", -1 } },
+			{ "Niko_USA_PlateCarrierL_Tan", "", 10, { "", "", -1 } },
+			{ "cct_vest_b", "Veste de bienvenue", 1, { "", "", -1 } }
+		};
+		
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "B_mas_AssaultPack_black", "", 5, { "", "", -1 } },
+			{ "O_mas_Bergen_flo", "", 10, { "", "", -1 } },
+			{ "O_mas_Bergen_blk", "", 10, { "", "", -1 } },
+			{ "O_mas_Bergen_rtan", "", 10, { "", "", -1 } },
+			{ "B_mas_AssaultPack_wint", "", 10, { "", "", -1 } },
+			{ "B_mas_Bergen_rng", "", 10, { "", "", -1 } },
+			{ "B_mas_Kitbag_black", "", 10, { "", "", -1 } },
+			{ "B_AssaultPack_cbr", "", 10, { "", "", -1 } },
+			{ "B_Kitbag_mcamo", "", 10, { "", "", -1 } },
+			{ "B_TacticalPack_oli", "", 10, { "", "", -1 } },
+			{ "B_FieldPack_ocamo", "", 10, { "", "", -1 } },
+			{ "B_Bergen_sgg", "", 10, { "", "", -1 } },
+			{ "B_Kitbag_cbr", "", 10, { "", "", -1 } },
+			{ "B_Carryall_oli", "", 10, { "", "", -1 } },
+			{ "B_Carryall_khk", "", 10, { "", "", -1 } },
+			{ "B_mas_AssaultPack_mul", "", 10, { "", "", -1 } },
+			{ "B_mas_Kitbag_mul", "", 50, { "", "", -1 } },
+			{ "B_mas_Bergen_mul", "", 50, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_2tone5", "", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_aqua", "Sac Aqua", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_baby_blue", "Sac Bleu Ciel", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_baby_pink", "Sac rose sexy", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_burgundy", "Sac bordeaux", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_carbon", "Sac Charbon", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_cardinal", "Sac Rouge Cardinal", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_dark_green", "Sac Vert foncé", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_green", "Sac Vert", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_grey", "Sac Gris", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_gold", "Sac or", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_lavender", "Sac lavande", 6, { "", "", 1- } },
+			{ "CL3_AssaultPack_Full_light_blue", "Sac Bleu", 6, { "", "", 1- } },
+			{ "CL3_AssaultPack_Full_light_yellow", "Sac jaune", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_lime", "Sac citron", 60, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_marina_blue", "Sac Bleu foncé", 6, { "", "", 1- } },
+			{ "CL3_AssaultPack_Full_navy_blue", "Sac Bleu Marine", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_orange", "Sac orange", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_pink", "Sac rose", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_purple", "Sac Violet", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_red", "Sac Rouge", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_sand", "Sac Sable", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_silver", "Sac Argent", 6, { "", "", -1 } },
+			{ "CL3_AssaultPack_Full_skin_black", "Sac Noir", 6, { "", "", -1 } }
+		};
+	};
 };
