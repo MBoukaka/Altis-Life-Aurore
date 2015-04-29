@@ -2678,7 +2678,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Groupe PCA - BETA TEST";
+					description="Groupe PCA";
 				};
 				class Item1
 				{
@@ -2692,7 +2692,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_30";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Gendarmerie - Groupe 2";
+					description="Groupe PCA";
 				};
 				class Item2
 				{
@@ -2706,7 +2706,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_23";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Gendarmerie - Groupe 2";
+					description="Groupe PCA";
 				};
 				class Item3
 				{
@@ -2720,7 +2720,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_24";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Gendarmerie - Groupe 2";
+					description="Groupe PCA";
 				};
 				class Item4
 				{
@@ -2734,7 +2734,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_25";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Gendarmerie - Groupe 2";
+					description="Groupe PCA";
 				};
 				class Item5
 				{
@@ -2748,7 +2748,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_26";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Gendarmerie - Groupe 2";
+					description="Groupe PCA";
 				};
 				class Item6
 				{
@@ -2762,7 +2762,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_27";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Gendarmerie - Groupe 2";
+					description="Groupe PCA";
 				};
 				class Item7
 				{
@@ -2776,7 +2776,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_28";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Gendarmerie - Groupe 2";
+					description="Groupe PCA";
 				};
 				class Item8
 				{
@@ -2790,7 +2790,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_29";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Slot Gendarmerie - Groupe 2";
+					description="Groupe PCA";
 				};
 			};
 		};
