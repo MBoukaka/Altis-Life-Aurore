@@ -157,7 +157,8 @@ class Clothing {
 			{ "cl3_c_poloshirtpants_25_uniform", "Ayc", 90, { "", "", -1 } },
 			{ "cl3_c_poloshirtpants_26_uniform", "Yolo", 90, { "", "", -1 } },
 			{ "cl3_c_poloshirtpants_bus_uniform", "Bus conducteur", 120, { "", "", -1 } },
-			{ "cl3_c_poloshirtpants_1_uniform", "Bus conducteur 2", 120, { "", "", -1 } }
+			{ "cl3_c_poloshirtpants_1_uniform", "Bus conducteur 2", 120, { "", "", -1 } },
+			{ "U_NikosAgedBody", "", 100, { "", "", -1 } }
 		};
 
 		headgear[] = {
