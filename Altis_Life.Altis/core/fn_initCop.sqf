@@ -18,7 +18,7 @@ if(life_blacklisted) exitWith
 };
 
 if((str(player) in ["cop_1","cop_7","cop_11","cop_2","cop_8","cop_3","cop_12","cop_4","cop_9","cop_5","cop_13","cop_6","cop_10","cop_15","cop_14","cop_19","cop_20","cop_21","cop_22","cop_17","cop_18"])) then {
-	if((FETCH_CONST(life_coplevel)) == 0) then {
+	if((FETCH_CONST(life_coplevel) == 0)) then {
 		["NotWhitelisted",false,true] call BIS_fnc_endMission;
 		sleep 35;
 	};
