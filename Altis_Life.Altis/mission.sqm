@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1196;
+		items=1192;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16299,51 +16299,10 @@ class Mission
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
 		};
-		class Item1192
-		{
-			position[]={13804.632,20.14213,18949.314};
-			azimut=943.50403;
-			offsetY=0.44999999;
-			id=1391;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\cop_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""AutoWP"",west,""pca_car_1"",""cop"",""PCA véhicules""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pca_car_1""; life_garage_type = ""Car"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Ranger au garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  ";
-		};
-		class Item1193
-		{
-			position[]={13817.321,20.192589,18983.049};
-			azimut=974.66394;
-			offsetY=0.44999999;
-			id=1392;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Marché PCA"",life_fnc_virt_menu,""pca""];  this allowDamage false;  this addAction[""Habits PCA"",life_fnc_clothingMenu,""pca""];  this addAction[""Armes PCA"",life_fnc_weaponShopMenu,""wp""]; ";
-		};
-		class Item1194
-		{
-			position[]={13777.462,20.374962,18946.688};
-			azimut=-64.037498;
-			id=1393;
-			side="EMPTY";
-			vehicle="Land_InfoStand_V1_F";
-			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\cop_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Helicopter Shop"",life_fnc_vehicleShopMenu,[""pca_air"",west,""pca_air_1"",""cop"",""Hélico PCA""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pca_air_1""; life_garage_type = ""Air"";  },"""",0,false,false,"""",'playerSide == west'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
-		};
-		class Item1195
-		{
-			position[]={13776.645,20.265495,18933.219};
-			azimut=262.95139;
-			id=1394;
-			side="EMPTY";
-			vehicle="Land_JumpTarget_F";
-			skill=0.60000002;
-		};
 	};
 	class Markers
 	{
-		items=420;
+		items=417;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -19578,47 +19537,24 @@ class Mission
 		};
 		class Item414
 		{
+			position[]={4172.8965,20.909679,12868.835};
+			name="pca_spawn";
+			type="Empty";
+			angle=-34.190765;
+		};
+		class Item415
+		{
 			position[]={4166.9312,20.175234,12887.61};
 			name="pca_car";
 			type="Empty";
 			angle=-19.771931;
 		};
-		class Item415
+		class Item416
 		{
 			position[]={4157.1045,21.381105,12827};
 			name="pca_air";
 			type="Empty";
 			angle=-231.01199;
-		};
-		class Item416
-		{
-			position[]={4172.6113,20.910318,12868.668};
-			name="pca_spawn";
-			text="Police de Canton";
-			type="mil_box";
-			colorName="ColorWEST";
-		};
-		class Item417
-		{
-			position[]={13798.206,20.238695,18944.523};
-			name="pca_car_1";
-			type="Empty";
-			angle=-206.43637;
-		};
-		class Item418
-		{
-			position[]={13776.717,20.269413,18933.02};
-			name="pca_air_1";
-			type="Empty";
-			angle=-231.01199;
-		};
-		class Item419
-		{
-			position[]={13822.052,19.901253,18972.971};
-			name="pca_spawn_1";
-			text="Police de Canton";
-			type="mil_box";
-			colorName="ColorWEST";
 		};
 	};
 	class Sensors
