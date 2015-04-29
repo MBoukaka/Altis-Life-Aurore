@@ -962,12 +962,24 @@ class Clothing {
 		
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "U_Rangemaster", "PCA Tenue", 200, { "", "", -1 } }
-	    };
+			{ "U_Rangemaster", "PCA Tenue", 200, { "", "", -1 } },
+			{ "CL3_cn_uniform", "", 200, { "", "", -1 } },
+			{ "CL3_etu_uniform", "", 200, { "", "", -1 } },
+			{ "demian2435_swat_man_uniform", "", 200, { "", "", -1 } },
+			{ "cl3_c_poloshirtpants_clpdtraffic_uniform", "", 200, { "", "", -1 } },
+			{ "U_I_G_resistanceLeader_F", "", 200, { "", "", -1 } },
+			{ "demian2435_swat_leader_uniform", "", 200, { "", "", -1 } }	
+		};
 		
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "H_Cap_headphones", "", 100, { "", "", -1 } }
+			{ "H_Cap_headphones", "", 100, { "", "", -1 } },
+			{ "H_CrewHelmetHeli_O", "", 100, { "", "", -1 } },
+			{ "H_CrewHelmetHeli_B", "", 100, { "", "", -1 } },
+			{ "H_Beret_02", "", 200, { "", "", -1 } },
+			{ "demian2435_pilot_helmet", "", 100, { "", "", -1 } },
+			{ "H_Cap_police", "", 100, { "", "", -1 } },
+			{ "H_MilCap_blue", "", 100, { "", "", -1 } }
 		};
 		
 		goggles[] = {
@@ -975,12 +987,23 @@ class Clothing {
 			{ "H_Cap_blk_CMMG", "", 20, { "", "", -1 } },
 			{ "H_Cap_tan", "", 20, { "", "", -1 } },
 			{ "H_Cap_blk", "", 20, { "", "", -1 } },
-			{ "H_MilCap_gry", "", 20, { "", "", -1 } }
+			{ "H_MilCap_gry", "", 20, { "", "", -1 } },
+			{ "G_Balaclava_oli", "", 20, { "", "", -1 } },
+			{ "G_Balaclava_lowprofile", "", 20, { "", "", -1 } },
+			{ "G_mas_wpn_gog_md", "", 20, { "", "", -1 } },
+			{ "G_mas_wpn_gog_d", "", 20, { "", "", -1 } },
+			{ "G_mas_wpn_mask", "", 20, { "", "", -1 } },
+			{ "H_PilotHelmetFighter_B", "", 20, { "", "", -1 } }
 		};
 		
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "V_TacVestIR_blk", "PCA Vest", 125, { "", "", -1 } }
+			{ "V_TacVestIR_blk", "PCA Vest", 125, { "", "", -1 } },
+			{ "V_PlateCarrierGL_rgr", "", 200, { "", "", -1 } },
+			{ "V_PlateCarrierSpec_blk", "", 200, { "", "", -1 } },
+			{ "demian2435_police_vest", "", 200, { "", "", -1 } },
+			{ "V_TacVest_blk_POLICE", "", 200, { "", "", -1 } },
+			{ "G_Tactical_Clear", "", 200, { "", "", -1 } }
 		};
 		
 		backpacks[] = {
