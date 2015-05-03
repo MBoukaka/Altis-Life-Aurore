@@ -2992,7 +2992,7 @@ class CfgVehicles {
         vItemSpace = 65;
         storageFee[] = { 1750, 1750, 0, 0 };
 		garageSell[] = { 50000, 15000, 0, 0 };
-        insurance = 65000;
+        insurance = 15000;
         chopShop = 6969;
         textures[] = {
         	{ "Regular", "cop", {
@@ -3133,7 +3133,7 @@ class CfgVehicles {
         vItemSpace = 110;
         storageFee[] = { 7500, 0, 0, 0 };
 		garageSell[] = { 125000, 0, 0, 0 };
-        insurance = 145000;
+        insurance = 45000;
         chopShop = 5000;
         textures[] = {
         	{ "Ion", "civ", {
