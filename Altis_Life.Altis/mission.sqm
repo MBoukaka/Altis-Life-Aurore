@@ -15455,8 +15455,8 @@ class Mission
 		};
 		class Item1107
 		{
-			position[]={9211.4736,14.643184,21674.824};
-			azimut=-269.14221;
+			position[]={9185.3252,14.642969,21634.135};
+			azimut=-511.38571;
 			id=1306;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -15465,7 +15465,7 @@ class Mission
 		};
 		class Item1108
 		{
-			position[]={9196.4922,14.490618,21670.43};
+			position[]={9179.1865,14.4472,21648.256};
 			azimut=183.93115;
 			id=1307;
 			side="EMPTY";
@@ -15474,8 +15474,8 @@ class Mission
 		};
 		class Item1109
 		{
-			position[]={9203.4111,14.521514,21674.537};
-			azimut=-120.59808;
+			position[]={9188.5127,14.638268,21637.424};
+			azimut=57.060501;
 			id=1308;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -19231,21 +19231,21 @@ class Mission
 		};
 		class Item363
 		{
-			position[]={9198.085,14.391653,21684.539};
+			position[]={9187.4336,14.601895,21639.664};
 			name="cop_tp_6";
 			type="Empty";
 			angle=153.31252;
 		};
 		class Item364
 		{
-			position[]={9207.0459,14.575694,21676.32};
+			position[]={9185.8623,14.617144,21636.646};
 			name="cop_spawn_6";
 			type="Empty";
 			angle=-35.343288;
 		};
 		class Item365
 		{
-			position[]={9196.3857,14.488904,21670.445};
+			position[]={9179.0703,14.448217,21648.08};
 			name="cop_car_6";
 			type="Empty";
 			angle=-489.73901;
@@ -19335,7 +19335,7 @@ class Mission
 		};
 		class Item377
 		{
-			position[]={9181.1729,14.393018,21663.791};
+			position[]={9185.7637,14.617209,21636.574};
 			name="marker_cop_centre";
 			text="Centre d'entrainement";
 			type="mil_dot";
