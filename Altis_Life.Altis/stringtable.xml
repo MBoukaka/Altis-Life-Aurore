@@ -278,14 +278,14 @@
 		<Key ID="STR_Global_No">
 			<Original>No</Original>
 			<German>Nein</German>
-			<French>Aucun</French>
+			<French>Non</French>
 			<Italian>No</Italian>
 			<Portuguese>Não</Portuguese>
 		</Key>
 		<Key ID="STR_Global_Cancel">
 			<Original>Cancel</Original>
 			<German>Abbrechen</German>
-			<French>Annulée</French>
+			<French>Annuler</French>
 			<Italian>Annulla</Italian>
 			<Portuguese>Cancelar</Portuguese>
 		</Key>
@@ -396,6 +396,7 @@
  		<Key ID="STR_ATM_DoesntExist">
  			<Original>The player selected doesn't seem to exist?</Original>
 			<German>Der Spieler scheint nicht zu existieren?</German>
+			<French>Le joueur séléctionné ne semble pas exister</French>
  			<Italian>Sembra che il giocatore selezionato non esista</Italian>
 			<Portuguese>O jogador selecionado parece não existir!</Portuguese>
  		</Key>
@@ -2739,6 +2740,13 @@
 			<Italian>Non sei vicino ad una porta!</Italian>
 			<Portuguese>Você não está perto de uma porta!</Portuguese>
 		</Key>
+		<Key ID="STR_House_Already_Owned">
+			<Original>This house is already owned even though you shouldn't be seeing this hint...</Original>
+			<German>Dieses Haus befindet sich bereits im Besitz, obwohl Sie sollten nicht sehen dieses Artikels für Sie ...</German>
+			<French>Cette maison est déjà habité, vous ne devez pas voir ce message</French>
+			<Italian>Questa casa è già di proprietà, anche se non si dovrebbe vedere questo suggerimento ...</Italian>
+			<Portuguese>Esta casa já é de propriedade mesmo que você não deveria estar vendo essa dica ...</Portuguese>
+		</Key>
 		<Key ID="STR_House_Sell_Process">
 			<Original>This house was recently sold and is still processing in the database.</Original>
 			<German>Dieses Haus wurde vor Kurzem verkauft.</German>
@@ -2773,6 +2781,13 @@
 			<French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Il prend en charge jusqu'à %2 conteneurs de stockage</French>
 			<Italian>Questa casa è disponibile per &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Può supportare fino a %2 contenitori</Italian>
 			<Portuguese>Essa casa está disponível por &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;&lt;br/&gt;Ela suporta até %2 caixa(s)</Portuguese>
+		</Key>
+		<Key ID="STR_House_Already_Purchase">
+			<Original>Someone already own's this building.</Original>
+			<German>Die jemand bereits besitzen diese Gebäude.</German>
+			<French>Quelqu'un possèdent déjà ce bâtiment.</French>
+			<Italian>Qualcuno questo edificio di già possiede.</Italian>
+			<Portuguese>Alguém já de este edifício possui.</Portuguese>
 		</Key>
 		<Key ID="STR_House_Purchase">
 			<Original>Purchase House</Original>
@@ -2833,7 +2848,7 @@
 		<Key ID="STR_House_Raid_Searching">
 			<Original>Searching House...</Original>
 			<German>Haus wird durchsucht...</German>
-			<French>Recherche Maison...</French>
+			<French>Fouille de la Maison...</French>
 			<Italian>Perquisendo la Casa...</Italian>
 			<Portuguese>Vasculhando a casa...</Portuguese>
 		</Key>
@@ -2854,7 +2869,7 @@
 		<Key ID="STR_House_Raid_NoIllegal">
 			<Original>Nothing illegal in this house.</Original>
 			<German>Nichts Illegales in diesem Haus.</German>
-			<French>Rien d'illégal dans cette maison</French>
+			<French>Il y a rien d'illégal dans cette maison.</French>
 			<Italian>Questa casa non contiene nulla d'illegale.</Italian>
 			<Portuguese>Nada ilegal nessa casa.</Portuguese>
 		</Key>
@@ -4224,7 +4239,7 @@
 		<Key ID="STR_Process_License">
 			<Original>You need $%1 to process without a license!</Original>
 			<German>Du brauchst $%1, um ohne eine Lizenz verarbeiten zu können!</German>
-			<French>Vous devez $1% pour traiter sans permis!</French>
+			<French>Vous devez $%1 pour traiter sans permis!</French>
 			<Italian>Hai bisogno di €%1 per processare senza la dovuta licenza!</Italian>
 			<Portuguese>Você precisa de R$%1 para processar sem licença!</Portuguese>
 		</Key>
