@@ -969,7 +969,7 @@
 		<Key ID="STR_Garage_Title">
 			<Original>Vehicle Garage</Original>
 			<German>Fahrzeug Garage</German>
-			<French>Garage Vehicule</French>
+			<French>Garage de Véhicule</French>
 			<Italian>Garage Veicoli</Italian>			
 			<Portuguese>Garagem de Veículos</Portuguese>
 		</Key>
@@ -1089,7 +1089,7 @@
 		<Key ID="STR_Garage_Selection_Error">
 			<Original>The selection had a error...</Original>
 			<German>Die Auswahl hat einen Fehler...</German>	
-			<French>La selection à une erreur...</French>
+			<French>La selection a une erreur...</French>
 			<Italian>La selezione ha avuto un errore...</Italian>
 			<Portuguese>Erro ao selecionar....</Portuguese>
 		</Key>
@@ -1585,7 +1585,7 @@
 		<Key ID="STR_NOTF_InvFull">
 			<Original>Your inventory space is full.</Original>
 			<German>Dein Inventar ist voll.</German>
-			<French>Tu n'as plus de place dans ton inventaire.</French>
+			<French>Votre inventaire est plein.</French>
 			<Italian>Il tuo inventario è pieno.</Italian>
 			<Portuguese>Seu inventário está cheio</Portuguese>
 		</Key>
@@ -1969,7 +1969,7 @@
  		<Key ID="STR_NOTF_CouldntAdd">
  			<Original>Couldn't add it to your inventory.</Original>
 			<German>Es konnte nichts zu deinem Inventar hinzugefügt werden</German>
- 			<French>Impossible d'ajouter cela à votre inventaire</French>
+ 			<French>Impossible d'ajouter cela dans votre inventaire</French>
 			<Italian>Non puoi aggiungerlo al tuo inventario.</Italian>
 			<Portuguese>Não foi possível adicionar o item ao seu inventário</Portuguese>
  		</Key>
@@ -2440,14 +2440,14 @@
 		<Key ID="STR_Cop_VaultUnder1">
 			<Original>You can't enter anything below 1!</Original>
 			<German>Du kannst nichts unter 1 eingeben!</German>
-			<French>Vous ne pouvez pas moins de 1!</French>
+			<French>Vous ne pouvez pas prendre moins de 1!</French>
 			<Italian>Non puoi selezionare nulla sotto l'1!</Italian>
 			<Portuguese>Não é permitido usar valor abaixo de 1!</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_OnlyGold">
 			<Original>You can't store anything but gold bars in the safe.</Original>
 			<German>Du kannst nur Goldbarren in den Tresor legen.</German>
-			<French>Vous ne pouvez pas mettre autre chose que des lingot d'or.</French>
+			<French>Vous ne pouvez pas mettre autre chose que des lingots d'or dans le coffre.</French>
 			<Italian>Nella cassaforte puoi depositare solo lingotti d'oro.</Italian>
 			<Portuguese>Você só pode guardar Barras de Ouro no cofre.</Portuguese>
 		</Key>
@@ -2868,20 +2868,21 @@
 		<Key ID="STR_House_StorageLock">
 			<Original>House storage locked</Original>
 			<German>Lagerplatz des Hauses geschlossen</German>
-			<French>Stockage de Maison verrouillé</French>
+			<French>Stockage de la maison verrouillé</French>
 			<Italian>Contenitori della casa bloccati</Italian>
 			<Portuguese>Armário da casa trancado</Portuguese>
 		</Key>
 		<Key ID="STR_House_LockingUp">
 			<Original>Locking up house please wait...</Original>
 			<German>Haus wird abgeschlosen, bitte warten...</German>
-			<French>Fermeture de la maison veuiller patienter...</French>
+			<French>Fermeture de la maison veuillez patienter...</French>
 			<Italian>Bloccando la casa, attendere prego...</Italian>
 			<Portuguese>Trancando a casa, aguarde...</Portuguese>
 		</Key>
 		<Key ID="STR_House_LockedUp">
 			<Original>House has been locked up.</Original>
 			<German>Haus wurde abgeschlossen.</German>
+			<French>La maison a été fermé.</French>
 			<Italian>La casa è stata bloccata.</Italian>
 			<Portuguese>Sua casa foi trancada!</Portuguese>
 		</Key>
@@ -4093,35 +4094,35 @@
 		<Key ID="STR_ISTR_SelectItemFirst">
 			<Original>You need to select an item first!</Original>
 			<German>Du musst zuerst einen Gegenstand auswählen!</German>
-			<French>You need to select an item first!</French>
+			<French>Vous devez d'abord séléctionner un objet!/French>
 			<Italian>You need to select an item first!</Italian>
 			<Portuguese>You need to select an item first!</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_RedGullEffect">
 			<Original>You can now run farther for 3 minutes</Original>
 			<German>Du kannst jetzt für 3 Minuten weiterlaufen</German>
-			<French>You can now run farther for 3 minutes</French>
+			<French>Vous pouvez désormais courrir plus de 3 minutes</French>
 			<Italian>You can now run farther for 3 minutes</Italian>
 			<Portuguese>You can now run farther for 3 minutes</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_SpikesDeployment">
 			<Original>You already have a Spike Strip active in deployment</Original>
 			<German>Du stellst bereits ein Nagelband auf</German>
-			<French>You already have a Spike Strip active in deployment</French>
+			<French>Vous avez déjà une herse de déployé</French>
 			<Italian>You already have a Spike Strip active in deployment</Italian>
 			<Portuguese>You already have a Spike Strip active in deployment</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_RefuelInVehicle">
 			<Original>You can't refuel the vehicle while in it!</Original>
 			<German>Du kannst ein Fahrzeug nicht betanken während du dich darin befindest!</German>
-			<French>You can't refuel the vehicle while in it!</French>
+			<French>Vous ne pouvez pas remplir ce véhicule lorsque vous êtes à l'intérieur!</French>
 			<Italian>You can't refuel the vehicle while in it!</Italian>
 			<Portuguese>You can't refuel the vehicle while in it!</Portuguese>
 		</Key>
 		<Key ID="STR_ISTR_NotUsable">
 			<Original>This item isn't usable.</Original>
 			<German>Dieser Gegenstand ist nicht benutzbar.</German>
-			<French>This item isn't usable.</French>
+			<French>Cet objet n'est pas utilisable.</French>
 			<Italian>This item isn't usable.</Italian>
 			<Portuguese>This item isn't usable.</Portuguese>
 		</Key>
@@ -4253,7 +4254,7 @@
 		<Key ID="STR_Gather_Peaches">
 			<Original>Gather Peaches</Original>
 			<German>Pfirsiche sammeln</German>
-			<French>pflücke des pêches</French>
+			<French>Récolter des pêches</French>
 			<Italian>Raccogli Pesche</Italian>
 			<Portuguese>Colher Pêssegos</Portuguese>
 		</Key>
@@ -4274,7 +4275,7 @@
 		<Key ID="STR_Gather_Cocaine">
 			<Original>Gather Cocaine</Original>
 			<German>Kokain sammeln</German>
-			<French>Récolte de la Cocaine</French>
+			<French>Récolter de la Cocaine</French>
 			<Italian>Raccogli Cocaina</Italian>
 			<Portuguese>Colher Cocaina</Portuguese>
 		</Key>
@@ -4283,21 +4284,21 @@
 		<Key ID="STR_Medic_Online">
 			<Original>Medics Online: %1</Original>
 			<German>Sanitäter online: %1</German>
-			<French>Medics en ligne: %1</French>
+			<French>Medecin(s) en ligne: %1</French>
 			<Italian>Medici Online: %1</Italian>
 			<Portuguese>Médicos Online: %1</Portuguese>
 		</Key>
 		<Key ID="STR_Medic_Near">
 			<Original>Medics Nearby: %1</Original>
 			<German>Sanitäter in der Nähe: %1</German>
-			<French>Medics à proximité: %1</French>
+			<French>Medecin(s) à proximité: %1</French>
 			<Italian>Medici Vicini: %1</Italian>
 			<Portuguese>Médicos por perto: %1</Portuguese>
 		</Key>
 		<Key ID="STR_Medic_Request">
 			<Original>%1 is requesting EMS Revive.</Original>
 			<German>%1 benötigt medizinische Hilfe</German>
-			<French>%1 demande de l'aide d'un EMS.</French>
+			<French>%1 demande de l'aide à un medecin.</French>
 			<Italian>%1 sta richiedendo l'intervento medico.</Italian>
 			<Portuguese>%1 requisitou o resgate do SAMU</Portuguese>
 		</Key>
@@ -4332,7 +4333,7 @@
 		<Key ID="STR_Medic_Progress">
 			<Original>Reviving %1</Original>
 			<German>Wird wiederbelebt %1</German>
-			<French>Réanimations %1</French>
+			<French>Réanimation %1</French>
 			<Italian>Rianimando %1</Italian>
 			<Portuguese>Revivendo %1</Portuguese>
 		</Key>
@@ -4548,7 +4549,7 @@
 		<Key ID="STR_pInAct_AccessGarage">
 			<Original>Garage</Original>
 			<German>Garage</German>
-			<French>Accés au garage</French>
+			<French>Garage</French>
 			<Italian>Garage</Italian>
 			<Portuguese>Garagem</Portuguese>
 		</Key>
