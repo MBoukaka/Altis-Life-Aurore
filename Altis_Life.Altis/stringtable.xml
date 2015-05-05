@@ -368,7 +368,7 @@
 		<Key ID="STR_ATM_GreaterThan">
 			<Original>You can't deposit more then $999,999 at a time</Original>
 			<German>Du kannst nicht mehr als $999,999 gleichzeitig einzahlen</German>
-			<French>Vous ne pouvez pas déposer plus de $999,999</French>
+			<French>Vous ne pouvez pas déposer plus de $999,999 à la fois.</French>
 			<Italian>Non puoi depositare più di €999,999 alla volta</Italian>
 			<Portuguese>Você não pode transferir mais de R$999,999 em uma transação</Portuguese>
 		</Key>
