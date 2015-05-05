@@ -26,18 +26,6 @@ switch (_side) do
 		};
 	};
 	
-	case civilian:
-	{
-		if(_bool) then
-		{
-			life_radio_civ radioChannelAdd [_unit];
-		}
-			else
-		{
-			life_radio_civ radioChannelRemove [_unit];
-		};
-	};
-	
 	case independent:
 	{
 		if(_bool) then
