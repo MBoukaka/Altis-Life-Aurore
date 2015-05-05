@@ -69,7 +69,7 @@ if (true) then
 	_vehicle_21 = _this;
 	_this setDir 50.498703;
 	_this setPos [18821.24, 16691.07, 0.11919761];
-	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
+	
 };
 
 _vehicle_24 = objNull;
@@ -79,7 +79,7 @@ if (true) then
 	_vehicle_24 = _this;
 	_this setDir 50.498703;
 	_this setPos [18816.803, 16696.436, 0.21196783];
-	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
+	
 };
 
 _vehicle_27 = objNull;
@@ -89,7 +89,7 @@ if (true) then
 	_vehicle_27 = _this;
 	_this setDir 245.55536;
 	_this setPos [18825.447, 16692.945, -1.5258789e-005];
-	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
+	
 };
 
 _vehicle_34 = objNull;
@@ -99,7 +99,7 @@ if (true) then
 	_vehicle_34 = _this;
 	_this setDir 261.21414;
 	_this setPos [18824.4, 16699.797, 0.067481883];
-	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
+	
 };
 
 _vehicle_37 = objNull;
@@ -109,7 +109,7 @@ if (true) then
 	_vehicle_37 = _this;
 	_this setDir 261.21414;
 	_this setPos [18823.34, 16706.715, 0.15796518];
-	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
+	
 };
 
 _vehicle_64 = objNull;
@@ -245,7 +245,7 @@ if (true) then
 	_vehicle_103 = _this;
 	_this setDir 425.71045;
 	_this setPos [18824.078, 16684.748, 4.196167e-005];
-	_initCodes set [count _initCodes,[_this,"this enableSimulation false; this allowDamage false;"]];
+	
 };
 
 _vehicle_116 = objNull;

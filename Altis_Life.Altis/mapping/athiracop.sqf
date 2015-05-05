@@ -150,8 +150,3 @@ if (true) then
 	_this setDir -22.799555;
 	_this setPos [14364.958, 18089.244, 3.8146973e-005];
 };
-
-{
-	this = _x select 0;
-	[] call compile (_x select 1);
-} foreach _initCodes;
