@@ -10,7 +10,5 @@ if(isNull _house) exitWith {false;};
 _housePos = getPosATL _house;
 
 waitUntil {!DB_Async_Active};
-_query = format ["housingCheckHouse:%1",_housePos];
-_queryResult = [_query,2] call DB_fnc_asyncCall;
-if(!(isNull _queryResult)) exitWith {false;};
-true;
+_query = ([format["housingCheckHouse:%1", _housePos], 2] call DB_fnc_asyncCall) select 0;
+_query;
