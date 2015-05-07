@@ -164,10 +164,7 @@ HC_MPAllowedFuncs = [
 	"life_fnc_wantedfetch",
 	"life_fnc_wantedperson",
 	"life_fnc_wantedprofupdate",
-	"life_fnc_wantedremove",
-	"life_fnc_colorVehicle",
-	"life_fnc_playSound",
-	"life_fnc_animSync"
+	"life_fnc_wantedremove"
 ];
 
 CONSTVAR(HC_MPAllowedFuncs);
