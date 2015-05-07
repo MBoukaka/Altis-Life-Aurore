@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1198;
+		items=1199;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16313,13 +16313,13 @@ class Mission
 		class Item1193
 		{
 			position[]={13817.321,20.192589,18983.049};
-			azimut=974.66394;
+			azimut=974.664;
 			offsetY=0.44999999;
 			id=1392;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Marché PCA"",life_fnc_virt_menu,""pca""];  this allowDamage false;  this addAction[""Habits PCA"",life_fnc_clothingMenu,""pca""];  this addAction[""Armes PCA"",life_fnc_weaponShopMenu,""wp""]; ";
+			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Marché PCA"",life_fnc_virt_menu,""pca""];  this allowDamage false;  this addAction[""Habits PCA"",life_fnc_clothingMenu,""pca""];  this addAction[""Armes PCA"",life_fnc_weaponShopMenu,""wp""]; this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item1194
 		{
@@ -16359,6 +16359,16 @@ class Mission
 			vehicle="Land_Billboard_F";
 			skill=0.60000002;
 			init="this allowDamage false; this setObjectTexture [0, ""images\p2.jpg""]; ";
+		};
+		class Item1198
+		{
+			position[]={13813.045,20.137104,18983.59};
+			azimut=321.00562;
+			id=1397;
+			side="EMPTY";
+			vehicle="Land_Atm_02_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 	};
 	class Markers
