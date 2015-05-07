@@ -977,7 +977,12 @@ class Clothing {
 			{ "H_Cap_headphones", "", 100, { "", "", -1 } },
 			{ "H_CrewHelmetHeli_O", "", 100, { "", "", -1 } },
 			{ "H_CrewHelmetHeli_B", "", 100, { "", "", -1 } },
+			{ "H_PilotHelmetFighter_B", "", 20, { "", "", -1 } },
 			{ "H_Beret_02", "", 200, { "", "", -1 } },
+			{ "H_Cap_blk_CMMG", "", 20, { "", "", -1 } },
+			{ "H_Cap_tan", "", 20, { "", "", -1 } },
+			{ "H_Cap_blk", "", 20, { "", "", -1 } },
+			{ "H_MilCap_gry", "", 20, { "", "", -1 } },
 			{ "demian2435_pilot_helmet", "", 100, { "", "", -1 } },
 			{ "H_Cap_police", "", 100, { "", "", -1 } },
 			{ "H_MilCap_blue", "", 100, { "", "", -1 } }
@@ -985,16 +990,12 @@ class Clothing {
 		
 		goggles[] = {
 			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
-			{ "H_Cap_blk_CMMG", "", 20, { "", "", -1 } },
-			{ "H_Cap_tan", "", 20, { "", "", -1 } },
-			{ "H_Cap_blk", "", 20, { "", "", -1 } },
-			{ "H_MilCap_gry", "", 20, { "", "", -1 } },
 			{ "G_Balaclava_oli", "", 20, { "", "", -1 } },
 			{ "G_Balaclava_lowprofile", "", 20, { "", "", -1 } },
 			{ "G_mas_wpn_gog_md", "", 20, { "", "", -1 } },
 			{ "G_mas_wpn_gog_d", "", 20, { "", "", -1 } },
 			{ "G_mas_wpn_mask", "", 20, { "", "", -1 } },
-			{ "H_PilotHelmetFighter_B", "", 20, { "", "", -1 } }
+			{ "G_Tactical_Clear", "", 200, { "", "", -1 } }
 		};
 		
 		vests[] = {
@@ -1003,8 +1004,7 @@ class Clothing {
 			{ "V_PlateCarrierGL_rgr", "", 200, { "", "", -1 } },
 			{ "V_PlateCarrierSpec_blk", "", 200, { "", "", -1 } },
 			{ "demian2435_police_vest", "", 200, { "", "", -1 } },
-			{ "V_TacVest_blk_POLICE", "", 200, { "", "", -1 } },
-			{ "G_Tactical_Clear", "", 200, { "", "", -1 } }
+			{ "V_TacVest_blk_POLICE", "", 200, { "", "", -1 } }
 		};
 		
 		backpacks[] = {
@@ -1016,7 +1016,8 @@ class Clothing {
 			{ "B_Bergen_sgg", "", 70, { "", "", -1 } },
 			{ "B_Kitbag_cbr", "", 70, { "", "", -1 } },
 			{ "B_Carryall_oli", "", 70, { "", "", -1 } },
-			{ "B_Carryall_khk", "", 70, { "", "", -1 } }
+			{ "B_Carryall_khk", "", 70, { "", "", -1 } },
+			{ "B_mas_Bergen_mul", "", 200, { "", "", -1 } }
 		};
 	};
 	
