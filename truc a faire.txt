@@ -1,0 +1,21 @@
+PCA : 
+Corriger le Magasin général de la pca (Magasin général Gendarmerie) au 2 base (kavala et Athira): Benjamin le fdp qui sait pas faire des magasins general
+-Ajouter les véhicules ci dessous :
+helicop:
+cl3_Orca_PDETU
+cl3_Orca_PDASU
+
+Voiture:
+cl3_escalade_k9
+clpd_mondeo_patrol
+cl3_dodge_charger_k9
+cl3_dodge_charger_emtcg
+cl3_q7_clpd_etu
+cl3_dodge_charger_etu
+cl3_escalade_et
+cl3_escalade_cn
+clpd_mondeo_Coastguard
+cl3_escalade_cg
+cl3_transitk9
+-Réorganiser les shop PCA dans le désordre : benjamin met des lunettes dans les uniiformes ou est le respect ?
+-Ajouter le BERGEN BLACK MULTI (celui a 134 places)
