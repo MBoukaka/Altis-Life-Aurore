@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1199;
+		items=1200;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16365,6 +16365,16 @@ class Mission
 			position[]={13813.045,20.137104,18983.59};
 			azimut=321.00562;
 			id=1397;
+			side="EMPTY";
+			vehicle="Land_Atm_02_F";
+			skill=0.60000002;
+			init="this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
+		};
+		class Item1199
+		{
+			position[]={4162.4922,20.620901,12873.905};
+			azimut=310.832;
+			id=1398;
 			side="EMPTY";
 			vehicle="Land_Atm_02_F";
 			skill=0.60000002;
