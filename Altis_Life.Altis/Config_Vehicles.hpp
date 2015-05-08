@@ -60,7 +60,7 @@ class CarShops {
 			{ "cl3_mackr_flat_black_white",50000, "scarface" },
 			{ "cl3_mackr_flat_blue",50000, "scarface" },
 			{ "cl3_mackr_flat_green_white",50000, "scarface" },
-			{ "cl3_mackr_flat_multi_color",34500, "scarface" },
+			{ "cl3_mackr_flat_multi_color",50000, "scarface" },
 			{ "cl3_mackr_flat_optimus",50000, "scarface" },
 			{ "cl3_mackr_flat_orange_white",50000, "scarface" },
 			{ "cl3_mackr_del_gold",98500, "scarface" },
