@@ -12,7 +12,7 @@ cl3_dodge_charger_k9
 cl3_dodge_charger_emtcg
 cl3_q7_clpd_etu
 cl3_dodge_charger_etu
-cl3_escalade_et
+cl3_escalade_etu : Zelphy ne sait pas ecrire
 cl3_escalade_cn
 clpd_mondeo_Coastguard
 cl3_escalade_cg
