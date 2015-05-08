@@ -4630,10 +4630,11 @@
 ﻿19:29:58 : RCon admin #5: (Global) Le serveur redémarre dans 1 seconde!
 ﻿19:30:01 : Player #44 Bernard Butch (46.105.224.38:3694) connected
 ﻿19:30:04 : Player #21 PsiiQo Luciano disconnected
-﻿19:30:09 : Lost Connection!
-﻿19:30:09 : Closing socket & exiting!
-﻿19:30:55 : Rcon client logging in
-﻿19:30:55 : RCon admin #5 (127.0.0.1:56716) logged in
+﻿
+
+
+
+19:30:55 : RCon admin #5 (127.0.0.1:56716) logged in
 ﻿19:31:02 : Player #6 Dodu Nostra (46.105.224.38:3697) connected
 ﻿19:31:09 : Player #7 Tsunaa Monteriggionni (46.105.224.38:3698) connected
 ﻿19:31:12 : Player #8 [FAL] Francis gomez (46.105.224.38:3556) connected
@@ -4643,33 +4644,20 @@
 ﻿19:31:18 : Player #10 Nazar Bratva - GUID: b4abac98d60d1fda5a5976c7bbd5d2a4 (unverified)
 ﻿19:31:19 : Verified GUID (b4abac98d60d1fda5a5976c7bbd5d2a4) of player #10 Nazar Bratva
 ﻿19:31:19 : Player #12 [FAL] Sergey Gomez (46.105.224.38:3667) connected
-﻿19:31:20 : Player #7 Tsunaa Monteriggionni disconnected
 ﻿19:31:21 : Player #7 [FAL] William Morello (46.105.224.38:3700) connected
-﻿19:31:21 : Player #9 D.Torreto disconnected
 ﻿19:31:21 : Player #9 Bernard Butch (46.105.224.38:3694) connected
-﻿19:31:22 : Player #6 Dodu Nostra disconnected
 ﻿19:31:23 : Player #6 Paradou Mamadou (46.105.224.38:3678) connected
-﻿19:31:23 : Player #12 [FAL] Sergey Gomez disconnected
 ﻿19:31:24 : Player #9 Bernard Butch - GUID: 90d38e5b39ce18c331593cfcd97f44b1 (unverified)
 ﻿19:31:25 : Verified GUID (90d38e5b39ce18c331593cfcd97f44b1) of player #9 Bernard Butch
 ﻿19:31:28 : Player #12 R. Quentin Vagos (46.105.224.38:3591) connected
-﻿19:31:31 : Player #8 [FAL] Francis gomez disconnected
 ﻿19:31:32 : Player #8 Dinozzo monteriggioni (46.105.224.38:3549) connected
 ﻿19:31:32 : Player #13 Aston Rodrigues (46.105.224.38:3670) connected
-﻿19:31:35 : Player #12 R. Quentin Vagos disconnected
-﻿19:31:36 : Player #13 Aston Rodrigues disconnected
 ﻿19:31:37 : Player #12 Tony Cappeliny (46.105.224.38:3664) connected
 ﻿19:31:40 : Player #13 James Gordon (46.105.224.38:3701) connected
-﻿19:31:43 : Player #12 Tony Cappeliny disconnected
 ﻿19:31:44 : Player #12 SP Khalifa (109.16.77.141:2304) connected
 ﻿19:31:44 : Player #14 SP Khalifa (2) (109.16.77.141:2316) connected
 ﻿19:31:47 : Player #14 SP Khalifa (2) - GUID: 325b96a474f34b3a89d4e85967bf34b6 (unverified)
-﻿19:31:47 : Player #12 SP Khalifa disconnected
 ﻿19:31:49 : Player #12 hakim embet  (46.105.224.38:3702) connected
-﻿19:31:50 : Player #11 S. Karazan Vagos (-) has been kicked by BattlEye: Client not responding
-﻿19:31:53 : Player #7 [FAL] William Morello (-) has been kicked by BattlEye: Client not responding
-﻿19:32:09 : Player #6 Paradou Mamadou (-) has been kicked by BattlEye: Client not responding
-﻿19:32:10 : Player #12 hakim embet  disconnected
 ﻿19:32:10 : Player #6 Jacky Butch (46.105.224.38:3696) connected
 ﻿19:32:10 : Player #7 Dodu Nostra (46.105.224.38:3697) connected
 ﻿19:32:11 : Player #6 Jacky Butch - GUID: 9644ef1eaebf66506d6fad8e27d04e00 (unverified)
@@ -4679,21 +4667,14 @@
 ﻿19:32:12 : Player #7 Dodu Nostra - GUID: c994f218ce9c0c4e74cce2da6ec6b09c (unverified)
 ﻿19:32:12 : Verified GUID (c994f218ce9c0c4e74cce2da6ec6b09c) of player #7 Dodu Nostra
 ﻿19:32:15 : Player #15 John LeRouge (46.105.224.38:3514) connected
-﻿19:32:17 : Player #8 Dinozzo monteriggioni (-) has been kicked by BattlEye: Client not responding
 ﻿19:32:18 : Player #15 John LeRouge - GUID: f88346fb584fa2425ef7984e0760052c (unverified)
-﻿19:32:18 : Player #11 Benjamin Franklin disconnected
 ﻿19:32:18 : Verified GUID (f88346fb584fa2425ef7984e0760052c) of player #15 John LeRouge
-﻿19:32:18 : Player #12 Tong Nakazawa disconnected
-﻿19:32:21 : Could not connect to BE Master
-﻿19:32:21 : Update attempt failed
 ﻿19:32:22 : Player #8 [FAL-R) tony fernandes (46.105.224.38:3663) connected
 ﻿19:32:24 : Player #8 [FAL-R) tony fernandes - GUID: 3fd1185e1650b5c97e4e60a710bd61e8 (unverified)
 ﻿19:32:24 : Verified GUID (3fd1185e1650b5c97e4e60a710bd61e8) of player #8 [FAL-R) tony fernandes
 ﻿19:32:27 : Player #11 Antonio Bloods  (46.105.224.38:53367) connected
-﻿19:32:27 : Player #13 James Gordon (-) has been kicked by BattlEye: Client not responding
 ﻿19:32:27 : Player #12 Zey Nakazawa (46.105.224.38:3621) connected
 ﻿19:32:28 : Player #13 [FAL] Sergey Gomez (46.105.224.38:3667) connected
-﻿19:32:30 : Player #12 Zey Nakazawa disconnected
 ﻿19:32:31 : Player #13 [FAL] Sergey Gomez - GUID: 47586e8cf090a7323db67fa14bdd99ab (unverified)
 ﻿19:32:33 : Verified GUID (47586e8cf090a7323db67fa14bdd99ab) of player #13 [FAL] Sergey Gomez
 ﻿19:32:35 : Player #12 Juliano Rodriguez (46.105.224.38:3610) connected
@@ -4708,29 +4689,21 @@
 ﻿19:32:43 : Verified GUID (d2dcadaf384c7b85fe8a146879ded755) of player #18 R. Quentin Vagos
 ﻿19:32:44 : Player #20 [WOAX-recrue.]Emilien  (46.105.224.38:3660) connected
 ﻿19:32:44 : Player #21 Noki Azalea (46.105.224.38:3389) connected
-﻿19:32:45 : Player #19 Damss Pacino disconnected
 ﻿19:32:46 : Player #19 Tony Cappeliny (46.105.224.38:3664) connected
-﻿19:32:48 : Player #21 Noki Azalea disconnected
 ﻿19:32:48 : Player #19 Tony Cappeliny - GUID: 7ed2eec500eac3174c0bcae4858d27de (unverified)
 ﻿19:32:50 : Player #21 D.Torreto (46.105.224.38:3699) connected
-﻿19:32:50 : Player #20 [WOAX-recrue.]Emilien  disconnected
 ﻿19:32:51 : Player #20 Fumaco Apogée (46.105.224.38:3580) connected
-﻿19:32:52 : Player #14 SP Khalifa (2) disconnected
 ﻿19:32:53 : Player #21 D.Torreto - GUID: 78723ec3e7a2086f72d370a6f66ef9f4 (unverified)
 ﻿19:32:53 : Verified GUID (78723ec3e7a2086f72d370a6f66ef9f4) of player #21 D.Torreto
 ﻿19:32:54 : Player #14 [FAL-R] Henrie Parmille (46.105.224.38:3684) connected
 ﻿19:32:55 : Player #22 hakim embet  (46.105.224.38:3702) connected
 ﻿19:32:55 : Player #23 Tsunaa Monteriggionni (46.105.224.38:3698) connected
 ﻿19:32:57 : Player #22 hakim embet  - GUID: 90000e7cc6d30c380b3227a0cdb23ec1 (unverified)
-﻿19:32:57 : Player #20 Fumaco Apogée disconnected
-﻿19:32:57 : Verified GUID (90000e7cc6d30c380b3227a0cdb23ec1) of player #22 hakim embet 
-﻿19:32:58 : Player #14 [FAL-R] Henrie Parmille disconnected
-﻿19:32:59 : Player #11 Antonio Bloods  (-) has been kicked by BattlEye: Client not responding
+﻿19:32:57 : Verified GUID (90000e7cc6d30c380b3227a0cdb23ec1) of player #22 hakim embet
 ﻿19:33:00 : Verified GUID (151cc56aa1445cd662cfd40f43bed0e9) of player #17 [FAL] Francis gomez
 ﻿19:33:00 : Player #23 Tsunaa Monteriggionni - GUID: 386b6720efba2a34f8a7698d97a128a0 (unverified)
 ﻿19:33:00 : Verified GUID (386b6720efba2a34f8a7698d97a128a0) of player #23 Tsunaa Monteriggionni
 ﻿19:33:05 : Player #11 Harry Epsilon  (46.105.224.38:3703) connected
-﻿19:33:07 : Player #12 Juliano Rodriguez (-) has been kicked by BattlEye: Client not responding
 ﻿19:33:11 : Player #12 Benjamin Franklin (46.105.224.38:3651) connected
 ﻿19:33:12 : Player #14 Paradou Mamadou (46.105.224.38:3678) connected
 ﻿19:33:14 : Player #12 Benjamin Franklin - GUID: b735df7ceba1f555b20bfd315d700bb5 (unverified)
@@ -4754,9 +4727,6 @@
 ﻿19:33:24 : Player #28 Neil el Gonzo (46.105.224.38:3704) connected
 ﻿19:33:25 : Verified GUID (7ed2eec500eac3174c0bcae4858d27de) of player #19 Tony Cappeliny
 ﻿19:33:28 : Player #29 John Café (46.105.224.38:3659) connected
-﻿19:33:30 : Player #29 John Café disconnected
-﻿19:33:30 : Player #28 Neil el Gonzo disconnected
-﻿19:33:32 : Player #11 Harry Epsilon  disconnected
 ﻿19:33:37 : Player #11 Tong Nakazawa (46.105.224.38:3665) connected
 ﻿19:33:37 : Verified GUID (12e7d2b716ad4f37d37f15c92fd29241) of player #20 [FAL] William Morello
 ﻿19:33:40 : Player #28 baraka legra (46.105.224.38:3527) connected
@@ -4786,12 +4756,9 @@
 ﻿19:34:03 : Verified GUID (4bff96c0f97abdf7bbdeae05dd56d026) of player #35 Fumaco Apogée
 ﻿19:34:05 : Player #37 Hanck schrader (46.105.224.38:3705) connected
 ﻿19:34:07 : Player #38 Vitia Ramovitch (46.105.224.38:3706) connected
-﻿19:34:07 : Player #36 Henry M Murdock disconnected
 ﻿19:34:08 : Player #36 Neil el Gonzo (46.105.224.38:3704) connected
 ﻿19:34:09 : Player #39 Sikolsky Bloods (46.105.224.38:3707) connected
-﻿19:34:10 : Player #28 baraka legra disconnected
 ﻿19:34:10 : Player #36 Neil el Gonzo - GUID: fac62a850dc0265c9192652f0c888251 (unverified)
-﻿19:34:10 : Player #37 Hanck schrader disconnected
 ﻿19:34:10 : Verified GUID (fac62a850dc0265c9192652f0c888251) of player #36 Neil el Gonzo
 ﻿19:34:12 : Player #28 Chris Namko (46.105.224.38:3685) connected
 ﻿19:34:13 : Player #37 Harry Epsilon  (46.105.224.38:3703) connected
@@ -4799,45 +4766,29 @@
 ﻿19:34:14 : Player #28 Chris Namko - GUID: 2b55c74c2cc4d21565635277d56e3af1 (unverified)
 ﻿19:34:14 : Verified GUID (de66ee0ccde3739b0a8661acaad9ae89) of player #37 Harry Epsilon 
 ﻿19:34:14 : Verified GUID (2b55c74c2cc4d21565635277d56e3af1) of player #28 Chris Namko
-﻿19:34:15 : Player #39 Sikolsky Bloods disconnected
-﻿19:34:17 : Could not connect to BE Master
-﻿19:34:17 : Update attempt failed
-﻿19:34:19 : Player #5 Vic Mackey (3d6da9062d4e865b062bbfa8919d7135) has been kicked by BattlEye: Client not responding
-﻿19:34:21 : Player #13 [FAL] Sergey Gomez disconnected
 ﻿19:34:29 : Player #5 Vic Mackey (46.105.224.38:3688) connected
-﻿19:34:29 : Player #38 Vitia Ramovitch disconnected
 ﻿19:34:30 : Player #13 Juliano Rodriguez (46.105.224.38:3610) connected
 ﻿19:34:33 : Player #13 Juliano Rodriguez - GUID: 27e82273c9b092aa44dbe55c1f9b705e (unverified)
-﻿19:34:34 : Player #5 Vic Mackey disconnected
 ﻿19:34:34 : Verified GUID (27e82273c9b092aa44dbe55c1f9b705e) of player #13 Juliano Rodriguez
-﻿19:34:35 : Player #14 Paradou Mamadou disconnected
 ﻿19:34:56 : RCon admin #6 (46.105.224.38:49948) logged in
 ﻿19:35:03 : Player #5 PsiiQo Luciano (46.105.224.38:3708) connected
-﻿19:35:05 : Player #20 [FAL] William Morello (12e7d2b716ad4f37d37f15c92fd29241) has been kicked by BattlEye: Client not responding
 ﻿19:35:06 : Player #14 [FAL] Sergey Gomez (46.105.224.38:3667) connected
 ﻿19:35:07 : Player #20 Mario Desperados (46.105.224.38:3709) connected
 ﻿19:35:08 : Player #38 G. Gaet Vagos (46.105.224.38:3710) connected
 ﻿19:35:09 : Player #39 Henry M Murdock (46.105.224.38:2304) connected
-﻿19:35:09 : Player #20 Mario Desperados disconnected
-﻿19:35:11 : Player #14 [FAL] Sergey Gomez disconnected
 ﻿19:35:11 : Player #39 Henry M Murdock - GUID: 0333cdab973569483f1ef0d7bfd9622f (unverified)
 ﻿19:35:12 : Verified GUID (0333cdab973569483f1ef0d7bfd9622f) of player #39 Henry M Murdock
-﻿19:35:15 : Player #38 G. Gaet Vagos disconnected
 ﻿19:35:15 : Player #14 Hanck schrader (46.105.224.38:3705) connected
 ﻿19:35:16 : Player #20 Zé Pequeno (46.105.224.38:3711) connected
 ﻿19:35:16 : Player #38 [FAL] William Morello (46.105.224.38:3700) connected
 ﻿19:35:17 : Player #14 Hanck schrader - GUID: d7343593dc96fe4ba27eacb49b7da2fa (unverified)
 ﻿19:35:18 : Verified GUID (d7343593dc96fe4ba27eacb49b7da2fa) of player #14 Hanck schrader
 ﻿19:35:18 : Player #20 Zé Pequeno - GUID: d2d72761cbf9c8823df823ed50d968b0 (unverified)
-﻿19:35:22 : Player #38 [FAL] William Morello disconnected
-﻿19:35:24 : Player #34 John Café disconnected
 ﻿19:35:25 : Player #34 Jean-Marc (46.105.224.38:3712) connected
 ﻿19:35:27 : Player #38 baraka legra (46.105.224.38:3527) connected
 ﻿19:35:31 : Player #38 baraka legra - GUID: 934bf4a7214986d9c80ceb944381cd64 (unverified)
 ﻿19:35:31 : Verified GUID (934bf4a7214986d9c80ceb944381cd64) of player #38 baraka legra
-﻿19:35:32 : Player #5 PsiiQo Luciano disconnected
 ﻿19:35:40 : Player #5 Antonio Bloods  (46.105.224.38:53367) connected
-﻿19:35:40 : Player #34 Jean-Marc disconnected
 ﻿19:35:43 : Player #5 Antonio Bloods  - GUID: 01e6ea55252e4f15b5eb8ad114dd08d3 (unverified)
 ﻿19:35:43 : Player #34 [GBN] Jibe Galbanno (46.105.224.38:3713) connected
 ﻿19:35:43 : Verified GUID (01e6ea55252e4f15b5eb8ad114dd08d3) of player #5 Antonio Bloods 
@@ -4845,7 +4796,6 @@
 ﻿19:35:46 : Player #40 Mario Desperados - GUID: 1e94b0bda835f82a3f97d21d23889a44 (unverified)
 ﻿19:35:46 : Verified GUID (1e94b0bda835f82a3f97d21d23889a44) of player #40 Mario Desperados
 ﻿19:35:48 : Player #41 Vic Mackey (46.105.224.38:3688) connected
-﻿19:35:49 : Player #34 [GBN] Jibe Galbanno disconnected
 ﻿19:35:51 : Player #41 Vic Mackey - GUID: 3d6da9062d4e865b062bbfa8919d7135 (unverified)
 ﻿19:35:51 : Player #34 Mayhem Miller (46.105.224.38:3714) connected
 ﻿19:35:51 : Verified GUID (3d6da9062d4e865b062bbfa8919d7135) of player #41 Vic Mackey
@@ -4859,40 +4809,29 @@
 ﻿19:35:59 : Verified GUID (7c45b05492f33108c2295d9d78e534a8) of player #43 G. Gaet Vagos
 ﻿19:36:08 : Player #45 [FAL] riakatou riha  (46.105.224.38:3715) connected
 ﻿19:36:12 : Player #46 [FAL] Sergey Gomez (46.105.224.38:3667) connected
-﻿19:36:12 : Player #45 [FAL] riakatou riha  disconnected
-﻿19:36:13 : Could not connect to BE Master
-﻿19:36:13 : Update attempt failed
 ﻿19:36:14 : Player #46 [FAL] Sergey Gomez - GUID: 47586e8cf090a7323db67fa14bdd99ab (unverified)
 ﻿19:36:17 : Player #45 Mathias Tiloup (46.105.224.38:3716) connected
-﻿19:36:21 : Player #45 Mathias Tiloup disconnected
 ﻿19:36:22 : Player #45 Zizou Gordon (46.105.224.38:3717) connected
 ﻿19:36:23 : Player #47 Lucas Flynn (46.105.224.38:3672) connected
 ﻿19:36:23 : Player #34 Mayhem Miller (-) has been kicked by BattlEye: Client not responding
 ﻿19:36:25 : Player #47 Lucas Flynn - GUID: 9504e74ada2cb2921c0ad4f2cf324a18 (unverified)
 ﻿19:36:25 : Player #34 Ari Cover (46.105.224.38:3718) connected
-﻿19:36:29 : Player #44 Paradou Mamadou disconnected
 ﻿19:36:30 : Player #44 John Café (46.105.224.38:3659) connected
-﻿19:36:30 : Player #34 Ari Cover disconnected
 ﻿19:36:30 : Player #34 [FAL] William Morello (46.105.224.38:3700) connected
 ﻿19:36:31 : Player #48 PsiiQo Luciano (46.105.224.38:3708) connected
-﻿19:36:32 : Player #44 John Café disconnected
 ﻿19:36:33 : Player #48 PsiiQo Luciano - GUID: 2abb450a11cba751c6afce156329bd54 (unverified)
 ﻿19:36:33 : Player #34 [FAL] William Morello - GUID: 12e7d2b716ad4f37d37f15c92fd29241 (unverified)
 ﻿19:36:36 : Player #44 Sikolsky Bloods (46.105.224.38:3707) connected
-﻿19:36:44 : Player #44 Sikolsky Bloods disconnected
 ﻿19:36:46 : Player #44 Jean-Marc (46.105.224.38:3712) connected
 ﻿19:36:48 : Player #44 Jean-Marc - GUID: cd02783df09feb05e15efc4c63ab7e64 (unverified)
 ﻿19:36:49 : Verified GUID (cd02783df09feb05e15efc4c63ab7e64) of player #44 Jean-Marc
-﻿19:36:54 : Player #45 Zizou Gordon (-) has been kicked by BattlEye: Client not responding
 ﻿19:36:56 : Player #45 [WOEX-Recrue]JérémySMITH (46.105.224.38:3719) connected
 ﻿19:37:01 : Player #49 John Café (46.105.224.38:3659) connected
 ﻿19:37:02 : Player #49 John Café - GUID: 7c3c84bd860c1bfa06e5469404b0bd21 (unverified)
 ﻿19:37:02 : Verified GUID (7c3c84bd860c1bfa06e5469404b0bd21) of player #49 John Café
-﻿19:37:03 : Player #45 [WOEX-Recrue]JérémySMITH disconnected
 ﻿19:37:05 : Player #45 Rockernkill Epsilon (46.105.224.38:3720) connected
 ﻿19:37:09 : Player #50 [GBN] Jibe Galbanno (46.105.224.38:3713) connected
 ﻿19:37:10 : Player #51 [FAL] riakatou riha  (46.105.224.38:3715) connected
-﻿19:37:11 : Player #45 Rockernkill Epsilon disconnected
 ﻿19:37:12 : Player #45 Heskert Alvatorez (46.105.224.38:3721) connected
 ﻿19:37:12 : Player #50 [GBN] Jibe Galbanno - GUID: f2f66781162cbdd50852b7cedc0a5382 (unverified)
 ﻿19:37:13 : Verified GUID (f2f66781162cbdd50852b7cedc0a5382) of player #50 [GBN] Jibe Galbanno
@@ -4901,12 +4840,8 @@
 ﻿19:37:15 : Player #52 Mathias Tiloup (46.105.224.38:3716) connected
 ﻿19:37:17 : Player #52 Mathias Tiloup - GUID: b66a939a305a2daf54a5fd18111cd233 (unverified)
 ﻿19:37:17 : Verified GUID (b66a939a305a2daf54a5fd18111cd233) of player #52 Mathias Tiloup
-﻿19:37:19 : Player #45 Heskert Alvatorez disconnected
-﻿19:37:26 : Player #45 Neal Caffrey (46.105.224.38:3722) connected
-﻿19:37:27 : Player #48 PsiiQo Luciano disconnected
 ﻿19:37:28 : Verified GUID (47586e8cf090a7323db67fa14bdd99ab) of player #46 [FAL] Sergey Gomez
 ﻿19:37:30 : Player #48 Paradou Mamadou (46.105.224.38:3678) connected
-﻿19:37:31 : Player #45 Neal Caffrey disconnected
 ﻿19:37:32 : Player #48 Paradou Mamadou - GUID: 1a2166f7bf74b37278a9e7ca1e4083ae (unverified)
 ﻿19:37:33 : Verified GUID (1a2166f7bf74b37278a9e7ca1e4083ae) of player #48 Paradou Mamadou
 ﻿19:37:34 : Player #45 Ari Cover (46.105.224.38:3718) connected
@@ -4916,15 +4851,9 @@
 ﻿19:37:42 : Verified GUID (541f77dc3b615a8368559affadd7c187) of player #53 Sikolsky Bloods
 ﻿19:37:44 : Player #54 Paradou Mamadou  (46.105.224.38:3723) connected
 ﻿19:37:48 : Verified GUID (9504e74ada2cb2921c0ad4f2cf324a18) of player #47 Lucas Flynn
-﻿19:37:49 : Player #54 Paradou Mamadou  disconnected
 ﻿19:37:52 : Verified GUID (12e7d2b716ad4f37d37f15c92fd29241) of player #34 [FAL] William Morello
 ﻿19:38:02 : Player #54 Chih Nii (46.105.224.38:3724) connected
 ﻿19:38:04 : Player #55 Isil Alcatraz (46.105.224.38:3725) connected
-﻿19:38:04 : Player #4 Luc clerc disconnected
-﻿19:38:05 : Player #54 Chih Nii disconnected
-﻿19:38:09 : Could not connect to BE Master
-﻿19:38:09 : Update attempt failed
-﻿19:38:21 : Player #55 Isil Alcatraz disconnected
 ﻿19:38:23 : Player #4 Rockernkill Epsilon (46.105.224.38:3720) connected
 ﻿19:38:24 : Verified GUID (7f5e2fee0539e2a2963e6cbb6ac5e9e6) of player #45 Ari Cover
 ﻿19:38:24 : Player #54 [WOEX-Recrue]JérémySMITH (46.105.224.38:3719) connected
@@ -4936,7 +4865,6 @@
 ﻿19:38:27 : Verified GUID (6e6e5b398a4f0bca72d736ab2ecec263) of player #54 [WOEX-Recrue]JérémySMITH
 ﻿19:38:29 : Player #55 Paradou Mamadou  - GUID: e4178127be1d95b13220cd6f216e5d90 (unverified)
 ﻿19:38:30 : Verified GUID (e4178127be1d95b13220cd6f216e5d90) of player #55 Paradou Mamadou 
-﻿19:38:33 : Player #56 [FAL] Jessy James disconnected
 ﻿19:38:36 : Player #56 Chih Nii (46.105.224.38:3724) connected
 ﻿19:38:37 : Player #56 Chih Nii - GUID: 195fee1cb312906d325552fd8ca1448e (unverified)
 ﻿19:38:37 : Player #57 Zizou Gordon (46.105.224.38:3717) connected
@@ -4949,14 +4877,9 @@
 ﻿19:39:05 : Player #59 Ayoo Pronto (46.105.224.38:3727) connected
 ﻿19:39:07 : Player #60 Romain O'Connor (46.105.224.38:3728) connected
 ﻿19:39:08 : Player #61 Pyrasxkov Weiker (46.105.224.38:3729) connected
-﻿19:39:09 : Player #59 Ayoo Pronto disconnected
-﻿19:39:12 : Player #60 Romain O'Connor disconnected
 ﻿19:39:15 : Player #59 Rico Sournois (46.105.224.38:3730) connected
-﻿19:39:18 : Player #61 Pyrasxkov Weiker disconnected
-﻿19:39:19 : Player #59 Rico Sournois disconnected
 ﻿19:39:20 : Player #59 Jeremy Ruskoff (46.105.224.38:3731) connected
 ﻿19:39:21 : Player #60 Heskert Alvatorez (46.105.224.38:3721) connected
-﻿19:39:25 : Player #59 Jeremy Ruskoff disconnected
 ﻿19:39:26 : Player #60 Heskert Alvatorez - GUID: 49f07474d2229bc63d2e2b8cb19bd321 (unverified)
 ﻿19:39:27 : Verified GUID (49f07474d2229bc63d2e2b8cb19bd321) of player #60 Heskert Alvatorez
 ﻿19:39:31 : Player #59 Isil Alcatraz (46.105.224.38:3725) connected
@@ -4970,10 +4893,6 @@
 ﻿19:39:54 : Player #63 Ayoo Pronto - GUID: b42f8bfb3c63989c8033b871a040a00e (unverified)
 ﻿19:39:54 : Verified GUID (b42f8bfb3c63989c8033b871a040a00e) of player #63 Ayoo Pronto
 ﻿19:40:02 : Player #64 [GBN) Benm Galbanno (46.105.224.38:3732) connected
-﻿19:40:05 : Could not connect to BE Master
-﻿19:40:05 : Update attempt failed
-﻿19:40:07 : Player #64 [GBN) Benm Galbanno disconnected
-﻿19:40:10 : Player #61 PsiiQo Luciano (-) has been kicked by BattlEye: Client not responding
 ﻿19:40:16 : Player #61 Pyrasxkov Weiker (46.105.224.38:3729) connected
 ﻿19:40:18 : Player #61 Pyrasxkov Weiker - GUID: f9b34ae8c14f783bb297984e7c2d64d0 (unverified)
 ﻿19:40:18 : Verified GUID (f9b34ae8c14f783bb297984e7c2d64d0) of player #61 Pyrasxkov Weiker
@@ -4986,43 +4905,29 @@
 ﻿19:40:36 : Player #66 Romain O'Connor - GUID: 0b44c2e47f8788c635b84abace16f932 (unverified)
 ﻿19:40:36 : Player #67 Jeremy Ruskoff (46.105.224.38:3731) connected
 ﻿19:40:37 : Verified GUID (0b44c2e47f8788c635b84abace16f932) of player #66 Romain O'Connor
-﻿19:40:37 : Player #61 Pyrasxkov Weiker disconnected
 ﻿19:40:40 : Player #67 Jeremy Ruskoff - GUID: b48b3d95efcaad43751a4a95874a5553 (unverified)
 ﻿19:40:40 : Verified GUID (b48b3d95efcaad43751a4a95874a5553) of player #67 Jeremy Ruskoff
 ﻿19:40:55 : Player #61 Mayhem Miller (46.105.224.38:3714) connected
-﻿19:40:56 : RCon admin #5: (Global) Le serveur redémarre 5 fois par jour, 05h00, 11H00, 15H30, 19H30 et à 23h30
-﻿19:40:57 : Player #61 Mayhem Miller - GUID: 3136c2e741f3d1d80665911e614d9a1a (unverified)
+19:40:57 : Player #61 Mayhem Miller - GUID: 3136c2e741f3d1d80665911e614d9a1a (unverified)
 ﻿19:41:07 : Verified GUID (c0871b5f63a9cb8f2f3fa3137f855a77) of player #64 Rico Sournois
 ﻿19:41:14 : Player #68 Mizg Nostra (46.105.224.38:3733) connected
-﻿19:41:18 : Player #68 Mizg Nostra disconnected
 ﻿19:41:20 : Player #68 [GBN) Benm Galbanno (46.105.224.38:3732) connected
 ﻿19:41:24 : Player #68 [GBN) Benm Galbanno - GUID: a5548145c957e90bb9211e07a366ae3e (unverified)
 ﻿19:41:24 : Verified GUID (a5548145c957e90bb9211e07a366ae3e) of player #68 [GBN) Benm Galbanno
 ﻿19:41:27 : Player #69 Raymond Reddington (46.105.224.38:3735) connected
-﻿19:41:28 : Player #49 John Café disconnected
 ﻿19:41:28 : Player #49 [GBN] Joseph Galbano (46.105.224.38:3734) connected
 ﻿19:41:29 : Player #49 [GBN] Joseph Galbano - GUID: f1a82000e5f0cfbcba83633cbc404fe4 (unverified)
 ﻿19:41:29 : Player #70 Alexandre Afroman (46.105.224.38:57626) connected
 ﻿19:41:29 : Verified GUID (f1a82000e5f0cfbcba83633cbc404fe4) of player #49 [GBN] Joseph Galbano
-﻿19:41:36 : Player #70 Alexandre Afroman disconnected
-﻿19:41:57 : RCon admin #2 (46.105.224.38:62928) logged in
-﻿19:41:59 : Player #69 Raymond Reddington (-) has been kicked by BattlEye: Client not responding
-﻿19:42:01 : Could not connect to BE Master
-﻿19:42:01 : Update attempt failed
 ﻿19:42:04 : Verified GUID (3136c2e741f3d1d80665911e614d9a1a) of player #61 Mayhem Miller
 ﻿19:42:10 : Player #69 Luc le Trou (46.105.224.38:3736) connected
 ﻿19:42:13 : Player #70 John Café (46.105.224.38:3659) connected
-﻿19:42:14 : Player #69 Luc le Trou disconnected
-﻿19:42:15 : Player #70 John Café disconnected
-﻿19:42:16 : Player #55 Paradou Mamadou  (e4178127be1d95b13220cd6f216e5d90) has been kicked by BattlEye: Client not responding
 ﻿19:42:19 : Player #55 [FAL]Fernando Pierucetti (46.105.224.38:3737) connected
 ﻿19:42:22 : Player #69 Mizg Nostra (46.105.224.38:3733) connected
 ﻿19:42:22 : Player #55 [FAL]Fernando Pierucetti - GUID: adfdc312b5f62df7e1cd7e5a2429ba99 (unverified)
 ﻿19:42:23 : Verified GUID (adfdc312b5f62df7e1cd7e5a2429ba99) of player #55 [FAL]Fernando Pierucetti
 ﻿19:42:24 : Player #69 Mizg Nostra - GUID: 62e6b74ff110d485b9bc7ee6fa8b28fe (unverified)
 ﻿19:42:25 : Verified GUID (62e6b74ff110d485b9bc7ee6fa8b28fe) of player #69 Mizg Nostra
-﻿19:42:29 : Player #69 Mizg Nostra disconnected
-﻿19:42:30 : Player #55 [FAL]Fernando Pierucetti disconnected
 ﻿19:42:44 : Player #55 John Café (46.105.224.38:3659) connected
 ﻿19:42:45 : Player #55 John Café - GUID: 7c3c84bd860c1bfa06e5469404b0bd21 (unverified)
 ﻿19:42:45 : Verified GUID (7c3c84bd860c1bfa06e5469404b0bd21) of player #55 John Café
@@ -5030,41 +4935,27 @@
 ﻿19:42:49 : Player #69 Alexandre Afroman - GUID: 187b2175caaaf772dee0fa6d8c4298be (unverified)
 ﻿19:42:49 : Verified GUID (187b2175caaaf772dee0fa6d8c4298be) of player #69 Alexandre Afroman
 ﻿19:43:03 : Player #70 [WOEX-Recrue]JérémySMITH (2) (46.105.224.38:2316) connected
-﻿19:43:07 : Player #70 [WOEX-Recrue]JérémySMITH (2) disconnected
 ﻿19:43:19 : Player #70 Abdallah Zitouni (46.105.224.38:3738) connected
-﻿19:43:25 : Player #70 Abdallah Zitouni disconnected
 ﻿19:43:30 : Player #70 Luc le Trou (46.105.224.38:3736) connected
 ﻿19:43:33 : Player #71 James Skywalker (46.105.224.38:3739) connected
 ﻿19:43:33 : Player #70 Luc le Trou - GUID: 18ac41bdd99da856fa84330424ae0cee (unverified)
 ﻿19:43:33 : Verified GUID (18ac41bdd99da856fa84330424ae0cee) of player #70 Luc le Trou
-﻿19:43:42 : Player #71 James Skywalker disconnected
 ﻿19:43:43 : Player #71 Depe De Santa (46.105.224.38:3740) connected
 ﻿19:43:55 : Player #72 Abdallah Zitouni (46.105.224.38:3738) connected
-﻿19:43:57 : Could not connect to BE Master
-﻿19:43:57 : Update attempt failed
 ﻿19:43:58 : Player #72 Abdallah Zitouni - GUID: 6bd6b805c8574a4c44197f0d9dd422bf (unverified)
 ﻿19:43:58 : Player #73 Dedge Sparte (46.105.224.38:3741) connected
 ﻿19:43:59 : Verified GUID (6bd6b805c8574a4c44197f0d9dd422bf) of player #72 Abdallah Zitouni
-﻿19:44:05 : Player #71 Depe De Santa disconnected
-﻿19:44:10 : Player #39 Henry M Murdock disconnected
 ﻿19:44:11 : Player #39 [FAL]Fernando Pierucetti (46.105.224.38:3737) connected
 ﻿19:44:16 : Player #71 Abdallah Zitouni (2) (46.105.224.38:3742) connected
 ﻿19:44:17 : Player #74 John Khalovski (46.105.224.38:3743) connected
-﻿19:44:18 : Player #71 Abdallah Zitouni (2) disconnected
 ﻿19:44:23 : Player #71 John Elioriel (46.105.224.38:3744) connected
-﻿19:44:23 : Player #39 [FAL]Fernando Pierucetti disconnected
-﻿19:44:27 : Player #74 John Khalovski disconnected
-﻿19:44:30 : Player #71 John Elioriel disconnected
-﻿19:44:31 : Player #73 Dedge Sparte (-) has been kicked by BattlEye: Client not responding
 ﻿19:44:41 : Player #39 James Skywalker (46.105.224.38:3739) connected
 ﻿19:44:43 : Player #39 James Skywalker - GUID: 2720da57d248f72d814bd1fbc3d15c57 (unverified)
 ﻿19:44:43 : Verified GUID (2720da57d248f72d814bd1fbc3d15c57) of player #39 James Skywalker
 ﻿19:44:54 : Player #71 John Khalovski (46.105.224.38:3743) connected
-﻿19:44:55 : Player #66 Romain O'Connor disconnected
 ﻿19:44:56 : Player #71 John Khalovski - GUID: 88a683084297f9c8c65191d1095df501 (unverified)
 ﻿19:44:57 : Verified GUID (88a683084297f9c8c65191d1095df501) of player #71 John Khalovski
 ﻿19:45:18 : Player #66 Grinf Brooks (46.105.224.38:3745) connected
-﻿19:45:33 : Player #66 Grinf Brooks disconnected
 ﻿19:45:43 : Player #66 [FAL]Fernando Pierucetti (46.105.224.38:3737) connected
 ﻿19:45:46 : Player #73 Dedge Sparte (46.105.224.38:3741) connected
 ﻿19:45:47 : Player #74 John Elioriel (46.105.224.38:3744) connected
@@ -5075,37 +4966,20 @@
 ﻿19:45:50 : Player #74 John Elioriel - GUID: 39996e1f4b838155f32a3cfd48f6de6d (unverified)
 ﻿19:45:50 : Verified GUID (39996e1f4b838155f32a3cfd48f6de6d) of player #74 John Elioriel
 ﻿19:45:51 : Player #75 [WOEX-Recrue]JérémySMITH (2) (46.105.224.38:2316) connected
-﻿19:45:52 : Player #14 Hanck schrader disconnected
-﻿19:45:53 : Could not connect to BE Master
-﻿19:45:54 : Update attempt failed
-﻿19:45:54 : Player #75 [WOEX-Recrue]JérémySMITH (2) disconnected
-﻿19:45:56 : Player #38 baraka legra disconnected
 ﻿19:46:27 : Player #14 =A= John Smith (46.105.224.38:3746) connected
 ﻿19:46:35 : Player #38 lulu O'Connor (46.105.224.38:3747) connected
-﻿19:46:38 : Player #46 [FAL] Sergey Gomez disconnected
 ﻿19:46:40 : Player #46 Grinf Brooks (46.105.224.38:3745) connected
-﻿19:46:40 : Player #38 lulu O'Connor disconnected
-﻿19:46:40 : Player #14 =A= John Smith disconnected
 ﻿19:46:43 : Player #46 Grinf Brooks - GUID: 6eda1f8065e583a500adc28b866f6eef (unverified)
 ﻿19:46:43 : Verified GUID (6eda1f8065e583a500adc28b866f6eef) of player #46 Grinf Brooks
 ﻿19:46:44 : Player #14 Etché Le Basque (46.105.224.38:3748) connected
-﻿19:46:48 : Player #14 Etché Le Basque disconnected
 ﻿19:46:51 : Player #14 baraka legra (46.105.224.38:3527) connected
 ﻿19:46:52 : Player #38 Romain O'Connor (46.105.224.38:3728) connected
-﻿19:46:58 : Player #73 Dedge Sparte disconnected
-﻿19:46:58 : Player #38 Romain O'Connor disconnected
-﻿19:47:07 : Player #33 Khalifa Kush disconnected
 ﻿19:47:11 : Player #33 =A= John Smith (46.105.224.38:3746) connected
-﻿19:47:12 : Player #64 Rico Sournois disconnected
 ﻿19:47:13 : Player #33 =A= John Smith - GUID: 4aef4030e72f7e387c2cfabaa8a24f85 (unverified)
 ﻿19:47:13 : Verified GUID (4aef4030e72f7e387c2cfabaa8a24f85) of player #33 =A= John Smith
-﻿19:47:19 : Player #66 [FAL]Fernando Pierucetti disconnected
-﻿19:47:23 : Player #14 baraka legra (-) has been kicked by BattlEye: Client not responding
 ﻿19:47:26 : Player #14 Etché Le Basque (46.105.224.38:3748) connected
 ﻿19:47:29 : Player #14 Etché Le Basque - GUID: e4178127be1d95b13220cd6f216e5d90 (unverified)
 ﻿19:47:43 : Verified GUID (e4178127be1d95b13220cd6f216e5d90) of player #14 Etché Le Basque
-﻿19:47:50 : Could not connect to BE Master
-﻿19:47:50 : Update attempt failed
 ﻿19:47:51 : Player #38 lulu O'Connor (46.105.224.38:3747) connected
 ﻿19:47:53 : Player #38 lulu O'Connor - GUID: 9ab8eef86117959ad944cb0debe8ebf7 (unverified)
 ﻿19:47:53 : Verified GUID (9ab8eef86117959ad944cb0debe8ebf7) of player #38 lulu O'Connor
@@ -5113,47 +4987,26 @@
 ﻿19:47:55 : Player #64 Khalifa Epsilon - GUID: 325b96a474f34b3a89d4e85967bf34b6 (unverified)
 ﻿19:47:56 : Verified GUID (325b96a474f34b3a89d4e85967bf34b6) of player #64 Khalifa Epsilon
 ﻿19:47:56 : Player #66 [WOEX-Recrue]JérémySMITH (2) (46.105.224.38:2316) connected
-﻿19:47:59 : Player #66 [WOEX-Recrue]JérémySMITH (2) disconnected
-﻿19:48:00 : RCon admin #5: (To Tony Cappeliny) BEC : You have about 60 seconds left to join the mission.
 ﻿19:48:07 : Player #66 [FAL]Fernando Pierucetti (46.105.224.38:3737) connected
 ﻿19:48:17 : Player #73 Romain O'Connor (46.105.224.38:3728) connected
-﻿19:48:18 : Player #66 [FAL]Fernando Pierucetti disconnected
 ﻿19:48:20 : Player #73 Romain O'Connor - GUID: 0b44c2e47f8788c635b84abace16f932 (unverified)
 ﻿19:48:20 : Verified GUID (0b44c2e47f8788c635b84abace16f932) of player #73 Romain O'Connor
-﻿19:48:32 : RCon admin #5: (To Tony Cappeliny) BEC : You have about 30 seconds left to join the mission.
-﻿19:48:46 : RCon admin #5: (To Tony Cappeliny) BEC : You have about 15 seconds left to join the mission.
 ﻿19:48:47 : Player #66 baraka legra (46.105.224.38:3527) connected
-﻿19:48:50 : Player #14 Etché Le Basque (e4178127be1d95b13220cd6f216e5d90) has been kicked by BattlEye: Client not responding
 ﻿19:48:51 : Player #66 baraka legra - GUID: 934bf4a7214986d9c80ceb944381cd64 (unverified)
 ﻿19:48:51 : Verified GUID (934bf4a7214986d9c80ceb944381cd64) of player #66 baraka legra
-﻿19:48:53 : Player #43 G. Gaet Vagos disconnected
-﻿19:49:00 : Player #19 Tony Cappeliny (7ed2eec500eac3174c0bcae4858d27de) has been kicked by BattlEye: Admin Kick (BEC : Lobby idling to long)
-﻿19:49:05 : Player #39 James Skywalker disconnected
-﻿19:49:35 : Player #72 Abdallah Zitouni disconnected
 ﻿19:49:39 : Player #14 [FAL]Fernando Pierucetti (46.105.224.38:3737) connected
 ﻿19:49:42 : Player #14 [FAL]Fernando Pierucetti - GUID: adfdc312b5f62df7e1cd7e5a2429ba99 (unverified)
 ﻿19:49:43 : Verified GUID (adfdc312b5f62df7e1cd7e5a2429ba99) of player #14 [FAL]Fernando Pierucetti
-﻿19:49:46 : Could not connect to BE Master
-﻿19:49:46 : Update attempt failed
 ﻿19:50:01 : Player #19 Aleksei Vassilievykh (90.6.67.248:2304) connected
-﻿19:50:34 : Player #19 Aleksei Vassilievykh (-) has been kicked by BattlEye: Client not responding
-﻿19:50:39 : Player #55 John Café disconnected
 ﻿19:50:53 : Player #19 Etché Le Basque (46.105.224.38:3748) connected
-﻿19:50:57 : Player #19 Etché Le Basque disconnected
 ﻿19:51:01 : Player #19 Tony Cappeliny (46.105.224.38:3664) connected
-﻿19:51:06 : Player #19 Tony Cappeliny disconnected
 ﻿19:51:15 : Player #19 Camron Wayne (46.105.224.38:3749) connected
-﻿19:51:16 : Player #74 John Elioriel disconnected
-﻿19:51:19 : Player #19 Camron Wayne disconnected
 ﻿19:51:25 : Player #19 PsiiQo Luciano (46.105.224.38:3708) connected
 ﻿19:51:27 : Player #19 PsiiQo Luciano - GUID: 2abb450a11cba751c6afce156329bd54 (unverified)
 ﻿19:51:28 : Player #39 John Café (46.105.224.38:3659) connected
 ﻿19:51:30 : Verified GUID (2abb450a11cba751c6afce156329bd54) of player #19 PsiiQo Luciano
-﻿19:51:30 : Player #39 John Café disconnected
 ﻿19:51:37 : Player #39 Etché Le Basque (46.105.224.38:3748) connected
 ﻿19:51:40 : Player #39 Etché Le Basque - GUID: e4178127be1d95b13220cd6f216e5d90 (unverified)
-﻿19:51:42 : Could not connect to BE Master
-﻿19:51:42 : Update attempt failed
 ﻿19:51:43 : Verified GUID (e4178127be1d95b13220cd6f216e5d90) of player #39 Etché Le Basque
 ﻿19:51:58 : Player #43 John Café (46.105.224.38:3659) connected
 ﻿19:51:59 : Player #43 John Café - GUID: 7c3c84bd860c1bfa06e5469404b0bd21 (unverified)
@@ -5163,17 +5016,10 @@
 ﻿19:52:03 : Verified GUID (0894a03415b9c7a7397408e82a990dee) of player #55 Raymond Reddington
 ﻿19:52:22 : Player #72 Tony Cappeliny (46.105.224.38:3664) connected
 ﻿19:52:24 : Player #72 Tony Cappeliny - GUID: 7ed2eec500eac3174c0bcae4858d27de (unverified)
-﻿19:53:29 : No Valid response. Trying to reconnect.!
-﻿19:53:29 : Rcon client logging in
-﻿19:53:29 : RCon admin #1 (127.0.0.1:56716) logged in
-﻿19:53:30 : Player #39 Fabio Nostra (46.105.224.38:2304) connected
-﻿19:53:31 : Player #75 Aleksei Vassilievykh (90.6.67.248:2304) connected
-﻿19:53:34 : Player #75 Aleksei Vassilievykh - GUID: ad73bac2f8179c5682e6b3472367c234 (unverified)
-﻿19:53:35 : Verified GUID (ad73bac2f8179c5682e6b3472367c234) of player #75 Aleksei Vassilievykh
-﻿19:53:38 : Could not connect to BE Master
-﻿19:53:38 : Update attempt failed
-﻿19:54:21 : Lost Connection!
-﻿19:54:21 : Closing socket & exiting!
+﻿
+
+
+
 ﻿19:56:49 : Rcon client logging in
 ﻿19:56:49 : RCon admin #5 (127.0.0.1:52919) logged in
 ﻿19:56:55 : Player #2 Vitia Ramovitch disconnected
