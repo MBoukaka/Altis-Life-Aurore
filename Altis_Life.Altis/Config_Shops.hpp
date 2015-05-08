@@ -161,7 +161,24 @@ class WeaponShops {
 		{ "muzzle_snds_B","",500 },		
 		{ "muzzle_snds_acp","",500 },
 		{ "muzzle_snds_H_MG","",500 },
-		{ "acc_flashlight","",50 }
+		{ "acc_flashlight","",50 },
+		{ "Binocular","",15 },
+		{ "ItemMap","",5 },
+		{ "ItemGPS","",10 },
+		{ "ToolKit","",25 },
+		{ "FirstAidKit","",15 },
+		{ "NVGoggles","",200 },
+		{ "Rangefinder","",200 },
+		{ "Chemlight_red","",30 },
+		{ "Chemlight_yellow","",30 },
+		{ "Chemlight_green","",30 },
+		{ "Chemlight_blue","",30 },
+		{ "SmokeShell","",2 },
+		{ "SmokeShellRed","",2 },
+		{ "SmokeShellGreen","",2 },
+		{ "SmokeShellYellow","",2 },
+		{ "SmokeShellPurple","",2 },
+		{ "SmokeShellBlue","",2 }
         };
     };
 	class restaurant {
