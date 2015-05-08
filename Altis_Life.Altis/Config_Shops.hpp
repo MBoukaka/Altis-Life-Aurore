@@ -501,7 +501,6 @@ class WeaponShops {
 		{ "11Rnd_45ACP_Mag","",100 },
 		{ "hgun_Pistol_heavy_02_F","",1500 },
 		{ "6Rnd_45ACP_Cylinder","",70 },
-		{ "Rangefinder","",6000 },
 		{ "muzzle_mas_snds_L","Silencieu Pistolet",80 },
 		{ "muzzle_mas_snds_LM","Silencieux Makarov",80 },
 		{ "muzzle_mas_snds_C","Silencieux MP5",400 },
