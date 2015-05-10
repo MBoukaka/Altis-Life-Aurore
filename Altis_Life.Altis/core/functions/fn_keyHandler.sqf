@@ -86,13 +86,6 @@ switch (_code) do {
 				player selectWeapon life_curWep_h;
 			};
 		};
-		
-		if(!_shift && !_ctrlKey && playerSide == west) then {
-			if(life_inv_spikeStrip < 1) exitWith {hint "T'as pas de herses !";};
-			[] spawn life_fnc_spikeStrip;
-			life_inv_spikeStrip = life_inv_spikeStrip - 1;
-			hint "Tu as une herse en main !";
-		};
 	};
 	
 	//Interaction key (default is Left Windows, can be mapped via Controls -> Custom -> User Action 10)
