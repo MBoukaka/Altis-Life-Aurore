@@ -91,7 +91,7 @@ class Life_Settings {
 	
 	sellArray[] = {	};
 
-	allowedSavedVirtualItems[] = { "kebab","double","mauer","virg","vird","cone","gpstracker","pan1","menotte","pickaxe", "fuelEmpty", "fuelFull", "spikeStrip", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut" };
+	allowedSavedVirtualItems[] = { "kebab","double","mauer","virg","vird","cone","gpstracker","pan1","menotte","pickaxe", "fuelEmpty", "fuelFull", "lockpick", "defuseKit", "storageSmall", "storageBig", "redgull", "coffee", "waterBottle", "apple", "peach", "tbacon", "donut" };
 };
 
 //Virtual Items
@@ -390,12 +390,12 @@ class VirtualShops {
 
 	class cop {
 		name = "STR_Shops_Cop";
-		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "apple", "redgull", "fuelFull", "defusekit" };
+		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "waterBottle", "apple", "redgull", "fuelFull", "defusekit" };
 	};
 	
 	class pca {
 		name = "STR_Shops_pca";
-		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "apple", "redgull", "fuelFull", "defusekit" };
+		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "waterBottle", "apple", "redgull", "fuelFull", "defusekit" };
 	};
 
 	class cement {
