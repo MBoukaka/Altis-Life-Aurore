@@ -15488,7 +15488,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Shop Item"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Habits Gendarmerie"",life_fnc_clothingMenu,""cop""];  this addAction[""Shop Recrue"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Shop officier"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Shop officier supp"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Shop des generaux"",life_fnc_weaponShopMenu,""cop_colonel""];  this addAction[""Gendarmerie donateur"",life_fnc_weaponShopMenu,""cop_donateur""];";
+			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Shop Item"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Habits Gendarmerie"",life_fnc_clothingMenu,""cop""];  this addAction[""Shop Recrue"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Shop officier"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Shop officier supp"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Shop des generaux"",life_fnc_weaponShopMenu,""cop_colonel""];  this addAction[""Gendarmerie donateur"",life_fnc_weaponShopMenu,""cop_donateur""]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item1112
 		{
@@ -19282,10 +19282,10 @@ class Mission
 		};
 		class Item388
 		{
-			position[]={14370.839,16.769728,18087.406};
+			position[]={14380.506,16.721146,18084.779};
 			name="cop_car_2";
 			type="Empty";
-			angle=65.416649;
+			angle=159.01826;
 		};
 		class Item389
 		{
