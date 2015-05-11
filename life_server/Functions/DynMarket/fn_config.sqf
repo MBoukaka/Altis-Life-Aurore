@@ -34,26 +34,26 @@ DYNMARKET_Items_Groups =
 [
 	["Legal",
 		[
-			["oil_processed",-1,320,520],
-			["iron_refined",-1,330,530],
-			["diamond_cut",-1,650,850],
-			["copper_refined",-1,230,430],
-			["salt_refined",-1,260,360],
-			["glass",-1,140,340],
-			["cement",-1,420,520],
-			["charbon",-1,320,520]
+			["oil_processed",-1,110,310],
+			["iron_refined",-1,115,315],
+			["diamond_cut",-1,175,375],
+			["copper_refined",-1,65,265],
+			["salt_refined",-1,80,280],
+			["glass",-1,40,190],
+			["cement",-1,160,360],
+			["charbon",-1,110,310]
 		],
 		0.4
 	],
 	["Illegal", 
 		[
-			["turtle_raw",-1,1760,1960],
-			["marijuana",-1,530,730],
-			["cocaine_processed",-1,1100,1300],
-			["heroin_processed",-1,966,1166],
-			["explo",-1,320,520],
-			["champ",-1,80,280],
-			["relique",-1,520,720]
+			["turtle_raw",-1,735,1100],
+			["marijuana",-1,215,415],
+			["cocaine_processed",-1,500,700],
+			["heroin_processed",-1,433,633],
+			["explo",-1,84,310],
+			["champ",-1,20,220],
+			["relique",-1,220,420]
 		],
 		0.3
 	]
@@ -63,29 +63,29 @@ DYNMARKET_Items_Groups =
 
 DYNMARKET_Items_ToTrack        = 
 [
-	["oil_processed",410],
-	["resine",786],
-	["charbon",420],
-	["champ",180],
-	["iron_refined",430],
-	["diamond_cut",550],
-	["copper_refined",330],
-	["salt_refined",360],
-	["glass",240],
-	["cement",320],
-	["turtle_raw",1860],
-	["explo",500],
-	["billet",736],
-	["marijuana",630],
-	["cocaine_processed",1200],
-	["heroin_processed",1066],
-	["sheep_raw",2000],
-	["sheep_peau",3000],
-	["goat_raw",2000],
-	["goat_peau",3000],
-	["bottledshine",590],
-	["bottledbeer",390],
-	["bottledwhiskey",500],
+	["oil_processed",210],
+	["resine",393],
+	["charbon",210],
+	["champ",120],
+	["iron_refined",215],
+	["diamond_cut",275],
+	["copper_refined",165],
+	["salt_refined",180],
+	["glass",120],
+	["cement",260],
+	["turtle_raw",930],
+	["explo",250],
+	["billet",368],
+	["marijuana",315],
+	["cocaine_processed",600],
+	["heroin_processed",533],
+	["sheep_raw",1000],
+	["sheep_peau",1500],
+	["goat_raw",1000],
+	["goat_peau",1500],
+	["bottledshine",295],
+	["bottledbeer",195],
+	["bottledwhiskey",250],
 	["salema_grilled",4],
 	["ornate_grilled",4],
 	["mackerel_grilled",18],
@@ -94,7 +94,7 @@ DYNMARKET_Items_ToTrack        =
 	["catshark_fried",30],
 	["peach",6],
 	["apple",5],
-	["relique",640]
+	["relique",320]
 ];
 
 //███████████████████████████████████████████████████████████████████████
