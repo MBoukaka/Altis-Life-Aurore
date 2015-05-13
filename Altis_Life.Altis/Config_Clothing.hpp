@@ -764,21 +764,22 @@ class Clothing {
 		};
 	};	
 				
-    class esco {
-		title = "escobar";
-		license = "esco";
+    class ubn {
+		title = "Vêtements UBN";
+		license = "ubn";
 		side = "civ";
 		
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "U_B_CombatUniform_mcam", "Uniform Escobar", 150, { "", "", -1 } },
-			{ "U_IG_Guerilla1_1", "", 200, { "", "", -1 } }
+			{ "U_B_CTRG_3", "Uniform UBN 1", 150, { "", "", -1 } },
+			{ "U_B_CTRG_2", "Uniform UBN 2", 150, { "", "", -1 } },
+			{ "U_B_CTRG_1", "Uniform UBN 3", 200, { "", "", -1 } }
 		};
 		
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "H_Beret_blk", "", 100, { "", "", -1 } },
-			{ "H_HelmetSpecO_blk", "", 85, { "", "", -1 } }
+			{ "H_Booniehat_mcamo", "", 100, { "", "", -1 } },
+			{ "H_HelmetB_light", "", 85, { "", "", -1 } }
 		};
 		
 		goggles[] = {
@@ -794,8 +795,7 @@ class Clothing {
 		
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "V_PlateCarrier1_blk", "", 250, { "", "", -1 } },
-			{ "cct_vest_p", "", 250, { "", "", -1 } }
+			{ "V_PlateCarrierH_CTRG", "", 250, { "", "", -1 } }
 		};
 		
 		backpacks[] = {
