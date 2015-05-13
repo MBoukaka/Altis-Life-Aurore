@@ -10543,7 +10543,7 @@ class Mission
 		};
 		class Item631
 		{
-			position[]={10246.455,5.3173609,11272.15};
+			position[]={9536.7285,13.777567,11435.374};
 			azimut=697.052;
 			id=830;
 			side="EMPTY";
@@ -15773,7 +15773,7 @@ class Mission
 		};
 		class Item1140
 		{
-			position[]={10174.741,12.796849,11309.42};
+			position[]={11209.854,182.41,8722.8555};
 			azimut=1187.5546;
 			id=1339;
 			side="EMPTY";
@@ -15782,8 +15782,8 @@ class Mission
 		};
 		class Item1141
 		{
-			position[]={10187.88,12.303518,11320.872};
-			azimut=435.82028;
+			position[]={11195.406,182.24338,8725.8223};
+			azimut=535.12805;
 			id=1340;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
@@ -15791,8 +15791,8 @@ class Mission
 		};
 		class Item1142
 		{
-			position[]={10138.554,18.288925,11348.089};
-			azimut=1838.3;
+			position[]={11208.396,182.27681,8731.2969};
+			azimut=1937.6074;
 			id=1341;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -15801,8 +15801,8 @@ class Mission
 		};
 		class Item1143
 		{
-			position[]={10174.494,13.186563,11319.968};
-			azimut=1233.55;
+			position[]={11203.369,182.13492,8733.5684};
+			azimut=1274.8929;
 			id=1342;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -15811,8 +15811,8 @@ class Mission
 		};
 		class Item1144
 		{
-			position[]={10176.157,12.957068,11320.829};
-			azimut=515.45697;
+			position[]={11205.193,182.09004,8733.1162};
+			azimut=556.79968;
 			id=1343;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -17432,7 +17432,7 @@ class Mission
 		};
 		class Item151
 		{
-			position[]={10246.375,5.3159304,11272.208};
+			position[]={9536.6484,13.77995,11435.432};
 			name="turle_dealer";
 			text="Dealer de tortues";
 			type="mil_dot";
@@ -19337,21 +19337,21 @@ class Mission
 		};
 		class Item396
 		{
-			position[]={10187.772,12.305057,11321.042};
+			position[]={11195.591,182.26247,8725.8994};
 			name="ubn_1";
 			type="Empty";
-			angle=53.647701;
+			angle=152.95532;
 		};
 		class Item397
 		{
-			position[]={10133.291,18.476259,11342.493};
+			position[]={11204.375,182.35352,8730.8906};
 			name="ubn_spawn";
 			type="Empty";
 			angle=886.45099;
 		};
 		class Item398
 		{
-			position[]={10174.333,12.792089,11309.313};
+			position[]={11209.445,182.41,8722.749};
 			name="ubn_air";
 			type="Empty";
 			angle=-138.806;
