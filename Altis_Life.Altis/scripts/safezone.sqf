@@ -18,18 +18,7 @@
 switch (playerSide) do
 {
 	case west:
-	{
-	player addEventHandler ["Fired", {
-            if ({(_this select 0) distance getMarkerPos (_x select 0) < _x select 1} count SAFETY_ZONES > 0) then
-            {
-                deleteVehicle (_this select 6);
-    			titleText [MESSAGE, "PLAIN", 3];
-                player action ["SwitchWeapon", player, player, 100]; //allez range moi ça tu vas te blesser
-                
-    			hint parseText format["<t color='#01B0F0'><t size ='2.5'<t align='center'>Safe Zone<br/><t color='#FFFFFF'><t align='center'><t size='1.5'>Pas de tirs<br/><t color='#FFFFFF'><t align='center'><t size='1.5'>Pas de vols<br/><t color='#FFFFFF'><t align='center'><t size='1.5'>Pas de braquages<br/><t"];
-			};
-        }];
-	};
+	{};
 	
 	case civilian:
 	{
