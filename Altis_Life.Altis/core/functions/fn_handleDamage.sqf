@@ -12,7 +12,6 @@ _part = SEL(_this,1);
 _damage = SEL(_this,2);
 _source = SEL(_this,3);
 _projectile = SEL(_this,4);
-_currdamage = damage player;
 
 //Handle the tazer first (Top-Priority).
 if(!isNull _source) then {
@@ -25,7 +24,7 @@ if(!isNull _source) then {
 				_isVehicle = if(vehicle player != player) then {true} else {false};
 				_isQuad = if(_isVehicle) then {if(typeOf (vehicle player) == "B_Quadbike_01_F") then {true} else {false}} else {false};
 				
-				_damage = _currdamage;
+				_damage = false;
 				if(_unit distance _source < _distance) then {
 					if(!life_istazed && !(_unit GVAR ["restrained",false])) then {
 						if(_isVehicle && _isQuad) then {
