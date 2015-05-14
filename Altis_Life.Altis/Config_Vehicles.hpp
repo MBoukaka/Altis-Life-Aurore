@@ -830,6 +830,14 @@ class CarShops {
 		};
 	};
 	
+	class ateam_car {
+		side = "civ";
+		vehicles[] = {
+			{ "cl3_jeep_purge_tiger2camo", 69000, "ateam" },
+			{ "I_Heli_Transport_02_F", 85000, "ateam" }
+		};
+	};
+	
 	class pca_air {
 		side = "cop";
 		vehicles[] = {
@@ -2299,6 +2307,7 @@ class CfgVehicles {
 	class cl3_jeep_purge_woodcamo : cl3_jeep_purge_black {};
 	class cl3_jeep_purge_tiger4camo : cl3_jeep_purge_black {};
 	class cl3_jeep_purge_tiger3camo : cl3_jeep_purge_black {};
+	class cl3_jeep_purge_tiger2camo : cl3_jeep_purge_black {};
 	class cl3_dbs_volante_flame {
         vItemSpace = 75;
         storageFee[] = { 169, 0, 0, 0 };

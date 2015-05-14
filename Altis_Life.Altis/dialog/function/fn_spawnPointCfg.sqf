@@ -69,6 +69,13 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_ateam) then {
+			_return = [
+				["a_spawn_1","Kavala Tourisme","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["a_spawn_2","Aeroport Tourisme","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_esco)then {
 			_return = _return + [
 				["esco_spawn","Famille Escobar","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
