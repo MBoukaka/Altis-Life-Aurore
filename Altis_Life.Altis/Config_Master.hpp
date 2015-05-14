@@ -252,6 +252,7 @@ class Licenses {
 	LICENSEMACRO(macumba,"STR_License_macumba","macumba",750,false,"civ")
 	LICENSEMACRO(papy,"STR_License_papy","papy",750,false,"civ")
 	LICENSEMACRO(vente,"STR_License_vente","vente",750,false,"civ")
+	LICENSEMACRO(ateam,"STR_License_ateam","ateam",750,false,"civ")
 	
 	//Familles
 	LICENSEMACRO(squad,"STR_License_squad","squad",750,false,"civ")

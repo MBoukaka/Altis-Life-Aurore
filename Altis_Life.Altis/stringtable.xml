@@ -3523,6 +3523,10 @@
 			<Original>Famille El Gonzo</Original>
 			<French>Famille El Gonzo</French>
 		</Key>
+		<Key ID="STR_License_ateam">
+			<Original>Tourisme exotique</Original>
+			<French>Tourisme exotique</French>
+		</Key>
 		<Key ID="STR_License_meute">
 			<Original>La meute</Original>
 			<French>La Meute</French>

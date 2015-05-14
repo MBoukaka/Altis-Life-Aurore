@@ -1021,6 +1021,38 @@ class Clothing {
 		};
 	};
 	
+	class ateam {
+		title = "A Team";
+		license = "ateam";
+		side = "civ";
+		
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "cl3_Wetsuit_skin_purple", "", 12, { "", "", -1 } },
+			{ "cl3_Wetsuit_skin_pink", "Jean polo blanc 2", 12, { "", "", -1 } }
+			};
+		
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_MilCap_oucamo", "", 2, { "", "", -1 } }
+		};
+		
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Aviator", "", 1, { "", "", -1 } }
+		};
+		
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } }
+		};
+		
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "B_mas_AssaultPack_black", "", 5, { "", "", -1 } },
+			{ "B_Parachute", "", 10, { "", "", -1 } }
+		};
+	};
+	
 	class restaurant {
 		title = "Groshandais";
 		license = "restaurant";
