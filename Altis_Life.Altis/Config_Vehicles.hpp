@@ -833,8 +833,10 @@ class CarShops {
 	class ateam_car {
 		side = "civ";
 		vehicles[] = {
-			{ "cl3_jeep_purge_tiger2camo", 69000, "ateam" },
-			{ "I_Heli_Transport_02_F", 85000, "ateam" }
+			{ "cl3_jeep_purge_tiger2camo", 37500, "ateam" },
+			{ "cl3_traffic_mh9_sport", 65000, "ateam" },
+			{ "cl3_Orca_Westpac", 75000, "ateam" },
+			{ "CL3_EMT_mohawk_FG", 85000, "ateam" }
 		};
 	};
 	
@@ -2300,7 +2302,7 @@ class CfgVehicles {
         vItemSpace = 95;
         storageFee[] = { 385, 0, 0, 0 };
 		garageSell[] = { 46000, 0, 0, 0 };
-        insurance = 59000;
+        insurance = 45000;
         chopShop = 5456;
         textures[] = { };
     };
