@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1194;
+		items=1199;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16304,10 +16304,58 @@ class Mission
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""a_air_2"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
 		};
+		class Item1194
+		{
+			position[]={26829.119,25.717558,24321.828};
+			azimut=1086.3666;
+			id=1393;
+			side="EMPTY";
+			vehicle="Land_HelipadCivil_F";
+			skill=0.60000002;
+		};
+		class Item1195
+		{
+			position[]={26817.502,25.720547,24308.492};
+			azimut=402.76212;
+			id=1394;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item1196
+		{
+			position[]={26894.168,23.841705,24299.354};
+			azimut=1608.39;
+			id=1395;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_tremblay && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_tremblay && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_tremblay && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item1197
+		{
+			position[]={26834.707,25.192616,24302.803};
+			azimut=1152.49;
+			id=1396;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""tremblay_1"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1198
+		{
+			position[]={26834.086,25.237295,24304.561};
+			azimut=427.63599;
+			id=1397;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""tremblay_air"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
 	};
 	class Markers
 	{
-		items=426;
+		items=429;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -19627,6 +19675,27 @@ class Mission
 			text="=A=";
 			type="c_air";
 			colorName="ColorGreen";
+		};
+		class Item426
+		{
+			position[]={26817.326,25.725546,24308.566};
+			name="tremblay_1";
+			type="Empty";
+			angle=-46.391727;
+		};
+		class Item427
+		{
+			position[]={26898.99,23.740557,24300.051};
+			name="tremblay_spawn";
+			type="Empty";
+			angle=843.04999;
+		};
+		class Item428
+		{
+			position[]={26829.064,25.717413,24321.779};
+			name="tremblay_air";
+			type="Empty";
+			angle=-56.105499;
 		};
 	};
 	class Sensors

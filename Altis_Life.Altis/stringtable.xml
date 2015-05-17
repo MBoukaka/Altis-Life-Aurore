@@ -3527,6 +3527,10 @@
 			<Original>Tourisme exotique</Original>
 			<French>Tourisme exotique</French>
 		</Key>
+		<Key ID="STR_License_tremblay">
+			<Original>Famille Tremblay</Original>
+			<French>Famille Tremblay</French>
+		</Key>
 		<Key ID="STR_License_meute">
 			<Original>La meute</Original>
 			<French>La Meute</French>

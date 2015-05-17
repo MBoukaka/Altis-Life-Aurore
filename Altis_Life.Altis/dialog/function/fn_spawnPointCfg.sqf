@@ -167,6 +167,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_tremblay)then {
+			_return = _return + [
+				["tremblay_spawn","Famille Tremblay","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_fal)then {
 			_return = _return + [
 				["house_fal","Base des FAL","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
