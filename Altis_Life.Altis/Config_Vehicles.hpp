@@ -834,9 +834,12 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "cl3_jeep_purge_tiger2camo", 37500, "ateam" },
+			{ "cl3_discovery_green", 40000, "ateam" },
+			{ "cl3_jurassicpark", 42500, "ateam" },
 			{ "cl3_traffic_mh9_sport", 65000, "ateam" },
 			{ "cl3_Orca_Westpac", 75000, "ateam" },
-			{ "CL3_EMT_mohawk_FG", 85000, "ateam" }
+			{ "CL3_EMT_mohawk_FG", 85000, "ateam" },
+			{ "O_Heli_Transport_04_bench_F", 100000, "ateam" }
 		};
 	};
 	
