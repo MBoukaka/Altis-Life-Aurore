@@ -1060,7 +1060,48 @@ class Clothing {
 		
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "Niko_USA_AOR1", "", 400, { "", "", -1 } },
+			{ "Niko_USA_AOR1Tan", "", 400, { "", "", -1 } },
+			{ "Niko_USA_AOR2", "", 400, { "", "", -1 } },
+			{ "Niko_USA_AOR2OD", "", 400, { "", "", -1 } },
+			{ "Niko_USA_Beogam", "", 400, { "", "", -1 } },
+			{ "Niko_USA_DCU", "", 400, { "", "", -1 } },
+			{ "Niko_USA_DCUTan", "", 400, { "", "", -1 } },
+			{ "Niko_USA_DesertTiger", "", 400, { "", "", -1 } },
+			{ "Niko_USA_M81", "", 400, { "", "", -1 } },
+			{ "Niko_USA_M81DCU", "", 400, { "", "", -1 } },
+			{ "Niko_USA_M81OD", "", 400, { "", "", -1 } },
+			{ "Niko_USA_M81PCU", "", 400, { "", "", -1 } },
+			{ "Niko_USA_Mcam", "", 400, { "", "", -1 } },
+			{ "Niko_USA_McamArid", "", 400, { "", "", -1 } },
+			{ "Niko_USA_McamAridTan", "", 400, { "", "", -1 } },
 			{ "Niko_USA_McamMix", "", 400, { "", "", -1 } },
+			{ "Niko_USA_McamTropic", "", 400, { "", "", -1 } },
+			{ "Niko_USA_McamTropicOD", "", 400, { "", "", -1 } },
+			{ "Niko_USA_Mitchell", "", 400, { "", "", -1 } },
+			{ "Niko_USA_NightDesert", "", 400, { "", "", -1 } },
+			{ "Niko_USA_SixDesert", "", 400, { "", "", -1 } },
+			{ "Niko_USA_Tiger", "", 400, { "", "", -1 } },
+			{ "Niko_USA_TigerOD", "", 400, { "", "", -1 } },
+			{ "Niko_USA_UCP", "", 400, { "", "", -1 } },
+			{ "Niko_USA_UCPPCU", "", 400, { "", "", -1 } },
+			{ "Niko_USA_UCPDPCU", "", 400, { "", "", -1 } },
+			{ "Niko_USA_UCPTan", "", 400, { "", "", -1 } },
+			{ "Niko_USA_UCPD", "", 400, { "", "", -1 } },
+			{ "Niko_USA_UCPDTan", "", 400, { "", "", -1 } },
+			{ "Niko_USA_XCAMO", "", 400, { "", "", -1 } },
+			{ "Niko_USA_AOR2PCU", "", 400, { "", "", -1 } },
+			{ "Niko_USA_M81NightDesert", "", 400, { "", "", -1 } },
+			{ "Niko_USA_McamAOR1", "", 400, { "", "", -1 } },
+			{ "Niko_USA_McamAOR2", "", 400, { "", "", -1 } },
+			{ "Niko_USA_NightDesertAOR2", "", 400, { "", "", -1 } },
+			{ "Niko_USA_NightDesertDCU", "", 400, { "", "", -1 } },
+			{ "Niko_USA_UCPGreen", "", 400, { "", "", -1 } },
+			{ "Niko_USA_NightDesertUCPGreen", "", 400, { "", "", -1 } },
+			{ "Niko_USA_NightDesertSixDesert", "", 400, { "", "", -1 } },
+			{ "Niko_USA_DesertMARPAT", "", 400, { "", "", -1 } },
+			{ "Niko_USA_DesertMARPATPCU", "", 400, { "", "", -1 } },
+			{ "Niko_USA_DesertMARPATTan", "", 400, { "", "", -1 } },
 			{ "cl3_c_poloshirtpants_bus_uniform", "Jean polo blanc", 120, { "", "", -1 } },
 			{ "cl3_c_poloshirtpants_1_uniform", "Jean polo blanc 2", 120, { "", "", -1 } }
 			};
@@ -1072,6 +1113,8 @@ class Clothing {
 		
 		goggles[] = {
 			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Balaclava_oli", "", 550, { "", "", -1 } },
+			{ "G_Balaclava_blk", "", 550, { "", "", -1 } },
 			{ "G_Aviator", "", 10, { "", "", -1 } }
 		};
 		
@@ -1079,6 +1122,8 @@ class Clothing {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
 			{ "V_TacVest_khk", "", 100, { "", "", -1 } },
 			{ "Niko_USA_PlateCarrierL_Tan", "", 100, { "", "", -1 } },
+			{ "Niko_USA_PlateCarrierL_MCam", "", 100, { "", "", -1 } },
+			{ "Niko_USA_PlateCarrierH_MCam", "", 100, { "", "", -1 } },
 			{ "cct_vest_b", "Veste de bienvenue", 10, { "", "", -1 } }
 		};
 		
