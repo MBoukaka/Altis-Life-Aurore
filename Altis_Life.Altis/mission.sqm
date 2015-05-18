@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1203;
+		items=1208;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16399,6 +16399,62 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\TheA.jpg""]; this allowDamage false;";
+		};
+		class Item1203
+		{
+			position[]={3716.0879,9.4455843,13403.15};
+			azimut=-140.69;
+			offsetY=0.2;
+			id=1402;
+			side="EMPTY";
+			vehicle="SignAd_Sponsor_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheAA.jpg""]; this allowDamage false;";
+		};
+		class Item1204
+		{
+			position[]={3670.7065,7.5185933,13396.98};
+			azimut=-275.01599;
+			id=1403;
+			side="EMPTY";
+			vehicle="SignAd_Sponsor_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheAA.jpg""]; this allowDamage false;";
+		};
+		class Item1205
+		{
+			position[]={3670.7451,7.5195732,13396.98};
+			azimut=-96.58889;
+			id=1404;
+			side="EMPTY";
+			vehicle="SignAd_Sponsor_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheAA.jpg""]; this allowDamage false;";
+		};
+		class Item1206
+		{
+			position[]={14246.563,20.205818,16225.091};
+			azimut=-422.82135;
+			id=1405;
+			side="EMPTY";
+			vehicle="SignAd_Sponsor_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheAA.jpg""]; this allowDamage false;";
+		};
+		class Item1207
+		{
+			position[]={14246.53,20.205612,16225.111};
+			azimut=-244.39426;
+			id=1406;
+			side="EMPTY";
+			vehicle="SignAd_Sponsor_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheAA.jpg""]; this allowDamage false;";
 		};
 	};
 	class Markers
