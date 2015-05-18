@@ -283,6 +283,10 @@ class WeaponShops {
 			{ "5Rnd_mas_762x51_Stanag","Munitions M24",20 },
 			{ "arifle_Mk20_F","",950 },
 			{ "30Rnd_556x45_Stanag_Tracer_Green","",1 },
+			{ "hgun_mas_sa61_F","Jaufret",500 },
+			{ "20Rnd_mas_765x17_Mag","Munitions Skorpion",1 },
+			{ "hgun_mas_mp7p_F","Alex",2000 },
+			{ "40Rnd_mas_46x30_Mag","Munitions MP7",80 },
 			{ "muzzle_mas_snds_L","Silencieu Pistolet",8 },
 			{ "muzzle_mas_snds_LM","Silencieux Makarov",8 },
 			{ "muzzle_mas_snds_C","Silencieux MP5",10 },
@@ -293,7 +297,7 @@ class WeaponShops {
 			{ "MMG_02_black_F","SPMG", 17500 },
 			{ "130Rnd_338_Mag","Munition SPMG", 1 },
 			{ "30Rnd_mas_762x39_mag","Munitions Zastava",10 },
-			{ "LMG_mas_m72_F","Zastava M72",5000 },
+			{ "LMG_mas_m72_F","Zastava M72",7500 },
 			{ "30Rnd_mas_762x39_mag","Munitions M72 x30",10 },
 			{ "100Rnd_mas_762x39_mag","Munitions M72 x100",50 },
 			{ "arifle_mas_akm","AKM",5000 },
@@ -320,7 +324,9 @@ class WeaponShops {
 			{ "muzzle_snds_M","",5 },
 			{ "muzzle_snds_acp","",5 },
 			{ "muzzle_snds_H","",5 },
-			{ "muzzle_snds_B","",50},							
+			{ "muzzle_snds_B","",5 },
+			{ "muzzle_snds_L", "",5 },
+			{ "acc_pointer_IR","",10 },
 			{ "acc_flashlight","",5 }
         };
     };
