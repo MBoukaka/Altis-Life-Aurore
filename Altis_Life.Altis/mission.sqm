@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1199;
+		items=1203;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16351,6 +16351,54 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""tremblay_air"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1199
+		{
+			position[]={3608.7568,9.9748564,13116.138};
+			azimut=275.49979;
+			offsetY=-1;
+			id=1398;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheA.jpg""]; this allowDamage false;";
+		};
+		class Item1200
+		{
+			position[]={14059.742,26.197466,18739.004};
+			azimut=391.52194;
+			offsetY=-1;
+			id=1399;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheA.jpg""]; this allowDamage false;";
+		};
+		class Item1201
+		{
+			position[]={25719.57,20.6411,21359.232};
+			azimut=494.12735;
+			offsetY=-1;
+			id=1400;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheA.jpg""]; this allowDamage false;";
+		};
+		class Item1202
+		{
+			position[]={16939.768,17.610928,12774.6};
+			azimut=227.87726;
+			offsetY=-1;
+			id=1401;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\TheA.jpg""]; this allowDamage false;";
 		};
 	};
 	class Markers
