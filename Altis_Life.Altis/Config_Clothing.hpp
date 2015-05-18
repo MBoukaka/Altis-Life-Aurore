@@ -1053,7 +1053,7 @@ class Clothing {
 		};
 	};
 	
-	class restau_vet {
+	class restauvet {
 		title = "Vetements FDC";
 		license = "macumba";
 		side = "civ";
