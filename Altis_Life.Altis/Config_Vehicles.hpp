@@ -2746,18 +2746,6 @@ class CfgVehicles {
         chopShop = 2540;
         textures[] = { };
     };
-	class B_MRAP_01_F {
-        vItemSpace = 65;
-        storageFee[] = { 1750, 1750, 0, 0 };
-		garageSell[] = { 50000, 15000, 0, 0 };
-        insurance = 15000;
-        chopShop = 6969;
-        textures[] = {
-            { "Black", "fed", {
-                "#(argb,8,8,3)color(0.05,0.05,0.05,1)"
-            } }
-        };
-    };
 
 //////////////////////////////////////////////////////////////////////////// REB SHOP
 
