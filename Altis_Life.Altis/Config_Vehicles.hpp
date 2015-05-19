@@ -482,7 +482,7 @@ class CarShops {
 		vehicles[] = {
 			{ "WP_SUV_01_F", 3500 , "pca" },
 			{ "WP_Offroad", 4500, "pca" },
-			{ "B_MRAP_01_F", 82000, "pca" },
+			{ "B_MRAP_01_F", 75000, "pca" },
 			{ "B_Heli_Light_01_F", 60000, "pca" },
 			{ "O_Heli_Light_02_unarmed_F", 80000, "pca" }
 		};
@@ -635,7 +635,7 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "cl3_dodge_charger_s_camourban", 45000, "macumba" },
-			{ "B_MRAP_01_F", 82000, "macumba" }
+			{ "B_MRAP_01_F", 70000, "macumba" }
 		};
 	};
 	
