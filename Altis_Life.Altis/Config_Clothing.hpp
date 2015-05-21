@@ -1103,7 +1103,10 @@ class Clothing {
 			{ "Niko_USA_DesertMARPATPCU", "", 400, { "", "", -1 } },
 			{ "Niko_USA_DesertMARPATTan", "", 400, { "", "", -1 } },
 			{ "cl3_c_poloshirtpants_bus_uniform", "Jean polo blanc", 120, { "", "", -1 } },
-			{ "cl3_c_poloshirtpants_1_uniform", "Jean polo blanc 2", 120, { "", "", -1 } }
+			{ "cl3_c_poloshirtpants_1_uniform", "Jean polo blanc 2", 120, { "", "", -1 } },
+			{ "U_B_CTRG_1", "Le Tonton", 400, { "", "", -1 } },
+			{ "U_B_CTRG_2", "Le Mickael", 400, { "", "", -1 } },
+			{ "U_B_CTRG_3", "Le Mboukaka", 400, { "", "", -1 } }
 			};
 		
 		headgear[] = {
@@ -1126,6 +1129,7 @@ class Clothing {
 			{ "Niko_USA_PlateCarrierL_MCam", "", 100, { "", "", -1 } },
 			{ "Niko_USA_PlateCarrierH_MCam", "", 100, { "", "", -1 } },
 			{ "cct_vest_b", "Veste de bienvenue", 10, { "", "", -1 } },
+			{ "V_PlateCarrier1_blk", "tes sur altis aurore bro", 100, { "", "", -1 } }
 		};
 		
 		backpacks[] = {
