@@ -1108,7 +1108,8 @@ class Clothing {
 		
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "H_MilCap_oucamo", "", 20, { "", "", -1 } }
+			{ "H_MilCap_oucamo", "", 20, { "", "", -1 } },
+			{ "H_Beret_blk", "Beret Paysans", 200, { "", "", -1 } }
 		};
 		
 		goggles[] = {
@@ -1124,7 +1125,7 @@ class Clothing {
 			{ "Niko_USA_PlateCarrierL_Tan", "", 100, { "", "", -1 } },
 			{ "Niko_USA_PlateCarrierL_MCam", "", 100, { "", "", -1 } },
 			{ "Niko_USA_PlateCarrierH_MCam", "", 100, { "", "", -1 } },
-			{ "cct_vest_b", "Veste de bienvenue", 10, { "", "", -1 } }
+			{ "cct_vest_b", "Veste de bienvenue", 10, { "", "", -1 } },
 		};
 		
 		backpacks[] = {
