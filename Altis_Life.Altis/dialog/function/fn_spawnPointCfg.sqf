@@ -76,9 +76,9 @@ switch (_side) do
 			];
 		};
 		
-		if(license_civ_esco)then {
+		if(license_civ_michto)then {
 			_return = _return + [
-				["esco_spawn","Famille Escobar","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["michto_spawn","Famille Michto","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		

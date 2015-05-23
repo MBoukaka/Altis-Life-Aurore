@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1208;
+		items=1213;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16456,10 +16456,58 @@ class Mission
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\TheAA.jpg""]; this allowDamage false;";
 		};
+		class Item1208
+		{
+			position[]={6007.6758,43.007122,16236.321};
+			azimut=1255.7371;
+			id=1407;
+			side="EMPTY";
+			vehicle="Land_HelipadCivil_F";
+			skill=0.60000002;
+		};
+		class Item1209
+		{
+			position[]={5991.4834,42.992027,16235.733};
+			azimut=504.00305;
+			id=1408;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item1210
+		{
+			position[]={6024.5068,43,16226.188};
+			azimut=1925.91;
+			id=1409;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_michto && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_michto && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_michto && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item1211
+		{
+			position[]={6017.8872,42.996502,16231.648};
+			azimut=1392.13;
+			id=1410;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""michto_1"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1212
+		{
+			position[]={6016.6499,42.985672,16230.237};
+			azimut=674.03497;
+			id=1411;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""michto_air"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
 	};
 	class Markers
 	{
-		items=429;
+		items=432;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -19800,6 +19848,27 @@ class Mission
 			name="tremblay_air";
 			type="Empty";
 			angle=-56.105499;
+		};
+		class Item429
+		{
+			position[]={5991.6035,42.994205,16235.901};
+			name="michto_1";
+			type="Empty";
+			angle=121.83;
+		};
+		class Item430
+		{
+			position[]={6021.2461,42.996658,16228.351};
+			name="mitcho_spawn";
+			type="Empty";
+			angle=974.06805;
+		};
+		class Item431
+		{
+			position[]={6007.4229,43.003757,16236.665};
+			name="michto_air";
+			type="Empty";
+			angle=-70.623398;
 		};
 	};
 	class Sensors

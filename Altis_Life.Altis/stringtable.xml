@@ -3511,6 +3511,14 @@
 			<Original>Famille Hooligans</Original>
 			<French>Famille Hooligans</French>
 		</Key>
+		<Key ID="STR_License_leader">
+			<Original>Chef de famille</Original>
+			<French>Chef de famille</French>
+		</Key>
+		<Key ID="STR_License_michto">
+			<Original>Famille Michto</Original>
+			<French>Famille Michto</French>
+		</Key>
 		<Key ID="STR_License_delta">
 			<Original>Groupe Delta Wolf</Original>
 			<French>Groupe Delta Wolf</French>
