@@ -19,11 +19,12 @@ if(!([_num] call TON_fnc_isnumber)) exitWith {hint localize "STR_MISC_WrongNumFo
 _num = parseNumber(_num);
 if(_num < 1) exitWith {hint localize "STR_Cop_VaultUnder1";};
 if(!(EQUAL(_ctrl,"goldbar"))) exitWith {hint localize "STR_Cop_OnlyGold"};
-if(_num > _safeInfo) exitWith {hint format[localize "STR_Civ_IsntEnoughGold",_num];};
+if(_ctrl != "goldbar") exitWith {hint localize "STR_Cop_OnlyGold"};
 
 //Secondary checks
 _num = [_ctrl,_num,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(EQUAL(_num,0)) exitWith {hint localize "STR_NOTF_InvFull"};
+if(_num == 0) exitWith {hint localize "STR_NOTF_InvFull"};
 
 
 //Take it
