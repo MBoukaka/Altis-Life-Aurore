@@ -634,8 +634,8 @@ class CarShops {
 	class restau_car {
 		side = "civ";
 		vehicles[] = {
-			{ "cl3_dodge_charger_s_camourban", 45000, "macumba" },
-			{ "B_MRAP_01_F", 75000, "macumba" }
+			{ "cl3_dodge_charger_s_camourban", 45000, "restaurant" },
+			{ "B_MRAP_01_F", 75000, "restaurant" }
 		};
 	};
 	
