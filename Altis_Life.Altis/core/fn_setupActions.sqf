@@ -102,6 +102,6 @@ switch (playerSide) do
 };
 
 //S'asseoir
-life_actions = life_actions + [player addAction["<t color='#0099FF'>S'asseoir</t>",life_fnc_sitDown,"",10,false,false,"",' !isNull cursorTarget && player distance cursorTarget < 3.5 && (cursorTarget isKindOf "Land_CampingChair_V2_F" OR cursorTarget isKindOf "Land_ChairWood_F" OR cursorTarget isKindOf "Land_ChairPlastic_F" OR cursorTarget isKindOf "Land_RattanChair_01_F")']];
+life_actions = life_actions + [player addAction["<t color='#0099FF'>S'asseoir</t>",life_fnc_sitDown,"",10,false,false,"",' !isNull cursorTarget && player distance cursorTarget < 3.5 && (cursorTarget isKindOf "Land_CampingChair_V2_F" OR cursorTarget isKindOf "Land_ChairWood_F" OR cursorTarget isKindOf "Land_ChairPlastic_F")']];
 //Se lever
 life_actions = life_actions + [player addAction["<t color='#0099FF'>Se Lever</t>",life_fnc_sitDown,"",10,false,false,"",'life_sitting']];
