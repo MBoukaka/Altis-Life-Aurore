@@ -16000,7 +16000,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Restaurant Shop"",life_fnc_weaponShopMenu,""restaurant"",0,false,false,"""",' license_civ_restaurant && playerSide == civilian']; this addAction[""Le Grill"",life_fnc_virt_menu,""restau""];this addAction[""Vente d'explosifs"",life_fnc_clothingMenu,""explo""]; this addAction[""Fabrication des bombes"",life_fnc_processAction,""bombe"",0,false,false,"""",' life_inv_explo > 0 && license_civ_bombe']; this addAction[""Jean René"",life_fnc_clothingMenu,""restauvet"",0,false,false,"""",' license_civ_restaurant && playerSide == civilian']; this addAction[""Restaurant Shop"",life_fnc_weaponShopMenu,""balaurore"",0,false,false,"""",' license_civ_bombe && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""Restaurant Shop"",life_fnc_weaponShopMenu,""restaurant"",0,false,false,"""",' license_civ_restaurant && playerSide == civilian']; this addAction[""Le Grill"",life_fnc_virt_menu,""restau""];this addAction[""Vente d'explosifs"",life_fnc_clothingMenu,""explo""]; this addAction[""Fabrication des bombes"",life_fnc_processAction,""bombe"",0,false,false,"""",' life_inv_explo > 0 && license_civ_bombe']; this addAction[""Jean René"",life_fnc_clothingMenu,""restauvet"",0,false,false,"""",' license_civ_restaurant && playerSide == civilian']; this addAction[""Vêtement festif"",life_fnc_weaponShopMenu,""balaurore"",0,false,false,"""",' license_civ_bombe && playerSide == civilian'];";
 		};
 		class Item1164
 		{
@@ -16212,14 +16212,14 @@ class Mission
 		};
 		class Item1182
 		{
-			position[]={3593.8086,21.779654,14465.814};
-			azimut=1825.7681;
-			offsetY=0.44999999;
+			position[]={3606.3762,21.891678,14470.394};
+			azimut=1889.99;
+			offsetY=3.8499999;
 			id=1381;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""Stuff VNC"",life_fnc_clothingMenu,""vnc"",0,false,false,"""",' license_civ_VNC && playerSide == civilian']; this addAction[""Restaurant Shop"",life_fnc_weaponShopMenu,""camvnc"",0,false,false,"""",' license_civ_VNC && playerSide == civilian'];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""Stuff VNC"",life_fnc_clothingMenu,""vnc"",0,false,false,"""",' license_civ_VNC && playerSide == civilian']; this addAction[""Materiel Press"",life_fnc_weaponShopMenu,""camvnc"",0,false,false,"""",' license_civ_VNC && playerSide == civilian'];";
 		};
 		class Item1183
 		{
