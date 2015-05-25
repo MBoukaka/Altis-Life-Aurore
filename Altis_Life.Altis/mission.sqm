@@ -19589,7 +19589,7 @@ class Mission
 		class Item429
 		{
 			position[]={6021.2461,42.996658,16228.351};
-			name="mitcho_spawn";
+			name="michto_spawn";
 			type="Empty";
 			angle=974.06805;
 		};
