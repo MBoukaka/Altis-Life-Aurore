@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1178;
+		items=1184;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16067,7 +16067,7 @@ class Mission
 		};
 		class Item1170
 		{
-			position[]={3581.1174,22.077818,14443.496};
+			position[]={3578.7126,22.058435,14443.305};
 			azimut=-4.1946802;
 			id=1369;
 			side="EMPTY";
@@ -16078,7 +16078,7 @@ class Mission
 		};
 		class Item1171
 		{
-			position[]={3588.7021,22.145332,14444.22};
+			position[]={3590.7969,22.157631,14444.492};
 			azimut=-4.1946802;
 			id=1370;
 			side="EMPTY";
@@ -16156,7 +16156,79 @@ class Mission
 			vehicle="SignAd_Sponsor_F";
 			leader=1;
 			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\balaurore.jpg""]; this allowDamage false;";
+		};
+		class Item1178
+		{
+			position[]={3606.0286,22.699232,14448.646};
+			azimut=897.0752;
+			offsetY=0.89999998;
+			id=1377;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\vnc.jpg""]; this allowDamage false;";
+		};
+		class Item1179
+		{
+			position[]={3562.9487,21.698694,14445.343};
+			azimut=896.67657;
+			offsetY=0.89999998;
+			id=1378;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
 			init="this setObjectTexture [0, ""aurore_data\images\restau.jpg""]; this allowDamage false;";
+		};
+		class Item1180
+		{
+			position[]={3569.3101,21.869886,14445.303};
+			azimut=716.04901;
+			offsetY=0.89999998;
+			id=1379;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\balaurore.jpg""]; this allowDamage false;";
+		};
+		class Item1181
+		{
+			position[]={3569.2715,21.850231,14445.81};
+			azimut=896.677;
+			offsetY=0.89999998;
+			id=1380;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\balaurore.jpg""]; this allowDamage false;";
+		};
+		class Item1182
+		{
+			position[]={3599.5645,22.238255,14447.747};
+			azimut=716.04901;
+			offsetY=1.2;
+			id=1381;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\fdc.jpg""]; this allowDamage false;";
+		};
+		class Item1183
+		{
+			position[]={3599.5259,22.225565,14448.254};
+			azimut=896.677;
+			offsetY=1.2;
+			id=1382;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\fdc.jpg""]; this allowDamage false;";
 		};
 	};
 	class Markers
