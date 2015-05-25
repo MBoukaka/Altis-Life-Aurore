@@ -1209,6 +1209,18 @@ class WeaponShops {
 		{ "SmokeShellBlue","",2 }
         };
     };
+	
+	class camvnc {
+        name = "Materiel journaliste";
+        side = "civ";
+        license = "VNC";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "cl3_camcorder", "Camera", 100 }
+        };
+    };
+	
     //Medic Shops
     class med_basic {
         name = "store";
