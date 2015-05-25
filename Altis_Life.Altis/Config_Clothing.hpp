@@ -1178,4 +1178,60 @@ class Clothing {
 			{ "CL3_AssaultPack_Full_skin_black", "Sac Noir", 6, { "", "", -1 } }
 		};
 	};
+	
+	class vnc {
+		title = "Video News Corporation";
+		license = "VNC";
+		side = "civ";
+		
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "U_C_Journalist", "Journaliste", 10, { "", "", -1 } }
+		};
+		
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_Cap_press", "", 2, { "", "", -1 } }
+		};
+		
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Aviator", "", 1, { "", "", -1 } }
+		};
+		
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "V_Press_F", "Gilet Press", 10, { "", "", -1 } }
+		};
+		
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } }
+		};
+	};
+	
+	class balaurore {
+		title = "Vetement festif";
+		license = "bombe";
+		side = "civ";
+		
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } }
+		};
+		
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } }
+		};
+		
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } }
+		};
+		
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } }
+		};
+		
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } }
+		};
+	};
 };
