@@ -635,14 +635,8 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "cl3_dodge_charger_s_camourban", 45000, "restaurant" },
-			{ "B_MRAP_01_F", 75000, "restaurant" }
-		};
-	};
-	
-	class vnc_car {
-		side = "civ";
-		vehicles[] = {
-			{ "cl3_transitNews", 15000, "VNC"}
+			{ "B_MRAP_01_F", 75000, "restaurant" },
+			{ "cl3_transitNews", 15000, "restaurant" }
 		};
 	};
 	
@@ -2753,8 +2747,6 @@ class CfgVehicles {
         chopShop = 2540;
         textures[] = { };
     };
-	
-//////////////////////////////////////////////////////////////////////////// VNC SHOP
 
 	class cl3_transitNews  {
 		vItemSpace = 50;
