@@ -1518,3 +1518,21 @@ if (true) then
 	_this setDir 715.68713;
 	_this setPos [3510.1497, 14440.567, -3.8146973e-006];
 };
+
+_vehicle_590 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_PortableLight_single_F", [3580.157, 14443.858, 6.7708702], [], 0, "CAN_COLLIDE"];
+	_vehicle_590 = _this;
+	_this setDir 581.15198;
+	_this setPos [3580.157, 14443.858, 6.7708702];
+};
+
+_vehicle_593 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_PortableLight_single_F", [3589.3262, 14444.702, 6.68858], [], 0, "CAN_COLLIDE"];
+	_vehicle_593 = _this;
+	_this setDir 838.57159;
+	_this setPos [3589.3262, 14444.702, 6.68858];
+};

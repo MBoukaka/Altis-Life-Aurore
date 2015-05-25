@@ -1218,11 +1218,11 @@ class WeaponShops {
         msg = "";
         items[] = {
         { "cl3_camcorder", "Camera", 100 },
-		{ "ItemMap","",5 },
-		{ "ItemGPS","",10 },
-		{ "ToolKit","",25 },
-		{ "FirstAidKit","",15 },
-		{ "NVGoggles","",200 }	
+		{ "ItemMap","Carte",5 },
+		{ "ItemGPS","GPS",10 },
+		{ "ToolKit","Boite a outils",25 },
+		{ "FirstAidKit","Trousse de soin",15 },
+		{ "NVGoggles_mas_h","JVN Invisible",2000 }	
         };
     };
 	

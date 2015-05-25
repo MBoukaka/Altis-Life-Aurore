@@ -1215,7 +1215,17 @@ class Clothing {
 		side = "civ";
 		
 		uniforms[] = {
-			{ "NONE", "Remove Uniform", 0, { "", "", -1 } }
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "A3L_Farmer_Outfit", "Bucherons", 100, { "", "", -1 } },
+			{ "A3L_Prisoner_Outfit", "Tenue prisonnier", 100, { "", "", -1 } },
+			{ "A3L_SpookyMummy", "Momie", 100, { "", "", -1 } },
+			{ "U_C_Polo_Arbitre", "Arbitre", 100, { "", "", -1 } },
+			{ "U_C_Polo_Barcelona", "Foot Barcelone", 100, { "", "", -1 } },
+			{ "U_C_Polo_Toulouse", "Foot Toulouse", 100, { "", "", -1 } },
+			{ "U_C_Polo_Dalton", "Dalton", 100, { "", "", -1 } },
+			{ "U_C_DDE", "Agent des rues", 100, { "", "", -1 } },
+			{ "U_C_Travello1", "Travello 1", 69, { "", "", -1 } },
+			{ "U_C_Travello2", "Travello 2", 69, { "", "", -1 } }
 		};
 		
 		headgear[] = {
