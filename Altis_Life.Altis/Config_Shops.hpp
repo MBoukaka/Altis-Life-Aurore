@@ -1236,6 +1236,7 @@ class WeaponShops {
 		{ "cl_picket_mlnw","",100 },
 		{ "cl_picket_ftp","",100 },
 		{ "cl_picket_rtp","",100 },
+		{ "Chemlight_red","",100 },
 		{ "Chemlight_yellow","",3 },
 		{ "Chemlight_green","",3 },
 		{ "Chemlight_blue","",3 },
