@@ -466,34 +466,34 @@
 	</Package>
 	<Package name="Smartphone">
 		<Key ID="STR_PM_Smartphone">
-			<Original>Smartphone</Original>
+			<Original>Téléphone</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_TITLE">
-			<Original>Smartphone Menu</Original>
+			<Original>Menu téléphone</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
-			<Original>Contact List</Original>
+			<Original>Repertoire</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
-			<Original>Emergency Calls</Original>
+			<Original>Appel entreprise</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
-			<Original>Select a message</Original>
+			<Original>Selectionne un message</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_SCHREIBEN">
-			<Original>Create</Original>
+			<Original>Créer</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NOTRUF">
-			<Original>!Emergency!</Original>
+			<Original>!Entreprises!</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Absenden">
-			<Original>Send</Original>
+			<Original>Envoyé</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
 			<Original>Message:</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Notruftitle">
-			<Original>Emergency Calls</Original>
+			<Original>Appel entreprise</Original>
 		</Key>
 	</Package>
 	<Package name="Cell_Phone">
