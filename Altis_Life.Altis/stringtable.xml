@@ -3519,6 +3519,10 @@
 			<Original>Famille Michto</Original>
 			<French>Famille Michto</French>
 		</Key>
+		<Key ID="STR_License_m">
+			<Original>Vidéo New Corporation</Original>
+			<French>Vidéo New Corporation</French>
+		</Key>
 		<Key ID="STR_License_delta">
 			<Original>Groupe Delta Wolf</Original>
 			<French>Groupe Delta Wolf</French>

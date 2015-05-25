@@ -157,7 +157,7 @@ switch (_side) do
 		
 		if(license_civ_macumba)then {
 			_return = _return + [
-				["macumba_spawn_1","Sofia FDC","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["macumba_spawn_1","L'hexagone","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 
