@@ -634,10 +634,10 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "", 100 }
         };
     };
-	class escobar {
-        name = "Escobar";
+	class mont {
+        name = "Monterrigioni";
         side = "civ";
-        license = "esco";
+        license = "nostra";
         level = -1;
         msg = "";
         items[] = {	

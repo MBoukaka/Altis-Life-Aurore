@@ -13789,7 +13789,7 @@ class Mission
 		};
 		class Item947
 		{
-			position[]={4953.769,328.92316,21836.52};
+			position[]={239.92389,-0.016350847,25340.564};
 			azimut=1022.6768;
 			id=1146;
 			side="EMPTY";
@@ -13798,7 +13798,7 @@ class Mission
 		};
 		class Item948
 		{
-			position[]={4940.0938,329.67264,21829.299};
+			position[]={226.2486,0.02419436,25333.344};
 			azimut=270.94174;
 			id=1147;
 			side="EMPTY";
@@ -13859,7 +13859,7 @@ class Mission
 		};
 		class Item954
 		{
-			position[]={4883.3174,347.1824,21928.969};
+			position[]={169.47223,0.061711341,25433.014};
 			azimut=1838.3;
 			id=1153;
 			side="EMPTY";
@@ -13869,7 +13869,7 @@ class Mission
 		};
 		class Item955
 		{
-			position[]={4951.251,329.12668,21826.266};
+			position[]={237.40582,-0.19441997,25330.311};
 			azimut=1068.6694;
 			id=1154;
 			side="EMPTY";
@@ -13879,7 +13879,7 @@ class Mission
 		};
 		class Item956
 		{
-			position[]={4949.4233,329.28778,21825.879};
+			position[]={235.57819,-0.15811396,25329.924};
 			azimut=350.57803;
 			id=1155;
 			side="EMPTY";
@@ -14761,7 +14761,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_nostra && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_nostra && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_nostra && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Le bar"",life_fnc_virt_menu,""barman"",0,false,false,"""",' license_civ_nostra && playerSide == civilian '];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_nostra && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_nostra && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""mont"",0,false,false,"""",' license_civ_nostra && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Le bar"",life_fnc_virt_menu,""barman"",0,false,false,"""",' license_civ_nostra && playerSide == civilian '];";
 		};
 		class Item1041
 		{
@@ -18502,21 +18502,21 @@ class Mission
 		};
 		class Item283
 		{
-			position[]={4940.1538,329.67075,21829.109};
+			position[]={226.30865,0.026399337,25333.154};
 			name="nostra_1";
 			type="Empty";
 			angle=-178.21202;
 		};
 		class Item284
 		{
-			position[]={4882.5913,347.13046,21927.566};
+			position[]={168.74615,0.065894343,25431.611};
 			name="nostra_spawn";
 			type="Empty";
 			angle=886.45099;
 		};
 		class Item285
 		{
-			position[]={4954.1851,328.91547,21836.514};
+			position[]={240.3399,-0.027714077,25340.559};
 			name="nostra_air";
 			type="Empty";
 			angle=-303.68463;

@@ -132,7 +132,6 @@ switch (_side) do
 		
 		if(license_civ_nostra)then {
 			_return = _return + [
-				["nostra_spawn","Famille Monterigionni","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 				["pmu_spawn","PMU de Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
