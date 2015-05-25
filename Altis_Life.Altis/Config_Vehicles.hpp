@@ -639,6 +639,13 @@ class CarShops {
 		};
 	};
 	
+	class vnc_car {
+		side = "civ";
+		vehicles[] = {
+			{ "cl3_transitNews", 15000, "VNC"}
+		};
+	};
+	
 	class reb_car {
 		side = "civ";
 		vehicles[] = {
@@ -2744,6 +2751,17 @@ class CfgVehicles {
 		garageSell[] = { 0, 35000, 0, 0 };
         insurance = 40000;
         chopShop = 2540;
+        textures[] = { };
+    };
+	
+//////////////////////////////////////////////////////////////////////////// VNC SHOP
+
+	class cl3_transitNews  {
+		vItemSpace = 50;
+        storageFee[] = { 0, 105, 0, 0 };
+		garageSell[] = { 0, 10000, 0, 0 };
+        insurance = 7000;
+        chopShop = 2000;
         textures[] = { };
     };
 
