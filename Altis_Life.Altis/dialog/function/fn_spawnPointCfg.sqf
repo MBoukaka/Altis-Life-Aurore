@@ -155,7 +155,7 @@ switch (_side) do
 			];
 		};
 		
-		if(license_civ_macumba)then {
+		if(license_civ_restaurant)then {
 			_return = _return + [
 				["macumba_spawn_1","L'hexagone","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
