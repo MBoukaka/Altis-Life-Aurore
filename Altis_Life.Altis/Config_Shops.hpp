@@ -1217,7 +1217,32 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-            { "cl3_camcorder", "Camera", 100 }
+        { "cl3_camcorder", "Camera", 100 },
+		{ "ItemMap","",5 },
+		{ "ItemGPS","",10 },
+		{ "ToolKit","",25 },
+		{ "FirstAidKit","",15 },
+		{ "NVGoggles","",200 }	
+        };
+    };
+	
+	class balaurore {
+        name = "Shop bal aurore";
+        side = "civ";
+        license = "bombe";
+        level = -1;
+        msg = "";
+        items[] = {
+        { "Chemlight_red","",3 },
+		{ "Chemlight_yellow","",3 },
+		{ "Chemlight_green","",3 },
+		{ "Chemlight_blue","",3 },
+		{ "SmokeShell","",2 },
+		{ "SmokeShellRed","",2 },
+		{ "SmokeShellGreen","",2 },
+		{ "SmokeShellYellow","",2 },
+		{ "SmokeShellPurple","",2 },
+		{ "SmokeShellBlue","",2 }
         };
     };
 	
