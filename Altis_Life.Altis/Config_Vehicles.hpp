@@ -636,7 +636,8 @@ class CarShops {
 		vehicles[] = {
 			{ "cl3_dodge_charger_s_camourban", 45000, "restaurant" },
 			{ "B_MRAP_01_F", 75000, "restaurant" },
-			{ "cl3_transitNews", 15000, "restaurant" }
+			{ "cl3_transitNews", 15000, "restaurant" },
+			{ "cl3_Orca_CLN2", 40000, "restaurant" }
 		};
 	};
 	
@@ -2756,7 +2757,16 @@ class CfgVehicles {
         chopShop = 2000;
         textures[] = { };
     };
-
+	
+	class cl3_Orca_CLN2  {
+		vItemSpace = 50;
+        storageFee[] = { 0, 105, 0, 0 };
+		garageSell[] = { 0, 15000, 0, 0 };
+        insurance = 15000;
+        chopShop = 8000;
+        textures[] = { };
+	};
+		
 //////////////////////////////////////////////////////////////////////////// REB SHOP
 
 	class Neige_Offroad  {
