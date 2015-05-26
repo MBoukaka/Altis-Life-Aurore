@@ -17000,7 +17000,7 @@ class Mission
 		};
 		class Item96
 		{
-			position[]={3001.6289,0.049891066,12676.176};
+			position[]={2995.0608,-0.014149074,12693.558};
 			name="civ_ship_1";
 			text="Spawn des bateaux";
 			type="loc_Quay";
