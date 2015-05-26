@@ -1225,15 +1225,24 @@ class Clothing {
 			{ "U_C_Polo_Dalton", "Dalton", 100, { "", "", -1 } },
 			{ "U_C_DDE", "Agent des rues", 100, { "", "", -1 } },
 			{ "U_C_Travello1", "Travello 1", 69, { "", "", -1 } },
-			{ "U_C_Travello2", "Travello 2", 69, { "", "", -1 } }
+			{ "U_C_Travello2", "Travello 2", 69, { "", "", -1 } },
+			{ "A3L_Worker_Outfit", "Travailleur", 100, { "", "", -1 } }
 		};
 		
 		headgear[] = {
-			{ "NONE", "Remove Hat", 0, { "", "", -1 } }
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_Soccer_Orange", "Rugby Orange", 100, { "", "", -1 } },
+			{ "santahat", "Pere Noel", 100, { "", "", -1 } },
+			{ "H_Orel_Mask_Dead", "Tete de mort", 100, { "", "", -1 } },
+			{ "H_HelmetB_camo", "Casque camo", 2000, { "", "", -1 } }
 		};
 		
 		goggles[] = {
-			{ "NONE", "Remove Glasses", 0, { "", "", -1 } }
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "A3L_PaintBallHelmet_blue", "Paintball Bleu", 100, { "", "", -1 } },
+			{ "A3L_PaintBallHelmet_green", "Paintball Vert", 100, { "", "", -1 } },
+			{ "A3L_PaintBallHelmet_red", "Paintball Rouge", 100, { "", "", -1 } },
+			{ "A3L_PaintBallHelmet_yellow", "Paintball Jaune", 100, { "", "", -1 } }
 		};
 		
 		vests[] = {
