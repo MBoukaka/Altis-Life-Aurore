@@ -1617,3 +1617,273 @@ if (true) then
 	_this setDir 353.10092;
 	_this setPos [3563.9124, 14482.819, 0.054502487];
 };
+
+_vehicle_660 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3634.8032, 14386.531, 0.14033341], [], 0, "CAN_COLLIDE"];
+	_vehicle_660 = _this;
+	_this setDir -150.55289;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3634.8032, 14386.531, 0.14033341];
+};
+
+_vehicle_662 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3618.8967, 14386.838, 3.8146973e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_662 = _this;
+	_this setDir -330.54529;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3618.8967, 14386.838, 3.8146973e-005];
+};
+
+_vehicle_664 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3612.1096, 14401.94, -2.6702881e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_664 = _this;
+	_this setDir -150.55289;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3612.1096, 14401.94, -2.6702881e-005];
+};
+
+_vehicle_666 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3631.8323, 14359.521, 0.0001373291], [], 0, "CAN_COLLIDE"];
+	_vehicle_666 = _this;
+	_this setDir -54.742336;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3631.8323, 14359.521, 0.0001373291];
+};
+
+_vehicle_669 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3612.9172, 14334.167, 8.0108643e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_669 = _this;
+	_this setDir 88.521751;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3612.9172, 14334.167, 8.0108643e-005];
+};
+
+_vehicle_671 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3624.4045, 14317.761, -1.9073486e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_671 = _this;
+	_this setDir -92.923973;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3624.4045, 14317.761, -1.9073486e-005];
+};
+
+_vehicle_673 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3617.1401, 14280.884, 0.00010299683], [], 0, "CAN_COLLIDE"];
+	_vehicle_673 = _this;
+	_this setDir 79.174706;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3617.1401, 14280.884, 0.00010299683];
+};
+
+_vehicle_675 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3637.8306, 14259.239, 7.6293945e-006], [], 0, "CAN_COLLIDE"];
+	_vehicle_675 = _this;
+	_this setDir -119.11454;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3637.8306, 14259.239, 7.6293945e-006];
+};
+
+_vehicle_677 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3639.7717, 14231.877, -0.00016021729], [], 0, "CAN_COLLIDE"];
+	_vehicle_677 = _this;
+	_this setDir 72.69046;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3639.7717, 14231.877, -0.00016021729];
+};
+
+_vehicle_679 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3648.8154, 14205.097, -2.8610229e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_679 = _this;
+	_this setDir -70.135117;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3648.8154, 14205.097, -2.8610229e-005];
+};
+
+_vehicle_681 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3634.792, 14170.385, 2.8610229e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_681 = _this;
+	_this setDir 81.711693;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3634.792, 14170.385, 2.8610229e-005];
+};
+
+_vehicle_683 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3651.1399, 14144.564, -8.2015991e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_683 = _this;
+	_this setDir -103.80357;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3651.1399, 14144.564, -8.2015991e-005];
+};
+
+_vehicle_685 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3645.1292, 14121.371, -0.00012588501], [], 0, "CAN_COLLIDE"];
+	_vehicle_685 = _this;
+	_this setDir 80.260468;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3645.1292, 14121.371, -0.00012588501];
+};
+
+_vehicle_687 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3659.3845, 14102.977, -5.531311e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_687 = _this;
+	_this setDir -102.49782;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3659.3845, 14102.977, -5.531311e-005];
+};
+
+_vehicle_689 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3652.7695, 14076.208, -0.00038528442], [], 0, "CAN_COLLIDE"];
+	_vehicle_689 = _this;
+	_this setDir 87.568779;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3652.7695, 14076.208, -0.00038528442];
+};
+
+_vehicle_691 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3662.3284, 14053.238, -0.00017356873], [], 0, "CAN_COLLIDE"];
+	_vehicle_691 = _this;
+	_this setDir -80.464767;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3662.3284, 14053.238, -0.00017356873];
+};
+
+_vehicle_693 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3646.7126, 14023.916, -0.00011348724], [], 0, "CAN_COLLIDE"];
+	_vehicle_693 = _this;
+	_this setDir 94.957893;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3646.7126, 14023.916, -0.00011348724];
+};
+
+_vehicle_695 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3653.4292, 13993.409, -9.3460083e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_695 = _this;
+	_this setDir -83.525032;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3653.4292, 13993.409, -9.3460083e-005];
+};
+
+_vehicle_697 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3639.5334, 13963.023, -0.00018119812], [], 0, "CAN_COLLIDE"];
+	_vehicle_697 = _this;
+	_this setDir 92.893288;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3639.5334, 13963.023, -0.00018119812];
+};
+
+_vehicle_700 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3646.8899, 13929.507, 5.0544739e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_700 = _this;
+	_this setDir -84.558571;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3646.8899, 13929.507, 5.0544739e-005];
+};
+
+_vehicle_702 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3626.2856, 13878.449, -5.1498413e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_702 = _this;
+	_this setDir 96.027786;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3626.2856, 13878.449, -5.1498413e-005];
+};
+
+_vehicle_704 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3632.2302, 13820.43, -2.0503998e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_704 = _this;
+	_this setDir -87.13121;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3632.2302, 13820.43, -2.0503998e-005];
+};
+
+_vehicle_706 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3617.4568, 13776.037, -1.4781952e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_706 = _this;
+	_this setDir 94.102303;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3617.4568, 13776.037, -1.4781952e-005];
+};
+
+_vehicle_708 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3624.4546, 13741.734, 0.16357225], [], 0, "CAN_COLLIDE"];
+	_vehicle_708 = _this;
+	_this setDir -79.754333;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3624.4546, 13741.734, 0.16357225];
+};
+
+_vehicle_710 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3609.7305, 13710.743, 9.5367432e-006], [], 0, "CAN_COLLIDE"];
+	_vehicle_710 = _this;
+	_this setDir 95.050468;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3609.7305, 13710.743, 9.5367432e-006];
+};
+
+_vehicle_712 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3617.8826, 13679.152, -5.7220459e-005], [], 0, "CAN_COLLIDE"];
+	_vehicle_712 = _this;
+	_this setDir -88.968567;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3617.8826, 13679.152, -5.7220459e-005];
+};
+
+_vehicle_714 = objNull;
+if (true) then
+{
+	_this = createVehicle ["Land_LampStreet_F", [3604.7417, 13632.811, 1.4305115e-006], [], 0, "CAN_COLLIDE"];
+	_vehicle_714 = _this;
+	_this setDir 93.605316;
+	_this setVehicleAmmo 0.89999998;
+	_this setPos [3604.7417, 13632.811, 1.4305115e-006];
+};
