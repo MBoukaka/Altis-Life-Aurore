@@ -9,9 +9,9 @@ class WeaponShops {
         items[] = {
 			{ "srifle_LRR_SOS_F","",30000 },
 			{ "7Rnd_408_Mag","",600 },
-			{ "srifle_mas_m107","M107",40000 },
-			{ "srifle_mas_m107_v","M107 Camo Wood",42000 },
-			{ "srifle_mas_m107_d","M107 Camo Desert",42000 },
+			{ "srifle_mas_m107","M107",50000 },
+			{ "srifle_mas_m107_v","M107 Camo Wood",52000 },
+			{ "srifle_mas_m107_d","M107 Camo Desert",52000 },
 			{ "5Rnd_mas_127x99_Stanag","Munitions M107",5000 },
 			{ "srifle_mas_vss_h","VSS Vintorez",35000 },
 			{ "20Rnd_mas_9x39_mag","Munitions Vintorez",3000 },
@@ -602,16 +602,7 @@ class WeaponShops {
 		{ "muzzle_mas_snds_SM","Silencieux HK417 - SR25",760 },
 		{ "muzzle_mas_snds_AK","Silencieux AK",300 },
 		{ "muzzle_mas_snds_SH","Silencieux SVD",800 },
-		{ "acc_flashlight","",200 },
-		{ "Rangefinder","",5000 },
-		{ "SmokeShell","",200 },
-		{ "SmokeShellRed","",200 },
-		{ "SmokeShellGreen","",200 },
-		{ "SmokeShellYellow","",200 },
-		{ "SmokeShellPurple","",200 },
-		{ "SmokeShellBlue","",200 },
-		{ "SmokeShellOrange","",200 },
-		{ "muzzle_snds_H_MG","",2500 }
+		{ "acc_flashlight","",200 }
 		};
 	};
 	
@@ -699,16 +690,7 @@ class WeaponShops {
 		{ "muzzle_mas_snds_SM","Silencieux HK417 - SR25",760 },
 		{ "muzzle_mas_snds_AK","Silencieux AK",300 },
 		{ "muzzle_mas_snds_SH","Silencieux SVD",800 },
-		{ "acc_flashlight","",200 },
-		{ "Rangefinder","",5000 },
-		{ "SmokeShell","",200 },
-		{ "SmokeShellRed","",200 },
-		{ "SmokeShellGreen","",200 },
-		{ "SmokeShellYellow","",200 },
-		{ "SmokeShellPurple","",200 },
-		{ "SmokeShellBlue","",200 },
-		{ "SmokeShellOrange","",200 },
-		{ "muzzle_snds_H_MG","",2500 }
+		{ "acc_flashlight","",200 }
 		};
 	};
 	class hunting_shop {
@@ -1155,8 +1137,8 @@ class WeaponShops {
 		{ "30Rnd_9x21_Mag","",25 },
 		{ "LMG_mas_Mk48_F","MK248",8000 },
 		{ "150Rnd_762x51_Box_Tracer","Munitions MK VERTES",30 },
-		{ "MMG_02_black_F","SPMG", 10000 },
-		{ "130Rnd_338_Mag","Munition SPMG", 250 },
+		{ "MMG_01_tan_F","Navid", 10000 },
+		{ "150Rnd_93x64_Mag","Munition NAVID", 250 },
 		{ "HandGrenade_Stone","Flashbang",100 },
 		{ "gign_shield","Bouclier",300 },
 		{ "H_Beret_blk","",100 },
