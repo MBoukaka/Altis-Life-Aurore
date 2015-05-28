@@ -18029,7 +18029,7 @@ class Mission
 		{
 			position[]={15184.924,17.914762,17271.146};
 			name="donor_spawn";
-			text="Magasin des Donateurs";
+			text="Les amis du serveur";
 			type="loc_ViewTower";
 			colorName="ColorYellow";
 			angle=-132.69693;
