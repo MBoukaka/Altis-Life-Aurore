@@ -635,9 +635,15 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "cl3_dodge_charger_s_camourban", 45000, "restaurant" },
-			{ "B_MRAP_01_F", 75000, "restaurant" },
 			{ "cl3_transitNews", 15000, "restaurant" },
 			{ "cl3_Orca_CLN2", 40000, "restaurant" }
+		};
+	};
+	
+	class fal_car {
+		side = "civ";
+		vehicles[] = {
+			{ "B_MRAP_01_F", 75000, "fal" }
 		};
 	};
 	
