@@ -208,8 +208,8 @@ class VirtualItems {
 class Licenses {
 
 	//Default
-	LICENSEMACRO(copdonator,"STR_License_CopDonator","copdonator",10000,false,"cop")
-	LICENSEMACRO(civdonator,"STR_License_CivDonator","civdonator",10000,false,"civ")
+	LICENSEMACRO(copaurore,"STR_License_CopAurore","copaurore",10000,false,"cop")
+	LICENSEMACRO(civaurore,"STR_License_CivAurore","civaurore",10000,false,"civ")
 	LICENSEMACRO(driver,"STR_License_Driver","driver",150,false,"civ")
 	LICENSEMACRO(boat,"STR_License_Boat","boat",300,false,"civ")
 	LICENSEMACRO(pilot,"STR_License_Pilot","pilot",6500,false,"civ")

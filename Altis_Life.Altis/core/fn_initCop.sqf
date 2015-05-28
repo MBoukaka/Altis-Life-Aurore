@@ -32,9 +32,9 @@ if((str(player) in ["cop_16","cop_23","cop_25","cop_24","cop_26","cop_27","cop_3
 };
 
 if(FETCH_CONST(life_donator) == 3) then {
-	license_cop_copdonator = true;
+	license_cop_copaurore = true;
 		}	else	{
-	license_cop_copdonator = false;
+	license_cop_copaurore = false;
 };
 
 switch (FETCH_CONST(life_coplevel)) do 

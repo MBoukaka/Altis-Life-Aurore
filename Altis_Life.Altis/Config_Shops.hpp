@@ -1,9 +1,9 @@
 class WeaponShops {
     //Armory Shops
-	class donator {
-        name = "Armes donateur";
+	class aurore {
+        name = "Armes Bienfaiteur";
         side = "civ";
-        license = "civdonator";
+        license = "civaurore";
         level = -1;
         msg = "";
         items[] = {
@@ -177,78 +177,6 @@ class WeaponShops {
 		{ "SmokeShellYellow","",2 },
 		{ "SmokeShellPurple","",2 },
 		{ "SmokeShellBlue","",2 }
-        };
-    };
-	class pca_donateur {
-        name = "Gendarme Donateur";
-        side = "cop";
-        license = "pcadonator";
-        level = -1;
-        msg = "";
-        items[] = {
-		{ "ItemRadio", "Carte SIM", 10 },
-		{ "srifle_LRR_SOS_F","",25000 },
-		{ "7Rnd_408_Mag","",10 },
-		{ "srifle_mas_m107","M107",35000 },
-		{ "5Rnd_mas_127x99_Stanag","Munitions M107",5000 },
-		{ "srifle_mas_m24","Sniper M24",6000 },
-		{ "5Rnd_mas_762x51_Stanag","Munitions M24",100 },
-		{ "mas_launch_RPG7_F","",20000 },
-		{ "mas_PG7V","",50000 },
-		{ "srifle_mas_vss_h","VSS Vintorez",15000 },
-		{ "20Rnd_mas_9x39_mag","Munitions Vintorez",450 },
-		{ "srifle_DMR_05_blk_F","",30000 },
-		{ "10Rnd_93x64_DMR_05_Mag","Munition Cyrus",2500 },
-		{ "hgun_Rook40_F","",50 },
-		{ "hgun_PDW2000_F","",650 },
-		{ "hgun_pistol_heavy_01_F","",585 },
-		{ "arifle_Mk20C_plain_F","",900 },
-		{ "arifle_MX_SW_F","",1700 },
-		{ "prpl_famas","Famas",900 },
-		{ "prpl_famas_tan","Famas Camo",900 },
-		{ "prpl_25Rnd_556x45_famas","Munitions Famas",20 },
-		{ "prpl_25Rnd_556x45_famas_tracer","Munitions Famas Traçantes",10 },
-		{ "arifle_mas_m4","M4A1 7.62",1095 },
-		{ "arifle_mas_m1014","Fusil à Pompe",1250 },
-		{ "7Rnd_mas_12Gauge_Slug","Munitions Pompes",20 },
-		{ "arifle_mas_m16","M16",1895 },
-		{ "30Rnd_556x45_Stanag_Tracer_Red","Munitions ROUGES",10 },
-		{ "30Rnd_mas_556x45_Stanag","Munitions M16",20 },
-		{ "30Rnd_556x45_Stanag_Tracer_Yellow","Munitions JAUNES",10 },
-		{ "LMG_Mk200_F","",2000 },
-		{ "200Rnd_65x39_cased_Box_Tracer","",15 },
-		{ "arifle_mas_mp5","MP5",850 },
-		{ "30Rnd_mas_9x21_Stanag","Munitions MP5",10 },
-		{ "arifle_mas_fal","FN Fal",3850 },
-		{ "20Rnd_mas_762x51_Stanag","Munitions FN Fal",40 },
-		{ "arifle_mas_bizon","Bizon",1200 },
-		{ "64Rnd_mas_9x18_mag","Munitions Bizon",20 },
-		{ "optic_ACO_grn_smg","",75 },
-		{ "optic_MRCO","",100 },
-		{ "optic_NVS","",200 },
-		{ "NVGoggles","",35 },
-		{ "optic_mas_zeiss","",50 },
-		{ "optic_mas_zeiss_eo","",50 },			
-		{ "optic_mas_acog","",50 },
-		{ "optic_mas_acog_eo","",50 },
-		{ "optic_mas_acog","",50 },
-		{ "optic_mas_handle","",50 },
-		{ "optic_mas_aim","",50 },
-		{ "optic_mas_pso","",50 },
-		{ "optic_mas_pso_eo","",50 },
-		{ "optic_ACO_grn","",200 },
-		{ "optic_Aco","",200 },
-		{ "optic_Hamr","",300 },
-		{ "optic_Holosight","",300 },
-		{ "ToolKit","",5 },
-		{ "ItemGPS","",5 },
-		{ "FirstAidKit","",25 },
-		{ "16Rnd_9x21_Mag","",25 },
-		{ "30Rnd_9x21_Mag","",75 },
-		{ "11Rnd_45ACP_Mag","",85 },
-		{ "30Rnd_556x45_Stanag","",125 },
-		{ "100Rnd_65x39_caseless_mag_Tracer","",125 },
-		{ "200Rnd_65x39_cased_Box_Tracer","",125 }
         };
     };
 	class restaurant {
@@ -741,10 +669,10 @@ class WeaponShops {
         };
     };
     //Cop Shops
-	class cop_donateur {
-        name = "Gendarme Donateur";
+	class cop_aurore {
+        name = "Gendarme Bienfaiteur";
         side = "cop";
-        license = "copdonator";
+        license = "copaurore";
         level = -1;
         msg = "";
         items[] = {

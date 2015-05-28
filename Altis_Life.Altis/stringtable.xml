@@ -3607,9 +3607,9 @@
 			<Original>Fabrication du papier</Original>
 			<French>Fabrication du papier</French>
 		</Key>
-		<Key ID="STR_License_CopDonator">
-			<Original>MEMBRE DONATEUR</Original>
-			<French>MEMBRE DONATEUR</French>
+		<Key ID="STR_License_CopAurore">
+			<Original>MEMBRE BIENFAITEUR</Original>
+			<French>MEMBRE bienfaiteur</French>
 		</Key>
 		<Key ID="STR_License_explo">
 			<Original>Maniement d'explosifs</Original>
@@ -3739,9 +3739,9 @@
 			<Original>Restaurateur</Original>
 			<French>Restaurateur</French>
 		</Key>
-		<Key ID="STR_License_CivDonator">
-			<Original>MEMBRE DONATEUR</Original>
-			<French>MEMBRE DONATEUR</French>
+		<Key ID="STR_License_CivaURORE">
+			<Original>MEMBRE BIENFAITEUR</Original>
+			<French>MEMBRE BIENFAITEUR</French>
 		</Key>
 		<Key ID="STR_License_Driver">
 			<Original>Driver License</Original>

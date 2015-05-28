@@ -14,7 +14,7 @@ civ_spawn_4 = nearestObjects[getMarkerPos  "civ_spawn_4", ["Land_i_Shop_01_V1_F"
 waitUntil {!(isNull (findDisplay 46))};
 
 //Préparation des licenses
-if(FETCH_CONST(life_donator) == 3) then {	license_civ_civdonator = true;	}	else	{	license_civ_civdonator = false;	};
+if(FETCH_CONST(life_donator) == 3) then {	license_civ_civaurore = true;	}	else	{	license_civ_civaurore = false;	};
 if(license_civ_rebel)	then	{	license_civ_bandit = false;	};
 
 //Vérification du personnage

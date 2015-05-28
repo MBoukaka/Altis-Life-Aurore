@@ -202,7 +202,7 @@ switch (_side) do
 			];
 		};
 		
-		if(license_civ_civdonator) then {
+		if(license_civ_civaurore) then {
 			_return = _return + [
 				["donor_spawn","Donateur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];

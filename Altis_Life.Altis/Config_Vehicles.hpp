@@ -706,7 +706,7 @@ class CarShops {
 		};
 	};
 	
-	class donator {
+	class aurore {
 		side = "civ";
 		vehicles[] = {
 			{ "C_Van_01_fuel_F", 3500, "", { "life_donator", 1 } },
