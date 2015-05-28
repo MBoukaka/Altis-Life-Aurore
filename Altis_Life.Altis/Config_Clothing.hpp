@@ -813,6 +813,55 @@ class Clothing {
 		};
 	};
 		
+	class monte {
+		title = "Vêtements Monterigionni";
+		license = "nostra";
+		side = "civ";
+		
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "U_B_CombatUniform_mcam", "Uniform Monterigioni", 150, { "", "", -1 } },
+			{ "U_IG_Guerilla1_1", "", 200, { "", "", -1 } }
+		};
+		
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_Beret_blk", "", 100, { "", "", -1 } },
+			{ "H_HelmetSpecO_blk", "", 85, { "", "", -1 } }
+		};
+		
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Shades_Black", "", 100, { "", "", -1 } },
+			{ "G_Shades_Blue", "", 100, { "", "", -1 } },
+			{ "IRA_Balaclava_Brown", "", 100, { "", "", -1 } },
+			{ "G_Balaclava_blk", "", 100, { "", "", -1 } },
+			{ "G_Bandanna_beast", "", 100, { "", "", -1 } },
+			{ "G_Aviator", "", 100, { "", "", -1 } },
+			{ "G_Bandanna_shades", "", 100, { "", "", -1 } }
+		};
+		
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "V_PlateCarrier1_blk", "", 250, { "", "", -1 } },
+			{ "cct_vest_p", "", 250, { "", "", -1 } }
+		};
+		
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "B_mas_AssaultPack_black", "", 20, { "", "", -1 } },
+			{ "O_mas_Bergen_flo", "", 70, { "", "", -1 } },
+			{ "O_mas_Bergen_blk", "", 70, { "", "", -1 } },
+			{ "O_mas_Bergen_rtan", "", 70, { "", "", -1 } },
+			{ "B_mas_AssaultPack_wint", "", 40, { "", "", -1 } },
+			{ "B_mas_Bergen_rng", "", 70, { "", "", -1 } },
+			{ "B_mas_Kitbag_black", "", 70, { "", "", -1 } },
+			{ "B_AssaultPack_blk", "", 300, { "", "", -1 } },
+			{ "B_FieldPack_blk", "", 500, { "", "", -1 } },
+			{ "B_Bergen_blk", "", 500, { "", "", -1 } }
+		};
+	};
+	
 	class explo {
 		title = "explosif";
 		license = "explo";

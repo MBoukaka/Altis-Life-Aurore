@@ -658,12 +658,11 @@ class CarShops {
 		};
 	};
 	
-	class esco_car {
+	class monte_car {
 		side = "civ";
 		vehicles[] = {
-			{ "Aurore_escobar_ifrit", 92500, "esco" },
-			{ "ESCO_LAMBO", 85000, "esco" },
-			{ "Aurore_escobar_hummingbird", 110000, "esco" }
+			{ "Aurore_escobar_ifrit", 92500, "nostra" }
+			{ "Aurore_escobar_hummingbird", 110000, "nostra" }
 		};
 	};
 
