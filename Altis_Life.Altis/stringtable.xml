@@ -3715,6 +3715,10 @@
 			<Original>Vendeur d'explosifs</Original>
 			<French>Vendeur d'explosifs</French>
 		</Key>
+		<Key ID="STR_Shops_bijoux">
+			<Original>Bijouterie</Original>
+			<French>Bijouterie</French>
+		</Key>
 		<Key ID="STR_Shops_pca">
 			<Original>Vendeur PCA</Original>
 			<French>Vendeur PCA</French>

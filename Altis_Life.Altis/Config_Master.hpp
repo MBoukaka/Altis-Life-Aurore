@@ -300,6 +300,11 @@ class VirtualShops {
 		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "kebab" };
 	};
 	
+	class bijoux {
+		name = "STR_Shops_bijoux";
+		items[] = { "bijoux" };
+	};
+	
 	class resine {
 		name = "STR_Shops_resine";
 		items[] = { "resine" };
