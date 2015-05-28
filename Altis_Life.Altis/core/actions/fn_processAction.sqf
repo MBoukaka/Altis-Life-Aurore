@@ -18,6 +18,7 @@ if(isNull _vendor OR EQUAL(_type,"") OR (player distance _vendor > 10)) exitWith
 _itemInfo = switch (_type) do {
 	case "oil": {["oil_unprocessed","oil_processed",1200,(localize "STR_Process_Oil")];};
 	case "diamond": {["diamond_uncut","diamond_cut",1350,(localize "STR_Process_Diamond")];};
+	case "bijoux": {["diamond_cut","bijoux",1350,(localize "STR_Process_bijoux")];};
 	case "heroin": {["heroin_unprocessed","heroin_processed",1750,(localize "STR_Process_Heroin")];};
 	case "heroinup": {["heroin_processed","heroin_med",1500,(localize "STR_Process_heroinup")];};
 	case "copper": {["copper_unrefined","copper_refined",750,(localize "STR_Process_Copper")];};

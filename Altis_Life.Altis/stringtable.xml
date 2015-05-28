@@ -46,6 +46,10 @@
 			<Original>Kebab sauce Blanche</Original>
 			<French>Kebab</French>
 		</Key>
+		<Key ID="STR_Item_bijoux">
+			<Original>Bijoux</Original>
+			<French>Bijoux</French>
+		</Key>
 		<Key ID="STR_Item_bois">
 			<Original>Bois brut</Original>
 			<French>Bois brut</French>
@@ -3622,6 +3626,10 @@
 		<Key ID="STR_Process_explo">
 			<Original>Transformation de la poudre</Original>
 			<French>Transformations de la poudre</French>
+		</Key>
+		<Key ID="STR_Process_bijoux">
+			<Original>Transformation en bijoux</Original>
+			<French>Transformations en bijoux</French>
 		</Key>
 		<Key ID="STR_Process_cocaineup">
 			<Original>Fabrication de la cocaine médicinale</Original>
