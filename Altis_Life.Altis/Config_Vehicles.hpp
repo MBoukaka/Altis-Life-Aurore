@@ -661,7 +661,7 @@ class CarShops {
 	class monte_car {
 		side = "civ";
 		vehicles[] = {
-			{ "Aurore_escobar_ifrit", 92500, "nostra" }
+			{ "Aurore_escobar_ifrit", 92500, "nostra" },
 			{ "Aurore_escobar_hummingbird", 110000, "nostra" }
 		};
 	};
