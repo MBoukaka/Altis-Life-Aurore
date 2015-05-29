@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1185;
+		items=1187;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16239,6 +16239,30 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
 			skill=0.60000002;
+		};
+		class Item1185
+		{
+			position[]={3576.4248,21.997257,14445.207};
+			azimut=1075.33;
+			offsetY=2.5;
+			id=1384;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\bmr.jpg""]; this allowDamage false;";
+		};
+		class Item1186
+		{
+			position[]={3592.522,22.133276,14446.566};
+			azimut=1075.33;
+			offsetY=2.5;
+			id=1385;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\hi.jpg""]; this allowDamage false;";
 		};
 	};
 	class Markers
