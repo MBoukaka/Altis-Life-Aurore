@@ -10,7 +10,7 @@ if(playerSide == civilian) then {
 			[[player,"aurore_data\textures\uniform_wp.jpg"], "life_fnc_setTexture", true, true] spawn life_fnc_MP;
 		};
 	};
-	if (license_civ_esco) then
+	if (license_civ_nostra) then
 	{
 		if ((uniform player) == "U_B_CombatUniform_mcam") then
 		{
