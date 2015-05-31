@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1187;
+		items=1188;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16023,8 +16023,8 @@ class Mission
 		};
 		class Item1166
 		{
-			position[]={3561.4172,20.680546,14470.511};
-			azimut=176.07246;
+			position[]={3561.9211,20.692646,14470.469};
+			azimut=176.07201;
 			offsetY=-1;
 			id=1365;
 			side="EMPTY";
@@ -16263,6 +16263,18 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\bmr.jpg""]; this allowDamage false;";
+		};
+		class Item1187
+		{
+			position[]={3558.6633,20.532293,14473.308};
+			azimut=265.95401;
+			offsetY=-1;
+			id=1386;
+			side="EMPTY";
+			vehicle="Land_Billboard_F";
+			leader=1;
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\bal.jpg""]; this allowDamage false;";
 		};
 	};
 	class Markers

@@ -1109,50 +1109,10 @@ class Clothing {
 		
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
-			{ "Niko_USA_AOR1", "", 400, { "", "", -1 } },
-			{ "Niko_USA_AOR1Tan", "", 400, { "", "", -1 } },
-			{ "Niko_USA_AOR2", "", 400, { "", "", -1 } },
-			{ "Niko_USA_AOR2OD", "", 400, { "", "", -1 } },
-			{ "Niko_USA_Beogam", "", 400, { "", "", -1 } },
-			{ "Niko_USA_DCU", "", 400, { "", "", -1 } },
-			{ "Niko_USA_DCUTan", "", 400, { "", "", -1 } },
-			{ "Niko_USA_DesertTiger", "", 400, { "", "", -1 } },
-			{ "Niko_USA_M81", "", 400, { "", "", -1 } },
-			{ "Niko_USA_M81DCU", "", 400, { "", "", -1 } },
-			{ "Niko_USA_M81OD", "", 400, { "", "", -1 } },
-			{ "Niko_USA_M81PCU", "", 400, { "", "", -1 } },
-			{ "Niko_USA_Mcam", "", 400, { "", "", -1 } },
-			{ "Niko_USA_McamArid", "", 400, { "", "", -1 } },
-			{ "Niko_USA_McamAridTan", "", 400, { "", "", -1 } },
-			{ "Niko_USA_McamMix", "", 400, { "", "", -1 } },
-			{ "Niko_USA_McamTropic", "", 400, { "", "", -1 } },
-			{ "Niko_USA_McamTropicOD", "", 400, { "", "", -1 } },
-			{ "Niko_USA_Mitchell", "", 400, { "", "", -1 } },
-			{ "Niko_USA_NightDesert", "", 400, { "", "", -1 } },
-			{ "Niko_USA_SixDesert", "", 400, { "", "", -1 } },
-			{ "Niko_USA_Tiger", "", 400, { "", "", -1 } },
-			{ "Niko_USA_TigerOD", "", 400, { "", "", -1 } },
-			{ "Niko_USA_UCP", "", 400, { "", "", -1 } },
-			{ "Niko_USA_UCPPCU", "", 400, { "", "", -1 } },
-			{ "Niko_USA_UCPDPCU", "", 400, { "", "", -1 } },
-			{ "Niko_USA_UCPTan", "", 400, { "", "", -1 } },
-			{ "Niko_USA_UCPD", "", 400, { "", "", -1 } },
-			{ "Niko_USA_UCPDTan", "", 400, { "", "", -1 } },
-			{ "Niko_USA_XCAMO", "", 400, { "", "", -1 } },
-			{ "Niko_USA_AOR2PCU", "", 400, { "", "", -1 } },
-			{ "Niko_USA_M81NightDesert", "", 400, { "", "", -1 } },
-			{ "Niko_USA_McamAOR1", "", 400, { "", "", -1 } },
-			{ "Niko_USA_McamAOR2", "", 400, { "", "", -1 } },
-			{ "Niko_USA_NightDesertAOR2", "", 400, { "", "", -1 } },
-			{ "Niko_USA_NightDesertDCU", "", 400, { "", "", -1 } },
-			{ "Niko_USA_UCPGreen", "", 400, { "", "", -1 } },
-			{ "Niko_USA_NightDesertUCPGreen", "", 400, { "", "", -1 } },
-			{ "Niko_USA_NightDesertSixDesert", "", 400, { "", "", -1 } },
-			{ "Niko_USA_DesertMARPAT", "", 400, { "", "", -1 } },
-			{ "Niko_USA_DesertMARPATPCU", "", 400, { "", "", -1 } },
-			{ "Niko_USA_DesertMARPATTan", "", 400, { "", "", -1 } },
-			{ "cl3_c_poloshirtpants_bus_uniform", "Jean polo blanc", 120, { "", "", -1 } },
-			{ "cl3_c_poloshirtpants_1_uniform", "Jean polo blanc 2", 120, { "", "", -1 } },
+			{ "UVF_Soldier_Outfit_2", "", 120, { "", "", -1 } },
+			{ "IRA_Soldier_Outfit_7", "", 120, { "", "", -1 } },
+			{ "cl3_c_poloshirtpants_18_uniform", "Tenue Securite", 120, { "", "", -1 } },
+			{ "U_Marshal", "Jean polo blanc", 120, { "", "", -1 } },
 			{ "U_B_CTRG_1", "Le Tonton", 400, { "", "", -1 } },
 			{ "U_B_CTRG_2", "Le Mickael", 400, { "", "", -1 } },
 			{ "U_B_CTRG_3", "Le Mboukaka", 400, { "", "", -1 } }
@@ -1160,24 +1120,19 @@ class Clothing {
 		
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
-			{ "H_MilCap_oucamo", "", 20, { "", "", -1 } },
 			{ "H_Beret_blk", "Beret Paysans", 200, { "", "", -1 } }
 		};
 		
 		goggles[] = {
 			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
-			{ "G_Balaclava_oli", "", 550, { "", "", -1 } },
-			{ "G_Balaclava_blk", "", 550, { "", "", -1 } },
 			{ "G_Aviator", "", 10, { "", "", -1 } }
 		};
 		
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
-			{ "V_TacVest_khk", "", 100, { "", "", -1 } },
-			{ "Niko_USA_PlateCarrierL_Tan", "", 100, { "", "", -1 } },
-			{ "Niko_USA_PlateCarrierL_MCam", "", 100, { "", "", -1 } },
-			{ "Niko_USA_PlateCarrierH_MCam", "", 100, { "", "", -1 } },
-			{ "cct_vest_b", "Veste de bienvenue", 10, { "", "", -1 } },
+			{ "V_BandollierB_blk", "", 100, { "", "", -1 } },
+			{ "V_TacVest_blk", "", 100, { "", "", -1 } },
+			{ "cct_vest_b", "Veste de bienvenue", 100, { "", "", -1 } },
 			{ "V_PlateCarrier1_blk", "tes sur altis aurore bro", 100, { "", "", -1 } }
 		};
 		
@@ -1200,31 +1155,7 @@ class Clothing {
 			{ "B_Carryall_khk", "", 100, { "", "", -1 } },
 			{ "B_mas_AssaultPack_mul", "", 100, { "", "", -1 } },
 			{ "B_mas_Kitbag_mul", "", 500, { "", "", -1 } },
-			{ "B_mas_Bergen_mul", "", 500, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_2tone5", "", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_aqua", "Sac Aqua", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_baby_blue", "Sac Bleu Ciel", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_baby_pink", "Sac rose sexy", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_burgundy", "Sac bordeaux", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_carbon", "Sac Charbon", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_cardinal", "Sac Rouge Cardinal", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_dark_green", "Sac Vert foncé", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_green", "Sac Vert", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_grey", "Sac Gris", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_gold", "Sac or", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_lavender", "Sac lavande", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_light_blue", "Sac Bleu", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_light_yellow", "Sac jaune", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_lime", "Sac citron", 60, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_marina_blue", "Sac Bleu foncé", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_navy_blue", "Sac Bleu Marine", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_orange", "Sac orange", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_pink", "Sac rose", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_purple", "Sac Violet", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_red", "Sac Rouge", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_sand", "Sac Sable", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_silver", "Sac Argent", 6, { "", "", -1 } },
-			{ "CL3_AssaultPack_Full_skin_black", "Sac Noir", 6, { "", "", -1 } }
+			{ "B_mas_Bergen_mul", "", 500, { "", "", -1 } }
 		};
 	};
 	
