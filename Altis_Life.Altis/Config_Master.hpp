@@ -116,7 +116,9 @@ class VirtualItems {
 	VITEMMACRO(vird, "STR_Item_vird", "vird", 4, 25, -1, false, -1, "aurore_data2\icons\items\vird.paa")
 	VITEMMACRO(virg, "STR_Item_virg", "virg", 4, 25, -1, false, -1, "aurore_data2\icons\items\virg.paa")
 	VITEMMACRO(relique, "STR_Item_relique", "relique", 4, -1, 220, true, -1, "icons\ico_relique.paa")
-	VITEMMACRO(champ, "STR_Item_champ", "champ", 3, -1, 250, true, -1, "icons\ico_champi.paa")
+	VITEMMACRO(oeuf, "STR_Item_oeuf", "oeuf", 4, -1, 0, true, -1, "icons\ico_relique.paa")
+	VITEMMACRO(caviar, "STR_Item_caviar", "caviar", 4, -1, 0, true, -1, "aurore_data2\icons\items\fish.paa")
+	VITEMMACRO(champ, "STR_Item_champ", "champ", 3, -1, 250, true, -1, "aurore_data2\icons\items\fish.paa")
 	VITEMMACRO(bottledbeer, "STR_Item_bottledbeer", "bottledbeer", 2, 520, 0, false, -1, "icons\ico_bbeer.paa")
 	VITEMMACRO(bottledwhiskey, "STR_Item_bottledwhiskey", "bottledwhiskey", 2, 620, 0, false, -1, "icons\ico_whisky.paa")
 	VITEMMACRO(bottledshine, "STR_Item_bottledshine", "bottledshine", 2, 720, 0, false, -1, "icons\ico_vie.paa")
@@ -255,6 +257,7 @@ class Licenses {
 	LICENSEMACRO(papy,"STR_License_papy","papy",750,false,"civ")
 	LICENSEMACRO(vente,"STR_License_vente","vente",750,false,"civ")
 	LICENSEMACRO(ateam,"STR_License_ateam","ateam",750,false,"civ")
+	LICENSEMACRO(caviar,"STR_License_caviar","caviar",750,false,"civ")
 	
 	//Familles
 	LICENSEMACRO(squad,"STR_License_squad","squad",750,false,"civ")
@@ -413,6 +416,11 @@ class VirtualShops {
 	class cement {
 		name = "STR_Shops_Cement";
 		items[] = { "cement" };
+	};
+	
+	class caviar {
+		name = "STR_Shops_Caviar";
+		items[] = { "caviar" };
 	};
 
 	class gold {

@@ -41,6 +41,7 @@ DYNMARKET_Items_Groups =
 			["salt_refined",-1,80,280],
 			["glass",-1,40,190],
 			["cement",-1,160,360],
+			["caviar",-1,400,600],
 			["charbon",-1,110,310]
 		],
 		0.4
@@ -65,6 +66,7 @@ DYNMARKET_Items_ToTrack        =
 [
 	["oil_processed",210],
 	["resine",393],
+	["caviar",500],
 	["charbon",210],
 	["champ",120],
 	["iron_refined",215],

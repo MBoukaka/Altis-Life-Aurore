@@ -42,6 +42,14 @@
 			<Original>Charbon de bois</Original>
 			<French>Charbon de bois</French>
 		</Key>
+		<Key ID="STR_Item_oeuf">
+			<Original>Oeuf d'esturgeon</Original>
+			<French>Oeuf d'esturgeon</French>
+		</Key>
+		<Key ID="STR_Item_caviar">
+			<Original>Caviar</Original>
+			<French>Caviar</French>
+		</Key>
 		<Key ID="STR_Item_kebab">
 			<Original>Kebab sauce Blanche</Original>
 			<French>Kebab</French>
@@ -3515,6 +3523,10 @@
 			<Original>Famille Hooligans</Original>
 			<French>Famille Hooligans</French>
 		</Key>
+		<Key ID="STR_License_caviar">
+			<Original>Famille Caviar</Original>
+			<French>Famille Caviar</French>
+		</Key>
 		<Key ID="STR_License_leader">
 			<Original>Chef de famille</Original>
 			<French>Chef de famille</French>
@@ -3714,6 +3726,10 @@
 		<Key ID="STR_Shops_explo">
 			<Original>Vendeur d'explosifs</Original>
 			<French>Vendeur d'explosifs</French>
+		</Key>
+		<Key ID="STR_Shops_caviar">
+			<Original>Bat le poissonier</Original>
+			<French>Bat le poissonier</French>
 		</Key>
 		<Key ID="STR_Shops_bijoux">
 			<Original>Bijouterie</Original>
@@ -4189,6 +4205,10 @@
 		<Key ID="STR_Process_papy">
 			<Original>Fabrication des faux billets</Original>
 			<French>Fabrication des faux billets</French>
+		</Key>
+		<Key ID="STR_Process_caviar">
+			<Original>Caviarisation</Original>
+			<French>Caviarisation</French>
 		</Key>
 		<Key ID="STR_Process_charbon">
 			<Original>Fabrication du charbon de bois</Original>
