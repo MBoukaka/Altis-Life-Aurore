@@ -660,7 +660,7 @@ class CarShops {
 			{ "Choco_Offroad", 3500, "rebel" },
 			{ "O_MRAP_02_F", 92500, "rebel" },
 			{ "B_Heli_Light_01_F", 73500, "rebel" },
-			{ "B_G_Offroad_01_armed_F", 55000, "rebel" }
+			{ "B_G_Offroad_01_armed_F", 98266, "rebel" }
 		};
 	};
 	

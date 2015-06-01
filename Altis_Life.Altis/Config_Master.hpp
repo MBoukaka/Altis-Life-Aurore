@@ -55,7 +55,7 @@ class Life_Settings {
 	impound_air = 850; //Price for impounding helicopters / planes
 
 	/* Car-shop Settings */
-	vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F" };
+	vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F" };
 	vehicle_noAssurance[] = { "B_G_Offroad_01_armed_F", "O_MRAP_02_F","I_MRAP_03_F","Aurore_escobar_ifrit"};
 
 	/* Job-related stuff */
