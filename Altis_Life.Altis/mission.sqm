@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1188;
+		items=1201;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -10655,7 +10655,7 @@ class Mission
 		};
 		class Item641
 		{
-			position[]={12582.957,34.08263,16396.037};
+			position[]={3523.8945,248.44873,19983.58};
 			azimut=1712.0674;
 			id=840;
 			side="EMPTY";
@@ -10681,7 +10681,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Reb Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Armes rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_rebel && !license_civ_bandit && !license_civ_dep && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Reb Market"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Armes rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];  this addAction[""Armes des chefs"",life_fnc_weaponShopMenu,""leader"",0,false,false,"""",' license_civ_leader && playerSide == civilian'];";
 		};
 		class Item644
 		{
@@ -12895,7 +12895,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_dep && !license_civ_bandit && !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_dep && !license_civ_bandit && !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Armes des chefs"",life_fnc_weaponShopMenu,""leader"",0,false,false,"""",' license_civ_leader && playerSide == civilian'];";
 		};
 		class Item859
 		{
@@ -13247,7 +13247,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_dep && !license_civ_bandit && !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""rebel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_taxi && !license_civ_dep && !license_civ_bandit && !license_civ_rebel && playerSide == civilian '];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_rebel && playerSide == civilian '];  this addAction[""Rebel Clothing Shop"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];  this addAction[""Rebel Weapon Shop"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Armes des chefs"",life_fnc_weaponShopMenu,""leader"",0,false,false,"""",' license_civ_leader && playerSide == civilian'];";
 		};
 		class Item893
 		{
@@ -16276,10 +16276,168 @@ class Mission
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\bal.jpg""]; this allowDamage false;";
 		};
+		class Item1188
+		{
+			position[]={3246.4492,6.6085672,12456.266};
+			azimut=335.97894;
+			id=1387;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item1189
+		{
+			position[]={3250.8699,6.7429714,12448.741};
+			azimut=607.15814;
+			id=1388;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""papy_air"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1190
+		{
+			position[]={3261.0273,6.8860736,12437.932};
+			azimut=450.62299;
+			offsetY=0.30000001;
+			id=1389;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			text="caviar_1";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Caviarisation"",life_fnc_processAction,""caviar"",0,false,false,"""",' life_inv_oeuf > 0 && license_civ_caviar && !life_is_processing'];";
+		};
+		class Item1191
+		{
+			position[]={1655.9944,0,14056.387};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1390;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1192
+		{
+			position[]={1665.5978,0,14086.799};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1391;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1193
+		{
+			position[]={1706.9742,0,14096.25};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1392;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1194
+		{
+			position[]={1603.1758,0,14123.61};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1393;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1195
+		{
+			position[]={1585.5698,0,14051.586};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1394;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1196
+		{
+			position[]={1628.9792,0,14026.689};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1395;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1197
+		{
+			position[]={1690.1901,0,13993.856};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1396;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1198
+		{
+			position[]={1726.4187,0,14037.181};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1397;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1199
+		{
+			position[]={1681.6031,0,14150.82};
+			azimut=180;
+			offsetY=-100;
+			special="NONE";
+			id=1398;
+			side="EMPTY";
+			vehicle="Land_Bucket_clean_F";
+			leader=1;
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;this addAction[""Ramasser des oeufs"",life_fnc_gatherOeuf,"""",99,false,false,"""",' playerSide == civilian && !life_action_inUse '];";
+		};
+		class Item1200
+		{
+			position[]={5077.6646,27.445673,16658.018};
+			azimut=89.670898;
+			id=1399;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Vendeur de caviar"",life_fnc_virt_menu,""caviar""];";
+		};
 	};
 	class Markers
 	{
-		items=432;
+		items=438;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -17151,7 +17309,7 @@ class Mission
 		};
 		class Item110
 		{
-			position[]={12582.778,34.149235,16394.836};
+			position[]={3523.7158,248.50056,19982.379};
 			name="oil_trader";
 			text="Vendeur de pétrole";
 			type="b_unknown";
@@ -19642,6 +19800,56 @@ class Mission
 			name="restau_123";
 			type="Empty";
 			angle=-135.85899;
+		};
+		class Item432
+		{
+			position[]={3246.3066,6.6054139,12456.144};
+			name="papy_1_1";
+			type="Empty";
+			angle=-113.175;
+		};
+		class Item433
+		{
+			position[]={3254.6638,6.816648,12448.385};
+			name="caviar_spawn";
+			type="Empty";
+			angle=871.07587;
+		};
+		class Item434
+		{
+			position[]={3259.6365,6.8307309,12450.636};
+			name="papy_2";
+			text="Caviar Industry";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+			angle=-15.374964;
+		};
+		class Item435
+		{
+			position[]={1662.6895,0,14074.819};
+			name="Heimdall_12_1";
+			text="Bassin d'esturgeons";
+			type="mil_dot";
+			colorName="ColorBrown";
+		};
+		class Item436
+		{
+			position[]={1663.0254,0,14074.663};
+			name="coke_area_2_1_1";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorUNKNOWN";
+			a=100;
+			b=100;
+		};
+		class Item437
+		{
+			position[]={5077.6733,27.456722,16658.379};
+			name="oil_trader_4_1";
+			text="Vendeur de caviar";
+			type="b_unknown";
+			colorName="ColorOrange";
+			angle=-180.2;
 		};
 	};
 	class Sensors
