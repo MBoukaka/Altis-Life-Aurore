@@ -27,6 +27,7 @@ if([false,_food,1] call life_fnc_handleInv) then {
 		case "tbacon": {_val = 40};
 		case "kebab": {_val = 40};
 		case "cacahuete": {_val = 10};
+		case "caviar": {_val = 15};
 		case "burger": {_val = 40};
 		case "blanquette": {_val = 50};
 		case "redwine": {_val = 30};
