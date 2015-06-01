@@ -9,10 +9,10 @@ class WeaponShops {
         items[] = {
 			{ "srifle_LRR_SOS_F","",30000 },
 			{ "7Rnd_408_Mag","",600 },
-			{ "srifle_mas_m107","M107",50000 },
-			{ "srifle_mas_m107_v","M107 Camo Wood",52000 },
-			{ "srifle_mas_m107_d","M107 Camo Desert",52000 },
-			{ "5Rnd_mas_127x99_Stanag","Munitions M107",5000 },
+			{ "srifle_mas_m107","M107",65000 },
+			{ "srifle_mas_m107_v","M107 Camo Wood",67000 },
+			{ "srifle_mas_m107_d","M107 Camo Desert",67000 },
+			{ "5Rnd_mas_127x99_Stanag","Munitions M107",7499 },
 			{ "srifle_mas_vss_h","VSS Vintorez",35000 },
 			{ "20Rnd_mas_9x39_mag","Munitions Vintorez",3000 },
 			{ "srifle_DMR_05_blk_F", "", 30000 },
@@ -563,6 +563,19 @@ class WeaponShops {
             { "30Rnd_9x21_Mag", "", 100 }
         };
     };
+	
+	class leader {
+        name = "Le shop des chefs";
+        side = "civ";
+        license = "leader";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "mas_launch_RPG7_F","",99999 },
+			{ "mas_PG7V","",150000 }
+        };
+    };
+	
 	class mont {
         name = "Monterrigioni";
         side = "civ";
