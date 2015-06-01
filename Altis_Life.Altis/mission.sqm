@@ -4149,7 +4149,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1201;
+		items=1204;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -13850,7 +13850,7 @@ class Mission
 		class Item953
 		{
 			position[]={8316.3242,75.661087,10078.907};
-			azimut=-214.13245;
+			azimut=-214.132;
 			id=1152;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -16288,12 +16288,12 @@ class Mission
 		class Item1189
 		{
 			position[]={3250.8699,6.7429714,12448.741};
-			azimut=607.15814;
+			azimut=607.15802;
 			id=1388;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""papy_air"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""caviar_car"";  }];  this addAction[""Ranger le véhicule"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item1190
 		{
@@ -16434,10 +16434,41 @@ class Mission
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Vendeur de caviar"",life_fnc_virt_menu,""caviar""];";
 		};
+		class Item1201
+		{
+			position[]={16690.988,3.7366114,20489.051};
+			azimut=467.3877;
+			id=1400;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item1202
+		{
+			position[]={16682.42,4.0220604,20490.713};
+			azimut=738.56702;
+			id=1401;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""bijoux_car"";  }];  this addAction[""Ranger le véhicule"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1203
+		{
+			position[]={16676.199,4.5154738,20497.512};
+			azimut=582.03198;
+			offsetY=0.30000001;
+			id=1402;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			text="caviar_1_1";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Taille du bijoux"",life_fnc_processAction,""bijoux"",0,false,false,"""",' life_inv_diamondCut > 0 && license_civ_bijoux && !life_is_processing']; this addAction[""Bijouterie"",life_fnc_virt_menu,""bijoux"",0,false,false,"""",' license_civ_bijoux && playerSide == civilian '];";
+		};
 	};
 	class Markers
 	{
-		items=438;
+		items=441;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -19804,7 +19835,7 @@ class Mission
 		class Item432
 		{
 			position[]={3246.3066,6.6054139,12456.144};
-			name="papy_1_1";
+			name="caviar_car";
 			type="Empty";
 			angle=-113.175;
 		};
@@ -19850,6 +19881,29 @@ class Mission
 			type="b_unknown";
 			colorName="ColorOrange";
 			angle=-180.2;
+		};
+		class Item438
+		{
+			position[]={16690.994,3.7394676,20489.244};
+			name="bijoux_car";
+			type="Empty";
+			angle=18.233801;
+		};
+		class Item439
+		{
+			position[]={16678.168,4.4840746,20499.541};
+			name="bijoux_spawn";
+			type="Empty";
+			angle=1002.48;
+		};
+		class Item440
+		{
+			position[]={16678.416,4.1983619,20490.326};
+			name="papy_2_1";
+			text="Bijouterie";
+			type="loc_Tourism";
+			colorName="ColorGreen";
+			angle=-4.1876602;
 		};
 	};
 	class Sensors

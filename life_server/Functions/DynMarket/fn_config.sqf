@@ -42,7 +42,7 @@ DYNMARKET_Items_Groups =
 			["glass",-1,40,190],
 			["cement",-1,160,360],
 			["caviar",-1,400,600],
-			["bijoux",-1,325,525],
+			["bijoux",-1,255,455],
 			["charbon",-1,110,310]
 		],
 		0.4
@@ -72,7 +72,7 @@ DYNMARKET_Items_ToTrack        =
 	["champ",120],
 	["iron_refined",215],
 	["diamond_cut",275],
-	["bijoux",435],
+	["bijoux",355],
 	["copper_refined",165],
 	["salt_refined",180],
 	["glass",120],
