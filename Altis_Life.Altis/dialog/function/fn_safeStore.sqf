@@ -19,7 +19,7 @@ if(!(EQUAL(_ctrl,"goldbar"))) exitWith {hint localize "STR_Cop_OnlyGold"};
 if(_num > life_inv_goldbar) exitWith {hint format[localize "STR_Cop_NotEnoughGold",_num];};
 
 //Store it.
-if(!([false,_ctrl,_num] call life_fnc_handleInv)) exitWith {hint localize "STR_Cop_CantRemove";};
+if(!([true,_ctrl,_num] call life_fnc_handleInv)) exitWith {hint localize "STR_Cop_CantRemove";};
 _safeInfo = life_safeObj GVAR["safe",0];
 life_safeObj GVAR ["safe",_safeInfo + _num,true];
 
