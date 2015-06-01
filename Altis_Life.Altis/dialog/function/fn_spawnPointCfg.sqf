@@ -202,6 +202,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_caviar) then {
+			_return = [
+				["caviar_spawn","Les Caviars","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_civaurore) then {
 			_return = _return + [
 				["donor_spawn","Bienfaiteur","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
