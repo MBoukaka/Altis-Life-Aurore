@@ -977,7 +977,31 @@ class CfgVehicles {
         chopShop = 450;
         textures[] = { };
     };
+	class cl3_golf_mk2_camo_urban {
+        vItemSpace = 55;
+        storageFee[] = { 55, 0, 0, 0 };
+		garageSell[] = { 550, 0, 0, 0 };
+        insurance = 800;
+        chopShop = 450;
+        textures[] = { };
+    };
+	class cl3_golf_mk2_camo {
+        vItemSpace = 55;
+        storageFee[] = { 55, 0, 0, 0 };
+		garageSell[] = { 550, 0, 0, 0 };
+        insurance = 800;
+        chopShop = 450;
+        textures[] = { };
+    };
 	class cl3_civic_vti_aqua {
+        vItemSpace = 55;
+        storageFee[] = { 55, 0, 0, 0 };
+		garageSell[] = { 550, 0, 0, 0 };
+        insurance = 800;
+        chopShop = 450;
+        textures[] = { };
+    };
+	class cl3_civic_vti_camo_urban {
         vItemSpace = 55;
         storageFee[] = { 55, 0, 0, 0 };
 		garageSell[] = { 550, 0, 0, 0 };
@@ -993,7 +1017,31 @@ class CfgVehicles {
         chopShop = 500;
         textures[] = { };
     };
+	class cl3_polo_gti_camo_urban {
+        vItemSpace = 55;
+        storageFee[] = { 60, 0, 0, 0 };
+		garageSell[] = { 600, 0, 0, 0 };
+        insurance = 850;
+        chopShop = 500;
+        textures[] = { };
+    };
+	class cl3_polo_gti_camo {
+        vItemSpace = 55;
+        storageFee[] = { 60, 0, 0, 0 };
+		garageSell[] = { 600, 0, 0, 0 };
+        insurance = 850;
+        chopShop = 500;
+        textures[] = { };
+    };
 	class cl3_defender_110_red {
+        vItemSpace = 75;
+        storageFee[] = { 65, 0, 0, 0 };
+		garageSell[] = { 650, 0, 0, 0 };
+        insurance = 600;
+        chopShop = 500;
+        textures[] = { };
+    };
+	class cl3_defender_110_cammo {
         vItemSpace = 75;
         storageFee[] = { 65, 0, 0, 0 };
 		garageSell[] = { 650, 0, 0, 0 };
@@ -1514,6 +1562,8 @@ class CfgVehicles {
 	class cl3_taurus_babypink : cl3_taurus_gold {};
 	class cl3_taurus_blue : cl3_taurus_gold {};
 	class cl3_taurus_burgundy : cl3_taurus_gold {};
+	class cl3_taurus_camo : cl3_taurus_gold {};
+	class cl3_taurus_camo_urban : cl3_taurus_gold {};
 	class cl3_taurus_cardinal : cl3_taurus_gold {};
 	class cl3_taurus_dark_green : cl3_taurus_gold {};
 	class cl3_taurus_green : cl3_taurus_gold {};
@@ -1540,6 +1590,8 @@ class CfgVehicles {
         textures[] = { };
     };
 	class cl3_impreza_road_babyblue : cl3_impreza_road_aqua {};
+	class cl3_impreza_road_camo_urban : cl3_impreza_road_aqua {};
+	class cl3_impreza_road_camo : cl3_impreza_road_aqua {};
 	class cl3_impreza_road_babypink : cl3_impreza_road_aqua {};
 	class cl3_impreza_road_black : cl3_impreza_road_aqua {};
 	class cl3_impreza_road_blue : cl3_impreza_road_aqua {};
@@ -1575,6 +1627,8 @@ class CfgVehicles {
 	class cl3_z4_2008_babypink : cl3_z4_2008_gold {};
 	class cl3_z4_2008_blue : cl3_z4_2008_gold {};
 	class cl3_z4_2008_burgundy : cl3_z4_2008_gold {};
+	class cl3_z4_2008_camo : cl3_z4_2008_gold {};
+	class cl3_z4_2008_camo_urban : cl3_z4_2008_gold {};
 	class cl3_z4_2008_cardinal : cl3_z4_2008_gold {};
 	class cl3_z4_2008_dark_green : cl3_z4_2008_gold {};
 	class cl3_z4_2008_green : cl3_z4_2008_gold {};
@@ -1612,6 +1666,8 @@ class CfgVehicles {
     };
 	class cl3_dodge_chargerum_f_white : cl3_dodge_chargerum_f_black {};
 	class cl3_dodge_chargerum_f_orange : cl3_dodge_chargerum_f_black {};
+	class cl3_dodge_charger_f_camourban : cl3_dodge_chargerum_f_black {};
+	class cl3_dodge_charger_f_camo : cl3_dodge_chargerum_f_black {};
 	class cl3_458_gold {
         vItemSpace = 65;
         storageFee[] = { 175, 0, 0, 0 };
@@ -1696,7 +1752,22 @@ class CfgVehicles {
 	class cl3_reventon_silver : cl3_458_gold {};
 	class cl3_reventon_black : cl3_458_gold {};
 	class cl3_reventon_babyblue : cl3_458_gold {};
-	class cl3_reventon_babypink : cl3_458_gold {};
+	class cl3_reventon_babypink : cl3_458_gold {};//
+	class cl3_458_camo : cl3_458_gold {};
+	class cl3_458_camo_urban : cl3_458_gold {};
+	class cl3_carrera_gt_camo_urban : cl3_458_gold {};
+	class cl3_carrera_gt_camo : cl3_458_gold {};
+	class cl3_dbs_volante_camo_urban : cl3_458_gold {};
+	class cl3_dbs_volante_camo : cl3_458_gold {};
+	class cl3_e60_m5_camo : cl3_458_gold {};
+	class cl3_e60_m5_camo_urban : cl3_458_gold {};
+	class cl3_e63_amg_camo : cl3_458_gold {};
+	class cl3_e63_amg_camo_urban : cl3_458_gold {};
+	class cl3_insignia_camo_urban : cl3_458_gold {};
+	class cl3_insignia_camo : cl3_458_gold {};
+	
+	
+	
 	class cl3_reventon_blue : cl3_458_gold {};
 	class cl3_reventon_burgundy : cl3_458_gold {};
 	class cl3_reventon_cardinal : cl3_458_gold {};
@@ -1741,6 +1812,8 @@ class CfgVehicles {
 	class cl3_carrera_gt_white : cl3_458_gold {};
 	class cl3_carrera_gt_yellow : cl3_458_gold {};
 	class cl3_q7_gold : cl3_458_gold {};
+	class cl3_q7_camo_urban : cl3_458_gold {};
+	class cl3_q7_camo : cl3_458_gold {};
 	class cl3_q7_silver : cl3_458_gold {};
 	class cl3_q7_black : cl3_458_gold {};
 	class cl3_q7_babyblue : cl3_458_gold {};
@@ -1770,6 +1843,8 @@ class CfgVehicles {
 	class cl3_s5_babyblue : cl3_458_gold {};
 	class cl3_s5_babypink : cl3_458_gold {};
 	class cl3_s5_blue : cl3_458_gold {};
+	class cl3_s5_camo_urban : cl3_458_gold {};
+	class cl3_s5_camo : cl3_458_gold {};
 	class cl3_s5_burgundy : cl3_458_gold {};
 	class cl3_s5_cardinal : cl3_458_gold {};
 	class cl3_s5_dark_green : cl3_458_gold {};
@@ -2255,6 +2330,8 @@ class CfgVehicles {
         textures[] = { };
     };
 	class cl3_xr_1000_flame : cl3_enduro_flame {};
+	class cl3_enduro_camo : cl3_enduro_flame {};
+	class cl3_enduro_camo_urban : cl3_enduro_flame {};
 	class cl3_enduro_flame1 : cl3_enduro_flame {};
 	class cl3_xr_1000_flame1 : cl3_enduro_flame {};
 	class cl3_enduro_flame2 : cl3_enduro_flame {};
@@ -2270,6 +2347,8 @@ class CfgVehicles {
         textures[] = { };
     };
 	class cl3_arielatom_white : cl3_arielatom_yellow {};
+	class cl3_arielatom_camo_urban : cl3_arielatom_yellow {};
+	class cl3_arielatom_camo : cl3_arielatom_yellow {};
 	class cl3_arielatom_violet : cl3_arielatom_yellow {};
 	class cl3_arielatom_silver : cl3_arielatom_yellow {};
 	class cl3_arielatom_sand : cl3_arielatom_yellow {};
@@ -2289,6 +2368,8 @@ class CfgVehicles {
         textures[] = { };
     };
 	class cl3_impreza_rally_babyblue : cl3_impreza_rally_aqua {};
+	class cl3_impreza_rally_camo_urban : cl3_impreza_rally_aqua {};
+	class cl3_impreza_rally_camo : cl3_impreza_rally_aqua {};
 	class cl3_impreza_rally_babypink : cl3_impreza_rally_aqua {};
 	class cl3_impreza_rally_black : cl3_impreza_rally_aqua {};
 	class cl3_impreza_rally_blue : cl3_impreza_rally_aqua {};
@@ -2330,15 +2411,21 @@ class CfgVehicles {
         textures[] = { };
     };
 	class cl3_r8_spyder_flame : cl3_dbs_volante_flame {};
+	class cl3_r8_spyder_camo_urban : cl3_dbs_volante_flame {};
+	class cl3_r8_spyder_camo : cl3_dbs_volante_flame {};
 	class cl3_458_flame : cl3_dbs_volante_flame {};
 	class cl3_lamborghini_gt1_flame : cl3_dbs_volante_flame {};
 	class cl3_murcielago_flame : cl3_dbs_volante_flame {};
 	class cl3_reventon_flame : cl3_dbs_volante_flame {};
+	class cl3_reventon_camo_urban : cl3_dbs_volante_flame {};
+	class cl3_reventon_camo : cl3_dbs_volante_flame {};
 	class cl3_dbs_volante_flame1 : cl3_dbs_volante_flame {};
 	class cl3_r8_spyder_flame1 : cl3_dbs_volante_flame {};
 	class cl3_458_flame1 : cl3_dbs_volante_flame {};
 	class cl3_lamborghini_gt1_flame1 : cl3_dbs_volante_flame {};
 	class cl3_murcielago_flame1 : cl3_dbs_volante_flame {};
+	class cl3_murcielago_camo_urban : cl3_dbs_volante_flame {};
+	class cl3_murcielago_camo : cl3_dbs_volante_flame {};
 	class cl3_reventon_flame1 : cl3_dbs_volante_flame {};
 	class cl3_dbs_volante_flame2 : cl3_dbs_volante_flame {};
 	class cl3_r8_spyder_flame2 : cl3_dbs_volante_flame {};
@@ -2554,6 +2641,22 @@ class CfgVehicles {
         textures[] = { };
     };
 	class cl3_escalade_fd {
+        vItemSpace = 65;
+        storageFee[] = { 0, 0, 75, 0 };
+		garageSell[] = { 0, 0, 3600, 0 };
+        insurance = 4600;
+        chopShop = 750;
+        textures[] = { };
+    };
+	class cl3_escalade_camo_urban {
+        vItemSpace = 65;
+        storageFee[] = { 0, 0, 75, 0 };
+		garageSell[] = { 0, 0, 3600, 0 };
+        insurance = 4600;
+        chopShop = 750;
+        textures[] = { };
+    };
+	class cl3_escalade_camo {
         vItemSpace = 65;
         storageFee[] = { 0, 0, 75, 0 };
 		garageSell[] = { 0, 0, 3600, 0 };
@@ -2829,6 +2932,7 @@ class CfgVehicles {
 	class cl3_xr_1000_blue : cl3_xr_1000_aqua {};
 	class cl3_xr_1000_burgundy : cl3_xr_1000_aqua {};
 	class cl3_xr_1000_camo_urban : cl3_xr_1000_aqua {};
+	class cl3_xr_1000_camo : cl3_xr_1000_aqua {};//urban deja ajouté
 	class cl3_xr_1000_cardinal : cl3_xr_1000_aqua {};
 	class cl3_xr_1000_dark_green : cl3_xr_1000_aqua {};
 	class cl3_xr_1000_green : cl3_xr_1000_aqua {};
