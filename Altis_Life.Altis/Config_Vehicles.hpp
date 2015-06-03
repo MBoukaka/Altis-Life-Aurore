@@ -1765,9 +1765,6 @@ class CfgVehicles {
 	class cl3_e63_amg_camo_urban : cl3_458_gold {};
 	class cl3_insignia_camo_urban : cl3_458_gold {};
 	class cl3_insignia_camo : cl3_458_gold {};
-	
-	
-	
 	class cl3_reventon_blue : cl3_458_gold {};
 	class cl3_reventon_burgundy : cl3_458_gold {};
 	class cl3_reventon_cardinal : cl3_458_gold {};
