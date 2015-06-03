@@ -279,6 +279,7 @@ class Licenses {
 	LICENSEMACRO(leader,"STR_License_leader","leader",750,false,"civ")
 	LICENSEMACRO(michto,"STR_License_michto","michto",750,false,"civ")
 	LICENSEMACRO(VNC,"STR_License_VNC","VNC",750,false,"civ")
+	LICENSEMACRO(dozen,"STR_License_dozen","dozen",750,false,"civ")
 	
 };
 

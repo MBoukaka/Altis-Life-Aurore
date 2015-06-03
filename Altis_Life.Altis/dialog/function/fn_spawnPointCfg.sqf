@@ -209,8 +209,14 @@ switch (_side) do
 		};
 		
 		if(license_civ_bijoux) then {
-			_return = [
+			_return = _return + [
 				["bijoux_spawn","Bijouterie","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
+		if(license_civ_dozen) then {
+			_return = _return + [
+				["dozen_spawn","Famille Dozen","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
