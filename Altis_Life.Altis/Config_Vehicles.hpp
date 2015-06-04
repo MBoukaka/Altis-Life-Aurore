@@ -2904,7 +2904,6 @@ class CfgVehicles {
 	class cl3_enduro_black : cl3_enduro_babyblue {};
 	class cl3_enduro_blue : cl3_enduro_babyblue {};
 	class cl3_enduro_burgundy : cl3_enduro_babyblue {};
-	class cl3_enduro_camo : cl3_enduro_babyblue {};
 	class cl3_enduro_dark_green : cl3_enduro_babyblue {};
 	class cl3_enduro_grey : cl3_enduro_babyblue {};
 	class cl3_enduro_lavender : cl3_enduro_babyblue {};
