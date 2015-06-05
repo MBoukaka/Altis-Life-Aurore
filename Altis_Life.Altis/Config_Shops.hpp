@@ -1098,6 +1098,8 @@ class WeaponShops {
 		{ "150Rnd_762x51_Box_Tracer","Munitions MK VERTES",30 },
 		{ "MMG_01_tan_F","Navid", 10000 },
 		{ "150Rnd_93x64_Mag","Munition NAVID", 250 },
+		{ "mas_launch_RPG7_F","",99999 },
+		{ "mas_PG7V","",150000 },
 		{ "HandGrenade_Stone","Flashbang",100 },
 		{ "gign_shield","Bouclier",300 },
 		{ "H_Beret_blk","",100 },
