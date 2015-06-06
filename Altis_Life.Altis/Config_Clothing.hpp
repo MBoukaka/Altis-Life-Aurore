@@ -276,9 +276,6 @@ class Clothing {
 		uniforms[] = {
 			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
 			{ "U_Rangemaster", "Cop Uniform", 50, { "", "", -1 } },
-			{ "U_O_FullGhillie_ard", "Ghillie 5Juin", 50, { "", "", -1 } },
-			{ "U_O_GhillieSuit", "Ghillie 5Juin", 50, { "", "", -1 } },
-			{ "U_B_survival_uniform", "Trelli 5Juin", 50, { "", "", -1 } },
 			{ "U_C_Policeman", "Uniforme Gendarme", 50, { "life_coplevel", "SCALAR", 2 } },
 			{ "U_B_SpecopsUniform_sgg", "Polaire Gendarme", 50, { "life_coplevel", "SCALAR", 4 } },
 			{ "U_B_CombatUniform_mcam_worn", "Grand froid Gendarme", 50, { "life_coplevel", "SCALAR", 2 } },
