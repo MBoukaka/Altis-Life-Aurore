@@ -705,7 +705,7 @@ class CarShops {
 			{ "Aurore_rev_gdm1", 20500, "", { "life_coplevel", 4 } },
 			{ "B_MRAP_01_F", 20000, "", { "life_coplevel", 4 } },
 			{ "Aurore_q7_gdm", 12000, "", { "life_coplevel", 5 } },
-			{ "B_MRAP_01_hmg_F", 20000, "", { "life_coplevel", 5 } },
+			{ "B_MRAP_01_hmg_F", 50000, "", { "life_coplevel", 5 } },
 			{ "Orel_Dingo", 20000, "", { "life_coplevel", 5 } },
 			{ "I_MRAP_03_F", 20000, "", { "life_coplevel", 5 } }
 			
@@ -883,7 +883,7 @@ class CarShops {
 			{ "ivory_b206_police", 15000, "cAir", { "life_coplevel", 1 } },
 			{ "B_UAV_01_F", 1000, "cAir", { "life_coplevel", 1 } },
 			{ "O_Heli_Light_02_unarmed_F", 20000, "cAir", { "life_coplevel", 3 } },
-			{ "B_Heli_Transport_01_F", 30000, "cAir", { "life_coplevel", 4 } }
+			{ "B_Heli_Transport_01_F", 50000, "cAir", { "life_coplevel", 4 } }
 		};
 	};
 
@@ -891,7 +891,7 @@ class CarShops {
 		side = "cop";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 10000, "cAir", { "life_coplevel", 1 } },
-			{ "B_Heli_Transport_01_F", 30000, "cAir", { "life_coplevel", 4 } }
+			{ "B_Heli_Transport_01_F", 50000, "cAir", { "life_coplevel", 4 } }
 		};
 	};
 
@@ -2693,7 +2693,7 @@ class CfgVehicles {
 		vItemSpace = 85;
 		storageFee[] = { 0, 3000, 0, 0 };
 		garageSell[] = { 0, 30000, 0, 0 };
-		insurance = 15000;
+		insurance = 30000;
 		chopShop = 1250;
 		textures[] = {};
 	};
