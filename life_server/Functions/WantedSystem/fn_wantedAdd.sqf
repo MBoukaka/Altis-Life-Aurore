@@ -73,7 +73,7 @@ if(_customBounty != -1) then {_type set[1,_customBounty];};
 
 _result = format["wantedGetCrimes:%1",_uid];
 waitUntil{!DB_Async_Active};
-_queryResult = [_result,2] call DB_fnc_asyncCall;
+_queryResult = [_result,2,true] call DB_fnc_asyncCall;
 
 _val = [(_type select 1)] call DB_fnc_numberSafe;
 

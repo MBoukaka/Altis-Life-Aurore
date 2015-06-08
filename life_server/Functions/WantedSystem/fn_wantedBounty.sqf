@@ -17,7 +17,7 @@ if(isNull _civ OR isNull _cop) exitWith {};
 
 _result = format["wantedFetchBounty:%1",_uid];
 waitUntil{!DB_Async_Active};
-_queryResult = [_result,2] call DB_fnc_asyncCall;
+_queryResult = [_result,2,true] call DB_fnc_asyncCall;
 
 if(count _queryResult != 0) then
 {
