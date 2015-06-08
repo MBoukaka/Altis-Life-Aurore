@@ -70,7 +70,6 @@ class CfgFunctions
 		{
 			file = "\life_server\Functions\MySQL";
 			class numberSafe {};
-			class mresArray {};
 			class queryRequest{};
 			class asyncCall{};
 			class insertRequest{};

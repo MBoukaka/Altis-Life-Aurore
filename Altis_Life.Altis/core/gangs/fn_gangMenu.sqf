@@ -13,9 +13,10 @@ if(isNull (findDisplay 2620)) then {
 
 _ownerID = grpPlayer GVAR ["gang_owner",""];
 if(_ownerID == "") exitWith {closeDialog 0;}; //Bad juju
-_gangName = grpPlayer getVariable "gang_name";
+_gangName = grpPlayer GVAR "gang_name";
 _gangBank = GANG_FUNDS;
-_gangMax = grpPlayer getVariable "gang_maxMembers";
+_gangMax = grpPlayer GVAR "gang_maxMembers";
+_gangList = grpPlayer GVAR "gang_members";
 
 if(_ownerID != steamid) then {
 	(CONTROL(2620,2622)) ctrlEnable false; //Upgrade
@@ -32,14 +33,14 @@ if(_ownerID != steamid) then {
 _members = CONTROL(2620,2621);
 lbClear _members;
 {
-	if((getPlayerUID _x) == _ownerID) then {
-		_members lbAdd format["%1 " +(localize "STR_GNOTF_GangLeader"),(_x GVAR ["realname",name _x])];
-		_members lbSetData [(lbSize _members)-1,str(_x)];
+	if((_x select 0) isEqualto _ownerID) then {
+		_members lbAdd format["%1 " +(localize "STR_GNOTF_GangLeader"),(_x select 1)];
+		_members lbSetData [(lbSize _members)-1,str([_x select 0,_x select 1])];
 	} else {
-		_members lbAdd format["%1",(_x GVAR ["realname",name _x])];
-		_members lbSetData [(lbSize _members)-1,str(_x)];
+		_members lbAdd format["%1",(_x select 1)];
+		_members lbSetData [(lbSize _members)-1,str([_x select 0,_x select 1])];
 	};
-} foreach (units grpPlayer);
+} foreach _gangList;
 
 _grpMembers = units grpPlayer;
 _allUnits = playableUnits;

@@ -14,7 +14,7 @@ _uid = [_this,0,"",[""]] call BIS_fnc_param;
 if(EQUAL(_uid,"")) exitWith {false}; //Bad UID
 _ret = false;
 {
-	if(isPlayer _x && {EQUAL(getPlayerUID _x,_uid)}) exitWith {_ret = true;};
+	if(isPlayer _x && {EQUAL(getPlayerUID _x,_uid)}) exitWith {_ret = true;life_selectedPlayer = _x;};
 } foreach playableUnits;
 
 _ret;
