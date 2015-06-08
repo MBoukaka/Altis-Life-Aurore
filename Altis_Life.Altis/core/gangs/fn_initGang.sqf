@@ -46,7 +46,7 @@ if(!isNil "_group") then {
 			if((_x select 1) != profilename) then {
 				_x set [1,profilename];
 				_group setVariable["gang_members",_gangList,true];
-				[[4,grpPlayer],"TON_fnc_updateGang",false,false] call life_fnc_MP;
+				[[4,grpPlayer],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP;
 			};
 		};
 	} foreach _gangList;
