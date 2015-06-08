@@ -94,6 +94,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_mikhailov)then {
+			_return = _return + [
+				["mikhailov_spawn","Famille Mikhailov","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_secte)then {
 			_return = _return + [
 				["secte_spawn","La secte a Wakan","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
