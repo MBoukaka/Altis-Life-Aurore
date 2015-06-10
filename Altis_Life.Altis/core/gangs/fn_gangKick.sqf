@@ -29,5 +29,5 @@ if(_check)then {
     [[life_selectedPlayer,grpPlayer],"TON_fnc_clientGangKick",life_selectedPlayer,false] call life_fnc_MP;
 };
 
-[[4,grpPlayer],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP; //Update the database.
+[[4,grpPlayer],"TON_fnc_updateGang",false,false] call life_fnc_MP; //Update the database.
 [] call life_fnc_gangMenu;

@@ -19,7 +19,7 @@ _grpMembers = grpPlayer getVariable "gang_members";
 	};
 }forEach _grpMembers;
 
-[[4,grpPlayer],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP;
+[[4,grpPlayer],"TON_fnc_updateGang",false,false] call life_fnc_MP;
 closeDialog 0;
 sleep 1;
 [player] joinSilent (createGroup civilian);
