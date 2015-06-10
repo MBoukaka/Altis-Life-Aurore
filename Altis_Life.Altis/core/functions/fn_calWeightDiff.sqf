@@ -14,7 +14,7 @@ _cWeight = [_this,2,-1,[0]] call BIS_fnc_param;
 _mWeight = [_this,3,-1,[0]] call BIS_fnc_param;
 
 if(EQUAL(_item,"") OR EQUAL(_value,-1) OR EQUAL(_cWeight,-1) OR EQUAL(_mWeight,-1)) exitWith {};
-_weight = M_CONFIG(getNumber,"VirtualItems",_item,"weight") * _value;
+_weight = M_CONFIG(getNumber,"VirtualItems",_item,"weight") * _num;
 _sum = _value;
 
 if((_cweight + _weight) > _mWeight) then {

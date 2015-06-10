@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Determinds the upgrade price and blah
 */
@@ -28,7 +28,7 @@ if(_action) then {
 	SUB(BANK,_upgradePrice);
 	grpPlayer setVariable["gang_maxMembers",_slotUpgrade,true];
 	hint parseText format[localize "STR_GNOTF_UpgradeSuccess",_maxMembers,_slotUpgrade,[_upgradePrice] call life_fnc_numberText];
-	[[2,grpPlayer],"TON_fnc_updateGang",false,false] call life_fnc_MP;
+	[[2,grpPlayer],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP;
 } else {
 	hint localize "STR_GNOTF_UpgradeCancel";
 };

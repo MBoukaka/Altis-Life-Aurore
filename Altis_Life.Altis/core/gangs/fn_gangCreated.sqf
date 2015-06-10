@@ -16,3 +16,13 @@ if(BANK < (LIFE_SETTINGS(getNumber,"gang_price"))) exitWith {
 SUB(BANK,(LIFE_SETTINGS(getNumber,"gang_price")));
 
 hint format[localize "STR_GNOTF_CreateSuccess",(group player) getVariable "gang_name",[(LIFE_SETTINGS(getNumber,"gang_price"))] call life_fnc_numberText];
+
+sleep 2;
+hint "Retour au lobby dans 3";
+sleep 1;
+hint "Retour au lobby dans 2";
+sleep 1;
+hint "Retour au lobby dans 1";
+sleep 1;
+["gangcreated",FALSE,TRUE] call BIS_fnc_endMission;
+sleep 5;

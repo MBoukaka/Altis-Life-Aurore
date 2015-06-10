@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	Prompts the player about an invite.
 */
@@ -21,9 +21,10 @@ _action = [
 
 if(_action) then {
 	[player] join _group;
-
-	_members = grpPlayer GVAR "gang_members";
-	_members pushBack [getPlayerUID _unit,profilename];
-	grpPlayer SVAR ["gang_members",_members,true];
-	[[4,_grpMembers],"TON_fnc_updateGang",false,false] call life_fnc_MP;
+	[[4,_group],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP;
+} else {
+	_grpMembers = grpPlayer GVAR "gang_members";
+	SUB(_grpMembers,[steamid]);
+	grpPlayer SVAR ["gang_members",_grpMembers,true];
+	[[4,_grpMembers],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP;
 };

@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-	
+
 	Description:
 	32 hours...
 */
@@ -10,24 +10,17 @@ disableSerialization;
 
 if((lbCurSel 2621) == -1) exitWith {hint localize "STR_GNOTF_SelectKick"};
 _unit = call compile format["%1",CONTROL_DATA(2621)];
-if((_unit select 0) isEqualto getPlayerUID player) exitWith {hint localize "STR_GNOTF_KickSelf"};
+if(isNull _unit) exitWith {}; //Bad unit?
+if(_unit == player) exitWith {hint localize "STR_GNOTF_KickSelf"};
 
-_unitID = _unit select 0;
+_unitID = getPlayerUID _unit;
 _members = grpPlayer GVAR "gang_members";
+if(isNil "_members") exitWith {};
+if(!(EQUAL(typeName _members,"ARRAY"))) exitWith {};
 
-{
-	_pos = _x find _unitID;
-	if(_pos != -1)then {
-		_members deleteAt _forEachIndex;
-		grpPlayer SVAR["gang_MemberNames",_members,true];
-	};
-}forEach _members;
+SUB(_members,[_unitID]);
+grpPlayer SVAR ["gang_members",_members,true];
 
-_check = [_unitID] call life_fnc_isUIDActive;
-
-if(_check)then {
-    [[life_selectedPlayer,grpPlayer],"TON_fnc_clientGangKick",life_selectedPlayer,false] call life_fnc_MP;
-};
-
-[[4,grpPlayer],"TON_fnc_updateGang",false,false] call life_fnc_MP; //Update the database.
+[[_unit,grpPlayer],"TON_fnc_clientGangKick",_unit,false] call life_fnc_MP; //Boot that bitch!
+[[4,grpPlayer],"TON_fnc_updateGang",DB_Dest,false] call life_fnc_MP; //Update the database.
 [] call life_fnc_gangMenu;

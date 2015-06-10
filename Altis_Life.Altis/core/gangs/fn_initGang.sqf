@@ -39,15 +39,4 @@ if(!isNil "_group") then {
 	_group SVAR ["gang_maxMembers",SEL(life_gangData,3),true];
 	_group SVAR ["gang_bank",SEL(life_gangData,4),true];
 	_group SVAR ["gang_members",SEL(life_gangData,5),true];
-	_gangList = _group GVAR "gang_members";
-	
-	{
-		if(steamid isEqualto (_x select 0))exitWith {
-			if((_x select 1) != profilename) then {
-				_x set [1,profilename];
-				_group setVariable["gang_members",_gangList,true];
-				[[4,grpPlayer],"TON_fnc_updateGang",false,false] call life_fnc_MP;
-			};
-		};
-	} foreach _gangList;
 };
