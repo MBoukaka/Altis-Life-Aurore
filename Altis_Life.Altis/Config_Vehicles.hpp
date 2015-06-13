@@ -636,7 +636,33 @@ class CarShops {
 		vehicles[] = {
 			{ "cl3_dodge_charger_s_camourban", 45000, "restaurant" },
 			{ "cl3_transitNews", 15000, "restaurant" },
-			{ "cl3_Orca_CLN2", 40000, "restaurant" }
+			{ "cl3_Orca_CLN2", 40000, "restaurant" },
+			{ "A3L_EvoXBlack", 24000, "restaurant" },
+			{ "A3L_EvoXRed", 24000, "restaurant" },
+			{ "A3L_EvoXWhite", 24000, "restaurant" },
+			{ "A3L_RX7_Black", 20000, "restaurant" },
+			{ "A3L_RX7_Blue", 20000, "restaurant" },
+			{ "A3L_RX7_Red", 20000, "restaurant" },
+			{ "A3L_RX7_White", 20000, "restaurant" },
+			{ "cl3_440cuda_flannery08", 15000, "restaurant" },
+			{ "cl3_440cuda_flannery12", 15000, "restaurant" },
+			{ "cl3_440cuda_flannery14", 15000, "restaurant" },
+			{ "cl3_440cuda_flannery27", 15000, "restaurant" },
+			{ "cl3_440cuda_flannery51", 15000, "restaurant" },
+			{ "cl3_440cuda_flannery55", 15000, "restaurant" },
+			{ "cl3_440cuda_flannery69", 15000, "restaurant" },
+			{ "cl3_440cuda_flannery70", 15000, "restaurant" },
+			{ "cl3_440cuda_green_Logo", 20000, "restaurant" },
+			{ "cl3_440cuda_yellow_stripe", 20000, "restaurant" },
+			{ "cl3_impreza_rally_black", 20000, "restaurant" },
+			{ "cl3_impreza_rally_blue", 20000, "restaurant" },
+			{ "cl3_impreza_rally_darkgreen", 20000, "restaurant" },
+			{ "cl3_impreza_rally_green", 20000, "restaurant" },
+			{ "cl3_impreza_rally_grey", 20000, "restaurant" },
+			{ "cl3_impreza_rally_light_yellow", 20000, "restaurant" },
+			{ "cl3_impreza_rally_navy_blue", 20000, "restaurant" },
+			{ "cl3_impreza_rally_orange", 20000, "restaurant" },
+			{ "cl3_impreza_rally_red", 20000, "restaurant" }
 		};
 	};
 	
@@ -2871,6 +2897,37 @@ class CfgVehicles {
         chopShop = 8000;
         textures[] = { };
 	};
+	
+	class A3L_RX7_Black {
+		vItemSpace = 50;
+        storageFee[] = { 0, 105, 0, 0 };
+		garageSell[] = { 0, 10000, 0, 0 };
+        insurance = 12000;
+        chopShop = 7500;
+        textures[] = { };
+	};
+	class A3L_RX7_Blue : A3L_RX7_Black {};
+	class A3L_RX7_Red : A3L_RX7_Black {};
+	class A3L_RX7_White : A3L_RX7_Black {};
+	
+	class cl3_440cuda_flannery08 {
+		vItemSpace = 50;
+        storageFee[] = { 0, 105, 0, 0 };
+		garageSell[] = { 0, 5000, 0, 0 };
+        insurance = 7000;
+        chopShop = 5000;
+        textures[] = { };
+	};
+	class cl3_440cuda_flannery12 : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_flannery14 : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_flannery27 : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_flannery51 : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_flannery55 : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_flannery69 : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_flannery70 : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_green_Logo : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_yellow_stripe : cl3_440cuda_flannery08 {};
+	
 		
 //////////////////////////////////////////////////////////////////////////// REB SHOP
 
