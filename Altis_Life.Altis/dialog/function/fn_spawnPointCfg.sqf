@@ -178,9 +178,9 @@ switch (_side) do
 			];
 		};
 		
-		if(license_civ_fal)then {
+		if(license_civ_woex)then {
 			_return = _return + [
-				["house_fal","Base des FAL","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["house_woex","Base WOEX","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		

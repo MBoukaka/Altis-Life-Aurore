@@ -267,7 +267,7 @@ class Licenses {
 	LICENSEMACRO(secte,"STR_License_secte","secte",750,false,"civ")
 	LICENSEMACRO(anisimov,"STR_License_anisimov","anisimov",750,false,"civ")
 	LICENSEMACRO(parrain,"STR_License_parrain","parrain",750,false,"civ")
-	LICENSEMACRO(fal,"STR_License_fal","fal",750,false,"civ")
+	LICENSEMACRO(woex,"STR_License_woex","woex",750,false,"civ")
 	LICENSEMACRO(hool,"STR_License_hool","hool",750,false,"civ")
 	LICENSEMACRO(galbano,"STR_License_galbano","galbano",750,false,"civ")
 	LICENSEMACRO(nostra,"STR_License_nostra","nostra",750,false,"civ")

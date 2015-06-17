@@ -3599,9 +3599,9 @@
 			<Original>Famille Anisimov</Original>
 			<French>Famille Anisimov</French>
 		</Key>
-		<Key ID="STR_License_fal">
-			<Original>Groupe FAL</Original>
-			<French>Groupe FAL</French>
+		<Key ID="STR_License_woex">
+			<Original>Groupe WOEX</Original>
+			<French>Groupe WOEX</French>
 		</Key>
 		<Key ID="STR_License_galbano">
 			<Original>Famille Galbanno</Original>
