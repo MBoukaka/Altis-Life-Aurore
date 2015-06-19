@@ -483,6 +483,14 @@ class CarShops {
 			{ "WP_SUV_01_F", 3500 , "pca" },
 			{ "WP_Offroad", 4500, "pca" },
 			{ "B_MRAP_01_F", 75000, "pca" },
+			{ "A3L_TaurusBlack", 10000, "pca" },
+			{ "A3L_ChargerBlack", 15000, "pca" },
+			{ "cl3_dodge_charger_f_black", 15000, "pca" },
+			{ "civ_mondeo_Black", 6000, "pca" },
+			{ "cl3_crown_victoria_black", 3000, "pca" },
+			{ "cl3_impreza_road_black", 30000, "pca" },
+			{ "cl3_q7_black", 30000, "pca" },
+			{ "cl3_range_rover_black", 6000, "pca" },
 			{ "B_Heli_Light_01_F", 60000, "pca" },
 			{ "O_Heli_Light_02_unarmed_F", 80000, "pca" }
 		};
@@ -880,8 +888,8 @@ class CarShops {
 	class pca_air {
 		side = "cop";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 80000, "pca" },
-			{ "O_Heli_Light_02_unarmed_F", 100000, "pca" }
+			{ "B_Heli_Light_01_F", 60000, "pca" },
+			{ "O_Heli_Light_02_unarmed_F", 80000, "pca" }
 		};
 	};
 	
@@ -2866,6 +2874,44 @@ class CfgVehicles {
 		garageSell[] = { 0, 15000, 0, 0 };
         insurance = 13500;
         chopShop = 950;
+        textures[] = { };
+    };
+	
+//////////////////////////////////////////////////////////////////////////// PSIA SHOP
+
+	class A3L_TaurusBlack  {
+        vItemSpace = 50;
+        storageFee[] = { 0, 105, 0, 0 };
+		garageSell[] = { 0, 5000, 0, 0 };
+        insurance = 4500;
+        chopShop = 2950;
+        textures[] = { };
+    };
+	
+	class cl3_dodge_charger_f_black  {
+        vItemSpace = 50;
+        storageFee[] = { 85, 0, 0, 0 };
+		garageSell[] = { 7500, 0, 0, 0 };
+        insurance = 19500;
+        chopShop = 8000;
+        textures[] = { };
+    };
+	
+	class cl3_crown_victoria_black  {
+        vItemSpace = 50;
+        storageFee[] = { 85, 0, 0, 0 };
+		garageSell[] = { 1000, 0, 0, 0 };
+        insurance = 1300;
+        chopShop = 500;
+        textures[] = { };
+    };
+	
+	class cl3_range_rover_black  {
+		vItemSpace = 50;
+        storageFee[] = { 85, 0, 0, 0 };
+		garageSell[] = { 2000, 0, 0, 0 };
+        insurance = 2500;
+        chopShop = 1000;
         textures[] = { };
     };
 
