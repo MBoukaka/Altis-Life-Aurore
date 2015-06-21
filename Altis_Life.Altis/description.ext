@@ -218,7 +218,7 @@ class CfgNotifications
 	class PoliceDispatch
 	{
 		title = "Centre de secours";
-		iconPicture = "aurore_data\icons\messagepolice.paa";
+		iconPicture = "aurore_data\icons\messagepolice.paa"; //test 
 		description = "%1";
 		duration = 10;
 		priority = 6;
@@ -242,3 +242,4 @@ class CfgNotifications
 		priority = 5;
 	};
 };
+//test 
