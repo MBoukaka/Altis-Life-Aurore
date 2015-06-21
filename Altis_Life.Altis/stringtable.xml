@@ -4197,6 +4197,34 @@
 			<Italian>This item isn't usable.</Italian>
 			<Portuguese>This item isn't usable.</Portuguese>
 		</Key>
+		<Key ID="STR_pInAct_Compil1">
+			<Original>This item isn't usable.</Original>
+			<French>Cet objet n'est pas utilisable.</French>
+		</Key>
+		<Key ID="STR_pInAct_Compil2">
+			<Original>This item isn't usable.</Original>
+			<French>Cet objet n'est pas utilisable.</French>
+		</Key>
+		<Key ID="STR_pInAct_Compil3">
+			<Original>This item isn't usable.</Original>
+			<French>Cet objet n'est pas utilisable.</French>
+		</Key>
+		<Key ID="STR_pInAct_Compil4">
+			<Original>This item isn't usable.</Original>
+			<French>Cet objet n'est pas utilisable.</French>
+		</Key>
+		<Key ID="STR_pInAct_Music1">
+			<Original>This item isn't usable.</Original>
+			<French>Cet objet n'est pas utilisable.</French>
+		</Key>
+		<Key ID="STR_pInAct_Music2">
+			<Original>This item isn't usable.</Original>
+			<French>Cet objet n'est pas utilisable.</French>
+		</Key>
+		<Key ID="STR_pInAct_Music3">
+			<Original>This item isn't usable.</Original>
+			<French>Cet objet n'est pas utilisable.</French>
+		</Key>
 	</Package>
 		<Package name="Process_Action">
 		<Key ID="STR_Process_Oil">
