@@ -1,10 +1,9 @@
-#include <macro.h>
 /*
 	File: fn_sendChannel.sqf
 	Author: alleskapot & Lifted
 	Thanks again for all the help alleskapot!
 	Description:
-	ErmÃ¶glicht senden bzw. die Abfrage des Geschriebenen.
+	Ermöglicht senden bzw. die Abfrage des Geschriebenen.
 
 */
 
@@ -13,19 +12,16 @@ disableSerialization;
 
 waitUntil {!isnull (findDisplay 9000)};
 
-if ( CASH < 5000 ) exitWith { systemChat "Il faut 5.000â‚¬ pour envoyer une pub !!"; }; // Hint if person haves no 6000 dollar
-if (!life_channel_send) exitWith { systemChat "Il faut attendre 15 minutes !!"; }; //Gives Player the Hint to Wait 10 mins
-
-CASH = CASH - 5000;
-[0] call SOCK_fnc_updatePartial;
+if ( life_cash < 6000 ) exitWith { systemChat "Il vous faut 6000 € pour envoyer un message!"; }; // Hint if person haves no 6000 dollar
+if ( playerSide != civilian ) exitWith { systemChat "Vous devez être un civil pour envoyer un message!"; }; // Hint if not civilian
+if !( life_channel_send ) exitWith { systemChat "Attendre 10 minutes avant d'envoyer un nouveau message!"; }; //Gives Player the Hint to Wait 10 mins
+life_cash = life_cash - 6000;
 
 _message = ctrlText 9001;
-[[3,format ["%1 a envoyÃ© un message de AURORE-TV : %2",name player,_message]],"life_fnc_broadcast",true,false] call life_fnc_MP;
-life_channel_send = false;
+[[3,format ["%1 a envoyer un message Radio depuis le Channel 7: %2",name player,_message]],"life_fnc_broadcast",true,false] call life_fnc_MP;
 
 [] spawn
 {
-	sleep 900;
+	sleep 600;
 	life_channel_send = true;
 };
-[] call life_fnc_hudUpdate;
