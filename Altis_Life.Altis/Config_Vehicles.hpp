@@ -747,6 +747,14 @@ class CarShops {
 			{ "Aurore_escobar_hummingbird", 110000, "nostra" }
 		};
 	};
+	
+	class papy_car {
+		side = "civ";
+		vehicles[] = {
+			{ "Aurore_escobar_ifrit", 92500, "papy" },
+			{ "Aurore_escobar_hummingbird", 110000, "papy" }
+		};
+	};
 
 	class cop_car {
 		side = "cop";
