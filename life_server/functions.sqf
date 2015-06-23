@@ -209,71 +209,79 @@ publicVariable "TON_fnc_cell_emsrequest";
 	3 = message from admin
 	4 = admin message to all
 */
-clientMessage =
+TON_fnc_clientMessage =
 compileFinal "
-private[""_msg"",""_from"", ""_type""];
-_msg = _this select 0;
-_from = _this select 1;
-_type = _this select 2;
-if(_from == """") exitWith {};
-switch (_type) do
-{
-case 0 :
-{
-private[""_message""];
-_message = format["">>>MESSAGE FROM %1: %2"",_from,_msg];
-hintSilent parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>New Message<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>You<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
-player say3D ""alert"";
-systemChat _message;
-};
-
-
-case 1 :
-{
-if(side player != west) exitWith {};
-private[""_message""];
-_message = format[""---911 DISPATCH FROM %1: %2"",_from,_msg];
-hintSilent parseText format [""<t color='#316dff'><t size='2'><t align='center'>New Dispatch<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>All Officers<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
-player say3D ""alert"";
-systemChat _message;
-};
-
-
-case 2 :
-{
-if((call life_adminlevel) < 1) exitWith {};
-private[""_message""];
-_message = format[""???ADMIN REQUEST FROM %1: %2"",_from,_msg];
-hintSilent parseText format [""<t color='#ffcefe'><t size='2'><t align='center'>Admin Request<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>Admins<br/><t color='#33CC33'>From: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
-player say3D ""alert""; 
-systemChat _message;
-};
-
-
-case 3 :
-{
-private[""_message""];
-_message = format[""!!!ADMIN MESSAGE: %1"",_msg];
-_admin = format[""Sent by admin: %1"", _from];
-hintSilent parseText format [""<t color='#FF0000'><t size='2'><t align='center'>Admin Message<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>You<br/><t color='#33CC33'>From: <t color='#ffffff'>An Admin<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%1"",_msg];
-player say3D ""alert"";
-
-
-systemChat _message;
-if((call life_adminlevel) > 0) then {systemChat _admin;};
-};
-
-
-case 4 :
-{
-private[""_message"",""_admin""];
-_message = format[""!!!ADMIN MESSAGE: %1"",_msg];
-_admin = format[""Sent by admin: %1"", _from];
-hintSilent parseText format [""<t color='#FF0000'><t size='2'><t align='center'>Admin Message<br/><br/><t color='#33CC33'><t align='left'><t size='1'>To: <t color='#ffffff'>All Players<br/><t color='#33CC33'>From: <t color='#ffffff'>The Admins<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%1"",_msg];
-player say3D ""alert""; 
-systemChat _message;
-if((call life_adminlevel) > 0) then {systemChat _admin;};
-};
-};
+	if(isServer) exitWith {};
+	private[""_msg"",""_from"", ""_type""];
+	_msg = _this select 0;
+	_from = _this select 1;
+	_type = _this select 2;
+	if(_from == """") exitWith {};
+	switch (_type) do
+	{
+		case 0 :
+		{
+			private[""_message""];
+			_message = format["">>>MESSAGE DE %1: %2"",_from,_msg];
+			hint parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>Nouveau Message<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>You<br/><t color='#33CC33'>De: <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			
+			[""TextMessage"",[format[""Tu as reçu un nouveau message prive de %1"",_from]]] call bis_fnc_showNotification;
+			systemChat _message;
+		};
+		
+		case 1 :
+		{
+			if(side player != west) exitWith {};
+			private[""_message""];
+			_message = format[""---ALERTE POLICE %1: %2"",_from,_msg];
+			hint parseText format [""<t color='#316dff'><t size='2'><t align='center'>Alerte Police<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>All Officers<br/><t color='#33CC33'>De : <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			
+			[""PoliceDispatch"",[format[""Nouvelle alerte police de : %1"",_from]]] call bis_fnc_showNotification;
+			systemChat _message;
+		};
+		
+		case 2 :
+		{
+			if((call life_adminlevel) < 1) exitWith {};
+			private[""_message""];
+			_message = format[""???Requete admin de %1: %2"",_from,_msg];
+			hint parseText format [""<t color='#ffcefe'><t size='2'><t align='center'>Requete Admin<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>Admins<br/><t color='#33CC33'>De : <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			
+			[""AdminDispatch"",[format[""%1 demande de l'aide a un admin!"",_from]]] call bis_fnc_showNotification;
+			systemChat _message;
+		};
+		
+		case 3 :
+		{
+			private[""_message""];
+			_message = format[""!!!ADMIN MESSAGE: %1"",_msg];
+			_admin = format[""Sent by admin: %1"", _from];
+			hint parseText format [""<t color='#FF0000'><t size='2'><t align='center'>Message Admin<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>You<br/><t color='#33CC33'>De : <t color='#ffffff'>An Admin<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%1"",_msg];
+			
+			[""AdminMessage"",[""Tu as reçu un message d'un administrateur!""]] call bis_fnc_showNotification;
+			systemChat _message;
+			if((call life_adminlevel) > 0) then {systemChat _admin;};
+		};
+		
+		case 4 :
+		{
+			private[""_message"",""_admin""];
+			_message = format[""!!!ADMIN MESSAGE: %1"",_msg];
+			_admin = format[""Sent by admin: %1"", _from];
+			hint parseText format [""<t color='#FF0000'><t size='2'><t align='center'>Message Admin<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>All Players<br/><t color='#33CC33'>De : <t color='#ffffff'>The Admins<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%1"",_msg];
+			
+			[""AdminMessage"",[""Tu as reçu le message d'un admin !""]] call bis_fnc_showNotification;
+			systemChat _message;
+			if((call life_adminlevel) > 0) then {systemChat _admin;};
+		};
+		
+		case 5: {
+			private[""_message""];
+			_message = format[""!!!EMS REQUEST: %1"",_msg];
+			hint parseText format [""<t color='#FFCC00'><t size='2'><t align='center'>Requete Medecin<br/><br/><t color='#33CC33'><t align='left'><t size='1'>A : <t color='#ffffff'>Tu<br/><t color='#33CC33'>De : <t color='#ffffff'>%1<br/><br/><t color='#33CC33'>Message:<br/><t color='#ffffff'>%2"",_from,_msg];
+			
+			[""TextMessage"",[format[""Requete medecin de %1"",_from]]] call bis_fnc_showNotification;
+		};
+	};
 ";
 publicVariable "TON_fnc_clientMessage";
