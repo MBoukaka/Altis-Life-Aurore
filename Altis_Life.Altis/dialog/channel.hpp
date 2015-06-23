@@ -30,7 +30,7 @@ class controls {
 		class Title : Life_RscTitle {
 			colorBackground[] = {0, 0, 0, 0};
 			idc = -1;
-			text = "Channel 7 News (CH7) ";
+			text = "Aurore TV";
 			x = 0.1;
 			y = 0.2;
 			w = 0.6;
@@ -61,7 +61,7 @@ class controls {
 		class Channel7Description : Life_RscStructuredText
 		{
 			idc = -1;
-			text = "Ce message sera envoyé au personne sur le serveur. Faites attention à ce que vous écrivez!";
+			text = "Ce message sera envoyé aux personnes sur le serveur. Faites attention à ce que vous écrivez!";
 			x = 0.12;
             y = 0.5;
 			w = 0.5;
@@ -80,7 +80,7 @@ class controls {
 		
 		class SendButtonKey : Life_RscButtonMenu {
 			idc = 9005;
-			text = "envoyer";
+			text = "envoyé";
 			onButtonClick = "[] call life_fnc_sendChannel; closeDialog 0;";
 			x = 0.1 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.8 - (1 / 25);

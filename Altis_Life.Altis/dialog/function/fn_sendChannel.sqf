@@ -12,13 +12,13 @@ disableSerialization;
 
 waitUntil {!isnull (findDisplay 9000)};
 
-if ( life_cash < 6000 ) exitWith { systemChat "Il vous faut 6000 € pour envoyer un message!"; }; // Hint if person haves no 6000 dollar
+if ( life_cash < 6000 ) exitWith { systemChat "Il vous faut 10000 € pour envoyer un message!"; }; // Hint if person haves no 10000 dollar
 if ( playerSide != civilian ) exitWith { systemChat "Vous devez être un civil pour envoyer un message!"; }; // Hint if not civilian
 if !( life_channel_send ) exitWith { systemChat "Attendre 10 minutes avant d'envoyer un nouveau message!"; }; //Gives Player the Hint to Wait 10 mins
-life_cash = life_cash - 6000;
+life_cash = life_cash - 10000;
 
 _message = ctrlText 9001;
-[[3,format ["%1 a envoyer un message Radio depuis le Channel 7: %2",name player,_message]],"life_fnc_broadcast",true,false] call life_fnc_MP;
+[[3,format ["%1 a envoyer un message Radio depuis Aurore TV: %2",name player,_message]],"life_fnc_broadcast",true,false] call life_fnc_MP;
 
 [] spawn
 {
