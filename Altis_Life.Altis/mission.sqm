@@ -4191,7 +4191,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1189;
+		items=1192;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -14306,7 +14306,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""papy_air"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store']; this addAction[""Véhicules Papy"",life_fnc_vehicleShopMenu,[""papy_car"",civilian,[""papy_1""],""civ"",""Véhicule Papy""]];
+			init="this enableSimulation false;  this allowDamage false;";
 		};
 		class Item990
 		{
@@ -16366,6 +16366,36 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			init="this enableSimulation false; this allowDamage false;";
+		};
+		class Item1189
+		{
+			position[]={15497.293,17.891544,17248.674};
+			azimut=47.442173;
+			id=1390;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item1190
+		{
+			position[]={15484.102,17.651909,17261.928};
+			azimut=47.442173;
+			id=1391;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
+		};
+		class Item1191
+		{
+			position[]={15472.166,17.3442,17273.098};
+			azimut=47.442173;
+			id=1392;
+			side="EMPTY";
+			vehicle="Land_LampDecor_F";
+			skill=0.60000002;
+			init="this allowDamage false;";
 		};
 	};
 	class Markers
