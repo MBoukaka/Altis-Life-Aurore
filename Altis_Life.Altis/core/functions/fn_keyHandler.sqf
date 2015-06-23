@@ -92,6 +92,7 @@ switch (_code) do {
 			[] spawn life_fnc_spikeStrip;
 			life_inv_spikeStrip = life_inv_spikeStrip - 1;
 			hint "Tu as une herse en main !";
+			};
 		};
 	};
 	
