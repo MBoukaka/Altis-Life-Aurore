@@ -4198,20 +4198,20 @@
 			<Portuguese>This item isn't usable.</Portuguese>
 		</Key>
 		<Key ID="STR_pInAct_Compil1">
-			<Original>Compil 1</Original>
-			<French>Compil 1</French>
+			<Original>Music</Original>
+			<French>Musique</French>
 		</Key>
 		<Key ID="STR_pInAct_Compil2">
-			<Original>Compil 2</Original>
-			<French>Compil 2</French>
+			<Original>Light On</Original>
+			<French>Lumiere On</French>
 		</Key>
 		<Key ID="STR_pInAct_Compil3">
-			<Original>Compil 3</Original>
-			<French>Compil 3</French>
+			<Original>Light Off</Original>
+			<French>Lumiere Off</French>
 		</Key>
 		<Key ID="STR_pInAct_Compil4">
-			<Original>Compil 4</Original>
-			<French>Compil 4</French>
+			<Original>Fumigene</Original>
+			<French>Fumigene</French>
 		</Key>
 		<Key ID="STR_pInAct_Music1">
 			<Original>Année 80</Original>
