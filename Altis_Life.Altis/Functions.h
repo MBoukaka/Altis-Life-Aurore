@@ -449,7 +449,5 @@ class Life_Client_Core
 		class gangDeposit {};
 		class wireTransfer {};
 		class InsureCar {};
-		class calldialog {};  
-	    class sendChannel {};
 	};
 };
