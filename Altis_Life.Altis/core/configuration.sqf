@@ -88,7 +88,8 @@ switch (playerSide) do {
 /*
 	Master Array of items?
 */
-life_vShop_rentalOnly = ["B_G_Offroad_01_armed_F]; 
+//Setup variable inv vars.
+{
 	SVAR_MNS [ITEM_VARNAME(configName _x),0];
 } foreach ("true" configClasses (missionConfigFile >> "VirtualItems"));
 
