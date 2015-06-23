@@ -922,6 +922,7 @@ class WeaponShops {
         items[] = {
 		{ "ItemRadio", "Carte SIM", 50 },
 		{ "B_UavTerminal","Terminal Drone",225 },
+		{ "Laserbatteries","telecommande",125 },
 		{ "H_Beret_blk","",100 },
 		{ "srifle_LRR_SOS_F","",21500 },
 		{ "7Rnd_408_Mag","",200 },
@@ -1037,6 +1038,7 @@ class WeaponShops {
         items[] = {
 		{ "ItemRadio", "Carte SIM", 50 },
 		{ "B_UavTerminal", "", 50 },
+		{ "Laserbatteries","telecommande",25 },
 		{ "H_Beret_Colonel","",500 },
 		{ "DDOPP_X26_b","Tazer",100 },
 		{ "DDOPP_1Rnd_X26","Munitions 16V",5 },
