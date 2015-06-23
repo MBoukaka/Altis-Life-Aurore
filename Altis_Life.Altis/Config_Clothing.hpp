@@ -863,7 +863,7 @@ class Clothing {
 		};
 	};
 	
-	class monte {
+	class papy {
 		title = "Vêtements Papy";
 		license = "papy";
 		side = "civ";
