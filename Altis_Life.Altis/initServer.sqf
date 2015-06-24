@@ -22,3 +22,4 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "mapping\fdckavala.sqf";
 [] execVM "mapping\bureaufal.sqf";
 [] execVM "mapping\caviar.sqf";
+[] execVM "mapping\bijoux.sqf";
