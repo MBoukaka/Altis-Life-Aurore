@@ -13982,7 +13982,7 @@ class Mission
 		};
 		class Item952
 		{
-			position[]={22858.553,0,23651.865};
+			position[]={19330.775,-0.010772593,20008.424};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -13996,7 +13996,7 @@ class Mission
 		};
 		class Item953
 		{
-			position[]={22874.783,0,23720.838};
+			position[]={19347.006,8.9114532e-005,20077.396};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14010,7 +14010,7 @@ class Mission
 		};
 		class Item954
 		{
-			position[]={22928.586,0,23582.33};
+			position[]={19400.809,-0.0047156787,19938.889};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14024,7 +14024,7 @@ class Mission
 		};
 		class Item955
 		{
-			position[]={22912.23,0,23653.115};
+			position[]={19384.453,0.012487843,20009.674};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14038,7 +14038,7 @@ class Mission
 		};
 		class Item956
 		{
-			position[]={22965.172,0,23693.654};
+			position[]={19437.395,-0.0041940454,20050.213};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14052,7 +14052,7 @@ class Mission
 		};
 		class Item957
 		{
-			position[]={22975.582,0,23729.889};
+			position[]={19447.805,0.012177352,20086.447};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14066,7 +14066,7 @@ class Mission
 		};
 		class Item958
 		{
-			position[]={22863.857,0,23591.947};
+			position[]={19336.08,0.008374894,19948.506};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14080,7 +14080,7 @@ class Mission
 		};
 		class Item959
 		{
-			position[]={22956.504,0,23614.611};
+			position[]={19428.727,0.0051493025,19971.17};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14094,7 +14094,7 @@ class Mission
 		};
 		class Item960
 		{
-			position[]={22986.816,0,23648.123};
+			position[]={19459.039,0.0081654536,20004.682};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14108,7 +14108,7 @@ class Mission
 		};
 		class Item961
 		{
-			position[]={22998.051,0,23672.775};
+			position[]={19470.273,0.0039015394,20029.334};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14122,7 +14122,7 @@ class Mission
 		};
 		class Item962
 		{
-			position[]={22930.641,0,23745.49};
+			position[]={19402.863,-0.011528302,20102.049};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -14136,7 +14136,7 @@ class Mission
 		};
 		class Item963
 		{
-			position[]={22916.965,0,23697.33};
+			position[]={19389.188,-0.0085550491,20053.889};
 			azimut=180;
 			offsetY=-100;
 			special="NONE";
@@ -18772,7 +18772,7 @@ class Mission
 		};
 		class Item285
 		{
-			position[]={22923.008,0,23665.178};
+			position[]={19395.23,0.00055325637,20021.736};
 			name="Heimdall_12";
 			text="Fouille Archéologique";
 			type="mil_dot";
@@ -18780,7 +18780,7 @@ class Mission
 		};
 		class Item286
 		{
-			position[]={22923.344,0,23665.021};
+			position[]={19395.566,0.00058911648,20021.58};
 			name="coke_area_2_1";
 			markerType="ELLIPSE";
 			type="Empty";
