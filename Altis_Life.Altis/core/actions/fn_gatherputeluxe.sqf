@@ -15,7 +15,7 @@ if(_sum > 0) then
     titleText["Tu emballes la dame...","PLAIN"];
     titleFadeOut 6;
     sleep 6;
-    if(([true,"relique",_sum] call life_fnc_handleInv)) then
+    if(([true,"puteluxe",_sum] call life_fnc_handleInv)) then
     {
         titleText[format["Tu as emballé %1 callgirl ! Ramène là a son Mac pour une récompense !",_sum],"PLAIN"];
     };
