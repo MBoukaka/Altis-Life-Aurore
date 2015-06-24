@@ -85,8 +85,7 @@ class WeaponShops {
 		{ "SmokeShellYellow","",200 },
 		{ "SmokeShellPurple","",200 },
 		{ "SmokeShellBlue","",200 },
-		{ "SmokeShellOrange","",200 },
-		{ "muzzle_snds_H_MG","",2000 }
+		{ "SmokeShellOrange","",200 }
 		};
 	};
 	class wp {
@@ -158,7 +157,6 @@ class WeaponShops {
 		{ "muzzle_snds_H","",500 },
 		{ "muzzle_snds_B","",500 },		
 		{ "muzzle_snds_acp","",500 },
-		{ "muzzle_snds_H_MG","",500 },
 		{ "acc_flashlight","",50 },
 		{ "Binocular","",15 },
 		{ "ItemMap","",5 },
