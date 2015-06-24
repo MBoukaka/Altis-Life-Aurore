@@ -4290,7 +4290,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1192;
+		items=1193;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16495,6 +16495,16 @@ class Mission
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
 			init="this allowDamage false;";
+		};
+		class Item1192
+		{
+			position[]={16689.748,3.6417871,20473.543};
+			azimut=363.522;
+			id=1398;
+			side="EMPTY";
+			vehicle="Land_BarGate_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false;";
 		};
 	};
 	class Markers

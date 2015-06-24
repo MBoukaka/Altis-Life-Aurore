@@ -322,15 +322,6 @@ if (true) then
 	_this setPos [16698.582, 20476.646, 0.00012731552];
 };
 
-_vehicle_82 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_BarGate_F", [16690.846, 20472.977, 0.00015544891], [], 0, "CAN_COLLIDE"];
-	_vehicle_82 = _this;
-	_this setDir 6.0822544;
-	_this setPos [16690.846, 20472.977, 0.00015544891];
-};
-
 _vehicle_84 = objNull;
 if (true) then
 {
@@ -378,24 +369,6 @@ if (true) then
 	_this setDir -82.201263;
 	_this setVehicleAmmo 0.89999998;
 	_this setPos [16691.432, 20465.422, 0.020717381];
-};
-
-_vehicle_117 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_ChairWood_F", [16698.314, 20490.012, 3.9815903e-005], [], 0, "CAN_COLLIDE"];
-	_vehicle_117 = _this;
-	_this setDir -172.58382;
-	_this setPos [16698.314, 20490.012, 3.9815903e-005];
-};
-
-_vehicle_120 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_WoodenTable_large_F", [16698.443, 20491.328, 4.3392181e-005], [], 0, "CAN_COLLIDE"];
-	_vehicle_120 = _this;
-	_this setDir 4.9597802;
-	_this setPos [16698.443, 20491.328, 4.3392181e-005];
 };
 
 _vehicle_122 = objNull;
@@ -468,51 +441,6 @@ if (true) then
 	_vehicle_137 = _this;
 	_this setDir -21.230858;
 	_this setPos [16689.412, 20534.529, -1.8119812e-005];
-};
-
-_vehicle_140 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_ChairWood_F", [16699.318, 20490.955, 0.00035047531], [], 0, "CAN_COLLIDE"];
-	_vehicle_140 = _this;
-	_this setDir -263.88596;
-	_this setPos [16699.318, 20490.955, 0.00035047531];
-};
-
-_vehicle_143 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_ChairWood_F", [16699.367, 20491.795, 0.00011396408], [], 0, "CAN_COLLIDE"];
-	_vehicle_143 = _this;
-	_this setDir -263.88596;
-	_this setPos [16699.367, 20491.795, 0.00011396408];
-};
-
-_vehicle_145 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_ChairWood_F", [16698.588, 20492.889, 7.2479248e-005], [], 0, "CAN_COLLIDE"];
-	_vehicle_145 = _this;
-	_this setDir -351.05219;
-	_this setPos [16698.588, 20492.889, 7.2479248e-005];
-};
-
-_vehicle_147 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_ChairWood_F", [16697.693, 20491.977, 9.3698502e-005], [], 0, "CAN_COLLIDE"];
-	_vehicle_147 = _this;
-	_this setDir -444.87155;
-	_this setPos [16697.693, 20491.977, 9.3698502e-005];
-};
-
-_vehicle_150 = objNull;
-if (true) then
-{
-	_this = createVehicle ["Land_ChairWood_F", [16697.664, 20491.094, 0.00035858154], [], 0, "CAN_COLLIDE"];
-	_vehicle_150 = _this;
-	_this setDir -444.87155;
-	_this setPos [16697.664, 20491.094, 0.00035858154];
 };
 
 _vehicle_158 = objNull;
