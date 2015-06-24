@@ -1145,8 +1145,6 @@ class Clothing {
 		vests[] = {
 			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
 			{ "V_TacVestIR_blk", "PCA Vest", 125, { "", "", -1 } },
-			{ "V_PlateCarrierGL_rgr", "", 200, { "", "", -1 } },
-			{ "V_PlateCarrierSpec_blk", "", 200, { "", "", -1 } },
 			{ "demian2435_police_vest", "", 200, { "", "", -1 } },
 			{ "V_TacVest_blk_POLICE", "", 200, { "", "", -1 } }
 		};
