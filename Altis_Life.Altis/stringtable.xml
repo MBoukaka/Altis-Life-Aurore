@@ -54,6 +54,14 @@
 			<Original>Kebab sauce Blanche</Original>
 			<French>Kebab</French>
 		</Key>
+		<Key ID="STR_Item_pute">
+			<Original>Prositutée</Original>
+			<French>Prostituée</French>
+		</Key>
+		<Key ID="STR_Item_puteluxe">
+			<Original>Call Girl</Original>
+			<French>Call Girl</French>
+		</Key>
 		<Key ID="STR_Item_bijoux">
 			<Original>Bijoux</Original>
 			<French>Bijoux</French>

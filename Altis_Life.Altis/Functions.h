@@ -110,6 +110,8 @@ class Life_Client_Core
 	{
 		file = "core\actions";
 		class gatherReliques {};
+		class gatherpute {};
+		class gatherputeluxe {};
 		class gatherOeuf {};
 		class radarFlash {};
 		class radarFlash50 {};

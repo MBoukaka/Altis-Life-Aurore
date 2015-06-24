@@ -209,7 +209,7 @@ switch (_side) do
 		};
 		
 		if(license_civ_caviar) then {
-			_return = [
+			_return = _return + [
 				["caviar_spawn","Les Caviars","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};

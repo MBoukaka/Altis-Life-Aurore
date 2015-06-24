@@ -159,6 +159,8 @@ class VirtualItems {
 	VITEMMACRO(resine, "STR_Item_resine", "resine", 2, -1, 293, true, -1, "icons\ico_resine.paa")
 	VITEMMACRO(cocaine_unprocessed, "STR_Item_CocaineU", "cocaineUnprocessed", 6, -1, 130, true, -1, "aurore_data2\icons\items\cocain_unprocessed.paa")
 	VITEMMACRO(cocaine_processed, "STR_Item_CocaineP", "cocaineProcessed", 4, -1, 340, true, -1, "icons\ico_cocainep.paa")
+	VITEMMACRO(pute, "STR_Item_pute", "pute", 4, -1, 340, true, -1, "")
+	VITEMMACRO(puteluxe, "STR_Item_puteluxe", "putelux", 4, -1, 340, true, -1, "")
 
 	//Drink
 	VITEMMACRO(redgull, "STR_Item_RedGull", "redgull", 3, 32, -1, false, 100, "aurore_data2\icons\items\redgull.paa")
@@ -294,6 +296,11 @@ class VirtualShops {
 	class rebmarket {
 		name = "STR_Shops_Rebel";
 		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "kebab" };
+	};
+	
+	class pute {
+		name = "STR_Shops_pute";
+		items[] = { "pute","puteluxe" };
 	};
 	
 	class escomarket {
