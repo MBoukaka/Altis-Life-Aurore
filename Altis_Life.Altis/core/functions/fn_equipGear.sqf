@@ -17,6 +17,13 @@ if(playerSide == civilian) then {
 			[[player,"aurore_data\textures\treillis_bw.jpg"], "life_fnc_setTexture", true, true] spawn life_fnc_MP;
 		};
 	};
+	if (license_civ_papy) then
+	{
+		if ((uniform player) == "U_B_CombatUniform_mcam") then
+		{
+			[[player,"aurore_data\textures\treillis_bw.jpg"], "life_fnc_setTexture", true, true] spawn life_fnc_MP;
+		};
+	};
 	if (license_civ_dep) then
 	{
 		if ((uniform player) == "U_Rangemaster") then
