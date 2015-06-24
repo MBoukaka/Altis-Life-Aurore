@@ -9,7 +9,7 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "B_Quadbike_01_F", 550, "driver" },
-			{ "cl3_lada_white", 750, "driver" }, 
+			{ "cl3_lada_white", 750, "driver" },
 			{ "cl3_volha_black", 950, "driver" },
 			{ "cl3_golf_mk2_burgundy", 950, "driver" },
 			{ "cl3_civic_vti_aqua", 950, "driver" },
@@ -709,8 +709,8 @@ class CarShops {
 			{ "cl3_impreza_road_camo", 72500, "rebel" },
 			{ "cl3_z4_2008_camo", 20000, "rebel" },
 			{ "cl3_z4_2008_camo_urban", 20000, "rebel" },
-			{ "cl3_dodge_charger_f_camourban", 35000, "rebel" },
-			{ "cl3_dodge_charger_f_camo", 35000, "rebel" },
+			{ "cl3_dodge_charger_f_camourban", 50000, "rebel" },
+			{ "cl3_dodge_charger_f_camo", 50000, "rebel" },
 			{ "cl3_458_camo", 92500, "rebel" },
 			{ "cl3_458_camo_urban", 92500, "rebel" },
 			{ "cl3_carrera_gt_camo_urban", 92500, "rebel" },
