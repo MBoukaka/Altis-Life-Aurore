@@ -6,7 +6,7 @@
 	Description:
 	Main functionality for pickaxe in mining.
 */
-private["_mine","_itemWeight","_diff","_itemName"_val"];
+private["_mine","_itemWeight","_diff","_itemName"];
 _mine = [];
 switch (true) do {
 	case (player distance (getMarkerPos "lead_1") < 30): {_mine = ["copper_unrefined",2];};
@@ -31,7 +31,7 @@ switch (true) do {
 if(EQUAL(SEL(_mine, 0),"")) exitWith {hint localize "STR_ISTR_Pick_NotNear"};
 if(vehicle player != player) exitWith {hint localize "STR_ISTR_Pick_MineVeh";};
 if(life_action_inUse) exitWith {hint "Tu n'as que deux mains !";};
-_diff = [_mine,_val,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
+_diff = [SEL(_mine,0),SEL(_mine,1),life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
 if(_diff == 0) exitWith {hint localize "STR_NOTF_InvFull"};
 
 closeDialog 0;
