@@ -14966,13 +14966,13 @@ class Mission
 		};
 		class Item1046
 		{
-			position[]={14258.486,2.9685121,13059.59};
+			position[]={14231.086,0.92311049,13069.783};
 			azimut=1820.85;
 			id=1252;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false;  this addAction[""Magasin de Bateaux"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""scarface_ship"",""civ"",""Scarface bateaux""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""tchong_ship""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+			init="this enableSimulation false;  this allowDamage false;  this addAction[""Magasin de Bateaux"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""tchong_ship"",""civ"",""Scarface bateaux""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""tchong_ship""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
 		class Item1047
 		{
@@ -19507,10 +19507,10 @@ class Mission
 		};
 		class Item380
 		{
-			position[]={14255.761,-0.088678524,13111.282};
+			position[]={14255.168,-0.0042133466,13108.913};
 			name="tchong_ship";
 			type="Empty";
-			angle=239.74698;
+			angle=352.70749;
 		};
 		class Item381
 		{
