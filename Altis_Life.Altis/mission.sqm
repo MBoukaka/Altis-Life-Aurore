@@ -19256,7 +19256,7 @@ class Mission
 		};
 		class Item347
 		{
-			position[]={20775.99,76.129837,9328.4102};
+			position[]={19986.541,69.136162,9802.3682};
 			name="rye_1";
 			text="Champ de Seigle";
 			type="hd_dot";
@@ -19264,7 +19264,7 @@ class Mission
 		};
 		class Item348
 		{
-			position[]={20780.717,75.839302,9326.0527};
+			position[]={19988.992,68.996437,9805.6992};
 			name="explo_area_1";
 			markerType="ELLIPSE";
 			type="Empty";
@@ -19274,7 +19274,7 @@ class Mission
 		};
 		class Item349
 		{
-			position[]={16517.928,4.2910624,9847.0264};
+			position[]={18549.332,65.467651,10773.832};
 			name="hops_1";
 			text="Champ de Houblon";
 			type="hd_dot";
@@ -19282,7 +19282,7 @@ class Mission
 		};
 		class Item350
 		{
-			position[]={16522.654,4.7114892,9844.6689};
+			position[]={18554.059,65.035484,10771.475};
 			name="explo_area_1_1";
 			markerType="ELLIPSE";
 			type="Empty";
