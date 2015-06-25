@@ -935,7 +935,8 @@ class CarShops {
 			{ "cl3_traffic_mh9_sport", 65000, "ateam" },
 			{ "cl3_Orca_Westpac", 75000, "ateam" },
 			{ "CL3_EMT_mohawk_FG", 85000, "ateam" },
-			{ "O_Heli_Transport_04_bench_F", 100000, "ateam" }
+			{ "O_Heli_Transport_04_bench_F", 100000, "ateam" },
+			{ "B_MRAP_01_F", 75000, "ateam" }
 		};
 	};
 	
