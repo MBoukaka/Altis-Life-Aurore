@@ -744,7 +744,8 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "Aurore_escobar_ifrit", 92500, "nostra" },
-			{ "Aurore_escobar_hummingbird", 110000, "nostra" }
+			{ "Aurore_escobar_hummingbird", 110000, "nostra" },
+			{ "cl3_Orca_Club7", 135000, "nostra" }
 		};
 	};
 	
@@ -752,7 +753,8 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "Aurore_escobar_ifrit", 92500, "papy" },
-			{ "Aurore_escobar_hummingbird", 110000, "papy" }
+			{ "Aurore_escobar_hummingbird", 110000, "papy" },
+			{ "cl3_Orca_Club7", 135000, "papy" }
 		};
 	};
 
@@ -3423,6 +3425,15 @@ class CfgVehicles {
             } }
         };
     };
+	
+	class cl3_Orca_Club7 {
+        vItemSpace = 55;
+        storageFee[] = { 2500, 0, 0, 0 };
+		garageSell[] = { 57000, 0, 0, 0 };
+        insurance = 75000;
+        chopShop = 4500;
+        textures[] = {};
+	};
 
 	class I_Heli_Transport_02_F {
         vItemSpace = 110;
