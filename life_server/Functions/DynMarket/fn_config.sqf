@@ -79,6 +79,7 @@ DYNMARKET_Items_ToTrack        =
 	["cement",260],
 	["turtle_raw",930],
 	["explo",250],
+	["goldbar",1350],
 	["pute",2900],
 	["puteluxe",6500],
 	["billet",368],
