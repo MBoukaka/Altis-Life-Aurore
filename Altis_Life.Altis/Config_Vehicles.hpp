@@ -961,6 +961,14 @@ class CarShops {
 		vehicles[] = {
 			{ "Digital_suv", 1100, "bandit" },
 			{ "B_G_Offroad_01_F", 4500, "bandit" },
+			{ "cl3_golf_mk2_camo_urban", 4000, "bandit" },
+			{ "cl3_golf_mk2_camo", 4000, "bandit" },
+			{ "cl3_civic_vti_camo_urban", 4000, "bandit" },
+			{ "cl3_polo_gti_camo_urban", 3500, "bandit" },
+			{ "cl3_polo_gti_camo", 3500, "bandit" },
+			{ "cl3_defender_110_cammo", 3800, "bandit" },
+			{ "cl3_taurus_camo", 32500, "bandit" },
+			{ "cl3_taurus_camo_urban", 32500, "bandit" },
 			{ "B_Heli_Light_01_F", 90000, "bandit" }
 		};
 	};
