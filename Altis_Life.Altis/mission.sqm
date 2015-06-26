@@ -11182,7 +11182,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\genstore.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this setObjectTexture [0, ""images\genstore.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""]; this addAction[""Magasin de vêtements"",life_fnc_clothingMenu,""bruce""];";
 		};
 		class Item679
 		{
@@ -17340,7 +17340,7 @@ class Mission
 		{
 			position[]={16813.639,22.626057,12623.604};
 			name="Gen_2";
-			text="M.G";
+			text="M.G / M.V";
 			type="c_unknown";
 			colorName="ColorGreen";
 		};
