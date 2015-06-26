@@ -3168,7 +3168,7 @@ class CfgVehicles {
     };
 
 	class C_Boat_Civil_01_F {
-        vItemSpace = 85;
+        vItemSpace = 100;
         storageFee[] = { 75, 75, 0, 0 };
 		garageSell[] = { 850, 850, 0, 0 };
         insurance = 900;
@@ -3186,7 +3186,7 @@ class CfgVehicles {
     };
 	
 	class CL3_Basic_Fishing_blue {
-        vItemSpace = 115;
+        vItemSpace = 300;
         storageFee[] = { 95, 0, 0, 0 };
 		garageSell[] = { 4500, 0, 0, 0 };
         insurance = 8500;
