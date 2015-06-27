@@ -10516,8 +10516,9 @@ class Mission
 		};
 		class Item613
 		{
-			position[]={3033.2366,1.9369086,12624.172};
-			azimut=145.647;
+			position[]={3019.6992,0,12641.471};
+			azimut=-39.204201;
+			offsetY=2.2;
 			id=820;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -17016,7 +17017,7 @@ class Mission
 		};
 		class Item41
 		{
-			position[]={3033.2761,1.9369665,12624.11};
+			position[]={3019.5845,0,12641.486};
 			name="boat_2";
 			text="Vendeur de bateau";
 			type="c_ship";
@@ -20074,10 +20075,10 @@ class Mission
 		};
 		class Item432
 		{
-			position[]={3331.1877,0,14659.313};
+			position[]={3405.8232,0,14589.297};
 			name="civ_ship_1_1";
 			type="Empty";
-			angle=53.3591;
+			angle=-39.253071;
 		};
 	};
 	class Sensors
