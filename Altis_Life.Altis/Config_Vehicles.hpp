@@ -433,14 +433,6 @@ class CarShops {
 			{ "A3L_F350Red", 20000, "driver" },
 			{ "A3L_F350White", 20000, "driver" },
 			{ "A3L_F350Mex", 20000, "driver" },
-			{ "S_Rangerover_Red", 22000, "driver" },
-			{ "S_Rangerover_Black", 22000, "driver" },
-			{ "S_Rangerover_Blue", 22000, "driver" },
-			{ "S_Rangerover_Green", 22000, "driver" },
-			{ "S_Rangerover_Purple", 22000, "driver" },
-			{ "S_Rangerover_Grey", 22000, "driver" },
-			{ "S_Rangerover_Orange", 22000, "driver" },
-			{ "S_Rangerover_White", 22000, "driver" },
 			{ "Orel_F308", 26000, "driver" },
 			{ "exxpensive_jaguar_base", 66500, "driver" },
 			{ "exxpensive_mercedes_sls_base", 65000, "driver" },
@@ -2037,20 +2029,6 @@ class CfgVehicles {
 	class A3L_F350Red : A3L_F350Black {};
 	class A3L_F350White : A3L_F350Black {};
 	class A3L_F350Mex : A3L_F350Black {};
-	class S_Rangerover_Black {
-        vItemSpace = 74;
-        storageFee[] = { 145, 0, 0, 0 };
-		garageSell[] = { 14000, 0, 0, 0 };
-        insurance = 18500;
-        chopShop = 1456;
-        textures[] = { };
-    };
-	class S_Rangerover_Blue : S_Rangerover_Black {};
-	class S_Rangerover_Green : S_Rangerover_Black {};
-	class S_Rangerover_Purple : S_Rangerover_Black {};
-	class S_Rangerover_Grey : S_Rangerover_Black {};
-	class S_Rangerover_Orange : S_Rangerover_Black {};
-	class S_Rangerover_White : S_Rangerover_Black {};
 	class Orel_F308 {
         vItemSpace = 45;
         storageFee[] = { 125, 0, 0, 0 };
