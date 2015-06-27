@@ -65,7 +65,8 @@ class Mission
 		"A3_Characters_F_Kart",
 		"A3_Structures_F_Ind_Shed",
 		"orel_characters",
-		"A3_Characters_F_Gamma"
+		"A3_Characters_F_Gamma",
+		"A3_Structures_F_Bootcamp_Training"
 	};
 	addOnsAuto[]=
 	{
@@ -123,6 +124,7 @@ class Mission
 		"orel_objects",
 		"A3_Structures_F_EPB_Civ_Accessories",
 		"A3_Structures_F_Ind_Shed",
+		"A3_Structures_F_Bootcamp_Training",
 		"a3_map_altis"
 	};
 	randomSeed=2004553;
@@ -4310,7 +4312,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1196;
+		items=1211;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -12734,7 +12736,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this setObjectTexture [0, ""images\cop_gun.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide == west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""coastguard"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""coastguard"",0,false,false,"""",' !license_cop_cg && playerSide == west ']; this addAction[""Shop Item"",life_fnc_virt_menu,""cop""];  this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Habits Gendarmerie"",life_fnc_clothingMenu,""cop""];  this addAction[""Shop Recrue"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Shop officier"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Shop officier supp"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""Shop des generaux"",life_fnc_weaponShopMenu,""cop_colonel""];  this addAction[""Gendarmerie Bienfaiteur"",life_fnc_weaponShopMenu,""cop_aurore""];";
 		};
 		class Item828
 		{
@@ -16555,6 +16557,141 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_1_1""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1196
+		{
+			position[]={9100.5381,17.299225,21418.346};
+			azimut=51.392731;
+			id=1403;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1197
+		{
+			position[]={9099.0654,17.253567,21420.195};
+			azimut=51.392731;
+			id=1404;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1198
+		{
+			position[]={9097.6074,17.229574,21422.143};
+			azimut=51.392731;
+			id=1405;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1199
+		{
+			position[]={9164.0225,16.992216,21466.424};
+			azimut=51.392731;
+			id=1406;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1200
+		{
+			position[]={9162.5498,16.95669,21468.273};
+			azimut=51.392731;
+			id=1407;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1201
+		{
+			position[]={9161.0918,16.919014,21470.221};
+			azimut=51.392731;
+			id=1408;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1202
+		{
+			position[]={9227.6396,16.619173,21514.238};
+			azimut=51.392731;
+			id=1409;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1203
+		{
+			position[]={9226.167,16.619675,21516.088};
+			azimut=51.392731;
+			id=1410;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1204
+		{
+			position[]={9224.709,16.619942,21518.035};
+			azimut=51.392731;
+			id=1411;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1205
+		{
+			position[]={9267.5527,16.917072,21544.732};
+			azimut=51.392731;
+			id=1412;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1206
+		{
+			position[]={9266.0801,16.957531,21546.582};
+			azimut=51.392731;
+			id=1413;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1207
+		{
+			position[]={9264.6221,16.981157,21548.529};
+			azimut=51.392731;
+			id=1414;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1208
+		{
+			position[]={9297.5137,17.063976,21564.254};
+			azimut=51.392731;
+			id=1415;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1209
+		{
+			position[]={9296.041,17.084679,21566.104};
+			azimut=51.392731;
+			id=1416;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
+		};
+		class Item1210
+		{
+			position[]={9294.583,17.105717,21568.051};
+			azimut=51.392731;
+			id=1417;
+			side="EMPTY";
+			vehicle="TargetBootcampHumanSimple_F";
+			skill=0.60000002;
 		};
 	};
 	class Markers
