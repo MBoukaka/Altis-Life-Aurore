@@ -78,7 +78,7 @@ class WeaponShops {
 		{ "gign_shield","Bouclier",60000 },
 		{ "H_Beret_Colonel","",50000 },
 		{ "H_Beret_blk","",30000 },
-		{ "Rangefinder","",5000 },
+		{ "Rangefinder","",10000 },
 		{ "SmokeShell","",200 },
 		{ "SmokeShellRed","",200 },
 		{ "SmokeShellGreen","",200 },
