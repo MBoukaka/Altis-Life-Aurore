@@ -472,7 +472,6 @@ class WeaponShops {
 		{ "acc_flashlight","",200 }
         };
     };
-	
 	class scarface {
         name = "Scarface";
         side = "civ";
@@ -540,8 +539,7 @@ class WeaponShops {
 		{ "muzzle_mas_snds_SH","Silencieux SVD",800 },
 		{ "acc_flashlight","",200 }
 		};
-	};
-	
+	};	
     class gang {
         name = "Hideout Armament";
         side = "civ";
@@ -725,7 +723,7 @@ class WeaponShops {
 			{ "optic_ACO_grn_smg","",75 },
 			{ "optic_MRCO","",100 },
 			{ "optic_NVS","",200 },
-			{ "NVGoggles","",35 },
+			{ "NVGoggles_mas_h","",35 },
 			{ "optic_mas_zeiss","",50 },
 			{ "optic_mas_zeiss_eo","",50 },
 			{ "optic_mas_acog","",50 },
@@ -800,7 +798,7 @@ class WeaponShops {
 		{ "ItemGPS","",10 },
 		{ "ToolKit","",25 },
 		{ "FirstAidKit","",15 },
-		{ "NVGoggles","",200 },
+		{ "NVGoggles_mas_h","",200 },
 		{ "Orel_Matraque","Matraque",50 },
 		{ "Chemlight_red","",30 },
 		{ "Chemlight_yellow","",30 },
@@ -896,7 +894,7 @@ class WeaponShops {
 		{ "ItemGPS","",10 },
 		{ "ToolKit","",25 },
 		{ "FirstAidKit","",15 },
-		{ "NVGoggles","",200 },
+		{ "NVGoggles_mas_h","",200 },
 		{ "Rangefinder","",200 },
 		{ "Orel_Matraque","Matraque",50 },
 		{ "Chemlight_red","",30 },
@@ -1012,7 +1010,7 @@ class WeaponShops {
 		{ "ItemGPS","",10 },
 		{ "ToolKit","",25 },
 		{ "FirstAidKit","",15 },
-		{ "NVGoggles","",200 },
+		{ "NVGoggles_mas_h","",200 },
 		{ "Rangefinder","",200 },
 		{ "Orel_Matraque","Matraque",50 },
 		{ "Chemlight_red","",30 },
@@ -1127,7 +1125,7 @@ class WeaponShops {
 		{ "ItemGPS","",10 },
 		{ "ToolKit","",25 },
 		{ "FirstAidKit","",15 },
-		{ "NVGoggles","",200 },
+		{ "NVGoggles_mas_h","",200 },
 		{ "Rangefinder","",200 },
 		{ "Orel_Matraque","Matraque",50 },
 		{ "Chemlight_red","",30 },
