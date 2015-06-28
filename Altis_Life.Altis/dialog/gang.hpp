@@ -80,6 +80,18 @@ class Life_My_Gang_Diag {
 			h = (1 / 25);
 		};
 		
+		class GangLock : Life_RscButtonMenu 
+		{
+			idc = 2622;
+			text = "$STR_Gang_UpgradeSlots";
+			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+			onButtonClick = "[] spawn life_fnc_gangUpgrade";
+			x = 0.47;
+			y = 0.31;
+			w = (9 / 40);
+			h = (1 / 25);
+		};
+		
 		class GangKick : Life_RscButtonMenu 
 		{
 			idc = 2624;
