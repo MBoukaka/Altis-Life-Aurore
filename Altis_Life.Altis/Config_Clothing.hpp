@@ -764,9 +764,9 @@ class Clothing {
 		};
 	};	
 				
-    class ubn {
-		title = "Vêtements UBN";
-		license = "ubn";
+    class dw {
+		title = "Vêtements DW";
+		license = "delta";
 		side = "civ";
 		
 		uniforms[] = {
@@ -779,7 +779,8 @@ class Clothing {
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
 			{ "H_Booniehat_mcamo", "", 100, { "", "", -1 } },
-			{ "H_HelmetB_light", "", 85, { "", "", -1 } }
+			{ "H_HelmetB_light", "", 85, { "", "", -1 } },
+			{ "H_Beret_blk", "Beret DeltaWolf", 200, { "", "", -1 } }
 		};
 		
 		goggles[] = {
