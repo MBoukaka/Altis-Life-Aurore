@@ -4312,7 +4312,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1211;
+		items=1212;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -14475,8 +14475,8 @@ class Mission
 		};
 		class Item994
 		{
-			position[]={20965.428,16.153095,19266.375};
-			azimut=1063.1836;
+			position[]={4898.9331,334.68011,21873.025};
+			azimut=1113.0963;
 			id=1201;
 			side="EMPTY";
 			vehicle="Land_HelipadCivil_F";
@@ -14484,8 +14484,8 @@ class Mission
 		};
 		class Item995
 		{
-			position[]={20945.787,14.112103,19257.619};
-			azimut=311.44885;
+			position[]={4879.5845,333.9632,21882.426};
+			azimut=361.36124;
 			id=1202;
 			side="EMPTY";
 			vehicle="Land_JumpTarget_F";
@@ -14493,8 +14493,8 @@ class Mission
 		};
 		class Item996
 		{
-			position[]={20955.572,16.682222,19279.711};
-			azimut=1707.29;
+			position[]={4885.5557,334.3591,21874.438};
+			azimut=1645.0719;
 			id=1203;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -14503,8 +14503,8 @@ class Mission
 		};
 		class Item997
 		{
-			position[]={20952.84,15.811373,19272.234};
-			azimut=1239.62;
+			position[]={4887.0088,334.45892,21873.764};
+			azimut=1285.5461;
 			id=1204;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -14513,8 +14513,8 @@ class Mission
 		};
 		class Item998
 		{
-			position[]={20954.566,16.058779,19272.949};
-			azimut=426.61301;
+			position[]={4888.3618,334.54913,21873.213};
+			azimut=563.00708;
 			id=1205;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
@@ -15743,7 +15743,7 @@ class Mission
 		};
 		class Item1122
 		{
-			position[]={14236.494,20.148943,16231.185};
+			position[]={14232.5,20.126043,16233.281};
 			azimut=1650.9863;
 			id=1329;
 			side="EMPTY";
@@ -15762,7 +15762,7 @@ class Mission
 		};
 		class Item1124
 		{
-			position[]={14247.314,20.198158,16225.75};
+			position[]={14249.021,20.213139,16224.121};
 			azimut=1738.3;
 			id=1331;
 			side="EMPTY";
@@ -15772,7 +15772,7 @@ class Mission
 		};
 		class Item1125
 		{
-			position[]={14246.449,20.215183,16224.087};
+			position[]={14248.156,20.230268,16222.458};
 			azimut=1020.2;
 			id=1332;
 			side="EMPTY";
@@ -15912,7 +15912,7 @@ class Mission
 		};
 		class Item1138
 		{
-			position[]={14246.563,20.205818,16225.091};
+			position[]={14248.271,20.22101,16223.462};
 			azimut=-422.82135;
 			id=1345;
 			side="EMPTY";
@@ -15923,7 +15923,7 @@ class Mission
 		};
 		class Item1139
 		{
-			position[]={14246.53,20.205612,16225.111};
+			position[]={14248.237,20.220823,16223.482};
 			azimut=-244.39426;
 			id=1346;
 			side="EMPTY";
@@ -16694,10 +16694,21 @@ class Mission
 			vehicle="TargetBootcampHumanSimple_F";
 			skill=0.60000002;
 		};
+		class Item1211
+		{
+			position[]={21642.951,0,20839.201};
+			azimut=134.802;
+			offsetY=2;
+			id=1418;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Magasin de bateaux"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_3_2"",""civ"",""Billy's Boat Rentals & Ownership""]];  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_3_2""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
 	};
 	class Markers
 	{
-		items=433;
+		items=436;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -19227,24 +19238,24 @@ class Mission
 		};
 		class Item318
 		{
-			position[]={20945.707,14.107619,19257.443};
+			position[]={4879.3999,333.95416,21882.367};
 			name="woex_1";
 			type="Empty";
-			angle=-137.705;
+			angle=-239.96263;
 		};
 		class Item319
 		{
-			position[]={20954.416,16.85,19285.012};
+			position[]={4893.4028,334.66589,21885.924};
 			name="house_woex";
 			type="Empty";
-			angle=837.53802;
+			angle=927.96234;
 		};
 		class Item320
 		{
-			position[]={20965.736,16.178238,19266.113};
+			position[]={4898.9326,334.68747,21872.633};
 			name="woex_air";
 			type="Empty";
-			angle=-263.17801;
+			angle=-238.58055;
 		};
 		class Item321
 		{
@@ -19596,7 +19607,7 @@ class Mission
 		{
 			position[]={9185.7637,14.617209,21636.574};
 			name="marker_cop_centre";
-			text="Centre d'entrainement";
+			text="Centre d'entrainement gendarmerie";
 			type="mil_dot";
 			colorName="ColorWEST";
 		};
@@ -19924,7 +19935,7 @@ class Mission
 		};
 		class Item412
 		{
-			position[]={14236.485,20.144926,16231.614};
+			position[]={14232.491,20.122015,16233.711};
 			name="a_air_2";
 			type="Empty";
 			angle=297.2951;
@@ -20080,6 +20091,28 @@ class Mission
 			name="civ_ship_1_1";
 			type="Empty";
 			angle=-39.253071;
+		};
+		class Item433
+		{
+			position[]={21642.896,0,20839.193};
+			name="boat_2_1_1_1";
+			type="c_ship";
+			colorName="ColorWhite";
+		};
+		class Item434
+		{
+			position[]={21659.836,0,20838.773};
+			name="civ_ship_3_2";
+			type="Empty";
+			angle=180.491;
+		};
+		class Item435
+		{
+			position[]={21970.215,19.377577,21030.809};
+			name="=A=_1_1";
+			text="=A=";
+			type="c_air";
+			colorName="ColorGreen";
 		};
 	};
 	class Sensors
