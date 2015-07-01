@@ -4202,7 +4202,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14525.654,22.702782,17660.061};
+					position[]={20935.211,45.602543,17031.475};
 					azimut=8.8817701;
 					id=201;
 					side="WEST";
@@ -4221,8 +4221,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12359.285,24.356279,15653.51};
-					azimut=-110.36736;
+					position[]={19359.594,38.815823,13226.302};
+					azimut=-222.77917;
 					id=202;
 					side="WEST";
 					vehicle="C_Travello1";
@@ -4240,8 +4240,9 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={9137.6094,126.05421,15855.928};
-					azimut=154.40251;
+					position[]={7171.6431,108.39021,16373.64};
+					azimut=-24.908899;
+					offsetY=1.3;
 					id=203;
 					side="WEST";
 					vehicle="C_Travello1";
@@ -4259,8 +4260,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12718.966,2.0098853,14251.783};
-					azimut=143.04855;
+					position[]={3619.5791,2.4198925,10851.198};
+					azimut=-13.748184;
 					id=204;
 					side="WEST";
 					vehicle="C_Travello2";
@@ -4278,8 +4279,9 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={16522.668,2.27,12577.804};
-					azimut=195.2451;
+					position[]={20601.068,0,19508.564};
+					azimut=-241.319;
+					offsetY=4;
 					id=205;
 					side="WEST";
 					vehicle="C_Travello2";
