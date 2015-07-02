@@ -11,7 +11,7 @@ private["_sum","_stones"];
 _item = [_this select 3,0,"",[""]] call BIS_fnc_param;
 _count = [_this select 3,1,1,[1]] call BIS_fnc_param;
 
-_stones = ["diamond_uncut","copper_unrefined","iron_unrefined","rock","salt","oil_unprocessed","bois","sand"];
+_stones = ["diamond_uncut","copperore","ironore","rock","salt","oil_unprocessed","bois","sand"];
 
 if (life_inv_pickaxe < 1 && _item in _stones) exitWith { hint "Il faut avoir un outil de récolte !"; };
 
