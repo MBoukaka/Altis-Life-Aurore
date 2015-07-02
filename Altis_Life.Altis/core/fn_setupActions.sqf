@@ -87,46 +87,6 @@ switch (playerSide) do
 				// Suicide Bomb
 				life_actions = life_actions + [player addAction["Activer la veste explosive",life_fnc_suicideBomb,"",0,false,false,"",
 				'vest player == "V_HarnessOGL_gry" && alive player && playerSide == civilian && !life_istazed && !(player getVariable "restrained") && !(player getVariable "Escorting") && !(player getVariable "transporting")']];
-				
-				//Récolte ressources
-		life_actions = life_actions + [player addAction["Récolter la cocaine",life_fnc_gatherAction,["cocaine_unprocessed",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "cocaine_1") < 80) && (vehicle player == player) && (life_carryWeight + (["cocaine_unprocessed"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter du Cannabis",life_fnc_gatherAction,["cannabis",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "weed_1") < 80) && (vehicle player == player) && (life_carryWeight + (["cannabis"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter Heroine",life_fnc_gatherAction,["heroin_unprocessed",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "heroin_1") < 80) && (vehicle player == player) && (life_carryWeight + (["heroin_unprocessed"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter Cuivre",life_fnc_gatherAction,["copper_unrefined",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "lead_1") < 80) && (vehicle player == player) && (life_carryWeight + (["copper_unrefined"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter Sel",life_fnc_gatherAction,["salt_unrefined",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "salt_1") < 80) && (vehicle player == player) && (life_carryWeight + (["salt_unrefined"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter Sable",life_fnc_gatherAction,["sand",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "sand_1") < 80) && (vehicle player == player) && (life_carryWeight + (["sand"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter Pétrole",life_fnc_gatherAction,["oil_unprocessed",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "oil_1") < 80) OR (player distance (getMarkerPos "oil_2") < 80) && (vehicle player == player) && (life_carryWeight + (["oil_unprocessed"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter Fer",life_fnc_gatherAction,["iron_unrefined",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "iron_1") < 80) && (vehicle player == player) && (life_carryWeight + (["iron_unrefined"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter Roche",life_fnc_gatherAction,["rock",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "rock_1") < 80) && (vehicle player == player) && (life_carryWeight + (["rock"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter Diamant",life_fnc_gatherAction,["diamond_uncut",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "diamond_1") < 80) && (vehicle player == player) && (life_carryWeight + (["diamond_uncut"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter du Bois",life_fnc_gatherAction,["bois",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "bois_1") < 80) && (vehicle player == player) && (life_carryWeight + (["bois"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter les Pommes",life_fnc_gatherAction,["apple",3],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "apple_1") < 80) OR (player distance (getMarkerPos "apple_2") < 80) OR (player distance (getMarkerPos "apple_3") < 80) OR (player distance (getMarkerPos "apple_4") < 80)&& (vehicle player == player) && (life_carryWeight + (["apple"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter les Pêches",life_fnc_gatherAction,["peach",3],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "peaches_1") < 80) OR (player distance (getMarkerPos "peaches_2") < 80) OR (player distance (getMarkerPos "peaches_3") < 80) OR (player distance (getMarkerPos "peaches_4") < 80)&& (vehicle player == player) && (life_carryWeight + (["peach"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		
-		//alcool
-		life_actions = life_actions + [player addAction["Récolter du Seigle",life_fnc_gatherAction,["rye",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "rye_1") < 80) && (vehicle player == player) && (life_carryWeight + (["rye"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		life_actions = life_actions + [player addAction["Récolter des Levures",life_fnc_gatherAction,["yeast",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "hops_1") < 80) && (vehicle player == player) && (life_carryWeight + (["hops"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		//champ by heimdall @Aurore
-		life_actions = life_actions + [player addAction["Récolter des Champignons",life_fnc_gatherAction,["champ",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "champ_1") < 80) && (vehicle player == player) && (life_carryWeight + (["champ"] call life_fnc_itemWeight)) <= life_maxWeight ']];
-		//Poudre explosive by heimdall @Aurore
-		life_actions = life_actions + [player addAction["Récolter de la poudre",life_fnc_gatherAction,["poudre",1],0,false,false,"",'
-		!life_action_in_use && (player distance (getMarkerPos "explo_1") < 80) && (vehicle player == player) && (life_carryWeight + (["poudre"] call life_fnc_itemWeight)) <= life_maxWeight ']];
 	};
 	
 	case independent:
