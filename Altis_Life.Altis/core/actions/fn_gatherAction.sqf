@@ -6,7 +6,7 @@
 	Master gathering script, to replace all inferior scripts!
 */
 
-private["_sum","_stones"];
+private["_sum","_stones","_wood"];
 
 _item = [_this select 3,0,"",[""]] call BIS_fnc_param;
 _count = [_this select 3,1,1,[1]] call BIS_fnc_param;
