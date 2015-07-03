@@ -17337,7 +17337,7 @@ class Mission
 		};
 		class Item78
 		{
-			position[]={3238.106,43.547558,18700.422};
+			position[]={10291.515,72.191879,16909.432};
 			name="weed_1";
 			text="Champ de cannabis";
 			type="mil_dot";
