@@ -138,6 +138,22 @@ class CarShops {
 		side = "civ";
 		vehicles[] = {
 			{ "cl3_suv_black", 18000 , "driver" },
+			{ "cl3_escalade_black", 30000 , "driver" },
+			{ "cl3_escalade_blue", 30000 , "driver" },
+			{ "cl3_escalade_marina_blue", 30000 , "driver" },
+			{ "cl3_escalade_light_blue", 30000 , "driver" },
+			{ "cl3_escalade_aqua", 30000 , "driver" },
+			{ "cl3_escalade_green", 30000 , "driver" },
+			{ "cl3_escalade_lime", 30000 , "driver" },
+			{ "cl3_escalade_light_yellow", 30000 , "driver" },
+			{ "cl3_escalade_burgundy", 30000 , "driver" },
+			{ "cl3_escalade_red", 30000 , "driver" },
+			{ "cl3_escalade_orange", 30000 , "driver" },
+			{ "cl3_escalade_gold", 30000 , "driver" },
+			{ "cl3_escalade_sand", 30000 , "driver" },
+			{ "cl3_escalade_babypink", 30000 , "driver" },
+			{ "cl3_escalade_grey", 30000 , "driver" },
+			{ "cl3_escalade_white", 30000 , "driver" },
 			{ "A3L_ChargerWhite", 25000, "driver" },
 			{ "A3L_ChargerBlack", 25000, "driver" },
 			{ "cl3_taurus_gold", 25000, "driver" },
@@ -439,6 +455,7 @@ class CarShops {
 			{ "exxpensive_ford_raptor_base", 62500, "driver" },
 			{ "exxpensive_Koenigsegg_base", 78500, "driver" },
 			{ "exxpensive_ferrari_458_base", 78500, "driver" },
+			{ "Exxpensive_leferrari_base", 250000, "driver" },
 			{ "exxpensive_aventador_base", 78500, "driver" },
 			{ "exxpensive_bugatti_base", 88500, "driver" },
 			{ "exxpensive_audi_R8_base", 60500, "driver" },
@@ -494,6 +511,7 @@ class CarShops {
 			{ "Dep_Offroad", 2000, "dep" }, 
 			{ "cl3_f150repo_orange", 20000, "dep" }, 
 			{ "B_Truck_01_mover_F", 35000, "dep" }, 
+			{ "Orel_Master", 7500, "dep" },
 			{ "B_Heli_Light_01_F", 60000, "dep" }
 		};
 	};
@@ -884,6 +902,7 @@ class CarShops {
 			{ "cl3_aventador_lp7004_gold", 85000, "", { "life_donator", 3 } },
 			{ "cl3_aventador_lp7004_flame1", 85000, "", { "life_donator", 3 } },
 			{ "cl3_aventador_lp7004_flame2", 85000, "", { "life_donator", 3 } },
+			{ "Exxpensive_leferrari_base", 175000, "", { "life_donator", 3 } },
 			
 			{ "O_Truck_03_covered_F", 73000, "", { "life_donator", 3 } },
 			{ "A3L_Dumptruck", 83000, "", { "life_donator", 3 } },
@@ -1745,6 +1764,30 @@ class CfgVehicles {
     };
 	class A3L_EvoXBlack : A3L_EvoXWhite {};
 	class A3L_EvoXRed : A3L_EvoXWhite {};
+	class cl3_escalade_black {
+        vItemSpace = 65;
+        storageFee[] = { 135, 0, 0, 0 };
+		garageSell[] = { 20000, 0, 0, 0 };
+        insurance = 25000;
+        chopShop = 10750;
+        textures[] = { };
+	};
+	class cl3_escalade_black : cl3_escalade_black {};
+	class cl3_escalade_blue : cl3_escalade_black {};
+	class cl3_escalade_marina_blue : cl3_escalade_black {};
+	class cl3_escalade_light_blue : cl3_escalade_black {};
+	class cl3_escalade_aqua : cl3_escalade_black {};
+	class cl3_escalade_green : cl3_escalade_black {};
+	class cl3_escalade_lime : cl3_escalade_black {};
+	class cl3_escalade_light_yellow : cl3_escalade_black {};
+	class cl3_escalade_burgundy : cl3_escalade_black {};
+	class cl3_escalade_red : cl3_escalade_black {};
+	class cl3_escalade_orange : cl3_escalade_black {};
+	class cl3_escalade_gold : cl3_escalade_black {};
+	class cl3_escalade_sand : cl3_escalade_black {};
+	class cl3_escalade_babypink : cl3_escalade_black {};
+	class cl3_escalade_grey : cl3_escalade_black {};
+	class cl3_escalade_white : cl3_escalade_black {};
 	class cl3_dodge_chargerum_f_black {
         vItemSpace = 65;
         storageFee[] = { 135, 0, 0, 0 };
@@ -1990,10 +2033,10 @@ class CfgVehicles {
 	class cl3_aventador_lp7004_white : cl3_458_gold {};
 	class cl3_aventador_lp7004_yellow : cl3_458_gold {};
 	class Exxpensive_leferrari_base {
-        vItemSpace = 65;
+        vItemSpace = 50;
         storageFee[] = { 1500, 0, 0, 0 };
-		garageSell[] = { 250000, 0, 0, 0 };
-        insurance = 300000;
+		garageSell[] = { 150000, 0, 0, 0 };
+        insurance = 200000;
         chopShop = 25000;
         textures[] = { 
 			{ "Noir", "civ", {
