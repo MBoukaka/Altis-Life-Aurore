@@ -112,6 +112,7 @@ class Life_Client_Core
 		class gatherReliques {};
 		class gatherpute {};
 		class gatherputeluxe {};
+		class gatherAction {};
 		class gatherOeuf {};
 		class radarFlash {};
 		class radarFlash50 {};
