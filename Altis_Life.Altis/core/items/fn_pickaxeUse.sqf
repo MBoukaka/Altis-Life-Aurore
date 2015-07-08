@@ -9,22 +9,7 @@
 private["_mine","_itemWeight","_diff","_itemName"];
 _mine = [];
 switch (true) do {
-	case (player distance (getMarkerPos "lead_1") < 30): {_mine = ["copper_unrefined",2];};
-	case (player distance (getMarkerPos "iron_1") < 30): {_mine = ["iron_unrefined",2];};
-	case (player distance (getMarkerPos "salt_1") < 120) : {_mine = ["salt_unrefined",4];};
-	case (player distance (getMarkerPos "sand_1") < 75) : {_mine = ["sand",5];};
-	case (player distance (getMarkerPos "diamond_1") < 50): {_mine = ["diamond_uncut",3];};
-	case (player distance (getMarkerPos "oil_1") < 40) : {_mine = ["oil_unprocessed",1];};
-	case (player distance (getMarkerPos "oil_2") < 40) : {_mine = ["oil_unprocessed",1];};
-	case (player distance (getMarkerPos "rock_1") < 50): {_mine = ["rock",2];};
-	case (player distance (getMarkerPos "explo_1") < 50): {_mine = ["poudre",2];};
-	case (player distance (getMarkerPos "heroin_1") < 50): {_mine = ["heroin_unprocessed",2];};
-	case (player distance (getMarkerPos "cocaine_1") < 50): {_mine = ["cocaine_unprocessed",2];};
-	case (player distance (getMarkerPos "weed_1") < 50): {_mine = ["cannabis",2];};
-	case (player distance (getMarkerPos "champ_1") < 50): {_mine = ["champ",1];};
-	case (player distance (getMarkerPos "rye_1") < 50): {_mine = ["rye",2];};
-	case (player distance (getMarkerPos "hops_1") < 50): {_mine = ["hops",3];};
-	case (player distance (getMarkerPos "bois_1") < 50): {_mine = ["bois",3];};
+	case (player distance (getMarkerPos "laisservide") < 30): {_mine = ["laisservide",2];};
 	default {["", 0]};
 };
 //Mine check
