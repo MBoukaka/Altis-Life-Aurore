@@ -1772,7 +1772,6 @@ class CfgVehicles {
         chopShop = 10750;
         textures[] = { };
 	};
-	class cl3_escalade_black : cl3_escalade_black {};
 	class cl3_escalade_blue : cl3_escalade_black {};
 	class cl3_escalade_marina_blue : cl3_escalade_black {};
 	class cl3_escalade_light_blue : cl3_escalade_black {};
