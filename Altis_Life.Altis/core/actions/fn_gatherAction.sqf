@@ -15,7 +15,7 @@ _stones = ["diamond_uncut","copper_unrefined","iron_unrefined","rock","salt","oi
 
 if (life_inv_pickaxe < 1 && _item in _stones) exitWith { hint "Il faut avoir un outil de récolte !"; };
 
-_itemName = M_CONFIG(getText,"VirtualItems",_item,"displayName");
+__itemName = M_CONFIG(getText,"VirtualItems",_item,"displayName");
 
 titleText[format["Récolte de %1...",_itemName],"PLAIN"];
 
