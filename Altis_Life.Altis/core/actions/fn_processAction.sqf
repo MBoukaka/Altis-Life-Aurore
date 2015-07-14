@@ -55,7 +55,7 @@ _newItem = SEL(_itemInfo,1);
 _cost = SEL(_itemInfo,2);
 _upp = SEL(_itemInfo,3);
 
-if(_vendor in [mari_processor,coke_processor,heroin_processor,pro_1,pro_2,process_peau,papy_1,caviar_1,bijoux_1]) then {
+if(_vendor in [mari_processor,coke_processor,heroin_processor,pro_1,pro_2,process_peau,papy_1,caviar_1,bijoux_1,coffee_1]) then {
 	_hasLicense = true;
 } else {
 	_hasLicense = LICENSE_VALUE(_type,"civ");
