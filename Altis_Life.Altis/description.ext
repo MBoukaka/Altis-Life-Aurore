@@ -74,6 +74,12 @@ class CfgFunctions
 class CfgSounds
 {
 	sounds[] = {};
+	class intro2015
+	{
+		name = "intro2015";
+		sound[] = {"\sounds\intro2015.ogg", 1.0, 1};
+		titles[] = {};
+	};
 	class earplug
 	{
 		name = "earplug";

@@ -8,7 +8,7 @@ waitUntil {alive player};
 showCinemaBorder true;
 camUseNVG false;
  
-playSound "iseefire";
+playSound "intro2015";
  
 for "_x" from 0 to 20 do 
 {
