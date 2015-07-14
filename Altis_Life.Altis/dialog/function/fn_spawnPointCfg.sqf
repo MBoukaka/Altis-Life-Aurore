@@ -114,7 +114,8 @@ switch (_side) do
 		
 		if(license_civ_delta)then {
 			_return = _return + [
-				["delta_spawn","Groupe Delta Wolf","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["delta_spawn","Groupe Delta Wolf","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["resine_spawn","Coffee Shop","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		

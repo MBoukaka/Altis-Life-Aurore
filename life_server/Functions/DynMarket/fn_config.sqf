@@ -66,7 +66,7 @@ DYNMARKET_Items_Groups =
 DYNMARKET_Items_ToTrack        = 
 [
 	["oil_processed",210],
-	["resine",393],
+	["resine",693],
 	["caviar",500],
 	["charbon",210],
 	["champ",120],

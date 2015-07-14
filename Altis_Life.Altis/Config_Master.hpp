@@ -202,6 +202,7 @@ class VirtualItems {
 	VITEMMACRO(frite, "STR_Item_frite", "frite", 2, 75, -1, false, 40, "icons\ico_frite.paa")
 	VITEMMACRO(coca, "STR_Item_coca", "coca", 2, 75, -1, false, 50, "icons\ico_coca.paa")
 	VITEMMACRO(pizza, "STR_Item_pizza", "pizza", 2, 75, -1, false, 50, "icons\ico_pizza.paa")
+	VITEMMACRO(tea, "STR_Item_tea", "tea", 2, 75, -1, false, 50, "")
 };
 
 
@@ -291,6 +292,11 @@ class VirtualShops {
 	class market {
 		name = "STR_Shops_Market";
 		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "storagesmall", "storagebig", "kebab" };
+	};
+	
+	class coffee {
+		name = "STR_Shops_coffee";
+		items[] = { "waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "peach", "kebab", "pizza", "donut", "coffee", "tea" };
 	};
 
 	class rebmarket {

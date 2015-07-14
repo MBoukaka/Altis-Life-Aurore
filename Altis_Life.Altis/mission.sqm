@@ -14886,7 +14886,7 @@ class Mission
 		};
 		class Item1036
 		{
-			position[]={5319.0679,90.307472,11490.198};
+			position[]={12073.357,23.700298,15056.893};
 			azimut=218.98849;
 			id=1243;
 			side="EMPTY";
@@ -16721,7 +16721,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
-			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_delta && playerSide == civilian '];  this addAction[""Vêtements DW"",life_fnc_clothingMenu,""dw"",0,false,false,"""",' license_civ_delta && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_delta && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché Coffee"",life_fnc_virt_menu,""coffee"",0,false,false,"""",' license_civ_delta && playerSide == civilian '];  this addAction[""Vêtements DW"",life_fnc_clothingMenu,""dw"",0,false,false,"""",' license_civ_delta && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_delta && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
 		};
 		class Item1214
 		{
@@ -19641,7 +19641,7 @@ class Mission
 		};
 		class Item367
 		{
-			position[]={5319.0063,90.30851,11490.467};
+			position[]={12073.296,23.706268,15057.161};
 			name="resine_1";
 			text="Vente de résine de Cannabis";
 			type="mil_dot";
@@ -20152,7 +20152,7 @@ class Mission
 		class Item437
 		{
 			position[]={12818.59,10.080353,14308.881};
-			name="Coffee Shop";
+			name="Coffee_Shop";
 			text="Coffee Shop";
 			type="loc_Tourism";
 			colorName="ColorGreen";

@@ -34,9 +34,17 @@
 			<Original>Vendeur chasse</Original>
 			<French>Vendeur chasse</French>
 		</Key>
+		<Key ID="STR_Shops_coffee">
+			<Original>Marché du Coffee</Original>
+			<French>Marché du Coffee</French>
+		</Key>
 		<Key ID="STR_Item_TurtleMeat">
 			<Original>Tortue</Original>
 			<French>Tortue</French>
+		</Key>
+		<Key ID="STR_Item_tea">
+			<Original>Thé Noir</Original>
+			<French>Thé Noir</French>
 		</Key>
 		<Key ID="STR_Item_charbon">
 			<Original>Charbon de bois</Original>

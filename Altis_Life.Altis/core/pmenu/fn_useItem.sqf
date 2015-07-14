@@ -12,7 +12,7 @@ if(EQUAL(lbCurSel 2005,-1)) exitWith {hint localize "STR_ISTR_SelectItemFirst";}
 _item = CONTROL_DATA(2005);
 
 switch (true) do {
-	case (_item in ["waterBottle","coffee","redgull","coca"]): {
+	case (_item in ["waterBottle","coffee","redgull","coca","tea"]): {
 		if(([false,_item,1] call life_fnc_handleInv)) then {
 			life_thirst = 100;
 			if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 0;};
