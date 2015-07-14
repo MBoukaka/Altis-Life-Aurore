@@ -16696,12 +16696,13 @@ class Mission
 		class Item1211
 		{
 			position[]={12819.366,4.1599998,14311.364};
-			azimut=596.01154;
+			azimut=596.01202;
 			offsetY=0.2;
 			id=1418;
 			side="EMPTY";
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
+			text="coffee_1";
 			init="this enableSimulation false;  this allowDamage false; this addAction[""Traitement de la résine"",life_fnc_processAction,""esco"",0,false,false,"""",' life_inv_marijuana > 0 && license_civ_delta && !life_is_processing'];";
 		};
 		class Item1212
