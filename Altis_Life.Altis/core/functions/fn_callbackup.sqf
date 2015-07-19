@@ -9,4 +9,4 @@ _backupTime = 300;
 life_callBackup = false;
 sleep _backupTime + 320;
 life_callBackup = true;
-hint format ["%1 Tu peux appeler des renforts à nouveau !",name player];
+hint format ["%1, Tu peux appeler des renforts à nouveau !",name player];
