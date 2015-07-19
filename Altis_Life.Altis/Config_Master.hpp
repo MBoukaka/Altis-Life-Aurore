@@ -30,6 +30,7 @@ class Life_Settings {
 	/* Persistent Settings */
 	save_civ_weapons = true; //Allow civilians to save weapons on them?
 	save_virtualItems = true; //Save Virtual items (all sides)?
+	life_callBackup = true; 
 
 	/* Revive system settings */
 	revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
@@ -44,6 +45,7 @@ class Life_Settings {
 	gang_upgradeMultiplier = 2.5; //Not sure if in use?
 
 	/* Player-related systems */
+	
 	enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
 	total_maxWeight = 14; //Identifies the max carrying weight (gets adjusted throughout game when wearing different types of clothing).
 	total_maxWeightT = 14;  //Static variable for the maximum weight allowed without having a backpack
