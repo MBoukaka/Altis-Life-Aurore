@@ -6,6 +6,6 @@ hint localize "STR_Item_backup";
 _backupmsg = createMarkerLocal [("_backupmsg" + name _player), getPos _player];
 _backupmsg setMarkerTypeLocal "mil_warning";
 _backupmsg setMarkerColorLocal "colorRed";
-_backupmsg setMarkerTextLocal format ["%1 a besoin de renfort ici",name _player];
+_backupmsg setMarkerTextLocal format ["%1 a besoin de renforts ici",name _player];
 sleep _deleteTime;
 deleteMarkerLocal _backupmsg;
