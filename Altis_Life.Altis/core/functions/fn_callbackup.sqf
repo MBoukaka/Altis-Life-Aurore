@@ -4,7 +4,7 @@
     Description: Lets a officer request backup VIA scroll menu, made for AltisLifeRPG.com
 */
 if(!life_callBackup) exitWith {hint "Tu ne peux pas faire sa maintenant !"};
-_backupTime = 60;
+_backupTime = 300;
 [[player,_backupTime],"life_fnc_backupCall",west,false] call life_fnc_MP;
 life_callBackup = false;
 sleep _backupTime + 320;

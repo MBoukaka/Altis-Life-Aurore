@@ -5293,8 +5293,8 @@
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>
 		<Key ID="STR_Item_backup">
-			<Original>%1 a besoin de renforts !</Original>
-			<French>%1 a besoin de renforts !</French>
+			<Original>Un collègue à besoin de renforts !</Original>
+			<French>Un collègue à besoin de renforts !</French>
 		</Key>
 	</Package>
 	<Package name="Crimes">
