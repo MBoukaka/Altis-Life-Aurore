@@ -239,6 +239,7 @@ class Life_Client_Core
 		class hudSetup {};
 		class hudUpdate {};
 		class tazeSound {};
+		class callbackup {};
 		class animSync {};
 		class simDisable {};
 		class keyHandler {};
