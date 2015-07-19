@@ -53,7 +53,6 @@ if (playerSide == west) then {
 	{ deleteMarkerLocal _x; } forEach _rebellemarkers;
 };
 
-};
 
 //part of alcohol system written by [midgetgrimm]
 [] spawn
