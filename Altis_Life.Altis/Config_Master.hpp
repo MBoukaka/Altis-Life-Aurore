@@ -30,6 +30,7 @@ class Life_Settings {
 	/* Persistent Settings */
 	save_civ_weapons = true; //Allow civilians to save weapons on them?
 	save_virtualItems = true; //Save Virtual items (all sides)?
+	life_callBackup = true; 
 
 	/* Revive system settings */
 	revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
