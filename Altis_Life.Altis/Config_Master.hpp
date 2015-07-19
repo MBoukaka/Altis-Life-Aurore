@@ -285,6 +285,7 @@ class Licenses {
 	LICENSEMACRO(VNC,"STR_License_VNC","VNC",750,false,"civ")
 	LICENSEMACRO(dozen,"STR_License_dozen","dozen",750,false,"civ")
 	LICENSEMACRO(mikhailov,"STR_License_mikhailov","mikhailov",750,false,"civ")
+	LICENSEMACRO(mikhailov,"STR_License_kenzy","kenzy",750,false,"civ")
 	
 };
 

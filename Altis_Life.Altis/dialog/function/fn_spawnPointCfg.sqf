@@ -125,6 +125,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_kenzy)then {
+			_return = _return + [
+				["house_kenzy","McKenzy","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_goa)then {
 			_return = _return + [
 				["goa_spawn","Groupe GoA","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]

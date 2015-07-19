@@ -4311,7 +4311,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1215;
+		items=1219;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -16428,7 +16428,7 @@ class Mission
 			vehicle="Land_InfoStand_V1_F";
 			skill=0.60000002;
 			text="caviar_1_1";
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Taille du bijoux"",life_fnc_processAction,""bijoux"",0,false,false,"""",' life_inv_diamondCut > 0 && license_civ_bijoux && !life_is_processing']; this addAction[""Bijouterie"",life_fnc_virt_menu,""bijoux"",0,false,false,"""",' license_civ_bijoux && playerSide == civilian '];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Taille du bijoux"",life_fnc_processAction,""bijoux"",0,false,false,"""",' life_inv_diamondCut > 0 && license_civ_bijoux && !life_is_processing']; this addAction[""Bijouterie"",life_fnc_virt_menu,""bijoux"",0,false,false,"""",' license_civ_bijoux && playerSide == civilian ']; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 '];";
 		};
 		class Item1184
 		{
@@ -16734,10 +16734,49 @@ class Mission
 			skill=0.60000002;
 			init="this setObjectTexture [0, ""images\garage_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""delta_10"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
 		};
+		class Item1215
+		{
+			position[]={23495.436,90.363289,21157.656};
+			azimut=120.03688;
+			id=1422;
+			side="EMPTY";
+			vehicle="Land_JumpTarget_F";
+			skill=0.60000002;
+		};
+		class Item1216
+		{
+			position[]={23487.346,92.630226,21110.461};
+			azimut=1805.6775;
+			id=1423;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\gun.jpg""]; this enableSimulation false; this allowDamage false; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Marché rebel"",life_fnc_virt_menu,""rebmarket"",0,false,false,"""",' license_civ_kenzy && playerSide == civilian '];  this addAction[""Vêtements rebelles"",life_fnc_clothingMenu,""reb"",0,false,false,"""",' license_civ_kenzy && playerSide == civilian'];  this addAction[""Armes Rebelles"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_kenzy && playerSide == civilian'];this addAction[""Magasin Général"",life_fnc_weaponShopMenu,""genstore""];";
+		};
+		class Item1217
+		{
+			position[]={23499.945,90.488754,21143.264};
+			azimut=1223.9395;
+			id=1424;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_car.jpg""]; this enableSimulation false;  this allowDamage false; this addAction[""Mon garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""kenzy_car"";  }];  this addAction[""Ranger dans le garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];";
+		};
+		class Item1218
+		{
+			position[]={23501.09,90.494324,21144.223};
+			azimut=501.40326;
+			id=1425;
+			side="EMPTY";
+			vehicle="Land_InfoStand_V1_F";
+			skill=0.60000002;
+			init="this setObjectTexture [0, ""images\garage_air.jpg""]; this enableSimulation false;  this allowDamage false;  this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Air"",player],""TON_fnc_getVehicles"",DB_Dest,false] call life_fnc_MP;  life_garage_type = ""Air""; createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""kenzy_air"";  }]; this addAction[""Ranger au garage"",  {   private[""_nearVehicle""];   _nearVehicle = nearestObjects[(getPos (_this select 0)),[""Car"",""Ship"",""Air""],35] select 0;   if(isNil ""_nearVehicle"") exitWith {hint ""There isn't a vehicle near this NPC."";};   [[_nearVehicle,false,(_this select 1)],""TON_fnc_vehicleStore"",false,false] call life_fnc_MP;   hint ""The server is trying to store the vehicle please wait...."";   life_garage_store = true;  },"""",0,false,false,"""",'!life_garage_store'];";
+		};
 	};
 	class Markers
 	{
-		items=438;
+		items=441;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -20157,6 +20196,27 @@ class Mission
 			text="Coffee Shop";
 			type="loc_Tourism";
 			colorName="ColorGreen";
+		};
+		class Item438
+		{
+			position[]={23495.471,90.360939,21157.863};
+			name="kenzy_car";
+			type="Empty";
+			angle=-481.28665;
+		};
+		class Item439
+		{
+			position[]={23485.822,92.904427,21106.662};
+			name="house_kenzy";
+			type="Empty";
+			angle=730.13416;
+		};
+		class Item440
+		{
+			position[]={23483.986,90.440002,21144.621};
+			name="kenzy_air";
+			type="Empty";
+			angle=-494.82874;
 		};
 	};
 	class Sensors
