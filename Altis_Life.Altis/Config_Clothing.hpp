@@ -283,7 +283,7 @@ class Clothing {
 			{ "U_OG_Guerilla2_1", "Tenue civil 1", 50, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_OG_Guerilla2_2", "Tenue civil 2", 50, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_C_GIGN", "Uniforme GIGN", 100, { "life_coplevel", "SCALAR", 4} },
-			{ "U_B_Wetsuit", "Tenue de plongée", 100, { "life_coplevel", "SCALAR", 5 } }
+			{ "U_B_Wetsuit", "Tenue de plongée", 100, { "life_coplevel", "SCALAR", 2 } }
 			
 		};
 

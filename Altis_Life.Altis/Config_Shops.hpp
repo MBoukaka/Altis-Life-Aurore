@@ -882,6 +882,8 @@ class WeaponShops {
 		{ "optic_Aco","",100 },
 		{ "optic_Hamr","",100 },
 		{ "optic_Holosight","",100 },
+		{ "G_Diving","",50 },
+		{ "V_RebreatherB","",500 },
 		{ "Binocular","",15 },
 		{ "ItemMap","",5 },
 		{ "ItemGPS","",10 },
