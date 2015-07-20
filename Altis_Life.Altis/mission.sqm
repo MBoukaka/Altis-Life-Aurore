@@ -14871,7 +14871,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Orel_NPC_Jukebox";
 			skill=0.60000002;
-			init="this enableSimulation false;  this allowDamage false; this addAction[""Menu DJ"",life_fnc_MacumbaMenu];";
+			init="this enableSimulation false;  this allowDamage false; this addAction[""Menu DJ"",life_fnc_MacumbaMenu,0,false,false,"""",' license_civ_macumba && playerSide == civilian'];";
 		};
 		class Item1031
 		{
