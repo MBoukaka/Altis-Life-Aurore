@@ -5,7 +5,7 @@
 	Description:
 	Un bouton par action.
 */
-if(!license_civ_colonna) exitwith {hint "T'es pas DJ !"};
+if(!license_civ_macumba) exitwith {hint "T'es pas DJ !"};
 
 #define Btn1 37450
 #define Btn2 37451
