@@ -233,6 +233,7 @@ class Life_Client_Core
 		class equipGear {};
 		class fadeSound {};
 		class playSound {};
+		class playLight {};
 		class calWeightDiff {};
 		class fetchCfgDetails {};
 		class handleInv {};
