@@ -62,6 +62,7 @@ SUB(_units,[player]);
 					case 5: {"\a3\ui_f\data\gui\cfg\Ranks\lieutenant_gs.paa"};
 					case 6: {"\a3\ui_f\data\gui\cfg\Ranks\captain_gs.paa"};
 					case 7: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
+					case 8: {"\a3\ui_f\data\gui\cfg\Ranks\colonel_gs.paa"};
 					default {"aurore_data2\icons\recrue.paa"};
 					},_x GVAR ["realname",name _x],switch ((_x GVAR "rank")) do {
 					case 2: {"[Brigadier 2C.]"}; 
@@ -70,6 +71,7 @@ SUB(_units,[player]);
 					case 5: {"[Lieutenant]"};
 					case 6: {"[Capitaine]"};
 					case 7: {"[Colonel]"};
+					case 8: {"[Gouverneur]"};
 					default {"[Recrue]"};
 					}]};
 					
