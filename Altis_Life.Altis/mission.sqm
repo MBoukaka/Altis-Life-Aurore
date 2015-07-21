@@ -16685,7 +16685,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=442;
+		items=443;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -20134,6 +20134,14 @@ class Mission
 			name="dw_air";
 			type="Empty";
 			angle=427.38599;
+		};
+		class Item442
+		{
+			position[]={23492.814,3.1900001,18412.119};
+			name="VEGAS";
+			text="Chantier =A= Vegas";
+			type="o_maint";
+			colorName="ColorGreen";
 		};
 	};
 	class Sensors
