@@ -110,8 +110,10 @@ switch (true) do {
 		[] spawn life_fnc_lockpick;
 	};
 	
-	case (EQUAL(_item,"resine","cannabis")): {
+	case (_item in ["resine","cannabis"]): {
+		if(([false,_item,1] call life_fnc_handleInv)) then {
 		[] spawn life_fnc_weed;
+		};
 	};
 
 	case (_item in ["apple","caviar","rabbitgrilled","salemagrilled","ornategrilled","mackerelgrilled","tunagrilled","mulletfried","catshark","turtle","turtlesoup","donut","tbacon","peach","cacahuete","burger","redwine","blanquette","frite","pizza","kebab"]): {
