@@ -110,11 +110,9 @@ switch (true) do {
 		[] spawn life_fnc_lockpick;
 	};
 	
-	case (_item == "marijuana","resine"):{
-    if(([false,_item,1] call life_fnc_handleInv)) then
-    {
-        [] spawn life_fnc_weed;
-    };
+	case (EQUAL(_item,"resine","cannabis")): {
+		[] spawn life_fnc_weed;
+	};
 
 	case (_item in ["apple","caviar","rabbitgrilled","salemagrilled","ornategrilled","mackerelgrilled","tunagrilled","mulletfried","catshark","turtle","turtlesoup","donut","tbacon","peach","cacahuete","burger","redwine","blanquette","frite","pizza","kebab"]): {
 		if(!(EQUAL(M_CONFIG(getNumber,"VirtualItems",_item,"edible"),-1))) then {
