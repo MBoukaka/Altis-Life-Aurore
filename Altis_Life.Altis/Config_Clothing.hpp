@@ -1327,4 +1327,73 @@ class Clothing {
 			{ "NONE", "Remove Backpack", 0, { "", "", -1 } }
 		};
 	};
+	
+	class kenzy {
+		title = "Vetement McKenzie";
+		license = "kenzy";
+		side = "civ";
+		
+		uniforms[] = {
+			{ "NONE", "Remove Uniform", 0, { "", "", -1 } },
+			{ "Niko_USA_Tiger", "", 500, { "", "", -1 } }
+	    };
+		
+		headgear[] = {
+			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
+			{ "H_ShemagOpen_tan", "", 200, { "", "", -1 } },
+			{ "H_Shemag_olive", "", 200, { "", "", -1 } },
+			{ "H_ShemagOpen_khk", "", 200, { "", "", -1 } },
+			{ "H_HelmetO_ocamo", "", 200, { "", "", -1 } },
+			{ "H_MilCap_oucamo", "", 200, { "", "", -1 } },
+			{ "H_HelmetSpecB", "Special McKenzie", 300, { "", "", -1 } },
+			{ "H_Bandanna_camo", "", 100, { "", "", -1 } }
+		};
+		
+		goggles[] = {
+			{ "NONE", "Remove Glasses", 0, { "", "", -1 } },
+			{ "G_Shades_Black", "", 25, { "", "", -1 } },
+			{ "G_Shades_Blue", "", 20, { "", "", -1 } },
+			{ "G_Sport_Blackred", "", 20, { "", "", -1 } },
+			{ "G_Sport_Checkered", "", 20, { "", "", -1 } },
+			{ "G_Sport_Blackyellow", "", 20, { "", "", -1 } },
+			{ "G_Sport_BlackWhite", "", 20, { "", "", -1 } },
+			{ "G_Squares", "", 10, { "", "", -1 } },
+			{ "G_Lowprofile", "", 30, { "", "", -1 } },
+			{ "G_Combat", "", 55, { "", "", -1 } },
+			{ "G_Balaclava_oli", "", 550, { "", "", -1 } },
+			{ "G_Balaclava_blk", "", 550, { "", "", -1 } },
+			{ "G_Balaclava_lowprofile", "", 550, { "", "", -1 } },
+			{ "G_Balaclava_combat", "", 550, { "", "", -1 } },
+			{ "IRA_Balaclava_Brown", "", 550, { "", "", -1 } },
+			{ "G_Bandanna_beast", "", 550, { "", "", -1 } },
+			{ "G_Bandanna_shades", "", 550, { "", "", -1 } }
+		};
+		
+		vests[] = {
+			{ "NONE", "Remove Vest", 0, { "", "", -1 } },
+			{ "V_PlateCarrier2_rgr", "", 150, { "", "", -1 } }
+		};
+		
+		backpacks[] = {
+			{ "NONE", "Remove Backpack", 0, { "", "", -1 } },
+			{ "B_mas_AssaultPack_black", "", 50, { "", "", -1 } },
+			{ "O_mas_Bergen_flo", "", 100, { "", "", -1 } },
+			{ "O_mas_Bergen_blk", "", 100, { "", "", -1 } },
+			{ "O_mas_Bergen_rtan", "", 100, { "", "", -1 } },
+			{ "B_mas_AssaultPack_wint", "", 100, { "", "", -1 } },
+			{ "B_mas_Bergen_rng", "", 100, { "", "", -1 } },
+			{ "B_mas_Kitbag_black", "", 100, { "", "", -1 } },
+			{ "B_AssaultPack_cbr", "", 100, { "", "", -1 } },
+			{ "B_Kitbag_mcamo", "", 100, { "", "", -1 } },
+			{ "B_TacticalPack_oli", "", 100, { "", "", -1 } },
+			{ "B_FieldPack_ocamo", "", 100, { "", "", -1 } },
+			{ "B_Bergen_sgg", "", 100, { "", "", -1 } },
+			{ "B_Kitbag_cbr", "", 100, { "", "", -1 } },
+			{ "B_Carryall_oli", "", 100, { "", "", -1 } },
+			{ "B_Carryall_khk", "", 100, { "", "", -1 } },
+			{ "B_mas_AssaultPack_mul", "", 100, { "", "", -1 } },
+			{ "B_mas_Kitbag_mul", "", 500, { "", "", -1 } },
+			{ "B_mas_Bergen_mul", "", 500, { "", "", -1 } }
+		};
+	};
 };
