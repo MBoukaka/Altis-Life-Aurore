@@ -131,6 +131,12 @@ switch (_side) do
 			];
 		};
 		
+		if(license_civ_neavys)then {
+			_return = _return + [
+				["neavys_spawn","NeavyS","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
+		
 		if(license_civ_goa)then {
 			_return = _return + [
 				["goa_spawn","Groupe GoA","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]

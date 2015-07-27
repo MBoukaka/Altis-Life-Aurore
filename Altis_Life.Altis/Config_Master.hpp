@@ -288,6 +288,7 @@ class Licenses {
 	LICENSEMACRO(dozen,"STR_License_dozen","dozen",750,false,"civ")
 	LICENSEMACRO(mikhailov,"STR_License_mikhailov","mikhailov",750,false,"civ")
 	LICENSEMACRO(kenzy,"STR_License_kenzy","kenzy",750,false,"civ")
+	LICENSEMACRO(neavys,"STR_License_neavys","neavys",750,false,"civ")
 	
 };
 

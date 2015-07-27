@@ -15,7 +15,6 @@ if(!(_this select 0)) exitWith {}; //Not server
 [] execVM "mapping\athiracop.sqf";
 [] execVM "mapping\agios.sqf";
 [] execVM "mapping\entreekavalacop.sqf";
-[] execVM "mapping\goabase.sqf";
 [] execVM "mapping\ateamlamp.sqf";
 [] execVM "mapping\fdckavala.sqf";
 [] execVM "mapping\bureaufal.sqf";
