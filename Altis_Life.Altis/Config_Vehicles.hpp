@@ -662,6 +662,9 @@ class CarShops {
 			{ "A3L_RX7_Blue", 20000, "restaurant" },
 			{ "A3L_RX7_Red", 20000, "restaurant" },
 			{ "A3L_RX7_White", 20000, "restaurant" },
+			{ "cl3_440cuda_black", 15000, "restaurant" },
+			{ "cl3_440cuda_green_Logo", 15000, "restaurant" },
+			{ "cl3_440cuda_yellow_stripe", 15000, "restaurant" },
 			{ "cl3_440cuda_flannery08", 15000, "restaurant" },
 			{ "cl3_440cuda_flannery12", 15000, "restaurant" },
 			{ "cl3_440cuda_flannery14", 15000, "restaurant" },
@@ -3056,6 +3059,7 @@ class CfgVehicles {
 	class cl3_440cuda_flannery70 : cl3_440cuda_flannery08 {};
 	class cl3_440cuda_green_Logo : cl3_440cuda_flannery08 {};
 	class cl3_440cuda_yellow_stripe : cl3_440cuda_flannery08 {};
+	class cl3_440cuda_black : cl3_440cuda_flannery08 {};
 	
 		
 //////////////////////////////////////////////////////////////////////////// REB SHOP
