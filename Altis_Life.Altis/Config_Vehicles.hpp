@@ -1009,7 +1009,10 @@ class CarShops {
 	class cop_ship {
 		side = "cop";
 		vehicles[] = {
-			{ "B_Boat_Transport_01_F", 3000, "coastguard" }
+			{ "B_Boat_Transport_01_F", 3000, "coastguard" },
+			{ "C_Boat_Civil_01_police_F", 3000, "coastguard" },
+			{ "I_CBS_WaterShadow730_F", 500, "coastguard", { "life_coplevel", 1 } },
+			{ "B_SDV_01_F", 5600, "coastguard", { "life_coplevel", 1 } }
 		};
 	};
 
@@ -3199,6 +3202,9 @@ class CfgVehicles {
         chopShop = 500;
         textures[] = { };
     };
+	
+	class C_Boat_Civil_01_police_F : C_Boat_Civil_01_F {};
+	class B_SDV_01_F : C_Boat_Civil_01_F {};
 	
 	class I_CBS_WaterShadow730_F {
         vItemSpace = 30;
