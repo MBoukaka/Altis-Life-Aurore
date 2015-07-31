@@ -72,7 +72,8 @@ switch (_side) do
 		if(license_civ_ateam) then {
 			_return = _return + [
 				["a_spawn_1","Kavala Tourisme","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-				["a_spawn_2","Aeroport Tourisme","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["a_spawn_2","Aeroport Tourisme","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["spawn_vegas","=A= VEGAS","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
@@ -175,7 +176,8 @@ switch (_side) do
 		
 		if(license_civ_restaurant)then {
 			_return = _return + [
-				["macumba_spawn_1","L'hexagone","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+				["macumba_spawn_1","L'hexagone","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+				["spawn_hexav","Hexagone Vegas","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 
@@ -260,7 +262,8 @@ switch (_side) do
 		_return = [
 			["medic_spawn_1","Kavala Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
 			["medic_spawn_2","Athira Regional","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
-			["medic_spawn_3","Pygros Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
+			["medic_spawn_3","Pygros Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["spawn_vegasm","Sofia Hospital","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
 };
