@@ -20324,10 +20324,10 @@ class Mission
 		};
 		class Item445
 		{
-			position[]={23589.117,3.1900001,18330.682};
+			position[]={23572.359,3.1900001,18331.42};
 			name="spawn_vegasm";
 			type="Empty";
-			angle=85.870384;
+			angle=1.6949751;
 		};
 		class Item446
 		{
