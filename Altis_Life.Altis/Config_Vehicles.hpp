@@ -804,7 +804,7 @@ class CarShops {
 			{ "Aurore_rev_gdm1", 20500, "", { "life_coplevel", 4 } },
 			{ "cl3_escalade_patrolbw", 12500, "", { "life_coplevel", 4 } },
 			{ "cl3_escalade_patrolwb", 12500, "", { "life_coplevel", 4 } },
-			{ "cl3_dodge_charger_k9", 10000, "", { "life_coplevel", 4},
+			{ "cl3_dodge_charger_k9", 10000, "", { "life_coplevel", 4} },
 			{ "B_MRAP_01_F", 20000, "", { "life_coplevel", 4 } },
 			{ "Aurore_q7_gdm", 12000, "", { "life_coplevel", 5 } },
 			{ "B_MRAP_01_hmg_F", 50000, "", { "life_coplevel", 5 } },
