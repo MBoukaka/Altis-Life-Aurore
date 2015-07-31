@@ -17453,7 +17453,7 @@ class Mission
 		};
 		class Item95
 		{
-			position[]={3153.9922,-0.00068375317,12869.796};
+			position[]={3150.1335,0.0053954329,12867.178};
 			name="cop_ship_1";
 			type="Empty";
 			angle=301.50674;
@@ -19641,7 +19641,7 @@ class Mission
 		};
 		class Item371
 		{
-			position[]={14380.506,16.721146,18084.779};
+			position[]={14381.088,16.703033,18082.762};
 			name="cop_car_2";
 			type="Empty";
 			angle=159.01826;

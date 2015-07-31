@@ -712,6 +712,8 @@ class WeaponShops {
 			{ "20Rnd_mas_762x51_Stanag","Munitions FN Fal",40 },
 			{ "arifle_mas_bizon","Bizon",900 },
 			{ "64Rnd_mas_9x18_mag","Munitions Bizon",20 },
+			{ "srifle_DMR_02_camo_AMS_LP_F", "MAR-10 AMS Laser", 6000 },
+			{ "10Rnd_338_Mag", "Munitions MAR-10", 10 },
 			{ "optic_ACO_grn_smg","",75 },
 			{ "optic_MRCO","",100 },
 			{ "optic_NVS","",200 },
