@@ -994,7 +994,7 @@ class CarShops {
 			{ "ivory_b206_police", 15000, "cAir", { "life_coplevel", 1 } },
 			{ "B_UAV_01_F", 1000, "cAir", { "life_coplevel", 5 } },
 			{ "O_Heli_Light_02_unarmed_F", 20000, "cAir", { "life_coplevel", 3 } },
-			{ "B_Heli_Transport_01_F", 50000, "cAir", { "life_coplevel", 4 } }
+			{ "B_Heli_Transport_01_F", 50000, "cAir", { "life_coplevel", 5 } }
 		};
 	};
 
