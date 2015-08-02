@@ -589,6 +589,7 @@ class CarShops {
 		vehicles[] = {
 			{ "Med_Offroad", 975, "" },
 			{ "clpd_mondeo_FireDepartment", 6000, "" },
+			{ "clpd_mondeo_Paramedic", 6000, "" },
 			{ "cl3_escalade_fd", 6500, "" },
 			{ "cl3_escalade_pm", 6600, "" },
 			{ "A3L_AmberLamps", 14000, "" }
@@ -598,8 +599,9 @@ class CarShops {
 	class med_air_hs {
 		side = "med";
 		vehicles[] = {
-			{ "B_Heli_Light_01_F", 10000, "mAir" },
-			{ "O_Heli_Light_02_unarmed_F", 20000, "mAir" }
+			{ "cl3_emt_mh9_sport", 10000, "mAir" },
+			{ "cl3_Orca_EMTFD", 20000, "mAir" },
+			{ "cl3_Orca_EMTPM", 20000, "mAir" }
 		};
 	};
 
@@ -997,6 +999,7 @@ class CarShops {
 			{ "ivory_b206_police", 15000, "cAir", { "life_coplevel", 1 } },
 			{ "B_UAV_01_F", 1000, "cAir", { "life_coplevel", 5 } },
 			{ "O_Heli_Light_02_unarmed_F", 20000, "cAir", { "life_coplevel", 3 } },
+			{ "CL3_Hellcat_unarmed_PDASU", 40000, "cAir", { "life_coplevel", 6 } },
 			{ "B_Heli_Transport_01_F", 50000, "cAir", { "life_coplevel", 5 } }
 		};
 	};
@@ -1005,7 +1008,7 @@ class CarShops {
 		side = "cop";
 		vehicles[] = {
 			{ "B_Heli_Light_01_F", 10000, "cAir", { "life_coplevel", 1 } },
-			{ "B_Heli_Transport_01_F", 50000, "cAir", { "life_coplevel", 4 } }
+			{ "B_Heli_Transport_01_F", 50000, "cAir", { "life_coplevel", 5 } }
 		};
 	};
 
@@ -2763,6 +2766,8 @@ class CfgVehicles {
         chopShop = 650;
         textures[] = { };
     };
+	class clpd_mondeo_Paramedic : clpd_mondeo_FireDepartment {};
+	
 	class cl3_escalade_fd {
         vItemSpace = 65;
         storageFee[] = { 0, 0, 75, 0 };
@@ -3439,6 +3444,7 @@ class CfgVehicles {
     };
 
 	class C_Heli_Light_01_civil_F : B_Heli_Light_01_F {};
+	class cl3_emt_mh9_sport : B_Heli_Light_01_F {};
 		
 	class O_Heli_Light_02_unarmed_F {
         vItemSpace = 75;
@@ -3470,6 +3476,8 @@ class CfgVehicles {
             } }
         };
     };
+	class cl3_Orca_EMTFD : O_Heli_Light_02_unarmed_F {};
+	class cl3_Orca_EMTPM : O_Heli_Light_02_unarmed_F {};
 	
 	class cl3_Orca_Club7 {
         vItemSpace = 55;
