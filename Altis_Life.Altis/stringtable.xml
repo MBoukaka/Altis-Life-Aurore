@@ -4200,6 +4200,10 @@
 			<Italian>You can now run farther for 3 minutes</Italian>
 			<Portuguese>You can now run farther for 3 minutes</Portuguese>
 		</Key>
+		<Key ID="STR_ISTR_cocaine">
+			<Original>T'en a trop pris gros ! Tu peux te défouler en courrant pendant 5 minutes !</Original>
+			<French>T'en a trop pris gros ! Tu peux te défouler en courrant pendant 5 minutes !</French>
+		</Key>
 		<Key ID="STR_ISTR_SpikesDeployment">
 			<Original>You already have a Spike Strip active in deployment</Original>
 			<German>Du stellst bereits ein Nagelband auf</German>

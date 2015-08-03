@@ -29,6 +29,21 @@ switch (true) do {
 	};
 	
 	case (EQUAL(_item,"boltcutter")): {
+		if(([false,_item,1] call life_fnc_handleInv)) then {
+			if(EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)) then {player setFatigue 0;};
+			if(EQUAL(_item,"redgull") && {EQUAL(LIFE_SETTINGS(getNumber,"enable_fatigue"),1)}) then {
+				[] spawn {
+					life_redgull_effect = time;
+					titleText[localize "STR_ISTR_cocaine","PLAIN"];
+					player enableFatigue false;
+					waitUntil {!alive player OR ((time - life_redgull_effect) > (5 * 60))};
+					player enableFatigue true;
+				};
+			};
+		};
+	};
+	
+	case (EQUAL(_item,"boltcutter")): {
 		[cursorTarget] spawn life_fnc_boltcutter;
 		closeDialog 0;
 	};
