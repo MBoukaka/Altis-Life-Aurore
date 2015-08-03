@@ -125,7 +125,7 @@ switch (true) do {
 		[] spawn life_fnc_lockpick;
 	};
 	
-	case (_item in ["resine","cannabis"]): {
+	case (_item in ["resine","marijuana"]): {
 		if(([false,_item,1] call life_fnc_handleInv)) then {
 		[] spawn life_fnc_weed;
 		};

@@ -7,6 +7,13 @@ sleep 3;
 "radialBlur" ppEffectEnable true;
 enableCamShake true;
 
+_smoke = "SmokeShell" createVehicle position player;
+if (vehicle player != player) then {
+    _smoke attachTo [vehicle player, [-0.6,-1,0]];
+} else {
+    _smoke attachTo [player, [0,-0.1,1.5]];
+};
+
 for "_i" from 0 to 44 do // 45 secondes d'effets
 {
     "chromAberration" ppEffectAdjust [random 0.25,random 0.25,true];
@@ -26,10 +33,3 @@ sleep 6;
 "chromAberration" ppEffectEnable false;
 "radialBlur" ppEffectEnable false;
 resetCamShake;
-
-_smoke = "SmokeShell" createVehicle position player;
-if (vehicle player != player) then {
-    _smoke attachTo [vehicle player, [-0.6,-1,0]];
-} else {
-    _smoke attachTo [player, [0,-0.1,1.5]];
-};
