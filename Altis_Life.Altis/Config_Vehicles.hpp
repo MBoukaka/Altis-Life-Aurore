@@ -999,7 +999,7 @@ class CarShops {
 			{ "ivory_b206_police", 15000, "cAir", { "life_coplevel", 1 } },
 			{ "B_UAV_01_F", 1000, "cAir", { "life_coplevel", 5 } },
 			{ "O_Heli_Light_02_unarmed_F", 20000, "cAir", { "life_coplevel", 3 } },
-			{ "CL3_Hellcat_unarmed_PDASU", 40000, "cAir", { "life_coplevel", 6 } },
+			{ "I_Heli_light_03_unarmed_F", 40000, "cAir", { "life_coplevel", 6 } },
 			{ "B_Heli_Transport_01_F", 50000, "cAir", { "life_coplevel", 5 } }
 		};
 	};
@@ -3478,6 +3478,15 @@ class CfgVehicles {
     };
 	class cl3_Orca_EMTFD : O_Heli_Light_02_unarmed_F {};
 	class cl3_Orca_EMTPM : O_Heli_Light_02_unarmed_F {};
+	
+	class I_Heli_light_03_unarmed_F {
+        vItemSpace = 80;
+        storageFee[] = { 0, 1000, 0, 0 };
+		garageSell[] = { 0, 22500, 0, 0 };
+        insurance = 30000;
+        chopShop = 9800;
+        textures[] = {};
+	};
 	
 	class cl3_Orca_Club7 {
         vItemSpace = 55;
