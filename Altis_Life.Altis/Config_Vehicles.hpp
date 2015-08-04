@@ -601,7 +601,8 @@ class CarShops {
 		vehicles[] = {
 			{ "cl3_emt_mh9_sport", 10000, "mAir" },
 			{ "cl3_Orca_EMTFD", 20000, "mAir" },
-			{ "cl3_Orca_EMTPM", 20000, "mAir" }
+			{ "cl3_Orca_EMTPM", 20000, "mAir" },
+			{ "ivory_b206_rescue", 12000, "mAir" }
 		};
 	};
 
@@ -3478,6 +3479,7 @@ class CfgVehicles {
     };
 	class cl3_Orca_EMTFD : O_Heli_Light_02_unarmed_F {};
 	class cl3_Orca_EMTPM : O_Heli_Light_02_unarmed_F {};
+	class ivory_b206_rescue : O_Heli_Light_02_unarmed_F {};
 	
 	class I_Heli_light_03_unarmed_F {
         vItemSpace = 80;
