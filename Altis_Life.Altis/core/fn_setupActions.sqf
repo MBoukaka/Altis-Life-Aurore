@@ -28,6 +28,14 @@ switch (playerSide) do
 		
 		//Call backup
 		life_actions pushBack (player addAction["<t color='#ADFF2F'>Demande de renforts</t>",life_fnc_callbackup,"",0,FALSE,FALSE,""]);
+		
+		//GagKit Player
+		life_actions = [player addAction["<t color='#800000'>Activer Brouilleur</t>",life_fnc_gagAction,"",0,false,false,"",'
+		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && !(cursorTarget GVAR["gagged",FALSE]) && life_inv_gagkit > 0']];
+
+        //Remove Gag from player.
+		life_actions = [player addAction["<t color='#800000'>Retirer Brouilleur</t>",life_fnc_removeGagAction,"",0,false,false,"",'
+		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && (cursorTarget GVAR["gagged",FALSE])']];
 	};
 	
 	case civilian:
@@ -79,6 +87,14 @@ switch (playerSide) do
 				//Service Truck_Impound Car
 				life_actions = life_actions + [player addAction["<t color='#0000FF'>Mettre le vehicule en fourriere</t>",life_fnc_dep_impound,"",0,false,false,"",' (typeOf (vehicle player) == "Dep_Offroad") && ((vehicle player animationPhase "HideServices") == 0) && license_civ_dep && ((vehicle player) in life_vehicles) && (speed vehicle player) < 1 ']];
 				/////////////////////////////////////////////////////////////////////////
+				
+				 //GagKit Player
+				life_actions = [player addAction["<t color='#800000'>Activer Brouilleur</t>",life_fnc_gagAction,"",0,false,false,"",'
+				!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && !(cursorTarget GVAR["gagged",FALSE]) && life_inv_gagkit > 0']];
+
+				//Remove Gag from player.
+				life_actions = [player addAction["<t color='#800000'>Retirer Brouilleur</t>",life_fnc_removeGagAction,"",0,false,false,"",'
+				!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && (cursorTarget GVAR["gagged",FALSE])']];
 				
 				// Prendre cone depanneur
 				life_actions = life_actions + [player addAction["Prendre cone",life_fnc_packupcone,"",0,false,false,"",' _double = nearestObjects[getPos player,["RoadCone_F"],8] select 0; license_civ_dep && !isNil "_cone" && !isNil {(_cone getVariable "item")}']];

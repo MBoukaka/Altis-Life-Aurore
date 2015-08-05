@@ -152,6 +152,7 @@ class VirtualItems {
 	VITEMMACRO(billet, "STR_Item_billet", "billet", 2, -1, 268, true, -1, "icons\ico_fbillet.paa")
 	VITEMMACRO(rye, "STR_Item_rye", "rye", 3, -1, 0, false, -1, "")
 	VITEMMACRO(hops, "STR_Item_hops", "hops", 3, -1, 0, false, -1, "")
+	VITEMMACRO(gagkit, "STR_Item_GagKit", "gagkit", 1, 750, -1, false, -1, "")
 
 	//Drugs
 	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, 149, true, -1, "")
@@ -305,7 +306,7 @@ class VirtualShops {
 
 	class rebmarket {
 		name = "STR_Shops_Rebel";
-		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "kebab" };
+		items[] = { "menotte","waterBottle", "rabbit_grilled", "apple", "redgull", "tbacon", "lockpick", "pickaxe", "fuelFull", "peach", "boltcutter", "kebab", "gagkit" };
 	};
 	
 	class pute {
@@ -420,7 +421,7 @@ class VirtualShops {
 
 	class cop {
 		name = "STR_Shops_Cop";
-		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "apple", "redgull", "fuelFull", "defusekit" };
+		items[] = { "pan1","double","mauer","gpstracker","donut", "coffee", "spikeStrip", "waterBottle", "apple", "redgull", "fuelFull", "defusekit", "gagkit" };
 	};
 	
 	class pca {

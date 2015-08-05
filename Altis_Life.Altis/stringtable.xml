@@ -4204,6 +4204,10 @@
 			<Original>T'en a trop pris gros ! Tu peux te défouler en courrant pendant 5 minutes !</Original>
 			<French>T'en a trop pris gros ! Tu peux te défouler en courrant pendant 5 minutes !</French>
 		</Key>
+		<Key ID="STR_Item_GagKit">
+			<Original>Brouilleur</Original>
+			<French>Brouilleur</French>
+		</Key>
 		<Key ID="STR_ISTR_SpikesDeployment">
 			<Original>You already have a Spike Strip active in deployment</Original>
 			<German>Du stellst bereits ein Nagelband auf</German>

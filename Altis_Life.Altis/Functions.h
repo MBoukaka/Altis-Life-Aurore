@@ -163,6 +163,9 @@ class Life_Client_Core
 		class rebdemission {};
 		class banditdemission {};
 		class suicideBomb {};
+		class gagAction {};
+		class gagged {};
+		class removeGagAction {};
 	};
 	
 	class Housing
