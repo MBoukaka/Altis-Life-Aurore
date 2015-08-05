@@ -189,6 +189,10 @@ switch (true) do {
 		[] spawn life_fnc_pickAxeUse;
 	};
 	
+	case (EQUAL(_item,"speedbomb")): {
+    	[] spawn life_fnc_speedBomb;
+    	};
+	
 	default {
 		hint localize "STR_ISTR_NotUsable";
 	};

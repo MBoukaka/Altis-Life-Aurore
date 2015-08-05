@@ -42,6 +42,10 @@
 			<Original>Tortue</Original>
 			<French>Tortue</French>
 		</Key>
+		<Key ID="STR_Item_speedbomb">
+			<Original>Bombe C4</Original>
+			<French>Bombe C4</French>
+		</Key>
 		<Key ID="STR_Item_tea">
 			<Original>Thé Noir</Original>
 			<French>Thé Noir</French>

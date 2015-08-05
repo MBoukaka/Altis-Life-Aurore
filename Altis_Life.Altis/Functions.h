@@ -428,6 +428,7 @@ class Life_Client_Core
 		class drinkmoonshine {};
 		class drinkwhiskey {};
 		class weed {};
+		class speedBomb {};
 	};
 	
 	class Dialog_Controls

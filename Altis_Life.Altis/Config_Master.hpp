@@ -153,6 +153,7 @@ class VirtualItems {
 	VITEMMACRO(rye, "STR_Item_rye", "rye", 3, -1, 0, false, -1, "")
 	VITEMMACRO(hops, "STR_Item_hops", "hops", 3, -1, 0, false, -1, "")
 	VITEMMACRO(gagkit, "STR_Item_GagKit", "gagkit", 1, 750, -1, false, -1, "")
+	VITEMMACRO(speedbomb, "STR_Item_speedbomb", "speedbomb", 4, 100000, -1, false, -1, "")
 
 	//Drugs
 	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, 149, true, -1, "")
@@ -353,7 +354,7 @@ class VirtualShops {
 		name = "STR_Shops_barman";
 		items[] = { "bottledbeer", "bottledwhiskey", "bottledshine" };
 	};
-	
+
 	class barlegal {
 		name = "STR_Shops_barlegal";
 		items[] = { "bottledbeer", "bottledwhiskey" };
@@ -376,7 +377,7 @@ class VirtualShops {
 
 	class restau {
 		name = "STR_Shops_restau";
-		items[] = { "waterBottle", "cacahuete", "redgull", "tbacon", "burger", "blanquette", "redwine", "frite", "coca", "pizza", "kebab" };
+		items[] = { "waterBottle", "cacahuete", "redgull", "tbacon", "burger", "blanquette", "redwine", "frite", "coca", "pizza", "kebab", "coffee" };
 	};
 	
 	class oil {
