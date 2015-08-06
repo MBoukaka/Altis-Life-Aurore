@@ -11,6 +11,7 @@ _vehicle = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 if(isNull _vehicle OR !(_vehicle isKindOf "Car" OR _vehicle isKindOf "Air" OR _vehicle isKindOf "Ship" OR _vehicle isKindOf "House_F")) exitWith {}; //Either a null or invalid vehicle type.
 
 hint "Ouverture...";
+[[player, "coffre",15],"life_fnc_playSound",true,false] spawn life_fnc_MP;
 _wait = round(random(5));
 sleep _wait;
 

@@ -103,7 +103,13 @@ class CfgSounds
         name = "bombarm";
         sound[] = {"\sounds\bombarm.ogg", 1.0, 1};
         titles[] = {};
-    }; 
+    };
+	class coffre
+    {
+        name = "coffre";
+        sound[] = {"\sounds\coffre.ogg", 1.0, 1};
+        titles[] = {};
+    };
 };
 
 class CfgDebriefing
