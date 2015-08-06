@@ -335,6 +335,8 @@ class Life_Client_Core
 		class copMarkers {};
 		class copEnter {};
 		class copLights {};
+		class copShowLicense {};
+		class copLicenseShown {};
 		class vehInvSearch {};
 		class copSearch {};
 		class bountyReceive {};
