@@ -25,8 +25,8 @@ _message = format["<img size='10' color='#FFFFFF' image='%1'/><br/><br/><t size=
 					case 5: {"icons\insigne.paa"};
 					case 6: {"icons\insigne.paa"};
 					case 7: {"icons\insigne.paa"};
-					case 8: {"icons\jesus.paa"};
-					case 9: {"icons\ign.paa"};
+					case 8: {"icons\Gouverneur.paa"};
+					case 9: {"icons\IGGN.paa"};
 					default {"icons\insigne.paa"};}, _x GVAR ["realname",name _x], switch ((_x GVAR "rank")) do {
 					case 2: {"Brigadier 2C."}; 
 					case 3: {"Brigadier 1C."};
