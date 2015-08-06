@@ -98,6 +98,9 @@ switch (playerSide) do
 				life_actions = [player addAction["<t color='#800000'>Retirer Brouilleur</t>",life_fnc_removeGagAction,"",0,false,false,"",'
 				!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && (cursorTarget getVariable["restrained",FALSE]) && (cursorTarget GVAR["gagged",FALSE])']];
 				
+				//Présenter le Passeport by Heimdall@AltisAurore.fr tous droits réservés
+				life_actions = life_actions + [player addAction["<t color='#00FF00'>Présenter le passeport</t>",life_fnc_ccivShowLicense,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" ']];
+				
 				// Prendre cone depanneur
 				life_actions = life_actions + [player addAction["Prendre cone",life_fnc_packupcone,"",0,false,false,"",' _double = nearestObjects[getPos player,["RoadCone_F"],8] select 0; license_civ_dep && !isNil "_cone" && !isNil {(_cone getVariable "item")}']];
 
