@@ -10783,7 +10783,7 @@ class Mission
 		};
 		class Item633
 		{
-			position[]={20726.584,4.8722925,20363.684};
+			position[]={22577.801,13.217183,16400.387};
 			azimut=395.70767;
 			id=841;
 			side="EMPTY";
@@ -10934,7 +10934,7 @@ class Mission
 		};
 		class Item648
 		{
-			position[]={21117.596,32.794872,17059.754};
+			position[]={19317.479,21.207151,16547.148};
 			azimut=-208.96692;
 			id=856;
 			side="EMPTY";
@@ -17413,7 +17413,7 @@ class Mission
 		};
 		class Item74
 		{
-			position[]={20726.631,4.8699512,20363.719};
+			position[]={22577.848,13.217232,16400.422};
 			name="dimond_1";
 			text="Traitement de diamand";
 			type="mil_triangle";
@@ -17700,7 +17700,7 @@ class Mission
 		};
 		class Item111
 		{
-			position[]={21117.619,32.79253,17059.732};
+			position[]={19317.502,21.206612,16547.127};
 			name="oil_trader_2";
 			text="Vendeur de diamand";
 			type="b_unknown";
