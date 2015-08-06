@@ -22,7 +22,7 @@ _unit setVariable["gagged",true,true];
 [[player],"life_fnc_gagged",_unit,false] spawn life_fnc_MP;
 
 //Hint the player thats gagging the person that they have gagged the name of the unit.
-hint format["You have gagged %1.", _unit getVariable["realname",_unit]];
+hint format["Tu as brouille les communications de %1.", _unit getVariable["realname",_unit]];
 
 //Remove the gagkit from the player
 life_inv_gagkit = life_inv_gagkit - 1;

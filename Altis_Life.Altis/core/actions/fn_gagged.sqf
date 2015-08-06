@@ -6,12 +6,12 @@
 	Description:
 	What happens to the player when gagged.
 */
-private["_gagger"]
+private["_gagger"];
 
 _gagger = param[0,ObjNull,[ObjNull]];
 
-hint format["You have been gagged by %1.", _gagger getVariable["realname",_gagger]];
-titleText ["You have been gagged you cannot speak!", "PLAIN"];
+hint format["Un brouilleur a été activé par %1.", _gagger getVariable["realname",_gagger]];
+titleText ["Un brouilleur a été activé !", "PLAIN"];
 
 5 enableChannel false;
 //Disable Group Chat
@@ -22,8 +22,8 @@ titleText ["You have been gagged you cannot speak!", "PLAIN"];
 7 enableChannel false;
 
 waitUntil{!(player getVariable ["gagged",false]) OR !(player getVariable ["restrained",false])};
-hint "You are not gagged anymore you can speak now!";
-titleText ["You have been ungagged!", "PLAIN"];
+hint "Le brouilleur a été désactive !!";
+titleText ["Le brouilleur a été désactive !!", "PLAIN"];
 5 enableChannel true;
 3 enableChannel true;
 4 enableChannel true;
