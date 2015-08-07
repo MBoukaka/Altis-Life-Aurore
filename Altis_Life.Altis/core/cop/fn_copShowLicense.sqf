@@ -8,7 +8,7 @@ _target = cursorTarget;
 
 if(playerSide != west) exitWith
 {
-	hint "Du bist kein Cop!";
+	hint "Tu n'es pas un flic !";
 };
 
 if( isNull _target) then {_target = player;};
