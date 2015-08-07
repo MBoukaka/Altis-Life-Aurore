@@ -813,6 +813,8 @@ class CarShops {
 			{ "B_MRAP_01_hmg_F", 50000, "", { "life_coplevel", 5 } },
 			{ "Orel_Dingo", 20000, "", { "life_coplevel", 5 } },
 			{ "I_MRAP_03_F", 20000, "", { "life_coplevel", 5 } }
+			{ "cl3_transit_black", 10500, "", { "life_coplevel", 8 } }
+			{ "cl3_e60_m5_black", 12000, "", { "life_coplevel", 8 } }
 			
 		};
 	};
