@@ -1145,7 +1145,9 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-        { "cl3_camcorder", "Camera", 100 },
+        	{ "cl3_camcorder", "Camera", 100 },
+        	{ "flashlight","Lampe Torche", 100 },
+        	{ "ItemRadio","Carte SIM",50 },
 		{ "ItemMap","Carte",5 },
 		{ "ItemGPS","GPS",10 },
 		{ "ToolKit","Boite a outils",25 },
