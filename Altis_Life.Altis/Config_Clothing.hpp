@@ -284,6 +284,8 @@ class Clothing {
 			{ "U_OG_Guerilla2_2", "Tenue civil 2", 50, { "life_coplevel", "SCALAR", 3 } },
 			{ "U_C_GIGN", "Uniforme GIGN", 100, { "life_coplevel", "SCALAR", 4} },
 			{ "U_B_Wetsuit", "Tenue de plongée", 100, { "life_coplevel", "SCALAR", 2 } }
+			{ "U_NikosAgedBody", "Costume", 100, { "life_coplevel", "SCALAR", 8 } }
+			{ "U_NikosBody", "Chieur", 100, { "life_coplevel", "SCALAR", 8 } }
 			
 		};
 
@@ -294,6 +296,8 @@ class Clothing {
 			{ "H_MilCap_mcamo", "", 70, { "life_coplevel", "SCALAR", 3 } },
 			{ "H_RacingHelmet_1_blue_F", "Casque Moto", 200, { "life_coplevel", "SCALAR", 2 } },
 			{ "H_Orel_Swat", "Casque du GIGN", 100, { "life_coplevel", "SCALAR", 4 } }
+			{ "H_Hat_brown", "Chapeau Marron", 100, { "life_coplevel", "SCALAR", 8 } }
+			{ "H_Hat_grey", "Chapeau Gris", 100, { "life_coplevel", "SCALAR", 8 } }
 		};
 
 		goggles[] = {
@@ -319,6 +323,7 @@ class Clothing {
 			{ "GDM_Vest_Vert", "", 20, { "", "", -1 } },
 			{ "V_TacVest_GIGN", "Veste du GIGN", 100, { "life_coplevel", "SCALAR", 3 } },
 			{ "V_PlateCarrier1_blk", "Benji Balistique", 130, { "life_coplevel", "SCALAR", 4 } }
+			{ "demian2435_police_vest", "IGGN", 100, { "life_coplevel", "SCALAR", 8 } }
 			
 		};
 
@@ -1210,11 +1215,14 @@ class Clothing {
 			{ "U_B_CTRG_1", "Le Tonton", 400, { "", "", -1 } },
 			{ "U_B_CTRG_2", "Le Mickael", 400, { "", "", -1 } },
 			{ "U_B_CTRG_3", "Le Mboukaka", 400, { "", "", -1 } }
+			{ "U_NikosAgedBody", "Costume", 150, { "", "", -1 } }
 			};
 		
 		headgear[] = {
 			{ "NONE", "Remove Hat", 0, { "", "", -1 } },
 			{ "H_Beret_blk", "Beret Paysans", 200, { "", "", -1 } }
+			{ "H_Hat_brown", "Chapeau Marron", 150, { "", "", -1 } }
+			{ "H_Hat_grey", "Chapeau Gris", 150, { "", "", -1 } }
 		};
 		
 		goggles[] = {
